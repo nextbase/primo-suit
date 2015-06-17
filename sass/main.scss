@@ -8,6 +8,7 @@
 
 // Functions
 @import 'functions/prefixer';
+@import 'functions/resets';
 @import 'functions/font-feature-settings';
 
 // Base Styles
@@ -20,3 +21,4 @@
 // Website Elements
 @import 'elements/header';
 @import 'elements/navigation';
+@import 'elements/exlid_home_container';

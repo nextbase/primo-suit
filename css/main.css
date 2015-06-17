@@ -8,7 +8,7 @@ html {
 
 #contentEXL,
 .EXLCustomLayoutContainer {
-  max-width: 1200px;
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto; }
   #contentEXL::after,
@@ -82,3 +82,222 @@ h6 {
   font-size: 12px;
   line-height: 1.25;
   margin: 0 0 12px; }
+
+#exlidHomeContainer {
+  margin: 0;
+  padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1.5;
+  margin-top: auto;
+  clear: auto;
+  font-size: 16px;
+  color: #333333; }
+  #exlidHomeContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px; }
+
+#exlidHomeContainer h1 {
+  font-size: 100%;
+  color: #f47c30; }
+
+#exlidHomeContainer h2 {
+  font-size: 100%;
+  color: #f47c30; }
+
+#exlidHomeContainer h3 {
+  font-size: 100%;
+  color: #4a4d51; }
+
+#exlidHomeContainer h4 {
+  font-size: 100%;
+  color: #f47c30; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1:last-child {
+    margin-right: 0; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
+  width: 100%; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p a {
+  display: block;
+  line-height: 170%; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+  margin-top: 1em;
+  background-image: url(../images/home_main_visual.jpg);
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  width: 35em;
+  float: left;
+  padding-top: 9em;
+  padding-left: 0.5em; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer ul {
+  list-style: none; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer li {
+  line-height: 140%; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
+  float: left; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
+  float: left;
+  margin-left: 5em; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2:last-child {
+    margin-right: 0; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeNewsContainer ul {
+  list-style: none; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeNewsContainer li {
+  background-image: url(../images/bullet_arrow_orange.png);
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  text-indent: 1em;
+  line-height: 150%; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
+  margin-top: 1em; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer p a {
+  display: block;
+  line-height: 100%;
+  margin-bottom: 0.5em; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
+  width: auto;
+  float: left; }
+
+#exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4 {
+  width: auto;
+  float: left;
+  margin-left: 2em; }
+
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+  color: #777676; }
+
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 {
+  border: 1px solid #cfcfcf;
+  width: 220px;
+  height: 92px;
+  float: left;
+  background-image: url(../images/bg_strip_home_banners.png);
+  background-repeat: repeat-x; }
+
+#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 {
+  border: 1px solid #cfcfcf;
+  width: 220px;
+  height: 92px;
+  float: left;
+  margin-left: 1em;
+  background-image: url(../images/bg_banner_home_tour.png);
+  background-repeat: no-repeat; }
+
+#exlidHomeContainer div.EXLContentBlock3 h4 {
+  padding-left: 0.3em;
+  padding-top: 0.2em; }
+
+#exlidHomeContainer div.EXLContentBlock3 p {
+  padding-left: 0.3em;
+  line-height: 120%; }
+
+#exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
+  color: #777676; }
+
+#exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
+  border: 1px solid #cfcfcf;
+  width: 220px;
+  height: 92px;
+  float: left;
+  background-image: url(../images/bg_banner_home_iPhone.png);
+  background-repeat: no-repeat; }
+
+#exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 {
+  border: 1px solid #cfcfcf;
+  width: 220px;
+  height: 92px;
+  float: left;
+  margin-left: 1em;
+  background-image: url(../images/bg_banner_home_twitter.png);
+  background-repeat: no-repeat; }
+
+#exlidHomeContainer div.EXLContentBlock4 h4 {
+  padding-left: 0.4em;
+  padding-top: 0.2em; }
+
+#exlidHomeContainer div.EXLContentBlock4 p {
+  padding-left: 0.4em;
+  line-height: 120%;
+  margin-right: 5.5em; }
+
+@media screen and (max-width: 768px) {
+  #exlidHomeContainer {
+    width: auto;
+    height: auto;
+    margin: 0em;
+    padding-top: 1.5em;
+    clear: right;
+    font-size: 80%;
+    color: #777676; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
+    width: auto;
+    float: none;
+    padding-left: 1em; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
+    width: auto; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+    margin-top: 1em;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    width: auto;
+    float: left;
+    padding-top: 1em;
+    padding-left: 0em; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
+    display: none; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
+    float: none;
+    margin: 0em;
+    width: auto; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
+    width: auto; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
+    display: none; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
+    display: none; }
+  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+    display: none; }
+  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
+    display: none; } }
