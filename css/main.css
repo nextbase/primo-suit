@@ -6,6 +6,17 @@ html {
 *::before {
   box-sizing: inherit; }
 
+#contentEXL,
+.EXLCustomLayoutContainer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #contentEXL::after,
+  .EXLCustomLayoutContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
