@@ -1,8 +1,10 @@
-@import "bourbon/bourbon";
-@import "neat/neat";
-
 // Variables
 @import 'variables/colors';
+
+// Neat & Bourbon
+@import "bourbon/bourbon";
+@import 'variables/grid-settings';
+@import "neat/neat";
 
 // Functions
 @import 'functions/prefixer';
