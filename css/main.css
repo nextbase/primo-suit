@@ -1,23 +1,31 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: lighter;
-  src: url('../fonts/NotoSans-Light.eot');
-  src: local('Noto Sans CJK KR'), url('../fonts/NotoSans-Light.otf') format('opentype'), url('../fonts/NotoSans-Light.woff') format('woff'); }
+  src: url("../fonts/NotoSans-Light.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Light.otf") format("opentype"), url("../fonts/NotoSans-Light.woff") format("woff"); }
 
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: normal;
-  src: url('../fonts/NotoSans-Regular.eot');
-  src: local('Noto Sans CJK KR'), url('../fonts/NotoSans-Regular.otf') format('opentype'), url('../fonts/NotoSans-Regular.woff') format('woff'); }
+  src: url("../fonts/NotoSans-Regular.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular.woff") format("woff"); }
 
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
   font-weight: bold;
-  src: url('../fonts/NotoSans-Bold.eot');
-  src: local('Noto Sans CJK KR'), url('../fonts/NotoSans-Bold.otf') format('opentype'), url('../fonts/NotoSans-Bold.woff') format('woff'); }
+  src: url("../fonts/NotoSans-Bold.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
 
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
@@ -63,4 +71,3 @@ h6 {
   font-size: 12px;
   line-height: 1.25;
   margin: 0 0 12px; }
-
