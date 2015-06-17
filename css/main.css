@@ -27,7 +27,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #333333;
   font-family: "Noto Sans Korean", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   margin: 0; }
 
@@ -63,3 +63,4 @@ h6 {
   font-size: 12px;
   line-height: 1.25;
   margin: 0 0 12px; }
+
