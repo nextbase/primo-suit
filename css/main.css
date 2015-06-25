@@ -353,8 +353,7 @@ p {
   padding: 0px;
   margin: 0px;
   float: left;
-  display: block;
-  background-color: #fff; }
+  display: block; }
 
 #exlidSearchRibbon fieldset {
   float: left;
@@ -364,11 +363,11 @@ p {
   display: none; }
 
 #exlidSearchRibbon input {
-  width: 96%;
-  border: 1px solid #ffffff;
-  height: 20px;
-  padding-top: 0.2em;
-  padding-left: 0.6em; }
+  width: 400px;
+  border: none;
+  height: 18px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
 
 #exlidSearchRibbon input:focus {
   outline: none; }
@@ -549,8 +548,7 @@ p {
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer p a {
   display: inline;
-  line-height: 1.5;
-  margin-left: 10px; }
+  line-height: 1.5; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
   margin: 0;
