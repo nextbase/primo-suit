@@ -27,9 +27,8 @@
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
     @include reset-margins;
     @include span-columns(6);
-    @include retina-image('../images/hom_main_visual_snu.jpg', 220px 90px);
+    @include retina-image('../images/hom_main_visual_snu', 480px 200px, jpg);
     background-position: 0% 0%;
-    background-size: 480px 200px;
     background-repeat: no-repeat;
     width: 100%;
     padding-top: 120px;
