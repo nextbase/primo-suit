@@ -250,11 +250,26 @@ p {
   line-height: 140%; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-  float: left; }
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+  margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer:last-child {
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
+  margin: 0;
+  padding: 0;
   float: left;
-  margin-left: 5em; }
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+  margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer:last-child {
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
   margin: 0;

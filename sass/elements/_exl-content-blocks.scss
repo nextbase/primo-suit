@@ -1,8 +1,8 @@
 // Content Blocks
 
-@mixin home-banner {
+@mixin home-banner($columns-wide: 6) {
 	@include reset-margins;
-	@include span-columns(6);
+	@include span-columns($columns-wide);
 	margin-bottom: $section-spacing;
 	border: 1px solid $gray-light-secondary;
 	background-repeat: no-repeat;
@@ -22,6 +22,12 @@
     	font-size: 14px;
     	padding-right: $spacing-small;
     }
+}
+
+@mixin list-of-links($columns-wide: 6) {
+	@include reset-margins;
+	@include span-columns($columns-wide);
+	margin-bottom: $spacing-small;
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
@@ -69,12 +75,11 @@
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-    float: left;
+    @include list-of-links;
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
-    float: left;
-    margin-left: 5em;
+    @include list-of-links;
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
