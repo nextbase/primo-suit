@@ -547,9 +547,8 @@ p {
   margin-top: 1em; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer p a {
-  display: block;
-  line-height: 100%;
-  margin-bottom: 0.5em; }
+  display: inline;
+  line-height: 1.5; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
   margin: 0;
