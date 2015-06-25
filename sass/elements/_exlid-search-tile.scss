@@ -39,8 +39,7 @@
 #exlidHeaderSearchLimits {
     @include reset-margins;
     @include span-columns(12);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px;
     border-bottom: 1px solid $gray-light-secondary;
     background-color: $gray-light;
     color: $gray-dark-secondary;
@@ -64,8 +63,8 @@
 }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
-    width: 50%;
-    position: relative;
+    width: auto;
+    position: static;
 }
 
 #exlidHeaderSearchLimits select {

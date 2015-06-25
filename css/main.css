@@ -278,8 +278,7 @@ p {
   display: block;
   margin-right: 2.5641%;
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 20px;
   border-bottom: 1px solid #dfdfdc;
   background-color: #f2f2f0;
   color: #666666;
@@ -302,8 +301,8 @@ p {
   color: #666666; }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
-  width: 50%;
-  position: relative; }
+  width: auto;
+  position: static; }
 
 #exlidHeaderSearchLimits select {
   border: 1px solid #7f9db9;
