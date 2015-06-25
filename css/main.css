@@ -222,6 +222,18 @@ p {
   .EXLSearchWrapper:last-child {
     margin-right: 0; }
 
+#searchForm,
+.EXLSearchForm {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%; }
+  #searchForm:last-child,
+  .EXLSearchForm:last-child {
+    margin-right: 0; }
+
 #exlidEmbeddedSearch {
   margin: 0.5em; }
 

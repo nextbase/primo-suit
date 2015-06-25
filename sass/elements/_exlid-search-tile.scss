@@ -14,6 +14,11 @@
     @include span-columns(12);
 }
 
+#searchForm,
+.EXLSearchForm {
+    @include reset-margins;
+    @include span-columns(12);
+}
 
 #exlidEmbeddedSearch {
     margin: 0.5em;
