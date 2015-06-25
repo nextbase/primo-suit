@@ -4,10 +4,11 @@
 	@include reset-margins;
 	@include span-columns(6);
 	margin-bottom: $section-spacing;
-	border: 1px solid #dfdfdc;
+	border: 1px solid $gray-light-secondary;
 	background-repeat: no-repeat;
 	background-position: top right;
-    height: 100px;
+    height: 90px;
+    background-color: $gray-light;
 
     h3, h4, h5 {
 		font-size: $h5-fontsize;
