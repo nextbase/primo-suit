@@ -30,7 +30,7 @@
 
 #exlidSearchBanner {
     @include reset-margins;
-    @include span-columns(8);
+    @include span-columns(4);
     padding: $spacing-small;
     text-align: right;
 }
