@@ -429,16 +429,15 @@ p {
   height: auto; }
 
 #exlidSearchTabs li.EXLSearchTabSelected {
-  font-weight: bold;
+  float: left;
+  padding: 0;
   color: #ffcc00;
-  border: none;
   background-color: transparent;
   height: auto;
   background-image: none;
   background-repeat: repeat-x;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle; }
+  text-align: left;
+  font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
