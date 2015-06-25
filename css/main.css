@@ -362,22 +362,16 @@ p {
 #exlidSearchRibbon legend {
   display: none; }
 
+#exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
   width: 400px;
   border: none;
   height: 18px;
   padding: 10px 20px;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
+  box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.5); }
 
 #exlidSearchRibbon input:focus {
   outline: none; }
-
-#exlidSearchRibbon input.EXLSearchFieldMaximized {
-  width: 400px;
-  border: none;
-  height: 18px;
-  padding: 10px 20px;
-  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
 
 #exlidSearchRibbon input.submit {
   background-color: #e87107;
