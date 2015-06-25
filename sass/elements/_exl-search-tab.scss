@@ -1,6 +1,9 @@
 $search-tab-height: 40px;
 $search-tab-font-size: 18px;
 
+@mixin add-text-shadow($color) {
+    @include prefixer(text-shadow, 0 2px 2px rgba($color, .4), webkit moz spec);
+}
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {
     display: block;
@@ -35,6 +38,8 @@ $search-tab-font-size: 18px;
         padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
         padding-left: 0;
         cursor: pointer;
+
+        @include add-text-shadow($black);
     }
 }
 
@@ -56,6 +61,5 @@ $search-tab-font-size: 18px;
 
     a {
         color: $yellow;
-        padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
     }
 }
