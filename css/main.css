@@ -89,6 +89,30 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+#exlidHeaderContainer {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+  margin-bottom: 40px; }
+  #exlidHeaderContainer:last-child {
+    margin-right: 0; }
+
+#exlidHeaderTile {
+  width: 18%;
+  float: left;
+  padding-left: 0.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.3em; }
+
+@media screen and (max-width: 480px) {
+  #exlidHeaderContainer div.EXLSkipToContent {
+    display: none; }
+  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+    display: none; } }
+
 #exlidHomeContainer {
   margin: 0;
   padding: 0;

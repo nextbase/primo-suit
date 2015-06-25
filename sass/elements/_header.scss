@@ -1,4 +1,24 @@
-#exlidHeaderTile,
-.EXLLogo {
-	// Nothing here
+#exlidHeaderContainer {
+    @include reset-margins;
+    @include span-columns(12);
+    margin-bottom: $section-spacing;
+}
+
+#exlidHeaderTile {
+    width: 18%;
+    float: left;
+    padding-left: 0.8em;
+    padding-top: 0.8em;
+    padding-bottom: 0.3em;
+}
+
+@include media($mobile) {
+
+	#exlidHeaderContainer div.EXLSkipToContent {
+        display: none;
+    }
+    #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+        display: none;
+    }
+
 }

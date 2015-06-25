@@ -2017,19 +2017,7 @@ strong {
     margin-left: 1em;
 }
 
-#exlidHeaderContainer {
-    height: auto;
-    width: 100%;
-    background-color: #FFFFFF
-}
 
-#exlidHeaderTile {
-    width: 18%;
-    float: left;
-    padding-left: 0.8em;
-    padding-top: 0.8em;
-    padding-bottom: 0.3em;
-}
 
 #exlidHeaderTile img {}
 
@@ -11706,12 +11694,6 @@ table.EXLDetailsTabTOCTable tr td {
     }
     .EXLSearchFieldRibbonBrowseSearchLink {
         display: none
-    }
-    #exlidHeaderContainer div.EXLSkipToContent {
-        display: none;
-    }
-    #exlidHeaderContainer div.EXLSkipToSystemFeedback {
-        display: none;
     }
     #exlidSearchBanner {
         display: none;
