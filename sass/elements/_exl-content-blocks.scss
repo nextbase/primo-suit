@@ -8,6 +8,7 @@
 	background-repeat: no-repeat;
 	background-position: top right;
     height: 90px;
+    padding: $spacing-small / 2;
     background-color: $gray-light;
 
     h3, h4, h5 {
@@ -17,7 +18,9 @@
     }
 
     p {
+    	@include reset-margins;
     	font-size: 14px;
+    	padding-right: $spacing-small;
     }
 }
 
