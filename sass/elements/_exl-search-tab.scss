@@ -2,7 +2,7 @@ $search-tab-height: 40px;
 $search-tab-font-size: 18px;
 
 @mixin add-text-shadow($color) {
-    @include prefixer(text-shadow, 0 2px 2px rgba($color, .4), webkit moz spec);
+    @include prefixer(text-shadow, 0 2px 1px rgba($color, .5), webkit moz spec);
 }
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {

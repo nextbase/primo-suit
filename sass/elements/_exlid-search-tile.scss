@@ -5,7 +5,11 @@
     background-image: none;
     background-color: $gray-dark-secondary;
     height: auto;
-    font-size: $base-font-size
+    font-size: $base-font-size;
+
+    a {
+        color: $white;
+    }
 }
 
 #exlidSearchTileWrapper,
