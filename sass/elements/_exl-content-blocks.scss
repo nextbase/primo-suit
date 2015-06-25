@@ -75,7 +75,8 @@
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-    @include list-of-links;
+    @include list-of-links(5);
+    padding-left: $spacing-small;
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
