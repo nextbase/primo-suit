@@ -398,12 +398,12 @@ p {
 
 .EXLSearchFieldRibbonFormFields {
   float: left;
-  width: 91%;
-  height: 26px; }
+  width: auto;
+  height: auto; }
 
 .EXLSearchFieldRibbonFormSearchFor {
   float: left;
-  width: 56%; }
+  width: auto; }
 
 .EXLClearSimpleSearchBoxButtonClose {
   background-image: url("../images/icon_clear_search.png");
