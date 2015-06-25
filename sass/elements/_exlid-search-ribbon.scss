@@ -1,9 +1,13 @@
+@mixin text-input {
+    background-color: #fff;
+
+}
+
 
 #exlidSearchRibbon {
-    float: left;
-    margin-top: 0.5em;
-    width: 55em;
-    padding-left: 1em
+    @include reset-margins;
+    @include span-columns(12);
+    padding: $spacing-small;
 }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
@@ -14,7 +18,9 @@
     padding: 0px;
     margin: 0px;
     float: left;
-    display: block
+    display: block;
+
+    @include text-input;
 }
 
 #exlidSearchRibbon fieldset {

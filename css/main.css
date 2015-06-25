@@ -328,10 +328,15 @@ p {
   overflow: hidden; }
 
 #exlidSearchRibbon {
+  margin: 0;
+  padding: 0;
   float: left;
-  margin-top: 0.5em;
-  width: 55em;
-  padding-left: 1em; }
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+  padding: 20px; }
+  #exlidSearchRibbon:last-child {
+    margin-right: 0; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   background-color: #FFFFFF;
@@ -341,7 +346,8 @@ p {
   padding: 0px;
   margin: 0px;
   float: left;
-  display: block; }
+  display: block;
+  background-color: #fff; }
 
 #exlidSearchRibbon fieldset {
   float: left;
