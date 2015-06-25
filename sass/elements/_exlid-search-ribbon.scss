@@ -37,7 +37,11 @@
 }
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized {
-    width: 98%;
+    width: 400px;
+    border: none;
+    height: 18px;
+    padding: 10px 20px;
+    @include prefixer(box-shadow, 0 2px 1px rgba($black-secondary, .5), webkit moz spec);
 }
 
 #exlidSearchRibbon input.submit {

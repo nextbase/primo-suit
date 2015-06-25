@@ -373,7 +373,11 @@ p {
   outline: none; }
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized {
-  width: 98%; }
+  width: 400px;
+  border: none;
+  height: 18px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5); }
 
 #exlidSearchRibbon input.submit {
   background-color: #e87107;
