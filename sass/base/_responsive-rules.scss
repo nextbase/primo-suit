@@ -1,7 +1,7 @@
 // General Responsive Rules
 // Hide Some Stuff
 
-@include media(500px) {
+@include media($mobile) {
 
 	.folders_new,
 	.draggable,
