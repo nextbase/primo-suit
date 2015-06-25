@@ -14,9 +14,11 @@
 
 	.EXLHomeBannerContainer1,
 	.EXLHomeBannerContainer2,
-	.EXLHomeBannerContainer3 {
+	.EXLHomeBannerContainer3,
+	.EXLHomeBannerContainer4 {
 		@include reset-margins;
-		@include span-columns(3);
+		@include span-columns(6);
+		margin-bottom: $section-spacing;
 	}
 
 }

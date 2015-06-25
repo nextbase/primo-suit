@@ -209,16 +209,19 @@ p {
 
 #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer1,
 #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer2,
-#exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer3 {
+#exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer3,
+#exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer4 {
   margin: 0;
   padding: 0;
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 23.07692%; }
+  width: 48.71795%;
+  margin-bottom: 40px; }
   #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer1:last-child,
   #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer2:last-child,
-  #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer3:last-child {
+  #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer3:last-child,
+  #exlidHomeContainer div.EXLHomeBannersContainer .EXLHomeBannerContainer4:last-child {
     margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
