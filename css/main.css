@@ -362,7 +362,7 @@ p {
 #exlidSearchRibbon legend {
   display: none; }
 
-#exlidSearchRibbon input {
+#exlidSearchRibbon input[type=text] {
   width: 400px;
   border: none;
   height: 18px;
