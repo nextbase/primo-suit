@@ -7,6 +7,7 @@
 	border: 1px solid $gray-light-secondary;
 	background-repeat: no-repeat;
 	background-position: top right;
+	width: 100%;
     height: 90px;
     background-color: $gray-light;
 
@@ -102,14 +103,13 @@
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
-    width: auto;
-    float: left;
+	@include reset-margins;
+	@include span-columns(6);
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4 {
-    width: auto;
-    float: left;
-    margin-left: 2em
+    @include reset-margins;
+	@include span-columns(6);
 }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {

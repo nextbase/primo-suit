@@ -285,13 +285,24 @@ p {
   margin-bottom: 0.5em; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
-  width: auto;
-  float: left; }
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%; }
+  #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3:last-child {
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4 {
-  width: auto;
+  margin: 0;
+  padding: 0;
   float: left;
-  margin-left: 2em; }
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%; }
+  #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4:last-child {
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
   color: #777676; }
@@ -307,6 +318,7 @@ p {
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
   background-position: top right;
+  width: 100%;
   height: 90px;
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_blog.png"); }
@@ -334,6 +346,7 @@ p {
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
   background-position: top right;
+  width: 100%;
   height: 90px;
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_website.png"); }
@@ -372,6 +385,7 @@ p {
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
   background-position: top right;
+  width: 100%;
   height: 90px;
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_mobile.png"); }
@@ -399,6 +413,7 @@ p {
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
   background-position: top right;
+  width: 100%;
   height: 90px;
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_twitter.png"); }
