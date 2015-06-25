@@ -1,0 +1,41 @@
+// General Responsive Rules
+// Hide Some Stuff
+
+@include media(500px) {
+
+	.folders_new,
+	.draggable,
+	.EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
+	.EXLMyAccountTableAuthor,
+	.EXLMyAccountTableDueHour,
+	.EXLMyAccountTableFine,
+	.Location,
+	.EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span,
+	.EXLMyAccountTableCounter,
+	.EXLMyAccountMainContainer table tr td:first-child,
+	.EXLMyAccountMainContainer div.EXLMyAccountTips,
+	.folder_details .newManage_buts,
+	a.eShelf_print,
+	.author,
+	.added,
+	.note,
+	.MyAccount_Loans_2,
+	.MyAccount_Loans_4,
+	.MyAccount_Loans_5,
+	.MyAccount_Loans_6,
+	.MyAccount_Loans_0,
+	.MyAccount_Requests_0,
+	.MyAccount_Requests_3,
+	.MyAccount_Requests_4,
+	.MyAccount_Requests_5,
+	.MyAccount_Requests_6,
+	.MyAccount_FineAndFees_0,
+	.MyAccount_FineAndFees_2,
+	.MyAccount_FineAndFees_4,
+	.MyAccount_FineAndFees_5,
+	.MyAccount_FineAndFees_6,
+	#exlidUserAreaRibbon li.EXLMyShelf {
+	    display: none
+	}
+
+}

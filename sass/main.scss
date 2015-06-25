@@ -17,8 +17,10 @@
 @import 'base/typography';
 @import 'base/colors';
 @import 'base/forms';
+@import 'base/responsive-rules';
 
 // Website Elements
 @import 'elements/header';
 @import 'elements/navigation';
-@import 'elements/exlid_home_container';
+@import 'elements/exlid-home-container';
+@import 'elements/exlid-user-area-ribbon';
