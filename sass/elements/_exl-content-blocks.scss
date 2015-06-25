@@ -2,7 +2,7 @@
 
 @mixin home-banner {
 	@include reset-margins;
-	@include span-columns(3);
+	@include span-columns(6);
 	margin-bottom: $section-spacing;
 	border: 1px solid $gray-light-secondary;
 	background-repeat: no-repeat;
