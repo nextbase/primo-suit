@@ -325,6 +325,60 @@ p {
   float: left;
   width: 9%; }
 
+#exlidSearchRibbon div.EXLSearchTabsContainer {
+  display: block;
+  height: 40px; }
+
+#exlidSearchTabs {
+  padding-left: 0em;
+  border: none;
+  float: left;
+  z-index: 100;
+  position: relative; }
+
+#exlidSearchTabs {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  float: left;
+  color: #555555;
+  height: 16px;
+  clear: right; }
+
+#exlidSearchTabs li {
+  float: left;
+  padding-left: 0em;
+  padding-right: 1.2em; }
+
+#exlidSearchTabs li {
+  border: 0px solid #CCCCCC;
+  border-bottom: 0px;
+  height: 16px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  margin-right: 2px;
+  color: #9B9B9B; }
+
+#exlidSearchTabs li.EXLSearchTabSelected {
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #8fb9d0;
+  border-bottom: 1px solid #f6f6f6;
+  background-color: #FFFFFF;
+  height: 15px;
+  background-image: url(../images/bg_strip_search_tabs.png);
+  background-repeat: repeat-x;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  margin-right: 4px;
+  background-color: #f6f6f6; }
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
   padding: 0;
