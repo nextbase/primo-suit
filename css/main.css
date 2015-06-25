@@ -306,12 +306,17 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
-  border: 1px solid #cfcfcf;
   width: 220px;
   height: 90px;
   background-image: url("../images/banner_snu_blog.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1:last-child {
     margin-right: 0; }
+  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h3, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h4, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h5 {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 p {
+    font-size: 14px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 {
       background-image: url("../images/banner_snu_blog_2x.png");
@@ -327,12 +332,17 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
-  border: 1px solid #cfcfcf;
   width: 220px;
   height: 90px;
   background-image: url("../images/banner_snu_website.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2:last-child {
     margin-right: 0; }
+  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h3, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h4, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h5 {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 p {
+    font-size: 14px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 {
       background-image: url("../images/banner_snu_website_2x.png");
@@ -359,12 +369,17 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
-  border: 1px solid #cfcfcf;
   width: 220px;
   height: 90px;
   background-image: url("../images/banner_snu_mobile.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1:last-child {
     margin-right: 0; }
+  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h3, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h4, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h5 {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 p {
+    font-size: 14px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
       background-image: url("../images/banner_snu_mobile_2x.png");
@@ -380,12 +395,17 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
-  border: 1px solid #cfcfcf;
   width: 220px;
   height: 90px;
   background-image: url("../images/banner_snu_twitter.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2:last-child {
     margin-right: 0; }
+  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h3, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h4, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h5 {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-bottom: 20px; }
+  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 p {
+    font-size: 14px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 {
       background-image: url("../images/banner_snu_twitter_2x.png");

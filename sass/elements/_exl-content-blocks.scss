@@ -6,9 +6,18 @@
 	margin-bottom: $section-spacing;
 	border: 1px solid #dfdfdc;
 	background-repeat: no-repeat;
-	border: 1px solid #cfcfcf;
     width: 220px;
     height: 90px;
+
+    h3, h4, h5 {
+		font-size: $h4-fontsize;
+		line-height: $h4-lineheight;
+		margin-bottom: $spacing-small;
+    }
+
+    p {
+    	font-size: 14px;
+    }
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
