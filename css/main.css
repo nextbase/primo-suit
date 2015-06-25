@@ -265,11 +265,16 @@ p {
   border: 1px solid #adb9c2; }
 
 #exlidSearchBanner {
-  float: right;
-  margin-top: 0.5em;
-  width: auto;
-  text-align: right;
-  padding-right: 0.8em; }
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 65.81197%;
+  padding: 20px;
+  text-align: right; }
+  #exlidSearchBanner:last-child {
+    margin-right: 0; }
 
 #exlidHeaderSearchLimits {
   margin: 0;
@@ -333,7 +338,7 @@ p {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 100%;
+  width: 65.81197%;
   padding: 20px; }
   #exlidSearchRibbon:last-child {
     margin-right: 0; }

@@ -29,11 +29,10 @@
 }
 
 #exlidSearchBanner {
-    float: right;
-    margin-top: 0.5em;
-    width: auto;
+    @include reset-margins;
+    @include span-columns(8);
+    padding: $spacing-small;
     text-align: right;
-    padding-right: 0.8em
 }
 
 #exlidHeaderSearchLimits {
