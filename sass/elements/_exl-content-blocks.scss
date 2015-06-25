@@ -1,3 +1,16 @@
+// Content Blocks
+
+@mixin home-banner {
+	@include reset-margins;
+	@include span-columns(6);
+	margin-bottom: $section-spacing;
+	border: 1px solid #dfdfdc;
+	background-repeat: no-repeat;
+	border: 1px solid #cfcfcf;
+    width: 220px;
+    height: 90px;
+}
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
     @include reset-margins;
     width: 100%;
@@ -8,19 +21,6 @@
     @include reset-margins;
     width: 100%;
     margin-bottom: $section-spacing;
-}
-
-#exlidHomeContainer div.EXLHomeBannersContainer {
-
-	.EXLHomeBannerContainer1,
-	.EXLHomeBannerContainer2,
-	.EXLHomeBannerContainer3,
-	.EXLHomeBannerContainer4 {
-		@include reset-margins;
-		@include span-columns(6);
-		margin-bottom: $section-spacing;
-	}
-
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
@@ -107,22 +107,13 @@
 }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 {
-    border: 1px solid #cfcfcf;
-    width: 220px;
-    height: 92px;
-    float: left;
-    background-image: url(../images/bg_stripe_home_banners.png);
-    background-repeat: repeat-x
+    @include home-banner;
+    @include retina-image('../images/banner_snu_blog', 220px 90px);
 }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 {
-    border: 1px solid #cfcfcf;
-    width: 220px;
-    height: 90px;
-    float: left;
-    margin-left: 1em;
+    @include home-banner;
     @include retina-image('../images/banner_snu_website', 220px 90px);
-    background-repeat: no-repeat
 }
 
 #exlidHomeContainer div.EXLContentBlock3 h4 {
@@ -140,22 +131,13 @@
 }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
-    border: 1px solid #cfcfcf;
-    width: 220px;
-    height: 92px;
-    float: left;
+    @include home-banner;
     @include retina-image('../images/banner_snu_mobile', 220px 90px);
-    background-repeat: no-repeat
 }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 {
-    border: 1px solid #cfcfcf;
-    width: 220px;
-    height: 90px;
-    float: left;
-    margin-left: 1em;
+    @include home-banner;
     @include retina-image('../images/banner_snu_twitter', 220px 90px);
-    background-repeat: no-repeat
 }
 
 #exlidHomeContainer div.EXLContentBlock4 h4 {
