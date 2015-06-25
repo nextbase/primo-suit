@@ -306,8 +306,9 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
+  background-position: top right;
   width: 220px;
-  height: 90px;
+  height: 100px;
   background-image: url("../images/banner_snu_blog.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1:last-child {
     margin-right: 0; }
@@ -332,8 +333,9 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
+  background-position: top right;
   width: 220px;
-  height: 90px;
+  height: 100px;
   background-image: url("../images/banner_snu_website.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2:last-child {
     margin-right: 0; }
@@ -369,8 +371,9 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
+  background-position: top right;
   width: 220px;
-  height: 90px;
+  height: 100px;
   background-image: url("../images/banner_snu_mobile.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1:last-child {
     margin-right: 0; }
@@ -395,8 +398,9 @@ p {
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
   background-repeat: no-repeat;
+  background-position: top right;
   width: 220px;
-  height: 90px;
+  height: 100px;
   background-image: url("../images/banner_snu_twitter.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2:last-child {
     margin-right: 0; }
