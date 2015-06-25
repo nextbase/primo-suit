@@ -135,17 +135,15 @@
 }
 
 #exlidHomeContainer div.EXLContentBlock3 h4 {
-    padding-left: 0.3em;
-    padding-top: 0.2em;
+    @include reset-margins;
 }
 
 #exlidHomeContainer div.EXLContentBlock3 p {
-    padding-left: 0.3em;
-    line-height: 120%
+    @include reset-margins;
 }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-    color: #777676;
+    color: $gray-dark;
 }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {

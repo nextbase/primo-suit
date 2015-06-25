@@ -386,15 +386,15 @@ p {
       background-size: 220px 90px; } }
 
 #exlidHomeContainer div.EXLContentBlock3 h4 {
-  padding-left: 0.3em;
-  padding-top: 0.2em; }
+  margin: 0;
+  padding: 0; }
 
 #exlidHomeContainer div.EXLContentBlock3 p {
-  padding-left: 0.3em;
-  line-height: 120%; }
+  margin: 0;
+  padding: 0; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-  color: #777676; }
+  color: #333333; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
   margin: 0;
