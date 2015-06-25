@@ -31,6 +31,10 @@ $article-title-lh: 1.125;
 $article-header-fsz: 18px;
 $article-header-lh: 1.125;
 
+$spacing-small: 20px;
+$spacing-medium: 30px;
+$spacing-large: 40px;
+
 $base-font-family: "Noto Sans Korean", sans-serif;
 $heading-font-family: $base-font-family;
 
@@ -85,5 +89,7 @@ h6 {
 }
 
 p {
-
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin-bottom: $spacing-small;
 }
