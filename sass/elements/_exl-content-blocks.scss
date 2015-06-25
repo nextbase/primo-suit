@@ -98,17 +98,17 @@
     width: 220px;
     height: 92px;
     float: left;
-    background-image: url(../images/bg_strip_home_banners.png);
+    background-image: url(../images/bg_stripe_home_banners.png);
     background-repeat: repeat-x
 }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 {
     border: 1px solid #cfcfcf;
     width: 220px;
-    height: 92px;
+    height: 90px;
     float: left;
     margin-left: 1em;
-    background-image: url(../images/bg_banner_home_tour.png);
+    @include retina-image('../images/banner_snu_website', 220px 90px);
     background-repeat: no-repeat
 }
 
@@ -131,17 +131,17 @@
     width: 220px;
     height: 92px;
     float: left;
-    background-image: url(../images/bg_banner_home_iPhone.png);
+    @include retina-image('../images/banner_snu_mobile', 220px 90px);
     background-repeat: no-repeat
 }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 {
     border: 1px solid #cfcfcf;
     width: 220px;
-    height: 92px;
+    height: 90px;
     float: left;
     margin-left: 1em;
-    background-image: url(../images/bg_banner_home_twitter.png);
+    @include retina-image('../images/banner_snu_twitter', 220px 90px);
     background-repeat: no-repeat
 }
 
