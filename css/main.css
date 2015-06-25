@@ -210,6 +210,18 @@ p {
   #exlidSearchTile:last-child {
     margin-right: 0; }
 
+#exlidSearchTileWrapper,
+.EXLSearchWrapper {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%; }
+  #exlidSearchTileWrapper:last-child,
+  .EXLSearchWrapper:last-child {
+    margin-right: 0; }
+
 #exlidEmbeddedSearch {
   margin: 0.5em; }
 

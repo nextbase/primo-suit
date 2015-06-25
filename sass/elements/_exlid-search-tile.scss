@@ -8,6 +8,13 @@
     font-size: $base-font-size
 }
 
+#exlidSearchTileWrapper,
+.EXLSearchWrapper {
+    @include reset-margins;
+    @include span-columns(12);
+}
+
+
 #exlidEmbeddedSearch {
     margin: 0.5em;
 }
