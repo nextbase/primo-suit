@@ -195,6 +195,88 @@ p {
   filter: alpha(opacity=60);
   float: right; }
 
+#exlidSearchTile {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+  border: 0;
+  background-image: none;
+  background-color: #666666;
+  height: auto;
+  font-size: 16px; }
+  #exlidSearchTile:last-child {
+    margin-right: 0; }
+
+#exlidEmbeddedSearch {
+  margin: 0.5em; }
+
+#exlidEmbeddedSearch #exlidSearchTile {
+  border: 1px solid #adb9c2; }
+
+#exlidSearchBanner {
+  float: right;
+  margin-top: 0.5em;
+  width: auto;
+  text-align: right;
+  padding-right: 0.8em; }
+
+#exlidSearchRibbon {
+  float: left;
+  margin-top: 0.5em;
+  width: 55em;
+  padding-left: 1em; }
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+  background-color: #FFFFFF;
+  height: 26px;
+  border: 1px solid #8fb9d0;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  display: block; }
+
+#exlidSearchRibbon fieldset {
+  float: left;
+  width: 90%; }
+
+#exlidSearchRibbon legend {
+  display: none; }
+
+#exlidSearchRibbon input {
+  width: 96%;
+  border: 1px solid #ffffff;
+  height: 20px;
+  padding-top: 0.2em;
+  padding-left: 0.6em; }
+
+#exlidSearchRibbon input:focus {
+  outline: none; }
+
+#exlidSearchRibbon input.EXLSearchFieldMaximized {
+  width: 98%; }
+
+#exlidSearchRibbon input.submit {
+  background-color: #e87107;
+  background-image: url(../images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  margin: 0em;
+  width: 100%;
+  color: #FFFFFF;
+  font-weight: normal;
+  height: 26px;
+  cursor: pointer;
+  padding-bottom: 0.3em;
+  padding-right: 0.6em;
+  padding-left: 0.6em; }
+
+.EXLSearchFieldRibbonFormSubmitSearch {
+  float: left;
+  width: 9%; }
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
   padding: 0;

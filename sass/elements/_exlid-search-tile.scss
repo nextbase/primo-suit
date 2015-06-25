@@ -1,0 +1,26 @@
+#exlidSearchTile {
+    @include reset-margins;
+    @include span-columns(12);
+    border: 0;
+    background-image: none;
+    background-color: $gray-dark-secondary;
+    height: auto;
+    font-size: $base-font-size
+}
+
+#exlidEmbeddedSearch {
+    margin: 0.5em;
+}
+
+#exlidEmbeddedSearch #exlidSearchTile {
+    border: 1px solid #adb9c2;
+}
+
+
+#exlidSearchBanner {
+    float: right;
+    margin-top: 0.5em;
+    width: auto;
+    text-align: right;
+    padding-right: 0.8em
+}
