@@ -25,36 +25,30 @@ $search-tab-font-size: 18px;
 
 #exlidSearchTabs li {
     float: left;
-    padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
+    padding: 0;
+
+    a {
+        text-align: center;
+        color: $white;
+        padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
+        cursor: pointer;
+    }
 }
 
 #exlidSearchTabs li {
-    border: 0px solid #CCCCCC;
-    border-bottom: 0px;
+    border: none;
     height: auto;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 2px;
-    color: #9B9B9B;
 }
 
 #exlidSearchTabs li.EXLSearchTabSelected {
     font-weight: bold;
-    color: #000000;
-    border: 1px solid #8fb9d0;
-    border-bottom: 1px solid #f6f6f6;
-    background-color: #FFFFFF;
+    color: $yellow;
+    border: none;
+    background-color: transparent;
     height: auto;
-    background-image: url(../images/bg_strip_search_tabs.png);
+    background-image: none;
     background-repeat: repeat-x;
     text-align: center;
     font-weight: bold;
     vertical-align: middle;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 4px;
-    background-color: #f6f6f6
 }
