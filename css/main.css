@@ -271,6 +271,63 @@ p {
   text-align: right;
   padding-right: 0.8em; }
 
+#exlidHeaderSearchLimits {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dfdfdc;
+  background-color: #f2f2f0;
+  color: #666666;
+  height: auto;
+  margin-bottom: 20px; }
+  #exlidHeaderSearchLimits:last-child {
+    margin-right: 0; }
+
+#exlidHeaderSearchLimits fieldset {
+  padding: 0;
+  color: #666666;
+  font-weight: bold;
+  font-size: 14px;
+  width: auto; }
+
+#exlidHeaderSearchLimits fieldset legend {
+  display: inline;
+  width: auto;
+  padding-top: 0.6em;
+  color: #666666; }
+
+#exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
+  width: 50%;
+  position: relative; }
+
+#exlidHeaderSearchLimits select {
+  border: 1px solid #7f9db9;
+  height: 1.65em;
+  color: #666666; }
+
+#exlidHeaderSearchLimits label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
+#exlidHeaderSearchLimits input {
+  color: #0075b0;
+  background-color: #f3f3f3;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
 #exlidSearchRibbon {
   float: left;
   margin-top: 0.5em;

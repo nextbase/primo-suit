@@ -35,3 +35,61 @@
     text-align: right;
     padding-right: 0.8em
 }
+
+#exlidHeaderSearchLimits {
+    @include reset-margins;
+    @include span-columns(12);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $gray-light-secondary;
+    background-color: $gray-light;
+    color: $gray-dark-secondary;
+    height: auto;
+    margin-bottom: $spacing-small;
+}
+
+#exlidHeaderSearchLimits fieldset {
+    padding: 0;
+    color: $gray-dark-secondary;
+    font-weight: bold;
+    font-size: 14px;
+    width: auto;
+}
+
+#exlidHeaderSearchLimits fieldset legend {
+    display: inline;
+    width: auto;
+    padding-top: 0.6em;
+    color: #666666;
+}
+
+#exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
+    width: 50%;
+    position: relative;
+}
+
+#exlidHeaderSearchLimits select {
+    border: 1px solid #7f9db9;
+    height: 1.65em;
+    color: #666666
+}
+
+#exlidHeaderSearchLimits label {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+#exlidHeaderSearchLimits input {
+    color: #0075b0;
+    background-color: #f3f3f3;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
