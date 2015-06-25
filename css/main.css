@@ -397,19 +397,19 @@ p {
   height: auto; }
 
 #exlidSearchTabs {
-  padding-left: 0em;
-  border: none;
-  float: left;
+  margin: 0;
+  padding: 0;
   z-index: 100;
   position: relative; }
 
 #exlidSearchTabs {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style-type: none;
   float: left;
-  color: #555555;
-  height: 16px;
+  color: #ffffff;
+  line-height: 18px;
+  padding: 11px 20px;
   clear: right; }
 
 #exlidSearchTabs li {

@@ -1,4 +1,5 @@
 $search-tab-height: 40px;
+$search-tab-font-size: 18px;
 
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {
@@ -7,20 +8,18 @@ $search-tab-height: 40px;
 }
 
 #exlidSearchTabs {
-    padding-left: 0em;
-    border: none;
-    float: left;
+    @include reset-margins;
     z-index: 100;
     position: relative;
 }
 
 #exlidSearchTabs {
-    padding: 0;
-    margin: 0;
+    @include reset-margins;
     list-style-type: none;
     float: left;
-    color: #555555;
-    height: 16px;
+    color: $white;
+    line-height: $search-tab-font-size;
+    padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
     clear: right;
 }
 
