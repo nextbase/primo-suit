@@ -55,14 +55,14 @@
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
-    margin-top: 1em;
-    background-image: url(../images/home_main_visual.jpg);
+    @include reset-margins;
+    @include span-columns(6);
+    background-image: url(../images/home_main_visual_snu.jpg);
     background-position: 0% 0%;
+    background-size: 480px 200px;
     background-repeat: no-repeat;
-    width: 35em;
-    float: left;
-    padding-top: 9em;
-    padding-left: 0.5em
+    width: 100%;
+    padding-top: 120px;
 }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer ul {

@@ -145,14 +145,20 @@ h6 {
   line-height: 170%; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
-  margin-top: 1em;
-  background-image: url(../images/home_main_visual.jpg);
-  background-position: 0% 0%;
-  background-repeat: no-repeat;
-  width: 35em;
+  margin: 0;
+  padding: 0;
   float: left;
-  padding-top: 9em;
-  padding-left: 0.5em; }
+  display: block;
+  margin-right: 2.5641%;
+  width: 48.71795%;
+  background-image: url(../images/home_main_visual_snu.jpg);
+  background-position: 0% 0%;
+  background-size: 480px 200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 120px; }
+  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer:last-child {
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer ul {
   list-style: none; }
