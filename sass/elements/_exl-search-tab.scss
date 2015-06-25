@@ -19,14 +19,12 @@ $search-tab-font-size: 18px;
     float: left;
     color: $white;
     line-height: $search-tab-font-size;
-    padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
     clear: right;
 }
 
 #exlidSearchTabs li {
     float: left;
-    padding-left: 0em;
-    padding-right: 1.2em;
+    padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
 }
 
 #exlidSearchTabs li {

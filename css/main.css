@@ -409,13 +409,11 @@ p {
   float: left;
   color: #ffffff;
   line-height: 18px;
-  padding: 11px 20px;
   clear: right; }
 
 #exlidSearchTabs li {
   float: left;
-  padding-left: 0em;
-  padding-right: 1.2em; }
+  padding: 11px 20px; }
 
 #exlidSearchTabs li {
   border: 0px solid #CCCCCC;
