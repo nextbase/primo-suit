@@ -346,10 +346,10 @@ p {
     margin-right: 0; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
-  background-color: #FFFFFF;
-  height: 26px;
-  border: 1px solid #8fb9d0;
-  width: 100%;
+  background-color: transparent;
+  height: auto;
+  border: none;
+  width: 400px;
   padding: 0px;
   margin: 0px;
   float: left;
@@ -394,7 +394,7 @@ p {
 
 .EXLSearchFieldRibbonFormSubmitSearch {
   float: left;
-  width: 9%; }
+  width: 80px; }
 
 .EXLSearchFieldRibbonFormFields {
   float: left;
