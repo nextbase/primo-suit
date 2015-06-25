@@ -10,6 +10,17 @@
     margin-bottom: $section-spacing;
 }
 
+#exlidHomeContainer div.EXLHomeBannersContainer {
+
+	.EXLHomeBannerContainer1,
+	.EXLHomeBannerContainer2,
+	.EXLHomeBannerContainer3 {
+		@include reset-margins;
+		@include span-columns(3);
+	}
+
+}
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
     @include reset-margins;
     @include span-columns(6);
