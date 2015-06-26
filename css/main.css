@@ -8888,8 +8888,7 @@ ol li {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px;
-  background: #eee; }
+  margin-bottom: 40px; }
   #exlidHeaderContainer::after {
     clear: both;
     content: "";
