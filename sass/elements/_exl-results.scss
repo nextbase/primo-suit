@@ -14,7 +14,6 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
     @include reset-margins;
     @include span-columns(8);
-    @include omega();
     @include shift(4);
     background-color: transparent;
     margin-bottom: $spacing-small;
