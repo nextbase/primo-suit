@@ -8,10 +8,12 @@
 }
 
 .EXLResultsList table {
-    width: 100%
+    width: 100%;
 }
 
-.EXLResultsList th {}
+.EXLResultsList th {
+
+}
 
 .EXLResultsList td {
     font-size: 100%;
@@ -30,7 +32,7 @@
 
 .EXLResultsList h3 {
     font-size: 100%;
-    font-weight: normal
+    font-weight: normal;
 }
 
 .EXLResultsList p.EXLResultSnippet {
@@ -50,7 +52,7 @@
 
 .EXLResultsList span.EXLResultVersionFound {
     color: #E87107;
-    font-weight: bold
+    font-weight: bold;
 }
 
 body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
@@ -68,7 +70,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
     clear: both;
-    width: 100%
+    width: 100%;
 }
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {

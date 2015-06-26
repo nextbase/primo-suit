@@ -9709,7 +9709,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 .EXLSearchFieldRibbonAdvancedSearchLink a,
 a.EXLFullResultsHeaderBackToBriefResultsLink {
   display: block;
-  padding-top: 40px; }
+  padding-top: 50px; }
 
 #exlidAdvancedSearchTile {
   clear: left;
@@ -9910,7 +9910,7 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
 
 .EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks {
   display: block;
-  padding-top: 40px;
+  padding-top: 50px;
   font-size: 12px; }
 
 div.EXLResultsContainer div.EXLBrowseResultsTileNoFacets {
