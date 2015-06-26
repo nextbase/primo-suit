@@ -1024,13 +1024,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidSearchTabs li {
   float: left;
-  padding: 0; }
+  padding: 11px 0; }
   #exlidSearchTabs li a {
     display: block;
     float: left;
     text-align: center;
     color: #ffffff;
-    padding: 11px 20px;
+    padding: 2px 20px;
     cursor: pointer;
     -webkit-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
     -moz-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);

@@ -29,14 +29,14 @@ $search-tab-font-size: 18px;
 
 #exlidSearchTabs li {
     float: left;
-    padding: 0;
+    padding: (($search-tab-height - $search-tab-font-size) / 2) 0;
 
     a {
         display: block;
         float: left;
         text-align: center;
         color: $white;
-        padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
+        padding: 2px ($search-tab-height / 2);
         cursor: pointer;
         @include add-text-shadow($black);
         border-right: 1px solid $white;
