@@ -19,7 +19,7 @@
 
 #exlidSearchRibbon fieldset {
     @include reset-margins;
-    @include span-columns(4);
+    @include span-columns(8);
 }
 
 #exlidSearchRibbon legend {
