@@ -28,7 +28,7 @@
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
-    font-size: 18px;
+    font-size: $base-font-size;
     width: 100%;
     border: none;
     display: block;
@@ -70,7 +70,7 @@
 
 .EXLSearchFieldRibbonFormSubmitSearch {
     float: left;
-    width: 80px;
+    width: 100px;
 }
 
 .EXLSearchFieldRibbonFormFields {
@@ -107,7 +107,7 @@
 }
 
 .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
-    width: 95%;
+    width: 100%;
 }
 
 .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSelectedCollection {

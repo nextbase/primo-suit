@@ -372,7 +372,7 @@ p {
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
   border: none;
   display: block;
@@ -417,7 +417,7 @@ p {
 
 .EXLSearchFieldRibbonFormSubmitSearch {
   float: left;
-  width: 80px; }
+  width: 100px; }
 
 .EXLSearchFieldRibbonFormFields {
   float: left;
@@ -448,7 +448,7 @@ p {
   width: 5%; }
 
 .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
-  width: 95%; }
+  width: 100%; }
 
 .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSelectedCollection {
   display: none; }
