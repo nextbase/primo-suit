@@ -14,7 +14,7 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
     @include reset-margins;
     @include span-columns(8);
-    float: right;
+    @include shift(4);
     background-color: transparent;
     margin-bottom: $spacing-small;
 }
@@ -38,7 +38,7 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsHeader h1 em {
-    color: #000000;
+    color: $black-secondary;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers {
