@@ -995,6 +995,101 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input.submit {
   width: 100%; }
 
+body.EXLFullView {
+  height: 100%; }
+
+body.EXLFullView div.EXLResultsContainer {
+  height: 100%;
+  width: auto;
+  clear: right; }
+
+body.EXLFullView div.EXLResultsContainer div.EXLResultsTile {
+  width: 100%;
+  border-left: none;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  padding-left: 0em;
+  background-color: #FFFFFF; }
+
+body.EXLFullView div.EXLSummaryFields {
+  padding-left: 1em; }
+
+body.EXLFullView div.EXLResultsContainer {
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+  padding-right: 0em;
+  padding-top: 0em;
+  margin-top: auto;
+  clear: right; }
+
+body.EXLFullView div.EXLLocationsTabContent {
+  overflow: visible;
+  overflow-x: hidden;
+  border: none;
+  height: 100%; }
+
+body.EXLFullView div.EXLTabsRibbon {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto; }
+
+body.EXLFullView div.EXLResultTabContainer {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto; }
+
+body.EXLFullView .EXLTabHeaderButtonSendTo {
+  padding-right: 0em;
+  text-align: left;
+  width: 178px; }
+
+body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList {
+  width: 160px;
+  background-color: #FFFF00;
+  border: 1px solid #e1e1e1;
+  border-top: none;
+  border-bottom: none;
+  position: relative;
+  left: 16px;
+  z-index: 100;
+  clear: both;
+  display: none; }
+
+body.EXLFullView div.EXLTabHeaderButtons li:hover {
+  background-color: #fffbc3; }
+
+body.EXLFullView div.EXLTabContent {
+  height: 100%; }
+
+body.EXLFullView div.EXLResultsList {
+  height: 100%;
+  border-top: none; }
+
+body.EXLFullView div.EXLTabContent {
+  min-height: 17em;
+  height: auto;
+  border: 1px solid #8fb9d0;
+  border-top: none;
+  margin-bottom: 1em; }
+
+body.EXLFullView #exlidHeaderSystemFeedback {
+  display: block; }
+
+body.EXLFullView #exlidHeaderSystemFeedbackFullAuthorization {
+  display: block; }
+
+body.EXLFullView div.EXLResultsFooter {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto; }
+
+body.EXLFullView div.EXLBackToResults {
+  font-size: 80%;
+  float: left;
+  width: 30%; }
+
 #exlidSearchRibbon div.EXLSearchTabsContainer {
   margin: 0;
   padding: 0;
@@ -1052,10 +1147,10 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   background-color: transparent;
   height: auto;
   background-image: none;
-  text-align: left;
-  font-weight: bold; }
+  text-align: left; }
   #exlidSearchTabs li.EXLSearchTabSelected a {
-    color: #ffcc00; }
+    color: #ffcc00;
+    font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
