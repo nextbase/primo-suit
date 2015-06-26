@@ -1,4 +1,6 @@
 .EXLResultsList {
+    @include reset-margins;
+    @include outer-container;
     clear: left;
     font-size: 80%;
     margin-top: 0em;
