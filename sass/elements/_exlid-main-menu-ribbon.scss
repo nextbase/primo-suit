@@ -1,0 +1,75 @@
+#exlidMainMenuRibbon {
+    float: right;
+    padding: $spacing-small / 4;
+    list-style: none;
+}
+
+#exlidMainMenuRibbon li {
+    font-size: 80%;
+    font-weight: normal;
+    float: left;
+    margin: 0.2em 0.2em 0em 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    list-style: none;
+}
+
+#exlidMainMenuRibbon li a {
+    color: #4a4d51;
+    text-decoration: none;
+    padding-left: 0em;
+    padding-right: 0.2em;
+}
+
+#exlidMainMenuRibbon li a:hover {
+    text-decoration: underline
+}
+
+#exlidMainMenuRibbon li span {
+    color: #555555;
+    border-right: 1px solid #e2e2e2;
+    padding-left: 0.5em;
+    padding-right: 0.5em
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
+    background-color: #e87107;
+    background-image: url(../images/bg_strip_btn_orange.png);
+    background-repeat: repeat-x;
+    margin: 0em;
+    color: #FFFFFF;
+    font-weight: normal;
+    height: auto;
+    cursor: pointer;
+    padding-bottom: 0.3em;
+    padding-right: 0.6em;
+    padding-left: 0.6em;
+    border: 1px solid #f4762d;
+    border-right: none;
+    padding-top: 0.2em;
+    white-space: nowrap;
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
+    border-left: medium none;
+    border-right: 1px solid #F4762D;
+}
+
+#exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {
+    color: #555555;
+    border: none;
+    padding-left: 0em;
+    padding-right: 0em;
+    background-image: url(../images/icon_close_tab.png);
+    width: 16px;
+    height: 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 0em;
+    margin-top: 1px;
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected a:hover {
+    text-decoration: none;
+}
