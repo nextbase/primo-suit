@@ -1,6 +1,6 @@
 #exlidSearchRibbon {
     @include reset-margins;
-    @include span-columns(8);
+    @include span-columns(6);
     padding: $spacing-small;
     position: relative;
 }
@@ -17,8 +17,8 @@
 }
 
 #exlidSearchRibbon fieldset {
-    float: left;
-    width: 100%;
+    @include reset-margins;
+    @include span-columns(8);
 }
 
 #exlidSearchRibbon legend {
@@ -62,9 +62,6 @@
     font-size: $base-font-size;
     padding: 10px 20px;
     float: right;
-    position: absolute;
-    top: 0;
-    right: 0;
 }
 
 .EXLSearchFieldRibbonFormSubmitSearch {
