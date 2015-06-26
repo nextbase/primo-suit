@@ -384,7 +384,7 @@ p {
   border-radius: 4px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5) 0px 0px 20px 0 rgba(50, 181, 193, 0.75); }
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px 0 rgba(50, 181, 193, 0.75); }
 
 #exlidSearchRibbon input:focus {
   outline: none; }
