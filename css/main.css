@@ -272,7 +272,8 @@ p {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 31.62393%;
+  width: 23.07692%;
+  margin-right: 0;
   padding: 20px;
   text-align: right; }
   #exlidSearchBanner:last-child {
