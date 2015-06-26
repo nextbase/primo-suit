@@ -8894,6 +8894,10 @@ ol li {
     clear: both;
     content: "";
     display: table; }
+  #exlidHeaderContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidHeaderTile {
   width: 18%;
