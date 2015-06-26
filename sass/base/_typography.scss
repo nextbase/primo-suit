@@ -41,13 +41,16 @@ $base-font-family: "Noto Sans Korean", sans-serif;
 $heading-font-family: $base-font-family;
 
 body {
+  @include reset-margins;
   @include font-feature-settings("kern", "liga", "pnum");
   -webkit-font-smoothing: antialiased;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  min-width: 320px;
   margin: 0;
+  background-color: $white;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -1502,16 +1502,6 @@ x:-o-prefocus,
 html {
   height: 100%; }
 
-body {
-  background-color: #ffffff;
-  color: #32322f;
-  margin: 0px;
-  padding: 0px;
-  font-family: Arial, verdana;
-  font-size: 100%;
-  height: 100%;
-  min-width: 990px; }
-
 a:link,
 a:visited {
   color: #0075b0;
@@ -8827,6 +8817,8 @@ html {
   src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
 
 body {
+  margin: 0;
+  padding: 0;
   -webkit-font-feature-settings: "kern", "liga", "pnum";
   -moz-font-feature-settings: "kern", "liga", "pnum";
   -ms-font-feature-settings: "kern", "liga", "pnum";
@@ -8836,7 +8828,9 @@ body {
   font-family: "Noto Sans Korean", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  margin: 0; }
+  min-width: 320px;
+  margin: 0;
+  background-color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Noto Sans Korean", sans-serif;
