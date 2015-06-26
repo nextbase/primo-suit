@@ -9796,7 +9796,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuRibbon {
   float: right;
-  padding: 5px;
+  padding: 0;
   list-style: none; }
 
 #exlidMainMenuRibbon li {
@@ -9805,14 +9805,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 12px;
   font-weight: normal;
   float: left;
-  padding: 0 10px;
+  padding: 0;
   list-style: none; }
 
 #exlidMainMenuRibbon li a {
   color: #4a4d51;
   text-decoration: none;
-  padding-left: 0em;
-  padding-right: 0.2em; }
+  padding: 0 5px; }
 
 #exlidMainMenuRibbon li a:hover {
   text-decoration: underline; }

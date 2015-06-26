@@ -1,6 +1,6 @@
 #exlidMainMenuRibbon {
     float: right;
-    padding: $spacing-small / 4;
+    padding: 0;
     list-style: none;
 }
 
@@ -9,15 +9,14 @@
     font-size: $xsmall-font-size;
     font-weight: normal;
     float: left;
-    padding: 0 ($spacing-small / 2);
+    padding: 0;
     list-style: none;
 }
 
 #exlidMainMenuRibbon li a {
     color: #4a4d51;
     text-decoration: none;
-    padding-left: 0em;
-    padding-right: 0.2em;
+    padding: 0 ($spacing-small / 4);
 }
 
 #exlidMainMenuRibbon li a:hover {
