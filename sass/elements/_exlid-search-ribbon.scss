@@ -1,6 +1,6 @@
 #exlidSearchRibbon {
     @include reset-margins;
-    @include span-columns(6);
+    @include span-columns(8);
     padding: $spacing-small;
     position: relative;
 }
