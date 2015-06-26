@@ -10181,15 +10181,15 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 65.81197%;
-  margin-right: 34.18803%;
+  margin-left: 34.18803%;
   background-color: transparent;
   margin-bottom: 20px; }
   .EXLResultsContainer div.EXLResultsTile:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 .EXLResultsHeader {
   display: block;
@@ -10765,13 +10765,13 @@ body.EXLFullView div.EXLBackToResults {
 #exlidSearchRibbon div.EXLSearchTabsContainer {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 100%;
   height: auto; }
   #exlidSearchRibbon div.EXLSearchTabsContainer:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidSearchTabs {
   margin: 0;
@@ -10840,12 +10840,12 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%; }
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
   width: 100%; }
@@ -10858,9 +10858,9 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   background-image: url("../images/home_main_visual_snu.jpg");
   background-position: 0% 0%;
@@ -10868,7 +10868,7 @@ body.EXLFullView div.EXLBackToResults {
   width: 100%;
   padding-top: 120px; }
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
       background-image: url("../images/home_main_visual_snu_2x.jpg");
@@ -10883,35 +10883,35 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 40.17094%;
   margin-bottom: 20px;
   padding-left: 20px; }
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   margin-bottom: 20px; }
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%; }
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeNewsContainer ul {
   list-style: none; }
@@ -10933,22 +10933,22 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%; }
   #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock3:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%; }
   #exlidHomeContainer div.EXLHomeBlockContainer2 div.EXLContentBlock4:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
 
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
   color: #777676; }
@@ -10956,9 +10956,9 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
@@ -10969,7 +10969,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_blog.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h3, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h4, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer1 h5 {
     font-size: 14px;
     line-height: 1.25;
@@ -10987,9 +10987,9 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
@@ -11000,7 +11000,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_website.png"); }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h3, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h4, #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannerContainer2 h5 {
     font-size: 14px;
     line-height: 1.25;
@@ -11029,9 +11029,9 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
@@ -11042,7 +11042,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_mobile.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h3, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h4, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 h5 {
     font-size: 14px;
     line-height: 1.25;
@@ -11060,9 +11060,9 @@ body.EXLFullView div.EXLBackToResults {
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 {
   margin: 0;
   padding: 0;
-  float: right;
+  float: left;
   display: block;
-  margin-left: 2.5641%;
+  margin-right: 2.5641%;
   width: 48.71795%;
   margin-bottom: 40px;
   border: 1px solid #dfdfdc;
@@ -11073,7 +11073,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f2f2f0;
   background-image: url("../images/banner_snu_twitter.png"); }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2:last-child {
-    margin-left: 0; }
+    margin-right: 0; }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h3, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h4, #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer2 h5 {
     font-size: 14px;
     line-height: 1.25;
