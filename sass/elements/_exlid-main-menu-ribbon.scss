@@ -15,12 +15,13 @@
 }
 
 #exlidMainMenuRibbon li a {
-    color: #4a4d51;
+    color: $gray-dark;
     text-decoration: none;
     padding: 0 ($spacing-small / 4);
 }
 
 #exlidMainMenuRibbon li a:hover {
+    color: $gray-dark-secondary;
     text-decoration: underline
 }
 

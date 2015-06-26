@@ -9810,11 +9810,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   list-style: none; }
 
 #exlidMainMenuRibbon li a {
-  color: #4a4d51;
+  color: #333333;
   text-decoration: none;
   padding: 0 5px; }
 
 #exlidMainMenuRibbon li a:hover {
+  color: #666666;
   text-decoration: underline; }
 
 #exlidMainMenuRibbon li span {
