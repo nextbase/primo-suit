@@ -1,6 +1,7 @@
 .EXLResultsContainer {
     @include reset-margins;
     @include outer-container;
+    position: relative;
 }
 
 div.EXLResultsContainer:focus {

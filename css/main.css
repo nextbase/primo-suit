@@ -9863,7 +9863,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: block;
   margin-right: 2.5641%;
   width: 23.07692%;
-  margin-left: -102.5641%; }
+  position: absolute;
+  top: 0;
+  left: 0; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
@@ -9872,8 +9874,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     float: left;
     display: block;
     margin-right: 3.8961%;
-    width: 48.05195%;
-    margin-left: -155.84416%; }
+    width: 48.05195%; }
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
@@ -10172,7 +10173,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding: 0;
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  position: relative; }
   .EXLResultsContainer::after {
     clear: both;
     content: "";
