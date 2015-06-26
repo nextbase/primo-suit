@@ -9867,7 +9867,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 23.07692%; }
+  width: 23.07692%;
+  margin-right: 0; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
