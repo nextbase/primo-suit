@@ -381,6 +381,9 @@ p {
   padding-right: 100px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
   border-radius: 4px; }
+  #exlidSearchRibbon input.EXLSearchFieldMaximized:hover,
+  #exlidSearchRibbon input[type=text]:hover {
+    box-shadow: 0px 0px 18px 0 rgba(50, 181, 193, 0.5); }
 
 #exlidSearchRibbon input:focus {
   outline: none; }
