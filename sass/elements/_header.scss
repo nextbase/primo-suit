@@ -1,7 +1,6 @@
 #exlidHeaderContainer {
     @include reset-margins;
-    @include span-columns(12);
-    @include omega();
+    @include outer-container;
     margin-bottom: $section-spacing;
     background: #eee;
 }

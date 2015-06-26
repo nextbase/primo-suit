@@ -8885,15 +8885,15 @@ ol li {
 #exlidHeaderContainer {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 100%;
-  margin-right: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
   background: #eee; }
-  #exlidHeaderContainer:last-child {
-    margin-right: 0; }
+  #exlidHeaderContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidHeaderTile {
   width: 18%;
