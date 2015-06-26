@@ -1,6 +1,6 @@
 .EXLResultsContainer {
     @include reset-margins;
-    @include span-columns(12);
+    @include row($direction: RTL);
 }
 
 div.EXLResultsContainer:focus {
