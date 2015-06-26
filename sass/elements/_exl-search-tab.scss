@@ -6,7 +6,8 @@ $search-tab-font-size: 18px;
 }
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {
-    display: block;
+    @include reset-margins;
+    @include span-columns(12);
     height: auto;
 }
 

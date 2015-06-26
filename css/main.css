@@ -968,8 +968,15 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   width: 100%; }
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {
+  margin: 0;
+  padding: 0;
+  float: left;
   display: block;
+  margin-right: 2.5641%;
+  width: 100%;
   height: auto; }
+  #exlidSearchRibbon div.EXLSearchTabsContainer:last-child {
+    margin-right: 0; }
 
 #exlidSearchTabs {
   margin: 0;
