@@ -9868,7 +9868,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 31.62393%;
+  width: 23.07692%;
   float: left; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
@@ -10199,9 +10199,9 @@ div.EXLResultsHeader:focus {
   padding-top: 2px; }
 
 .EXLResultsHeader h1 {
-  color: #8c8c8c;
+  color: #333333;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   padding: 0em 0em 0em 1em;
   margin: 0px;
   margin-bottom: 0.2em;

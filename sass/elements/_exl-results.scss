@@ -27,9 +27,9 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsHeader h1 {
-    color: #8c8c8c;
+    color: $gray-dark;
     font-weight: bold;
-    font-size: $h3-fontsize;
+    font-size: $h4-fontsize;
     padding: 0em 0em 0em 1em;
     margin: 0px;
     margin-bottom: 0.2em;
