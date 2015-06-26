@@ -10211,9 +10211,8 @@ div.EXLResultsHeader:focus {
   margin-right: 2.5641%;
   width: 65.81197%;
   width: 78%;
-  float: right;
-  border-left: 1px solid #D7DDE3;
-  padding-left: 1%;
+  border-left: none;
+  padding-left: 0;
   background-color: #FFFFFF;
   margin-top: 0em;
   margin-bottom: 2em; }
