@@ -94,3 +94,20 @@ p {
   line-height: $base-line-height;
   margin-bottom: $spacing-small;
 }
+
+ul, ol {
+  margin-bottom: $spacing-small;
+
+  li {
+    margin-bottom: $spacing-small / 2;
+  }
+
+}
+
+ul li {
+  list-style: disc;
+}
+
+ol li {
+  list-style: ideograph-numeric;
+}

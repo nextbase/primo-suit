@@ -89,6 +89,17 @@ p {
   line-height: 1.5;
   margin-bottom: 20px; }
 
+ul, ol {
+  margin-bottom: 20px; }
+  ul li, ol li {
+    margin-bottom: 10px; }
+
+ul li {
+  list-style: disc; }
+
+ol li {
+  list-style: ideograph-numeric; }
+
 #exlidHeaderContainer {
   margin: 0;
   padding: 0;
