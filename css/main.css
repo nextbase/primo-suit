@@ -666,14 +666,13 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
     margin-right: 0; }
 
 * html .EXLSearchFieldRibbonAdvancedSearchLink {
-  clear: left;
-  padding-left: 0.5em;
-  padding-top: 0.5em; }
+  clear: none;
+  padding: 0; }
 
 .EXLSearchFieldRibbonAdvancedSearchLink a,
 a.EXLFullResultsHeaderBackToBriefResultsLink {
   display: block;
-  padding-top: 1.8em; }
+  padding-top: 36px; }
 
 #exlidAdvancedSearchTile {
   clear: left;
