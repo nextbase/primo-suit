@@ -1,0 +1,125 @@
+.EXLRefinementRibbon {
+    clear: both;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: none;
+    color: #32322f;
+    font-size: 80%;
+    height: auto;
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 100%
+}
+
+.EXLRefinementRibbon span.EXLRefinementsListTitle {
+    display: block;
+    float: left;
+    clear: right;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: auto;
+    white-space: nowrap;
+}
+
+.EXLRefinementRibbon div.EXLRefinementsList {
+    padding: 0em 1em 0.3em 0em;
+    float: left;
+    width: 80%
+}
+
+.EXLRefinementRibbon span.EXLRemoveRefinement {
+    background-color: #ffffff;
+    border: 1px solid #d7d9da;
+    color: #424e53;
+    height: 20px;
+    margin: 0;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    display: inline-block;
+    margin-top: 0.3em;
+}
+
+.EXLRefinementRibbon div a {
+    color: #424e53;
+}
+
+.EXLRefinementRibbon div a:hover {
+    text-decoration: none;
+    color: #e87107
+}
+
+.EXLRefinementRibbon span img {
+    vertical-align: bottom;
+    padding-left: 0.2em;
+}
+
+.EXLRefinementRibbonWithExclude {
+    clear: both;
+    background-color: #f8f8f8;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: none;
+    color: #32322f;
+    font-size: 80%;
+    height: auto;
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 100%
+}
+
+.EXLRefinementRibbonWithExclude span.EXLRefinementsListTitle {
+    display: block;
+    float: left;
+    clear: right;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    width: auto;
+    white-space: nowrap;
+}
+
+.EXLRefinementRibbonWithExclude div.EXLRefinementsList {
+    padding: 0em 1em 0.3em 0em;
+    float: left;
+    width: 80%
+}
+
+.EXLRefinementRibbonWithExclude span.EXLRemoveRefinement {
+    background-color: #ffffff;
+    border: 1px solid #d7d9da;
+    color: #424e53;
+    height: auto;
+    margin: 0;
+    padding-left: 0.5em;
+    margin-left: 0.5em;
+    display: inline-block;
+    margin-top: 0.3em;
+}
+
+.EXLRefinementRibbonWithExclude div a {
+    color: #424e53;
+    border-left: 1px solid #d7d9da;
+    padding-left: 0.5em;
+    line-height: 150%;
+}
+
+.EXLRefinementRibbonWithExclude div a.EXLFirstRefinementElement {
+    border: none;
+    padding-left: 0em;
+}
+
+.EXLRefinementRibbonWithExclude div a:hover {
+    text-decoration: none;
+    color: #e87107
+}
+
+.EXLRefinementRibbonWithExclude span img {
+    vertical-align: middle;
+    padding-left: 0.2em;
+}
+
+.EXLRefinementRibbonWithExclude div a.EXLExcludedElement strong {
+    text-decoration: line-through;
+}
+
+.EXLRefinementRibbonWithExclude div a.EXLExcludedElement strong:hover {
+    text-decoration: line-through;
+}
