@@ -1,12 +1,19 @@
-
 .EXLResultsContainer {
-    width: auto;
-    height: auto;
-    padding-left: 0.5em;
-    padding-right: 1em;
-    padding-top: 1.5em;
-    margin-top: auto;
-    clear: right;
+    @include reset-margins;
+    @include outer-container;
+}
+
+.parent {
+  @include outer-container;
+
+  .left-sidebar {
+    @include span-columns(4);
+  }
+
+  .content {
+    @include span-columns(8);
+    @include omega();
+  }
 }
 
 div.EXLResultsContainer:focus {
@@ -18,6 +25,8 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsContainer div.EXLResultsTile {
+    @include reset-margins;
+    @include span-columns(8);
     width: 78%;
     float: right;
     border-left: 1px solid #D7DDE3;

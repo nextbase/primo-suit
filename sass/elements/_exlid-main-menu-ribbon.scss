@@ -5,12 +5,11 @@
 }
 
 #exlidMainMenuRibbon li {
-    font-size: 80%;
+    @include reset-margins;
+    font-size: $xsmall-font-size;
     font-weight: normal;
     float: left;
-    margin: 0.2em 0.2em 0em 0.2em;
-    padding-left: 0em;
-    padding-right: 0em;
+    padding: 0 ($spacing-small / 2);
     list-style: none;
 }
 
