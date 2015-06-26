@@ -66,6 +66,10 @@
     position: absolute;
     top: 0;
     right: 0;
+
+    &:hover {
+        @include retina-image('../images/search_button_bg_hover', 200px 50px);
+    }
 }
 
 .EXLSearchFieldRibbonFormSubmitSearch {
