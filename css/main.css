@@ -9868,7 +9868,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 31.62393%; }
+  width: 31.62393%;
+  float: left; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
@@ -10172,30 +10173,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   .EXLResultsContainer:last-child {
     margin-right: 0; }
 
-.parent {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  .parent::after {
-    clear: both;
-    content: "";
-    display: table; }
-  .parent .left-sidebar {
-    float: left;
-    display: block;
-    margin-right: 2.5641%;
-    width: 31.62393%; }
-    .parent .left-sidebar:last-child {
-      margin-right: 0; }
-  .parent .content {
-    float: left;
-    display: block;
-    margin-right: 2.5641%;
-    width: 65.81197%;
-    margin-right: 0; }
-    .parent .content:last-child {
-      margin-right: 0; }
-
 div.EXLResultsContainer:focus {
   outline: none; }
 
@@ -10209,6 +10186,7 @@ div.EXLResultsHeader:focus {
   display: block;
   margin-right: 2.5641%;
   width: 65.81197%;
+  float: right;
   background-color: transparent;
   margin-bottom: 20px; }
   .EXLResultsContainer div.EXLResultsTile:last-child {
@@ -10223,7 +10201,7 @@ div.EXLResultsHeader:focus {
 .EXLResultsHeader h1 {
   color: #8c8c8c;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 24px;
   padding: 0em 0em 0em 1em;
   margin: 0px;
   margin-bottom: 0.2em;

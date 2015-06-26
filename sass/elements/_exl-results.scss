@@ -3,19 +3,6 @@
     @include span-columns(12);
 }
 
-.parent {
-  @include outer-container;
-
-  .left-sidebar {
-    @include span-columns(4);
-  }
-
-  .content {
-    @include span-columns(8);
-    @include omega();
-  }
-}
-
 div.EXLResultsContainer:focus {
     outline: none;
 }
@@ -27,6 +14,7 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
     @include reset-margins;
     @include span-columns(8);
+    float: right;
     background-color: transparent;
     margin-bottom: $spacing-small;
 }
@@ -41,7 +29,7 @@ div.EXLResultsHeader:focus {
 .EXLResultsHeader h1 {
     color: #8c8c8c;
     font-weight: bold;
-    font-size: 80%;
+    font-size: $h3-fontsize;
     padding: 0em 0em 0em 1em;
     margin: 0px;
     margin-bottom: 0.2em;

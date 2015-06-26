@@ -1,6 +1,7 @@
 .EXLFacetTile {
     @include reset-margins;
     @include span-columns(4);
+    float: left;
 }
 
 .EXLFacetTile h2 {
