@@ -653,9 +653,15 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   cursor: pointer; }
 
 .EXLSearchFieldRibbonAdvancedSearchLink {
-  float: right;
-  width: 9%;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 23.07692%;
   white-space: nowrap; }
+  .EXLSearchFieldRibbonAdvancedSearchLink:last-child {
+    margin-right: 0; }
 
 * html .EXLSearchFieldRibbonAdvancedSearchLink {
   clear: left;
@@ -838,9 +844,16 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
   width: 65%; }
 
 .EXLSearchFieldRibbonBrowseSearchLink {
-  float: right;
-  width: 9%;
-  white-space: nowrap; }
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 23.07692%;
+  height: auto; }
+  .EXLSearchFieldRibbonBrowseSearchLink:last-child {
+    margin-right: 0; }
 
 * html .EXLSearchFieldRibbonBrowseSearchLink {
   clear: left;
