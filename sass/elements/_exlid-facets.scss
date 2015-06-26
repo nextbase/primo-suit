@@ -4,6 +4,13 @@
     @include shift(-12);
 }
 
+@include media($tablet) {
+  .EXLFacetTile {
+      @include span-columns(4);
+      @include shift(-12);
+  }
+}
+
 .EXLFacetTile h2 {
     display: none
 }

@@ -9873,6 +9873,16 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
+@media screen and (max-width: 768px) {
+  .EXLFacetTile {
+    float: left;
+    display: block;
+    margin-right: 3.8961%;
+    width: 48.05195%;
+    margin-left: -155.84416%; }
+    .EXLFacetTile:last-child {
+      margin-right: 0; } }
+
 .EXLFacetTile h2 {
   display: none; }
 
