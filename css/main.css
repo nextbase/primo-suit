@@ -10165,13 +10165,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .EXLResultsContainer {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  .EXLResultsContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%; }
+  .EXLResultsContainer:last-child {
+    margin-right: 0; }
 
 .parent {
   max-width: 1170px;
@@ -10210,7 +10209,6 @@ div.EXLResultsHeader:focus {
   display: block;
   margin-right: 2.5641%;
   width: 65.81197%;
-  padding-left: 0;
   background-color: transparent;
   margin-bottom: 20px; }
   .EXLResultsContainer div.EXLResultsTile:last-child {

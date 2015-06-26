@@ -1,6 +1,6 @@
 .EXLResultsContainer {
     @include reset-margins;
-    @include outer-container;
+    @include span-columns(12);
 }
 
 .parent {
@@ -27,7 +27,6 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
     @include reset-margins;
     @include span-columns(8);
-    padding-left: 0;
     background-color: transparent;
     margin-bottom: $spacing-small;
 }
