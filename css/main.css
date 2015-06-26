@@ -1148,6 +1148,7 @@ body.EXLFullView div.EXLBackToResults {
     border-right: none; }
 
 #exlidSearchTabs li {
+  list-style: none;
   border: none;
   height: auto; }
 
