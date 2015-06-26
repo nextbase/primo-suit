@@ -1,0 +1,210 @@
+.EXLResultsList {
+    clear: left;
+    font-size: 80%;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    border-top: 1px solid #e4e4e4;
+    width: 100%;
+}
+
+.EXLResultsList table {
+    width: 100%
+}
+
+.EXLResultsList th {}
+
+.EXLResultsList td {
+    font-size: 100%;
+    padding-top: 0em;
+    margin-top: 0px;
+    vertical-align: top;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.EXLResultsList h2 {
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0.5em;
+}
+
+.EXLResultsList h3 {
+    font-size: 100%;
+    font-weight: normal
+}
+
+.EXLResultsList p.EXLResultSnippet {
+    color: #808080;
+}
+
+.EXLResultsList p.EXLResultSnippet b.searchword {
+    color: #000000;
+}
+
+.EXLResultsList p.EXLTocLink {
+    font-weight: bold;
+    margin-top: 1em;
+    color: #0075b0;
+    font-size: 95%;
+}
+
+.EXLResultsList span.EXLResultVersionFound {
+    color: #E87107;
+    font-weight: bold
+}
+
+body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 0.5em;
+}
+
+body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
+    font-size: 100%;
+    font-weight: normal;
+    padding-top: 0em;
+}
+
+.EXLResultsList div.EXLSummaryContainer {
+    clear: both;
+    width: 100%
+}
+
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
+    float: left;
+    width: 77%;
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
+    float: right;
+    background-color: #efefef;
+    font-size: 100%;
+    font-style: normal;
+    max-height: 22px;
+    max-width: 195px;
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgFRBR {
+    background-image: url(../images/bg_diagonal_frbr.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    background-color: #ffffff;
+    background-position: center;
+    display: block;
+    height: 22px;
+    float: left;
+    clear: right
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgRtlFRBR {
+    display: none
+}
+
+.EXLResultsList cite a {
+    padding: 0em 0.5em 0em 0.1em;
+    line-height: 160%
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultNew {
+    float: right;
+    width: auto;
+    background-color: #fffba4;
+    font-size: 100%;
+    font-style: normal;
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultNew span.EXLResultBgNew {
+    background-image: url(../images/bg_diagonal_new_result.png);
+    background-repeat: no-repeat;
+    width: 22px;
+    background-color: #ffffff;
+    background-position: center;
+    display: block;
+    height: 22px;
+    float: left;
+    clear: right
+}
+
+.EXLResultsList div.EXLSummaryContainer cite.EXLResultNew span.EXLResultBgRtlNew {
+    display: none
+}
+
+.EXLResultsList td.EXLThumbnail {
+    width: 4.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    vertical-align: top;
+}
+
+.EXLResultsList td.EXLThumbnail img {
+    padding: 0em;
+    margin: 0px;
+    border: none;
+    vertical-align: bottom;
+    width: 38px;
+    height: 56px;
+}
+
+.EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
+    border: 1px solid #ffffff;
+    padding: 0px;
+    margin: 0px;
+    display: block
+}
+
+.EXLResultsList td.EXLMyShelfStar {
+    width: 1.5em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
+    text-align: left
+}
+
+.EXLResultsList td.EXLSummary {
+    padding-top: 0em;
+}
+
+.EXLResultsList em.EXLResultStatusAvailable {
+    background-image: url(../images/icon_available.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 15px;
+    color: #000000
+}
+
+.EXLResultsList em.EXLResultStatusNotAvailable {
+    background-image: url(../images/icon_unavailable_grey.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 15px;
+    color: #000000
+}
+
+.EXLResultsList em.EXLResultStatusMaybeAvailable {
+    background-image: url(../images/icon_yellow.png);
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    padding-left: 15px;
+    color: #000000
+}
+
+.EXLResultsList span.EXLAvailabilityLibraryName {
+    color: #000000;
+    font-weight: normal
+}
+
+.EXLResultsList span.EXLAvailabilityCollectionName {
+    color: #000000;
+    font-weight: normal
+}
+
+.EXLResultsList span.EXLAvailabilityCallNumber {
+    color: #000000;
+    font-weight: normal
+}
+
+.EXLResultsList span.EXLAvailabilityRTAupdating {
+    color: #000000;
+    font-weight: normal
+}
