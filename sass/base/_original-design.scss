@@ -1642,8 +1642,8 @@ pre.sourcecode {
 .qtip-youtube .qtip-content {
     padding: .75em;
     font: 12px arial, sans-serif;
-    filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"
+    // filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);
+    // -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"
 }
 
 .qtip-youtube .qtip-icon {
@@ -1674,13 +1674,13 @@ pre.sourcecode {
 
 .qtip-jtools .qtip-titlebar {
     background-color: transparent;
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"
+    // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A);
+    // -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171, endColorstr=#4A4A4A)"
 }
 
 .qtip-jtools .qtip-content {
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"
+    // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323);
+    // -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A, endColorstr=#232323)"
 }
 
 .qtip-jtools .qtip-titlebar,
@@ -1772,8 +1772,8 @@ pre.sourcecode {
     background-image: -moz-linear-gradient(top, #3A79B8, #2E629D);
     background-image: -ms-linear-gradient(top, #3A79B8, #2E629D);
     background-image: -o-linear-gradient(top, #3A79B8, #2E629D);
-    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"
+    // filter: progid: DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D);
+    // -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8, endColorstr=#2E629D)"
 }
 
 .qtip-tipped .qtip-icon {
@@ -3188,13 +3188,11 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLFindDBEditSetHeaderAddtoSetEdit legend {
     float: left;
     width: 100%;
-    color: #000000!ie;
 }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLFindDBEditSetHeaderAddtoSetEdit legend span {
     padding-left: 0.5em;
     font-weight: bold;
-    padding-left: 0em!ie;
 }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLFindDBEditSetHeaderAddtoSetEdit fieldset.EXLMyDBExistingSet {
@@ -3243,7 +3241,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent fieldset.EXLMyDBNewSet div.EXLMyDBCreateSet input.EXLSubmit {
     left: -1em;
-    left: 0em!ie;
     position: relative;
     vertical-align: text-top;
 }
@@ -5282,7 +5279,6 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     font-size: 90%;
     margin-bottom: 1em;
     float: left;
-    float: none!ie;
 }
 
 .EXLRequestTabContent div.EXLRequestTipsList li span.EXLRequestTipsBullet {
@@ -8445,7 +8441,6 @@ a.EXLLoansRenewButton {
     padding-left: 1.5em;
     padding-bottom: 0.2em;
     position: relative;
-    position: static!ie;
 }
 
 .EXLLocationsTabContent div.EXLLocationList table.EXLLocationTable td.EXLHideInfo ul li {
@@ -8488,8 +8483,6 @@ a.EXLLoansRenewButton {
     clear: both;
     float: right;
     margin-top: -16px;
-    margin-top: 25px!ie;
-    margin-bottom: -30px!ie;
 }
 
 .EXLPersonalizedRanking {
@@ -8533,19 +8526,13 @@ a.EXLLoansRenewButton {
     font-size: 90%;
     line-height: 210%;
     margin-left: 1em;
-    width: 70%!ie;
-    float: left!ie;
 }
 
 .EXLLightbox div.EXLLightboxHeader a.EXLLightboxHeaderClose {
     float: right;
     margin-right: 1em;
     margin-top: 0.6em;
-    clear: left!ie;
-    display: inline!ie;
-    width: 10%!ie;
     text-align: right;
-    !ie
 }
 
 .EXLLightbox div.EXLLightboxFormContainer {
@@ -8711,7 +8698,6 @@ a.EXLLoansRenewButton {
 
 .EXLLighboxCancelButton span {
     margin-left: 0.5em;
-    margin-left: 0em!ie;
 }
 
 .EXLLighboxCancelButton span input {
@@ -9079,8 +9065,6 @@ a.EXLLoansRenewButton {
     float: left;
     margin-top: 0em;
     margin-bottom: 1em;
-    margin-bottom: 0em!ie;
-    padding-top: 2em!ie
 }
 
 .EXLPopupImportCitation div.EXLPopupRow select {
@@ -9096,7 +9080,6 @@ a.EXLLoansRenewButton {
     height: auto;
     width: 80%;
     margin-top: 2em;
-    margin-top: 1em!ie;
 }
 
 .EXLPopupImportCitationContainer div.EXLPopupImportCitationButtonLink {
@@ -9198,15 +9181,12 @@ a.EXLLoansRenewButton {
     float: left;
     margin-top: 0em;
     margin-bottom: 1em;
-    margin-bottom: 0em!ie;
-    padding-top: 2em!ie
 }
 
 .EXLPopupPermalinkContainer div.EXLPopupPermalinkButtons {
     height: auto;
     width: 80%;
     margin-top: 2em;
-    margin-top: 1em!ie;
 }
 
 .EXLPermalinkURL {
@@ -9353,15 +9333,12 @@ div.EXLPermalinkHeaderButtons li a span.EXLPermalinkHeaderButtonClose {
     float: left;
     margin-top: 0em;
     margin-bottom: 1em;
-    margin-bottom: 0em!ie;
-    padding-top: 2em!ie
 }
 
 .EXLPopupOpenUrlContainer div.EXLPopupOpenUrlButtons {
     height: auto;
     width: 80%;
     margin-top: 2em;
-    margin-top: 1em!ie;
 }
 
 .EXLOpenlinkURL {
@@ -9605,11 +9582,9 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     font-size: 80%;
 }
 
-@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) {
-    @media {
-        .datebox {
-            min-width: 3.5em;
-        }
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+    .datebox {
+        min-width: 3.5em;
     }
 }
 
@@ -10992,7 +10967,7 @@ table.EXLDetailsTabTOCTable tr td {
     }
     .EXLTabsRibbon div li.EXLFirstSelectedTab a {
         padding-left: 0.5em;
-        color: #fffffff;
+        color: #ffffff;
     }
     body.EXLFullView div.EXLTabsRibbon div li.EXLResultSelectedTab a {
         color: #ffffff;
