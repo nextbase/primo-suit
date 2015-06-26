@@ -27,12 +27,8 @@ div.EXLResultsHeader:focus {
 .EXLResultsContainer div.EXLResultsTile {
     @include reset-margins;
     @include span-columns(8);
-    width: 78%;
-    border-left: none;
     padding-left: 0;
-    background-color: #FFFFFF;
-    margin-top: 0em;
-    margin-bottom: 2em
+    background-color: transparent;
 }
 
 .EXLResultsHeader {
