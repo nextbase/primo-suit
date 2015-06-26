@@ -364,16 +364,17 @@ p {
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
+  font-size: 18px;
   width: 400px;
   border: none;
   display: block;
-  height: 18px;
+  height: auto;
   padding: 10px 20px;
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
-  -moz-border-top-left-radius: 5px;
-  border-top-left-radius: 5px;
-  -moz-border-bottom-left-radius: 5px;
-  border-bottom-left-radius: 5px; }
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  -moz-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-bottom-left-radius: 4px;
+  border-bottom-left-radius: 4px; }
 
 #exlidSearchRibbon input:focus {
   outline: none; }
