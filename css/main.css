@@ -659,6 +659,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   display: block;
   margin-right: 2.5641%;
   width: 23.07692%;
+  margin-right: 0;
   white-space: nowrap; }
   .EXLSearchFieldRibbonAdvancedSearchLink:last-child {
     margin-right: 0; }
@@ -851,6 +852,7 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
   display: block;
   margin-right: 2.5641%;
   width: 23.07692%;
+  margin-right: 0;
   height: auto; }
   .EXLSearchFieldRibbonBrowseSearchLink:last-child {
     margin-right: 0; }

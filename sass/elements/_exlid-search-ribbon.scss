@@ -361,6 +361,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 .EXLSearchFieldRibbonAdvancedSearchLink {
     @include reset-margins;
     @include span-columns(3);
+    @include omega();
     white-space: nowrap;
 }
 
@@ -579,6 +580,7 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
     white-space: nowrap;
     @include reset-margins;
     @include span-columns(3);
+    @include omega();
     height: auto;
 }
 
