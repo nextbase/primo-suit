@@ -1,6 +1,6 @@
 .EXLResultsContainer {
     @include reset-margins;
-    @include row();
+    @include outer-container;
 }
 
 div.EXLResultsContainer:focus {

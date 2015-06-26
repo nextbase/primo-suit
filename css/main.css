@@ -9869,7 +9869,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: block;
   margin-right: 2.5641%;
   width: 23.07692%;
-  margin-left: -68.37607%; }
+  margin-left: -102.5641%; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
@@ -10166,7 +10166,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .EXLResultsContainer {
   margin: 0;
   padding: 0;
-  display: block; }
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
   .EXLResultsContainer::after {
     clear: both;
     content: "";
