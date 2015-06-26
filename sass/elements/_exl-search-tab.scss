@@ -67,7 +67,6 @@ $search-tab-font-size: 18px;
 #exlidSearchTabs li.EXLSearchTabSelected {
     float: left;
     border: none;
-    padding: (($search-tab-height - $search-tab-font-size) / 2) 0;
     color: $yellow;
     background-color: transparent;
     height: auto;
@@ -77,6 +76,5 @@ $search-tab-font-size: 18px;
 
     a {
         color: $yellow;
-        padding: 2px ($search-tab-height / 2);
     }
 }

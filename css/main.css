@@ -1048,7 +1048,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidSearchTabs li.EXLSearchTabSelected {
   float: left;
   border: none;
-  padding: 11px 0;
   color: #ffcc00;
   background-color: transparent;
   height: auto;
@@ -1056,8 +1055,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   text-align: left;
   font-weight: bold; }
   #exlidSearchTabs li.EXLSearchTabSelected a {
-    color: #ffcc00;
-    padding: 2px 20px; }
+    color: #ffcc00; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
