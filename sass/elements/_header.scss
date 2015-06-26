@@ -3,6 +3,7 @@
     @include span-columns(12);
     @include omega();
     margin-bottom: $section-spacing;
+    background: #eee;
 }
 
 #exlidHeaderTile {
