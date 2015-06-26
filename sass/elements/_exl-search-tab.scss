@@ -37,10 +37,26 @@ $search-tab-font-size: 18px;
         text-align: center;
         color: $white;
         padding: (($search-tab-height - $search-tab-font-size) / 2) ($search-tab-height / 2);
-        padding-left: 0;
         cursor: pointer;
-
         @include add-text-shadow($black);
+
+        border-right: 1px solid $white;
+    }
+
+    &:first-child {
+
+        a {
+            padding-left: 0;
+        }
+
+    }
+
+    &:last-child {
+
+        a {
+            border-right: none;
+        }
+
     }
 }
 

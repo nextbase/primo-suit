@@ -1031,11 +1031,15 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     text-align: center;
     color: #ffffff;
     padding: 11px 20px;
-    padding-left: 0;
     cursor: pointer;
     -webkit-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
     -moz-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
-    text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5); }
+    text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
+    border-right: 1px solid #ffffff; }
+  #exlidSearchTabs li:first-child a {
+    padding-left: 0; }
+  #exlidSearchTabs li:last-child a {
+    border-right: none; }
 
 #exlidSearchTabs li {
   border: none;
