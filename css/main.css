@@ -9796,8 +9796,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuRibbon {
   float: right;
+  list-style: none;
   padding: 0;
-  list-style: none; }
+  margin: 0; }
 
 #exlidMainMenuRibbon li {
   margin: 0;
