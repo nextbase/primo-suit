@@ -29,6 +29,7 @@ div.EXLResultsHeader:focus {
     @include span-columns(8);
     padding-left: 0;
     background-color: transparent;
+    margin-bottom: $spacing-small;
 }
 
 .EXLResultsHeader {

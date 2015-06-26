@@ -10211,7 +10211,8 @@ div.EXLResultsHeader:focus {
   margin-right: 2.5641%;
   width: 65.81197%;
   padding-left: 0;
-  background-color: transparent; }
+  background-color: transparent;
+  margin-bottom: 20px; }
   .EXLResultsContainer div.EXLResultsTile:last-child {
     margin-right: 0; }
 
