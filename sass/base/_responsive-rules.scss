@@ -2,6 +2,12 @@
 // Hide Some Stuff
 
 @include media($mobile) {
+	* {
+		display: none;
+	}
+}
+
+@include media($mobile) {
 
 	.folders_new,
 	.draggable,
