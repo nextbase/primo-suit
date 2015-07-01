@@ -8911,7 +8911,8 @@ div.form-element {
   border: none;
   margin-bottom: 10px; }
 
-/* Buttons Mixin */
+/* Button Mixins */
+/* Input Mixins */
 .button,
 button,
 input[type="submit"],
@@ -8920,6 +8921,7 @@ input[type="button"] {
   font-family: sans-serif;
   display: inline-block;
   height: auto;
+  width: auto;
   padding: 3px 20px;
   background-color: #bcbdb6;
   text-align: center;
@@ -9126,6 +9128,29 @@ input[type="button"] {
     font-size: 14px;
     line-height: 24px;
     padding: 1.5px 10px; }
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  border: none;
+  display: block;
+  padding: 3px 10px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #f2f2f0;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
 
 #exlidHeaderContainer {
   margin: 0;
