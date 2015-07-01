@@ -8882,12 +8882,6 @@ ul li {
 ol li {
   list-style: ideograph-numeric inside; }
 
-fieldset {
-  background-color: white;
-  border: 1px solid #f2f2f0;
-  margin: 0 0 20px;
-  padding: 20px; }
-
 input,
 label,
 select {
@@ -8896,7 +8890,7 @@ select {
   font-size: 16px; }
 
 label {
-  font-weight: 600;
+  font-weight: normal;
   margin-bottom: 10px; }
   label.required::after {
     content: "*"; }

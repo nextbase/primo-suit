@@ -3,13 +3,6 @@ $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 $base-border-radius: 3px;
 
-fieldset {
-  background-color: lighten($base-border-color, 10%);
-  border: $base-border;
-  margin: 0 0 $spacing-small;
-  padding: $spacing-small;
-}
-
 input,
 label,
 select {
@@ -19,7 +12,7 @@ select {
 }
 
 label {
-  font-weight: 600;
+  font-weight: normal;
   margin-bottom: $spacing-small / 2;
 
   &.required::after {
