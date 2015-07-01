@@ -17,7 +17,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	height: 36px;
+	height: auto;
 	padding: 0 $form-spacing-width;
 	color: $gold;
 	text-align: center;

@@ -8894,7 +8894,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   display: inline-block;
-  height: 36px;
+  height: auto;
   padding: 0 20px;
   color: #987c4d;
   text-align: center;
