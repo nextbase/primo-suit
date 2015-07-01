@@ -8882,69 +8882,71 @@ ul li {
 ol li {
   list-style: ideograph-numeric inside; }
 
-input,
-label,
-select {
-  display: block;
-  font-family: "Noto Sans Korean", sans-serif;
-  font-size: 16px; }
-
 label {
-  font-weight: normal;
-  margin-bottom: 10px; }
-  label.required::after {
-    content: "*"; }
-  label abbr {
-    display: none; }
-
-input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
-select[multiple=multiple],
-textarea {
-  background-color: #ffffff;
-  border: 1px solid #f2f2f0;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
-  box-sizing: border-box;
-  font-family: "Noto Sans Korean", sans-serif;
-  font-size: 16px;
-  margin-bottom: 10px;
-  padding: 6.66667px;
-  transition: border-color;
-  width: 100%; }
-  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
-  select[multiple=multiple]:hover,
-  textarea:hover {
-    border-color: #dadad5; }
-  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
-  select[multiple=multiple]:focus,
-  textarea:focus {
-    border-color: #477dca;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
-    outline: none; }
-
-textarea {
-  resize: vertical; }
-
-input[type="search"] {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  -o-appearance: none;
-  appearance: none; }
-
-input[type="checkbox"],
-input[type="radio"] {
-  display: inline;
-  margin-right: 10px; }
-
-input[type="file"] {
-  padding-bottom: 20px;
-  width: 100%; }
-
-select {
-  margin-bottom: 20px;
-  max-width: 100%;
+  font-size: 14px;
+  display: block;
+  float: left;
   width: auto; }
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 36px;
+  padding: 0 20px;
+  color: #987c4d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer; }
+  .button:hover,
+  .button:focus,
+  button:hover,
+  button:focus,
+  input[type="submit"]:hover,
+  input[type="submit"]:focus,
+  input[type="reset"]:hover,
+  input[type="reset"]:focus,
+  input[type="button"]:hover,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0; }
+    .button.button-primary:hover,
+    .button.button-primary:focus,
+    button.button-primary:hover,
+    button.button-primary:focus,
+    input[type="submit"].button-primary:hover,
+    input[type="submit"].button-primary:focus,
+    input[type="reset"].button-primary:hover,
+    input[type="reset"].button-primary:focus,
+    input[type="button"].button-primary:hover,
+    input[type="button"].button-primary:focus {
+      color: #FFF;
+      background-color: #1EAEDB;
+      border-color: #1EAEDB; }
+
+/* Fix for odd Mozilla border & padding issues */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
 
 #exlidHeaderContainer {
   margin: 0;
@@ -9873,7 +9875,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   list-style: none; }
 
 #exlidMainMenuRibbon li a {
-  color: #333333;
+  color: #444444;
   text-decoration: none;
   padding: 0 5px; }
 
@@ -10281,7 +10283,7 @@ div.EXLResultsHeader:focus {
   padding-top: 2px; }
 
 .EXLResultsHeader h1 {
-  color: #333333;
+  color: #444444;
   font-weight: bold;
   font-size: 18px;
   padding: 0em 0em 0em 1em;
@@ -11107,7 +11109,7 @@ body.EXLFullView div.EXLBackToResults {
   padding: 0; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-  color: #333333; }
+  color: #444444; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
   margin: 0;

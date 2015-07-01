@@ -1,6 +1,5 @@
-$white: #ffffff;
-
 $black: #333333;
+$white: #ffffff;
 $black-secondary: #000000;
 
 $gold: #987c4d;
@@ -21,7 +20,7 @@ $gray-hover: #a7a8a2;
 $gray-light: #f2f2f0;
 $gray-light-secondary: #dfdfdc;
 
-$gray-dark: #333333;
+$gray-dark: #444444;
 $gray-dark-secondary: #666666;
 
 $base-font-color: #333333;
@@ -30,19 +29,22 @@ $alert-red: #F5C3C4;
 $alert-red-text: #9C4144;
 $alert-green: #8BAD79;
 
-$blue: #477dca;
-$action-color: $blue;
-$base-background-color: $white;
-$base-font-color: $gray-dark;
+$blue-dark: #2391b2;
+$blue-light: #46c3e8;
 
-$form-blue: #46c2e7;
-$form-blue-hover: #38aed1;
-$form-blue-rgba: rgba(70, 194, 231, 0.4);
-$form-blue-box-shadow: 0 0 30px 0 $form-blue-rgba;
-$form-blue-box-shadow-focus: $form-blue-box-shadow, 0 0 5px adjust-color($form-blue-rgba, $lightness: -5%, $alpha: -0.3);
-$form-box-shadow-top: inset 0 7px 9px -7px rgba(0,0,0,0.7);
-$form-gray: #d8d0c4;
-$green: #6ca95c;
+// $blue: #477dca;
+// $action-color: $blue;
+// $base-background-color: $white;
+// $base-font-color: $gray-dark;
 
-$base-border-color: $gray-light;
-$base-border: 1px solid $base-border-color;
+// $form-blue: #46c2e7;
+// $form-blue-hover: #38aed1;
+// $form-blue-rgba: rgba(70, 194, 231, 0.4);
+// $form-blue-box-shadow: 0 0 30px 0 $form-blue-rgba;
+// $form-blue-box-shadow-focus: $form-blue-box-shadow, 0 0 5px adjust-color($form-blue-rgba, $lightness: -5%, $alpha: -0.3);
+// $form-box-shadow-top: inset 0 7px 9px -7px rgba(0,0,0,0.7);
+// $form-gray: #d8d0c4;
+// $green: #6ca95c;
+//
+// $base-border-color: $gray-light;
+// $base-border: 1px solid $base-border-color;
