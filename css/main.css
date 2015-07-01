@@ -8795,6 +8795,23 @@ html {
     content: "";
     display: table; }
 
+.outter-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .outter-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.large-12 {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%; }
+  .large-12:last-child {
+    margin-right: 0; }
+
 @font-face {
   font-family: 'Noto Sans Korean';
   font-style: normal;
@@ -8886,68 +8903,229 @@ label {
   font-size: 14px;
   display: block;
   float: left;
-  width: auto; }
+  width: auto;
+  min-width: 160px;
+  border: none; }
 
+div.form-element {
+  border: none;
+  margin-bottom: 10px; }
+
+/* Buttons Mixin */
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+  font-family: sans-serif;
   display: inline-block;
   height: auto;
-  padding: 5px 30px;
-  color: #987c4d;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
   text-align: center;
   font-size: 16px;
   font-weight: normal;
-  line-height: 36px;
-  letter-spacing: 0.1rem;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
+  border-radius: 3px;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px; }
+  .button::-moz-focus-inner,
+  button::-moz-focus-inner,
+  input[type="submit"]::-moz-focus-inner,
+  input[type="reset"]::-moz-focus-inner,
+  input[type="button"]::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
   .button:hover,
-  .button:focus,
+  .button:active,
   button:hover,
-  button:focus,
+  button:active,
   input[type="submit"]:hover,
-  input[type="submit"]:focus,
+  input[type="submit"]:active,
   input[type="reset"]:hover,
-  input[type="reset"]:focus,
+  input[type="reset"]:active,
   input[type="button"]:hover,
-  input[type="button"]:focus {
-    color: #333;
-    border-color: #888;
-    outline: 0; }
-  .button.button-primary,
-  button.button-primary,
-  input[type="submit"].button-primary,
-  input[type="reset"].button-primary,
-  input[type="button"].button-primary {
-    color: #FFF;
-    background-color: #33C3F0;
-    border-color: #33C3F0; }
-    .button.button-primary:hover,
-    .button.button-primary:focus,
-    button.button-primary:hover,
-    button.button-primary:focus,
-    input[type="submit"].button-primary:hover,
-    input[type="submit"].button-primary:focus,
-    input[type="reset"].button-primary:hover,
-    input[type="reset"].button-primary:focus,
-    input[type="button"].button-primary:hover,
-    input[type="button"].button-primary:focus {
-      color: #FFF;
-      background-color: #1EAEDB;
-      border-color: #1EAEDB; }
-
-/* Fix for odd Mozilla border & padding issues */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
+  input[type="button"]:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  .button:active,
+  button:active,
+  input[type="submit"]:active,
+  input[type="reset"]:active,
+  input[type="button"]:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  .button.outline,
+  button.outline,
+  input[type="submit"].outline,
+  input[type="reset"].outline,
+  input[type="button"].outline {
+    color: #987c4d;
+    background-color: transparent;
+    border: 2px solid transparent;
+    border: 2px solid #a98a56; }
+    .button.outline:hover,
+    .button.outline:active,
+    button.outline:hover,
+    button.outline:active,
+    input[type="submit"].outline:hover,
+    input[type="submit"].outline:active,
+    input[type="reset"].outline:hover,
+    input[type="reset"].outline:active,
+    input[type="button"].outline:hover,
+    input[type="button"].outline:active {
+      color: #ffffff;
+      background-color: #987c4d;
+      border: 2px solid #987c4d; }
+    .button.outline:active,
+    button.outline:active,
+    input[type="submit"].outline:active,
+    input[type="reset"].outline:active,
+    input[type="button"].outline:active {
+      color: #ffffff;
+      background-color: #987c4d;
+      border-color: #7d663f;
+      box-shadow: inset 2px 2px 2px 1px rgba(125, 102, 63, 0.5); }
+  .button.action,
+  button.action,
+  input[type="submit"].action,
+  input[type="reset"].action,
+  input[type="button"].action {
+    color: #ffffff;
+    background-color: #fd8000;
+    border: 2px solid #fd8000; }
+    .button.action:hover,
+    .button.action:active,
+    button.action:hover,
+    button.action:active,
+    input[type="submit"].action:hover,
+    input[type="submit"].action:active,
+    input[type="reset"].action:hover,
+    input[type="reset"].action:active,
+    input[type="button"].action:hover,
+    input[type="button"].action:active {
+      color: #ffffff;
+      background-color: #e47300;
+      border-color: #d46b00; }
+    .button.action:active,
+    button.action:active,
+    input[type="submit"].action:active,
+    input[type="reset"].action:active,
+    input[type="button"].action:active {
+      color: #ffffff;
+      background-color: #d46b00;
+      border-color: #c06100;
+      box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+    .button.action.outline,
+    button.action.outline,
+    input[type="submit"].action.outline,
+    input[type="reset"].action.outline,
+    input[type="button"].action.outline {
+      color: #fd8000;
+      background-color: transparent;
+      border: 2px solid transparent;
+      border: 2px solid #ff8d18; }
+      .button.action.outline:hover,
+      .button.action.outline:active,
+      button.action.outline:hover,
+      button.action.outline:active,
+      input[type="submit"].action.outline:hover,
+      input[type="submit"].action.outline:active,
+      input[type="reset"].action.outline:hover,
+      input[type="reset"].action.outline:active,
+      input[type="button"].action.outline:hover,
+      input[type="button"].action.outline:active {
+        color: #ffffff;
+        background-color: #fd8000;
+        border: 2px solid #fd8000; }
+      .button.action.outline:active,
+      button.action.outline:active,
+      input[type="submit"].action.outline:active,
+      input[type="reset"].action.outline:active,
+      input[type="button"].action.outline:active {
+        color: #ffffff;
+        background-color: #fd8000;
+        border-color: #d46b00;
+        box-shadow: inset 2px 2px 2px 1px rgba(212, 107, 0, 0.5); }
+  .button.secondary,
+  button.secondary,
+  input[type="submit"].secondary,
+  input[type="reset"].secondary,
+  input[type="button"].secondary {
+    color: #ffffff;
+    background-color: #b6a082;
+    border: 2px solid #b6a082; }
+    .button.secondary:hover,
+    .button.secondary:active,
+    button.secondary:hover,
+    button.secondary:active,
+    input[type="submit"].secondary:hover,
+    input[type="submit"].secondary:active,
+    input[type="reset"].secondary:hover,
+    input[type="reset"].secondary:active,
+    input[type="button"].secondary:hover,
+    input[type="button"].secondary:active {
+      color: #ffffff;
+      background-color: #ad9472;
+      border-color: #a78c68; }
+    .button.secondary:active,
+    button.secondary:active,
+    input[type="submit"].secondary:active,
+    input[type="reset"].secondary:active,
+    input[type="button"].secondary:active {
+      color: #ffffff;
+      background-color: #a78c68;
+      border-color: #9e825c;
+      box-shadow: inset 2px 2px 2px 1px rgba(158, 130, 92, 0.5); }
+    .button.secondary.outline,
+    button.secondary.outline,
+    input[type="submit"].secondary.outline,
+    input[type="reset"].secondary.outline,
+    input[type="button"].secondary.outline {
+      color: #b6a082;
+      background-color: transparent;
+      border: 2px solid transparent;
+      border: 2px solid #bfac92; }
+      .button.secondary.outline:hover,
+      .button.secondary.outline:active,
+      button.secondary.outline:hover,
+      button.secondary.outline:active,
+      input[type="submit"].secondary.outline:hover,
+      input[type="submit"].secondary.outline:active,
+      input[type="reset"].secondary.outline:hover,
+      input[type="reset"].secondary.outline:active,
+      input[type="button"].secondary.outline:hover,
+      input[type="button"].secondary.outline:active {
+        color: #ffffff;
+        background-color: #b6a082;
+        border: 2px solid #b6a082; }
+      .button.secondary.outline:active,
+      button.secondary.outline:active,
+      input[type="submit"].secondary.outline:active,
+      input[type="reset"].secondary.outline:active,
+      input[type="button"].secondary.outline:active {
+        color: #ffffff;
+        background-color: #b6a082;
+        border-color: #a78c68;
+        box-shadow: inset 2px 2px 2px 1px rgba(167, 140, 104, 0.5); }
+  .button.small,
+  button.small,
+  input[type="submit"].small,
+  input[type="reset"].small,
+  input[type="button"].small {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 1.5px 10px; }
 
 #exlidHeaderContainer {
   margin: 0;

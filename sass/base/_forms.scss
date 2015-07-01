@@ -1,63 +1,137 @@
 // Forms
 // $form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
 // $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
-$base-border-radius: 3px;
-
-$form-spacing-horizontal: 20px;
-$form-spacing-vertical: 5px;
+$form-border-radius: 3px;
+$form-spacing-horizontal: 10px;
+$form-spacing-vertical: 3px;
+$form-line-height: 28px;
+$form-line-height-small: 24px;
+$hightlight-border: none;
 
 label {
   font-size: $small-font-size;
   display: block;
   float: left;
   width: auto;
+  min-width: 160px;
+  border: $hightlight-border;
 }
+
+div.form-element {
+  border: $hightlight-border;
+  margin-bottom: 10px;
+}
+
+/* Buttons Mixin */
+
+@mixin button() {
+  // Standard Stuff
+  font-family: sans-serif;
+  display: inline-block;
+	height: auto;
+	padding: $form-spacing-vertical ($form-spacing-horizontal * 2);
+  background-color: $gray;
+  text-align: center;
+	font-size: $base-font-size;
+	font-weight: normal;
+	text-decoration: none;
+	white-space: nowrap;
+	border-radius: $form-border-radius;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+
+  &::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+}
+
+@mixin set-button-color($background-color: $gold, $text-color: $white, $outline: "false") {
+  color: $text-color;
+  background-color: $background-color;
+  border: 2px solid $background-color;
+
+  @if $outline == "false" {
+    // Default Colors
+    &:hover,
+    &:active {
+      color: $text-color;
+      background-color: darken($background-color, 5%);
+      border-color: darken($background-color, 8%);
+    }
+
+    &:active {
+      color: $text-color;
+      background-color: darken($background-color, 8%);
+      border-color: darken($background-color, 12%);
+      @include prefixer(box-shadow, inset 2px 2px 2px 1px rgba(darken($background-color, 12%), .5), webkit moz spec);
+    }
+
+  } @else {
+    border: 2px solid lighten($text-color, 5%);
+
+    &:hover,
+    &:active {
+      color: $white;
+      background-color: $text-color;
+      border: 2px solid $text-color;
+    }
+
+    &:active {
+      color: $white;
+      background-color: $text-color;
+      border-color: darken($text-color, 8%);
+      @include prefixer(box-shadow, inset 2px 2px 2px 1px rgba(darken($text-color, 8%), .5), webkit moz spec);
+    }
+  }
+}
+
+@mixin set-button-size($size: "default") {
+  @if $size == "default" {
+    line-height: $form-line-height;
+  } @else {
+    font-size: $base-font-size - 2px;
+    line-height: $form-line-height-small;
+    padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
+  }
+}
+
+
 
 .button,
 button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	display: inline-block;
-	height: auto;
-	padding: $form-spacing-vertical $form-spacing-horizontal * 1.5;
-	color: $gold;
-	text-align: center;
-	font-size: $base-font-size;
-	font-weight: normal;
-	line-height: 36px;
-	letter-spacing: 0.1rem;
-	text-decoration: none;
-	white-space: nowrap;
-	background-color: transparent;
-	border-radius: 4px;
-	border: none;
-	cursor: pointer;
+  @include button;
+  @include set-button-color($gold);
+  @include set-button-size;
 
-	&:hover,
-	&:focus {
-		color: #333;
-		border-color: #888;
-		outline: 0;
-	}
-	&.button-primary {
-		color: #FFF;
-		background-color: #33C3F0;
-		border-color: #33C3F0;
-		&:hover,
-		&:focus {
-			color: #FFF;
-			background-color: #1EAEDB;
-			border-color: #1EAEDB;
-		}
-	}
-}
+  &.outline {
+    @include set-button-color(transparent, $gold, "outline");
+  }
 
-/* Fix for odd Mozilla border & padding issues */
-button,
-input {
-	&::-moz-focus-inner {
-		border: 0;
-		padding: 0;
-	}
+  &.action {
+    @include set-button-color($orange, $white);
+
+    &.outline {
+      @include set-button-color(transparent, $orange, "outline");
+    }
+  }
+
+  &.secondary {
+    @include set-button-color($gold-light, $white);
+
+    &.outline {
+      @include set-button-color(transparent, $gold-light, "outline");
+    }
+  }
+
+  &.small {
+    @include set-button-size("small");
+  }
+
 }
