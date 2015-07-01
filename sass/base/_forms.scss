@@ -4,7 +4,7 @@
 $base-border-radius: 3px;
 
 $form-spacing-horizontal: 20px;
-$form-spacing-vertical: 10px;
+$form-spacing-vertical: 5px;
 
 label {
   font-size: $small-font-size;
@@ -20,7 +20,7 @@ input[type="reset"],
 input[type="button"] {
 	display: inline-block;
 	height: auto;
-	padding: $form-spacing-vertical $form-spacing-horizontal * 2;
+	padding: $form-spacing-vertical $form-spacing-horizontal * 1.5;
 	color: $gold;
 	text-align: center;
 	font-size: $base-font-size;

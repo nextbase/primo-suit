@@ -8895,7 +8895,7 @@ input[type="reset"],
 input[type="button"] {
   display: inline-block;
   height: auto;
-  padding: 10px 40px;
+  padding: 5px 30px;
   color: #987c4d;
   text-align: center;
   font-size: 16px;
