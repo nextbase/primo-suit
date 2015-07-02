@@ -2,6 +2,7 @@
 #exlidMainMenuTile {
     @include reset-margins;
     @include span-columns(8);
+    position: relative;
     vertical-align: middle;
     height: auto;
 }
@@ -19,7 +20,12 @@
 #exlidMainMenuTile div.EXLLanguagesContainer {
     @include reset-margins;
     font-family: sans-serif;
+    display: block;
     float: left;
+    margin-left: $spacing-large;
+    /* position: absolute;
+    right: 0;
+    top: 0; */
     font-size: $xsmall-font-size;
     z-index: 100;
     height: auto;
@@ -27,9 +33,9 @@
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
     float: left;
-    width: auto;
-    text-align: right;
-    color: #555555;
+    width: 6em;
+    text-align: left;
+    color: $gray;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
@@ -74,7 +80,7 @@
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li {
-    color: #555555;
+    color: $gray;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li a {
@@ -83,11 +89,13 @@
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li img {
-    padding: 0em;
+    width: 8px;
+    height: 5px;
+    margin-left: 5px;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
-    color: #555555;
+    color: $black;
     text-decoration: none;
     width: 100%;
     display: block;

@@ -10195,6 +10195,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: block;
   margin-right: 2.5641%;
   width: 65.81197%;
+  position: relative;
   vertical-align: middle;
   height: auto; }
   #exlidMainMenuTile:last-child {
@@ -10212,16 +10213,21 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  display: block;
   float: left;
+  margin-left: 40px;
+  /* position: absolute;
+    right: 0;
+    top: 0; */
   font-size: 12px;
   z-index: 100;
   height: auto; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
-  width: auto;
-  text-align: right;
-  color: #555555; }
+  width: 6em;
+  text-align: left;
+  color: #bcbdb6; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
   float: right;
@@ -10259,17 +10265,19 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   line-height: 150%; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li {
-  color: #555555; }
+  color: #bcbdb6; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li a {
   width: auto;
   cursor: pointer; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li img {
-  padding: 0em; }
+  width: 8px;
+  height: 5px;
+  margin-left: 5px; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
-  color: #555555;
+  color: #333333;
   text-decoration: none;
   width: 100%;
   display: block; }
