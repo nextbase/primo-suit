@@ -44,7 +44,6 @@
 #exlidSearchRibbon input.submit {
     background-color: #2391b2;
     border: none;
-    @include retina-image('../images/search_button_bg', 200px 50px);
     background-repeat: no-repeat;
     background-position: center center;
     @include prefixer(border-radius, 0, webkit moz spec);
@@ -66,9 +65,10 @@
     right: 0;
     background: $blue;
     @include linear-gradient($blue-light, $blue-dark);
+    @include retina-image('../images/search_button_icon', 50px 50px);
 
     &:hover {
-        @include retina-image('../images/search_button_bg_hover', 200px 50px);
+        @include linear-gradient(lighten($blue-light, 5%), darken($blue-dark, 5%));
     }
 }
 
