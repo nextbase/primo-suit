@@ -9521,6 +9521,15 @@ select {
   width: 100%;
   display: block; }
 
+#exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFieldsTitle {
+  font-size: 14px;
+  display: block;
+  float: left;
+  width: 160px;
+  border: none;
+  line-height: 28px;
+  padding-right: 40px; }
+
 #exlidHeaderSearchLimits select {
   font-size: 16px;
   height: auto;
