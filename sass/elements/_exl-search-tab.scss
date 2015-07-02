@@ -30,6 +30,7 @@ $search-tab-font-size: 14px;
     float: left;
     margin-left: -2px;
     padding: 0;
+    border: 0;
 
     a {
         font-size: $search-tab-font-size;
@@ -64,6 +65,7 @@ $search-tab-font-size: 14px;
     height: auto;
     background-image: none;
     text-align: left;
+    border: 0;
 
     a {
         color: $white;
