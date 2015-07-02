@@ -11229,6 +11229,7 @@ body.EXLFullView div.EXLBackToResults {
   #exlidSearchTabs li.EXLSearchTabSelected a {
     color: #ffffff;
     background-color: #666666;
+    border: 2px solid #666666;
     font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
