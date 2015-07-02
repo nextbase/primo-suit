@@ -1,3 +1,5 @@
+$search-button-width: 80px;
+
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
     background-color: transparent;
     height: auto;
@@ -13,7 +15,7 @@
     @include input;
     @include input-size("default");
     @include form-element-width("full-width");
-    padding-right: 100px;
+    padding-right: $search-button-width + 30px;
 
     &:focus {
         $double-shadow: 0px 1px 1px rgba($black-secondary, .5), 0px 0px 20px 0 rgba(#32b5c1, .75);
@@ -30,9 +32,9 @@
     @include prefixer(border-radius, 0, webkit moz spec);
     @include prefixer(border-top-right-radius, $form-border-radius, webkit moz spec);
     @include prefixer(border-bottom-right-radius, $form-border-radius, webkit moz spec);
-    width: 100px;
-    max-width: 100px;
-    text-indent: 100px;
+    width: $search-button-width;
+    max-width: $search-button-width;
+    text-indent: $search-button-width * 2;
     overflow: hidden;
     color: $white;
     font-weight: normal;
@@ -80,7 +82,7 @@
 .EXLSearchFieldRibbonFormSearchClear {
     width: 30px;
     position: absolute;
-    right: 110px;
+    right: $search-button-width + 10px;
     top: 3px;
     background-color: transparent;
     visibility: hidden;

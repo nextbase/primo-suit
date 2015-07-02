@@ -9572,7 +9572,7 @@ select {
   padding: 3px 10px;
   clear: right;
   width: 100%;
-  padding-right: 100px; }
+  padding-right: 110px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
     border-color: #34aacc;
@@ -9600,9 +9600,9 @@ select {
   border-top-right-radius: 3px;
   -moz-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px;
-  width: 100px;
-  max-width: 100px;
-  text-indent: 100px;
+  width: 80px;
+  max-width: 80px;
+  text-indent: 160px;
   overflow: hidden;
   color: #ffffff;
   font-weight: normal;
@@ -9655,7 +9655,7 @@ select {
 .EXLSearchFieldRibbonFormSearchClear {
   width: 30px;
   position: absolute;
-  right: 110px;
+  right: 90px;
   top: 3px;
   background-color: transparent;
   visibility: hidden; }
