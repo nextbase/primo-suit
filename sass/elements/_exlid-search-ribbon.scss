@@ -64,6 +64,8 @@
     position: absolute;
     top: 0;
     right: 0;
+    background: $blue;
+    @include linear-gradient($blue-dark, $blue-light);
 
     &:hover {
         @include retina-image('../images/search_button_bg_hover', 200px 50px);
