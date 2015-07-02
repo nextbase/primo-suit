@@ -108,12 +108,13 @@ div.form-element {
   height: auto;
   width: auto;
   border: none;
-  display: block;
+  display: inline-block;
   line-height: $form-line-height;
 	background-color: $white;
 	border: 1px solid $gray-light;
 	box-sizing: border-box;
   padding: $form-spacing-vertical $form-spacing-horizontal;
+  margin-right: 14px;
 
   $shadows: 0px 1px 2px 0px rgba($black-secondary, .5);
   @include prefixer(box-shadow, $shadows, webkit moz spec);

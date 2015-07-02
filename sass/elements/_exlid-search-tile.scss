@@ -55,7 +55,6 @@
 #exlidHeaderSearchLimits fieldset legend {
     float: left;
     width: auto;
-    padding-top: 0.6em;
     color: $gray-dark-secondary;
 }
 
@@ -71,17 +70,17 @@
   width: $label-width;
   border: $hightlight-border;
   line-height: $form-line-height;
-  padding-right: $spacing-large;
 }
 
 #exlidHeaderSearchLimits select {
     @include input;
     @include input-select;
     @include input-size("small");
+    @include form-element-width("wide");
 }
 
 #exlidHeaderSearchLimits label {
-    position: absolute;
+    display: none;
     left: -10000px;
     top: auto;
     width: 1px;
@@ -90,8 +89,9 @@
 }
 
 #exlidHeaderSearchLimits input {
-    color: #0075b0;
-    background-color: #f3f3f3;
+    @include input;
+    @include input-size("small");
+    float: left;
     position: absolute;
     left: -10000px;
     top: auto;

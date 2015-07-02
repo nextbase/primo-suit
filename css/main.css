@@ -9197,12 +9197,13 @@ select {
   height: auto;
   width: auto;
   border: none;
-  display: block;
+  display: inline-block;
   line-height: 28px;
   background-color: #ffffff;
   border: 1px solid #f2f2f0;
   box-sizing: border-box;
   padding: 3px 10px;
+  margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
@@ -9514,7 +9515,6 @@ select {
 #exlidHeaderSearchLimits fieldset legend {
   float: left;
   width: auto;
-  padding-top: 0.6em;
   color: #666666; }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
@@ -9527,20 +9527,20 @@ select {
   float: left;
   width: 160px;
   border: none;
-  line-height: 28px;
-  padding-right: 40px; }
+  line-height: 28px; }
 
 #exlidHeaderSearchLimits select {
   font-size: 16px;
   height: auto;
   width: auto;
   border: none;
-  display: block;
+  display: inline-block;
   line-height: 28px;
   background-color: #ffffff;
   border: 1px solid #f2f2f0;
   box-sizing: border-box;
   padding: 3px 10px;
+  margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
@@ -9552,7 +9552,8 @@ select {
   background-position: right center;
   font-size: 14px;
   line-height: 20px;
-  padding: 1.5px 10px; }
+  padding: 1.5px 10px;
+  width: 300px; }
   #exlidHeaderSearchLimits select:focus {
     border-color: #34aacc;
     border-left-width: 5px;
@@ -9580,7 +9581,7 @@ select {
         background-size: 40px 40px; } }
 
 #exlidHeaderSearchLimits label {
-  position: absolute;
+  display: none;
   left: -10000px;
   top: auto;
   width: 1px;
@@ -9588,14 +9589,43 @@ select {
   overflow: hidden; }
 
 #exlidHeaderSearchLimits input {
-  color: #0075b0;
-  background-color: #f3f3f3;
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  border: none;
+  display: inline-block;
+  line-height: 28px;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f0;
+  box-sizing: border-box;
+  padding: 3px 10px;
+  margin-right: 14px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  float: left;
   position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;
   height: 1px;
   overflow: hidden; }
+  #exlidHeaderSearchLimits input:focus {
+    border-color: #34aacc;
+    border-left-width: 5px;
+    padding-left: 6px;
+    outline: 0;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: box-shadow 0.2s ease-in-out; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   background-color: transparent;
@@ -9611,12 +9641,13 @@ select {
   height: auto;
   width: auto;
   border: none;
-  display: block;
+  display: inline-block;
   line-height: 28px;
   background-color: #ffffff;
   border: 1px solid #f2f2f0;
   box-sizing: border-box;
   padding: 3px 10px;
+  margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
