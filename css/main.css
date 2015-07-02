@@ -9655,7 +9655,7 @@ select {
 .EXLSearchFieldRibbonFormSearchClear {
   width: 30px;
   position: absolute;
-  right: 90px;
+  right: 85px;
   top: 3px;
   background-color: transparent;
   visibility: hidden; }
