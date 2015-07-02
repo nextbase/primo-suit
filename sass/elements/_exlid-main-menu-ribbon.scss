@@ -40,20 +40,14 @@
 }
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
-    background-color: #e87107;
-    background-image: url(../images/bg_strip_btn_orange.png);
-    background-repeat: repeat-x;
-    margin: 0em;
+  @include reset-margins;
+    background-color: $orange;
     color: #FFFFFF;
     font-weight: normal;
     height: auto;
     cursor: pointer;
-    padding-bottom: 0.3em;
-    padding-right: 0.6em;
-    padding-left: 0.6em;
-    border: 1px solid #f4762d;
+    border: none;
     border-right: none;
-    padding-top: 0.2em;
     white-space: nowrap;
 }
 
