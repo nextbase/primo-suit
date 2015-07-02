@@ -7,6 +7,7 @@
 	@include outer-container;
 }
 
-.large-12 {
-	@include span-columns(12);
+.form-example {
+	@include span-columns(8);
+	@include shift(2);
 }

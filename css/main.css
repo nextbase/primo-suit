@@ -8804,12 +8804,13 @@ html {
     content: "";
     display: table; }
 
-.large-12 {
+.form-example {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 100%; }
-  .large-12:last-child {
+  width: 65.81197%;
+  margin-left: 17.09402%; }
+  .form-example:last-child {
     margin-right: 0; }
 
 @font-face {
@@ -9154,7 +9155,9 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 3px 10px;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 1.5px 10px;
   width: 160px; }
   input[type="email"]:focus,
   input[type="number"]:focus,
@@ -9197,6 +9200,16 @@ select {
   textarea.narrow,
   select.narrow {
     width: 80px; }
+  input[type="email"].medium,
+  input[type="number"].medium,
+  input[type="search"].medium,
+  input[type="text"].medium,
+  input[type="tel"].medium,
+  input[type="url"].medium,
+  input[type="password"].medium,
+  textarea.medium,
+  select.medium {
+    width: 160px; }
   input[type="email"].wide,
   input[type="number"].wide,
   input[type="search"].wide,
@@ -9206,14 +9219,24 @@ select {
   input[type="password"].wide,
   textarea.wide,
   select.wide {
-    width: 240px; }
+    width: 300px; }
+  input[type="email"].full-width,
+  input[type="number"].full-width,
+  input[type="search"].full-width,
+  input[type="text"].full-width,
+  input[type="tel"].full-width,
+  input[type="url"].full-width,
+  input[type="password"].full-width,
+  textarea.full-width,
+  select.full-width {
+    clear: right;
+    width: 100%; }
 
 select {
   padding-right: 40px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
-  background-position: right center;
-  width: 160px; }
+  background-position: right center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     select {
       background-image: url("../images/form_select_arrow_down_2x.png");

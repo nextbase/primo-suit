@@ -160,7 +160,7 @@ div.form-element {
 
 $form-elements-width-small: 80px;
 $form-elements-width-medium: 160px;
-$form-elements-width-wide: 240px;
+$form-elements-width-wide: 300px;
 
 @mixin form-element-width($width: "default", $offset: 0) {
   @if $width == "default" {
@@ -172,6 +172,7 @@ $form-elements-width-wide: 240px;
   } @else if $width == "wide" {
     width: $form-elements-width-wide - $offset;
   } @else if $width == "full-width" {
+    clear: right;
     width: 100%;
   }
 }
@@ -222,7 +223,7 @@ input[type="password"],
 textarea,
 select {
   @include input;
-  @include input-size();
+  @include input-size("small");
   @include form-element-width("default");
 
   &.small {
@@ -233,12 +234,19 @@ select {
     @include form-element-width("narrow");
   }
 
+  &.medium {
+    @include form-element-width("medium");
+  }
+
   &.wide {
     @include form-element-width("wide");
+  }
+
+  &.full-width {
+    @include form-element-width("full-width");
   }
 }
 
 select {
   @include input-select;
-  @include form-element-width("default");
 }
