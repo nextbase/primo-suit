@@ -2,6 +2,8 @@
 #exlidMainMenuTile {
     @include reset-margins;
     @include span-columns(8);
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: relative;
     vertical-align: middle;
     height: auto;
@@ -20,7 +22,6 @@
 #exlidMainMenuTile div.EXLLanguagesContainer {
     @include reset-margins;
     font-family: sans-serif;
-    display: block;
     float: left;
     margin-left: $spacing-large;
     /* position: absolute;
@@ -29,6 +30,7 @@
     font-size: $xsmall-font-size;
     z-index: 100;
     height: auto;
+    display: none;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
