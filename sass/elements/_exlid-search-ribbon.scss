@@ -28,8 +28,8 @@
     background-repeat: no-repeat;
     background-position: center center;
     @include prefixer(border-radius, 0, webkit moz spec);
-    @include prefixer(border-top-right-radius, 4px, webkit moz spec);
-    @include prefixer(border-bottom-right-radius, 4px, webkit moz spec);
+    @include prefixer(border-top-right-radius, $form-border-radius, webkit moz spec);
+    @include prefixer(border-bottom-right-radius, $form-border-radius, webkit moz spec);
     width: 100px;
     max-width: 100px;
     text-indent: 100px;
@@ -72,10 +72,9 @@
     background-position: center center;
     margin-left: 0;
     background-repeat: no-repeat;
-    display: inline;
-    float: left;
+    display: block;
     height: 26px;
-    width: 100%;
+    width: 24%;
 }
 
 .EXLSearchFieldRibbonFormSearchClear {
