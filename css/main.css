@@ -9572,7 +9572,11 @@ select {
   padding: 3px 10px;
   clear: right;
   width: 100%;
-  padding-right: 100px; }
+  padding-right: 100px;
+  -moz-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
     border-color: #34aacc;
