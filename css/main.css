@@ -8884,7 +8884,7 @@ ol li {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 82.90598%;
+  width: 100%;
   padding: 20px;
   position: relative;
   display: table; }
@@ -8908,12 +8908,29 @@ ol li {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 100%;
+  width: 74.35897%;
   position: relative;
   float: left;
   padding-left: 330px; }
   #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
     margin-right: 0; }
+
+.EXLSearchFieldRibbonBrowseSearchLink,
+.EXLSearchFieldRibbonAdvancedSearchLink {
+  margin: 0;
+  padding: 0;
+  position: absolute; }
+  .EXLSearchFieldRibbonBrowseSearchLink a,
+  .EXLSearchFieldRibbonAdvancedSearchLink a {
+    font-weight: bold; }
+
+.EXLSearchFieldRibbonBrowseSearchLink {
+  right: 20px;
+  top: 30px; }
+
+.EXLSearchFieldRibbonAdvancedSearchLink {
+  right: 130px;
+  top: 30px; }
 
 @font-face {
   font-family: 'Noto Sans Korean';
@@ -9837,18 +9854,6 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   margin-top: 0.1em;
   cursor: pointer; }
 
-.EXLSearchFieldRibbonAdvancedSearchLink {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 23.07692%;
-  margin-right: 0;
-  white-space: nowrap; }
-  .EXLSearchFieldRibbonAdvancedSearchLink:last-child {
-    margin-right: 0; }
-
 * html .EXLSearchFieldRibbonAdvancedSearchLink {
   clear: none;
   padding: 0; }
@@ -9856,7 +9861,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 .EXLSearchFieldRibbonAdvancedSearchLink a,
 a.EXLFullResultsHeaderBackToBriefResultsLink {
   display: block;
-  padding-top: 50px; }
+  padding: 0; }
 
 #exlidAdvancedSearchTile {
   clear: left;
@@ -10028,19 +10033,6 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
   float: left;
   width: 65%; }
 
-.EXLSearchFieldRibbonBrowseSearchLink {
-  white-space: nowrap;
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 23.07692%;
-  margin-right: 0;
-  height: auto; }
-  .EXLSearchFieldRibbonBrowseSearchLink:last-child {
-    margin-right: 0; }
-
 * html .EXLSearchFieldRibbonBrowseSearchLink {
   clear: left;
   padding-left: 0.5em;
@@ -10057,7 +10049,7 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
 
 .EXLSearchFieldRibbonAdvancedSearchLink a.EXLSearchFieldRibbonAdvancedTwoLinks {
   display: block;
-  padding-top: 50px;
+  padding-top: 0;
   font-size: 12px; }
 
 div.EXLResultsContainer div.EXLBrowseResultsTileNoFacets {

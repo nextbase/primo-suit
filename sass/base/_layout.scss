@@ -14,7 +14,7 @@
 
 #exlidSearchRibbon {
     @include reset-margins;
-    @include span-columns(10);
+    @include span-columns(12);
     padding: $spacing-small;
     position: relative;
     display: table;
@@ -35,8 +35,28 @@ $tabs-width: 310px;
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
 		@include reset-margins;
-		@include span-columns(12);
+		@include span-columns(9);
 		position: relative;
 		float: left;
 		padding-left: $tabs-width + 20px;
+}
+
+.EXLSearchFieldRibbonBrowseSearchLink,
+.EXLSearchFieldRibbonAdvancedSearchLink {
+		@include reset-margins;
+		position: absolute;
+
+		a {
+			font-weight: bold;
+		}
+}
+
+.EXLSearchFieldRibbonBrowseSearchLink {
+    right: 20px;
+    top: 30px;
+}
+
+.EXLSearchFieldRibbonAdvancedSearchLink {
+    right: 130px;
+    top: 30px;
 }
