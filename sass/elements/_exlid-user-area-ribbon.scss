@@ -1,20 +1,38 @@
 #exlidUserAreaRibbon {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    float: left;
-    color: $gray;
-    height: 18px;
-    clear: right;
+  @include reset-margins;
+  display: block;
+  list-style: none;
+  width: auto;
 }
 
 #exlidUserAreaRibbon li {
     @include reset-margins;
-    font-size: $xsmall-font-size;
-    list-style: none;
+    font-family: sans-serif;
+    font-size: $small-font-size;
+    font-weight: normal;
     float: left;
-    background-image: url(../images/bg_strip_subNav.png);
-    background-repeat: repeat-x
+    list-style: none;
+    width: auto;
+    height: 18px;
+    border-left: 1px solid $gray;
+    overflow: visible;
+
+    .EXLUserNameDisplay,
+    a {
+        font-family: sans-serif;
+        color: $gray-dark-secondary;
+        text-decoration: none;
+        margin: 0 ($spacing-small / 2);
+        width: auto;
+    }
+
+    &:first-child {
+      border-left: none;
+
+      a {
+          margin-left: 0;
+      }
+    }
 }
 
 #exlidUserAreaRibbon li.EXLUserName {
@@ -23,7 +41,7 @@
 }
 
 #exlidUserAreaRibbon li span {
-    padding-left: 0.5em
+    padding-left: 1px;
 }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStart {
@@ -40,18 +58,16 @@
 }
 
 #exlidUserAreaRibbon li span.EXLMyShelfStarSelected {
-    background-image: url(../images/icon_star_on.png);
+    @include retina-image("../images/star_full", 20px 20px);
     background-repeat: no-repeat;
-    height: 11px;
-    width: 11px;
+    height: 20px;
+    width: 20px;
     float: left;
-    margin-left: 0.3em;
-    margin-top: 0.2em
 }
 
 #exlidUserAreaRibbon li a {
     float: left;
-    color: #4a4d51;
+    color: $black;
     text-decoration: none;
 }
 
