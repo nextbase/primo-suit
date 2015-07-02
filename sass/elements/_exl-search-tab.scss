@@ -56,9 +56,10 @@ $search-tab-font-size: 14px;
 }
 
 #exlidSearchTabs li.EXLSearchTabSelected {
+    @include reset-margins;
     float: left;
-    border: none;
-    color: $white;
+    margin-left: -2px;
+    padding: 0;
     background-color: $gray-dark-secondary;
     height: auto;
     background-image: none;

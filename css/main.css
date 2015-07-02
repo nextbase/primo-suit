@@ -11217,9 +11217,11 @@ body.EXLFullView div.EXLBackToResults {
   height: auto; }
 
 #exlidSearchTabs li.EXLSearchTabSelected {
+  margin: 0;
+  padding: 0;
   float: left;
-  border: none;
-  color: #ffffff;
+  margin-left: -2px;
+  padding: 0;
   background-color: #666666;
   height: auto;
   background-image: none;
