@@ -63,7 +63,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: $blue;
+    background-color: $blue;
     @include linear-gradient($blue-light, $blue-dark);
     @include retina-image('../images/search_button_icon', 50px 50px);
 
