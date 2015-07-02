@@ -68,7 +68,7 @@
 }
 
 .EXLClearSimpleSearchBoxButtonClose {
-    background-image: url("../images/icon_clear_search.png");
+    @include retina-image('../images/form_clear', 40px 40px);
     background-position: center center;
     margin-left: 0;
     background-repeat: no-repeat;
@@ -118,13 +118,6 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-position: bottom;
     background-color: #e2e8eb;
     background-image: none;
-    // filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#e2e8eb);
-    // background-image: -moz-linear-gradient(top, #fff 0, #e2e8eb 100%);
-    // background-image: -ms-linear-gradient(top, #fff 0, #e2e8eb 100%);
-    // background-image: -o-linear-gradient(top, #fff 0, #e2e8eb 100%);
-    // background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #e2e8eb));
-    // background-image: -webkit-linear-gradient(top, #fff 0, #e2e8eb 100%);
-    // background-image: linear-gradient(top, #fff 0, #e2e8eb 100%);
 }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
