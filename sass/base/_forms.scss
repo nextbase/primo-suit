@@ -5,7 +5,7 @@ $form-border-radius: 3px;
 $form-spacing-horizontal: 10px;
 $form-spacing-vertical: 3px;
 $form-line-height: 28px;
-$form-line-height-small: 24px;
+$form-line-height-small: 20px;
 $hightlight-border: none;
 
 label {
@@ -109,15 +109,39 @@ div.form-element {
   border: none;
   display: block;
   padding: $form-spacing-vertical $form-spacing-horizontal;
-  @include prefixer(box-shadow, 0px 2px 1px rgba($black-secondary, .5), webkit moz spec);
-  @include prefixer(border-radius, $form-border-radius, webkit moz spec);
-
-	background-color: #fff;
+  line-height: $form-line-height;
+	background-color: $white;
 	border: 1px solid $gray-light;
-	border-radius: 4px;
-	box-shadow: none;
 	box-sizing: border-box;
+
+  $shadows: 0px 1px 2px 0px rgba($black-secondary, .5);
+  @include prefixer(box-shadow, $shadows, webkit moz spec);
+  @include prefixer(border-radius, $form-border-radius, webkit moz spec);
+  @include prefixer(appearance, none, webkit moz spec);
+
+  &:focus {
+    border-color: $blue;
+    border-left-width: 5px;
+    padding-left: $form-spacing-horizontal - 4px;
+	  outline: 0;
+
+    $shadows: 0px 1px 1px rgba($black-secondary, .3), 0px 0px 20px 0 rgba($blue, .75);
+    @include prefixer(box-shadow, $shadows, webkit moz spec);
+    @include prefixer(border-top-left-radius, 0, webkit moz spec);
+    @include prefixer(border-bottom-left-radius, 0, webkit moz spec);
+    @include transition(box-shadow .2s ease-in-out);
+  }
+
 }
+
+@mixin select-styles() {
+  padding-right: 40px;
+  @include retina-image("../images/form_select_arrow_down", 40px 40px);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* Form Elements Application */
 
 .button,
 button,
@@ -163,4 +187,8 @@ input[type="password"],
 textarea,
 select {
   @include text-input;
+}
+
+select {
+  @include select-styles;
 }
