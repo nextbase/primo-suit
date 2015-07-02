@@ -29,18 +29,14 @@
 #exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
     @include input;
+    @include input-size("default");
     @include form-element-width("full-width");
-    padding: 10px 20px;
     padding-right: 100px;
 
     &:focus {
         $double-shadow: 0px 1px 1px rgba($black-secondary, .5), 0px 0px 20px 0 rgba(#32b5c1, .75);
         @include prefixer(box-shadow, $double-shadow, webkit moz spec);
     }
-}
-
-#exlidSearchRibbon input:focus {
-    outline: none;
 }
 
 #exlidSearchRibbon input.submit {
