@@ -139,6 +139,12 @@ div.form-element {
   @include retina-image("../images/form_select_arrow_down", 40px 40px);
   background-repeat: no-repeat;
   background-position: right center;
+
+  &:hover,
+  &:active,
+  &:focus {
+    @include retina-image("../images/form_select_arrow_down_hover", 40px 40px);
+  }
 }
 
 /* Form Elements Application */
