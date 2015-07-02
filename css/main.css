@@ -10208,11 +10208,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   #exlidMainMenuRibbon li a {
     color: #666666;
     text-decoration: none;
-    padding: 0 5px; }
+    margin: 0 10px;
+    width: auto; }
   #exlidMainMenuRibbon li:first-child {
     border-left: none; }
     #exlidMainMenuRibbon li:first-child a {
-      padding-left: 0; }
+      margin-left: 0; }
 
 #exlidMainMenuRibbon li a:hover {
   color: #000000;
@@ -10225,10 +10226,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
   margin: 0;
   padding: 0;
+  padding: 0 10px;
   background-color: #fd8000;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: normal;
   height: auto;
+  width: auto;
   cursor: pointer;
   border: none;
   border-right: none;
@@ -10284,13 +10287,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
-  width: 47%;
+  width: auto;
   text-align: right;
   color: #555555; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
   float: right;
-  width: 52%; }
+  width: auto; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
   float: right;

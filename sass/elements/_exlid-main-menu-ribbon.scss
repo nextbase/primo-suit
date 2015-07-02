@@ -18,14 +18,15 @@
     a {
         color: $gray-dark-secondary;
         text-decoration: none;
-        padding: 0 ($spacing-small / 4);
+        margin: 0 ($spacing-small / 2);
+        width: auto;
     }
 
     &:first-child {
       border-left: none;
 
       a {
-          padding-left: 0;
+          margin-left: 0;
       }
     }
 }
@@ -40,11 +41,13 @@
 }
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
-  @include reset-margins;
+    @include reset-margins;
+    padding: 0 ($spacing-small / 2);
     background-color: $orange;
-    color: #FFFFFF;
+    color: $white;
     font-weight: normal;
     height: auto;
+    width: auto;
     cursor: pointer;
     border: none;
     border-right: none;
@@ -101,14 +104,14 @@
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
     float: left;
-    width: 47%;
+    width: auto;
     text-align: right;
     color: #555555;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
     float: right;
-    width: 52%
+    width: auto
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
