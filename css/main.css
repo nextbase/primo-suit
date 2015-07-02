@@ -9603,7 +9603,7 @@ select {
   top: 0;
   right: 0;
   background-color: #34aacc;
-  background-image: linear-gradient(to top,#46c3e8, #2391b2, , , , , , , , );
+  background-image: linear-gradient(90deg,#46c3e8, #2391b2, , , , , , , , );
   background-image: url("../images/search_button_icon.png");
   background-repeat: no-repeat;
   background-position: center center; }
@@ -9613,7 +9613,7 @@ select {
       background-size: 50px 50px; } }
   #exlidSearchRibbon input.submit:hover {
     background-color: #2391b2;
-    background-image: linear-gradient(to top,#5dcaeb, #1f809d, , , , , , , , );
+    background-image: linear-gradient(90deg,#5dcaeb, #1f809d, , , , , , , , );
     background-image: url("../images/search_button_icon.png");
     background-repeat: no-repeat;
     background-position: center center; }
