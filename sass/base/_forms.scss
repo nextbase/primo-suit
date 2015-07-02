@@ -15,6 +15,7 @@ label {
   width: auto;
   min-width: 160px;
   border: $hightlight-border;
+  line-height: $form-line-height;
 }
 
 div.form-element {
@@ -102,7 +103,7 @@ div.form-element {
 
 /* Input Mixins */
 
-@mixin text-input($size: "default") {
+@mixin input() {
   font-size: $base-font-size;
   height: auto;
   width: auto;
@@ -112,12 +113,7 @@ div.form-element {
 	background-color: $white;
 	border: 1px solid $gray-light;
 	box-sizing: border-box;
-
-  @if $size == "default" {
-    padding: $form-spacing-vertical $form-spacing-horizontal;
-  } @else {
-    padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
-  }
+  padding: $form-spacing-vertical $form-spacing-horizontal;
 
   $shadows: 0px 1px 2px 0px rgba($black-secondary, .5);
   @include prefixer(box-shadow, $shadows, webkit moz spec);
@@ -139,7 +135,17 @@ div.form-element {
 
 }
 
-@mixin select-styles() {
+@mixin input-size($size: "default") {
+  @if $size == "default" {
+    padding: $form-spacing-vertical $form-spacing-horizontal;
+  } @else {
+    font-size: $base-font-size - 2px;
+    line-height: $form-line-height-small;
+    padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
+  }
+}
+
+@mixin input-select() {
   padding-right: 40px;
   @include retina-image("../images/form_select_arrow_down", 40px 40px);
   background-repeat: no-repeat;
@@ -149,6 +155,24 @@ div.form-element {
   &:active,
   &:focus {
     @include retina-image("../images/form_select_arrow_down_hover", 40px 40px);
+  }
+}
+
+$form-elements-width-small: 80px;
+$form-elements-width-medium: 160px;
+$form-elements-width-wide: 240px;
+
+@mixin form-element-width($width: "default", $offset: 0) {
+  @if $width == "default" {
+    width: $form-elements-width-medium - $offset;
+  } @else if $width == "small" {
+    width: $form-elements-width-small - $offset;
+  } @else if $width == "medium" {
+    width: $form-elements-width-medium - $offset;
+  } @else if $width == "wide" {
+    width: $form-elements-width-wide - $offset;
+  } @else if $width == "full-width" {
+    width: 100%;
   }
 }
 
@@ -197,9 +221,12 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  @include text-input;
+  @include input;
+  @include input-size("small");
+  @include form-element-width("default");
 }
 
 select {
-  @include select-styles;
+  @include input-select;
+  @include form-element-width('default');
 }
