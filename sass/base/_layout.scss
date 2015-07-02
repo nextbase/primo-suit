@@ -8,6 +8,6 @@
 }
 
 .form-example {
-	@include span-columns(8);
-	@include shift(2);
+	@include span-columns(12);
+	// @include shift(2);
 }
