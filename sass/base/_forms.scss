@@ -102,17 +102,22 @@ div.form-element {
 
 /* Input Mixins */
 
-@mixin text-input() {
+@mixin text-input($size: "default") {
   font-size: $base-font-size;
   height: auto;
   width: auto;
   border: none;
   display: block;
-  padding: $form-spacing-vertical $form-spacing-horizontal;
   line-height: $form-line-height;
 	background-color: $white;
 	border: 1px solid $gray-light;
 	box-sizing: border-box;
+
+  @if $size == "default" {
+    padding: $form-spacing-vertical $form-spacing-horizontal;
+  } @else {
+    padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
+  }
 
   $shadows: 0px 1px 2px 0px rgba($black-secondary, .5);
   @include prefixer(box-shadow, $shadows, webkit moz spec);
