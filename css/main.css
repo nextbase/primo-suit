@@ -1570,101 +1570,6 @@ strong {
   height: auto;
   margin-left: 1em; }
 
-#exlidMainMenuTile {
-  vertical-align: text-top;
-  width: 49em;
-  float: right;
-  clear: right;
-  margin-top: 0.8em;
-  margin-bottom: 0em; }
-
-#exlidMainMenuTile div.EXLMainMenuContainer {
-  float: left;
-  width: 40em; }
-
-#exlidMainMenuTile div.EXLMainMenuContainer ul {
-  list-style-type: none; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer {
-  float: right;
-  font-size: 80%;
-  padding: 0em;
-  margin: 0em;
-  display: block;
-  z-index: 100;
-  position: relative;
-  left: 0;
-  width: 10em;
-  vertical-align: text-top;
-  vertical-align: top;
-  height: 18px;
-  margin-top: 0.5em;
-  margin-right: 0.6em; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
-  float: left;
-  width: 47%;
-  text-align: right;
-  color: #555555; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
-  float: right;
-  width: 52%; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
-  float: right;
-  clear: left;
-  border: 1px solid #e1e1e1;
-  display: inline;
-  padding: 0em 0.3em 0.1em 0.3em;
-  background-color: #FFFFFF;
-  list-style-type: none;
-  margin: 0px; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide {
-  border: 0px;
-  background-color: transparent; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink {
-  list-style: none;
-  float: left;
-  white-space: nowrap;
-  background-color: #ffffff;
-  z-index: 100;
-  display: inline;
-  clear: left;
-  cursor: pointer;
-  vertical-align: text-top; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
-  display: none; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer li.EXLLanguageLinkHide {
-  line-height: 150%; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer li {
-  color: #555555; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer li a {
-  width: auto;
-  cursor: pointer; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer li img {
-  padding: 0em; }
-
-#exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
-  color: #555555;
-  text-decoration: none;
-  width: 100%;
-  display: block; }
-
-#exlidUserAreaTile {
-  float: right; }
-
-#exlidUserAreaTile ul {
-  padding-left: 0em;
-  border: none; }
-
 .EXLformFindDBIframe {
   position: absolute;
   top: 50px;
@@ -9323,17 +9228,25 @@ select {
     display: table; }
 
 #exlidHeaderTile {
-  width: 18%;
-  float: left;
-  padding-left: 0.8em;
-  padding-top: 0.8em;
-  padding-bottom: 0.3em; }
+  margin: 0;
+  padding: 0;
+  display: none; }
 
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
     display: none; } }
+
+#exlidUserAreaTile {
+  margin: 0;
+  padding: 0;
+  float: right; }
+
+#exlidUserAreaTile ul {
+  margin: 0;
+  padding: 0;
+  border: none; }
 
 #exlidHomeContainer {
   margin: 0;
@@ -9496,7 +9409,7 @@ select {
   display: block;
   margin-right: 2.5641%;
   width: 100%;
-  padding: 5px 15px;
+  padding: 5px 15px 3px 15px;
   border-bottom: 1px solid #dfdfdc;
   background-color: #f2f2f0;
   color: #666666;
@@ -10276,10 +10189,11 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     margin-right: 0; }
 
 #exlidMainMenuRibbon {
-  float: right;
-  list-style: none;
+  margin: 0;
   padding: 0;
-  margin: 0; }
+  float: left;
+  list-style: none;
+  width: auto; }
 
 #exlidMainMenuRibbon li {
   margin: 0;
@@ -10288,22 +10202,25 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-weight: normal;
   float: left;
   padding: 0;
-  list-style: none; }
-
-#exlidMainMenuRibbon li a {
-  color: #444444;
-  text-decoration: none;
-  padding: 0 5px; }
+  list-style: none;
+  width: auto;
+  border-left: 1px solid #bcbdb6; }
+  #exlidMainMenuRibbon li a {
+    color: #666666;
+    text-decoration: none;
+    padding: 0 5px; }
+  #exlidMainMenuRibbon li:first-child {
+    border-left: none; }
+    #exlidMainMenuRibbon li:first-child a {
+      padding-left: 0; }
 
 #exlidMainMenuRibbon li a:hover {
-  color: #666666;
+  color: #000000;
   text-decoration: underline; }
 
 #exlidMainMenuRibbon li span {
-  color: #555555;
-  border-right: 1px solid #e2e2e2;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+  margin: 0;
+  padding: 0; }
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
   background-color: #e87107;
@@ -10342,6 +10259,90 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected a:hover {
   text-decoration: none; }
+
+#exlidMainMenuTile {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 65.81197%;
+  vertical-align: text-top; }
+  #exlidMainMenuTile:last-child {
+    margin-right: 0; }
+
+#exlidMainMenuTile div.EXLMainMenuContainer {
+  display: block;
+  float: none;
+  width: 100%; }
+
+#exlidMainMenuTile div.EXLMainMenuContainer ul {
+  list-style-type: none; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer {
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 12px;
+  z-index: 100;
+  height: auto; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
+  float: left;
+  width: 47%;
+  text-align: right;
+  color: #555555; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
+  float: right;
+  width: 52%; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
+  float: right;
+  clear: left;
+  border: 1px solid #e1e1e1;
+  display: inline;
+  padding: 0em 0.3em 0.1em 0.3em;
+  background-color: #FFFFFF;
+  list-style-type: none;
+  margin: 0px; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide {
+  border: 0px;
+  background-color: transparent; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink {
+  list-style: none;
+  float: left;
+  white-space: nowrap;
+  background-color: #ffffff;
+  z-index: 100;
+  display: inline;
+  clear: left;
+  cursor: pointer;
+  vertical-align: text-top; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
+  display: none; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer li.EXLLanguageLinkHide {
+  line-height: 150%; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer li {
+  color: #555555; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer li a {
+  width: auto;
+  cursor: pointer; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer li img {
+  padding: 0em; }
+
+#exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
+  color: #555555;
+  text-decoration: none;
+  width: 100%;
+  display: block; }
 
 .EXLFacetTile {
   margin: 0;
