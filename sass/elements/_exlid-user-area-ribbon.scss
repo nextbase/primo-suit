@@ -3,17 +3,16 @@
     margin: 0;
     list-style-type: none;
     float: left;
-    color: #555555;
+    color: $gray;
     height: 18px;
     clear: right;
 }
 
 #exlidUserAreaRibbon li {
-    font-size: 80%;
+    @include reset-margins;
+    font-size: $xsmall-font-size;
+    list-style: none;
     float: left;
-    padding-left: 0em;
-    padding-right: 1.2em;
-    height: 20px;
     background-image: url(../images/bg_strip_subNav.png);
     background-repeat: repeat-x
 }
