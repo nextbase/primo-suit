@@ -26,6 +26,7 @@ $search-tab-font-size: 14px;
 }
 
 #exlidSearchTabs li {
+    @include reset-margins;
     float: left;
     margin-left: -2px;
     padding: 0;

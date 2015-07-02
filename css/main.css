@@ -11193,6 +11193,8 @@ body.EXLFullView div.EXLBackToResults {
   color: #ffffff; }
 
 #exlidSearchTabs li {
+  margin: 0;
+  padding: 0;
   float: left;
   margin-left: -2px;
   padding: 0; }
