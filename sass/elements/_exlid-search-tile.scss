@@ -36,7 +36,7 @@
 #exlidHeaderSearchLimits {
     @include reset-margins;
     @include span-columns(12);
-    padding: 5px 20px;
+    padding: 5px 15px;
     border-bottom: 1px solid $gray-light-secondary;
     background-color: $gray-light;
     color: $gray-dark-secondary;
@@ -53,21 +53,21 @@
 }
 
 #exlidHeaderSearchLimits fieldset legend {
-    display: inline;
+    float: left;
     width: auto;
     padding-top: 0.6em;
-    color: #666666;
+    color: $gray-dark-secondary;
 }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
-    width: auto;
-    position: static;
+    width: 100%;
+    display: block;
 }
 
 #exlidHeaderSearchLimits select {
-    border: 1px solid #7f9db9;
-    height: 1.65em;
-    color: #666666
+    @include input;
+    @include input-select;
+    @include input-size("small");
 }
 
 #exlidHeaderSearchLimits label {
