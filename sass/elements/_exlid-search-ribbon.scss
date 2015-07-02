@@ -69,6 +69,7 @@
 
     &:hover {
         @include linear-gradient(lighten($blue-light, 5%), darken($blue-dark, 5%));
+        @include retina-image('../images/search_button_icon', 50px 50px);
     }
 }
 
