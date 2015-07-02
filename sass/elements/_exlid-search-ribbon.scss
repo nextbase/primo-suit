@@ -63,13 +63,16 @@
     position: absolute;
     top: 0;
     right: 0;
-    background-color: $blue;
-    @include linear-gradient($blue-light, $blue-dark);
+    @include linear-gradient(to top, $blue-light, $blue-dark, $fallback: $blue);
     @include retina-image('../images/search_button_icon', 50px 50px);
+    background-repeat: no-repeat;
+    background-position: center center;
 
     &:hover {
-        @include linear-gradient(lighten($blue-light, 5%), darken($blue-dark, 5%));
+        @include linear-gradient(to top, lighten($blue-light, 5%), darken($blue-dark, 5%), $fallback: $blue-dark);
         @include retina-image('../images/search_button_icon', 50px 50px);
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 }
 
