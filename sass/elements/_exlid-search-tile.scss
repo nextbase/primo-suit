@@ -3,9 +3,10 @@
     @include span-columns(12);
     border: 0;
     background-image: none;
-    background-color: $gray-dark-secondary;
+    background-color: $gray;
     height: auto;
     font-size: $base-font-size;
+    position: relative;
 
     a {
         color: $white;

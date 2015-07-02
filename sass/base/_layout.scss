@@ -11,3 +11,32 @@
 	@include span-columns(12);
 	// @include shift(2);
 }
+
+#exlidSearchRibbon {
+    @include reset-margins;
+    @include span-columns(10);
+    padding: $spacing-small;
+    position: relative;
+    display: table;
+}
+
+$tabs-width: 310px;
+
+#exlidSearchRibbon fieldset {
+    @include reset-margins;
+    width: 100%;
+}
+
+#exlidSearchTabs {
+    @include reset-margins;
+		width: $tabs-width;
+		float: left;
+}
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+		@include reset-margins;
+		@include span-columns(12);
+		position: relative;
+		float: left;
+		padding-left: $tabs-width + 20px;
+}

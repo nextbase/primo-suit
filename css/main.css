@@ -8784,55 +8784,6 @@ html {
 *::before {
   box-sizing: inherit; }
 
-#contentEXL,
-.EXLCustomLayoutContainer {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  #contentEXL::after,
-  .EXLCustomLayoutContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.outter-container {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  .outter-container::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.form-example {
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 100%; }
-  .form-example:last-child {
-    margin-right: 0; }
-
-@font-face {
-  font-family: 'Noto Sans Korean';
-  font-style: normal;
-  font-weight: lighter;
-  src: url("../fonts/NotoSans-Light.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Light.otf") format("opentype"), url("../fonts/NotoSans-Light.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Noto Sans Korean';
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/NotoSans-Regular.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular.woff") format("woff"); }
-
-@font-face {
-  font-family: 'Noto Sans Korean';
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/NotoSans-Bold.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
-
 body {
   margin: 0;
   padding: 0;
@@ -8898,6 +8849,92 @@ ul li {
 
 ol li {
   list-style: ideograph-numeric inside; }
+
+#contentEXL,
+.EXLCustomLayoutContainer {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #contentEXL::after,
+  .EXLCustomLayoutContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.outter-container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .outter-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.form-example {
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%; }
+  .form-example:last-child {
+    margin-right: 0; }
+
+#exlidSearchRibbon {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 82.90598%;
+  padding: 20px;
+  position: relative;
+  display: table; }
+  #exlidSearchRibbon:last-child {
+    margin-right: 0; }
+
+#exlidSearchRibbon fieldset {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+#exlidSearchTabs {
+  margin: 0;
+  padding: 0;
+  width: 310px;
+  float: left; }
+
+#exlidSearchRibbon div.EXLSearchFieldRibbon {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
+  position: relative;
+  float: left;
+  padding-left: 330px; }
+  #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
+    margin-right: 0; }
+
+@font-face {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: lighter;
+  src: url("../fonts/NotoSans-Light.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Light.otf") format("opentype"), url("../fonts/NotoSans-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/NotoSans-Regular.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular.woff") format("woff"); }
+
+@font-face {
+  font-family: 'Noto Sans Korean';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/NotoSans-Bold.eot");
+  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
 
 label {
   font-size: 14px;
@@ -9395,9 +9432,10 @@ select {
   width: 100%;
   border: 0;
   background-image: none;
-  background-color: #666666;
+  background-color: #bcbdb6;
   height: auto;
-  font-size: 16px; }
+  font-size: 16px;
+  position: relative; }
   #exlidSearchTile:last-child {
     margin-right: 0; }
   #exlidSearchTile a {
@@ -9489,38 +9527,10 @@ select {
   height: 1px;
   overflow: hidden; }
 
-#exlidSearchRibbon {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 74.35897%;
-  padding: 20px;
-  position: relative; }
-  #exlidSearchRibbon:last-child {
-    margin-right: 0; }
-
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   background-color: transparent;
   height: auto;
-  border: none;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  float: left;
-  display: block;
-  position: relative; }
-
-#exlidSearchRibbon fieldset {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 100%; }
-  #exlidSearchRibbon fieldset:last-child {
-    margin-right: 0; }
+  border: none; }
 
 #exlidSearchRibbon legend {
   display: none; }
@@ -9545,8 +9555,6 @@ select {
   padding: 3px 10px;
   clear: right;
   width: 100%;
-  padding-top: 9px;
-  padding-bottom: 9px;
   padding-right: 100px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
@@ -9565,8 +9573,8 @@ select {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px 0 rgba(50, 181, 193, 0.75); }
 
 #exlidSearchRibbon input.submit {
-  background-color: #2391b2;
   border: none;
+  background-color: #34aacc;
   background-image: url("../images/search_button_bg.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -9584,7 +9592,7 @@ select {
   cursor: pointer;
   height: auto;
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 4px 20px;
   float: right;
   position: absolute;
   top: 0;
@@ -11176,48 +11184,38 @@ body.EXLFullView div.EXLBackToResults {
 #exlidSearchRibbon div.EXLSearchTabsContainer {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 100%;
-  height: auto; }
-  #exlidSearchRibbon div.EXLSearchTabsContainer:last-child {
-    margin-right: 0; }
+  height: auto;
+  position: absolute; }
 
 #exlidSearchTabs {
   margin: 0;
   padding: 0;
   height: auto;
   z-index: 100;
-  position: relative; }
+  position: relative;
+  float: left; }
 
 #exlidSearchTabs {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-  float: left;
-  color: #ffffff;
-  line-height: 18px;
-  clear: right; }
+  line-height: 14px;
+  color: #ffffff; }
 
 #exlidSearchTabs li {
   float: left;
-  padding: 11px 0; }
+  margin-left: -2px;
+  padding: 0; }
   #exlidSearchTabs li a {
+    font-size: 14px;
     display: block;
     float: left;
     text-align: center;
-    color: #ffffff;
-    padding: 2px 20px;
+    color: #666666;
+    padding: 9.5px 15px;
     cursor: pointer;
-    -webkit-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
-    -moz-text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
-    text-shadow: 0 2px 1px rgba(51, 51, 51, 0.5);
-    border-right: 1px solid #ffffff; }
-  #exlidSearchTabs li:first-child a {
-    padding-left: 0; }
-  #exlidSearchTabs li:last-child a {
-    border-right: none; }
+    background: #ffffff;
+    border: 2px solid #666666; }
+  #exlidSearchTabs li:first-child {
+    margin-left: 0; }
 
 #exlidSearchTabs li {
   list-style: none;
@@ -11227,13 +11225,14 @@ body.EXLFullView div.EXLBackToResults {
 #exlidSearchTabs li.EXLSearchTabSelected {
   float: left;
   border: none;
-  color: #ffcc00;
-  background-color: transparent;
+  color: #ffffff;
+  background-color: #666666;
   height: auto;
   background-image: none;
   text-align: left; }
   #exlidSearchTabs li.EXLSearchTabSelected a {
-    color: #ffcc00;
+    color: #ffffff;
+    background-color: #666666;
     font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {

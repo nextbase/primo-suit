@@ -1,25 +1,7 @@
-#exlidSearchRibbon {
-    @include reset-margins;
-    @include span-columns(9);
-    padding: $spacing-small;
-    position: relative;
-}
-
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
     background-color: transparent;
     height: auto;
     border: none;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    float: left;
-    display: block;
-    position: relative;
-}
-
-#exlidSearchRibbon fieldset {
-    @include reset-margins;
-    @include span-columns(12);
 }
 
 #exlidSearchRibbon legend {
@@ -31,8 +13,6 @@
     @include input;
     @include input-size("default");
     @include form-element-width("full-width");
-    padding-top: 9px;
-    padding-bottom: 9px;
     padding-right: 100px;
 
     &:focus {
@@ -42,8 +22,8 @@
 }
 
 #exlidSearchRibbon input.submit {
-    background-color: #2391b2;
     border: none;
+    background-color: $blue;
     @include retina-image('../images/search_button_bg', 200px 50px);
     background-repeat: no-repeat;
     background-position: center center;
@@ -59,7 +39,7 @@
     cursor: pointer;
     height: auto;
     font-size: $base-font-size;
-    padding: 10px 20px;
+    padding: 4px 20px;
     float: right;
     position: absolute;
     top: 0;
