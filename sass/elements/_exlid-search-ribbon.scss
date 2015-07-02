@@ -79,8 +79,11 @@
 }
 
 .EXLSearchFieldRibbonFormSearchClear {
-    width: 4%;
-    float: left;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #333;
     visibility: hidden;
 }
 
