@@ -31,6 +31,8 @@
     @include input;
     @include input-size("default");
     @include form-element-width("full-width");
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 100px;
 
     &:focus {

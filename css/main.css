@@ -9559,6 +9559,8 @@ select {
   padding: 3px 10px;
   clear: right;
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-right: 100px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
