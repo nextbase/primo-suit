@@ -1,0 +1,8 @@
+#exlidSearchBanner {
+    @include reset-margins;
+    @include span-columns(3);
+    @include omega();
+    padding: $spacing-small;
+    text-align: right;
+    display: none;
+}

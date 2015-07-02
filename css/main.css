@@ -9434,19 +9434,6 @@ select {
 #exlidEmbeddedSearch #exlidSearchTile {
   border: 1px solid #adb9c2; }
 
-#exlidSearchBanner {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.5641%;
-  width: 23.07692%;
-  margin-right: 0;
-  padding: 20px;
-  text-align: right; }
-  #exlidSearchBanner:last-child {
-    margin-right: 0; }
-
 #exlidHeaderSearchLimits {
   margin: 0;
   padding: 0;
@@ -10184,6 +10171,20 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input.submit {
   width: 100%; }
+
+#exlidSearchBanner {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 23.07692%;
+  margin-right: 0;
+  padding: 20px;
+  text-align: right;
+  display: none; }
+  #exlidSearchBanner:last-child {
+    margin-right: 0; }
 
 #exlidMainMenuRibbon {
   float: right;
