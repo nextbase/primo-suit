@@ -417,7 +417,7 @@
 }
 
 .EXLToolTipStart {
-    font-size: 80%;
+    font-size: $small-font-size;
     line-height: 120%;
     text-decoration: none;
     padding-top: 1em;
@@ -433,7 +433,7 @@
 }
 
 .EXLToolTipEnd {
-    font-size: 80%;
+  font-size: $small-font-size;
     line-height: 120%;
     text-decoration: none;
     padding-top: 2em;
