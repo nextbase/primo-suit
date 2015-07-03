@@ -8606,8 +8606,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   display: block;
   margin-right: 2.5641%;
-  width: 23.07692%;
-  margin-right: 0; }
+  width: 23.07692%; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
@@ -8935,6 +8934,7 @@ div.EXLResultsHeader:focus {
   display: block;
   margin-right: 2.5641%;
   width: 74.35897%;
+  margin-right: 0;
   background-color: transparent;
   margin-bottom: 20px; }
   .EXLResultsContainer div.EXLResultsTile:last-child {
@@ -8945,7 +8945,8 @@ div.EXLResultsHeader:focus {
     float: left;
     display: block;
     margin-right: 3.8961%;
-    width: 100%; }
+    width: 100%;
+    margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; } }
 
@@ -9185,7 +9186,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding: 0em;
   margin: 0px;
   border: none;
-  vertical-align: bottom;
+  float: left;
   width: 70px;
   height: 110px; }
 

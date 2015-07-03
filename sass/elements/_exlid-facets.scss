@@ -1,7 +1,6 @@
 .EXLFacetTile {
     @include reset-margins;
     @include span-columns(3);
-    @include omega;
 }
 
 @include media($tablet) {
