@@ -95,7 +95,7 @@ a#dp-close {
   padding: 4px 0;
   text-align: center;
   display: block;
-  color: #0075B0; }
+  color: #987c4d; }
 
 a#dp-close:hover {
   text-decoration: underline; }
@@ -112,7 +112,7 @@ div.dp-popup div.dp-nav-prev {
 
 div.dp-popup div.dp-nav-prev a {
   float: left;
-  color: #0075B0; }
+  color: #987c4d; }
 
 a.dp-nav-next-month {
   background: transparent url(../images/v3.0/images/calendar-next.png) no-repeat scroll 30px 6px;
@@ -133,7 +133,7 @@ a.dp-nav-prev-year {
 div.dp-popup div.dp-nav-prev a,
 div.dp-popup div.dp-nav-next a {
   cursor: pointer;
-  color: #0075B0; }
+  color: #987c4d; }
 
 div.dp-popup div.dp-nav-prev a.disabled,
 div.dp-popup div.dp-nav-next a.disabled {
@@ -1504,7 +1504,7 @@ html {
 
 a:link,
 a:visited {
-  color: #0075b0;
+  color: #987c4d;
   text-decoration: none; }
 
 a:hover {
@@ -2967,7 +2967,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   color: #9B9B9B; }
 
 .EXLTabsRibbon div li.EXLResultTab a {
-  color: #0075b0; }
+  color: #987c4d; }
 
 .EXLTabsRibbon div li.EXLResultTabIconPopout {
   background-image: url(../images/icon_popout_tab.png);
@@ -3867,7 +3867,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-color: transparent;
   font-size: 90%;
   line-height: 250%;
-  color: #0075b0; }
+  color: #987c4d; }
 
 .EXLFormCalendar tr.EXLFormCalendarNav td a:hover {
   background-color: transparent;
@@ -6486,7 +6486,7 @@ a.EXLLoansRenewButton {
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
   width: 100%;
   padding-bottom: 0px;
-  color: #0075B0;
+  color: #987c4d;
   height: 1.5em; }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
@@ -7017,7 +7017,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   text-decoration: none;
   height: 26px;
   width: 96%;
-  background-color: #0075B0;
+  background-color: #987c4d;
   margin: 0;
   cursor: pointer;
   padding: 0.1em 0.6em;
@@ -7089,7 +7089,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   height: 0.8em; }
 
 .datebox {
-  border: solid 1px #0075B0;
+  border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
   font-size: 80%; }
 
@@ -7106,7 +7106,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  color: #0075B0;
+  color: #987c4d;
   text-decoration: none;
   outline: none; }
 
@@ -7683,7 +7683,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 #exlidSaveCitationtile div.EXLSaveCitationDisclaimerRow div.EXLSaveCitationDisclaimer {
   background-color: #ECF0F3;
-  color: #0075b0;
+  color: #987c4d;
   font-size: 85%;
   text-align: center;
   padding: 0.5em;
@@ -7947,7 +7947,7 @@ li.EXLAdditionalBarType_thumbnails {
   width: 760px; }
 
 .EXLAdditionalBarContentMultipleLineLink {
-  color: #0075B0; }
+  color: #987c4d; }
 
 .EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
   width: auto; }
@@ -8350,7 +8350,7 @@ table.EXLDetailsTabTOCTable tr td {
     float: left;
     padding-right: 0em; }
   body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a {
-    color: #0075b0;
+    color: #987c4d;
     cursor: pointer;
     text-decoration: underline;
     display: inline; }
@@ -10822,7 +10822,7 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsHeader div.EXLResultsNumbers li a {
   width: auto;
-  color: #0075b0;
+  color: #987c4d;
   cursor: pointer; }
 
 .EXLResultsHeader div.EXLResultsNumbers li img {
@@ -10888,7 +10888,7 @@ div.EXLResultsHeader:focus {
 .EXLResultsList p.EXLTocLink {
   font-weight: bold;
   margin-top: 1em;
-  color: #0075b0;
+  color: #987c4d;
   font-size: 95%; }
 
 .EXLResultsList span.EXLResultVersionFound {
@@ -11071,7 +11071,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   text-align: center; }
 
 .EXLResultsListBrowseLine td span.EXLBrowseResultsDataHeadingsEntry {
-  color: #0075B0;
+  color: #987c4d;
   padding-top: 0px; }
 
 .EXLResultsListBrowseLine td span.EXLBrowseResultsDataHeadingsEntry span.EXlBrowseFirstPhrase {

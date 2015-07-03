@@ -110,7 +110,7 @@ a#dp-close {
     padding: 4px 0;
     text-align: center;
     display: block;
-    color: #0075B0;
+    color: $anchor-color;
 }
 
 a#dp-close:hover {
@@ -131,7 +131,7 @@ div.dp-popup div.dp-nav-prev {
 
 div.dp-popup div.dp-nav-prev a {
     float: left;
-    color: #0075B0;
+    color: $anchor-color;
 }
 
 a.dp-nav-next-month {
@@ -157,7 +157,7 @@ a.dp-nav-prev-year {
 div.dp-popup div.dp-nav-prev a,
 div.dp-popup div.dp-nav-next a {
     cursor: pointer;
-    color: #0075B0;
+    color: $anchor-color;
 }
 
 div.dp-popup div.dp-nav-prev a.disabled,
@@ -1928,7 +1928,7 @@ html {
 
 a:link,
 a:visited {
-    color: #0075b0;
+    color: $anchor-color;
     text-decoration: none
 }
 
@@ -3653,7 +3653,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLTabsRibbon div li.EXLResultTab a {
-    color: #0075b0;
+    color: $anchor-color;
 }
 
 .EXLTabsRibbon div li.EXLResultTabIconPopout {
@@ -4713,7 +4713,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-color: transparent;
     font-size: 90%;
     line-height: 250%;
-    color: #0075b0
+    color: $anchor-color
 }
 
 .EXLFormCalendar tr.EXLFormCalendarNav td a:hover {
@@ -7803,7 +7803,7 @@ a.EXLLoansRenewButton {
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
     width: 100%;
     padding-bottom: 0px;
-    color: #0075B0;
+    color: $anchor-color;
     height: 1.5em;
 }
 
@@ -8423,7 +8423,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     text-decoration: none;
     height: 26px;
     width: 96%;
-    background-color: #0075B0;
+    background-color: $anchor-color;
     margin: 0;
     cursor: pointer;
     padding: 0.1em 0.6em;
@@ -8509,7 +8509,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 }
 
 .datebox {
-    border: solid 1px #0075B0;
+    border: solid 1px $anchor-color;
     padding: 2px 3px 1px 3px;
     font-size: 80%;
 }
@@ -8530,7 +8530,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-    color: #0075B0;
+    color: $anchor-color;
     text-decoration: none;
     outline: none;
 }
@@ -9201,7 +9201,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 #exlidSaveCitationtile div.EXLSaveCitationDisclaimerRow div.EXLSaveCitationDisclaimer {
     background-color: #ECF0F3;
-    color: #0075b0;
+    color: $anchor-color;
     font-size: 85%;
     text-align: center;
     padding: 0.5em;
@@ -9513,7 +9513,7 @@ li.EXLAdditionalBarType_thumbnails {
 }
 
 .EXLAdditionalBarContentMultipleLineLink {
-    color: #0075B0;
+    color: $anchor-color;
 }
 
 .EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
@@ -10014,7 +10014,7 @@ table.EXLDetailsTabTOCTable tr td {
         padding-right: 0em
     }
     body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a {
-        color: #0075b0;
+        color: $anchor-color;
         cursor: pointer;
         text-decoration: underline;
         display: inline
