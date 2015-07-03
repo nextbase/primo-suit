@@ -1,3 +1,18 @@
+.multipleCoverImageContainer {
+    position: relative;
+    margin: auto;
+    width: 70px;
+    height: 110px;
+    @include retina-image("../images/icon_book", 70px 110px);
+    background-repeat: no-repeat;
+    border: 1px solid $gold-gray-secondary;
+}
+
+.coverImageDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
     @include retina-image("../images/icon_article", 70px 110px);
