@@ -402,6 +402,7 @@
     input[type="text"] {
       @include input;
       @include input-size("small");
+      @include set-input-style("inset");
       @include form-element-width("narrow");
       margin-bottom: ($spacing-small / 2);
       width: 60%;

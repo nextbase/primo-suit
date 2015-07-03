@@ -159,6 +159,14 @@ div.form-element {
   }
 }
 
+@mixin set-input-style($style: "default") {
+  @if $style == "inset" {
+    @include prefixer(box-shadow, inset 1px 2px 5px 0px rgba(darken($black, 8%), .5), webkit moz spec);
+  } @else {
+    // do nothing
+  }
+}
+
 $form-elements-width-small: 80px;
 $form-elements-width-medium: 160px;
 $form-elements-width-wide: 300px;
