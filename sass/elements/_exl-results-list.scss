@@ -168,7 +168,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList em.EXLResultStatusAvailable {
-    background-image: url(../images/icon_available.png);
+    @include retina-image("../images/icon_available", 10px 10px);
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
@@ -176,7 +176,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList em.EXLResultStatusNotAvailable {
-    background-image: url(../images/icon_unavailable_grey.png);
+    @include retina-image("../images/icon_unavailable_grey", 10px 10px);
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
@@ -184,7 +184,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList em.EXLResultStatusMaybeAvailable {
-    background-image: url(../images/icon_yellow.png);
+    @include retina-image("../images/icon_yellow", 10px 10px);
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;

@@ -9208,25 +9208,37 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding-top: 0em; }
 
 .EXLResultsList em.EXLResultStatusAvailable {
-  background-image: url(../images/icon_available.png);
+  background-image: url("../images/icon_available.png");
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
   color: #000000; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLResultsList em.EXLResultStatusAvailable {
+      background-image: url("../images/icon_available_2x.png");
+      background-size: 10px 10px; } }
 
 .EXLResultsList em.EXLResultStatusNotAvailable {
-  background-image: url(../images/icon_unavailable_grey.png);
+  background-image: url("../images/icon_unavailable_grey.png");
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
   color: #000000; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLResultsList em.EXLResultStatusNotAvailable {
+      background-image: url("../images/icon_unavailable_grey_2x.png");
+      background-size: 10px 10px; } }
 
 .EXLResultsList em.EXLResultStatusMaybeAvailable {
-  background-image: url(../images/icon_yellow.png);
+  background-image: url("../images/icon_yellow.png");
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
   color: #000000; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLResultsList em.EXLResultStatusMaybeAvailable {
+      background-image: url("../images/icon_yellow_2x.png");
+      background-size: 10px 10px; } }
 
 .EXLResultsList span.EXLAvailabilityLibraryName {
   color: #000000;
