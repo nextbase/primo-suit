@@ -68,6 +68,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
     width: 100%;
+    padding: $result-padding-vertical 0;
     @include clearfix;
 }
 

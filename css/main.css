@@ -9233,7 +9233,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding-top: 0em; }
 
 .EXLResultsList div.EXLSummaryContainer {
-  width: 100%; }
+  width: 100%;
+  padding: 20px 0; }
   .EXLResultsList div.EXLSummaryContainer::after {
     clear: both;
     content: "";
