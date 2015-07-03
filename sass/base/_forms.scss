@@ -96,6 +96,7 @@ div.form-element {
     line-height: $form-line-height;
   } @else {
     font-size: $base-font-size - 2px;
+    font-weight: bold;
     line-height: $form-line-height-small;
     padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
   }
@@ -161,7 +162,8 @@ div.form-element {
 
 @mixin set-input-style($style: "default") {
   @if $style == "inset" {
-    @include prefixer(box-shadow, inset 1px 2px 5px 0px rgba(darken($black, 8%), .5), webkit moz spec);
+    @include prefixer(box-shadow, inset 0px 1px 8px 0px rgba(darken($gray, 8%), .5), webkit moz spec);
+    border-color: $gray-light-secondary;
   } @else {
     // do nothing
   }

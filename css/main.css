@@ -7126,6 +7126,7 @@ input[type="button"] {
   input[type="reset"].small,
   input[type="button"].small {
     font-size: 14px;
+    font-weight: bold;
     line-height: 20px;
     padding: 1.5px 10px; }
 
@@ -8806,6 +8807,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   background-color: #fd8000;
   border: 2px solid #fd8000;
   font-size: 14px;
+  font-weight: bold;
   line-height: 20px;
   padding: 1.5px 10px; }
   .EXLSliderRefine a::-moz-focus-inner,
@@ -8852,7 +8854,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     font-size: 14px;
     line-height: 20px;
     padding: 1.5px 10px;
-    box-shadow: inset 1px 2px 5px 0px rgba(31, 31, 31, 0.5);
+    box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
+    border-color: #dfdfdc;
     width: 80px;
     margin-bottom: 10px;
     width: 60%;
