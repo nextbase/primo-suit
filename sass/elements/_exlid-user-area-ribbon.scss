@@ -36,7 +36,7 @@
 }
 
 #exlidUserAreaRibbon li.EXLUserName {
-    color: #000000;
+    color: $black;
     font-weight: bold;
 }
 
@@ -45,12 +45,13 @@
 }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStart {
-    background-image: url(../images/bg_diagonal_subNav.png);
+    /* background-image: url(../images/bg_diagonal_subNav.png); */
     height: 18px;
     width: 19px;
-    background-color: #ffffff;
+    background-color: transparent;
     float: left;
-    padding-left: 0em
+    padding-left: 0;
+    display: none;
 }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStartRtl {
@@ -64,7 +65,7 @@
     width: 20px;
     float: left;
     position: relative;
-    top: -5px;
+    top: -4px;
     left: -4px;
 }
 

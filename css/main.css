@@ -9324,19 +9324,20 @@ select {
       margin-left: 0; }
 
 #exlidUserAreaRibbon li.EXLUserName {
-  color: #000000;
+  color: #333333;
   font-weight: bold; }
 
 #exlidUserAreaRibbon li span {
   padding-left: 1px; }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStart {
-  background-image: url(../images/bg_diagonal_subNav.png);
+  /* background-image: url(../images/bg_diagonal_subNav.png); */
   height: 18px;
   width: 19px;
-  background-color: #ffffff;
+  background-color: transparent;
   float: left;
-  padding-left: 0em; }
+  padding-left: 0;
+  display: none; }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStartRtl {
   display: none; }
@@ -9348,7 +9349,7 @@ select {
   width: 20px;
   float: left;
   position: relative;
-  top: -5px;
+  top: -4px;
   left: -4px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #exlidUserAreaRibbon li span.EXLMyShelfStarSelected {
