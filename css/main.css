@@ -8982,7 +8982,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .ui-slider {
   position: relative;
   text-align: left;
-  background-color: #f2f2f0; }
+  background-color: #f2f2f0;
+  border: none; }
 
 .ui-slider .ui-slider-handle {
   position: absolute;
@@ -8990,7 +8991,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   width: 20px;
   height: 20px;
   cursor: default;
-  background-color: #bcbdb6; }
+  background-color: #bcbdb6;
+  border: none; }
 
 .ui-slider .ui-slider-range {
   position: absolute;
