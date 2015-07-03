@@ -1,9 +1,9 @@
 .multipleCoverImageContainer {
     position: relative;
     margin: auto;
-    width: 70px;
-    height: 110px;
-    @include retina-image("../images/icon_book", 70px 110px);
+    width: $thumbnail-width;
+    height: $thumbnail-height;
+    @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
     background-repeat: no-repeat;
     border: 1px solid $gold-gray-secondary;
 }
@@ -15,89 +15,89 @@
 }
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
-    @include retina-image("../images/icon_article", 70px 110px);
+    @include retina-image("../images/icon_article", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
-  @include retina-image("../images/icon_audio", 70px 110px);
+  @include retina-image("../images/icon_audio", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEbook .multipleCoverImageContainer {
-    @include retina-image("../images/icon_book", 70px 110px);
+    @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
-  @include retina-image("../images/icon_research_dataset", 70px 110px);
+  @include retina-image("../images/icon_research_dataset", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEtechnical_report .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEpatent .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEdatabase .multipleCoverImageContainer {
-  @include retina-image("../images/icon_database", 70px 110px);
+  @include retina-image("../images/icon_database", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEimage .multipleCoverImageContainer {
-  @include retina-image("../images/icon_image", 70px 110px);
+  @include retina-image("../images/icon_image", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEjournal .multipleCoverImageContainer {
-  @include retina-image("../images/icon_journal", 70px 110px);
+  @include retina-image("../images/icon_journal", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEmap .multipleCoverImageContainer {
-  @include retina-image("../images/icon_map", 70px 110px);
+  @include retina-image("../images/icon_map", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEother .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEtext_resource .multipleCoverImageContainer {
-  @include retina-image("../images/icon_text_resource", 70px 110px);
+  @include retina-image("../images/icon_text_resource", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEvideo .multipleCoverImageContainer {
-  @include retina-image("../images/icon_video", 70px 110px);
+  @include retina-image("../images/icon_video", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {
-  @include retina-image("../images/icon_website", 70px 110px);
+  @include retina-image("../images/icon_website", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEdissertation .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEgovernment_document .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEreview .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEstatistical_data_set .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {
-  @include retina-image("../images/icon_newspaper", 70px 110px);
+  @include retina-image("../images/icon_newspaper", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPElegal_document .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEcce_entry .multipleCoverImageContainer {
-  @include retina-image("../images/icon_other", 70px 110px);
+  @include retina-image("../images/icon_other", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
-  @include retina-image("../images/icon_book", 70px 110px);
+  @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
 }

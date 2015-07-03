@@ -133,9 +133,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList td.EXLThumbnail {
-    width: 4.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    @include reset-margins;
+    width: $thumbnail-width + 20px;
     text-align: center;
     vertical-align: top;
 }
@@ -209,4 +208,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList span.EXLAvailabilityRTAupdating {
     color: $black;
     font-weight: normal
+}
+
+.EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
+    width: auto;
 }

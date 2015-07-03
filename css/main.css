@@ -6165,9 +6165,6 @@ li.EXLAdditionalBarType_thumbnails {
 .EXLAdditionalBarContentMultipleLineLink {
   color: #987c4d; }
 
-.EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
-  width: auto; }
-
 .EXLAdditionalBarContentMultipleEnteriesThumbnail {
   float: left;
   text-align: center;
@@ -9178,9 +9175,9 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   display: none; }
 
 .EXLResultsList td.EXLThumbnail {
-  width: 4.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  margin: 0;
+  padding: 0;
+  width: 90px;
   text-align: center;
   vertical-align: top; }
 
@@ -9255,6 +9252,9 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList span.EXLAvailabilityRTAupdating {
   color: #333333;
   font-weight: normal; }
+
+.EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
+  width: auto; }
 
 #exlidBrowseResultsEnteries {
   width: 100%;
