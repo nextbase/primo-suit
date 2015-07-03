@@ -9224,10 +9224,8 @@ div.EXLResultsHeader:focus {
   font-weight: bold; }
 
 body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
-  font-size: 100%;
-  margin: 0px;
-  padding: 0px;
-  padding-top: 0.5em; }
+  font-size: 24px;
+  margin-bottom: 12px; }
 
 body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   font-size: 100%;
@@ -9235,8 +9233,11 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding-top: 0em; }
 
 .EXLResultsList div.EXLSummaryContainer {
-  clear: both;
   width: 100%; }
+  .EXLResultsList div.EXLSummaryContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
   float: left;
