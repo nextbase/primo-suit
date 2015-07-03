@@ -10216,8 +10216,14 @@ body.EXLFullView div.EXLBackToResults {
 .EXLTabsRibbon {
   margin: 0;
   padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 100%;
   height: auto;
   border-bottom: 1px solid #cbbfae; }
+  .EXLTabsRibbon:last-child {
+    margin-right: 0; }
   .EXLTabsRibbon::after {
     clear: both;
     content: "";
