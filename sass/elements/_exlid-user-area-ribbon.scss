@@ -16,6 +16,7 @@
     height: 18px;
     border-left: 1px solid $gray;
     overflow: visible;
+    background: transparent;
 
     .EXLUserNameDisplay,
     a {
@@ -55,7 +56,7 @@
 }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStartRtl {
-    display: none
+    display: nones
 }
 
 #exlidUserAreaRibbon li span.EXLMyShelfStarSelected {

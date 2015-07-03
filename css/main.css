@@ -9310,7 +9310,8 @@ select {
   width: auto;
   height: 18px;
   border-left: 1px solid #bcbdb6;
-  overflow: visible; }
+  overflow: visible;
+  background: transparent; }
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
   #exlidUserAreaRibbon li a {
     font-family: sans-serif;
@@ -9340,7 +9341,7 @@ select {
   display: none; }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStartRtl {
-  display: none; }
+  display: nones; }
 
 #exlidUserAreaRibbon li span.EXLMyShelfStarSelected {
   background-image: url("../images/star_full.png");
