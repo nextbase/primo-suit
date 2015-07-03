@@ -135,7 +135,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail {
     @include reset-margins;
     width: $thumbnail-width + 20px;
-    text-align: center;
+    text-align: left;
     vertical-align: top;
 }
 

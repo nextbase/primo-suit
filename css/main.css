@@ -9178,7 +9178,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   margin: 0;
   padding: 0;
   width: 90px;
-  text-align: center;
+  text-align: left;
   vertical-align: top; }
 
 .EXLResultsList td.EXLThumbnail img {
