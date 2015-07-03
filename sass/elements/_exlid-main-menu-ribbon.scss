@@ -106,6 +106,7 @@
 
 #exlidMainMenuRibbon {
     @include reset-margins;
+    float: left;
     display: block;
     list-style: none;
     width: auto;
