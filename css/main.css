@@ -8936,7 +8936,8 @@ div.EXLResultsHeader:focus {
   width: 74.35897%;
   margin-right: 0;
   background-color: transparent;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-left: none; }
   .EXLResultsContainer div.EXLResultsTile:last-child {
     margin-right: 0; }
 
@@ -8952,7 +8953,7 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsHeader {
   display: block;
-  border: 0px solid blue;
+  border: 0px solid #34aacc;
   width: 100%;
   padding-top: 2px; }
 
