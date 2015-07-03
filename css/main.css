@@ -9210,7 +9210,9 @@ div.EXLResultsHeader:focus {
   font-weight: normal;
   margin-bottom: 10px; }
 
-.EXLResultsList p, .EXLResultsList .EXLResultDetails {
+.EXLResultsList p,
+.EXLResultsList .EXLResultDetails {
+  display: block;
   margin-bottom: 10px; }
 
 .EXLResultsList p.EXLResultSnippet {
