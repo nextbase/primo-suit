@@ -16,9 +16,7 @@
 }
 
 .EXLResultsList td {
-    font-size: 100%;
-    padding-top: 0em;
-    margin-top: 0px;
+    @include reset-margins;
     vertical-align: top;
     border-bottom: 1px solid #dfdfdf;
 }
@@ -33,6 +31,7 @@
 .EXLResultsList h3 {
   @include reset-margins;
   font-size: $base-font-size;
+  line-height: $base-line-height;
   font-weight: normal;
   margin-bottom: 10px;
 }
@@ -78,7 +77,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
     width: 100%;
-    padding: $result-padding-vertical 0;
+    padding: $result-padding-vertical 0 0 0;
     @include clearfix;
 }
 

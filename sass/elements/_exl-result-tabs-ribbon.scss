@@ -1,11 +1,9 @@
 
 .EXLTabsRibbon {
-    height: 1.25em;
-    border-bottom: 1px solid #8fb9d0;
-    padding: 0px;
-    padding-top: 0;
-    margin: 0em 0em 0em 0em;
-    clear: left
+    @include reset-margins;
+    height: auto;
+    border-bottom: 1px solid $gold-gray;
+    @include clearfix;
 }
 
 .EXLTabsRibbon div {
@@ -22,27 +20,32 @@
 }
 
 .EXLTabsRibbon div li {
-    line-height: 120%;
-    font-size: 100%;
+    @include reset-margins;
+    line-height: $base-line-height;
+    font-size: $small-font-size;
     display: inline;
+    height: auto;
+    cursor: pointer;
 }
 
 .EXLTabsRibbon div li.EXLResultTab {
-    border: 0px solid #CCCCCC;
-    border-bottom: 0px;
-    height: 15px;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
+    @include reset-margins;
+    font-family: $tabs-font-family;
+    font-size: $small-font-size;
     float: left;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 2px;
-    color: #9B9B9B;
+    color: $black;
 }
 
 .EXLTabsRibbon div li.EXLResultTab a {
+    padding: (($tabs-height - $tabs-font-size) / 2) ($tabs-height / 2);
     color: $anchor-color;
+    background: $gray-light;
+    border: 1px solid $white;
+
+    &:hover {
+      background: $gray-light-secondary;
+      text-decoration: none;
+    }
 }
 
 .EXLTabsRibbon div li.EXLResultTabIconPopout {

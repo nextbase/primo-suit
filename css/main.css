@@ -9191,9 +9191,8 @@ div.EXLResultsHeader:focus {
   width: 100%; }
 
 .EXLResultsList td {
-  font-size: 100%;
-  padding-top: 0em;
-  margin-top: 0px;
+  margin: 0;
+  padding: 0;
   vertical-align: top;
   border-bottom: 1px solid #dfdfdf; }
 
@@ -9207,6 +9206,7 @@ div.EXLResultsHeader:focus {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  line-height: 1.5;
   font-weight: normal;
   margin-bottom: 10px; }
 
@@ -9244,7 +9244,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
-  padding: 20px 0; }
+  padding: 20px 0 0 0; }
   .EXLResultsList div.EXLSummaryContainer::after {
     clear: both;
     content: "";
@@ -10213,12 +10213,14 @@ body.EXLFullView div.EXLBackToResults {
       background-size: 70px 110px; } }
 
 .EXLTabsRibbon {
-  height: 1.25em;
-  border-bottom: 1px solid #8fb9d0;
-  padding: 0px;
-  padding-top: 0;
-  margin: 0em 0em 0em 0em;
-  clear: left; }
+  margin: 0;
+  padding: 0;
+  height: auto;
+  border-bottom: 1px solid #cbbfae; }
+  .EXLTabsRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLTabsRibbon div {
   width: 90%;
@@ -10232,25 +10234,30 @@ body.EXLFullView div.EXLBackToResults {
   margin-bottom: 0em; }
 
 .EXLTabsRibbon div li {
-  line-height: 120%;
-  font-size: 100%;
-  display: inline; }
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 14px;
+  display: inline;
+  height: auto;
+  cursor: pointer; }
 
 .EXLTabsRibbon div li.EXLResultTab {
-  border: 0px solid #CCCCCC;
-  border-bottom: 0px;
-  height: 15px;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
   float: left;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  margin-right: 2px;
-  color: #9B9B9B; }
+  color: #333333; }
 
 .EXLTabsRibbon div li.EXLResultTab a {
-  color: #987c4d; }
+  padding: 8px 15px;
+  color: #987c4d;
+  background: #f2f2f0;
+  border: 1px solid #ffffff; }
+  .EXLTabsRibbon div li.EXLResultTab a:hover {
+    background: #dfdfdc;
+    text-decoration: none; }
 
 .EXLTabsRibbon div li.EXLResultTabIconPopout {
   background-image: url(../images/icon_popout_tab.png);
