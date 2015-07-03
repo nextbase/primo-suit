@@ -1,88 +1,88 @@
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
-    background-image: url(../images/icon_article.png);
+    @include retina-image("../images/icon_article", 70px 110px);
 }
 
 .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
-    background-image: url(../images/icon_audio.png);
+  @include retina-image("../images/icon_audio", 70px 110px);
 }
 
 .EXLResultMediaTYPEbook .multipleCoverImageContainer {
-    background-image: url(../images/icon_book.png);
+    @include retina-image("../images/icon_book", 70px 110px);
 }
 
 .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
-    background-image: url(../images/icon_research_dataset.png);
+  @include retina-image("../images/icon_research_dataset", 70px 110px);
 }
 
 .EXLResultMediaTYPEtechnical_report .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEpatent .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEdatabase .multipleCoverImageContainer {
-    background-image: url(../images/icon_database.png);
+  @include retina-image("../images/icon_database", 70px 110px);
 }
 
 .EXLResultMediaTYPEimage .multipleCoverImageContainer {
-    background-image: url(../images/icon_image.png);
+  @include retina-image("../images/icon_image", 70px 110px);
 }
 
 .EXLResultMediaTYPEjournal .multipleCoverImageContainer {
-    background-image: url(../images/icon_journal.png);
+  @include retina-image("../images/icon_journal", 70px 110px);
 }
 
 .EXLResultMediaTYPEmap .multipleCoverImageContainer {
-    background-image: url(../images/icon_map.png);
+  @include retina-image("../images/icon_map", 70px 110px);
 }
 
 .EXLResultMediaTYPEother .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEtext_resource .multipleCoverImageContainer {
-    background-image: url(../images/icon_text_resource.png);
+  @include retina-image("../images/icon_text_resource", 70px 110px);
 }
 
 .EXLResultMediaTYPEvideo .multipleCoverImageContainer {
-    background-image: url(../images/icon_video.png);
+  @include retina-image("../images/icon_video", 70px 110px);
 }
 
 .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {
-    background-image: url(../images/icon_website.png);
+  @include retina-image("../images/icon_website", 70px 110px);
 }
 
 .EXLResultMediaTYPEdissertation .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEgovernment_document .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEreview .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEstatistical_data_set .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {
-    background-image: url(../images/icon_newspaper.png);
+  @include retina-image("../images/icon_newspaper", 70px 110px);
 }
 
 .EXLResultMediaTYPElegal_document .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPEcce_entry .multipleCoverImageContainer {
-    background-image: url(../images/icon_other.png);
+  @include retina-image("../images/icon_other", 70px 110px);
 }
 
 .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
-    background-image: url(../images/icon_book.png);
+  @include retina-image("../images/icon_book", 70px 110px);
 }
