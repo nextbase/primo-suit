@@ -8828,6 +8828,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 18px;
   background-color: transparent;
   border-top: 10px solid #f2f2f0;
+  border-bottom: none;
   line-height: 1.2;
   text-indent: 0; }
   .EXLFacetContainer h1::after {

@@ -239,6 +239,7 @@
     font-size: $h4-fontsize;
     background-color: transparent;
     border-top: 10px solid $gray-light;
+    border-bottom: none;
     line-height: 1.2;
     text-indent: 0;
     @include clearfix;
