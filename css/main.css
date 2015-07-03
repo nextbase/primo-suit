@@ -2845,16 +2845,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLClearFix {
   display: block; }
 
-.multipleCoverImageContainer {
-  position: relative;
-  margin: auto;
-  width: 38px;
-  height: 56px;
-  font-size: 0px;
-  background-image: url(../images/icon_book.png);
-  background-repeat: no-repeat;
-  border: 1px solid #bdbcbd; }
-
 .popThumbnailToTop {
   z-index: 1000 !important; }
 
@@ -9199,8 +9189,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   margin: 0px;
   border: none;
   vertical-align: bottom;
-  width: 38px;
-  height: 56px; }
+  width: 70px;
+  height: 110px; }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
   border: 1px solid #ffffff;
