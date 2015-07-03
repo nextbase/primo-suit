@@ -22,7 +22,6 @@ div.EXLResultsHeader:focus {
 }
 
 @include media($tablet) {
-
     .EXLResultsContainer div.EXLResultsTile {
         @include span-columns(8);
         @include omega();
@@ -150,7 +149,7 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLBriefResultsPagination {
-    padding: 0em 0.1em 0em 0.1em;
+      padding: 0em 0.1em 0em 0.1em;
 }
 
 .EXLBriefResultsPagination:hover {
