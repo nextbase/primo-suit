@@ -9308,7 +9308,7 @@ select {
   float: left;
   list-style: none;
   width: auto;
-  height: 18px;
+  height: auto;
   border-left: 1px solid #bcbdb6;
   overflow: visible;
   background: transparent; }
