@@ -134,18 +134,21 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList td.EXLThumbnail {
     @include reset-margins;
+    position: relative;
     width: $thumbnail-width + 20px;
+    padding: $result-padding-vertical 0 $result-padding-vertical $result-padding-horizontal;
     text-align: left;
     vertical-align: top;
 }
 
 .EXLResultsList td.EXLThumbnail img {
-    padding: 0em;
-    margin: 0px;
-    border: none;
+    @include reset-margins;
     float: left;
     width: 70px;
     height: 110px;
+    position: absolute;
+    top: $result-padding-vertical;
+    left: $result-padding-horizontal;
 }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
@@ -156,10 +159,15 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList td.EXLMyShelfStar {
-    width: 1.5em;
-    padding-top: 0.6em;
-    padding-bottom: 0.5em;
+    width: 40px;
+    padding-top: $result-padding-vertical;
+    padding-bottom: $spacing-small;
     text-align: left
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
 }
 
 .EXLResultsList td.EXLSummary {

@@ -9292,17 +9292,21 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail {
   margin: 0;
   padding: 0;
+  position: relative;
   width: 90px;
+  padding: 20px 0 20px 0;
   text-align: left;
   vertical-align: top; }
 
 .EXLResultsList td.EXLThumbnail img {
-  padding: 0em;
-  margin: 0px;
-  border: none;
+  margin: 0;
+  padding: 0;
   float: left;
   width: 70px;
-  height: 110px; }
+  height: 110px;
+  position: absolute;
+  top: 20px;
+  left: 0; }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
   border: 1px solid #ffffff;
@@ -9311,10 +9315,12 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   display: block; }
 
 .EXLResultsList td.EXLMyShelfStar {
-  width: 1.5em;
-  padding-top: 0.6em;
-  padding-bottom: 0.5em;
-  text-align: left; }
+  width: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left img;
+    text-align-width: 20px;
+    text-align-height: 20px; }
 
 .EXLResultsList td.EXLSummary {
   padding-top: 0em; }
@@ -10023,8 +10029,8 @@ body.EXLFullView div.EXLBackToResults {
     display: none; } }
 
 .multipleCoverImageContainer {
-  position: relative;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   width: 70px;
   height: 110px;
   background-image: url("../images/icon_book.png");

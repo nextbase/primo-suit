@@ -1,6 +1,5 @@
 .multipleCoverImageContainer {
-    position: relative;
-    margin: auto;
+    @include reset-margins;
     width: $thumbnail-width;
     height: $thumbnail-height;
     @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
