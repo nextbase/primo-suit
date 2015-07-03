@@ -37,10 +37,14 @@
 }
 
 .EXLResultsList p,
-.EXLResultsList .EXLResultDetails,
-.EXLResultsList .EXLResultAvailability {
+.EXLResultsList .EXLResultDetails {
   display: block;
   margin-bottom: 10px;
+}
+
+.EXLResultsList p.EXLResultAvailability {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .EXLResultsList p.EXLResultSnippet {

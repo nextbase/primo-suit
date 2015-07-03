@@ -22,8 +22,6 @@
 
 .EXLTabsRibbon div li {
     @include reset-margins;
-    line-height: $base-line-height;
-    font-size: $small-font-size;
     display: inline;
     height: auto;
     cursor: pointer;
@@ -38,8 +36,12 @@
 }
 
 .EXLTabsRibbon div li.EXLResultTab a {
-    padding: (($tabs-height - $tabs-font-size) / 2) ($tabs-height / 2);
-    color: $anchor-color;
+    padding: ((($tabs-height - $tabs-font-size) / 2) + 3px) ($tabs-height / 2) (($tabs-height - $tabs-font-size) / 2) ($tabs-height / 2) ;
+    font-family: sans-serif;
+    font-size: $xsmall-font-size;
+    font-weight: bold;
+    line-height: 1;
+    color: $black;
     background: $gray-light;
     border: 1px solid $white;
     float: left;
@@ -75,37 +77,33 @@
 }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab {
-    border: 1px solid #8fb9d0;
-    border-bottom: 1px solid #dcf1fc;
-    background-color: #FFFFFF;
-    height: 15px;
-    background-image: url(../images/bg_strip_brief_tabs.png);
-    background-repeat: repeat-x;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    float: left;
-    font-weight: bold;
-    text-decoration: none;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 0px;
-    color: #555555;
-    margin-left: 0.5em
+    border: 1px solid $gold-gray-secondary;
+    border-bottom: 1px solid $gold-gray;
+    background-color: $gold-gray;
+    color: $black-secondary;
 }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
-    color: #32322f;
-    padding-right: 0px;
+    border-color: $gold-gray;
+    color: $black-secondary;
+    background-color: $gold-gray;
+
+    &:hover {
+      border-color: darken($gold, 5%);
+      border-bottom-color: $gold;
+      color: $white;
+      background-color: $gold;
+      outline: 0;
+    }
 }
 
 .EXLTabsRibbon div li.EXLResultFirstTab {
-    padding-left: 0em;
-    margin-left: 0em
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .EXLTabsRibbon div li.EXLFirstSelectedTab {
-    padding-left: 0.5em;
+    padding-left: inherit;
 }
 
 .EXLTabsRibbonClosed {

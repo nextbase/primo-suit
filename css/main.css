@@ -9212,10 +9212,13 @@ div.EXLResultsHeader:focus {
   margin-bottom: 10px; }
 
 .EXLResultsList p,
-.EXLResultsList .EXLResultDetails,
-.EXLResultsList .EXLResultAvailability {
+.EXLResultsList .EXLResultDetails {
   display: block;
   margin-bottom: 10px; }
+
+.EXLResultsList p.EXLResultAvailability {
+  display: block;
+  margin-bottom: 20px; }
 
 .EXLResultsList p.EXLResultSnippet {
   color: #bcbdb6; }
@@ -10244,8 +10247,6 @@ body.EXLFullView div.EXLBackToResults {
 .EXLTabsRibbon div li {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
-  font-size: 14px;
   display: inline;
   height: auto;
   cursor: pointer; }
@@ -10259,8 +10260,12 @@ body.EXLFullView div.EXLBackToResults {
   color: #333333; }
 
 .EXLTabsRibbon div li.EXLResultTab a {
-  padding: 8px 15px;
-  color: #987c4d;
+  padding: 11px 15px 8px 15px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+  color: #333333;
   background: #f2f2f0;
   border: 1px solid #ffffff;
   float: left; }
@@ -10288,34 +10293,28 @@ body.EXLFullView div.EXLBackToResults {
   text-decoration: underline; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab {
-  border: 1px solid #8fb9d0;
-  border-bottom: 1px solid #dcf1fc;
-  background-color: #FFFFFF;
-  height: 15px;
-  background-image: url(../images/bg_strip_brief_tabs.png);
-  background-repeat: repeat-x;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle;
-  float: left;
-  font-weight: bold;
-  text-decoration: none;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  margin-right: 0px;
-  color: #555555;
-  margin-left: 0.5em; }
+  border: 1px solid #d8d0c4;
+  border-bottom: 1px solid #cbbfae;
+  background-color: #cbbfae;
+  color: #333333; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
-  color: #32322f;
-  padding-right: 0px; }
+  border-color: #cbbfae;
+  color: #333333;
+  background-color: #cbbfae; }
+  .EXLTabsRibbon div li.EXLResultSelectedTab a:hover {
+    border-color: #876e44;
+    border-bottom-color: #987c4d;
+    color: #ffffff;
+    background-color: #987c4d;
+    outline: 0; }
 
 .EXLTabsRibbon div li.EXLResultFirstTab {
-  padding-left: 0em;
-  margin-left: 0em; }
+  padding-left: 0;
+  margin-left: 0; }
 
 .EXLTabsRibbon div li.EXLFirstSelectedTab {
-  padding-left: 0.5em; }
+  padding-left: inherit; }
 
 .EXLTabsRibbonClosed {
   border-bottom: none;
