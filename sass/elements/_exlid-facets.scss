@@ -457,8 +457,7 @@
 }
 
 #slider-range {
-    @include reset-margins;
-    padding: 0 $facets-horizontal-padding $facets-vertical-padding $facets-horizontal-padding;
+    margin: 15px 20px 5px 12px;
     @include clearfix;
 }
 

@@ -8973,9 +8973,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin-bottom: 10px; }
 
 #slider-range {
-  margin: 0;
-  padding: 0;
-  padding: 0 10px 10px 10px; }
+  margin: 15px 20px 5px 12px; }
   #slider-range::after {
     clear: both;
     content: "";
