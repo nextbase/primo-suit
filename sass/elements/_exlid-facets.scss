@@ -462,7 +462,8 @@
 }
 
 .ui-slider-horizontal {
-    height: .4em;
+    height: 14px;
+    background-color: $gray-light;
 }
 
 .ui-slider-horizontal .ui-slider-handle {

@@ -8980,7 +8980,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     display: table; }
 
 .ui-slider-horizontal {
-  height: .4em; }
+  height: 14px;
+  background-color: #f2f2f0; }
 
 .ui-slider-horizontal .ui-slider-handle {
   top: -.25em;
