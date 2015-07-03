@@ -413,6 +413,7 @@
     margin-top: 0;
     margin-bottom: $spacing-small;
     padding-left: $facets-horizontal-padding;
+    @include clearfix;
 }
 
 .EXLToolTipStart {
