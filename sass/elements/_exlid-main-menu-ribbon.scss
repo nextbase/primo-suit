@@ -120,7 +120,7 @@
     float: left;
     list-style: none;
     width: auto;
-    height: 18px;
+    height: 20px;
     border-left: 1px solid $gray;
     overflow: visible;
 
@@ -149,6 +149,7 @@
 #exlidMainMenuRibbon li span {
   @include reset-margins;
   display: block;
+  border-right: none;
   float: left;
 }
 

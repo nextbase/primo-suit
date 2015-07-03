@@ -9308,7 +9308,7 @@ select {
   float: left;
   list-style: none;
   width: auto;
-  height: auto;
+  height: 20px;
   border-left: 1px solid #bcbdb6;
   overflow: visible;
   background: transparent; }
@@ -10327,7 +10327,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   list-style: none;
   width: auto;
-  height: 18px;
+  height: 20px;
   border-left: 1px solid #bcbdb6;
   overflow: visible; }
   #exlidMainMenuRibbon li a {
@@ -10349,6 +10349,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin: 0;
   padding: 0;
   display: block;
+  border-right: none;
   float: left; }
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
