@@ -9051,12 +9051,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 .ui-slider .ui-slider-handle {
   width: 20px;
-  height: 20px; }
+  height: 20px;
+  border-radius: 5px; }
 
 .datebox {
   border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
-  font-size: 80%; }
+  font-size: 14px; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {

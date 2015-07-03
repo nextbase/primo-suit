@@ -550,13 +550,15 @@
 .ui-slider .ui-slider-handle {
     width: 20px;
     height: 20px;
+
+    @include prefixer(border-radius, 5px, webkit moz spec);
 }
 
 
 .datebox {
     border: solid 1px $anchor-color;
     padding: 2px 3px 1px 3px;
-    font-size: 80%;
+    font-size: $small-font-size;
 }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
