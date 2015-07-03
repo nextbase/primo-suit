@@ -5,6 +5,7 @@
     @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
     background-repeat: no-repeat;
     border: 1px solid $gold-gray-secondary;
+    position: relative;
 }
 
 .coverImageDiv {
