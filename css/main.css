@@ -5705,7 +5705,7 @@ a.EXLLoansRenewButton {
   width: 100%;
   display: block;
   color: #000000;
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 1px solid #d8d0c4;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   background-color: sass; }
@@ -7002,8 +7002,8 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   margin: 0px 0px 5px 8px;
   padding: 0px 7px 0px 7px;
   background-color: sass;
-  border-top: solid 1px #E4E4E4;
-  border-bottom: solid 1px #E4E4E4;
+  border-top: solid 1px #d8d0c4;
+  border-bottom: solid 1px #d8d0c4;
   line-height: 150%;
   font-size: 80%;
   font-family: Arial; }
@@ -10421,7 +10421,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: block; }
 
 .EXLFacetContainerRefine {
-  border-bottom: 1px solid #e4e4e4; }
+  border-bottom: 1px solid #d8d0c4; }
 
 .EXLFacetContainer h3 {
   color: #000000;
@@ -10429,8 +10429,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 80%;
   padding: 0em;
   background-color: sass;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
+  border-bottom: 1px solid #d8d0c4;
   line-height: 150%;
   text-indent: 0em;
   margin-bottom: 0.7em;
@@ -10547,8 +10547,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 80%;
   padding: 0em;
   background-color: sass;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
+  border-bottom: 1px solid #d8d0c4;
   line-height: 150%;
   text-indent: 0em;
   margin-bottom: 0.2em;
@@ -10587,8 +10587,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 .EXLFacetContainer h1 {
   background-color: sass;
-  border-bottom: 1px solid #E4E4E4;
-  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #d8d0c4;
+  border-top: 1px solid #d8d0c4;
   color: #000000;
   font-size: 80%;
   font-weight: bold;
@@ -10603,8 +10603,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 80%;
   padding: 0.2em 0em 0.2em 0em;
   background-color: sass;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
+  border-bottom: 1px solid #d8d0c4;
   line-height: 150%;
   text-indent: 0em;
   margin-bottom: 0.2em;
@@ -10856,7 +10856,7 @@ div.EXLResultsHeader:focus {
   font-size: 16px;
   margin-top: 0em;
   margin-bottom: 0em;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
   width: 100%; }
 
 .EXLResultsList table {
@@ -11106,7 +11106,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLRefinementRibbon {
   clear: both;
   background-color: sass;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
   border-bottom: none;
   color: #32322f;
   font-size: 80%;
@@ -11154,7 +11154,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLRefinementRibbonWithExclude {
   clear: both;
   background-color: sass;
-  border-top: 1px solid #e4e4e4;
+  border-top: 1px solid #d8d0c4;
   border-bottom: none;
   color: #32322f;
   font-size: 80%;
