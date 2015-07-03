@@ -33,7 +33,7 @@
 }
 
 .EXLFacetContainer h3 {
-    color: #000000;
+    color: $black;
     font-weight: bold;
     font-size: 80%;
     padding: 0em;
@@ -119,7 +119,7 @@
 }
 
 .EXLFacetContainerForms ol li {
-    color: #000000;
+    color: $black;
     line-height: 130%;
 }
 
@@ -173,7 +173,7 @@
 }
 
 .EXLFacetContainer div.EXLFacetActions {
-    color: #000000;
+    color: $black;
     font-weight: normal;
     font-size: 80%;
     padding: 0em;
@@ -226,7 +226,7 @@
     background-color: sass;
     border-bottom: 1px solid $gold-gray-secondary;
     border-top: 1px solid $gold-gray-secondary;
-    color: #000000;
+    color: $black;
     font-size: 80%;
     font-weight: bold;
     line-height: 150%;
@@ -236,7 +236,7 @@
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 {
-    color: #000000;
+    color: $black;
     font-weight: normal;
     font-size: 80%;
     padding: 0.2em 0em 0.2em 0em;

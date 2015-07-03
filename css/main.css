@@ -1099,7 +1099,7 @@ pre.sourcecode {
 .ui-widget-shadow {
   margin: -5px 0 0 -5px;
   padding: 5px;
-  background: #000000 url(../images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
+  background: #333333 url(../images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
   opacity: .2;
   filter: Alpha(Opacity=20);
   border-radius: 5px; }
@@ -1721,7 +1721,7 @@ strong {
 .EXLFindDBHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -2064,7 +2064,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 #exlidFindDBTile div.EXLFindDBListContainer div.EXLFindDBFeedbackResults {
@@ -2083,7 +2083,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 #exlidFindDBTile div.EXLFindDBListContainer div.EXLFindDBFeedbackNoResults {
@@ -2250,7 +2250,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   clear: left; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li a {
-  color: #000000;
+  color: #333333;
   text-decoration: none; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li.EXLFindDBSetsTitleSelected {
@@ -2285,11 +2285,11 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   border-top: 1px solid #ffffff;
   width: 80%;
   float: left;
-  color: #000000; }
+  color: #333333; }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeader div.EXLFindDBEditSetHeaderContent {
   width: auto;
-  color: #000000;
+  color: #333333;
   padding-left: 1em;
   line-height: 200%;
   border-right: 1px solid #e1e1e1; }
@@ -2348,7 +2348,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBSetsHeader div.EXLFindDBListHeaderTitle {
   width: auto;
-  color: #000000;
+  color: #333333;
   padding-left: 0.7em;
   line-height: 200%;
   border-right: 1px solid #e1e1e1; }
@@ -2477,7 +2477,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .EXLCitationLinkerHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -2692,7 +2692,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-image: url(../images/bg_strip_btn_grey.png);
   color: #ADB9C2;
   background-color: #ADB9C2;
-  color: #000000; }
+  color: #333333; }
 
 .EXLCitationLinkerTabsRibbon {
   height: 28px;
@@ -2801,7 +2801,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: bold;
   font-size: 80%; }
 
@@ -2820,7 +2820,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: bold; }
 
 #exlidErrorSubMessage {
@@ -2903,7 +2903,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLMyAccountLinks {
   border: 1px solid #FCFCFD;
-  color: #000000;
+  color: #333333;
   display: block;
   float: left;
   margin-right: 1em;
@@ -3049,13 +3049,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent {
   width: auto;
-  color: #000000;
+  color: #333333;
   padding-bottom: 0.1em;
   padding-top: 0.1em; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
   width: auto;
-  color: #000000;
+  color: #333333;
   margin-right: 1em;
   display: block;
   float: left;
@@ -3114,7 +3114,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   border: 1px solid #e1e1e1;
   padding: 0.5em 0em 0.5em 0.5em; }
@@ -3124,7 +3124,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   border-bottom: 1px solid #e0e2e5;
   padding-top: 0.2em;
   padding-bottom: 0em;
-  color: #000000;
+  color: #333333;
   width: auto;
   padding-right: 1.5em;
   vertical-align: bottom; }
@@ -3134,7 +3134,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   border: 1px solid #e1e1e1;
   padding: 0.5em 0em 0.5em 0.5em; }
@@ -3243,7 +3243,7 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a {
   padding: 0.2em 0.2em 0.2em 0.2em;
-  color: #000000;
+  color: #333333;
   cursor: pointer; }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonLabel {
@@ -3577,7 +3577,7 @@ a.EXLLoansRenewButton {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountEditLink {
@@ -3852,7 +3852,7 @@ a.EXLLoansRenewButton {
 .EXLPleaseWaitHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -3920,7 +3920,7 @@ a.EXLLoansRenewButton {
 .EXLSuggestedSearchesTile {
   width: 100%;
   display: block;
-  color: #000000;
+  color: #333333;
   border-bottom: 1px solid #d8d0c4;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -3940,7 +3940,7 @@ a.EXLLoansRenewButton {
   width: 100%; }
 
 .EXLSuggestedSearchesContainer h3 {
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   font-size: 80%;
   padding: 0em;
@@ -4004,7 +4004,7 @@ a.EXLLoansRenewButton {
 .EXLLighboxConfirmHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -4086,7 +4086,7 @@ a.EXLLoansRenewButton {
 .EXLFacetsLightboxHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -4400,7 +4400,7 @@ a.EXLLoansRenewButton {
   -moz-border-radius-topright: 4px; }
 
 .EXLLightbox div.EXLLightboxHeader span.EXLLightboxHeaderTitle {
-  color: #000000;
+  color: #333333;
   font-weight: bold;
   font-size: 90%;
   line-height: 210%;
@@ -4713,7 +4713,7 @@ a.EXLLoansRenewButton {
   cursor: pointer; }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
-  color: #000000; }
+  color: #333333; }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
   float: right;
@@ -4729,7 +4729,7 @@ a.EXLLoansRenewButton {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000;
+  color: #333333;
   min-width: 10em; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
@@ -4737,7 +4737,7 @@ a.EXLLoansRenewButton {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000;
+  color: #333333;
   min-width: 10em; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
@@ -4745,7 +4745,7 @@ a.EXLLoansRenewButton {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000;
+  color: #333333;
   min-width: 10em; }
 
 #exlidMyAccountMainMenuContainer li.EXLMyAccountMainMenuInstHeader a {
@@ -4857,7 +4857,7 @@ a.EXLLoansRenewButton {
 .EXLPopupImportCitationHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -4959,7 +4959,7 @@ a.EXLLoansRenewButton {
 .EXLPopupPermalinkHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -4995,7 +4995,7 @@ a.EXLLoansRenewButton {
 .EXLPermalinkHeaderButtons h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -5089,7 +5089,7 @@ div.EXLPermalinkHeaderButtons li a span.EXLPermalinkHeaderButtonClose {
 .EXLPopupOpenUrlHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -5125,7 +5125,7 @@ div.EXLPermalinkHeaderButtons li a span.EXLPermalinkHeaderButtonClose {
 .EXLOpenUrlHeaderButtons h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -5698,7 +5698,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationFeedbackResults {
@@ -5717,7 +5717,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationFeedbackNoResults {
@@ -5737,7 +5737,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationSetsHeader div.EXLSaveCitationListHeaderTitle {
   width: auto;
-  color: #000000;
+  color: #333333;
   padding-left: 0.7em;
   line-height: 200%;
   border-right: 1px solid #e1e1e1; }
@@ -5752,11 +5752,11 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   border-top: 1px solid #ffffff;
   width: 80%;
   float: left;
-  color: #000000; }
+  color: #333333; }
 
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationEditSetHeader div.EXLSaveCitationEditSetHeaderContent {
   width: auto;
-  color: #000000;
+  color: #333333;
   padding-left: 1em;
   line-height: 200%;
   border-right: 1px solid #e1e1e1; }
@@ -5917,7 +5917,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .EXLSaveCitationHeader h1 {
   float: left;
   font-size: 100%;
-  color: #000000;
+  color: #333333;
   line-height: 300%;
   padding-left: 1em; }
 
@@ -6005,7 +6005,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   clear: left; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li a {
-  color: #000000;
+  color: #333333;
   text-decoration: none; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li.EXLSaveCitationSetsTitleSelected {
@@ -6066,7 +6066,7 @@ div.EXLSaveCitationBottomRow span.EXLSaveCitationEditSetHeaderAddtoSet {
 
 div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
   border-right: 1px solid #E1E1E1;
-  color: #000000;
+  color: #333333;
   line-height: 200%;
   padding-left: 1em;
   width: auto; }
@@ -6556,7 +6556,7 @@ table.EXLDetailsTabTOCTable tr td {
   body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo a {
     text-decoration: none;
     cursor: auto;
-    color: #000000; }
+    color: #333333; }
   body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
     margin-right: 0.5em; }
   body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
@@ -7325,7 +7325,7 @@ select {
   box-sizing: border-box;
   padding: 3px 10px;
   margin-right: 14px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -7347,7 +7347,7 @@ select {
     border-left-width: 5px;
     padding-left: 6px;
     outline: 0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -moz-border-bottom-left-radius: 0;
@@ -7692,7 +7692,7 @@ select {
   box-sizing: border-box;
   padding: 3px 10px;
   margin-right: 14px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -7710,7 +7710,7 @@ select {
     border-left-width: 5px;
     padding-left: 6px;
     outline: 0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -moz-border-bottom-left-radius: 0;
@@ -7751,7 +7751,7 @@ select {
   box-sizing: border-box;
   padding: 3px 10px;
   margin-right: 14px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -7771,7 +7771,7 @@ select {
     border-left-width: 5px;
     padding-left: 6px;
     outline: 0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -moz-border-bottom-left-radius: 0;
@@ -7799,7 +7799,7 @@ select {
   box-sizing: border-box;
   padding: 3px 10px;
   margin-right: 14px;
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
   border-radius: 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -7814,7 +7814,7 @@ select {
     border-left-width: 5px;
     padding-left: 6px;
     outline: 0;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
     border-top-left-radius: 0;
     -moz-border-bottom-left-radius: 0;
@@ -7822,7 +7822,7 @@ select {
     transition: box-shadow 0.2s ease-in-out; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px 0 rgba(50, 181, 193, 0.75); }
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.5), 0px 0px 20px 0 rgba(50, 181, 193, 0.75); }
 
 #exlidSearchRibbon input.submit {
   border: none;
@@ -8558,7 +8558,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
       margin-left: 0; }
 
 #exlidMainMenuRibbon li a:hover {
-  color: #000000;
+  color: #333333;
   text-decoration: underline; }
 
 #exlidMainMenuRibbon li span {
@@ -8640,7 +8640,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   border-bottom: 1px solid #d8d0c4; }
 
 .EXLFacetContainer h3 {
-  color: #000000;
+  color: #333333;
   font-weight: bold;
   font-size: 80%;
   padding: 0em;
@@ -8713,7 +8713,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin-top: 0.3em; }
 
 .EXLFacetContainerForms ol li {
-  color: #000000;
+  color: #333333;
   line-height: 130%; }
 
 .EXLFacetContainerForms ol li.EXLFacetsDisplayMore:hover {
@@ -8758,7 +8758,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   visibility: visible; }
 
 .EXLFacetContainer div.EXLFacetActions {
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   font-size: 80%;
   padding: 0em;
@@ -8805,7 +8805,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   background-color: sass;
   border-bottom: 1px solid #d8d0c4;
   border-top: 1px solid #d8d0c4;
-  color: #000000;
+  color: #333333;
   font-size: 80%;
   font-weight: bold;
   line-height: 150%;
@@ -8814,7 +8814,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   text-indent: 0; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 {
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   font-size: 80%;
   padding: 0.2em 0em 0.2em 0em;
@@ -8969,7 +8969,7 @@ div.EXLResultsHeader:focus {
   width: 65%; }
 
 .EXLResultsHeader h1 em {
-  color: #000000; }
+  color: #333333; }
 
 .EXLResultsHeader div.EXLResultsNumbers {
   float: left;
@@ -9099,7 +9099,7 @@ div.EXLResultsHeader:focus {
   color: #808080; }
 
 .EXLResultsList p.EXLResultSnippet b.searchword {
-  color: #000000; }
+  color: #333333; }
 
 .EXLResultsList p.EXLTocLink {
   font-weight: bold;
@@ -9212,7 +9212,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000; }
+  color: #333333; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .EXLResultsList em.EXLResultStatusAvailable {
       background-image: url("../images/icon_available_2x.png");
@@ -9223,7 +9223,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000; }
+  color: #333333; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .EXLResultsList em.EXLResultStatusNotAvailable {
       background-image: url("../images/icon_unavailable_grey_2x.png");
@@ -9234,26 +9234,26 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   background-repeat: no-repeat;
   background-position: 0px 3px;
   padding-left: 15px;
-  color: #000000; }
+  color: #333333; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .EXLResultsList em.EXLResultStatusMaybeAvailable {
       background-image: url("../images/icon_yellow_2x.png");
       background-size: 10px 10px; } }
 
 .EXLResultsList span.EXLAvailabilityLibraryName {
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLResultsList span.EXLAvailabilityCollectionName {
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLResultsList span.EXLAvailabilityCallNumber {
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLResultsList span.EXLAvailabilityRTAupdating {
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 #exlidBrowseResultsEnteries {
@@ -9307,7 +9307,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   color: #32322F; }
 
 .EXLResultsListBrowse span.EXLBrowseResultsDataHeadingsEntry em {
-  color: #000000; }
+  color: #333333; }
 
 .EXLResultsListBrowse span.EXLBrowseResultsDataHeadingsEntry em.EXlBrowseFirstPhrase {
   padding-right: 1em; }
@@ -10244,7 +10244,7 @@ body.EXLFullView div.EXLBackToResults {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   width: auto;
   text-align: center;
@@ -10265,7 +10265,7 @@ body.EXLFullView div.EXLBackToResults {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLTabFormValidationFeedback {
@@ -10280,7 +10280,7 @@ body.EXLFullView div.EXLBackToResults {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: normal; }
 
 .EXLResultTabContainer div.EXLTabHeader {
@@ -10307,7 +10307,7 @@ body.EXLFullView div.EXLBackToResults {
   float: left; }
 
 .EXLTabHeader div.EXLTabHeaderContent em {
-  color: #000000;
+  color: #333333;
   font-weight: normal;
   padding-right: 0.8em; }
 
@@ -10316,7 +10316,7 @@ body.EXLFullView div.EXLBackToResults {
   width: auto; }
 
 .EXLTabHeader div.EXLTabHeaderContent span a {
-  color: #000000; }
+  color: #333333; }
 
 .EXLTabHeader div.EXLTabHeaderContent span.selected {
   background-color: #FFFFFF;
@@ -10332,7 +10332,7 @@ body.EXLFullView div.EXLBackToResults {
   font-weight: normal; }
 
 .EXLTabHeader div.EXLTabHeaderContent em.EXLTabHeaderContentAdditionalDataLineInstName {
-  color: #000000;
+  color: #333333;
   font-weight: bold; }
 
 .EXLTabHeader div.EXLTabHeaderContent em.EXLTabHeaderContentAdditionalDataLineSignIn {
@@ -10567,7 +10567,7 @@ body.EXLFullView div.EXLBackToResults {
 .EXLRequestTabContent table caption {
   text-align: left;
   font-weight: bold;
-  color: #000000;
+  color: #333333;
   padding-bottom: 0.8em;
   text-indent: 0.5em; }
 
@@ -10865,7 +10865,7 @@ body.EXLFullView div.EXLBackToResults {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: bold; }
 
 .EXLRequestTabContent div.EXLRequestSystemFeedback {
@@ -10882,7 +10882,7 @@ body.EXLFullView div.EXLBackToResults {
   background-image: url(../images/bg_strip_system_feedback.png);
   background-repeat: repeat-x;
   background-position: bottom;
-  color: #000000;
+  color: #333333;
   font-weight: bold; }
 
 .EXLRequestTabFormRow {
@@ -11036,7 +11036,7 @@ body.EXLFullView div.EXLBackToResults {
   padding-right: 0.5em; }
 
 table.EXLFormCalendar th {
-  color: #000000; }
+  color: #333333; }
 
 table.EXLFormCalendar td {
   text-align: center;
@@ -11054,7 +11054,7 @@ table.EXLFormCalendar td span.EXLFormCalendarDateDisabled {
 table.EXLFormCalendar td a {
   background-color: #f5e1b8;
   display: block;
-  color: #000000; }
+  color: #333333; }
 
 table.EXLFormCalendar td a:hover {
   background-color: #f57831;

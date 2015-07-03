@@ -49,7 +49,7 @@
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
     width: auto;
     text-align: center;
@@ -72,7 +72,7 @@
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -89,7 +89,7 @@
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -120,7 +120,7 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderContent em {
-    color: #000000;
+    color: $black;
     font-weight: normal;
     padding-right: 0.8em
 }
@@ -131,7 +131,7 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderContent span a {
-    color: #000000;
+    color: $black;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent span.selected {
@@ -151,7 +151,7 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderContent em.EXLTabHeaderContentAdditionalDataLineInstName {
-    color: #000000;
+    color: $black;
     font-weight: bold;
 }
 
@@ -431,7 +431,7 @@
 .EXLRequestTabContent table caption {
     text-align: left;
     font-weight: bold;
-    color: #000000;
+    color: $black;
     padding-bottom: 0.8em;
     text-indent: 0.5em
 }
@@ -780,7 +780,7 @@
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: bold
 }
 
@@ -799,7 +799,7 @@
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: bold
 }
 
@@ -984,7 +984,7 @@
 }
 
 table.EXLFormCalendar th {
-    color: #000000;
+    color: $black;
 }
 
 table.EXLFormCalendar td {
@@ -1005,7 +1005,7 @@ table.EXLFormCalendar td span.EXLFormCalendarDateDisabled {
 table.EXLFormCalendar td a {
     background-color: #f5e1b8;
     display: block;
-    color: #000000
+    color: $black
 }
 
 table.EXLFormCalendar td a:hover {

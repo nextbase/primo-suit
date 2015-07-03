@@ -40,7 +40,7 @@
 }
 
 .EXLResultsList p.EXLResultSnippet b.searchword {
-    color: #000000;
+    color: $black;
 }
 
 .EXLResultsList p.EXLTocLink {
@@ -172,7 +172,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000
+    color: $black
 }
 
 .EXLResultsList em.EXLResultStatusNotAvailable {
@@ -180,7 +180,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000
+    color: $black
 }
 
 .EXLResultsList em.EXLResultStatusMaybeAvailable {
@@ -188,25 +188,25 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000
+    color: $black
 }
 
 .EXLResultsList span.EXLAvailabilityLibraryName {
-    color: #000000;
+    color: $black;
     font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityCollectionName {
-    color: #000000;
+    color: $black;
     font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityCallNumber {
-    color: #000000;
+    color: $black;
     font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityRTAupdating {
-    color: #000000;
+    color: $black;
     font-weight: normal
 }

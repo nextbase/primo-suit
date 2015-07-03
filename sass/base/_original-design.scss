@@ -1385,7 +1385,7 @@ pre.sourcecode {
 .ui-widget-shadow {
     margin: -5px 0 0 -5px;
     padding: 5px;
-    background: #000000 url(../images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
+    background: $black url(../images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;
     opacity: .2;
     filter: Alpha(Opacity=20);
     border-radius: 5px;
@@ -1642,8 +1642,8 @@ pre.sourcecode {
 .qtip-youtube .qtip-content {
     padding: .75em;
     font: 12px arial, sans-serif;
-    // filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);
-    // -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=#000000);"
+    // filter: progid: DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=$black);
+    // -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#4a4a4a, EndColorStr=$black);"
 }
 
 .qtip-youtube .qtip-icon {
@@ -2176,7 +2176,7 @@ strong {
 .EXLFindDBHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -2580,7 +2580,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -2601,7 +2601,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -2806,7 +2806,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 }
 
 #exlidFindDBTile div.EXLFindDBSets ul li a {
-    color: #000000;
+    color: $black;
     text-decoration: none;
 }
 
@@ -2848,12 +2848,12 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
     border-top: 1px solid #ffffff;
     width: 80%;
     float: left;
-    color: #000000;
+    color: $black;
 }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeader div.EXLFindDBEditSetHeaderContent {
     width: auto;
-    color: #000000;
+    color: $black;
     padding-left: 1em;
     line-height: 200%;
     border-right: 1px solid #e1e1e1;
@@ -2920,7 +2920,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBSetsHeader div.EXLFindDBListHeaderTitle {
     width: auto;
-    color: #000000;
+    color: $black;
     padding-left: 0.7em;
     line-height: 200%;
     border-right: 1px solid #e1e1e1;
@@ -3069,7 +3069,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .EXLCitationLinkerHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -3321,7 +3321,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-image: url(../images/bg_strip_btn_grey.png);
     color: #ADB9C2;
     background-color: #ADB9C2;
-    color: #000000
+    color: $black
 }
 
 .EXLCitationLinkerTabsRibbon {
@@ -3449,7 +3449,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: bold;
     font-size: 80%
 }
@@ -3470,7 +3470,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: bold;
 }
 
@@ -3568,7 +3568,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLMyAccountLinks {
     border: 1px solid #FCFCFD;
-    color: #000000;
+    color: $black;
     display: block;
     float: left;
     margin-right: 1em;
@@ -3736,14 +3736,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent {
     width: auto;
-    color: #000000;
+    color: $black;
     padding-bottom: 0.1em;
     padding-top: 0.1em
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
     width: auto;
-    color: #000000;
+    color: $black;
     margin-right: 1em;
     display: block;
     float: left;
@@ -3810,7 +3810,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
     border: 1px solid #e1e1e1;
     padding: 0.5em 0em 0.5em 0.5em;
@@ -3821,7 +3821,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     border-bottom: 1px solid #e0e2e5;
     padding-top: 0.2em;
     padding-bottom: 0em;
-    color: #000000;
+    color: $black;
     width: auto;
     padding-right: 1.5em;
     vertical-align: bottom;
@@ -3832,7 +3832,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
     border: 1px solid #e1e1e1;
     padding: 0.5em 0em 0.5em 0.5em;
@@ -3961,7 +3961,7 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a {
     padding: 0.2em 0.2em 0.2em 0.2em;
-    color: #000000;
+    color: $black;
     cursor: pointer
 }
 
@@ -4362,7 +4362,7 @@ a.EXLLoansRenewButton {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal
 }
 
@@ -4682,7 +4682,7 @@ a.EXLLoansRenewButton {
 .EXLPleaseWaitHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -4759,7 +4759,7 @@ a.EXLLoansRenewButton {
 .EXLSuggestedSearchesTile {
     width: 100%;
     display: block;
-    color: #000000;
+    color: $black;
     border-bottom: 1px solid $gold-gray-secondary;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
@@ -4783,7 +4783,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLSuggestedSearchesContainer h3 {
-    color: #000000;
+    color: $black;
     font-weight: normal;
     font-size: 80%;
     padding: 0em;
@@ -4856,7 +4856,7 @@ a.EXLLoansRenewButton {
 .EXLLighboxConfirmHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -4950,7 +4950,7 @@ a.EXLLoansRenewButton {
 .EXLFacetsLightboxHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -5322,7 +5322,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLLightbox div.EXLLightboxHeader span.EXLLightboxHeaderTitle {
-    color: #000000;
+    color: $black;
     font-weight: bold;
     font-size: 90%;
     line-height: 210%;
@@ -5686,7 +5686,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
-    color: #000000;
+    color: $black;
 }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
@@ -5705,7 +5705,7 @@ a.EXLLoansRenewButton {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000;
+    color: $black;
     min-width: 10em;
 }
 
@@ -5714,7 +5714,7 @@ a.EXLLoansRenewButton {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000;
+    color: $black;
     min-width: 10em;
 }
 
@@ -5723,7 +5723,7 @@ a.EXLLoansRenewButton {
     background-repeat: no-repeat;
     background-position: 0px 3px;
     padding-left: 15px;
-    color: #000000;
+    color: $black;
     min-width: 10em;
 }
 
@@ -5854,7 +5854,7 @@ a.EXLLoansRenewButton {
 .EXLPopupImportCitationHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em;
 }
@@ -5970,7 +5970,7 @@ a.EXLLoansRenewButton {
 .EXLPopupPermalinkHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em;
 }
@@ -6012,7 +6012,7 @@ a.EXLLoansRenewButton {
 .EXLPermalinkHeaderButtons h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -6122,7 +6122,7 @@ div.EXLPermalinkHeaderButtons li a span.EXLPermalinkHeaderButtonClose {
 .EXLPopupOpenUrlHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em;
 }
@@ -6164,7 +6164,7 @@ div.EXLPermalinkHeaderButtons li a span.EXLPermalinkHeaderButtonClose {
 .EXLOpenUrlHeaderButtons h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -6835,7 +6835,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -6856,7 +6856,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     background-image: url(../images/bg_strip_system_feedback.png);
     background-repeat: repeat-x;
     background-position: bottom;
-    color: #000000;
+    color: $black;
     font-weight: normal;
 }
 
@@ -6880,7 +6880,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationSetsHeader div.EXLSaveCitationListHeaderTitle {
     width: auto;
-    color: #000000;
+    color: $black;
     padding-left: 0.7em;
     line-height: 200%;
     border-right: 1px solid #e1e1e1;
@@ -6897,12 +6897,12 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     border-top: 1px solid #ffffff;
     width: 80%;
     float: left;
-    color: #000000;
+    color: $black;
 }
 
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationEditSetHeader div.EXLSaveCitationEditSetHeaderContent {
     width: auto;
-    color: #000000;
+    color: $black;
     padding-left: 1em;
     line-height: 200%;
     border-right: 1px solid #e1e1e1;
@@ -7090,7 +7090,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .EXLSaveCitationHeader h1 {
     float: left;
     font-size: 100%;
-    color: #000000;
+    color: $black;
     line-height: 300%;
     padding-left: 1em
 }
@@ -7193,7 +7193,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li a {
-    color: #000000;
+    color: $black;
     text-decoration: none;
 }
 
@@ -7268,7 +7268,7 @@ div.EXLSaveCitationBottomRow span.EXLSaveCitationEditSetHeaderAddtoSet {
 
 div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
     border-right: 1px solid #E1E1E1;
-    color: #000000;
+    color: $black;
     line-height: 200%;
     padding-left: 1em;
     width: auto;
@@ -7869,7 +7869,7 @@ table.EXLDetailsTabTOCTable tr td {
     body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo a {
         text-decoration: none;
         cursor: auto;
-        color: #000000;
+        color: $black;
     }
     body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
         margin-right: 0.5em
