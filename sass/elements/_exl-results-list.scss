@@ -24,6 +24,7 @@
 .EXLResultsList h2 {
     @include reset-margins;
     font-size: $h4-fontsize;
+    line-height: $h4-lineheight;
     margin-bottom: 10px;
 }
 
