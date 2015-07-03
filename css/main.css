@@ -8678,7 +8678,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding-left: 0.5em; }
 
 .EXLFacetContainer li a {
-  text-indent: 0em; }
+  text-indent: 0;
+  font: "Noto Sans Korean", sans-serif;
+  color: #987c4d; }
 
 .EXLFacetContainer ol li {
   margin: 0;

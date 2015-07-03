@@ -65,7 +65,10 @@
 }
 
 .EXLFacetContainer li a {
-    text-indent: 0em;
+    text-indent: 0;
+    font: $base-font-family;
+    color: $gold;
+    $font-weight: bold;
 }
 
 .EXLFacetContainer ol li {
