@@ -9303,10 +9303,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding: 0;
   float: left;
   width: 70px;
-  height: 110px;
-  position: absolute;
-  top: 20px;
-  left: 0; }
+  height: 110px; }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
   border: 1px solid #ffffff;
