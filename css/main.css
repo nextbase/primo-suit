@@ -8974,6 +8974,10 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #slider-range {
   margin: 15px 20px 5px 12px; }
+  #slider-range::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .ui-slider-horizontal {
   height: .4em; }
