@@ -8975,7 +8975,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #slider-range {
   margin: 0;
   padding: 0;
-  padding: 10px 10px; }
+  padding: 0 10px 10px 10px; }
   #slider-range::after {
     clear: both;
     content: "";
