@@ -6755,7 +6755,7 @@ h1 {
   margin: 0 0 32px; }
 
 h2 {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.125;
   margin: 0 0 30px; }
 
@@ -9197,9 +9197,9 @@ div.EXLResultsHeader:focus {
   border-bottom: 1px solid #dfdfdf; }
 
 .EXLResultsList h2 {
-  font-size: 100%;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
   margin-bottom: 10px; }
 
 .EXLResultsList h3 {
@@ -10261,7 +10261,8 @@ body.EXLFullView div.EXLBackToResults {
   padding: 8px 15px;
   color: #987c4d;
   background: #f2f2f0;
-  border: 1px solid #ffffff; }
+  border: 1px solid #ffffff;
+  float: left; }
   .EXLTabsRibbon div li.EXLResultTab a:hover {
     background: #dfdfdc;
     text-decoration: none; }

@@ -22,9 +22,8 @@
 }
 
 .EXLResultsList h2 {
-    font-size: 100%;
-    margin: 0px;
-    padding: 0px;
+    @include reset-margins;
+    font-size: $h4-fontsize;
     margin-bottom: 10px;
 }
 

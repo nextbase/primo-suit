@@ -42,6 +42,7 @@
     color: $anchor-color;
     background: $gray-light;
     border: 1px solid $white;
+    float: left;
 
     &:hover {
       background: $gray-light-secondary;
