@@ -457,10 +457,9 @@
 }
 
 #slider-range {
-    margin: 0 $facets-horizontal-padding $facets-vertical-padding $facets-horizontal-padding;
+    margin: 0 $facets-horizontal-padding ($facets-vertical-padding + $spacing-small) $facets-horizontal-padding;
     @include clearfix;
 }
-
 
 .ui-slider {
     position: relative;
