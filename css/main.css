@@ -9201,7 +9201,7 @@ div.EXLResultsHeader:focus {
   font-size: 100%;
   margin: 0px;
   padding: 0px;
-  padding-top: 0.5em; }
+  margin-bottom: 10px; }
 
 .EXLResultsList h3 {
   font-size: 100%;
