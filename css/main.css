@@ -9204,11 +9204,17 @@ div.EXLResultsHeader:focus {
   margin-bottom: 10px; }
 
 .EXLResultsList h3 {
-  font-size: 100%;
-  font-weight: normal; }
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 10px; }
+
+.EXLResultsList p {
+  margin-bottom: 10px; }
 
 .EXLResultsList p.EXLResultSnippet {
-  color: #808080; }
+  color: #bcbdb6; }
 
 .EXLResultsList p.EXLResultSnippet b.searchword {
   color: #333333; }
@@ -9228,9 +9234,11 @@ body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
   margin-bottom: 12px; }
 
 body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
+  margin: 0;
+  padding: 0;
   font-size: 100%;
   font-weight: normal;
-  padding-top: 0em; }
+  margin-bottom: 12px; }
 
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
@@ -9308,6 +9316,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   height: 110px; }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
+  font-weight: bold;
+  font-size: 14px;
   border: 1px solid #ffffff;
   padding: 0px;
   margin: 0px;
@@ -10204,7 +10214,7 @@ body.EXLFullView div.EXLBackToResults {
   height: 1.25em;
   border-bottom: 1px solid #8fb9d0;
   padding: 0px;
-  padding-top: 1em;
+  padding-top: 0;
   margin: 0em 0em 0em 0em;
   clear: left; }
 
@@ -11897,6 +11907,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMoreTabContent {
   overflow: auto;
   overflow-x: hidden; }
+
+.EXLResultsList p.EXLResultSnippet {
+  display: none; }
 
 @media screen and (max-width: 480px) {
   * {
