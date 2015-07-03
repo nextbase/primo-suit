@@ -9050,8 +9050,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin-left: -.4em; }
 
 .ui-slider .ui-slider-handle {
-  width: 0.8em;
-  height: 0.8em; }
+  width: 20px;
+  height: 20px; }
 
 .datebox {
   border: solid 1px #987c4d;
