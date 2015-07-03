@@ -10216,7 +10216,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
-  height: auto; }
+  height: auto;
+  clear: none; }
   #exlidMainMenuTile:last-child {
     margin-right: 0; }
 
