@@ -11,8 +11,8 @@
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
     display: block;
-    float: none;
     width: 100%;
+    @include clearfix;
 }
 
 #exlidMainMenuTile div.EXLMainMenuContainer ul {
