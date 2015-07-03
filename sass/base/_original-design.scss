@@ -6349,61 +6349,6 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     margin-right: 0px;
 }
 
-.EXLSliderFromText {
-    color: #8C8D8C;
-    font-size: 80%;
-}
-
-.EXLSliderToText {
-    color: #8C8D8C;
-    font-size: 80%;
-}
-
-#slider-range {
-    margin: 15px 20px 5px 12px;
-}
-
-.ui-slider-horizontal {
-    height: .4em;
-}
-
-.ui-slider-horizontal .ui-slider-handle {
-    top: -.25em;
-    margin-left: -.4em;
-}
-
-.ui-slider .ui-slider-handle {
-    width: 0.8em;
-    height: 0.8em;
-}
-
-.datebox {
-    border: solid 1px $anchor-color;
-    padding: 2px 3px 1px 3px;
-    font-size: 80%;
-}
-
-@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
-    .datebox {
-        min-width: 3.5em;
-    }
-}
-
-.ui-widget-header {
-    border: 1px solid #aaaaaa;
-    background: #cccccc 50% 50% repeat-x;
-    color: #aaaaaa;
-    font-weight: bold;
-}
-
-.ui-state-default,
-.ui-widget-content .ui-state-default,
-.ui-widget-header .ui-state-default {
-    color: $anchor-color;
-    text-decoration: none;
-    outline: none;
-}
-
 .EXLCitationsTabContent {
     overflow: auto;
     overflow-x: hidden;

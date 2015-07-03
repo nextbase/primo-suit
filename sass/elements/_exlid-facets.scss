@@ -61,7 +61,7 @@
 
 .EXLFacetContainer ol {
     display: block;
-    padding-left: 0.5em
+    padding-left: $facets-horizontal-padding;
 }
 
 .EXLFacetContainer li a {
@@ -361,4 +361,149 @@
 
 #exlidToplevelFacetsRibbon li.EXLTopLevelFacetLastItem span {
     border: none
+}
+
+/* Facet Slider */
+
+.EXLDateFacetSlider {
+    font-weight: bold;
+    margin: 0px 0px 5px 8px;
+    padding: 0px 7px 0px 7px;
+    background-color: sass;
+    border-top: solid 1px $gold-gray-secondary;
+    border-bottom: solid 1px $gold-gray-secondary;
+    line-height: 150%;
+    font-size: 80%;
+    font-family: Arial;
+}
+
+.EXLSliderRefine {
+    display: inline;
+    padding-top: 0.15em;
+}
+
+.EXLSliderRefine a,
+.EXLSliderRefine a:hover {
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size("small");
+}
+
+.EXLSliderContainer {
+    width: 90%;
+}
+
+.EXLDateRangeText {
+    text-align: left;
+    margin-bottom: $spacing-small;
+
+    #startdate {
+      &:after {
+        height: 1px;
+        width: 100%;
+        display: block;
+        float: none;
+        content: " ";
+      }
+    }
+
+    input[type="text"] {
+      @include input;
+      @include input-size("small");
+      @include form-element-width("narrow");
+      margin-bottom: ($spacing-small / 2);
+      width: 60%;
+      float: left;
+    }
+}
+
+.EXLDateRangeLine {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding-left: 0.5em
+}
+
+.EXLToolTipStart {
+    font-size: 80%;
+    line-height: 120%;
+    text-decoration: none;
+    padding-top: 1em;
+    margin: -30px -10px;
+    min-width: 3em;
+}
+
+* + html .EXLToolTipStart {
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.EXLToolTipEnd {
+    font-size: 80%;
+    line-height: 120%;
+    text-decoration: none;
+    padding-top: 2em;
+    margin: -14px -10px;
+    min-width: 3em;
+}
+
+* + html .EXLToolTipEnd {
+    margin-bottom: 10px;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.EXLSliderFromText,
+.EXLSliderToText {
+    color: $gray-dark;
+    font-size: $small-font-size;
+    width: 60px;
+    float: left;
+    margin-bottom: ($spacing-small / 2);
+}
+
+#slider-range {
+    margin: 15px 20px 5px 12px;
+}
+
+.ui-slider-horizontal {
+    height: .4em;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.25em;
+    margin-left: -.4em;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 0.8em;
+    height: 0.8em;
+}
+
+.datebox {
+    border: solid 1px $anchor-color;
+    padding: 2px 3px 1px 3px;
+    font-size: 80%;
+}
+
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
+    .datebox {
+        min-width: 3.5em;
+    }
+}
+
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #cccccc 50% 50% repeat-x;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    color: $anchor-color;
+    text-decoration: none;
+    outline: none;
 }
