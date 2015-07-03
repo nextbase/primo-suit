@@ -5213,75 +5213,6 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .EXLMyAccountMainContainer table td.EXLMyAccountFinesDebitColumn {
   color: red; }
 
-.EXLDateFacetSlider {
-  font-weight: bold;
-  margin: 0px 0px 5px 8px;
-  padding: 0px 7px 0px 7px;
-  background-color: sass;
-  border-top: solid 1px #d8d0c4;
-  border-bottom: solid 1px #d8d0c4;
-  line-height: 150%;
-  font-size: 80%;
-  font-family: Arial; }
-
-.EXLSliderRefine {
-  display: inline;
-  padding-top: 0.15em; }
-
-.EXLSliderRefine a,
-.EXLSliderRefine a:hover {
-  text-decoration: none;
-  height: 26px;
-  width: 96%;
-  background-color: #987c4d;
-  margin: 0;
-  cursor: pointer;
-  padding: 0.1em 0.6em;
-  color: #ffffff;
-  font-size: 80%;
-  font-family: Arial;
-  font-weight: normal;
-  border: 1px solid #7f9db9; }
-
-.EXLSliderContainer {
-  width: 90%; }
-
-.EXLDateRangeText {
-  text-align: left;
-  margin-bottom: 25px; }
-
-.EXLDateRangeLine {
-  margin-top: 1em;
-  margin-bottom: 2em;
-  padding-left: 0.5em; }
-
-.EXLToolTipStart {
-  font-size: 80%;
-  line-height: 120%;
-  text-decoration: none;
-  padding-top: 1em;
-  margin: -30px -10px;
-  min-width: 3em; }
-
-* + html .EXLToolTipStart {
-  margin-top: -30px;
-  margin-bottom: 0px;
-  margin-left: -10px;
-  margin-right: 0px; }
-
-.EXLToolTipEnd {
-  font-size: 80%;
-  line-height: 120%;
-  text-decoration: none;
-  padding-top: 2em;
-  margin: -14px -10px;
-  min-width: 3em; }
-
-* + html .EXLToolTipEnd {
-  margin-bottom: 10px;
-  margin-left: -10px;
-  margin-right: 0px; }
-
 .EXLCitationsTabContent {
   overflow: auto;
   overflow-x: hidden;
@@ -8905,8 +8836,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-family: Arial; }
 
 .EXLSliderRefine {
-  display: inline;
-  padding-top: 0.15em; }
+  width: 100%;
+  float: left;
+  margin-bottom: 20px; }
+  .EXLSliderRefine::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLSliderRefine a,
 .EXLSliderRefine a:hover {
@@ -8956,12 +8892,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .EXLDateRangeText {
   text-align: left;
   margin-bottom: 20px; }
-  .EXLDateRangeText #startdate:after {
-    height: 1px;
-    width: 100%;
-    display: block;
-    float: none;
-    content: " "; }
   .EXLDateRangeText input[type="text"] {
     font-size: 16px;
     height: auto;
@@ -8999,9 +8929,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
       transition: box-shadow 0.2s ease-in-out; }
 
 .EXLDateRangeLine {
-  margin-top: 1em;
-  margin-bottom: 2em;
-  padding-left: 0.5em; }
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-left: 10px; }
 
 .EXLToolTipStart {
   font-size: 80%;
@@ -9034,7 +8964,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .EXLSliderToText {
   color: #444444;
   font-size: 14px;
-  width: 60px;
+  width: 32%;
   float: left;
   margin-bottom: 10px; }
 
