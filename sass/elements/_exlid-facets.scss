@@ -551,7 +551,7 @@
     width: 20px;
     height: 20px;
 
-    @include prefixer(border-radius, 5px, webkit moz spec);
+    @include prefixer(border-radius, 10px, webkit moz spec);
 }
 
 
