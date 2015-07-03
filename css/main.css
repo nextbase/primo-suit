@@ -10317,7 +10317,7 @@ body.EXLFullView div.EXLBackToResults {
 
 .EXLTabsRibbonClosed {
   border-bottom: none;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
   clear: left; }
 
 .EXLTabsRibbonClosed div li.EXLResultFirstTab {
