@@ -9208,22 +9208,22 @@ div.EXLResultsHeader:focus {
   .EXLResultsHeader div.EXLResultsNavigation:last-child {
     margin-right: 0; }
 
-li .EXLBriefResultsPaginationPageCount,
+.EXLResultsNavigation .EXLBriefResultsPaginationPageCount,
 .EXLBriefResultsPagination {
   padding: 4px 6px;
   font-weight: bold;
   background: transparent;
   border: 1px solid #bcbdb6;
   color: #bcbdb6; }
-  li .EXLBriefResultsPaginationPageCount:link,
+  .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
     color: #cbbfae;
     outline: 0; }
-  li .EXLBriefResultsPaginationPageCount:visited,
+  .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:visited,
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
 
-li .EXLBriefResultsPaginationPageCount {
+.EXLResultsNavigation .EXLBriefResultsPaginationPageCount {
   background: #bcbdb6;
   color: #ffffff;
   border: 1px solid #bcbdb6; }
