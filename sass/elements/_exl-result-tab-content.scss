@@ -95,7 +95,6 @@
 
 .EXLResultTabContainer div.EXLTabHeader {
     @include reset-margins;
-    padding: $tabs-content-padding;
     background-color: $gray-light;
     background-image: none;
     background-repeat: repeat-x;
@@ -108,7 +107,8 @@
 }
 
 * html .EXLResultTabContainer div.EXLTabHeader {
-    height: 27px;
+    height: auto;
+    min-height: 40px;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent {
