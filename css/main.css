@@ -10603,7 +10603,9 @@ body.EXLFullView div.EXLBackToResults {
 
 .EXLTabHeaderButtonSendTo img {
   padding-left: 5px;
-  padding-right: 0; }
+  padding-right: 0;
+  position: relative;
+  top: -2px; }
 
 .EXLTabHeaderHiddenButton {
   display: none; }
