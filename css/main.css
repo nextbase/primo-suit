@@ -9339,14 +9339,14 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding-bottom: 20px;
   text-align: left; }
   .EXLResultsList td.EXLMyShelfStar a img {
+    display: block;
+    box-sizing: border-box;
     width: 20px;
     height: 20px; }
   .EXLResultsList td.EXLMyShelfStar a img[src*="icon_star_off"] {
-    background-color: #987c4d;
-    padding: 5px; }
+    opacity: .5; }
   .EXLResultsList td.EXLMyShelfStar a img[src*="icon_star_on"] {
-    background-color: #333333;
-    padding: 5px; }
+    opacity: 1; }
 
 .EXLResultsList td.EXLSummary {
   padding-top: 0em; }
