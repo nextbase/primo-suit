@@ -51,10 +51,8 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsHeader div.EXLResultsNumbers {
-    float: left;
-    width: 70%;
-    min-height: 18px;
-    position: relative;
+    @include reset-margins;
+    @include span-columns(8);
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
@@ -139,12 +137,10 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsHeader div.EXLResultsNavigation {
-    font-size: 80%;
-    margin: 0px;
-    padding: 0em 0em 0em 1em;
-    float: right;
-    width: 20%;
-    text-align: right
+  @include reset-margins;
+  @include span-columns(4);
+  @include omega();
+  font-size: $small-font-size;
 }
 
 .EXLBriefResultsPagination {

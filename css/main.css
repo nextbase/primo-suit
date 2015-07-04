@@ -9116,10 +9116,14 @@ div.EXLResultsHeader:focus {
   color: #333333; }
 
 .EXLResultsHeader div.EXLResultsNumbers {
+  margin: 0;
+  padding: 0;
   float: left;
-  width: 70%;
-  min-height: 18px;
-  position: relative; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .EXLResultsHeader div.EXLResultsNumbers:last-child {
+    margin-right: 0; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
   margin: 0;
@@ -9192,12 +9196,16 @@ div.EXLResultsHeader:focus {
   text-decoration: none; }
 
 .EXLResultsHeader div.EXLResultsNavigation {
-  font-size: 80%;
-  margin: 0px;
-  padding: 0em 0em 0em 1em;
-  float: right;
-  width: 20%;
-  text-align: right; }
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
+  font-size: 14px; }
+  .EXLResultsHeader div.EXLResultsNavigation:last-child {
+    margin-right: 0; }
 
 .EXLBriefResultsPagination {
   padding: 0em 0.1em 0em 0.1em; }
