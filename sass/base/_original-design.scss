@@ -1972,7 +1972,7 @@ strong {
     height: 25px;
     background-color: white;
     z-index: 1002;
-    background-image: url(../images/icon_loading_circle.gif);
+    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -2011,7 +2011,7 @@ strong {
     height: 400px;
     background-color: white;
     z-index: 1002;
-    background-image: url(../images/icon_loading_circle.gif);
+    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -2022,7 +2022,7 @@ strong {
 
 .exliLoadingAz {
     height: 75px;
-    background-image: url(../images/icon_loading_circle.gif);
+    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -2974,7 +2974,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
     height: 400px;
     background-color: white;
     z-index: 1002;
-    background-image: url(../images/icon_loading_circle.gif);
+    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
@@ -3814,7 +3814,7 @@ a.EXLLoansRenewButton {
     display: none;
     background-color: white;
     z-index: 1002;
-    background-image: url(../images/icon_loading_circle.gif);
+    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;

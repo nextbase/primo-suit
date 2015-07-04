@@ -1,14 +1,14 @@
 // Variables
 @import 'variables/colors';
-
-// The original Primo design
-@import 'base/original-design';
+@import 'variables/results-list';
 
 // Neat & Bourbon
 @import "bourbon/bourbon";
-@import 'variables/grid-settings';
-@import 'variables/results-list';
 @import "neat/neat";
+@import 'variables/grid-settings';
+
+// The original Primo design
+@import 'base/original-design';
 
 // Functions
 @import 'functions/prefixer';
