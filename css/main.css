@@ -9227,6 +9227,9 @@ div.EXLResultsHeader:focus {
   color: #ffffff;
   border: 1px solid #bcbdb6; }
 
+.EXLPrevious {
+  margin-right: 4px; }
+
 .EXLBriefResultsPagination:hover {
   text-decoration: none;
   background: #dfdfdc; }
