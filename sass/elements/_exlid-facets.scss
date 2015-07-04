@@ -322,8 +322,10 @@ li.EXLFacet {
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
     @include reset-margins;
-    @include span-columns(12);
+    @include span-columns(8);
+    @include shift(4);
     @include omega();
+    text-align: right;
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
