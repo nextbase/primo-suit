@@ -183,6 +183,7 @@
     font-size: 14px;
     line-height: 1.2;
     height: 30px;
+    padding: 7px 10px;
     list-style: none;
     float: left;
     border-right: 1px solid $gold-gray;
@@ -210,8 +211,8 @@
 }
 
 .EXLTabHeaderButtonSendTo img {
-    padding-left: 0em;
-    padding-right: 0.4em;
+    padding-left: 5px;
+    padding-right: 0;
 }
 
 .EXLTabHeaderHiddenButton {
