@@ -311,6 +311,9 @@ li.EXLFacet {
 
 
 #exlidTopLevelFacetsTile {
+    @include reset-margins;
+    @include span-columns(12);
+    padding: ($facets-vertical-padding / 2) $facets-horizontal-padding;
     clear: left;
     vertical-align: text-top;
     width: 100%;

@@ -8737,6 +8737,13 @@ li.EXLFacet label {
   background-image: url(../images/icon_save_search_eshelf_off.png); }
 
 #exlidTopLevelFacetsTile {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 5px 10px;
   clear: left;
   vertical-align: text-top;
   width: 100%;
@@ -8744,6 +8751,8 @@ li.EXLFacet label {
   margin-bottom: 0em;
   height: 1.8em;
   display: block; }
+  #exlidTopLevelFacetsTile:last-child {
+    margin-right: 0; }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
   margin: 0;
