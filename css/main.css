@@ -9250,7 +9250,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
   min-height: 140px;
-  padding: 20px 0 0 0; }
+  padding: 18px 0 0 0; }
   .EXLResultsList div.EXLSummaryContainer::after {
     clear: both;
     content: "";
