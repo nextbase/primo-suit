@@ -11358,7 +11358,8 @@ div.EXLCloseCalendar {
   background-repeat: repeat-x;
   background-position: bottom;
   height: auto;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  background-color: #f2f2f0; }
   .EXLDetailsTabContent div.EXLDetailsLinks:last-child {
     margin-right: 0; }
 
