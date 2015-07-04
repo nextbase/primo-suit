@@ -82,6 +82,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
     width: 100%;
+    min-height: $thumbnail-height + $spacing-medium;
     padding: $result-padding-vertical 0 0 0;
     @include clearfix;
 }
@@ -149,7 +150,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     @include reset-margins;
     position: relative;
     width: $thumbnail-width + 20px;
-    padding: $result-padding-vertical 0 $result-padding-vertical $result-padding-horizontal;
+    padding: $result-padding-vertical 0 $result-padding-horizontal;
     text-align: left;
     vertical-align: top;
 }
@@ -162,11 +163,12 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
+    @include reset-margins;
+    margin-top: 10px;
     font-weight: bold;
     font-size: $small-font-size;
-    border: 1px solid #ffffff;
-    padding: 0px;
-    margin: 0px;
+    border: none;
+    color: $gray;
     display: block
 }
 

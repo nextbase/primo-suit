@@ -9249,6 +9249,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
+  min-height: 140px;
   padding: 20px 0 0 0; }
   .EXLResultsList div.EXLSummaryContainer::after {
     clear: both;
@@ -9311,7 +9312,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   padding: 0;
   position: relative;
   width: 90px;
-  padding: 20px 0 20px 0;
+  padding: 20px 0 0;
   text-align: left;
   vertical-align: top; }
 
@@ -9323,11 +9324,13 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   height: 110px; }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
   font-weight: bold;
   font-size: 14px;
-  border: 1px solid #ffffff;
-  padding: 0px;
-  margin: 0px;
+  border: none;
+  color: #bcbdb6;
   display: block; }
 
 .EXLResultsList td.EXLMyShelfStar {
