@@ -10345,10 +10345,10 @@ body.EXLFullView div.EXLBackToResults {
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
     border-color: #987c4d;
-    border-bottom-width: 6px;
-    border-top-width: 5px;
+    border-bottom-width: 1px;
+    border-top-width: 0;
     position: relative;
-    top: -5px; }
+    top: 1px; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
   border-color: #cbbfae;

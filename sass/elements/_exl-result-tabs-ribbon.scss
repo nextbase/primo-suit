@@ -86,10 +86,10 @@
 
     &:hover {
       border-color: $gold;
-      border-bottom-width: 6px;
-      border-top-width: 5px;
+      border-bottom-width: 1px;
+      border-top-width: 0;
       position: relative;
-      top: -5px;
+      top: 1px;
     }
 
 }
