@@ -9408,8 +9408,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   margin: 0;
   padding: 0;
   margin-top: 10px;
+  font-family: sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.1;
   border: none;
   color: #bcbdb6;
   display: block; }

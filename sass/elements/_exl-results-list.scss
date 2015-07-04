@@ -175,8 +175,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
     @include reset-margins;
     margin-top: 10px;
+    font-family: sans-serif;
     font-weight: bold;
-    font-size: $small-font-size;
+    font-size: $xsmall-font-size;
+    line-height: 1.1;
     border: none;
     color: $gray;
     display: block
