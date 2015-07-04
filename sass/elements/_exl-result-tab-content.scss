@@ -115,6 +115,7 @@
     @include reset-margins;
     @include span-columns(8);
     color: $black;
+    padding: ($tabs-content-padding /2) $tabs-content-padding;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent em {

@@ -10509,7 +10509,8 @@ body.EXLFullView div.EXLBackToResults {
   display: block;
   margin-right: 2.35765%;
   width: 65.88078%;
-  color: #333333; }
+  color: #333333;
+  padding: 10px 20px; }
   .EXLTabHeader div.EXLTabHeaderContent:last-child {
     margin-right: 0; }
 
