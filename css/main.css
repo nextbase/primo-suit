@@ -8766,6 +8766,7 @@ li.EXLFacet label {
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
   font-size: 14px;
   font-weight: bold;
+  line-height: 1.2;
   margin-right: 10px; }
 
 #exlidToplevelFacetsRibbon {
@@ -8777,14 +8778,13 @@ li.EXLFacet label {
   padding: 0; }
 
 #exlidToplevelFacetsRibbon li a {
-  padding-left: 0em;
-  padding-right: 0em; }
+  line-height: 18px; }
 
 #exlidToplevelFacetsRibbon li span {
-  color: #555555;
-  border-right: 1px solid #e2e2e2;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+  color: #bcbdb6;
+  border-right: 1px solid #d8d0c4;
+  padding-left: 5px;
+  padding-right: 5px; }
 
 #exlidToplevelFacetsRibbon li span span {
   color: #8C8D8C;
