@@ -8469,7 +8469,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 li.EXLFacet input[type="checkbox"] {
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-top: 2px; }
 
 li.EXLFacet label {
   line-height: 16px; }
