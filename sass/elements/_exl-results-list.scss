@@ -179,28 +179,35 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     text-align: left;
 
     a {
-      text-indent: 200px;
-      overflow: hidden;
 
       img {
         display: block;
         @include prefixer(box-sizing, border-box, webkit moz spec);
         width: 20px;
         height: 20px;
+        background-position: right center;
+        background-repeat: no-repeat;
+        position: relative;
       }
 
       img[src*="icon_star_off"] {
-        opacity: .5;
-        @include retina-image("../images/icon_star_off", 20px 20px);
-        background-position: center center;
-        background-repeat: no-repeat;
+        &::after {
+          width: 20px;
+          height: 20px;
+          content: "Add";
+          @include retina-image("../images/icon_star_off", 20px 20px);
+          background-position: right center;
+          background-repeat: no-repeat;
+        }
       }
 
       img[src*="icon_star_on"] {
-        opacity: 1;
+        width: 20px;
+        height: 20px;
+        content: "Remove";
         @include retina-image("../images/icon_star_on", 20px 20px);
         background-position: center center;
-      background-repeat: no-repeat;
+        background-repeat: no-repeat;
       }
 
     }
