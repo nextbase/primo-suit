@@ -9212,6 +9212,8 @@ div.EXLResultsHeader:focus {
 .EXLBriefResultsPagination {
   padding: 4px 6px;
   font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
   background: transparent;
   border: 1px solid #bcbdb6;
   color: #bcbdb6;
