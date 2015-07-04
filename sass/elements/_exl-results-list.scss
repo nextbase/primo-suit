@@ -106,11 +106,13 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
     float: right;
     background-color: transparent;
-    font-size: $small-font-size;
+    font-size: $xsmall-font-size + 1px;
+    line-height: 20px;
+    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     position: absolute;
-    bottom: 0;
+    bottom: -20px;
     right: 0;
 }
 
@@ -120,7 +122,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     background-color: transparent;;
     background-position: left center;
     display: block;
-    width: 30px;
+    width: 24px;
     height: 20px;
     float: left;
     clear: right
