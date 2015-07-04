@@ -10582,7 +10582,8 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   border-right: 1px solid #cbbfae;
   position: relative;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  background-image: none; }
 
 .EXLTabHeader div.EXLTabHeaderButtons li span {
   background-image: url(../images/bg_diagonal_sendTo.png);
