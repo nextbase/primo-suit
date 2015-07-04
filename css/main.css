@@ -8467,6 +8467,10 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
+li.EXLFacet input[type="checkbox"] {
+  float: left;
+  margin-right: 20px; }
+
 .EXLFacetTile h2 {
   display: none; }
 

@@ -11,6 +11,13 @@
 
 }
 
+li.EXLFacet {
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 20px;
+  }
+}
+
 .EXLFacetTile h2 {
     display: none
 }
@@ -312,7 +319,7 @@
     @include reset-margins;
     @include span-columns(12);
     @include omega();
-    
+
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
