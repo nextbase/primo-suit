@@ -11350,7 +11350,8 @@ div.EXLCloseCalendar {
   list-style: none; }
 
 .EXLDetailsTabContent div.EXLDetailsContent li {
-  list-style: none; }
+  list-style: none;
+  font-size: 14px; }
 
 .EXLDetailsTabContent div.EXLDetailsContent li strong {
   margin-right: 20px; }
