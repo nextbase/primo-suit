@@ -154,6 +154,7 @@ div.EXLResultsHeader:focus {
 
       &:link {
         color: $gold-gray;
+        outline: 0;
       }
 
       &:visited {
@@ -170,6 +171,7 @@ div.EXLResultsHeader:focus {
 .EXLBriefResultsPagination:hover {
     text-decoration: none;
     background: $gray-light-secondary;
+    outline: 0;
 }
 
 .EXLResultsFooter {

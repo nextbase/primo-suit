@@ -9217,7 +9217,8 @@ div.EXLResultsHeader:focus {
   color: #bcbdb6; }
   .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
-    color: #cbbfae; }
+    color: #cbbfae;
+    outline: 0; }
   .EXLBriefResultsPaginationPageCount:visited,
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
@@ -9229,7 +9230,8 @@ div.EXLResultsHeader:focus {
 
 .EXLBriefResultsPagination:hover {
   text-decoration: none;
-  background: #dfdfdc; }
+  background: #dfdfdc;
+  outline: 0; }
 
 .EXLResultsFooter {
   margin-top: 0.5em;
