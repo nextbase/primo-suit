@@ -10501,7 +10501,11 @@ body.EXLFullView div.EXLBackToResults {
 
 * html .EXLResultTabContainer div.EXLTabHeader {
   height: auto;
-  min-height: 40px; }
+  min-height: 45px; }
+  * html .EXLResultTabContainer div.EXLTabHeader::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLTabHeader div.EXLTabHeaderContent {
   margin: 0;
@@ -10548,11 +10552,18 @@ body.EXLFullView div.EXLBackToResults {
   float: right; }
 
 .EXLTabHeader div.EXLTabHeaderButtons {
-  padding: 0em;
-  width: auto;
-  float: right;
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0;
   text-align: right;
-  height: 18px; }
+  height: auto;
+  min-height: 45px; }
+  .EXLTabHeader div.EXLTabHeaderButtons:last-child {
+    margin-right: 0; }
 
 .EXLTabHeader div.EXLTabHeaderButtons ul {
   float: right;

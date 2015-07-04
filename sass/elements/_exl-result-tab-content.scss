@@ -108,7 +108,8 @@
 
 * html .EXLResultTabContainer div.EXLTabHeader {
     height: auto;
-    min-height: 40px;
+    min-height: 45px;
+    @include clearfix;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent {
@@ -159,11 +160,12 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons {
-    padding: 0em;
-    width: auto;
-    float: right;
+  @include reset-margins;
+  @include span-columns(4);
+  @include omega();
     text-align: right;
-    height: 18px;
+    height: auto;
+    min-height: 45px;
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons ul {
