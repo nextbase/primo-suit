@@ -10343,6 +10343,8 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #cbbfae;
   color: #333333;
   height: auto; }
+  .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
+    border-color: #987c4d; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
   border-color: #cbbfae;
