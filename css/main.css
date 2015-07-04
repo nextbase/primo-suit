@@ -9220,7 +9220,8 @@ div.EXLResultsHeader:focus {
   height: 18px; }
 
 #showhidediv {
-  margin-bottom: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
   margin-top: -5px; }
 
 .EXLResultsList {
