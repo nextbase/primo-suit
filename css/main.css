@@ -9287,10 +9287,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   background-image: url("../images/view_versions_icon.png");
   background-repeat: no-repeat;
   background-color: transparent;
-  background-position: center center;
+  background-position: left center;
   display: block;
   width: 20px;
-  height: 20px;
+  height: 30px;
   float: left;
   clear: right; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {

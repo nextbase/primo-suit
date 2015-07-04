@@ -118,10 +118,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     @include retina-image("../images/view_versions_icon", 20px 20px);
     background-repeat: no-repeat;
     background-color: transparent;;
-    background-position: center center;
+    background-position: left center;
     display: block;
     width: 20px;
-    height: 20px;
+    height: 30px;
     float: left;
     clear: right
 }
