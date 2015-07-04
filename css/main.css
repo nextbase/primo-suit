@@ -10341,7 +10341,8 @@ body.EXLFullView div.EXLBackToResults {
   border: 1px solid #d8d0c4;
   border-bottom: 1px solid #cbbfae;
   background-color: #cbbfae;
-  color: #333333; }
+  color: #333333;
+  height: auto; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
   border-color: #cbbfae;
