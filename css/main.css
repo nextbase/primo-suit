@@ -10571,7 +10571,7 @@ body.EXLFullView div.EXLBackToResults {
 
 .EXLTabHeader div.EXLTabHeaderButtons > ul > li {
   height: 16px;
-  padding: 15px; }
+  padding: 15px 5px; }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
   list-style: none;
