@@ -313,21 +313,18 @@ li.EXLFacet {
 #exlidTopLevelFacetsTile {
     @include reset-margins;
     @include span-columns(12);
+    @include omega();
     padding: ($facets-vertical-padding / 2) $facets-horizontal-padding;
-    clear: left;
-    vertical-align: text-top;
-    width: 100%;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    height: 1.8em;
-    display: block;
+    height: auto;
+    background: $gray-light;
+    border-bottom: 1px solid $gray-light-secondary;
+    border-top: 1px solid $gray-light-secondary;
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
     @include reset-margins;
     @include span-columns(12);
     @include omega();
-
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {

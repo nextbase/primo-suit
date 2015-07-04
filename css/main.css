@@ -8743,14 +8743,12 @@ li.EXLFacet label {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  margin-right: 0;
   padding: 5px 10px;
-  clear: left;
-  vertical-align: text-top;
-  width: 100%;
-  margin-top: 0em;
-  margin-bottom: 0em;
-  height: 1.8em;
-  display: block; }
+  height: auto;
+  background: #f2f2f0;
+  border-bottom: 1px solid #dfdfdc;
+  border-top: 1px solid #dfdfdc; }
   #exlidTopLevelFacetsTile:last-child {
     margin-right: 0; }
 
