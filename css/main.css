@@ -9112,7 +9112,7 @@ div.EXLResultsHeader:focus {
   float: left;
   width: 65%; }
 
-.EXLResultsHeader .resultsNumbersTileBottom h1 {
+#resultsNumbersTileBottom h1 {
   color: #bcbdb6;
   font-size: 14px; }
 
@@ -9138,6 +9138,9 @@ div.EXLResultsHeader:focus {
   position: absolute;
   left: 10px;
   top: 40px; }
+
+#resultsNumbersTileBottom div.EXLResultsSortBy {
+  display: none; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
   float: left;

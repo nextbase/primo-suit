@@ -46,7 +46,7 @@ div.EXLResultsHeader:focus {
     width: 65%;
 }
 
-.EXLResultsHeader .resultsNumbersTileBottom {
+#resultsNumbersTileBottom {
   h1 {
     color: $gray;
     font-size: $h5-fontsize;
@@ -70,6 +70,10 @@ div.EXLResultsHeader:focus {
     position: absolute;
     left: 10px;
     top: 40px;
+}
+
+#resultsNumbersTileBottom div.EXLResultsSortBy {
+  display: none;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
