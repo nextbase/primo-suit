@@ -9118,17 +9118,17 @@ div.EXLResultsHeader:focus {
 .EXLResultsHeader div.EXLResultsNumbers {
   float: left;
   width: 70%;
-  min-height: 18px; }
+  min-height: 18px;
+  position: relative; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-  float: right;
-  font-size: 80%;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
   display: block;
   z-index: 100;
-  position: relative;
+  position: absolute;
   left: 0;
-  width: 13em; }
+  top: 60px; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
   float: left;

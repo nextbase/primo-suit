@@ -54,17 +54,16 @@ div.EXLResultsHeader:focus {
     float: left;
     width: 70%;
     min-height: 18px;
+    position: relative;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-    float: right;
-    font-size: 80%;
-    padding: 0em;
+    @include reset-margins;
     display: block;
     z-index: 100;
-    position: relative;
+    position: absolute;
     left: 0;
-    width: 13em;
+    top: 60px;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
