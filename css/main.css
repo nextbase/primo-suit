@@ -10237,15 +10237,18 @@ body.EXLFullView div.EXLBackToResults {
     display: table; }
 
 .EXLTabsRibbon div {
-  width: 90%;
-  margin: 0px;
-  clear: left;
-  float: left;
-  margin-left: 0em; }
+  margin: 0;
+  padding: 0; }
+  .EXLTabsRibbon div::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLTabsRibbon div ul {
-  margin-left: 0em;
-  margin-bottom: 0em; }
+  margin-left: 0;
+  margin-bottom: 0; }
+  .EXLTabsRibbon div ul.EXLResultTabs {
+    height: 33px; }
 
 .EXLTabsRibbon div li {
   margin: 0;
