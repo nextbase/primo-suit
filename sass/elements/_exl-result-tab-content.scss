@@ -1080,10 +1080,11 @@ div.EXLCloseCalendar {
 .EXLDetailsTabContent div.EXLDetailsContent li {
     list-style: none;
     font-size: $small-font-size;
+    margin-bottom: 10px;
 }
 
 .EXLDetailsTabContent div.EXLDetailsContent li strong {
-    margin-right: $spacing-small;
+    margin-right: $spacing-small / 2;
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {

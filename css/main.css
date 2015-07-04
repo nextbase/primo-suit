@@ -11351,10 +11351,11 @@ div.EXLCloseCalendar {
 
 .EXLDetailsTabContent div.EXLDetailsContent li {
   list-style: none;
-  font-size: 14px; }
+  font-size: 14px;
+  margin-bottom: 10px; }
 
 .EXLDetailsTabContent div.EXLDetailsContent li strong {
-  margin-right: 20px; }
+  margin-right: 10px; }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {
   margin: 0;
