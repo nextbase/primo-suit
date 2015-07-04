@@ -9219,6 +9219,10 @@ div.EXLResultsHeader:focus {
   margin-bottom: 1em;
   height: 18px; }
 
+#showhidediv {
+  margin-bottom: 20px;
+  margin-top: -5px; }
+
 .EXLResultsList {
   margin: 0;
   padding: 0;
