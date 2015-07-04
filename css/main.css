@@ -9222,9 +9222,6 @@ div.EXLResultsHeader:focus {
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
 
-.EXLBriefResultsPaginationLinkPrevious {
-  margin-right: 10px; }
-
 .EXLBriefResultsPaginationPageCount {
   background: #bcbdb6;
   color: #ffffff;
