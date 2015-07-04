@@ -97,8 +97,7 @@
     height: auto;
 
     &:hover {
-      border-color: darken($gold, 5%);
-      border-bottom-color: $gold;
+      border-color: $gold;
       color: $white;
       background-color: $gold;
       outline: 0;
