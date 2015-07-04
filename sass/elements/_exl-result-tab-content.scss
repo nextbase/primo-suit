@@ -1122,10 +1122,10 @@ div.EXLCloseCalendar {
 .EXLDetailsTabContent div.EXLDetailsLinks li span.EXLDetailsLinksBullet {
     padding: 0px;
     margin: 0px;
-    background-image: url(../images/bullet_arrow_grey.png);
+    @include retina-image("../images/bullet_arrow_grey", 10px 10px);
     background-repeat: no-repeat;
     width: 10px;
-    height: 7px;
+    height: 10px;
     float: left;
     display: block;
     clear: left;
