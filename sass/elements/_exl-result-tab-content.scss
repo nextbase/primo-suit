@@ -1068,11 +1068,9 @@ div.EXLCloseCalendar {
 }
 
 .EXLDetailsTabContent div.EXLDetailsContent {
-    float: left;
-    width: 58%;
-    margin: 1.5em 1em 1em 1em;
-    display: block;
-    padding-bottom: 1em
+    @include reset-margins;
+    @include span-columns(7);
+    padding: $spacing-small;
 }
 
 .EXLDetailsTabContent div.EXLDetailsContent ul {
@@ -1080,11 +1078,11 @@ div.EXLCloseCalendar {
 }
 
 .EXLDetailsTabContent div.EXLDetailsContent li {
-    margin-bottom: 0.3em
+    list-style: none;
 }
 
 .EXLDetailsTabContent div.EXLDetailsContent li strong {
-    margin-right: 0.5em
+    margin-right: $spacing-small;
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {

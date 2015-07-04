@@ -11329,20 +11329,24 @@ div.EXLCloseCalendar {
   overflow: hidden\9; }
 
 .EXLDetailsTabContent div.EXLDetailsContent {
+  margin: 0;
+  padding: 0;
   float: left;
-  width: 58%;
-  margin: 1.5em 1em 1em 1em;
   display: block;
-  padding-bottom: 1em; }
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  padding: 20px; }
+  .EXLDetailsTabContent div.EXLDetailsContent:last-child {
+    margin-right: 0; }
 
 .EXLDetailsTabContent div.EXLDetailsContent ul {
   list-style: none; }
 
 .EXLDetailsTabContent div.EXLDetailsContent li {
-  margin-bottom: 0.3em; }
+  list-style: none; }
 
 .EXLDetailsTabContent div.EXLDetailsContent li strong {
-  margin-right: 0.5em; }
+  margin-right: 20px; }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {
   float: right;
