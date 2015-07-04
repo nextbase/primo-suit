@@ -338,13 +338,7 @@ li.EXLFacet {
 }
 
 #exlidToplevelFacetsRibbon li {
-    list-style-type: none;
-    font-size: 80%;
-    font-weight: normal;
-    float: left;
-    margin: 0.2em 0.2em 0em 0.2em;
-    padding-left: 0em;
-    padding-right: 0em;
+    @include reset-margins;
 }
 
 #exlidToplevelFacetsRibbon li a {
