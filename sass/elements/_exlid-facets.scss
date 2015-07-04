@@ -309,8 +309,10 @@
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
-    float: left;
-    width: 100%
+    @include reset-margins;
+    @include span-columns(12);
+    @include omega();
+    
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {

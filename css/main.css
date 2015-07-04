@@ -8738,8 +8738,15 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: block; }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
+  margin: 0;
+  padding: 0;
   float: left;
-  width: 100%; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer:last-child {
+    margin-right: 0; }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
   float: left;
@@ -10616,7 +10623,7 @@ body.EXLFullView div.EXLBackToResults {
   display: none; }
 
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList {
-  width: 165px;
+  width: 180px;
   background-color: #FFFF00;
   border: 1px solid #e1e1e1;
   border-bottom: none;
