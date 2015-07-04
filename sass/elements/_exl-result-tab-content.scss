@@ -170,15 +170,14 @@
 
 .EXLTabHeader div.EXLTabHeaderButtons ul {
     float: right;
-    margin-bottom: 9px;
+    margin-bottom: 0;
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
     list-style: none;
     float: left;
-    height: 18px;
-    background-image: url(../images/bg_strip_tab_header_buttons.png);
-    border-right: 1px solid #e1e1e1;
+    height: 45px;
+    border-right: 1px solid $gold-gray;
     position: relative;
 }
 
