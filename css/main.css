@@ -9222,6 +9222,11 @@ div.EXLResultsHeader:focus {
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
 
+.EXLBriefResultsPaginationPageCount {
+  background: #bcbdb6;
+  color: #ffffff;
+  border: 1px solid #bcbdb6; }
+
 .EXLBriefResultsPagination:hover {
   text-decoration: none;
   background: #dfdfdc; }

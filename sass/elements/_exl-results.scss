@@ -161,6 +161,12 @@ div.EXLResultsHeader:focus {
       }
 }
 
+.EXLBriefResultsPaginationPageCount {
+    background: $gray;
+    color: $white;
+    border: 1px solid $gray;
+}
+
 .EXLBriefResultsPagination:hover {
     text-decoration: none;
     background: $gray-light-secondary;
