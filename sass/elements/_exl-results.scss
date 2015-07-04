@@ -46,6 +46,13 @@ div.EXLResultsHeader:focus {
     width: 65%;
 }
 
+.EXLResultsHeader .resultsNumbersTileBottom {
+  h1 {
+    color: $gray;
+    font-size: $h5-fontsize;
+  }
+}
+
 .EXLResultsHeader h1 em {
     color: $black-secondary;
 }

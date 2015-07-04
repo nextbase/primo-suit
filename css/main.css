@@ -9112,6 +9112,10 @@ div.EXLResultsHeader:focus {
   float: left;
   width: 65%; }
 
+.EXLResultsHeader .resultsNumbersTileBottom h1 {
+  color: #bcbdb6;
+  font-size: 14px; }
+
 .EXLResultsHeader h1 em {
   color: #333333; }
 
