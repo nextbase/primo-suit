@@ -9209,10 +9209,19 @@ div.EXLResultsHeader:focus {
     margin-right: 0; }
 
 .EXLBriefResultsPagination {
-  padding: 0em 0.1em 0em 0.1em; }
+  padding: 4px 6px;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid #bcbdb6;
+  color: #bcbdb6; }
+  .EXLBriefResultsPagination:link {
+    color: #cbbfae; }
+  .EXLBriefResultsPagination:visited {
+    color: #bcbdb6; }
 
 .EXLBriefResultsPagination:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  background: #dfdfdc; }
 
 .EXLResultsFooter {
   margin-top: 0.5em;

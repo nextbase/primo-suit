@@ -145,11 +145,24 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLBriefResultsPagination {
-      padding: 0em 0.1em 0em 0.1em;
+      padding: 4px 6px;
+      font-weight: bold;
+      background: transparent;
+      border: 1px solid $gray;
+      color: $gray;
+
+      &:link {
+        color: $gold-gray;
+      }
+
+      &:visited {
+        color: $gray;
+      }
 }
 
 .EXLBriefResultsPagination:hover {
     text-decoration: none;
+    background: $gray-light-secondary;
 }
 
 .EXLResultsFooter {
