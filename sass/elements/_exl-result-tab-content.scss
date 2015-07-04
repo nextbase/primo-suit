@@ -113,17 +113,14 @@
 
 .EXLTabHeader div.EXLTabHeaderContent {
     @include reset-margins;
-    width: 75%;
-    color: #adb9c2;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
-    float: left;
+    @include span-columns(8);
+    color: $black;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent em {
     color: $black;
     font-weight: normal;
-    padding-right: 0.8em
+    padding-right: $spacing-small;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent span {

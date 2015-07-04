@@ -10477,16 +10477,18 @@ body.EXLFullView div.EXLBackToResults {
 .EXLTabHeader div.EXLTabHeaderContent {
   margin: 0;
   padding: 0;
-  width: 75%;
-  color: #adb9c2;
-  padding-top: 0.5em;
-  padding-left: 0.5em;
-  float: left; }
+  float: left;
+  display: block;
+  margin-right: 2.5641%;
+  width: 65.81197%;
+  color: #333333; }
+  .EXLTabHeader div.EXLTabHeaderContent:last-child {
+    margin-right: 0; }
 
 .EXLTabHeader div.EXLTabHeaderContent em {
   color: #333333;
   font-weight: normal;
-  padding-right: 0.8em; }
+  padding-right: 20px; }
 
 .EXLTabHeader div.EXLTabHeaderContent span {
   padding: 0.3em;
