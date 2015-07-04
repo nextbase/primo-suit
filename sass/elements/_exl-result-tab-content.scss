@@ -1097,8 +1097,9 @@ div.EXLCloseCalendar {
     background-repeat: repeat-x;
     background-position: bottom;
     height: auto;
-    padding-bottom: $spacing-large;
-    background-color: $gray-light;
+    background-color: $white;
+
+    @include prefixer(box-shadow, 0 4px 4px 0 rgba($gray, .3), webkit moz spec);
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks em {
