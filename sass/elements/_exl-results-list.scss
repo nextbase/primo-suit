@@ -95,6 +95,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     min-height: $thumbnail-height + $spacing-medium;
     padding: ($result-padding-vertical - 4px) 0 0 0;
     @include clearfix;
+    position: relative;
 }
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
@@ -104,11 +105,12 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
     float: right;
-    background-color: #efefef;
-    font-size: 100%;
-    font-style: normal;
-    max-height: 22px;
-    max-width: 195px;
+    background-color: transparent;
+    font-size: $small-font-size;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgFRBR {

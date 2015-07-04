@@ -9262,7 +9262,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
   min-height: 140px;
-  padding: 16px 0 0 0; }
+  padding: 16px 0 0 0;
+  position: relative; }
   .EXLResultsList div.EXLSummaryContainer::after {
     clear: both;
     content: "";
@@ -9274,11 +9275,12 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
   float: right;
-  background-color: #efefef;
-  font-size: 100%;
-  font-style: normal;
-  max-height: 22px;
-  max-width: 195px; }
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgFRBR {
   background-image: url(../images/bg_diagonal_frbr.png);
