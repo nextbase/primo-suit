@@ -189,10 +189,12 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 
       img[src*="icon_star_off"] {
         opacity: .5;
+        @include retina-image("../images/icon_star_off", 20px 20px);
       }
 
       img[src*="icon_star_on"] {
         opacity: 1;
+        @include retina-image("../images/icon_star_on", 20px 20px);
       }
 
     }
