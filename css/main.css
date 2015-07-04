@@ -9337,9 +9337,16 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   width: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  text-align: left img;
-    text-align-width: 20px;
-    text-align-height: 20px; }
+  text-align: left; }
+  .EXLResultsList td.EXLMyShelfStar a img {
+    width: 20px;
+    height: 20px; }
+  .EXLResultsList td.EXLMyShelfStar a img[src*="icon_star_off"] {
+    background-color: #987c4d;
+    padding: 5px; }
+  .EXLResultsList td.EXLMyShelfStar a img[src*="icon_star_on"] {
+    background-color: #333333;
+    padding: 5px; }
 
 .EXLResultsList td.EXLSummary {
   padding-top: 0em; }

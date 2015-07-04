@@ -176,11 +176,25 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
     width: 40px;
     padding-top: $result-padding-vertical;
     padding-bottom: $spacing-small;
-    text-align: left
+    text-align: left;
 
-    img {
-      width: 20px;
-      height: 20px;
+    a {
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+
+      img[src*="icon_star_off"] {
+        background-color: $gold;
+        padding: 5px;
+      }
+
+      img[src*="icon_star_on"] {
+        background-color: $black;
+        padding: 5px;
+      }
+
     }
 }
 
