@@ -11359,7 +11359,7 @@ div.EXLCloseCalendar {
   background-position: bottom;
   height: auto;
   background-color: #ffffff;
-  box-shadow: 0 4px 4px 0 rgba(188, 189, 182, 0.3); }
+  box-shadow: 0 4px 6px 0 rgba(188, 189, 182, 0.5); }
   .EXLDetailsTabContent div.EXLDetailsLinks:last-child {
     margin-right: 0; }
 
