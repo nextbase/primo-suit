@@ -8764,19 +8764,13 @@ li.EXLFacet label {
     margin-right: 0; }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
-  float: left;
-  display: inline-block;
-  font-size: 80%;
-  clear: right;
-  line-height: 200%;
-  font-weight: normal;
-  padding-left: 1em; }
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px; }
 
 #exlidToplevelFacetsRibbon {
-  padding-top: 0.2em;
-  padding-right: 0.2em;
-  padding-left: 0.4em;
-  width: auto; }
+  margin: 0;
+  padding: 0; }
 
 #exlidToplevelFacetsRibbon li {
   list-style-type: none;

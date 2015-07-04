@@ -328,20 +328,13 @@ li.EXLFacet {
 }
 
 #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer strong {
-    float: left;
-    display: inline-block;
-    font-size: 80%;
-    clear: right;
-    line-height: 200%;
-    font-weight: normal;
-    padding-left: 1em
+    font-size: $small-font-size;
+    font-weight: bold;
+    margin-right: $spacing-small / 2;
 }
 
 #exlidToplevelFacetsRibbon {
-    padding-top: 0.2em;
-    padding-right: 0.2em;
-    padding-left: 0.4em;
-    width: auto
+    @include reset-margins;
 }
 
 #exlidToplevelFacetsRibbon li {
