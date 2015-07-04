@@ -10569,10 +10569,14 @@ body.EXLFullView div.EXLBackToResults {
   float: right;
   margin-bottom: 0; }
 
+.EXLTabHeader div.EXLTabHeaderButtons > ul > li {
+  height: 16px;
+  padding: 15px; }
+
 .EXLTabHeader div.EXLTabHeaderButtons li {
   list-style: none;
   float: left;
-  height: 45px;
+  height: 18px;
   border-right: 1px solid #cbbfae;
   position: relative; }
 

@@ -160,9 +160,9 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons {
-  @include reset-margins;
-  @include span-columns(4);
-  @include omega();
+    @include reset-margins;
+    @include span-columns(4);
+    @include omega();
     text-align: right;
     height: auto;
     min-height: 45px;
@@ -173,10 +173,15 @@
     margin-bottom: 0;
 }
 
+.EXLTabHeader div.EXLTabHeaderButtons > ul > li {
+  height: 16px;
+  padding: 15px
+}
+
 .EXLTabHeader div.EXLTabHeaderButtons li {
     list-style: none;
     float: left;
-    height: 45px;
+    height: 18px;
     border-right: 1px solid $gold-gray;
     position: relative;
 }
