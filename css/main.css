@@ -10457,22 +10457,25 @@ body.EXLFullView div.EXLBackToResults {
   font-weight: normal; }
 
 .EXLResultTabContainer div.EXLTabHeader {
-  background-color: #f1f1f1;
-  background-image: url(../images/bg_strip_brief_tabs_header.png);
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  background-color: #f2f2f0;
+  background-image: none;
   background-repeat: repeat-x;
   border-bottom: 1px solid #e1e1e1;
-  min-height: 27px;
+  min-height: 40px;
   height: auto;
-  max-height: 5em;
-  border-left: 1px solid #8fb9d0;
-  border-right: 1px solid #8fb9d0;
+  border-left: 1px solid #bcbdb6;
+  border-right: 1px solid #bcbdb6;
   display: block; }
 
 * html .EXLResultTabContainer div.EXLTabHeader {
   height: 27px; }
 
 .EXLTabHeader div.EXLTabHeaderContent {
-  padding: 0.3em;
+  margin: 0;
+  padding: 0;
   width: 75%;
   color: #adb9c2;
   padding-top: 0.5em;
