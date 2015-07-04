@@ -1127,14 +1127,13 @@ div.EXLCloseCalendar {
     width: 10px;
     height: 10px;
     float: left;
-    display: block;
     clear: left;
     margin-top: 5px;
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks li span.EXLDetailsLinksTitle a {
-    width: 90%;
-    display: block;
+  font-size: $small-font-size;
+    width: 85%;
     float: left
 }
 
