@@ -1,0 +1,78 @@
+
+.EXLFooterTile {
+    @include reset-margins;
+    @include outer-container;
+}
+
+.EXLFooterTile div.EXLFooterLinksContainer {
+    @include span-columns(8)
+}
+
+.EXLFooterTile div.EXLFooterUpdateContainer {
+    @include span-columns(4);
+}
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {
+    color: $gray-dark;
+    font-weight: normal;
+}
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate {
+    float: right;
+
+    label {
+        float: left;
+        width: auto;
+    }
+
+    input[type="checkbox"] {
+        float: left;
+        margin-right: 10px;
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate
+
+.EXLFooterTile ul {
+    list-style: none;
+    display: block;
+    float: left;
+    clear: both;
+    padding: 0em;
+    margin: 0em;
+    padding-top: 1em;
+    padding-left: 0.5em
+}
+
+.EXLFooterTile li {
+    float: left;
+    text-indent: 0.5em;
+    padding-right: 0.8em;
+    border-right: 1px solid #e2e2e2;
+}
+
+.EXLFooterTile li.EXLFooterLastLink {
+    border-right: none
+}
+
+.EXLFooterTile ul.EXLFooterLinksList2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 100%
+}
+
+.EXLFooterTile ul.EXLFooterLinksList2 li a {
+    color: #4a4d51
+}
+
+.EXLPleaseWaitIframe {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    background-color: #00FF99;
+    z-index: 300;
+    background-color: #f4f7f8;
+}

@@ -3707,75 +3707,6 @@ a.EXLLoansRenewButton {
 .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
   padding-left: 0.5em; }
 
-.EXLFooterTile {
-  min-height: 60px;
-  height: auto;
-  margin: 0em 0em 0em 0em;
-  border-top: 1px solid #cfcfcf;
-  background-color: #ffffff;
-  font-size: 80%;
-  display: inline-block;
-  width: 100%;
-  background-image: url(../images/bg_strip_footer.png);
-  background-repeat: repeat-x; }
-
-.EXLFooterTile div.EXLFooterLinksContainer {
-  float: left;
-  width: 70%; }
-
-.EXLFooterTile div.EXLFooterUpdateContainer {
-  float: right;
-  width: auto;
-  text-align: left;
-  padding-top: 1em;
-  padding-right: 1em; }
-
-.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {
-  color: #717478;
-  font-weight: normal; }
-
-.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate {
-  padding-top: 0.2em; }
-
-.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate input {
-  margin-right: 0.2em;
-  vertical-align: middle; }
-
-.EXLFooterTile ul {
-  list-style: none;
-  display: block;
-  float: left;
-  clear: both;
-  padding: 0em;
-  margin: 0em;
-  padding-top: 1em;
-  padding-left: 0.5em; }
-
-.EXLFooterTile li {
-  float: left;
-  text-indent: 0.5em;
-  padding-right: 0.8em;
-  border-right: 1px solid #e2e2e2; }
-
-.EXLFooterTile li.EXLFooterLastLink {
-  border-right: none; }
-
-.EXLFooterTile ul.EXLFooterLinksList2 {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  width: 100%; }
-
-.EXLFooterTile ul.EXLFooterLinksList2 li a {
-  color: #4a4d51; }
-
-.EXLPleaseWaitIframe {
-  position: absolute;
-  top: 50px;
-  left: 30%;
-  background-color: #00FF99;
-  z-index: 300;
-  background-color: #f4f7f8; }
-
 #exlidLightbox {
   background-color: #cccccc;
   padding-top: 0.5em;
@@ -8942,7 +8873,7 @@ li.EXLFacet label {
 
 .EXLSliderFromText,
 .EXLSliderToText {
-  color: #444444;
+  color: #888888;
   font-size: 14px;
   width: 32%;
   float: left;
@@ -9103,7 +9034,7 @@ div.EXLResultsHeader:focus {
   padding-top: 2px; }
 
 .EXLResultsHeader h1 {
-  color: #444444;
+  color: #888888;
   font-weight: bold;
   font-size: 18px;
   padding: 5px 0;
@@ -10037,7 +9968,7 @@ body.EXLFullView div.EXLBackToResults {
   padding: 0; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-  color: #444444; }
+  color: #888888; }
 
 #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannerContainer1 {
   margin: 0;
@@ -12087,6 +12018,84 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMoreTabContent {
   overflow: auto;
   overflow-x: hidden; }
+
+.EXLFooterTile {
+  margin: 0;
+  padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .EXLFooterTile::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.EXLFooterTile div.EXLFooterLinksContainer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%; }
+  .EXLFooterTile div.EXLFooterLinksContainer:last-child {
+    margin-right: 0; }
+
+.EXLFooterTile div.EXLFooterUpdateContainer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .EXLFooterTile div.EXLFooterUpdateContainer:last-child {
+    margin-right: 0; }
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {
+  color: #888888;
+  font-weight: normal; }
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate {
+  float: right; }
+  .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate label {
+    float: left;
+    width: auto; }
+  .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate input[type="checkbox"] {
+    float: left;
+    margin-right: 10px;
+    height: 20px;
+    width: 20px; }
+
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate
+.EXLFooterTile ul {
+  list-style: none;
+  display: block;
+  float: left;
+  clear: both;
+  padding: 0em;
+  margin: 0em;
+  padding-top: 1em;
+  padding-left: 0.5em; }
+
+.EXLFooterTile li {
+  float: left;
+  text-indent: 0.5em;
+  padding-right: 0.8em;
+  border-right: 1px solid #e2e2e2; }
+
+.EXLFooterTile li.EXLFooterLastLink {
+  border-right: none; }
+
+.EXLFooterTile ul.EXLFooterLinksList2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 100%; }
+
+.EXLFooterTile ul.EXLFooterLinksList2 li a {
+  color: #4a4d51; }
+
+.EXLPleaseWaitIframe {
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  background-color: #00FF99;
+  z-index: 300;
+  background-color: #f4f7f8; }
 
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
