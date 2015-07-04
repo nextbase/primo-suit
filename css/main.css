@@ -9208,14 +9208,17 @@ div.EXLResultsHeader:focus {
   .EXLResultsHeader div.EXLResultsNavigation:last-child {
     margin-right: 0; }
 
+.EXLBriefResultsPaginationPageCount,
 .EXLBriefResultsPagination {
   padding: 4px 6px;
   font-weight: bold;
   background: transparent;
   border: 1px solid #bcbdb6;
   color: #bcbdb6; }
+  .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
     color: #cbbfae; }
+  .EXLBriefResultsPaginationPageCount:visited,
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
 
@@ -9232,6 +9235,8 @@ div.EXLResultsHeader:focus {
   margin-bottom: 0;
   margin-left: 0;
   margin-top: -8px; }
+  #showhidediv img {
+    margin-top: -2px; }
 
 .EXLResultsList {
   margin: 0;
