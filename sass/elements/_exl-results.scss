@@ -151,6 +151,7 @@ div.EXLResultsHeader:focus {
       background: transparent;
       border: 1px solid $gray;
       color: $gray;
+      display: inline-block;
 
       &:link {
         color: $gold-gray;

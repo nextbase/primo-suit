@@ -9214,7 +9214,8 @@ div.EXLResultsHeader:focus {
   font-weight: bold;
   background: transparent;
   border: 1px solid #bcbdb6;
-  color: #bcbdb6; }
+  color: #bcbdb6;
+  display: inline-block; }
   .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
     color: #cbbfae;
