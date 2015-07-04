@@ -1087,7 +1087,7 @@ div.EXLCloseCalendar {
 
 .EXLDetailsTabContent div.EXLDetailsLinks {
     @include reset-margins;
-    @include span-columns(8);
+    @include span-columns(4);
     @include omega();
     padding: $spacing-small;
     border: none;
