@@ -1091,7 +1091,7 @@ div.EXLCloseCalendar {
     @include reset-margins;
     @include span-columns(4);
     @include omega();
-    padding: $spacing-small;
+    padding: 10px;
     border: none;
     background-image: none;
     background-repeat: repeat-x;
