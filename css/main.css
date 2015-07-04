@@ -10575,9 +10575,11 @@ body.EXLFullView div.EXLBackToResults {
   padding: 14px 5px; }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
+  font-size: 14px;
+  line-height: 1.2;
+  height: 30px;
   list-style: none;
   float: left;
-  height: 20px;
   border-right: 1px solid #cbbfae;
   position: relative;
   margin-bottom: 0; }
@@ -10591,7 +10593,7 @@ body.EXLFullView div.EXLBackToResults {
   float: left; }
 
 .EXLTabHeader div.EXLTabHeaderButtons li a {
-  padding: 0.2em 0.4em 0.2em 0.4em; }
+  padding: 10px 5px; }
 
 .EXLTabHeaderButtonSendTo {
   padding-right: 0em;

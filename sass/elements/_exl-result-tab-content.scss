@@ -180,9 +180,11 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
+    font-size: 14px;
+    line-height: 1.2;
+    height: 30px;
     list-style: none;
     float: left;
-    height: 20px;
     border-right: 1px solid $gold-gray;
     position: relative;
     margin-bottom: 0;
@@ -198,7 +200,7 @@
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons li a {
-    padding: 0.2em 0.4em 0.2em 0.4em;
+    padding: 10px 5px;
 }
 
 .EXLTabHeaderButtonSendTo {
