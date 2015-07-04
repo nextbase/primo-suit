@@ -11334,7 +11334,7 @@ div.EXLCloseCalendar {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 57.35098%;
+  width: 65.88078%;
   padding: 20px; }
   .EXLDetailsTabContent div.EXLDetailsContent:last-child {
     margin-right: 0; }
@@ -11349,16 +11349,22 @@ div.EXLCloseCalendar {
   margin-right: 20px; }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {
-  float: right;
-  width: 25%;
-  border: 1px solid #e1e1e1;
-  margin: 1em;
-  background-image: url(../images/bg_strip_details_links.png);
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+  margin-right: 0;
+  padding: 20px;
+  border: none;
+  background-image: none;
   background-repeat: repeat-x;
   background-position: bottom;
   height: auto;
-  padding: 0.5em;
-  padding-bottom: 1em; }
+  padding-bottom: 40px; }
+  .EXLDetailsTabContent div.EXLDetailsLinks:last-child {
+    margin-right: 0; }
 
 .EXLDetailsTabContent div.EXLDetailsLinks em {
   padding-left: 0.5em; }

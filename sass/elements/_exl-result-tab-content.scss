@@ -1069,7 +1069,7 @@ div.EXLCloseCalendar {
 
 .EXLDetailsTabContent div.EXLDetailsContent {
     @include reset-margins;
-    @include span-columns(7);
+    @include span-columns(8);
     padding: $spacing-small;
 }
 
@@ -1086,16 +1086,16 @@ div.EXLCloseCalendar {
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks {
-    float: right;
-    width: 25%;
-    border: 1px solid #e1e1e1;
-    margin: 1em;
-    background-image: url(../images/bg_strip_details_links.png);
+    @include reset-margins;
+    @include span-columns(8);
+    @include omega();
+    padding: $spacing-small;
+    border: none;
+    background-image: none;
     background-repeat: repeat-x;
     background-position: bottom;
     height: auto;
-    padding: 0.5em;
-    padding-bottom: 1em
+    padding-bottom: $spacing-large;
 }
 
 .EXLDetailsTabContent div.EXLDetailsLinks em {
