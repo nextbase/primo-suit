@@ -154,6 +154,7 @@ div.EXLResultsHeader:focus {
       border: 1px solid $gray;
       color: $gray;
       display: inline-block;
+      height: 26px;
 
       &:link {
         color: $gold-gray;
@@ -162,6 +163,10 @@ div.EXLResultsHeader:focus {
 
       &:visited {
         color: $gray;
+      }
+
+      img[src*="arrow"] {
+        margin-top: 4px;
       }
 }
 

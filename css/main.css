@@ -9217,7 +9217,8 @@ div.EXLResultsHeader:focus {
   background: transparent;
   border: 1px solid #bcbdb6;
   color: #bcbdb6;
-  display: inline-block; }
+  display: inline-block;
+  height: 26px; }
   .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
     color: #cbbfae;
@@ -9225,6 +9226,9 @@ div.EXLResultsHeader:focus {
   .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:visited,
   .EXLBriefResultsPagination:visited {
     color: #bcbdb6; }
+  .EXLResultsNavigation .EXLBriefResultsPaginationPageCount img[src*="arrow"],
+  .EXLBriefResultsPagination img[src*="arrow"] {
+    margin-top: 4px; }
 
 .EXLResultsNavigation .EXLBriefResultsPaginationPageCount {
   background: #bcbdb6;
