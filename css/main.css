@@ -9127,8 +9127,8 @@ div.EXLResultsHeader:focus {
   display: block;
   z-index: 100;
   position: absolute;
-  left: 0;
-  top: 60px; }
+  left: 10px;
+  top: 40px; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
   float: left;
