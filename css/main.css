@@ -8958,6 +8958,7 @@ li.EXLFacet label {
   margin-right: 0;
   width: 100%;
   height: auto;
+  margin-top: -1px;
   border-bottom: 1px solid #d8d0c4;
   border-top: 1px solid #d8d0c4;
   background-color: rgba(216, 208, 196, 0.5);
