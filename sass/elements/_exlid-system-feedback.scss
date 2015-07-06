@@ -1,4 +1,7 @@
 #exlidHeaderSystemFeedback {
+  @include reset-margins;
+  @include span-columns(12);
+  @include omega;
     width: 100%;
     height: auto;
     border-bottom: 1px solid $gold-gray-secondary;
@@ -6,7 +9,6 @@
     background-color: rgba($gold-gray-secondary, .5);
     text-align: center;
     display: block;
-    @include clearfix;
 }
 
 #exlidHeaderSystemFeedback strong {

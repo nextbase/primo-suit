@@ -8949,6 +8949,13 @@ li.EXLFacet label {
   outline: none; }
 
 #exlidHeaderSystemFeedback {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
   width: 100%;
   height: auto;
   border-bottom: 1px solid #d8d0c4;
@@ -8956,10 +8963,8 @@ li.EXLFacet label {
   background-color: rgba(216, 208, 196, 0.5);
   text-align: center;
   display: block; }
-  #exlidHeaderSystemFeedback::after {
-    clear: both;
-    content: "";
-    display: table; }
+  #exlidHeaderSystemFeedback:last-child {
+    margin-right: 0; }
 
 #exlidHeaderSystemFeedback strong {
   padding: 3px 10px;
