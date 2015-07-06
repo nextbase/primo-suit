@@ -1,0 +1,41 @@
+#exlidHeaderSystemFeedback {
+    width: 100%;
+    border-bottom: 1px solid $gold-gray-secondary;
+    border-top: 1px solid $gold-gray-secondary;
+    background-color: rgba($gold-gray-secondary, .7);
+    text-align: center;
+    display: block;
+    margin-top: -1px;
+    @include clearfix;
+}
+
+#exlidHeaderSystemFeedback strong {
+    padding: 0.5em 0.5em 0.5em 1.5em;
+    display: block;
+    background-image: url(../images/bg_strip_system_feedback.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    color: $black;
+    font-weight: bold;
+    font-size: 80%
+}
+
+#exlidHeaderSystemFeedbackFullAuthorization {
+    width: 100%;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    background-color: #fffbc3;
+    text-align: center;
+    display: block;
+    margin-top: -1px;
+}
+
+#exlidHeaderSystemFeedbackFullAuthorization strong {
+    padding: 0.5em 0.5em 0.5em 1.5em;
+    display: block;
+    background-image: url(../images/bg_strip_system_feedback.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    color: $black;
+    font-weight: bold;
+}

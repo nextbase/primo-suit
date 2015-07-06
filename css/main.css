@@ -2750,47 +2750,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 0.3em;
   width: auto; }
 
-#exlidHeaderSystemFeedback {
-  width: 100%;
-  border-bottom: 1px solid #e1e1e1;
-  border-top: 1px solid #e1e1e1;
-  background-color: #fffbc3;
-  text-align: center;
-  display: block;
-  margin-top: -1px; }
-  #exlidHeaderSystemFeedback::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-#exlidHeaderSystemFeedback strong {
-  padding: 0.5em 0.5em 0.5em 1.5em;
-  display: block;
-  background-image: url(../images/bg_strip_system_feedback.png);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  color: #333333;
-  font-weight: bold;
-  font-size: 80%; }
-
-#exlidHeaderSystemFeedbackFullAuthorization {
-  width: 100%;
-  border-bottom: 1px solid #e1e1e1;
-  border-top: 1px solid #e1e1e1;
-  background-color: #fffbc3;
-  text-align: center;
-  display: block;
-  margin-top: -1px; }
-
-#exlidHeaderSystemFeedbackFullAuthorization strong {
-  padding: 0.5em 0.5em 0.5em 1.5em;
-  display: block;
-  background-image: url(../images/bg_strip_system_feedback.png);
-  background-repeat: repeat-x;
-  background-position: bottom;
-  color: #333333;
-  font-weight: bold; }
-
 #exlidErrorSubMessage {
   clear: both;
   margin-top: 5%;
@@ -8988,6 +8947,47 @@ li.EXLFacet label {
   color: #987c4d;
   text-decoration: none;
   outline: none; }
+
+#exlidHeaderSystemFeedback {
+  width: 100%;
+  border-bottom: 1px solid #d8d0c4;
+  border-top: 1px solid #d8d0c4;
+  background-color: rgba(216, 208, 196, 0.7);
+  text-align: center;
+  display: block;
+  margin-top: -1px; }
+  #exlidHeaderSystemFeedback::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#exlidHeaderSystemFeedback strong {
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  display: block;
+  background-image: url(../images/bg_strip_system_feedback.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: #333333;
+  font-weight: bold;
+  font-size: 80%; }
+
+#exlidHeaderSystemFeedbackFullAuthorization {
+  width: 100%;
+  border-bottom: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  background-color: #fffbc3;
+  text-align: center;
+  display: block;
+  margin-top: -1px; }
+
+#exlidHeaderSystemFeedbackFullAuthorization strong {
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  display: block;
+  background-image: url(../images/bg_strip_system_feedback.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: #333333;
+  font-weight: bold; }
 
 .EXLResultsContainer {
   margin: 0;
