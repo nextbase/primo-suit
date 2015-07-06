@@ -2758,6 +2758,10 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   text-align: center;
   display: block;
   margin-top: -1px; }
+  #exlidHeaderSystemFeedback::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidHeaderSystemFeedback strong {
   padding: 0.5em 0.5em 0.5em 1.5em;

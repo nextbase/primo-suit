@@ -3369,6 +3369,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     text-align: center;
     display: block;
     margin-top: -1px;
+    @include clearfix;
 }
 
 #exlidHeaderSystemFeedback strong {
