@@ -236,7 +236,8 @@ input[type="password"],
 textarea,
 select {
   @include input;
-  @include input-size("small");
+  @include input-size("default");
+  @include set-input-style("inset");
   @include form-element-width("default");
 
   &.small {
