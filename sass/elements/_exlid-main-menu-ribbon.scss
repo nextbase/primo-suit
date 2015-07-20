@@ -28,6 +28,7 @@
     height: auto;
     width: 80px;
     float: left;
+    position: relative;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
@@ -69,7 +70,7 @@
     clear: left;
     cursor: pointer;
     vertical-align: text-top;
-    font-size: $base-font-size;
+    font-size: $small-font-size;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
