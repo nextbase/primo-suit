@@ -23,7 +23,6 @@
 #exlidMainMenuTile div.EXLLanguagesContainer {
     @include reset-margins;
     font-family: sans-serif;
-    float: left;
     margin-left: $spacing-large;
     position: absolute;
     right: 0;
@@ -38,6 +37,7 @@
     width: 6em;
     text-align: left;
     color: $gray;
+    display: none;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {

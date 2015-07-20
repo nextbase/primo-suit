@@ -8197,7 +8197,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  float: left;
   margin-left: 40px;
   position: absolute;
   right: 0;
@@ -8210,7 +8209,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   width: 6em;
   text-align: left;
-  color: #bcbdb6; }
+  color: #bcbdb6;
+  display: none; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
   float: right;
