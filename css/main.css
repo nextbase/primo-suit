@@ -9764,14 +9764,15 @@ body.EXLFullView div.EXLBackToResults {
     background: #ffffff;
     border: 1px solid #666666; }
   #exlidSearchTabs li:first-child {
-    margin-left: 0;
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-bottom-left-radius: 3px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-bottomleft: 3px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px; }
-  #exlidSearchTabs li:last-child {
+    margin-left: 0; }
+    #exlidSearchTabs li:first-child a {
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-bottomleft: 3px;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px; }
+  #exlidSearchTabs li:last-child a {
     -webkit-border-top-right-radius: 3px;
     -webkit-border-bottom-right-radius: 3px;
     -moz-border-radius-topright: 3px;
