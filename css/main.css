@@ -8237,7 +8237,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   display: inline;
   clear: left;
   cursor: pointer;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  font-size: 16px; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
   display: none; }
