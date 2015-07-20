@@ -41,7 +41,7 @@
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
     float: left;
     width: auto;
-    position: relative;
+    position: absolute;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
@@ -71,6 +71,7 @@
     cursor: pointer;
     vertical-align: text-top;
     font-size: $small-font-size;
+    margin-bottom: 0;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
