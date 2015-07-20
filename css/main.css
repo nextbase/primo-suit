@@ -8197,17 +8197,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  margin-left: 40px;
-  position: absolute;
-  right: 0;
-  top: 0;
   font-size: 12px;
   z-index: 100;
   height: auto; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
-  width: 6em;
   text-align: left;
   color: #bcbdb6;
   display: none; }
