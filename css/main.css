@@ -8184,7 +8184,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
-  width: 80px; }
+  width: auto; }
   #exlidMainMenuTile div.EXLMainMenuContainer::after {
     clear: both;
     content: "";
@@ -8199,7 +8199,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-family: sans-serif;
   font-size: 12px;
   z-index: 100;
-  height: auto; }
+  height: auto;
+  width: 80px; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
