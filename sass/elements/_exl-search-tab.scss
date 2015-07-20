@@ -41,11 +41,27 @@ $search-tab-font-size: 14px;
         padding: (($search-tab-height - $search-tab-font-size) / 2) 15px;
         cursor: pointer;
         background: $white;
-        border: 2px solid $gray-dark-secondary;
+        border: 1px solid $gray-dark-secondary;
     }
 
     &:first-child {
-      margin-left: 0;
+        margin-left: 0;
+        -webkit-border-top-left-radius: 3px;
+        -webkit-border-bottom-left-radius: 3px;
+        -moz-border-radius-topleft: 3px;
+        -moz-border-radius-bottomleft: 3px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+
+    &:last-child {
+        -webkit-border-top-right-radius: 3px;
+        -webkit-border-bottom-right-radius: 3px;
+        -moz-border-radius-topright: 3px;
+        -moz-border-radius-bottomright: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
     }
 
 }
@@ -70,7 +86,7 @@ $search-tab-font-size: 14px;
     a {
         color: $white;
         background-color: $gray-dark-secondary;
-        border: 2px solid $gray-dark-secondary;
+        border: 1px solid $gray-dark-secondary;
         font-weight: bold;
     }
 }

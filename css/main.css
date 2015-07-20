@@ -9762,9 +9762,22 @@ body.EXLFullView div.EXLBackToResults {
     padding: 9.5px 15px;
     cursor: pointer;
     background: #ffffff;
-    border: 2px solid #666666; }
+    border: 1px solid #666666; }
   #exlidSearchTabs li:first-child {
-    margin-left: 0; }
+    margin-left: 0;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; }
+  #exlidSearchTabs li:last-child {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; }
 
 #exlidSearchTabs li {
   list-style: none;
@@ -9785,7 +9798,7 @@ body.EXLFullView div.EXLBackToResults {
   #exlidSearchTabs li.EXLSearchTabSelected a {
     color: #ffffff;
     background-color: #666666;
-    border: 2px solid #666666;
+    border: 1px solid #666666;
     font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
