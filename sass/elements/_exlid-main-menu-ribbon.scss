@@ -27,6 +27,7 @@
     z-index: 100;
     height: auto;
     width: 80px;
+    float: left;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
@@ -37,7 +38,7 @@
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
-    float: right;
+    float: left;
     width: auto
 }
 
