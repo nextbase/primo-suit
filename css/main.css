@@ -8184,7 +8184,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
-  width: auto; }
+  width: 80px; }
   #exlidMainMenuTile div.EXLMainMenuContainer::after {
     clear: both;
     content: "";
