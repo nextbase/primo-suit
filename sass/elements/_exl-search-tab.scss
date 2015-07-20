@@ -38,7 +38,7 @@ $search-tab-font-size: 14px;
         float: left;
         text-align: center;
         color: $gray-dark-secondary;
-        padding: (($search-tab-height - $search-tab-font-size) / 2) 15px;
+        padding: (($search-tab-height - $search-tab-font-size) / 2) 15px ((($search-tab-height - $search-tab-font-size) / 2) + 2px) 15px;
         cursor: pointer;
         background: $white;
         border: 1px solid $gray-dark-secondary;

@@ -8211,7 +8211,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
   float: left;
-  width: auto; }
+  width: auto;
+  position: relative; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
   float: right;
@@ -9756,7 +9757,7 @@ body.EXLFullView div.EXLBackToResults {
     float: left;
     text-align: center;
     color: #666666;
-    padding: 9.5px 15px;
+    padding: 9.5px 15px 11.5px 15px;
     cursor: pointer;
     background: #ffffff;
     border: 1px solid #666666; }
