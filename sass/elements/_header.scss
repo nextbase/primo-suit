@@ -3,6 +3,7 @@
     @include outer-container;
     @include clearfix;
     margin-bottom: $section-spacing;
+    position: relative;
 }
 
 #exlidHeaderTile {
