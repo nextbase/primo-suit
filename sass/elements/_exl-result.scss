@@ -32,4 +32,20 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
 	.EXLResultsNavigation {
 		@include span-columns(6);
 	}
+
+	.EXLPrevious {
+		margin-right: 10px;
+
+		img {
+			margin-right: 5px;
+		}
+	}
+
+	.EXLNext {
+		margin-left: 10px;
+
+		img {
+			margin-left: 5px;
+		}
+	}
 }

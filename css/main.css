@@ -9568,6 +9568,14 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
     .EXLFullDisplay .EXLResultsFooter .EXLBackToResults:last-child,
     .EXLFullDisplay .EXLResultsFooter .EXLResultsNavigation:last-child {
       margin-right: 0; }
+  .EXLFullDisplay .EXLResultsFooter .EXLPrevious {
+    margin-right: 10px; }
+    .EXLFullDisplay .EXLResultsFooter .EXLPrevious img {
+      margin-right: 5px; }
+  .EXLFullDisplay .EXLResultsFooter .EXLNext {
+    margin-left: 10px; }
+    .EXLFullDisplay .EXLResultsFooter .EXLNext img {
+      margin-left: 5px; }
 
 .EXLRefinementRibbon {
   clear: both;
