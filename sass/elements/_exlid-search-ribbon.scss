@@ -179,8 +179,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink {
-    @include span-columns(12);
-    @include omega();
+    @include outer-container;
+    float: none;
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
