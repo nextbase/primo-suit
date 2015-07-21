@@ -9535,7 +9535,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   display: none; }
 
 .EXLResultsList .EXLSummaryFields {
-  display: 0; }
+  margin: 0;
+  padding: 0; }
 
 .EXLRefinementRibbon {
   clear: both;
