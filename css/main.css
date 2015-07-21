@@ -9531,14 +9531,23 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLBrowseList #resultsNumbersTile h1 {
   padding-left: -0.5em; }
 
-div.EXLResultsList div.EXLResult {
+.EXLResultsList div.EXLResult {
   margin: 0;
   padding: 0; }
 
-div.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
+.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
   margin: 0;
   padding: 0;
   padding-left: 0; }
+
+body.EXLFullView div.EXLResultTabContainer {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  body.EXLFullView div.EXLResultTabContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLRefinementRibbon {
   clear: both;

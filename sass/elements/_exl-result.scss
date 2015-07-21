@@ -1,4 +1,4 @@
-div.EXLResultsList  {
+.EXLResultsList  {
 
 	div.EXLResult {
 		@include reset-margins;
@@ -13,3 +13,6 @@ div.EXLResultsList  {
 
 }
 
+body.EXLFullView div.EXLResultTabContainer {
+	@include outer-container;
+}
