@@ -4,6 +4,7 @@
     @include outer-container;
     padding-top: $spacing-large;
     border-top: 1px solid $gold-gray;
+    float: none;
 }
 
 .EXLFooterTile div.EXLFooterLinksContainer {
