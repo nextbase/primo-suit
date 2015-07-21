@@ -156,8 +156,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
             label {
                 @include reset-margins;
                 color: $gold;
-                position: relative;
-                top: 0;
+                position: absolute;
+                top: -20px;
             }
         }
     }
