@@ -8333,7 +8333,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding: 0;
   padding: 0 5px;
   margin: 0 5px;
-  background-color: #987c4d;
+  background: #987c4d;
   height: auto;
   width: auto;
   cursor: pointer;
@@ -8356,7 +8356,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   border: none;
   padding-left: 0em;
   padding-right: 0em;
-  background: url(../images/icon_close_tab.png);
+  background-image: url(../images/icon_close_tab.png);
   width: 16px;
   height: 14px;
   background-repeat: no-repeat;

@@ -165,7 +165,7 @@
     @include reset-margins;
     padding: 0 ($spacing-small / 4);
     margin: 0 ($spacing-small / 4);
-    background-color: $gold;
+    background: $gold;
     height: auto;
     width: auto;
     cursor: pointer;
@@ -188,7 +188,7 @@
     border: none;
     padding-left: 0em;
     padding-right: 0em;
-    background: url(../images/icon_close_tab.png);
+    background-image: url(../images/icon_close_tab.png);
     width: 16px;
     height: 14px;
     background-repeat: no-repeat;
