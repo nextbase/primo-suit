@@ -114,10 +114,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidSearchTile.EXLSearchEJorunals {
-    border-top: 3px solid #f4762d;
+    border-top: 4px solid $gold;
     height: auto;
     background-position: bottom;
-    background-color: #e2e8eb;
+    background-color: $gold-light;
     background-image: none;
 }
 
@@ -271,10 +271,8 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 }
 
 #exlidSearchRibbon div.EXLDynamicSelectBodyRadio div {
-    line-height: 180%;
-    width: 100%;
+    @include outer-container;
     position: relative;
-    min-width: 18em;
 }
 
 #exlidSearchRibbon div.EXLDynamicSelectBodyRadio div.EXLDynamicSelectBodyRadioTopBorder {
