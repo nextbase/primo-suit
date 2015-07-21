@@ -9535,7 +9535,7 @@ div.EXLResultsList div.EXLResult {
   margin: 0;
   padding: 0; }
 
-div.EXLResultsList div.EXLSummaryFields {
+div.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
   margin: 0;
   padding: 0;
   padding-left: 0; }

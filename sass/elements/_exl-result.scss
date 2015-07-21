@@ -4,9 +4,11 @@ div.EXLResultsList  {
 		@include reset-margins;
 	}
 
-	div.EXLSummaryFields {
-		@include reset-margins;
-		padding-left: 0;
+	div.EXLSummaryContainer {
+		div.EXLSummaryFields {
+			@include reset-margins;
+			padding-left: 0;
+		}
 	}
 
 }
