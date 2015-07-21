@@ -9576,6 +9576,11 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
     margin-left: 10px; }
     .EXLFullDisplay .EXLResultsFooter .EXLNext img {
       margin-left: 5px; }
+  .EXLFullDisplay .EXLResultsFooter .EXLDisplayedCountTitle {
+    color: #987c4d; }
+  .EXLFullDisplay .EXLResultsFooter .EXLDisplayedCount {
+    color: #333333;
+    font-weight: bold; }
 
 .EXLRefinementRibbon {
   clear: both;

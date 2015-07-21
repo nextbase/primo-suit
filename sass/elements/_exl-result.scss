@@ -48,4 +48,13 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
 			margin-left: 5px;
 		}
 	}
+
+	.EXLDisplayedCountTitle {
+		color: $gold;
+	}
+
+	.EXLDisplayedCount {
+		color: $black;
+		font-weight: bold;
+	}
 }
