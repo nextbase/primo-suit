@@ -7653,6 +7653,13 @@ div.EXLResultsContainer div.EXLALMAResultsTileNoFacets {
 div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   display: none; }
 
+#exlidResultsContainer {
+  clear: both; }
+  #exlidResultsContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 #exlidSearchTile.EXLSearchEJorunals {
   border-top: 4px solid #987c4d;
   height: auto;
@@ -7664,12 +7671,6 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     clear: both;
     content: "";
     display: table; }
-  #exlidSearchTile.EXLSearchEJorunals #exlidResultsContainer {
-    clear: both; }
-    #exlidSearchTile.EXLSearchEJorunals #exlidResultsContainer::after {
-      clear: both;
-      content: "";
-      display: table; }
   #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
     margin: 0;
     padding: 0;

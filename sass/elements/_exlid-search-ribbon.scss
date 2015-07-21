@@ -113,6 +113,11 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     display: none;
 }
 
+#exlidResultsContainer {
+    @include clearfix;
+    clear: both;
+}
+
 #exlidSearchTile.EXLSearchEJorunals {
     border-top: 4px solid $gold;
     height: auto;
@@ -121,11 +126,6 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-image: none;
     width: 100%;
     @include clearfix;
-
-    #exlidResultsContainer {
-        clear: both;
-        @include clearfix;
-    }
 
     #exlidSearchRibbon {
         @include reset-margins;
