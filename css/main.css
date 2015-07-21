@@ -7729,7 +7729,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  float: none; }
+  float: none;
+  padding: 10px 0; }
   #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink::after {
     clear: both;
     content: "";

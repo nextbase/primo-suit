@@ -182,6 +182,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     @include reset-margins;
     @include outer-container;
     float: none;
+    padding: 10px 0;
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
