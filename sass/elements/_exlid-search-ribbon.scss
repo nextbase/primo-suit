@@ -121,10 +121,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-image: none;
     width: 100%;
     @include clearfix;
-    @include outer-container;
 
     #exlidSearchRibbon {
-        @include span-columns(12);
+        @include outer-container;
+        float: none;
 
         form {
             @include reset-margins;

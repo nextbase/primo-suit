@@ -7659,25 +7659,20 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   background-position: bottom;
   background-color: #ece8e3;
   background-image: none;
-  width: 100%;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  #exlidSearchTile.EXLSearchEJorunals::after {
-    clear: both;
-    content: "";
-    display: table; }
+  width: 100%; }
   #exlidSearchTile.EXLSearchEJorunals::after {
     clear: both;
     content: "";
     display: table; }
   #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 100%; }
-    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon:last-child {
-      margin-right: 0; }
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none; }
+    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon::after {
+      clear: both;
+      content: "";
+      display: table; }
     #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form {
       margin: 0;
       padding: 0; }
