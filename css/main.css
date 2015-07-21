@@ -9290,8 +9290,10 @@ div.EXLResultsHeader:focus {
 table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLMyShelfStar {
   width: 40px; }
 
-table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
-  min-height: 0; }
+table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary {
+  padding: 20px 0; }
+  table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
+    min-height: 0; }
 
 #showhidediv {
   margin-bottom: 0;
