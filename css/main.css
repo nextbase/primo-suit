@@ -7725,8 +7725,12 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink {
   float: left;
-  margin-top: 3em;
-  margin-left: 6.5em; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0; }
+  #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink:last-child {
+    margin-right: 0; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
   text-align: center;
