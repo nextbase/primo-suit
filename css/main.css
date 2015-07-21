@@ -9291,7 +9291,7 @@ table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLMyShelfStar {
   width: 40px; }
 
 table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary {
-  padding: 20px 0; }
+  padding-bottom: 20px; }
   table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
     min-height: 0; }
 
