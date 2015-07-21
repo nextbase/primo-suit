@@ -122,7 +122,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     width: 100%;
     @include clearfix;
 
-    #EXLResultsContainer {
+    #exlidResultsContainer {
+        clear: both;
         @include clearfix;
     }
 
