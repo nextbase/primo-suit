@@ -115,15 +115,15 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 
 #exlidSearchTile.EXLSearchEJorunals {
     border-top: 3px solid #f4762d;
-    height: 36px;
+    height: auto;
     background-position: bottom;
     background-color: #e2e8eb;
     background-image: none;
 }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
-    margin-left: 11em;
-    margin-top: 0.2em;
+    margin-left: 0;
+    padding: 5px 10px;
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonFormSearchFor {}
