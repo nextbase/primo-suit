@@ -8087,15 +8087,11 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
   color: #bcbdb6;
   font-weight: bold;
   font-size: 12px;
-  padding: 0em 0em 0em 1em;
+  padding: 0em 20px 0em 0;
   margin: 0px;
   margin-bottom: 0.2em;
   float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .EXLResultsHeader h1:last-child {
-    margin-right: 0; }
+  width: auto; }
 
 * html .EXLSearchFieldRibbonBrowseSearchLink {
   clear: left;

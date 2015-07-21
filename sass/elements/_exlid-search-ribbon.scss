@@ -590,10 +590,11 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
     color: $gray;
     font-weight: bold;
     font-size: 12px;
-    padding: 0em 0em 0em 1em;
+    padding: 0em 20px 0em 0;
     margin: 0px;
     margin-bottom: 0.2em;
-    @include span-columns(6);
+    float: left;
+    width: auto;
 }
 
 * html .EXLSearchFieldRibbonBrowseSearchLink {
