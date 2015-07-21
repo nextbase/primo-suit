@@ -119,6 +119,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-position: bottom;
     background-color: lighten($gold-gray-secondary, 10%);
     background-image: none;
+
+    #exlidSearchRibbon {
+        @include outer-container;
+    }
 }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {

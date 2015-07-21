@@ -7659,6 +7659,14 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   background-position: bottom;
   background-color: #ece8e3;
   background-image: none; }
+  #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
+    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon::after {
+      clear: both;
+      content: "";
+      display: table; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;
