@@ -144,6 +144,13 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         div.EXLSearchFieldRibbon {
             width: 100%;
             @include reset-margins;
+
+            label {
+                @include reset-margins;
+                margin-bottom: 10px;
+                color: $gold-gray;
+                @include clearfix;
+            }
         }
     }
 
