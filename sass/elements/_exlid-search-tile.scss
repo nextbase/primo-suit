@@ -17,6 +17,7 @@
 .EXLSearchWrapper {
     @include reset-margins;
     @include span-columns(12);
+    margin-bottom: 20px;
 }
 
 #searchForm,

@@ -7356,7 +7356,8 @@ select {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 20px; }
   #exlidSearchTileWrapper:last-child,
   .EXLSearchWrapper:last-child {
     margin-right: 0; }
@@ -7516,9 +7517,6 @@ select {
     -moz-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
     transition: box-shadow 0.2s ease-in-out; }
-
-#exlidSearchTile {
-  margin-bottom: 20px; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   background-color: transparent;
