@@ -7356,9 +7356,7 @@ select {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 0; }
+  width: 100%; }
   #exlidSearchTileWrapper:last-child,
   .EXLSearchWrapper:last-child {
     margin-right: 0; }
@@ -9835,7 +9833,8 @@ body.EXLFullView div.EXLTabContent {
   margin-bottom: 1em; }
 
 body.EXLFullView #exlidHeaderSystemFeedback {
-  display: block; }
+  display: block;
+  margin-bottom: 20px; }
 
 body.EXLFullView #exlidHeaderSystemFeedbackFullAuthorization {
   display: block; }
