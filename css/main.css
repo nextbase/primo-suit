@@ -9291,7 +9291,7 @@ div.EXLResultsHeader:focus {
   .EXLResultsListAlmaAz table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
     min-height: 0; }
 
-.EXLResultsListAlmaAz .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+.EXLALMAResultsTileNoFacets .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
   float: left;
   position: static;
   left: 0;
