@@ -225,4 +225,13 @@ div.EXLResultsHeader:focus {
 
     }
 
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+        float: left;
+        position: static;
+        left: 0;
+        top: 0;
+        padding: 5px;
+        float: left;
+    }
+
 }
