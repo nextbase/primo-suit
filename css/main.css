@@ -9531,11 +9531,11 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLBrowseList #resultsNumbersTile h1 {
   padding-left: -0.5em; }
 
-.EXLResultsList .EXLResult {
+.EXLResultsList div.EXLResult {
   margin: 0;
   padding: 0; }
 
-.EXLResultsList .EXLSummaryFields {
+.EXLResultsList div.EXLSummaryFields {
   margin: 0;
   padding: 0;
   padding-left: 0; }

@@ -1,10 +1,10 @@
 .EXLResultsList  {
 
-	.EXLResult {
+	div.EXLResult {
 		@include reset-margins;
 	}
 
-	.EXLSummaryFields {
+	div.EXLSummaryFields {
 		@include reset-margins;
 		padding-left: 0;
 	}
