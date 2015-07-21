@@ -12222,6 +12222,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   margin-right: auto;
   padding-top: 40px;
   border-top: 1px solid #cbbfae;
+  display: block;
   float: none; }
   .EXLFooterTile::after {
     clear: both;
