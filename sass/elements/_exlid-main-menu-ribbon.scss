@@ -157,6 +157,10 @@
   float: left;
 }
 
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span {
+
+}
+
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
     @include reset-margins;
     padding: 0 ($spacing-small / 2);
@@ -174,6 +178,7 @@
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
     border-left: medium none;
     border-right: 1px solid #F4762D;
+    display: none;
 }
 
 #exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {

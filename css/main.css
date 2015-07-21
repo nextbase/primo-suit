@@ -8328,7 +8328,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
   border-left: medium none;
-  border-right: 1px solid #F4762D; }
+  border-right: 1px solid #F4762D;
+  display: none; }
 
 #exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {
   color: #555555;
