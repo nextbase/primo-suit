@@ -7357,7 +7357,8 @@ select {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding: 0; }
   #exlidSearchTileWrapper:last-child,
   .EXLSearchWrapper:last-child {
     margin-right: 0; }
