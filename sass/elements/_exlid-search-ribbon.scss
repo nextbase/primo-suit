@@ -235,6 +235,16 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
     display: none;
 }
 
+.EXLResultsListAlmaAz {
+
+    table.EXLResultsTable {
+        @include clearfix;
+    }
+
+
+
+}
+
 .EXLSearchFieldRibbonFormSelectedCollection {
     width: 39%;
     float: left;
@@ -572,15 +582,18 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
     width: auto;
 }
 
+.EXLResultsHeader {
+    @include outer-container;
+}
+
 .EXLResultsHeader h1 {
-    color: #8c8c8c;
+    color: $gray;
     font-weight: bold;
     font-size: 12px;
     padding: 0em 0em 0em 1em;
     margin: 0px;
     margin-bottom: 0.2em;
-    float: left;
-    width: 65%;
+    @include span-columns(6);
 }
 
 * html .EXLSearchFieldRibbonBrowseSearchLink {

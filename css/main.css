@@ -7777,6 +7777,11 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 .EXLResultsListAlmaAz div#EXLNoResultsDiv {
   display: none; }
 
+.EXLResultsListAlmaAz table.EXLResultsTable::after {
+  clear: both;
+  content: "";
+  display: table; }
+
 .EXLSearchFieldRibbonFormSelectedCollection {
   width: 39%;
   float: left;
@@ -8069,15 +8074,28 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
   width: auto; }
 
+.EXLResultsHeader {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .EXLResultsHeader::after {
+    clear: both;
+    content: "";
+    display: table; }
+
 .EXLResultsHeader h1 {
-  color: #8c8c8c;
+  color: #bcbdb6;
   font-weight: bold;
   font-size: 12px;
   padding: 0em 0em 0em 1em;
   margin: 0px;
   margin-bottom: 0.2em;
   float: left;
-  width: 65%; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .EXLResultsHeader h1:last-child {
+    margin-right: 0; }
 
 * html .EXLSearchFieldRibbonBrowseSearchLink {
   clear: left;
