@@ -7517,13 +7517,13 @@ select {
     border-bottom-left-radius: 0;
     transition: box-shadow 0.2s ease-in-out; }
 
+#exlidSearchTile {
+  margin-bottom: 20px; }
+
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   background-color: transparent;
   height: auto;
   border: none; }
-
-#exlidSearchRibbon {
-  margin-bottom: 20px; }
 
 #exlidSearchRibbon legend {
   display: none; }
