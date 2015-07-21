@@ -7704,7 +7704,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         padding: 0;
         color: #987c4d;
         position: relative;
-        top: -40px; }
+        top: 0; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;
