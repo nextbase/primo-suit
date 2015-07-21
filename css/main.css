@@ -7659,19 +7659,28 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   background-position: bottom;
   background-color: #ece8e3;
   background-image: none;
-  width: 100%; }
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #exlidSearchTile.EXLSearchEJorunals::after {
+    clear: both;
+    content: "";
+    display: table; }
   #exlidSearchTile.EXLSearchEJorunals::after {
     clear: both;
     content: "";
     display: table; }
   #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto; }
-    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon::after {
-      clear: both;
-      content: "";
-      display: table; }
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon:last-child {
+      margin-right: 0; }
+    #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form {
+      margin: 0;
+      padding: 0; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;

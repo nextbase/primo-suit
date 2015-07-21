@@ -121,10 +121,17 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-image: none;
     width: 100%;
     @include clearfix;
+    @include outer-container;
 
     #exlidSearchRibbon {
-        @include outer-container;
+        @include span-columns(12);
+
+        form {
+            @include reset-margins;
+        }
     }
+
+
 }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
