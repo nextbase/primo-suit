@@ -132,10 +132,12 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 
             .EXLSearchEJorunalsListAtoZ {
                 @include span-columns(8);
+                @include omega();
             }
 
             .exlidSearchTileWrapper {
                 @include span-columns(12);
+                @include omega();
             }
         }
 
