@@ -116,6 +116,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 #exlidResultsContainer {
     @include clearfix;
     clear: both;
+    margin-top: 20px;
 }
 
 #exlidSearchTile.EXLSearchEJorunals {

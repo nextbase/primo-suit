@@ -7654,7 +7654,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   display: none; }
 
 #exlidResultsContainer {
-  clear: both; }
+  clear: both;
+  margin-top: 20px; }
   #exlidResultsContainer::after {
     clear: both;
     content: "";
@@ -9833,8 +9834,7 @@ body.EXLFullView div.EXLTabContent {
   margin-bottom: 1em; }
 
 body.EXLFullView #exlidHeaderSystemFeedback {
-  display: block;
-  margin-bottom: 20px; }
+  display: block; }
 
 body.EXLFullView #exlidHeaderSystemFeedbackFullAuthorization {
   display: block; }
