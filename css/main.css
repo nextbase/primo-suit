@@ -37,20 +37,20 @@ table.jCalendar td.other-month {
   color: #333333; }
 
 table.jCalendar td.today {
-  background: #fd8000;
+  background: #987c4d;
   color: #333333; }
 
 table.jCalendar td.selected {
-  background: #fd8000;
+  background: #987c4d;
   color: #333333; }
 
 table.jCalendar td.selected.dp-hover {
-  background: #fd8000;
+  background: #987c4d;
   color: #333333; }
 
 table.jCalendar td.dp-hover,
 table.jCalendar tr.activeWeekHover td {
-  background: #fd8000;
+  background: #987c4d;
   color: #333333; }
 
 table.jCalendar tr.selectedWeek td {
@@ -85,7 +85,7 @@ div#dp-popup {
   background-image: url(../images/v3.0/images/bg_strip_calendar_caption.png);
   background-repeat: repeat-x;
   background-color: #ffffff;
-  border: 1px solid #fd8000;
+  border: 1px solid #987c4d;
   padding-left: 0.3em;
   padding-right: 0.3em;
   text-align: center;
@@ -382,7 +382,7 @@ pre.sourcecode {
 
 .ui-widget-header {
   border: 1px solid #ffffff;
-  background: #fd8000 url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+  background: #987c4d url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
   color: #ffffff;
   font-weight: bold; }
 
@@ -418,7 +418,7 @@ pre.sourcecode {
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
 .ui-state-hover a:visited {
-  color: #ca6600;
+  color: #76603c;
   text-decoration: none; }
 
 .ui-state-active,
@@ -427,12 +427,12 @@ pre.sourcecode {
   border: 1px solid #ffcc00;
   background: #ffffff url(../images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
-  color: #fd8000; }
+  color: #987c4d; }
 
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-  color: #fd8000;
+  color: #987c4d;
   text-decoration: none; }
 
 .ui-state-highlight,
@@ -1865,7 +1865,7 @@ strong {
   border: 1px solid #ffffff;
   padding: 0em 0.5em 0em 0.5em;
   display: block;
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../images/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   margin: 0em;
@@ -1884,7 +1884,7 @@ strong {
 
 .EXLFindDBTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #fd8000;
+  border-bottom: 2px solid #987c4d;
   padding: 0px;
   padding-top: 2.5em;
   margin: 0em 0em 0em 0em;
@@ -1929,9 +1929,9 @@ strong {
   text-decoration: underline; }
 
 .EXLFindDBTabsRibbon div li.EXLFindDBSelectedTab {
-  border: 1px solid #fd8000;
-  border-bottom: 2px solid #fd8000;
-  background-color: #fd8000;
+  border: 1px solid #987c4d;
+  border-bottom: 2px solid #987c4d;
+  background-color: #987c4d;
   height: 26px;
   text-align: center;
   font-weight: bold;
@@ -2118,7 +2118,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-color: #ffe066; }
 
 .NewSetNameTextField {
-  border: 1px solid #fd8000; }
+  border: 1px solid #987c4d; }
 
 #exlidFindDBContainer #exlidDatabasesListContainer {
   height: 154px; }
@@ -2221,7 +2221,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   display: block; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li em {
-  color: #fd8000;
+  color: #987c4d;
   letter-spacing: 0.1em; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li span {
@@ -2369,7 +2369,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   cursor: pointer; }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLMyDBSelectSet label em {
-  color: #fd8000;
+  color: #987c4d;
   letter-spacing: 0.1em;
   font-weight: normal; }
 
@@ -2642,7 +2642,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   border: 1px solid #ffffff;
   padding: 0em 0.5em 0em 0.5em;
   display: block;
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../images/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   margin: 0em;
@@ -2660,7 +2660,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #fd8000;
+  border-bottom: 2px solid #987c4d;
   padding: 0px;
   padding-top: 2.5em;
   margin: 0em 0em 0em 0em;
@@ -2705,9 +2705,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   text-decoration: underline; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
-  border: 1px solid #fd8000;
-  border-bottom: 2px solid #fd8000;
-  background-color: #fd8000;
+  border: 1px solid #987c4d;
+  border-bottom: 2px solid #987c4d;
+  background-color: #987c4d;
   height: 26px;
   text-align: center;
   font-weight: bold;
@@ -3100,7 +3100,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   color: #333333; }
 
 a.EXLLoansRenewButton {
-  color: #fd8000;
+  color: #987c4d;
   padding-right: 2em; }
 
 .EXLLocationsWaitButton {
@@ -3330,13 +3330,13 @@ a.EXLLoansRenewButton {
   width: auto;
   display: block;
   cursor: pointer;
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
   width: 65px;
   color: #ffffff;
-  border: 1px solid #fd8000;
+  border: 1px solid #987c4d;
   height: 22px;
   margin-top: 0.3em;
   display: none; }
@@ -3475,7 +3475,7 @@ a.EXLLoansRenewButton {
   height: 22px; }
 
 .EXLMyAccountMainContainer form input.submit {
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
@@ -3599,7 +3599,7 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #fd8000;
+  border-bottom: 2px solid #987c4d;
   padding: 0px;
   padding-top: 1.5em;
   margin: 0em 0em 0em 0em;
@@ -3644,9 +3644,9 @@ a.EXLLoansRenewButton {
   text-decoration: underline; }
 
 .EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
-  border: 1px solid #fd8000;
-  border-bottom: 2px solid #fd8000;
-  background-color: #fd8000;
+  border: 1px solid #987c4d;
+  border-bottom: 2px solid #987c4d;
+  background-color: #987c4d;
   height: 26px;
   text-align: center;
   font-weight: bold;
@@ -3777,7 +3777,7 @@ a.EXLLoansRenewButton {
   background-image: url(../images/bg_progress_bar_on.png);
   background-repeat: repeat-x;
   width: 20%;
-  background-color: #fd8000; }
+  background-color: #987c4d; }
 
 .EXLSuggestedSearchesTile {
   width: 100%;
@@ -4023,7 +4023,7 @@ a.EXLLoansRenewButton {
   border: 1px solid #ffffff;
   padding: 0.3em 0.5em 0em 0.5em;
   display: inline-block;
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../css/images/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   margin: 0em;
@@ -4038,7 +4038,7 @@ a.EXLLoansRenewButton {
   border: 1px solid #ffffff;
   padding: 0em 0.5em 0em 0.5em;
   display: inline-block;
-  background-color: #fd8000;
+  background-color: #987c4d;
   margin: 0em;
   width: auto;
   color: #ffffff;
@@ -4049,7 +4049,7 @@ a.EXLLoansRenewButton {
 
 .EXLFacetsLightboxTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #fd8000;
+  border-bottom: 2px solid #987c4d;
   padding: 0px;
   padding-top: auto;
   padding-left: 1em;
@@ -4526,7 +4526,7 @@ a.EXLLoansRenewButton {
   height: 22px; }
 
 .EXLMyAccountMainContainer form input.submit {
-  background-color: #fd8000;
+  background-color: #987c4d;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
@@ -5657,7 +5657,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 .EXLSaveCitationHeader {
   background-color: #ffffff;
-  border-bottom: 2px solid #fd8000;
+  border-bottom: 2px solid #987c4d;
   width: 100%;
   clear: both;
   display: block;
@@ -5765,7 +5765,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   display: block; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-  color: #fd8000;
+  color: #987c4d;
   letter-spacing: 0.1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li span {
@@ -5786,7 +5786,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   display: block; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-  color: #fd8000;
+  color: #987c4d;
   letter-spacing: 0.1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li span {

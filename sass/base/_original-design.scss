@@ -34,23 +34,23 @@ table.jCalendar td.other-month {
 }
 
 table.jCalendar td.today {
-    background: $orange;
+    background: $gold;
     color: $black;
 }
 
 table.jCalendar td.selected {
-    background: $orange;
+    background: $gold;
     color: $black;
 }
 
 table.jCalendar td.selected.dp-hover {
-    background: $orange;
+    background: $gold;
     color: $black;
 }
 
 table.jCalendar td.dp-hover,
 table.jCalendar tr.activeWeekHover td {
-    background: $orange;
+    background: $gold;
     color: $black;
 }
 
@@ -90,7 +90,7 @@ div#dp-popup {
     background-image: url(../images/v3.0/images/bg_strip_calendar_caption.png);
     background-repeat: repeat-x;
     background-color: $white;
-    border: 1px solid $orange;
+    border: 1px solid $gold;
     padding-left: 0.3em;
     padding-right: 0.3em;
     text-align: center;
@@ -447,7 +447,7 @@ pre.sourcecode {
 
 .ui-widget-header {
     border: 1px solid $white;
-    background: $orange url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+    background: $gold url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
     color: $white;
     font-weight: bold;
 }
@@ -488,7 +488,7 @@ pre.sourcecode {
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
 .ui-state-hover a:visited {
-    color: darken($orange, 10%);
+    color: darken($gold, 10%);
     text-decoration: none;
 }
 
@@ -498,13 +498,13 @@ pre.sourcecode {
     border: 1px solid $yellow;
     background: $white url(../images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
     font-weight: bold;
-    color: $orange;
+    color: $gold;
 }
 
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-    color: $orange;
+    color: $gold;
     text-decoration: none;
 }
 
@@ -2314,7 +2314,7 @@ strong {
     border: 1px solid $white;
     padding: 0em 0.5em 0em 0.5em;
     display: block;
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../images/bg_strip_btn_orange.png);
     background-repeat: repeat-x;
     margin: 0em;
@@ -2335,7 +2335,7 @@ strong {
 
 .EXLFindDBTabsRibbon {
     height: 28px;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $gold;
     padding: 0px;
     padding-top: 2.5em;
     margin: 0em 0em 0em 0em;
@@ -2387,9 +2387,9 @@ strong {
 }
 
 .EXLFindDBTabsRibbon div li.EXLFindDBSelectedTab {
-    border: 1px solid $orange;
-    border-bottom: 2px solid $orange;
-    background-color: $orange;
+    border: 1px solid $gold;
+    border-bottom: 2px solid $gold;
+    background-color: $gold;
     height: 26px;
     text-align: center;
     font-weight: bold;
@@ -2613,7 +2613,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 }
 
 .NewSetNameTextField {
-    border: 1px solid $orange
+    border: 1px solid $gold
 }
 
 #exlidFindDBContainer #exlidDatabasesListContainer {
@@ -2740,7 +2740,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 }
 
 #exlidFindDBTile div.EXLFindDBSets ul li em {
-    color: $orange;
+    color: $gold;
     letter-spacing: 0.1em;
 }
 
@@ -2911,7 +2911,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLMyDBSelectSet label em {
-    color: $orange;
+    color: $gold;
     letter-spacing: 0.1em;
     font-weight: normal;
 }
@@ -3226,7 +3226,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     border: 1px solid $white;
     padding: 0em 0.5em 0em 0.5em;
     display: block;
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../images/bg_strip_btn_orange.png);
     background-repeat: repeat-x;
     margin: 0em;
@@ -3246,7 +3246,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon {
     height: 28px;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $gold;
     padding: 0px;
     padding-top: 2.5em;
     margin: 0em 0em 0em 0em;
@@ -3298,9 +3298,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
-    border: 1px solid $orange;
-    border-bottom: 2px solid $orange;
-    background-color: $orange;
+    border: 1px solid $gold;
+    border-bottom: 2px solid $gold;
+    background-color: $gold;
     height: 26px;
     text-align: center;
     font-weight: bold;
@@ -3757,7 +3757,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 a.EXLLoansRenewButton {
-    color: $orange;
+    color: $gold;
     padding-right: 2em;
 }
 
@@ -4038,13 +4038,13 @@ a.EXLLoansRenewButton {
     width: auto;
     display: block;
     cursor: pointer;
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../images/bg_strip_submit_temp.png);
     background-repeat: repeat-x;
     margin-left: 0em;
     width: 65px;
     color: $white;
-    border: 1px solid $orange;
+    border: 1px solid $gold;
     height: 22px;
     margin-top: 0.3em;
     display: none;
@@ -4204,7 +4204,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../images/bg_strip_submit_temp.png);
     background-repeat: repeat-x;
     margin-left: 0em;
@@ -4348,7 +4348,7 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountTabsRibbon {
     height: 28px;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $gold;
     padding: 0px;
     padding-top: 1.5em;
     margin: 0em 0em 0em 0em;
@@ -4400,9 +4400,9 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
-    border: 1px solid $orange;
-    border-bottom: 2px solid $orange;
-    background-color: $orange;
+    border: 1px solid $gold;
+    border-bottom: 2px solid $gold;
+    background-color: $gold;
     height: 26px;
     text-align: center;
     font-weight: bold;
@@ -4551,7 +4551,7 @@ a.EXLLoansRenewButton {
     background-image: url(../images/bg_progress_bar_on.png);
     background-repeat: repeat-x;
     width: 20%;
-    background-color: $orange;
+    background-color: $gold;
 }
 
 .EXLSuggestedSearchesTile {
@@ -4836,7 +4836,7 @@ a.EXLLoansRenewButton {
     border: 1px solid $white;
     padding: 0.3em 0.5em 0em 0.5em;
     display: inline-block;
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../css/images/bg_strip_btn_orange.png);
     background-repeat: repeat-x;
     margin: 0em;
@@ -4852,7 +4852,7 @@ a.EXLLoansRenewButton {
     border: 1px solid $white;
     padding: 0em 0.5em 0em 0.5em;
     display: inline-block;
-    background-color: $orange;
+    background-color: $gold;
     margin: 0em;
     width: auto;
     color: $white;
@@ -4864,7 +4864,7 @@ a.EXLLoansRenewButton {
 
 .EXLFacetsLightboxTabsRibbon {
     height: 28px;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $gold;
     padding: 0px;
     padding-top: auto;
     padding-left: 1em;
@@ -5426,7 +5426,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    background-color: $orange;
+    background-color: $gold;
     background-image: url(../images/bg_strip_submit_temp.png);
     background-repeat: repeat-x;
     margin-left: 0em;
@@ -6744,7 +6744,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 .EXLSaveCitationHeader {
     background-color: $white;
-    border-bottom: 2px solid $orange;
+    border-bottom: 2px solid $gold;
     width: 100%;
     clear: both;
     display: block;
@@ -6871,7 +6871,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-    color: $orange;
+    color: $gold;
     letter-spacing: 0.1em;
 }
 
@@ -6897,7 +6897,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-    color: $orange;
+    color: $gold;
     letter-spacing: 0.1em;
 }
 
