@@ -7522,6 +7522,9 @@ select {
   height: auto;
   border: none; }
 
+#exlidSearchRibbon {
+  margin-bottom: 20px; }
+
 #exlidSearchRibbon legend {
   display: none; }
 
