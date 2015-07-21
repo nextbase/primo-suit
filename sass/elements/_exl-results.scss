@@ -201,20 +201,24 @@ div.EXLResultsHeader:focus {
 
 /* E-Journal */
 
-table.EXLResultsTable {
+.EXLResultsListAlmaAz {
 
-    tr.EXLResultMediaTYPEjournal {
-        
-        td.EXLMyShelfStar {
-            width: 40px;
-        }
+    table.EXLResultsTable {
 
-        td.EXLSummary {
+        tr.EXLResultMediaTYPEjournal {
+            
+            td.EXLMyShelfStar {
+                width: 40px;
+            }
 
-            padding-bottom: 20px;
+            td.EXLSummary {
 
-            div.EXLSummaryContainer {
-                min-height: 0;
+                padding-bottom: 20px;
+
+                div.EXLSummaryContainer {
+                    min-height: 0;
+                }
+
             }
 
         }
@@ -222,5 +226,3 @@ table.EXLResultsTable {
     }
 
 }
-
-

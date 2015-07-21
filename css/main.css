@@ -9287,12 +9287,12 @@ div.EXLResultsHeader:focus {
   height: 18px; }
 
 /* E-Journal */
-table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLMyShelfStar {
+.EXLResultsListAlmaAz table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLMyShelfStar {
   width: 40px; }
 
-table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary {
+.EXLResultsListAlmaAz table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary {
   padding-bottom: 20px; }
-  table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
+  .EXLResultsListAlmaAz table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
     min-height: 0; }
 
 #showhidediv {
