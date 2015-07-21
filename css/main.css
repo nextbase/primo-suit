@@ -10338,6 +10338,10 @@ body.EXLFullView div.EXLBackToResults {
   font-size: 14px;
   float: left;
   color: #333333; }
+  .EXLTabsRibbon div li.EXLResultTab::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLTabsRibbon div li.EXLResultTab a {
   padding: 11px 15px 8px 15px;
