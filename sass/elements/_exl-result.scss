@@ -24,3 +24,12 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
 	@include reset-margins;
 	width: 100%;
 }
+
+.EXLFullDisplay .EXLResultsFooter {
+	@include outer-container;
+
+	.EXLBackToResults,
+	.EXLResultsNavigation {
+		@include span-columns(6);
+	}
+}

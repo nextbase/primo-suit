@@ -9551,6 +9551,24 @@ body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
   padding: 0;
   width: 100%; }
 
+.EXLFullDisplay .EXLResultsFooter {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .EXLFullDisplay .EXLResultsFooter::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .EXLFullDisplay .EXLResultsFooter .EXLBackToResults,
+  .EXLFullDisplay .EXLResultsFooter .EXLResultsNavigation {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .EXLFullDisplay .EXLResultsFooter .EXLBackToResults:last-child,
+    .EXLFullDisplay .EXLResultsFooter .EXLResultsNavigation:last-child {
+      margin-right: 0; }
+
 .EXLRefinementRibbon {
   clear: both;
   background-color: sass;
