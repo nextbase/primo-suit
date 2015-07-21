@@ -5,7 +5,7 @@
 
 		.EXLTabsRibbon {
 			@include reset-margins;
-			@include outer-container;
+			width: 100%;
 		}
 	}
 
@@ -20,5 +20,5 @@
 
 body.EXLFullView div.EXLResultTabContainer {
 	@include reset-margins;
-	@include outer-container;
+	width: 100%;
 }

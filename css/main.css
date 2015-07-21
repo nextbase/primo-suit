@@ -9537,13 +9537,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   .EXLResultsList div.EXLResult .EXLTabsRibbon {
     margin: 0;
     padding: 0;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto; }
-    .EXLResultsList div.EXLResult .EXLTabsRibbon::after {
-      clear: both;
-      content: "";
-      display: table; }
+    width: 100%; }
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
   margin: 0;
@@ -9553,13 +9547,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 body.EXLFullView div.EXLResultTabContainer {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  body.EXLFullView div.EXLResultTabContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
+  width: 100%; }
 
 .EXLRefinementRibbon {
   clear: both;
