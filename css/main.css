@@ -7710,9 +7710,9 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
       #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon div.EXLSearchFieldRibbon label {
         margin: 0;
         padding: 0;
-        color: #987c4d;
+        color: #333333;
         position: absolute;
-        top: -40px; }
+        top: -30px; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;
