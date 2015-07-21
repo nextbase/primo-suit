@@ -1,7 +1,12 @@
-.EXLResult {
+.EXLResultsList  {
+
+	.EXLResult {
+		display: none;
+	}
+
+	.EXLSummaryFields {
+		display: 0;
+	}
 
 }
 
-.EXLSummaryFields {
-	display: 0;
-}

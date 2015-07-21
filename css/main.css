@@ -9531,7 +9531,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLBrowseList #resultsNumbersTile h1 {
   padding-left: -0.5em; }
 
-.EXLSummaryFields {
+.EXLResultsList .EXLResult {
+  display: none; }
+
+.EXLResultsList .EXLSummaryFields {
   display: 0; }
 
 .EXLRefinementRibbon {
