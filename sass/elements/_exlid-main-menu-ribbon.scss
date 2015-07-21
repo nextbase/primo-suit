@@ -163,8 +163,9 @@
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
     @include reset-margins;
-    padding: 0 ($spacing-small / 2);
-    background-color: $orange;
+    padding: 0 ($spacing-small / 4);
+    margin: 0 ($spacing-small / 4);
+    background-color: $gold;
     color: $white;
     font-weight: normal;
     height: auto;

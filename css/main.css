@@ -8331,8 +8331,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
   margin: 0;
   padding: 0;
-  padding: 0 10px;
-  background-color: #fd8000;
+  padding: 0 5px;
+  margin: 0 5px;
+  background-color: #987c4d;
   color: #ffffff;
   font-weight: normal;
   height: auto;
