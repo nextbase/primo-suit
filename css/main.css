@@ -9862,6 +9862,22 @@ body.EXLFullView div.EXLBackToResults {
     background-color: #666666;
     border: 1px solid #666666;
     font-weight: bold; }
+  #exlidSearchTabs li.EXLSearchTabSelected:first-child {
+    margin-left: 0; }
+    #exlidSearchTabs li.EXLSearchTabSelected:first-child a {
+      -webkit-border-top-left-radius: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      -moz-border-radius-topleft: 3px;
+      -moz-border-radius-bottomleft: 3px;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px; }
+  #exlidSearchTabs li.EXLSearchTabSelected:last-child a {
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
