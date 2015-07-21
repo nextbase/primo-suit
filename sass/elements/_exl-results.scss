@@ -229,6 +229,10 @@ div.EXLResultsHeader:focus {
 
 .EXLALMAResultsTileNoFacets {
 
+    .EXLResultsHeader {
+        padding: 10px 0;
+    }
+
     .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
         float: left;
         position: static;
