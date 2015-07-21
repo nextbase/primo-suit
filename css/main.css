@@ -9286,6 +9286,13 @@ div.EXLResultsHeader:focus {
   margin-bottom: 1em;
   height: 18px; }
 
+/* E-Journal */
+table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLMyShelfStar {
+  width: 40px; }
+
+table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
+  min-height: 0; }
+
 #showhidediv {
   margin-bottom: 0;
   margin-left: 0;
