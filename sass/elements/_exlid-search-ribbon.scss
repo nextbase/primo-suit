@@ -179,6 +179,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink {
+    @include reset-margins;
     @include outer-container;
     float: none;
 }

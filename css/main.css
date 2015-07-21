@@ -7724,6 +7724,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   margin-left: -11em; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonSimpleSearchLink {
+  margin: 0;
+  padding: 0;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
