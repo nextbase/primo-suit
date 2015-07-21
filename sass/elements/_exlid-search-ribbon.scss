@@ -119,6 +119,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     background-position: bottom;
     background-color: lighten($gold-gray-secondary, 10%);
     background-image: none;
+    width: 100%;
+    @include clearfix;
 
     #exlidSearchRibbon {
         @include outer-container;
