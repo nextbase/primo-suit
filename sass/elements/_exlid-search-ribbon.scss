@@ -133,6 +133,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
             .EXLSearchEJorunalsListAtoZ {
                 @include span-columns(12);
                 @include omega();
+                margin-bottom: 20px;
             }
 
             .exlidSearchTileWrapper {
@@ -147,9 +148,9 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 
             label {
                 @include reset-margins;
-                margin-bottom: 10px;
                 color: $gold-gray;
-                @include clearfix;
+                position: relative;
+                top: -40px;
             }
         }
     }

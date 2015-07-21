@@ -7683,7 +7683,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         display: block;
         margin-right: 2.35765%;
         width: 100%;
-        margin-right: 0; }
+        margin-right: 0;
+        margin-bottom: 20px; }
         #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form .EXLSearchEJorunalsListAtoZ:last-child {
           margin-right: 0; }
       #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form .exlidSearchTileWrapper {
@@ -7701,12 +7702,9 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
       #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon div.EXLSearchFieldRibbon label {
         margin: 0;
         padding: 0;
-        margin-bottom: 10px;
-        color: #cbbfae; }
-        #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon div.EXLSearchFieldRibbon label::after {
-          clear: both;
-          content: "";
-          display: table; }
+        color: #cbbfae;
+        position: relative;
+        top: -40px; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;
