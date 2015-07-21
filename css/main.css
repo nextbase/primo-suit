@@ -7664,6 +7664,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     clear: both;
     content: "";
     display: table; }
+  #exlidSearchTile.EXLSearchEJorunals #EXLResultsContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
   #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
     margin: 0;
     padding: 0;

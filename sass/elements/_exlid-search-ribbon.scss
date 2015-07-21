@@ -122,6 +122,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     width: 100%;
     @include clearfix;
 
+    #EXLResultsContainer {
+        @include clearfix;
+    }
+
     #exlidSearchRibbon {
         @include reset-margins;
         @include outer-container;
