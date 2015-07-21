@@ -124,7 +124,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     border-top: 4px solid $gold;
     height: auto;
     background-position: bottom;
-    background-color: lighten($gold-gray-secondary, 10%);
+    background-color: $gold-gray;
     background-image: none;
     width: 100%;
     @include clearfix;
