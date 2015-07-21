@@ -1,4 +1,5 @@
 $search-button-width: 80px;
+$distance-to-content: 40px;
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
     background-color: transparent;
@@ -116,7 +117,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 #exlidResultsContainer {
     @include clearfix;
     clear: both;
-    margin-top: 20px;
+    margin-top: $distance-to-content;
 }
 
 #exlidSearchTile.EXLSearchEJorunals {
