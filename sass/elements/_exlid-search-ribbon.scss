@@ -123,10 +123,24 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     @include clearfix;
 
     #exlidSearchRibbon {
+        @include reset-margins;
         @include outer-container;
         float: none;
 
         form {
+            @include reset-margins;
+
+            .EXLSearchEJorunalsListAtoZ {
+                @include span-columns(8);
+            }
+
+            .exlidSearchTileWrapper {
+                @include span-columns(12);
+            }
+        }
+
+        div.EXLSearchFieldRibbon {
+            width: 100%;
             @include reset-margins;
         }
     }
