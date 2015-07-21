@@ -1,4 +1,4 @@
-.EXLResultsList  {
+.EXLFullDisplay .EXLResultsList  {
 
 	div.EXLResult {
 		@include reset-margins;
@@ -10,6 +10,8 @@
 	}
 
 	div.EXLSummaryContainer {
+		padding-top: 0;
+
 		div.EXLSummaryFields {
 			@include reset-margins;
 			padding-left: 0;
@@ -18,7 +20,7 @@
 
 }
 
-body.EXLFullView div.EXLResultTabContainer {
+body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
 	@include reset-margins;
 	width: 100%;
 }

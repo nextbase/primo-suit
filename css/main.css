@@ -9531,20 +9531,22 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLBrowseList #resultsNumbersTile h1 {
   padding-left: -0.5em; }
 
-.EXLResultsList div.EXLResult {
+.EXLFullDisplay .EXLResultsList div.EXLResult {
   margin: 0;
   padding: 0; }
-  .EXLResultsList div.EXLResult .EXLTabsRibbon {
+  .EXLFullDisplay .EXLResultsList div.EXLResult .EXLTabsRibbon {
     margin: 0;
     padding: 0;
     width: 100%; }
 
-.EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
-  margin: 0;
-  padding: 0;
-  padding-left: 0; }
+.EXLFullDisplay .EXLResultsList div.EXLSummaryContainer {
+  padding-top: 0; }
+  .EXLFullDisplay .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
+    margin: 0;
+    padding: 0;
+    padding-left: 0; }
 
-body.EXLFullView div.EXLResultTabContainer {
+body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
   margin: 0;
   padding: 0;
   width: 100%; }
