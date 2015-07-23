@@ -206,7 +206,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
-    width: 11em;
+    width: $label-width;
     display: block;
     float: left
 }
@@ -245,13 +245,19 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 select {
-    width: 12em;
-    height: 1.7em;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");
+    @include input-select;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 select {
-    width: 22.3em\9;
-    height: 1.7em\9;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");
+    @include input-select;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 label {
