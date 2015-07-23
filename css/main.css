@@ -9887,10 +9887,24 @@ body.EXLFullView div.EXLBackToResults {
   border: none;
   cursor: pointer;
   margin: 0;
-  margin-right: 6px; }
+  margin-right: 6px;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px; }
   #exlidAdvancedSearchRibbon input.submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
+  #exlidAdvancedSearchRibbon input.submit:hover,
+  #exlidAdvancedSearchRibbon input.submit:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  #exlidAdvancedSearchRibbon input.submit:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
   width: auto; }

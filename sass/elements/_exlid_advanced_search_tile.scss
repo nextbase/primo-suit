@@ -163,7 +163,9 @@
 }
 
 #exlidAdvancedSearchRibbon input.submit {
-    @include button();
+    @include button;
+	@include set-button-color($gold);
+	@include set-button-size;
 }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
