@@ -20,7 +20,8 @@
     background-color: $gray-light;
     clear: both;
     min-height: 9em;
-    border: 1px solid $gold;
+    border: none;
+    border-top: 4px solid $gray-dark;
     width: 100%;
     padding: 20px;
 }

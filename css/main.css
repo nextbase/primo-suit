@@ -9756,7 +9756,8 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f2f2f0;
   clear: both;
   min-height: 9em;
-  border: 1px solid #987c4d;
+  border: none;
+  border-top: 4px solid #888888;
   width: 100%;
   padding: 20px; }
 
