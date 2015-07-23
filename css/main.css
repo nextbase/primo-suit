@@ -8921,7 +8921,8 @@ li.EXLFacet label {
 
 #exliWhiteContent {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  padding: 20px; }
 
 #exlidCitationLinkerContainer {
   background-color: #f2f2f0;
