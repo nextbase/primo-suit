@@ -69,6 +69,10 @@
 	@include form-element-width("narrow");
 }
 
+[id^="exlidInput_boolOperator"] {
+	width: 100px;
+}
+
 #exlidAdvancedSearchRibbon select {
     @include input;
 	@include input-size("default");
