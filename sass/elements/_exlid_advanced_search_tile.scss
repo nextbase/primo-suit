@@ -8,6 +8,35 @@
     height: auto;
     background-color: $gray;
     width: 100%;
+
+    #exlidSearchTabs li {
+    	
+	    &:first-child {
+	        margin-left: 0;
+	        
+	        a {
+	            -webkit-border-top-left-radius: 4px;
+	            -webkit-border-bottom-left-radius: 0;
+	            -moz-border-radius-topleft: 4px;
+	            -moz-border-radius-bottomleft: 0;
+	            border-top-left-radius: 4px;
+	            border-bottom-left-radius: 0;
+	        }
+	    }
+
+
+	    &:last-child {
+	        a {
+	            -webkit-border-top-right-radius: 4px;
+	            -webkit-border-bottom-right-radius: 0;
+	            -moz-border-radius-topright: 4px;
+	            -moz-border-radius-bottomright: 0;
+	            border-top-right-radius: 4px;
+	            border-bottom-right-radius: 0;
+	        }
+	    }
+
+	}
 }
 
 #exlidAdvancedSearchRibbon {
