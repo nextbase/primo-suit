@@ -8916,6 +8916,13 @@ li.EXLFacet label {
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
   width: auto; }
 
+#exliPrimoLightBoxdiv {
+  outline: none; }
+
+#exliWhiteContent {
+  margin: 0;
+  padding: 0; }
+
 #exlidCitationLinkerContainer {
   background-color: #f2f2f0;
   width: 100%;

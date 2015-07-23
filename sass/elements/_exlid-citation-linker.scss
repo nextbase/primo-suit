@@ -1,3 +1,11 @@
+#exliPrimoLightBoxdiv {
+    outline: none;
+}
+
+#exliWhiteContent {
+    @include reset-margins;
+}
+
 #exlidCitationLinkerContainer {
     background-color: $gray-light;
     width: 100%;
