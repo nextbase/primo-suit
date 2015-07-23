@@ -157,9 +157,9 @@
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
-    background-color: #ADB9C2;
-    background-image: url("../images/bg_strip_btn_grey.png"); // Fix This
-    color: #FFFFFF;
+    @include button;
+	@include set-button-color(transparent, $gold-light, "outline");
+	@include set-button-size;
 }
 
 #exlidAdvancedSearchRibbon input.submit {

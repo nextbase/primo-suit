@@ -9867,9 +9867,40 @@ body.EXLFullView div.EXLBackToResults {
   clear: none; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
-  background-color: #ADB9C2;
-  background-image: url("../images/bg_strip_btn_grey.png");
-  color: #FFFFFF; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  color: #b6a082;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border: 2px solid #bfac92;
+  line-height: 28px; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:hover,
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:active {
+    color: #ffffff;
+    background-color: #b6a082;
+    border: 2px solid #b6a082; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:active {
+    color: #ffffff;
+    background-color: #b6a082;
+    border-color: #a78c68;
+    box-shadow: inset 2px 2px 2px 1px rgba(167, 140, 104, 0.5); }
 
 #exlidAdvancedSearchRibbon input.submit {
   font-family: sans-serif;
