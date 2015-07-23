@@ -8919,8 +8919,11 @@ li.EXLFacet label {
 #exlidCitationLinkerContainer {
   background-color: #f2f2f0;
   width: 100%;
-  height: 510px;
-  padding-top: 2%; }
+  height: auto; }
+  #exlidCitationLinkerContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidCitationLinkerTile {
   clear: left;

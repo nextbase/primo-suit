@@ -1,8 +1,8 @@
 #exlidCitationLinkerContainer {
     background-color: $gray-light;
     width: 100%;
-    height: 510px;
-    padding-top: 2%
+    height: auto;
+    @include clearfix;
 }
 
 #exlidCitationLinkerTile {
