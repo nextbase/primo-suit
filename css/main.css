@@ -7051,7 +7051,7 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -7420,7 +7420,7 @@ select {
   line-height: 28px; }
 
 #exlidHeaderSearchLimits select {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -7479,7 +7479,7 @@ select {
   overflow: hidden; }
 
 #exlidHeaderSearchLimits input {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -7527,7 +7527,7 @@ select {
 
 #exlidSearchRibbon input.EXLSearchFieldMaximized,
 #exlidSearchRibbon input[type=text] {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -8690,7 +8690,7 @@ li.EXLFacet label {
   text-align: left;
   margin-bottom: 20px; }
   .EXLDateRangeText input[type="text"] {
-    font-size: 16px;
+    font-size: 14px;
     height: auto;
     width: auto;
     border: none;
@@ -9868,10 +9868,10 @@ body.EXLFullView div.EXLBackToResults {
 
 #exlidAdvancedSearchRibbon select[id^="exlidInput_boolOperator"],
 [id^="exlidInput_boolOperator"] {
-  width: 80px; }
+  width: 90px; }
 
 #exlidAdvancedSearchRibbon select {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -9924,7 +9924,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #fff899; }
 
 #exlidAdvancedSearchRibbon input {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -9976,7 +9976,7 @@ body.EXLFullView div.EXLBackToResults {
     margin-right: 0; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
@@ -10072,7 +10072,7 @@ body.EXLFullView div.EXLBackToResults {
   direction: ltr; }
 
 #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input {
-  font-size: 16px;
+  font-size: 14px;
   height: auto;
   width: auto;
   border: none;
