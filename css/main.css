@@ -9949,7 +9949,12 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   display: block;
   line-height: 1.4;
-  padding: 4px 0; }
+  padding: 9px 0; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks a,
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks a:link,
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks a:visited {
+    color: #ffffff;
+    border-bottom: 1px dotted #ffffff; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
   float: left;

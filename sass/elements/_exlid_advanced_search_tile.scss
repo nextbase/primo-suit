@@ -171,7 +171,14 @@
     float: left;
     display: block;
     line-height: 1.4;
-    padding: 4px 0;
+    padding: 9px 0;
+
+    a,
+    a:link,
+    a:visited {
+		color: $white;
+		border-bottom: 1px dotted $white;
+    }
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
