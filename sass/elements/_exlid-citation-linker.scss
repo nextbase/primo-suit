@@ -8,10 +8,10 @@
 #exlidCitationLinkerTile {
     clear: left;
     padding: 0em 0em 0em 0em;
-    font-size: 80%;
+    font-size: $base-font-size;
     height: auto;
-    width: 96%;
-    border: 1px solid $gray-hover;
+    width: 100%;
+    border: 1px solid $gray-light;
     background-color: $white;
     margin-left: auto;
     margin-right: auto;
