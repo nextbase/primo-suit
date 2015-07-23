@@ -183,7 +183,10 @@
 }
 
 #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput {
-    width: 10em;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
@@ -217,19 +220,19 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 span.EXLCitationLinkerCheckbox input {
-    @include input;
-    @include input-size("default");
-    @include set-input-style("inset");
-    @include form-element-width("default");
+    width: auto;
+    height: auto;
+    margin-left: 5em;
+    float: left;
+    margin-right: 0.5em;
+    border: none
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 span.EXLCitationLinkerCheckbox label {
-    font-size: $small-font-size;
-    display: block;
     float: left;
-    width: $label-width;
-    border: $hightlight-border;
-    line-height: $form-line-height;
+    width: 10em;
+    white-space: nowrap;
+    text-align: left
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
