@@ -70,12 +70,11 @@
 }
 
 #exlidAdvancedSearchRibbon select {
-    width: 14%;
-    border: 1px solid #8fb9d0;
-    height: auto;
-    padding-top: 0em;
-    padding-left: 0em;
-    font-size: $small-font-size;
+    @include input;
+	@include input-size("default");
+	@include set-input-style("inset");
+	@include form-element-width("default");
+	@include input-select;
 }
 
 #exlidAdvancedSearchRibbon .EXLSelectedDatabasesHighlight {

@@ -9864,12 +9864,55 @@ body.EXLFullView div.EXLBackToResults {
   min-width: 24%; }
 
 #exlidAdvancedSearchRibbon select {
-  width: 14%;
-  border: 1px solid #8fb9d0;
+  font-size: 16px;
   height: auto;
-  padding-top: 0em;
-  padding-left: 0em;
-  font-size: 14px; }
+  width: auto;
+  border: none;
+  display: inline-block;
+  line-height: 28px;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f0;
+  box-sizing: border-box;
+  padding: 3px 10px;
+  margin-right: 14px;
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 3px 10px;
+  box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
+  border-color: #dfdfdc;
+  width: 160px;
+  padding-right: 40px;
+  background-image: url("../images/form_select_arrow_down.png");
+  background-repeat: no-repeat;
+  background-position: right center; }
+  #exlidAdvancedSearchRibbon select:focus {
+    border-color: #34aacc;
+    border-left-width: 5px;
+    padding-left: 6px;
+    outline: 0;
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: box-shadow 0.2s ease-in-out; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    #exlidAdvancedSearchRibbon select {
+      background-image: url("../images/form_select_arrow_down_2x.png");
+      background-size: 40px 40px; } }
+  #exlidAdvancedSearchRibbon select:hover,
+  #exlidAdvancedSearchRibbon select:active,
+  #exlidAdvancedSearchRibbon select:focus {
+    background-image: url("../images/form_select_arrow_down_hover.png"); }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      #exlidAdvancedSearchRibbon select:hover,
+      #exlidAdvancedSearchRibbon select:active,
+      #exlidAdvancedSearchRibbon select:focus {
+        background-image: url("../images/form_select_arrow_down_hover_2x.png");
+        background-size: 40px 40px; } }
 
 #exlidAdvancedSearchRibbon .EXLSelectedDatabasesHighlight {
   background-color: #fff899; }
