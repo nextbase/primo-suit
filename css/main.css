@@ -9248,18 +9248,21 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
         background-size: 40px 40px; } }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 label {
-  width: 11em;
-  margin-left: 1em;
+  font-size: 14px;
+  display: block;
   float: left;
-  display: block; }
+  width: 160px;
+  border: none;
+  line-height: 28px; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
-  margin: 0em;
-  float: none;
-  clear: both;
-  width: 100%;
-  padding-bottom: 0.5em;
-  margin-left: 0.5em; }
+  margin: 0;
+  padding: 0;
+  padding: 5px 0; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
   display: inline; }

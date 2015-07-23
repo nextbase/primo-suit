@@ -261,19 +261,18 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 label {
-    width: 11em;
-    margin-left: 1em;
-    float: left;
+    font-size: $small-font-size;
     display: block;
+    float: left;
+    width: $label-width;
+    border: $hightlight-border;
+    line-height: $form-line-height;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
-    margin: 0em;
-    float: none;
-    clear: both;
-    width: 100%;
-    padding-bottom: 0.5em;
-    margin-left: 0.5em;
+    @include reset-margins;
+    @include clearfix;
+    padding: 5px 0;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
