@@ -89,11 +89,7 @@
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
-    float: left;
-    width: 44em;
-    height: auto;
-    margin-right: 0em;
-    padding-left: 0.5em;
+    @include span-columns(7 of 12);
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
