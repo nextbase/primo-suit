@@ -69,6 +69,7 @@
 	@include form-element-width("narrow");
 }
 
+#exlidAdvancedSearchRibbon select[id^="exlidInput_boolOperator"],
 [id^="exlidInput_boolOperator"] {
 	width: 80px;
 }

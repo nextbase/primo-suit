@@ -9866,6 +9866,7 @@ body.EXLFullView div.EXLBackToResults {
 [id^="exlidInput_scope"] {
   width: 80px; }
 
+#exlidAdvancedSearchRibbon select[id^="exlidInput_boolOperator"],
 [id^="exlidInput_boolOperator"] {
   width: 80px; }
 
