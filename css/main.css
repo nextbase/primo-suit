@@ -1563,18 +1563,6 @@ strong {
       background-image: url("../images/icon_loading_circle_2x.gif");
       background-size: 24px 24px; } }
 
-#exliGreyOverlay {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  background-color: #d8d0c4;
-  z-index: 1001;
-  -moz-opacity: 0.8;
-  opacity: 0.80;
-  filter: alpha(opacity=80); }
-
 #exliWhiteContent {
   position: absolute;
   top: 10%;
@@ -4816,11 +4804,6 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   margin-left: 1.7em;
   float: left;
   clear: both; }
-
-.EXLNoResultsDivTitle {
-  font-size: 110%;
-  font-weight: bold;
-  padding-bottom: 10px; }
 
 .EXLNoResultsDivText {
   line-height: 21px; }
@@ -12475,6 +12458,15 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMoreTabContent {
   overflow: auto;
   overflow-x: hidden; }
+
+.EXLNoResultsDivTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px; }
+  .EXLNoResultsDivTitle::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLFooterTile {
   margin: 0;
