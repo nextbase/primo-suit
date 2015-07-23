@@ -8930,11 +8930,11 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   left: 0%;
   width: 100%;
   height: 100%;
-  background-color: #987c4d;
+  background-color: #333333;
   z-index: 1001;
-  -moz-opacity: 0.8;
-  opacity: 0.80;
-  filter: alpha(opacity=80); }
+  -moz-opacity: 0.9;
+  opacity: 0.90;
+  filter: alpha(opacity=90); }
 
 .EXLResultsContainer {
   margin: 0;
