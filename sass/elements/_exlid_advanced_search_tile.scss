@@ -55,7 +55,6 @@
 #exlidAdvancedSearchRibbon input {
     width: 18em;
     border: 1px solid #8fb9d0;
-    height: 1.5em;
     padding-top: 0em;
     padding-left: 0em;
     font-size: 1em;
@@ -136,8 +135,6 @@
 
 #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input {
     width: 4em;
-    height: 1.75em;
-    font-size: 0.9em;
     text-align: left;
 }
 
@@ -162,23 +159,12 @@
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
     background-color: #ADB9C2;
-    background-image: url("../images/bg_strip_btn_grey.png");
+    background-image: url("../images/bg_strip_btn_grey.png"); // Fix This
     color: #FFFFFF;
 }
 
 #exlidAdvancedSearchRibbon input.submit {
-    border: 1px solid #ffffff;
-    padding: 0em;
-    display: block;
-    background-color: #e87107;
-    background-image: url(../images/bg_strip_btn_orange.png);
-    background-repeat: repeat-x;
-    margin: 0em;
-    width: 8.5em;
-    color: #FFFFFF;
-    font-weight: normal;
-    height: 24px;
-    cursor: pointer;
+    @include button();
 }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
