@@ -6445,6 +6445,7 @@ input[type="button"] {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #987c4d;
   border: 2px solid #987c4d;
@@ -8258,6 +8259,7 @@ li.EXLFacet label {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #fd8000;
   border: 2px solid #fd8000;
@@ -8861,6 +8863,7 @@ li.EXLFacet label {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #888888;
   border: 2px solid #888888;
@@ -8898,6 +8901,7 @@ li.EXLFacet label {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #34aacc;
   border: 2px solid #34aacc;
@@ -9206,6 +9210,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #987c4d;
   border: 2px solid #987c4d;
@@ -9242,6 +9247,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin: 0;
   margin-right: 6px;
   outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #bcbdb6;
   border: 2px solid #bcbdb6;
