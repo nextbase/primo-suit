@@ -9933,10 +9933,14 @@ body.EXLFullView div.EXLBackToResults {
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
   float: left;
-  width: 32em;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
   height: auto;
-  border-left: 1px solid #cccccc;
-  margin-left: 0em; }
+  border-left: 1px solid #cbbfae;
+  margin-left: 0; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2:last-child {
+    margin-right: 0; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
   width: 16.2em;

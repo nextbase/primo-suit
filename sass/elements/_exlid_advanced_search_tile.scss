@@ -98,11 +98,10 @@
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
-    float: left;
-    width: 32em;
+    @include span-columns(5 of 12);
     height: auto;
-    border-left: 1px solid #cccccc;
-    margin-left: 0em
+    border-left: 1px solid $gold-gray;
+    margin-left: 0;
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
