@@ -160,8 +160,10 @@
 }
 
 #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input {
+    @include input;
+	@include input-size("small");
+	@include set-input-style("inset");
     width: 4em;
-    text-align: left;
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks {
