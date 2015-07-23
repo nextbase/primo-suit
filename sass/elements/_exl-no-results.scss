@@ -4,3 +4,35 @@
     padding-bottom: 10px;
     @include clearfix;
 }
+
+.EXLNoResultsSuggestions {
+    background: #fafafa;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    border: solid 1px #ededed;
+    height: auto;
+    @include clearfix;
+}
+
+.EXLNoResultsSuggestions li {
+    line-height: normal;
+    list-style: none;
+    background-image: url(../images/bullet_square_orange.png);
+    background-repeat: no-repeat;
+    background-position: 1% 0.9em;
+    display: block;
+    float: left;
+    width: 100%;
+    padding-top: 0.4em;
+    padding-bottom: 0.5em
+}
+
+.EXLNoResultsSuggestions li span {
+    margin-left: 1.7em;
+    float: left;
+    clear: both;
+}
+
+.EXLNoResultsDivText {
+    line-height: 21px;
+}

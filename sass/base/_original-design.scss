@@ -5729,37 +5729,6 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
     margin-left: 1px;
 }
 
-.EXLNoResultsSuggestions {
-    background: #fafafa;
-    margin: 10px 0px 10px 0px;
-    padding: 1em 1em 1em 1em;
-    border: solid 1px #ededed;
-    height: 150px;
-}
-
-.EXLNoResultsSuggestions li {
-    line-height: normal;
-    list-style: none;
-    background-image: url(../images/bullet_square_orange.png);
-    background-repeat: no-repeat;
-    background-position: 1% 0.9em;
-    display: block;
-    float: left;
-    width: 100%;
-    padding-top: 0.4em;
-    padding-bottom: 0.5em
-}
-
-.EXLNoResultsSuggestions li span {
-    margin-left: 1.7em;
-    float: left;
-    clear: both;
-}
-
-.EXLNoResultsDivText {
-    line-height: 21px;
-}
-
 .multipleCoverImageBrowserShelfContainer {
     background-image: url("../images/pixel.png");
     background-repeat: no-repeat;
