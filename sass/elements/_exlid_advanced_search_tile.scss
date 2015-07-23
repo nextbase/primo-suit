@@ -10,7 +10,7 @@
     width: 100%;
 
     #exlidSearchTabs li {
-    	
+
 	    &:first-child {
 	        margin-left: 0;
 	        
@@ -189,12 +189,14 @@
     @include button;
 	@include set-button-color(transparent, $gold, "outline");
 	@include set-button-size;
+	background-image: none;
 }
 
 #exlidAdvancedSearchRibbon input.submit {
     @include button;
 	@include set-button-color($blue);
 	@include set-button-size;
+	background-image: none;
 }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
