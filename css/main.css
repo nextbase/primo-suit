@@ -9864,7 +9864,7 @@ body.EXLFullView div.EXLBackToResults {
   display: none; }
 
 [id^="exlidInput_scope"] {
-  width: 80px; }
+  width: "small-0"; }
 
 #exlidAdvancedSearchRibbon select {
   font-size: 16px;
