@@ -12,7 +12,7 @@
     height: auto;
     padding: 0;
     @include clearfix;
-    @include prefixer(box-shadow, 0 0 10px 10px rgba($black, .5), webkit moz spec);
+    @include prefixer(box-shadow, 0 0 50px 10px rgba($black, .5), webkit moz spec);
 }
 
 #exlidCitationLinkerTile {
