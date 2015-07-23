@@ -114,9 +114,10 @@
     width: 40px;
     height: 40px;
     overflow: hidden;
+    cursor: pointer;
 
     &:hover {
-        background-position: 0 40px;
+        background-position: 0 -40px;
     }
 }
 
