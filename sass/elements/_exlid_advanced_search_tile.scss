@@ -77,7 +77,6 @@
     @include input;
 	@include input-size("default");
 	@include set-input-style("inset");
-	@include form-element-width("default");
 	@include input-select;
 }
 
