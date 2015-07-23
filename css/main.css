@@ -9946,9 +9946,10 @@ body.EXLFullView div.EXLBackToResults {
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks {
   float: left;
-  display: inline;
-  line-height: 26px;
-  text-indent: 1em; }
+  display: block;
+  line-height: 1.4;
+  margin-left: 10px;
+  margin-top: 4px; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
   float: left;
