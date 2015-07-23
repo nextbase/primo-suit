@@ -7916,20 +7916,18 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
 
 #exlidAdvancedSearchTile {
   clear: left;
-  border-bottom: 1px solid #adb9c2;
-  border-top: 1px solid #adb9c2;
-  background-image: url(../images/bg_strip_searchPanel.png);
+  border: none;
+  background-image: none;
   background-repeat: repeat-x;
   padding: 1em 0em 1em 0em;
   font-size: 12px;
   height: auto;
-  background-color: #f4f7f8;
+  background-color: #bcbdb6;
   width: 100%; }
 
 #exlidAdvancedSearchRibbon {
-  width: 97%;
-  margin-left: 1em;
-  margin-right: 0.5em; }
+  width: 100%;
+  padding: 20px; }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon {
   background-color: #FFFFFF;
@@ -9892,6 +9890,9 @@ body.EXLFullView div.EXLBackToResults {
   font-size: 80%;
   float: left;
   width: 30%; }
+
+#exlidAdvancedSearchTile {
+  background-image: none; }
 
 #exlidSearchRibbon div.EXLSearchTabsContainer {
   margin: 0;
