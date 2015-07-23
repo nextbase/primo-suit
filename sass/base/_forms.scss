@@ -141,7 +141,7 @@ div.form-element {
   @if $size == "default" {
     padding: $form-spacing-vertical $form-spacing-horizontal;
   } @else {
-    font-size: $base-font-size - 2px;
+    font-size: $small-font-size - 1px;
     line-height: $form-line-height-small;
     padding: ($form-spacing-vertical / 2) $form-spacing-horizontal;
   }

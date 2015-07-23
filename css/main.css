@@ -7099,7 +7099,7 @@ select {
   input[type="password"].small,
   textarea.small,
   select.small {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding: 1.5px 10px; }
   input[type="email"].narrow,
@@ -7440,7 +7440,7 @@ select {
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
   width: 300px; }
@@ -7495,7 +7495,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
   float: left;
@@ -8706,7 +8706,7 @@ li.EXLFacet label {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     padding: 1.5px 10px;
     box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
@@ -9992,7 +9992,7 @@ body.EXLFullView div.EXLBackToResults {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
@@ -10088,7 +10088,7 @@ body.EXLFullView div.EXLBackToResults {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
