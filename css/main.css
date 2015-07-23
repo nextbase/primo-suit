@@ -9846,12 +9846,15 @@ body.EXLFullView div.EXLBackToResults {
   padding: 0;
   background-color: #f2f2f0;
   clear: both;
-  min-height: 9em;
   border: none;
   border-top: 4px solid #666666;
   width: 100%;
   padding: 20px;
   margin-bottom: 20px; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidAdvancedSearchRibbon fieldset fieldset {
   padding-left: 0em;

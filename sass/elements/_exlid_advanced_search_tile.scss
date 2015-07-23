@@ -48,12 +48,12 @@
 	@include reset-margins;
     background-color: $gray-light;
     clear: both;
-    min-height: 9em;
     border: none;
     border-top: 4px solid $gray-dark-secondary;
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
+    @include clearfix;
 }
 
 #exlidAdvancedSearchRibbon fieldset fieldset {
