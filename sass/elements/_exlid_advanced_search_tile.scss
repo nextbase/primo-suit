@@ -158,7 +158,7 @@
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
     @include button;
-	@include set-button-color(transparent, $gold-light, "outline");
+	@include set-button-color(transparent, $white, "outline");
 	@include set-button-size;
 }
 

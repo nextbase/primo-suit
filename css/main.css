@@ -9883,10 +9883,10 @@ body.EXLFullView div.EXLBackToResults {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
-  color: #b6a082;
+  color: #ffffff;
   background-color: transparent;
   border: 2px solid transparent;
-  border: 2px solid #bfac92;
+  border: 2px solid white;
   line-height: 28px; }
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input::-moz-focus-inner {
     border: 0;
@@ -9894,13 +9894,13 @@ body.EXLFullView div.EXLBackToResults {
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:hover,
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:active {
     color: #ffffff;
-    background-color: #b6a082;
-    border: 2px solid #b6a082; }
+    background-color: #ffffff;
+    border: 2px solid #ffffff; }
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input:active {
     color: #ffffff;
-    background-color: #b6a082;
-    border-color: #a78c68;
-    box-shadow: inset 2px 2px 2px 1px rgba(167, 140, 104, 0.5); }
+    background-color: #ffffff;
+    border-color: #ebebeb;
+    box-shadow: inset 2px 2px 2px 1px rgba(235, 235, 235, 0.5); }
 
 #exlidAdvancedSearchRibbon input.submit {
   font-family: sans-serif;
