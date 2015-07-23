@@ -8984,12 +8984,12 @@ li.EXLFacet label {
 
 .EXLCitationLinkerHeader div.EXLCitationLinkerHeaderButtons {
   padding: 0em;
-  width: 35%;
+  width: 100px;
   float: right;
   text-align: right;
   height: 18px;
-  padding-top: 0.8em;
-  margin-right: 0.5em; }
+  padding-top: 0;
+  margin-right: 0; }
 
 .EXLCitationLinkerHeader div.EXLCitationLinkerHeaderButtons ul {
   float: right;
