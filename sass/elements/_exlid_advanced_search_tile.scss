@@ -100,7 +100,6 @@
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
-    width: 16.2em;
     @include input;
 	@include input-size("small");
 	@include set-input-style("inset");
