@@ -9185,24 +9185,74 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin-top: 1em; }
 
 #exlidCitationLinkerContainer input.EXLSubmit {
-  border: 1px solid #ffffff;
-  padding: 0em 0.5em 0em 0.5em;
-  display: block;
-  background-color: #987c4d;
-  background-image: url(../images/bg_strip_btn_orange.png);
-  background-repeat: repeat-x;
-  margin: 0em;
-  width: 80px;
-  color: #ffffff;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
   font-weight: normal;
-  height: 24px;
-  cursor: pointer; }
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px; }
+  #exlidCitationLinkerContainer input.EXLSubmit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidCitationLinkerContainer input.EXLSubmit:hover,
+  #exlidCitationLinkerContainer input.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  #exlidCitationLinkerContainer input.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
 #exlidCitationLinkerContainer input.EXLSubmitClear {
-  background-image: url(../images/bg_strip_btn_grey.png);
-  color: #b6a082;
-  background-color: #b6a082;
-  color: #333333; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  color: #ffffff;
+  background-color: #bcbdb6;
+  border: 2px solid #bcbdb6;
+  line-height: 28px; }
+  #exlidCitationLinkerContainer input.EXLSubmitClear::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidCitationLinkerContainer input.EXLSubmitClear:hover,
+  #exlidCitationLinkerContainer input.EXLSubmitClear:active {
+    color: #ffffff;
+    background-color: #b0b1a9;
+    border-color: #a8aaa1; }
+  #exlidCitationLinkerContainer input.EXLSubmitClear:active {
+    color: #ffffff;
+    background-color: #a8aaa1;
+    border-color: #9fa096;
+    box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
 .EXLCitationLinkerTabsRibbon {
   height: 28px;
