@@ -8976,10 +8976,9 @@ li.EXLFacet label {
 
 .EXLCitationLinkerHeader h1 {
   float: left;
-  font-size: 100%;
+  font-size: 28px;
   color: #333333;
-  line-height: 300%;
-  padding-left: 1em; }
+  line-height: 1.125; }
 
 .EXLCitationLinkerHeader div.EXLCitationLinkerHeaderButtons {
   padding: 0em;
