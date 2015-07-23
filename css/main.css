@@ -9857,14 +9857,14 @@ body.EXLFullView div.EXLBackToResults {
     display: table; }
 
 #exlidAdvancedSearchRibbon fieldset fieldset {
-  padding-left: 0em;
+  padding-left: 0;
   display: block; }
 
 #exlidAdvancedSearchRibbon fieldset legend {
   display: none; }
 
 [id^="exlidInput_scope"] {
-  min-width: 24%; }
+  width: 80px; }
 
 #exlidAdvancedSearchRibbon select {
   font-size: 16px;

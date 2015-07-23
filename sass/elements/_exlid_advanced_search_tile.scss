@@ -57,7 +57,7 @@
 }
 
 #exlidAdvancedSearchRibbon fieldset fieldset {
-    padding-left: 0em;
+    padding-left: 0;
     display: block
 }
 
@@ -66,7 +66,7 @@
 }
 
 [id^="exlidInput_scope"] {
-    min-width: 24%
+	@include form-element-width("narrow");
 }
 
 #exlidAdvancedSearchRibbon select {
