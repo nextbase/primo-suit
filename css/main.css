@@ -8924,6 +8924,23 @@ li.EXLFacet label {
   color: #333333;
   font-weight: bold; }
 
+#exlidCitationLinkerContainer {
+  background-color: #f2f2f0;
+  width: 100%;
+  height: 510px;
+  padding-top: 2%; }
+
+#exlidCitationLinkerTile {
+  clear: left;
+  padding: 0em 0em 0em 0em;
+  font-size: 80%;
+  height: auto;
+  width: 96%;
+  border: 1px solid #a7a8a2;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto; }
+
 .EXLResultsContainer {
   margin: 0;
   padding: 0;
