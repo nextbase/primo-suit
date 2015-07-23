@@ -82,11 +82,10 @@
 }
 
 #exlidAdvancedSearchRibbon input {
-    width: 18em;
-    border: 1px solid #8fb9d0;
-    padding-top: 0em;
-    padding-left: 0em;
-    font-size: $small-font-size;
+    @include input;
+	@include input-size("default");
+	@include set-input-style("inset");
+	@include form-element-width("default");
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
