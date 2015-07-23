@@ -6444,6 +6444,7 @@ input[type="button"] {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #987c4d;
   border: 2px solid #987c4d;
@@ -8256,6 +8257,7 @@ li.EXLFacet label {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #fd8000;
   border: 2px solid #fd8000;
@@ -8858,6 +8860,7 @@ li.EXLFacet label {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #888888;
   border: 2px solid #888888;
@@ -8894,6 +8897,7 @@ li.EXLFacet label {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #34aacc;
   border: 2px solid #34aacc;
@@ -9180,7 +9184,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   float: left;
   display: inline;
   clear: none;
-  border: 1px solid #b6a082;
+  border: none;
   margin-left: auto;
   margin-top: 1em; }
 
@@ -9201,6 +9205,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #987c4d;
   border: 2px solid #987c4d;
@@ -9236,6 +9241,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   cursor: pointer;
   margin: 0;
   margin-right: 6px;
+  outline: none;
   color: #ffffff;
   background-color: #bcbdb6;
   border: 2px solid #bcbdb6;
