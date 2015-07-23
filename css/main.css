@@ -9850,7 +9850,8 @@ body.EXLFullView div.EXLBackToResults {
   border: none;
   border-top: 4px solid #666666;
   width: 100%;
-  padding: 20px; }
+  padding: 20px;
+  margin-bottom: 20px; }
 
 #exlidAdvancedSearchRibbon fieldset fieldset {
   padding-left: 0em;
