@@ -191,6 +191,7 @@
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     @include span-columns(12);
     @include clearfix;
+    margin: 0;
     padding: 20px 0;
 }
 

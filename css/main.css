@@ -9167,6 +9167,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
+  margin: 0;
   padding: 20px 0; }
   div.EXLCitationLinkerFieldRibbonFormFieldsSubmit:last-child {
     margin-right: 0; }
