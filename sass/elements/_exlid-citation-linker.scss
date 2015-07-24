@@ -163,12 +163,10 @@
 }
 
 #exlidCitationLinkerRibbon input {
-    width: 17.5em;
-    border: 1px solid lighten($blue, 10%);
-    height: 1.5em;
-    padding-top: 0em;
-    padding-left: 0em;
-    font-size: 1em;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("wide");
 }
 
 #exlidCitationLinkerRibbon input[disabled] {
@@ -183,7 +181,7 @@
     @include input;
     @include input-size("default");
     @include set-input-style("inset");
-    @include form-element-width("default");
+    @include form-element-width("wide");
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
