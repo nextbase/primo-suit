@@ -272,6 +272,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
+    @include outer-container;
+
     label {
         @include span-columns(2 of 5);
     }
