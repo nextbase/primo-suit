@@ -9322,11 +9322,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
   margin: 0;
   padding: 0;
-  display: block;
-  float: none;
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  display: block;
+  float: none;
+  margin-bottom: 20px; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow::after {
     clear: both;
     content: "";

@@ -257,9 +257,10 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
     @include reset-margins;
     @include clearfix;
+    @include outer-container;
     display: block;
     float: none;
-    @include outer-container;
+    margin-bottom: 20px;
 
     label {
         @include span-columns(2 of 5);
