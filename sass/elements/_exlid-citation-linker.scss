@@ -166,7 +166,7 @@
     @include input;
     @include input-size("default");
     @include set-input-style("inset");
-    @include form-element-width("wide");
+    @include form-element-width("default");
 }
 
 #exlidCitationLinkerRibbon input[disabled] {
@@ -181,7 +181,7 @@
     @include input;
     @include input-size("default");
     @include set-input-style("inset");
-    @include form-element-width("wide");
+    @include form-element-width("default");
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {

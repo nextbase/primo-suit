@@ -9102,7 +9102,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  width: 300px; }
+  width: 160px; }
   #exlidCitationLinkerRibbon input:focus {
     border-color: #34aacc;
     border-left-width: 5px;
@@ -9141,7 +9141,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  width: 300px; }
+  width: 160px; }
   #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput:focus {
     border-color: #34aacc;
     border-left-width: 5px;
