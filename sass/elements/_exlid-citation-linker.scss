@@ -140,11 +140,8 @@
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbon {
-    clear: both;
-    min-height: 9em;
-    width: 100%;
-    padding: 2em 0em 0em 0em;
-    margin: 0px;
+    @include reset-margins;
+    @include outer-container;
 }
 
 #exlidCitationLinkerRibbon fieldset fieldset {
@@ -190,11 +187,7 @@
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
-    float: left;
-    width: 30em;
-    height: auto;
-    margin-right: 0em;
-    padding-left: 0.5em;
+    @include span-columns(4 of 8);
 }
 
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
@@ -236,11 +229,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
-    float: left;
-    width: auto;
-    height: auto;
-    border-left: 1px solid $gold-gray-secondary;
-    margin-left: 1.7em;
+    @include span-columns(4 of 8);
+    @include omega();
 }
 
 * html #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {

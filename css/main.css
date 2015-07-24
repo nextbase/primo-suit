@@ -9057,11 +9057,15 @@ li.EXLFacet label {
   clear: left; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbon {
-  clear: both;
-  min-height: 9em;
-  width: 100%;
-  padding: 2em 0em 0em 0em;
-  margin: 0px; }
+  margin: 0;
+  padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidCitationLinkerRibbon fieldset fieldset {
   padding-left: 0em;
@@ -9127,10 +9131,11 @@ li.EXLFacet label {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
   float: left;
-  width: 30em;
-  height: auto;
-  margin-right: 0em;
-  padding-left: 0.5em; }
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1:last-child {
+    margin-right: 0; }
 
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding-bottom: 1em;
@@ -9167,10 +9172,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
   float: left;
-  width: auto;
-  height: auto;
-  border-left: 1px solid #d8d0c4;
-  margin-left: 1.7em; }
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-right: 0; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2:last-child {
+    margin-right: 0; }
 
 * html #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
   width: 22em; }
