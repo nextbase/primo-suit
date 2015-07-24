@@ -235,7 +235,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     @include input;
     @include input-size("default");
     @include set-input-style("inset");
-    @include form-element-width("default");
     @include input-select;
 }
 
@@ -243,7 +242,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     @include input;
     @include input-size("default");
     @include set-input-style("inset");
-    @include form-element-width("default");
     @include input-select;
 }
 
@@ -259,11 +257,23 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
     @include reset-margins;
     @include clearfix;
-    padding: 5px 0;
+
+
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-    display: inline;
+    display: block;
+    float: none;
+    @include outer-container;
+    
+    label {
+        @include span-columns(2 of 5);
+    }
+
+    input {
+        @include span-columns(3 of 5);
+        @include omega();
+    }
 }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {

@@ -9231,7 +9231,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  width: 160px;
   padding-right: 40px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
@@ -9282,7 +9281,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  width: 160px;
   padding-right: 40px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
@@ -9323,15 +9321,37 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
   margin: 0;
-  padding: 0;
-  padding: 5px 0; }
+  padding: 0; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow::after {
     clear: both;
     content: "";
     display: table; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-  display: inline; }
+  display: block;
+  float: none;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 36.4891%; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label:last-child {
+      margin-right: 0; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 57.6594%;
+    margin-right: 0; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input:last-child {
+      margin-right: 0; }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
   float: left;
