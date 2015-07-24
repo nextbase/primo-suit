@@ -257,23 +257,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
     @include reset-margins;
     @include clearfix;
-    @include outer-container;
-    display: block;
-    float: none;
-    margin-bottom: 20px;
-
-    label {
-        @include span-columns(2 of 5);
-    }
-
-    input {
-        @include span-columns(3 of 5);
-        @include omega();
-    }
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-    
+    display: inline;
 }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {

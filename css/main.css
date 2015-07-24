@@ -9322,35 +9322,15 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  float: none;
-  margin-bottom: 20px; }
+  padding: 0;
+  margin-bottom: 10px; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow::after {
     clear: both;
     content: "";
     display: table; }
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow::after {
-    clear: both;
-    content: "";
-    display: table; }
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow label {
-    float: left;
-    display: block;
-    margin-right: 5.85151%;
-    width: 36.4891%; }
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow label:last-child {
-      margin-right: 0; }
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow input {
-    float: left;
-    display: block;
-    margin-right: 5.85151%;
-    width: 57.6594%;
-    margin-right: 0; }
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow input:last-child {
-      margin-right: 0; }
+
+#exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
+  display: inline; }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
   float: left;
