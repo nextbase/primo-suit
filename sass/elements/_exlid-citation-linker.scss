@@ -263,13 +263,15 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     label {
         @include span-columns(2 of 5);
     }
+
+    input {
+        @include span-columns(3 of 5);
+        @include omega();
+    }
 }
 
-#exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput {
-    width: 100%;
-    @include span-columns(5 of 5);
-    @include omega();
-
+#exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
+#exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
     label {
         @include span-columns(2 of 5);
     }
@@ -278,10 +280,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
         @include span-columns(3 of 5);
         @include omega();
     }
-}
-
-#exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-    @include span-columns(3 of 5);
 }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
