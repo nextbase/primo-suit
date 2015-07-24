@@ -9163,14 +9163,17 @@ li.EXLFacet label {
     margin-right: 0; }
 
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
-  padding-bottom: 1em;
-  padding-top: 1em;
-  clear: left;
-  width: 25em;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-  width: 98%; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  padding: 20px 0; }
+  div.EXLCitationLinkerFieldRibbonFormFieldsSubmit:last-child {
+    margin-right: 0; }
+  div.EXLCitationLinkerFieldRibbonFormFieldsSubmit::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
   width: 160px;

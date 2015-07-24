@@ -189,14 +189,9 @@
 }
 
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
-    padding-bottom: 1em;
-    padding-top: 1em;
-    clear: left;
-    width: 25em;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto;
-    width: 98%;
+    @include span-columns(12);
+    @include clearfix;
+    padding: 20px 0;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
