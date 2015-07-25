@@ -9155,6 +9155,8 @@ li.EXLFacet label {
     transition: box-shadow 0.2s ease-in-out; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
+  margin: 0;
+  padding: 0;
   float: left;
   display: block;
   margin-right: 3.57866%;
@@ -9200,6 +9202,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   text-align: left; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
+  margin: 0;
+  padding: 0;
   float: left;
   display: block;
   margin-right: 3.57866%;
