@@ -8417,7 +8417,8 @@ li.EXLFacet label {
   border-top: 1px solid #d8d0c4;
   background-color: rgba(216, 208, 196, 0.5);
   text-align: center;
-  display: block; }
+  display: block;
+  float: none; }
   #exlidHeaderSystemFeedback::after {
     clear: both;
     content: "";
