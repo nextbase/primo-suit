@@ -4,14 +4,12 @@
     border-bottom: 2px solid $gold;
     line-height: 1.2;
     background-color: $white;
+    @include outer-container;
 }
 
 .EXLMyAccountTabsRibbon div {
-    width: 90%;
-    margin: 0px;
-    clear: left;
-    float: left;
-    margin-left: 0em;
+    @include reset-margins;
+    @include span-columns(12);
 }
 
 .EXLMyAccountTabsRibbon div ul {

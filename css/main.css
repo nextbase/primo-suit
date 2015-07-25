@@ -12813,14 +12813,24 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   height: 30px;
   border-bottom: 2px solid #987c4d;
   line-height: 1.2;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  .EXLMyAccountTabsRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLMyAccountTabsRibbon div {
-  width: 90%;
-  margin: 0px;
-  clear: left;
+  margin: 0;
+  padding: 0;
   float: left;
-  margin-left: 0em; }
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .EXLMyAccountTabsRibbon div:last-child {
+    margin-right: 0; }
 
 .EXLMyAccountTabsRibbon div ul {
   margin-left: 0.8em;
