@@ -379,6 +379,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
     @include reset-margins;
+    background-image: none;
 
     a, 
     a:link, 

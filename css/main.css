@@ -9527,7 +9527,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-image: none; }
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a,
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:link,
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:visited {
