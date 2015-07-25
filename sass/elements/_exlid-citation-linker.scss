@@ -323,14 +323,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLCitationLinkerTabsRibbon {
-    height: 40px;
-    border-bottom: 4px solid $gray;
-    padding: 0px;
-    padding-top: 2.5em;
-    margin: 0;
-    background-color: $white;
     @include reset-margins;
     @include clearfix;
+    height: 40px;
+    border-bottom: 4px solid $gray;
+    background-color: $white;
+    margin-bottom: 20px;
+
 }
 
 .EXLCitationLinkerTabsRibbon div {

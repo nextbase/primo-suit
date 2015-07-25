@@ -9469,14 +9469,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
 .EXLCitationLinkerTabsRibbon {
+  margin: 0;
+  padding: 0;
   height: 40px;
   border-bottom: 4px solid #bcbdb6;
-  padding: 0px;
-  padding-top: 2.5em;
-  margin: 0;
   background-color: #ffffff;
-  margin: 0;
-  padding: 0; }
+  margin-bottom: 20px; }
   .EXLCitationLinkerTabsRibbon::after {
     clear: both;
     content: "";
