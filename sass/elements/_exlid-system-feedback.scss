@@ -1,7 +1,6 @@
 #exlidHeaderSystemFeedback {
     @include reset-margins;
     @include outer-container;
-    @include omega;
     margin-top: -1px;
     border-bottom: 1px solid $gold-gray-secondary;
     border-top: 1px solid $gold-gray-secondary;
