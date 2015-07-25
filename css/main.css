@@ -9208,7 +9208,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   display: block;
   margin-right: 3.57866%;
   width: 48.21067%;
-  margin-right: 0; }
+  margin-right: 0;
+  border-left: none; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2:last-child {
     margin-right: 0; }
 
