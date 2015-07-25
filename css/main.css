@@ -9334,6 +9334,21 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     clear: both;
     content: "";
     display: table; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow label {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 32.25504%; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow label:last-child {
+      margin-right: 0; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow input {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 53.42534%;
+    margin-right: 0; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow input:last-child {
+      margin-right: 0; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
@@ -9343,6 +9358,25 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     clear: both;
     content: "";
     display: table; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput label,
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 32.25504%; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput label:last-child,
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label:last-child {
+      margin-right: 0; }
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput input,
+  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 53.42534%;
+    margin-right: 0; }
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput input:last-child,
+    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input:last-child {
+      margin-right: 0; }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
   float: left;
