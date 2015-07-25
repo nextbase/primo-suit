@@ -9496,7 +9496,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin: 0;
   padding: 0;
   display: block;
-  float: left; }
+  float: left;
+  height: auto; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
   margin: 0;
