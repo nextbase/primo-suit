@@ -9138,9 +9138,7 @@ li.EXLFacet label {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  font-size: 13px;
-  line-height: 20px;
-  padding: 1.5px 10px;
+  padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
   width: 160px; }
@@ -9182,7 +9180,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
   width: 160px;
-  line-height: 1.2;
   display: block;
   float: left; }
 

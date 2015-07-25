@@ -179,7 +179,7 @@
 
 #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput {
     @include input;
-    @include input-size("narrow");
+    @include input-size("default");
     @include set-input-style("inset");
     @include form-element-width("default");
 }
@@ -198,7 +198,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
     width: $label-width;
-    line-height: 1.2;
     display: block;
     float: left;
 }
