@@ -9472,7 +9472,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin: 0;
   padding: 0;
   height: auto;
-  border-bottom: 4px solid #bcbdb6;
+  border-bottom: 5px solid #bcbdb6;
   background-color: #ffffff;
   margin-bottom: 20px; }
   .EXLCitationLinkerTabsRibbon::after {
@@ -9493,14 +9493,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin-bottom: 0; }
 
 .EXLCitationLinkerTabsRibbon div li {
-  line-height: 40px;
-  font-size: 16px;
+  margin: 0;
   padding: 0;
-  display: inline;
-  min-width: 0;
-  width: auto; }
+  display: block;
+  float: left; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
+  margin: 0;
+  padding: 0;
   border: 1px solid #d8d0c4;
   border-bottom: 0px;
   height: 27px;
@@ -9508,8 +9508,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   vertical-align: middle;
   cursor: pointer;
   float: left;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
   margin-right: 4px;
   color: #888888; }
 
@@ -9535,7 +9533,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding-right: 0.8em;
   margin-right: 4px;
   color: #ffffff;
-  background-image: url(../images/bg_strip_btn_orange.png);
+  background-image: none;
   background-repeat: repeat-x; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {

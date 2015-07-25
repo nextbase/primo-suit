@@ -326,7 +326,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     @include reset-margins;
     @include clearfix;
     height: auto;
-    border-bottom: 4px solid $gray;
+    border-bottom: 5px solid $gray;
     background-color: $white;
     margin-bottom: 20px;
 
@@ -343,15 +343,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLCitationLinkerTabsRibbon div li {
-    line-height: 40px;
-    font-size: $base-font-size;
-    padding: 0;
-    display: inline;
-    min-width: 0;
-    width: auto;
+    @include reset-margins;
+    display: block;
+    float: left;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
+    @include reset-margins;
     border: 1px solid $gold-gray-secondary;
     border-bottom: 0px;
     height: 27px;
@@ -359,8 +357,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     vertical-align: middle;
     cursor: pointer;
     float: left;
-    padding-left: 0.2em;
-    padding-right: 0.2em;
     margin-right: 4px;
     color: $gray-dark;
 }
@@ -389,7 +385,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     padding-right: 0.8em;
     margin-right: 4px;
     color: $white;
-    background-image: url(../images/bg_strip_btn_orange.png);
+    background-image: none;
     background-repeat: repeat-x;
 }
 
