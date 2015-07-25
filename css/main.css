@@ -3227,79 +3227,6 @@ a.EXLLoansRenewButton {
 #num_of_results {
   width: -moz-available; }
 
-.EXLMyAccountTabsRibbon {
-  height: 28px;
-  border-bottom: 2px solid #987c4d;
-  padding: 0px;
-  padding-top: 1.5em;
-  margin: 0em 0em 0em 0em;
-  background-color: #ffffff; }
-
-.EXLMyAccountTabsRibbon div {
-  width: 90%;
-  margin: 0px;
-  clear: left;
-  float: left;
-  margin-left: 0em; }
-
-.EXLMyAccountTabsRibbon div ul {
-  margin-left: 0.8em;
-  margin-bottom: 0em; }
-
-.EXLMyAccountTabsRibbon div li {
-  line-height: 160%;
-  font-size: 100%;
-  display: inline;
-  width: 6em; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountTab {
-  border: 1px solid #d8d0c4;
-  border-bottom: 0px;
-  height: 27px;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  float: left;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  margin-right: 4px;
-  color: #888888;
-  width: auto; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountTab a {
-  color: #404040;
-  font-size: 80%; }
-
-.EXLMyAccountTabsRibbon div a:hover {
-  text-decoration: underline; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
-  border: 1px solid #987c4d;
-  border-bottom: 2px solid #987c4d;
-  background-color: #987c4d;
-  height: 26px;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle;
-  float: left;
-  font-weight: bold;
-  text-decoration: none;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  margin-right: 4px;
-  color: #ffffff;
-  background-image: url(../images/bg_strip_btn_orange.png);
-  background-repeat: repeat-x; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab a {
-  color: #ffffff; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab {
-  padding-left: 0em; }
-
-.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
-  padding-left: 0.5em; }
-
 #exlidLightbox {
   background-color: #d8d0c4;
   padding-top: 0.5em;
@@ -12879,6 +12806,79 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   background-color: #ffcc00;
   z-index: 300;
   background-color: #f2f2f0; }
+
+.EXLMyAccountTabsRibbon {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  border-bottom: 2px solid #987c4d;
+  line-height: 1.2;
+  background-color: #ffffff; }
+
+.EXLMyAccountTabsRibbon div {
+  width: 90%;
+  margin: 0px;
+  clear: left;
+  float: left;
+  margin-left: 0em; }
+
+.EXLMyAccountTabsRibbon div ul {
+  margin-left: 0.8em;
+  margin-bottom: 0em; }
+
+.EXLMyAccountTabsRibbon div li {
+  line-height: 160%;
+  font-size: 100%;
+  display: inline;
+  width: 6em; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountTab {
+  border: 1px solid #d8d0c4;
+  border-bottom: 0px;
+  height: 27px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  float: left;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  margin-right: 4px;
+  color: #888888;
+  width: auto; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountTab a {
+  color: #404040;
+  font-size: 80%; }
+
+.EXLMyAccountTabsRibbon div a:hover {
+  text-decoration: underline; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
+  border: 1px solid #987c4d;
+  border-bottom: 2px solid #987c4d;
+  background-color: #987c4d;
+  height: 26px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: middle;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  margin-right: 4px;
+  color: #ffffff;
+  background-image: url(../images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab a {
+  color: #ffffff; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab {
+  padding-left: 0em; }
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
+  padding-left: 0.5em; }
 
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
