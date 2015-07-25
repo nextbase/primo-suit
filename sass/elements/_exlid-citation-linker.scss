@@ -199,7 +199,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
     width: $label-width;
     display: block;
-    float: left
+    float: left;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 span.EXLCitationLinkerCheckbox {
@@ -213,14 +213,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     margin-left: 5em;
     float: left;
     margin-right: 0.5em;
-    border: none
+    border: none;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 span.EXLCitationLinkerCheckbox label {
     float: left;
     width: 10em;
     white-space: nowrap;
-    text-align: left
+    text-align: left;
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
@@ -251,7 +251,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     font-size: $small-font-size;
     display: block;
     float: left;
-    width: $label-width - 100px;
+    width: $label-width;
     border: $hightlight-border;
     line-height: $form-line-height;
 }
@@ -262,14 +262,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     padding: 0;
     margin-bottom: 10px;
 
-    label {
-        @include span-columns(2 of 5);
-    }
+    // label {
+    //     @include span-columns(2 of 5);
+    // }
 
-    input {
-        @include span-columns(3 of 5);
-        @include omega();
-    }
+    // input {
+    //     @include span-columns(3 of 5);
+    //     @include omega();
+    // }
 }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
