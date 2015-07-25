@@ -380,7 +380,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
     @include reset-margins;
 
-    a {
+    a, 
+    a:link, 
+    a:visited {
         color: $white;
         font-size: $base-font-size;
         border: 1px solid $gray;
@@ -393,10 +395,11 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
         padding: 0 20px;
         height: auto;
         width: auto;
+    }
 
-        &:hover {
-            background-color: darken($gray, 10%);
-        }
+    a:hover,
+    a:active {
+        background-color: darken($gray, 10%);
     }
 }
 

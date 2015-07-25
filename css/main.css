@@ -9528,7 +9528,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
   margin: 0;
   padding: 0; }
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a {
+  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a,
+  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:link,
+  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:visited {
     color: #ffffff;
     font-size: 16px;
     border: 1px solid #bcbdb6;
@@ -9541,8 +9543,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     padding: 0 20px;
     height: auto;
     width: auto; }
-    .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:hover {
-      background-color: #a3a59b; }
+  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:hover,
+  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:active {
+    background-color: #a3a59b; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
   background-color: #333333; }
