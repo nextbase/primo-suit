@@ -179,7 +179,7 @@
 
 #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput {
     @include input;
-    @include input-size("default");
+    @include input-size("narrow");
     @include set-input-style("inset");
     @include form-element-width("default");
 }

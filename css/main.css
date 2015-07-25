@@ -9138,7 +9138,9 @@ li.EXLFacet label {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding: 3px 10px;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 1.5px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
   width: 160px; }
