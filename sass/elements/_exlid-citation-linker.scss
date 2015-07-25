@@ -186,7 +186,7 @@
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 {
     @include reset-margins;
-    @include span-columns(4 of 8);
+    @include span-columns(3.8 of 8);
 }
 
 div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
@@ -226,7 +226,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
     @include reset-margins;
-    @include span-columns(4 of 8);
+    @include span-columns(3.8 of 8);
     @include omega();
 }
 
