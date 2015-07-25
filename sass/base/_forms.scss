@@ -15,7 +15,7 @@ label {
   float: left;
   width: $label-width;
   border: $hightlight-border;
-  line-height: $form-line-height / 2;
+  line-height: $form-line-height;
 }
 
 div.form-element {

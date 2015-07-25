@@ -6414,7 +6414,7 @@ label {
   float: left;
   width: 160px;
   border: none;
-  line-height: 14px; }
+  line-height: 28px; }
 
 div.form-element {
   border: none;
@@ -9182,6 +9182,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
   width: 160px;
+  line-height: 1.2;
   display: block;
   float: left; }
 
