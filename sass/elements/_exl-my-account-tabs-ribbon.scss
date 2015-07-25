@@ -10,6 +10,7 @@
 .EXLMyAccountTabsRibbon div {
     @include reset-margins;
     @include span-columns(12);
+    @include omega();
 }
 
 .EXLMyAccountTabsRibbon div ul {

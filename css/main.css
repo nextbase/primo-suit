@@ -12828,7 +12828,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 100%; }
+  width: 100%;
+  margin-right: 0; }
   .EXLMyAccountTabsRibbon div:last-child {
     margin-right: 0; }
 
