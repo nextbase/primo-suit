@@ -10328,7 +10328,14 @@ body.EXLFullView div.EXLTabContent {
   margin-bottom: 1em; }
 
 body.EXLFullView #exlidHeaderSystemFeedback {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   display: block; }
+  body.EXLFullView #exlidHeaderSystemFeedback::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 body.EXLFullView #exlidHeaderSystemFeedbackFullAuthorization {
   display: block; }
