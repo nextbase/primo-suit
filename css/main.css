@@ -8409,21 +8409,20 @@ li.EXLFacet label {
 #exlidHeaderSystemFeedback {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   margin-right: 0;
-  width: 100%;
-  height: auto;
   margin-top: -1px;
   border-bottom: 1px solid #d8d0c4;
   border-top: 1px solid #d8d0c4;
   background-color: rgba(216, 208, 196, 0.5);
   text-align: center;
   display: block; }
-  #exlidHeaderSystemFeedback:last-child {
-    margin-right: 0; }
+  #exlidHeaderSystemFeedback::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidHeaderSystemFeedback strong {
   padding: 3px 10px;
@@ -10328,14 +10327,7 @@ body.EXLFullView div.EXLTabContent {
   margin-bottom: 1em; }
 
 body.EXLFullView #exlidHeaderSystemFeedback {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   display: block; }
-  body.EXLFullView #exlidHeaderSystemFeedback::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 body.EXLFullView #exlidHeaderSystemFeedbackFullAuthorization {
   display: block; }

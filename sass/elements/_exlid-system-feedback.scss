@@ -1,9 +1,7 @@
 #exlidHeaderSystemFeedback {
-  @include reset-margins;
-  @include span-columns(12);
-  @include omega;
-    width: 100%;
-    height: auto;
+    @include reset-margins;
+    @include outer-container;
+    @include omega;
     margin-top: -1px;
     border-bottom: 1px solid $gold-gray-secondary;
     border-top: 1px solid $gold-gray-secondary;
