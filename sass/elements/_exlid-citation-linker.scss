@@ -393,6 +393,10 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
         padding: 0 20px;
         height: auto;
         width: auto;
+
+        &:hover {
+            background-color: darken($gray, 10%);
+        }
     }
 }
 

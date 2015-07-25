@@ -9541,6 +9541,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     padding: 0 20px;
     height: auto;
     width: auto; }
+    .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:hover {
+      background-color: #a3a59b; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
   background-color: #333333; }
