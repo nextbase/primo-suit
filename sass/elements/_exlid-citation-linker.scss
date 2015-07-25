@@ -347,11 +347,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     display: block;
     float: left;
     height: auto;
+    width: auto;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
     @include reset-margins;
     float: left;
+    height: auto;
+    width: auto;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
@@ -378,13 +381,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     font-size: $base-font-size;
     border: 1px solid $gray;
     border-bottom-color: transparent;
-    height: 40px;
     background-color: $gray;
     line-height: 40px;
     text-align: center;
     cursor: pointer;
     float: left;
     padding: 0 20px;
+    height: auto;
+    width: auto;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
