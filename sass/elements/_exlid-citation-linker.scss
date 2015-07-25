@@ -350,47 +350,44 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
     @include reset-margins;
-    border: 1px solid $gold-gray-secondary;
-    border-bottom: 0px;
-    height: 27px;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
     float: left;
-    margin-right: 4px;
-    color: $gray-dark;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
-    color: lighten($black, 5%);
-    font-size: 100%
+    color: $black;
+    font-size: $base-font-size;
+    border: 1px solid $gold-gray-secondary;
+    border-bottom-color: transparent;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    padding: 0 20px;
 }
 
 .EXLCitationLinkerTabsRibbon div a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: $gray-light;
+    color: $white;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
-    border: 1px solid $gold;
-    border-bottom: 2px solid $gold;
-    background-color: $gold;
-    height: 26px;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    float: left;
-    font-weight: bold;
-    text-decoration: none;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-    margin-right: 4px;
     color: $white;
-    background-image: none;
-    background-repeat: repeat-x;
+    font-size: $base-font-size;
+    border: 1px solid $gray;
+    border-bottom-color: transparent;
+    height: 40px;
+    background-color: $gray;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    padding: 0 20px;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
-    background-color: lighten($yellow, 20%)
+    background-color: $black;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a {

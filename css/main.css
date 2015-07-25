@@ -9501,43 +9501,40 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
   margin: 0;
   padding: 0;
-  border: 1px solid #d8d0c4;
-  border-bottom: 0px;
-  height: 27px;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  float: left;
-  margin-right: 4px;
-  color: #888888; }
+  float: left; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
-  color: #404040;
-  font-size: 100%; }
+  color: #333333;
+  font-size: 16px;
+  border: 1px solid #d8d0c4;
+  border-bottom-color: transparent;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  padding: 0 20px; }
 
 .EXLCitationLinkerTabsRibbon div a:hover {
-  text-decoration: underline; }
+  text-decoration: none;
+  background-color: #f2f2f0;
+  color: #ffffff; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
-  border: 1px solid #987c4d;
-  border-bottom: 2px solid #987c4d;
-  background-color: #987c4d;
-  height: 26px;
-  text-align: center;
-  font-weight: bold;
-  vertical-align: middle;
-  float: left;
-  font-weight: bold;
-  text-decoration: none;
-  padding-left: 0.8em;
-  padding-right: 0.8em;
-  margin-right: 4px;
   color: #ffffff;
-  background-image: none;
-  background-repeat: repeat-x; }
+  font-size: 16px;
+  border: 1px solid #bcbdb6;
+  border-bottom-color: transparent;
+  height: 40px;
+  background-color: #bcbdb6;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  padding: 0 20px; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
-  background-color: #ffe066; }
+  background-color: #333333; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a {
   color: #ffffff; }
