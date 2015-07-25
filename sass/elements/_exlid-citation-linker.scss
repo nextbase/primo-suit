@@ -413,15 +413,15 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstTab {
-    padding-left: 0em;
+    padding-left: 0;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstSelectedTab {
-    padding-left: 0.5em;
+    padding-left: 0;
 }
 
 #exlidCitationLinkerTile div.EXLCitationLinkerListHeader {
-    background-color: sass;
+    background-color: $white;
     height: 26px;
     border-bottom: 1px solid $gold-gray-secondary;
     border-top: 1px solid $white;

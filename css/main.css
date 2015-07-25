@@ -9555,13 +9555,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   color: #ffffff; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstTab {
-  padding-left: 0em; }
+  padding-left: 0; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstSelectedTab {
-  padding-left: 0.5em; }
+  padding-left: 0; }
 
 #exlidCitationLinkerTile div.EXLCitationLinkerListHeader {
-  background-color: sass;
+  background-color: #ffffff;
   height: 26px;
   border-bottom: 1px solid #d8d0c4;
   border-top: 1px solid #ffffff; }
