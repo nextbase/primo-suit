@@ -9343,25 +9343,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     clear: both;
     content: "";
     display: table; }
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput label,
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label {
-    float: left;
-    display: block;
-    margin-right: 5.85151%;
-    width: 36.4891%; }
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput label:last-child,
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput label:last-child {
-      margin-right: 0; }
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput input,
-  #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input {
-    float: left;
-    display: block;
-    margin-right: 5.85151%;
-    width: 57.6594%;
-    margin-right: 0; }
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput input:last-child,
-    #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput input:last-child {
-      margin-right: 0; }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
   float: left;

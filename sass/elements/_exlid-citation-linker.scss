@@ -277,14 +277,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     width: 100%;
     @include clearfix;
 
-    label {
-        @include span-columns(2 of 5);
-    }
+    // label {
+    //     @include span-columns(2 of 5);
+    // }
     
-    input {
-        @include span-columns(3 of 5);
-        @include omega();
-    }
+    // input {
+    //     @include span-columns(3 of 5);
+    //     @include omega();
+    // }
 }
 
 #exlidCitationLinkerContainer div.EXLCitationLinkerFieldRibbonFormSubmitSearch {
