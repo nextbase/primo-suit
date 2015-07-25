@@ -9507,7 +9507,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 0;
   float: left;
   height: auto;
-  width: auto; }
+  width: auto;
+  border: none;
+  background-color: #ffffff; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
   color: #333333;
@@ -9529,7 +9531,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
   margin: 0;
   padding: 0;
-  background-image: none; }
+  background: #bcbdb6;
+  border: none; }
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a,
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:link,
   .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:visited {

@@ -357,6 +357,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     float: left;
     height: auto;
     width: auto;
+    border: none;
+    background-color: $white;
 }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
@@ -380,7 +382,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
     @include reset-margins;
-    background-image: none;
+    background: $gray;
+    border: none;
 
     a, 
     a:link, 
