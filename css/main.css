@@ -9075,12 +9075,12 @@ li.EXLFacet label {
   display: none; }
 
 #exlidCitationLinkerRibbon select {
-  width: 7em;
+  width: 55%;
   border: 1px solid #5dbbd6;
   height: auto;
   padding-top: 0em;
   padding-left: 0em;
-  font-size: 100%; }
+  font-size: 14px; }
 
 #exlidCitationLinkerRibbon input {
   font-size: 14px;
@@ -9160,7 +9160,7 @@ li.EXLFacet label {
   float: left;
   display: block;
   margin-right: 3.57866%;
-  width: 45.6212%; }
+  width: 48.21067%; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1:last-child {
     margin-right: 0; }
 
@@ -9192,7 +9192,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   height: auto;
   margin-left: 5em;
   float: left;
-  margin-right: 0.5em;
+  margin-right: 0;
   border: none; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 span.EXLCitationLinkerCheckbox label {
@@ -9207,13 +9207,21 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   float: left;
   display: block;
   margin-right: 3.57866%;
-  width: 45.6212%;
+  width: 48.21067%;
   margin-right: 0; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2:last-child {
     margin-right: 0; }
 
 * html #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 {
-  width: 22em; }
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  margin-right: 0; }
+  * html #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2:last-child {
+    margin-right: 0; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 select {
   font-size: 14px;
