@@ -9493,10 +9493,11 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin-bottom: 0em; }
 
 .EXLCitationLinkerTabsRibbon div li {
-  line-height: 200%;
-  font-size: 100%;
+  line-height: 40px;
+  font-size: 16px;
+  padding: 0 20px;
   display: inline;
-  min-width: 12em;
+  min-width: 0;
   width: auto; }
 
 .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
