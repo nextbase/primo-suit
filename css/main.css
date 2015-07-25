@@ -9102,7 +9102,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  width: 160px; }
+  width: 55%; }
   #exlidCitationLinkerRibbon input:focus {
     border-color: #34aacc;
     border-left-width: 5px;
@@ -9179,7 +9179,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     display: table; }
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup1 label {
-  width: 160px;
+  width: 40%;
   display: block;
   float: left; }
 
