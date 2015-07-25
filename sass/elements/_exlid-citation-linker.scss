@@ -142,6 +142,7 @@
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbon {
     @include reset-margins;
     @include outer-container;
+    padding: 20px 0;
 }
 
 #exlidCitationLinkerRibbon fieldset fieldset {

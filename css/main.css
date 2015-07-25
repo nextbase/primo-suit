@@ -9061,7 +9061,8 @@ li.EXLFacet label {
   padding: 0;
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 20px 0; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbon::after {
     clear: both;
     content: "";
