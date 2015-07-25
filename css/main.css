@@ -9346,9 +9346,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 100%; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput::after,
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput::after {
     clear: both;
@@ -9471,19 +9469,26 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
 .EXLCitationLinkerTabsRibbon {
-  height: 28px;
-  border-bottom: 2px solid #987c4d;
+  height: 40px;
+  border-bottom: 4px solid #bcbdb6;
   padding: 0px;
   padding-top: 2.5em;
-  margin: 0em 0em 0em 0em;
-  background-color: #ffffff; }
+  margin: 0;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0; }
+  .EXLCitationLinkerTabsRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLCitationLinkerTabsRibbon div {
-  width: 90%;
-  margin: 0px;
-  clear: left;
-  float: left;
-  margin-left: 0em; }
+  margin: 0;
+  padding: 0; }
+  .EXLCitationLinkerTabsRibbon div::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLCitationLinkerTabsRibbon div ul {
   margin-left: 0.8em;

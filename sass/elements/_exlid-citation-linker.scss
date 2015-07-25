@@ -272,12 +272,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow span.EXLCitationLinkerFormRowInlineInput,
 #exlidCitationLinkerRibbon div.EXLCitationLinkerFormRow fieldset span.EXLCitationLinkerFormRowInlineInput {
-    @include outer-container;
+    width: 100%;
+    @include clearfix;
 
     label {
         @include span-columns(2 of 5);
     }
-
+    
     input {
         @include span-columns(3 of 5);
         @include omega();
@@ -322,20 +323,19 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 }
 
 .EXLCitationLinkerTabsRibbon {
-    height: 28px;
-    border-bottom: 2px solid $gold;
+    height: 40px;
+    border-bottom: 4px solid $gray;
     padding: 0px;
     padding-top: 2.5em;
-    margin: 0em 0em 0em 0em;
-    background-color: $white
+    margin: 0;
+    background-color: $white;
+    @include reset-margins;
+    @include clearfix;
 }
 
 .EXLCitationLinkerTabsRibbon div {
-    width: 90%;
-    margin: 0px;
-    clear: left;
-    float: left;
-    margin-left: 0em;
+    @include reset-margins;
+    @include clearfix;
 }
 
 .EXLCitationLinkerTabsRibbon div ul {
@@ -420,7 +420,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     width: auto;
     color: $gold-light;
     padding-left: 0.7em;
-    line-height: 200%
+    line-height: 200%;
 }
 
 #exlidCitationLinkerTile div div.EXLCitationLinkerListHeaderLinks span {
