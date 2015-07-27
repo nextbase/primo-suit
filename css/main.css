@@ -14077,6 +14077,9 @@ table.main {
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
 
+#exlidSuggestedList {
+  display: none; }
+
 @media screen and (max-width: 480px) {
   * {
     display: none; } }
