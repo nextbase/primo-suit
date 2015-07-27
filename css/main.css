@@ -12389,8 +12389,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
       clear: both;
       content: "";
       display: table; }
-  .EXLCitationLinkerTabsRibbon ul.EXLCitationLinkerTabs {
-    margin-left: 0; }
+    .EXLCitationLinkerTabsRibbon div ul.EXLCitationLinkerTabs {
+      margin-left: 0; }
 
 ul.EXLCitationLinkerTabs {
   margin-left: 0;

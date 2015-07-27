@@ -10,10 +10,10 @@
     div {
         @include reset-margins;
         @include clearfix;
-    }
 
-    ul.EXLCitationLinkerTabs {
-        margin-left: 0;
+        ul.EXLCitationLinkerTabs {
+            margin-left: 0;
+        }
     }
 }
 
