@@ -3263,12 +3263,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .searchword {
   background-color: #ffe066; }
 
-.EXLMyAccountContainer .EXLMyAccountMainMenuTileMyQueries {
-  width: 14.5em; }
-
-.EXLMyAccountContainer .EXLMyAccountQueriesMainContainer {
-  margin-left: 16.5em; }
-
 .EXLParenthesis {
   direction: ltr;
   unicode-bidi: embed; }
