@@ -69,6 +69,7 @@ $search-tab-font-size: 14px;
             }
         }
 
+        &.EXLMyAccountSelectedTab,
         &.EXLSearchTabSelected {
             @include reset-margins;
             float: left;
