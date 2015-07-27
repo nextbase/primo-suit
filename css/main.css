@@ -14088,7 +14088,8 @@ table.main {
   margin-right: auto;
   padding: 10px 0;
   border-top: 1px solid #f2f2f0;
-  border-bottom: 1px solid #f2f2f0; }
+  border-bottom: 1px solid #f2f2f0;
+  text-align: center; }
   #google::after {
     clear: both;
     content: "";
