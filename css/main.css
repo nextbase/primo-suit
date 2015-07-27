@@ -12389,12 +12389,14 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
       clear: both;
       content: "";
       display: table; }
-    .EXLCitationLinkerTabsRibbon div ul.EXLCitationLinkerTabs {
-      margin-left: 0; }
+  .EXLCitationLinkerTabsRibbon ul.EXLCitationLinkerTabs {
+    margin-left: 0; }
 
+ul.EXLMyAccountTabs,
 ul.EXLCitationLinkerTabs {
   margin-left: 0;
   margin-bottom: 0; }
+  ul.EXLMyAccountTabs li,
   ul.EXLCitationLinkerTabs li {
     margin: 0;
     padding: 0;
@@ -12404,8 +12406,12 @@ ul.EXLCitationLinkerTabs {
     width: auto;
     min-width: 0;
     border: none; }
+    ul.EXLMyAccountTabs li:first-child,
     ul.EXLCitationLinkerTabs li:first-child {
       margin-left: 0; }
+    ul.EXLMyAccountTabs li.EXLMyAccountTab,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerTab,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountTab,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab {
       margin: 0;
       padding: 0;
@@ -12415,6 +12421,9 @@ ul.EXLCitationLinkerTabs {
       border: none;
       background-color: #ffffff;
       margin-right: 5px; }
+      ul.EXLMyAccountTabs li.EXLMyAccountTab a,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerTab a,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountTab a,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a {
         color: #333333;
         font-size: 16px;
@@ -12426,10 +12435,16 @@ ul.EXLCitationLinkerTabs {
         cursor: pointer;
         float: left;
         padding: 0 20px; }
+        ul.EXLMyAccountTabs li.EXLMyAccountTab a:hover,
+        ul.EXLMyAccountTabs li.EXLCitationLinkerTab a:hover,
+        ul.EXLCitationLinkerTabs li.EXLMyAccountTab a:hover,
         ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a:hover {
           text-decoration: none;
           background-color: #f2f2f0;
           color: #ffffff; }
+    ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab {
       margin: 0;
       padding: 0;
@@ -12437,6 +12452,15 @@ ul.EXLCitationLinkerTabs {
       border: none;
       margin-right: 5px;
       height: 40px; }
+      ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a,
+      ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:link,
+      ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:visited,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:link,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:visited,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:link,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:visited,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:link,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:visited {
@@ -12452,15 +12476,25 @@ ul.EXLCitationLinkerTabs {
         padding: 0 20px;
         height: auto;
         width: auto; }
+      ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:hover,
+      ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:active,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:hover,
+      ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:active,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:hover,
+      ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:active,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:hover,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:active {
         background-color: #a3a59b; }
+    ul.EXLMyAccountTabs li.EXLCitationLinkerTabHighlight,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerTabHighlight {
       background-color: #333333; }
+    ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a {
       color: #ffffff; }
+    ul.EXLMyAccountTabs li.EXLCitationLinkerFirstTab,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerFirstTab {
       padding-left: 0; }
+    ul.EXLMyAccountTabs li .EXLCitationLinkerFirstSelectedTab,
     ul.EXLCitationLinkerTabs li .EXLCitationLinkerFirstSelectedTab {
       padding-left: 0; }
 

@@ -10,13 +10,14 @@
     div {
         @include reset-margins;
         @include clearfix;
+    }
 
-        ul.EXLCitationLinkerTabs {
-            margin-left: 0;
-        }
+    ul.EXLCitationLinkerTabs {
+        margin-left: 0;
     }
 }
 
+ul.EXLMyAccountTabs,
 ul.EXLCitationLinkerTabs {
     margin-left: 0;
     margin-bottom: 0;
@@ -33,7 +34,8 @@ ul.EXLCitationLinkerTabs {
         &:first-child {
             margin-left: 0;
         }
-
+        
+        &.EXLMyAccountTab,
         &.EXLCitationLinkerTab {
             @include reset-margins;
             float: left;
@@ -65,6 +67,7 @@ ul.EXLCitationLinkerTabs {
 
         }
 
+        &.EXLMyAccountSelectedTab,
         &.EXLCitationLinkerSelectedTab {
             @include reset-margins;
             background: $gray;
