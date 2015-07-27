@@ -6281,7 +6281,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 
 #exlidResultsContainer {
   clear: both;
-  margin-top: 40px; }
+  margin-top: 20px; }
   #exlidResultsContainer::after {
     clear: both;
     content: "";
