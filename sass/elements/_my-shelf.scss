@@ -104,13 +104,15 @@ ul {
 .folders_new li.selected {
     padding-right: 5px;
     padding-left: 19px;
-    background: url(../images/folders_open.gif) no-repeat left 1px
+    background: url(../images/folders_open.gif) no-repeat left 1px;
+    list-style: none;
 }
 
 .folders_new li.unselected {
     padding-right: 5px;
     padding-left: 19px;
-    background: url(../images/folders_close.gif) no-repeat left 1px
+    background: url(../images/folders_close.gif) no-repeat left 1px;
+    list-style: none;
 }
 
 .folders_new li.selected a.selectedlink {
@@ -121,7 +123,7 @@ ul {
     padding-bottom: 1px;
     width: 165px;
     color: white;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 .folders_new .folders_nextbranch {
