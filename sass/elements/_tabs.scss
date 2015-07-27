@@ -43,7 +43,7 @@ ul.EXLCitationLinkerTabs {
         &.EXLCitationLinkerTab {
             @include reset-margins;
             float: left;
-            height: 40px;
+            height: 30px;
             width: auto;
             border: none;
             background-color: $white;
@@ -51,11 +51,11 @@ ul.EXLCitationLinkerTabs {
 
             a {
                 color: $black;
-                font-size: $base-font-size;
+                font-size: $small-font-size;
                 border: 1px solid $gold-gray-secondary;
                 border-bottom-color: transparent;
-                height: 40px;
-                line-height: 38px;
+                height: 30px;
+                line-height: 28px;
                 text-align: center;
                 cursor: pointer;
                 float: left;
@@ -77,13 +77,13 @@ ul.EXLCitationLinkerTabs {
             background: $gray;
             border: none;
             margin-right: 5px;
-            height: 40px;
+            height: 30px;
 
             a, 
             a:link, 
             a:visited {
                 color: $white;
-                font-size: $base-font-size;
+                font-size: $small-font-size;
                 border: 1px solid $gray;
                 border-bottom-color: transparent;
                 background: $gray;

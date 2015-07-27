@@ -12425,7 +12425,7 @@ ul.EXLCitationLinkerTabs {
       margin: 0;
       padding: 0;
       float: left;
-      height: 40px;
+      height: 30px;
       width: auto;
       border: none;
       background-color: #ffffff;
@@ -12435,11 +12435,11 @@ ul.EXLCitationLinkerTabs {
       ul.EXLCitationLinkerTabs li.EXLMyAccountTab a,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a {
         color: #333333;
-        font-size: 16px;
+        font-size: 14px;
         border: 1px solid #d8d0c4;
         border-bottom-color: transparent;
-        height: 40px;
-        line-height: 38px;
+        height: 30px;
+        line-height: 28px;
         text-align: center;
         cursor: pointer;
         float: left;
@@ -12460,7 +12460,7 @@ ul.EXLCitationLinkerTabs {
       background: #bcbdb6;
       border: none;
       margin-right: 5px;
-      height: 40px; }
+      height: 30px; }
       ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a,
       ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:link,
       ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:visited,
@@ -12474,7 +12474,7 @@ ul.EXLCitationLinkerTabs {
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:link,
       ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:visited {
         color: #ffffff;
-        font-size: 16px;
+        font-size: 14px;
         border: 1px solid #bcbdb6;
         border-bottom-color: transparent;
         background: #bcbdb6;
