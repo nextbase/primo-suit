@@ -12370,6 +12370,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
   padding-left: 0.5em; }
 
+.EXLMyAccountTabsRibbon,
 .EXLCitationLinkerTabsRibbon {
   margin: 0;
   padding: 0;
@@ -12378,17 +12379,23 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   background-color: #ffffff;
   margin-bottom: 20px;
   padding-left: 0; }
+  .EXLMyAccountTabsRibbon::after,
   .EXLCitationLinkerTabsRibbon::after {
     clear: both;
     content: "";
     display: table; }
+  .EXLMyAccountTabsRibbon div,
   .EXLCitationLinkerTabsRibbon div {
     margin: 0;
     padding: 0; }
+    .EXLMyAccountTabsRibbon div::after,
     .EXLCitationLinkerTabsRibbon div::after {
       clear: both;
       content: "";
       display: table; }
+  .EXLMyAccountTabsRibbon ul.EXLMyAccountTabs,
+  .EXLMyAccountTabsRibbon ul.EXLCitationLinkerTabs,
+  .EXLCitationLinkerTabsRibbon ul.EXLMyAccountTabs,
   .EXLCitationLinkerTabsRibbon ul.EXLCitationLinkerTabs {
     margin-left: 0; }
 
