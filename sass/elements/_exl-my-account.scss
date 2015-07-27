@@ -6,6 +6,7 @@
     min-height: 300px;
     background-color: $gray-light;
     border-top: 1px solid $white;
+    @include clearfix;
 }
 
 .EXLMyAccountContainer .EXLMyAccountMainMenuTileMyQueries {
