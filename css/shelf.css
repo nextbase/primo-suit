@@ -1061,7 +1061,7 @@ html > body .notebubble .editholder {
   padding-top: 0px; }
 
 .folder_details select {
-  font: 0.9em arial;
+  font: "Noto Sans Korean", sans-serif !important;
   vertical-align: middle; }
 
 .folder_details .ultd {
@@ -1079,7 +1079,7 @@ html > body .notebubble .editholder {
   width: auto; }
 
 .folder_details .selectwidth select {
-  border: 1px solid #8fb9d0; }
+  border: none !important; }
 
 .folder_details .selectwidth img {
   vertical-align: middle; }

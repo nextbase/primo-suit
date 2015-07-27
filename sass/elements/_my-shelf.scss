@@ -797,7 +797,7 @@ html > body .notebubble .editholder {
 }
 
 .folder_details select {
-    font: 0.9em arial;
+    font: $base-font-family !important;
     vertical-align: middle
 }
 
@@ -821,7 +821,7 @@ html > body .notebubble .editholder {
 }
 
 .folder_details .selectwidth select {
-    border: 1px solid #8fb9d0
+    border: none !important;
 }
 
 .folder_details .selectwidth img {
