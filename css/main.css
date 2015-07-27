@@ -9928,7 +9928,6 @@ body.EXLFullView div.EXLBackToResults {
   height: auto;
   position: absolute; }
 
-#EXLMyAccountTabs,
 #exlidSearchTabs {
   margin: 0;
   padding: 0;
@@ -9939,7 +9938,6 @@ body.EXLFullView div.EXLBackToResults {
   list-style-type: none;
   line-height: 14px;
   color: #ffffff; }
-  #EXLMyAccountTabs li,
   #exlidSearchTabs li {
     margin: 0;
     padding: 0;
@@ -9949,7 +9947,6 @@ body.EXLFullView div.EXLBackToResults {
     border: 0;
     height: auto;
     list-style: none; }
-    #EXLMyAccountTabs li a,
     #exlidSearchTabs li a {
       font-size: 14px;
       display: block;
@@ -9960,10 +9957,8 @@ body.EXLFullView div.EXLBackToResults {
       cursor: pointer;
       background: #ffffff;
       border: 1px solid #666666; }
-    #EXLMyAccountTabs li:first-child,
     #exlidSearchTabs li:first-child {
       margin-left: 0; }
-      #EXLMyAccountTabs li:first-child a,
       #exlidSearchTabs li:first-child a {
         -webkit-border-top-left-radius: 4px;
         -webkit-border-bottom-left-radius: 4px;
@@ -9971,7 +9966,6 @@ body.EXLFullView div.EXLBackToResults {
         -moz-border-radius-bottomleft: 4px;
         border-top-left-radius: 4px;
         border-bottom-left-radius: 4px; }
-    #EXLMyAccountTabs li:last-child a,
     #exlidSearchTabs li:last-child a {
       -webkit-border-top-right-radius: 4px;
       -webkit-border-bottom-right-radius: 4px;
@@ -9979,9 +9973,6 @@ body.EXLFullView div.EXLBackToResults {
       -moz-border-radius-bottomright: 4px;
       border-top-right-radius: 4px;
       border-bottom-right-radius: 4px; }
-    #EXLMyAccountTabs li.EXLMyAccountSelectedTab,
-    #EXLMyAccountTabs li.EXLSearchTabSelected,
-    #exlidSearchTabs li.EXLMyAccountSelectedTab,
     #exlidSearchTabs li.EXLSearchTabSelected {
       margin: 0;
       padding: 0;
@@ -9993,9 +9984,6 @@ body.EXLFullView div.EXLBackToResults {
       background-color: transparent;
       text-align: left;
       border: 0; }
-      #EXLMyAccountTabs li.EXLMyAccountSelectedTab a,
-      #EXLMyAccountTabs li.EXLSearchTabSelected a,
-      #exlidSearchTabs li.EXLMyAccountSelectedTab a,
       #exlidSearchTabs li.EXLSearchTabSelected a {
         color: #ffffff;
         background-color: #666666;
