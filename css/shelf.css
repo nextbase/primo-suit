@@ -33,6 +33,7 @@ ul {
   width: 15%;
   border: 1px solid #d7dde3; }
 
+#foldersOverflow,
 .foldersoverflow {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -47,6 +48,7 @@ ul {
   scrollbar-track-color: #e5e5e5;
   scrollbar-darkshadow-color: #1770b2;
   min-height: 180px; }
+  #foldersOverflow ul,
   .foldersoverflow ul {
     padding: 0 !important;
     margin: 0 !important; }
