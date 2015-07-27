@@ -8,6 +8,8 @@
     text-align: center;
     display: block;
     float: none;
+    clear: both;
+    @include clearfix;
 }
 
 #exlidHeaderSystemFeedback strong {

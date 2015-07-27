@@ -7992,7 +7992,12 @@ li.EXLFacet label {
   background-color: rgba(216, 208, 196, 0.5);
   text-align: center;
   display: block;
-  float: none; }
+  float: none;
+  clear: both; }
+  #exlidHeaderSystemFeedback::after {
+    clear: both;
+    content: "";
+    display: table; }
   #exlidHeaderSystemFeedback::after {
     clear: both;
     content: "";
