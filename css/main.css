@@ -9921,80 +9921,82 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   width: 30%; }
 
+.EXLMyAccountTabsRibbon
 #exlidSearchRibbon div.EXLSearchTabsContainer {
   margin: 0;
   padding: 0;
   height: auto;
   position: absolute; }
 
+#EXLMyAccountTabs,
 #exlidSearchTabs {
   margin: 0;
   padding: 0;
   height: auto;
   z-index: 100;
   position: relative;
-  float: left; }
-
-#exlidSearchTabs {
+  float: left;
   list-style-type: none;
   line-height: 14px;
   color: #ffffff; }
-
-#exlidSearchTabs li {
-  margin: 0;
-  padding: 0;
-  float: left;
-  margin-left: -2px;
-  padding: 0;
-  border: 0; }
-  #exlidSearchTabs li a {
-    font-size: 14px;
-    display: block;
+  #EXLMyAccountTabs li,
+  #exlidSearchTabs li {
+    margin: 0;
+    padding: 0;
     float: left;
-    text-align: center;
-    color: #666666;
-    padding: 9.5px 15px 11.5px 15px;
-    cursor: pointer;
-    background: #ffffff;
-    border: 1px solid #666666; }
-  #exlidSearchTabs li:first-child {
-    margin-left: 0; }
-    #exlidSearchTabs li:first-child a {
-      -webkit-border-top-left-radius: 4px;
-      -webkit-border-bottom-left-radius: 4px;
-      -moz-border-radius-topleft: 4px;
-      -moz-border-radius-bottomleft: 4px;
-      border-top-left-radius: 4px;
-      border-bottom-left-radius: 4px; }
-  #exlidSearchTabs li:last-child a {
-    -webkit-border-top-right-radius: 4px;
-    -webkit-border-bottom-right-radius: 4px;
-    -moz-border-radius-topright: 4px;
-    -moz-border-radius-bottomright: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px; }
-
-#exlidSearchTabs li {
-  list-style: none;
-  border: none;
-  height: auto; }
-
-#exlidSearchTabs li.EXLSearchTabSelected {
-  margin: 0;
-  padding: 0;
-  float: left;
-  margin-left: -2px;
-  padding: 0;
-  height: auto;
-  background-image: none;
-  background-color: transparent;
-  text-align: left;
-  border: 0; }
-  #exlidSearchTabs li.EXLSearchTabSelected a {
-    color: #ffffff;
-    background-color: #666666;
-    border: 1px solid #666666;
-    font-weight: bold; }
+    margin-left: -2px;
+    padding: 0;
+    border: 0;
+    height: auto;
+    list-style: none; }
+    #EXLMyAccountTabs li a,
+    #exlidSearchTabs li a {
+      font-size: 14px;
+      display: block;
+      float: left;
+      text-align: center;
+      color: #666666;
+      padding: 9.5px 15px 11.5px 15px;
+      cursor: pointer;
+      background: #ffffff;
+      border: 1px solid #666666; }
+    #EXLMyAccountTabs li:first-child,
+    #exlidSearchTabs li:first-child {
+      margin-left: 0; }
+      #EXLMyAccountTabs li:first-child a,
+      #exlidSearchTabs li:first-child a {
+        -webkit-border-top-left-radius: 4px;
+        -webkit-border-bottom-left-radius: 4px;
+        -moz-border-radius-topleft: 4px;
+        -moz-border-radius-bottomleft: 4px;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; }
+    #EXLMyAccountTabs li:last-child a,
+    #exlidSearchTabs li:last-child a {
+      -webkit-border-top-right-radius: 4px;
+      -webkit-border-bottom-right-radius: 4px;
+      -moz-border-radius-topright: 4px;
+      -moz-border-radius-bottomright: 4px;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px; }
+    #EXLMyAccountTabs li.EXLSearchTabSelected,
+    #exlidSearchTabs li.EXLSearchTabSelected {
+      margin: 0;
+      padding: 0;
+      float: left;
+      margin-left: -2px;
+      padding: 0;
+      height: auto;
+      background-image: none;
+      background-color: transparent;
+      text-align: left;
+      border: 0; }
+      #EXLMyAccountTabs li.EXLSearchTabSelected a,
+      #exlidSearchTabs li.EXLSearchTabSelected a {
+        color: #ffffff;
+        background-color: #666666;
+        border: 1px solid #666666;
+        font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
