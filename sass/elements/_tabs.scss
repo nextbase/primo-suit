@@ -25,6 +25,10 @@ ul.EXLCitationLinkerTabs {
         min-width: 0;
         border: none;
 
+        &:first-child {
+            margin-left: 0;
+        }
+
         &.EXLCitationLinkerTab {
             @include reset-margins;
             float: left;
@@ -37,7 +41,7 @@ ul.EXLCitationLinkerTabs {
             a {
                 color: $black;
                 font-size: $base-font-size;
-                border: 1px solid $yellow;
+                border: 1px solid $gold-gray-secondary;
                 border-bottom-color: transparent;
                 height: 40px;
                 line-height: 38px;
@@ -91,7 +95,7 @@ ul.EXLCitationLinkerTabs {
         }
 
         &.EXLCitationLinkerSelectedTab a {
-            color: $yellow;
+            color: $white;
         }
             
         &.EXLCitationLinkerFirstTab {
