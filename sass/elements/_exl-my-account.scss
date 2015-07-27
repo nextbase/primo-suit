@@ -635,21 +635,17 @@ a.EXLLoansRenewButton {
     display: inline-block;
     width: 10em;
     height: 22px;
+
+    input {
+        max-width: 100%;
+    }
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    background-color: $gold;
-    background-image: url(../images/bg_strip_submit_temp.png);
-    background-repeat: repeat-x;
-    margin-left: 0em;
-    width: 10em;
-    color: $white;
-    font-weight: normal;
-    height: 22px;
-    cursor: pointer;
-    border: 1px solid $white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    @include button();
+    @include set-button-color($gold);
+    @include set-button-size;
+    max-width: 100%;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm tr.PSPasswordsHiddableRow {

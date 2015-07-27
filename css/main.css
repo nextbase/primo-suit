@@ -12528,20 +12528,46 @@ a.EXLLoansRenewButton {
   display: inline-block;
   width: 10em;
   height: 22px; }
+  .EXLMyAccountMainContainer form span.submit input {
+    max-width: 100%; }
 
 .EXLMyAccountMainContainer form input.submit {
-  background-color: #987c4d;
-  background-image: url(../images/bg_strip_submit_temp.png);
-  background-repeat: repeat-x;
-  margin-left: 0em;
-  width: 10em;
-  color: #ffffff;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
   font-weight: normal;
-  height: 22px;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  border: 1px solid #ffffff;
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px;
+  max-width: 100%; }
+  .EXLMyAccountMainContainer form input.submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .EXLMyAccountMainContainer form input.submit:hover,
+  .EXLMyAccountMainContainer form input.submit:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  .EXLMyAccountMainContainer form input.submit:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm tr.PSPasswordsHiddableRow {
   display: none; }
