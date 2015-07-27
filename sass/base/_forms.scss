@@ -150,7 +150,7 @@ div.form-element {
 }
 
 @mixin input-select() {
-  padding-right: 25px;
+  padding-right: 20px;
   @include retina-image("../images/form_select_arrow_down", 40px 40px);
   background-repeat: no-repeat;
   background-position: right center;
