@@ -6240,7 +6240,7 @@ select {
     width: 100%; }
 
 select {
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center; }
@@ -6531,7 +6531,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center;
@@ -8107,7 +8107,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center; }
@@ -8215,7 +8215,7 @@ li.EXLFacet label {
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
   width: 160px;
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center; }
@@ -8742,7 +8742,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center; }
@@ -8792,7 +8792,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
-  padding-right: 30px;
+  padding-right: 25px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center; }
