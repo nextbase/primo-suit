@@ -13090,12 +13090,12 @@ ul {
 .folders_new li a.selectedfolder {
   padding-right: 3px;
   padding-left: 4px;
-  background-color: #fffba4;
+  background-color: #ffe066;
   padding-bottom: 1px;
   width: 120px;
-  color: #000000;
+  color: #333333;
   padding-top: 0px;
-  border: 0px solid #e1e1e1; }
+  border: 0px solid #ffdb4d; }
 
 .folders_new li ul li img.plus_minusicon {
   cursor: pointer; }
