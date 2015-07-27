@@ -5,10 +5,15 @@
     border-bottom: 5px solid $gray;
     background-color: $white;
     margin-bottom: 20px;
+    padding-left: 0;
 
     div {
         @include reset-margins;
         @include clearfix;
+    }
+
+    ul.EXLCitationLinkerTabs {
+        margin-left: 0;
     }
 }
 

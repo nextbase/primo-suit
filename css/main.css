@@ -12376,7 +12376,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   height: auto;
   border-bottom: 5px solid #bcbdb6;
   background-color: #ffffff;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-left: 0; }
   .EXLCitationLinkerTabsRibbon::after {
     clear: both;
     content: "";
@@ -12388,6 +12389,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
       clear: both;
       content: "";
       display: table; }
+  .EXLCitationLinkerTabsRibbon ul.EXLCitationLinkerTabs {
+    margin-left: 0; }
 
 ul.EXLCitationLinkerTabs {
   margin-left: 0;
