@@ -7,14 +7,10 @@
 @import "neat/neat";
 @import 'variables/grid-settings';
 
-// Functions
+// Functions 
 @import 'functions/prefixer';
 @import 'functions/resets';
 @import 'functions/font-feature-settings';
-
-// Base Styles
-@import 'base/typography';
-@import 'base/fonts';
 
 // Website Elements
 @import 'elements/my-shelf';
