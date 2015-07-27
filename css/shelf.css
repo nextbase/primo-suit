@@ -53,6 +53,7 @@ ul {
     padding: 0 !important;
     margin: 0 !important; }
 
+#foldersOverflow li,
 .foldersoverflow li {
   background-color: #ffffff;
   list-style: none !important; }
