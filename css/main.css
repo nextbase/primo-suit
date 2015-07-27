@@ -8985,105 +8985,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     border-color: #9fa096;
     box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
-.EXLCitationLinkerTabsRibbon {
-  margin: 0;
-  padding: 0;
-  height: auto;
-  border-bottom: 5px solid #bcbdb6;
-  background-color: #ffffff;
-  margin-bottom: 20px; }
-  .EXLCitationLinkerTabsRibbon::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.EXLCitationLinkerTabsRibbon div {
-  margin: 0;
-  padding: 0; }
-  .EXLCitationLinkerTabsRibbon div::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.EXLCitationLinkerTabsRibbon div ul {
-  margin-left: 0;
-  margin-bottom: 0; }
-
-.EXLCitationLinkerTabsRibbon div li {
-  margin: 0;
-  padding: 0;
-  display: block;
-  float: left;
-  height: auto;
-  width: auto;
-  min-width: 0;
-  border: none; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab {
-  margin: 0;
-  padding: 0;
-  float: left;
-  height: 40px;
-  width: auto;
-  border: none;
-  background-color: #ffffff;
-  margin-right: 5px; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTab a {
-  color: #333333;
-  font-size: 16px;
-  border: 1px solid #d8d0c4;
-  border-bottom-color: transparent;
-  height: 40px;
-  line-height: 38px;
-  text-align: center;
-  cursor: pointer;
-  float: left;
-  padding: 0 20px; }
-
-.EXLCitationLinkerTabsRibbon div a:hover {
-  text-decoration: none;
-  background-color: #f2f2f0;
-  color: #ffffff; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab {
-  margin: 0;
-  padding: 0;
-  background: #bcbdb6;
-  border: none;
-  margin-right: 5px;
-  height: 40px; }
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a,
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:link,
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:visited {
-    color: #ffffff;
-    font-size: 16px;
-    border: 1px solid #bcbdb6;
-    border-bottom-color: transparent;
-    background: #bcbdb6;
-    line-height: 38px;
-    text-align: center;
-    cursor: pointer;
-    float: left;
-    padding: 0 20px;
-    height: auto;
-    width: auto; }
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:hover,
-  .EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a:active {
-    background-color: #a3a59b; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerTabHighlight {
-  background-color: #333333; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerSelectedTab a {
-  color: #ffffff; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstTab {
-  padding-left: 0; }
-
-.EXLCitationLinkerTabsRibbon div li.EXLCitationLinkerFirstSelectedTab {
-  padding-left: 0; }
-
 #exlidCitationLinkerTile div.EXLCitationLinkerListHeader {
   background-color: #ffffff;
   height: 26px;
@@ -12468,6 +12369,95 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 
 .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
   padding-left: 0.5em; }
+
+.EXLCitationLinkerTabsRibbon {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  border-bottom: 5px solid #bcbdb6;
+  background-color: #ffffff;
+  margin-bottom: 20px; }
+  .EXLCitationLinkerTabsRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .EXLCitationLinkerTabsRibbon div {
+    margin: 0;
+    padding: 0; }
+    .EXLCitationLinkerTabsRibbon div::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+ul.EXLCitationLinkerTabs {
+  margin-left: 0;
+  margin-bottom: 0; }
+  ul.EXLCitationLinkerTabs li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+    height: auto;
+    width: auto;
+    min-width: 0;
+    border: none; }
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab {
+      margin: 0;
+      padding: 0;
+      float: left;
+      height: 40px;
+      width: auto;
+      border: none;
+      background-color: #ffffff;
+      margin-right: 5px; }
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a {
+        color: #333333;
+        font-size: 16px;
+        border: 1px solid #d8d0c4;
+        border-bottom-color: transparent;
+        height: 40px;
+        line-height: 38px;
+        text-align: center;
+        cursor: pointer;
+        float: left;
+        padding: 0 20px; }
+        ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a:hover {
+          text-decoration: none;
+          background-color: #f2f2f0;
+          color: #ffffff; }
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab {
+      margin: 0;
+      padding: 0;
+      background: #bcbdb6;
+      border: none;
+      margin-right: 5px;
+      height: 40px; }
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a,
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:link,
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:visited {
+        color: #ffffff;
+        font-size: 16px;
+        border: 1px solid #bcbdb6;
+        border-bottom-color: transparent;
+        background: #bcbdb6;
+        line-height: 38px;
+        text-align: center;
+        cursor: pointer;
+        float: left;
+        padding: 0 20px;
+        height: auto;
+        width: auto; }
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:hover,
+      ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:active {
+        background-color: #a3a59b; }
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerTabHighlight {
+      background-color: #333333; }
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a {
+      color: #ffffff; }
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerFirstTab {
+      padding-left: 0; }
+    ul.EXLCitationLinkerTabs li .EXLCitationLinkerFirstSelectedTab {
+      padding-left: 0; }
 
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
