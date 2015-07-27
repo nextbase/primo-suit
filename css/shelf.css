@@ -31,7 +31,7 @@ ul {
   padding-right: 0px;
   background: none #ffffff no-repeat left bottom;
   width: 15%;
-  border: 1px solid #d7dde3; }
+  border: 1px solid #b6a082; }
 
 #foldersOverflow,
 .foldersoverflow {
@@ -97,13 +97,13 @@ ul {
   padding-right: 5px;
   padding-left: 19px;
   background: url(../images/folders_open.gif) no-repeat left 1px;
-  list-style: none; }
+  list-style: none !important; }
 
 .folders_new li.unselected {
   padding-right: 5px;
   padding-left: 19px;
   background: url(../images/folders_close.gif) no-repeat left 1px;
-  list-style: none; }
+  list-style: none !important; }
 
 .folders_new li.selected a.selectedlink {
   padding-right: 0px;
