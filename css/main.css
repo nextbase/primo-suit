@@ -12983,7 +12983,8 @@ ul {
   height: 180px; }
 
 .foldersoverflow li {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  list-style: none; }
 
 .folders_new ul {
   padding-right: 0px;
