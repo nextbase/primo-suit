@@ -2,13 +2,14 @@
     float: right;
     width: 35%;
     border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0em 1em 1em;
-    background-image: url(../images/bg_strip_details_links.png);
+    margin: 0;
+    background-image: none;
     background-repeat: repeat-x;
     background-position: bottom;
     height: auto;
     padding: 10px;
     @include prefixer(border-radius, 3px, webkit moz spec);
+    @include clearfix;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips em {
