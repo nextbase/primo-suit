@@ -12515,16 +12515,16 @@ a.EXLLoansRenewButton {
   text-align: left; }
 
 .EXLMyAccountMainContainer form select {
-  border: 1px solid #5dbbd6;
+  border: inherit;
   height: auto; }
 
 .EXLMyAccountMainContainer form input {
-  border: 1px solid #5dbbd6;
+  border: inherit;
   height: 18px;
   width: 15em; }
 
 .EXLMyAccountMainContainer form span.submit {
-  border: 1px solid #5dbbd6;
+  border: inherit;
   display: inline-block;
   width: 10em;
   height: 22px; }

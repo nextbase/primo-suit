@@ -620,18 +620,18 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form select {
-    border: 1px solid lighten($blue, 10%);
+    border: inherit;
     height: auto;
 }
 
 .EXLMyAccountMainContainer form input {
-    border: 1px solid lighten($blue, 10%);
+    border: inherit;
     height: 18px;
     width: 15em;
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    border: 1px solid lighten($blue, 10%);
+    border: inherit;
     display: inline-block;
     width: 10em;
     height: 22px;
