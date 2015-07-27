@@ -7,6 +7,8 @@
     background-color: $white;
     margin-bottom: 20px;
     padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
 
     div {
         @include reset-margins;

@@ -12378,7 +12378,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   border-bottom: 5px solid #bcbdb6;
   background-color: #ffffff;
   margin-bottom: 20px;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-left: auto;
+  margin-right: auto; }
   .EXLMyAccountTabsRibbon::after,
   .EXLCitationLinkerTabsRibbon::after {
     clear: both;
