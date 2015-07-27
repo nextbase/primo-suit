@@ -12507,6 +12507,10 @@ ul.EXLCitationLinkerTabs {
     ul.EXLCitationLinkerTabs li .EXLCitationLinkerFirstSelectedTab {
       padding-left: 0; }
 
+.EXLMyAccountTabsRibbon {
+  margin-bottom: 0;
+  margin-top: 20px; }
+
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
 
