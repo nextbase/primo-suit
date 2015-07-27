@@ -45,7 +45,12 @@ ul {
     padding-top: 0;
     scrollbar-track-color: #e5e5e5;
     scrollbar-darkshadow-color: #1770b2;
-    min-height: 180px
+    min-height: 180px;
+
+    ul {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }
 
 .foldersoverflow li {
