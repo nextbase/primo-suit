@@ -1545,3 +1545,153 @@ table.main {
 
 .helperdiv span {
   font-weight: bold; }
+
+.EXLMyShelfTableHeaderButtonSendTo img {
+  padding-left: 0.5em; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList {
+  width: 95px;
+  background-color: #FFFF00;
+  border: 1px solid #d8d0c4;
+  position: relative;
+  left: 0px;
+  top: 2px;
+  z-index: 100;
+  clear: both;
+  display: none; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li {
+  float: left;
+  background-image: none;
+  display: block;
+  clear: both;
+  border: none;
+  z-index: 100;
+  width: 100%;
+  white-space: nowrap;
+  background-color: #ffffff; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span {
+  float: left;
+  background-image: none;
+  padding-left: 0em;
+  text-indent: 0.2em; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToLabel {
+  float: left;
+  padding-right: 0.5em; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li a:link {
+  color: #404040;
+  cursor: pointer; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li a:hover {
+  text-decoration: underline; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIcon {
+  background-image: url(../images/icon_sendTo_myShelf.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  display: inline;
+  float: right; }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconMyShelf {
+  background-image: url(../images/icon_sendTo_myShelf.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconMail {
+  background-image: url(../images/icon_sendTo_mail.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconPrint {
+  background-image: url(../images/icon_sendTo_print.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconDelicious {
+  background-image: url(../images/icon_sendTo_delicious.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconConnotea {
+  background-image: url(../images/icon_sendTo_connotea.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconRefworks {
+  background-image: url(../images/icon_sendTo_refworks.png); }
+
+.EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToIconEndnote {
+  background-image: url(../images/icon_sendTo_endnote.png); }
+
+.EXLMyAccountMainContainer table tr.EXLMyShelfTableRowBgColor {
+  background-color: #f2f2f0; }
+
+.EXLMyAccountMainContainer table th.EXLMyShelfTableType {
+  padding-right: 1.5em; }
+
+.EXLMyAccountMainContainer table th.EXLMyShelfTableAdded {
+  padding-right: 1.5em; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellNote a {
+  cursor: pointer; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellNote a span.EXLMyShelfCellNoteLabel {
+  float: left;
+  clear: right;
+  display: none; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellNote a span.EXLMyShelfCellNoteIcon {
+  margin-left: 0.5em;
+  background-image: url(../images/icon_item_note2.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  clear: left;
+  float: left; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellNote a span.EXLMyShelfCellNoteIconEdit {
+  margin-left: 0.5em;
+  background-image: url(../images/icon_item_note_edit2.png);
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  clear: left;
+  float: left; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellCheckbox {
+  width: 2%; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellCheckbox input {
+  width: auto;
+  border: none;
+  margin-right: 0.5em; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer table td.EXLMyShelfCellCheckbox label {
+  display: none; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer div.EXLMyShelfFolderNote {
+  width: 96%;
+  margin: 1em auto 1em auto; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer div.EXLMyShelfFolderNote label {
+  display: block;
+  font-size: 80%;
+  color: #4d4d4d; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer div.EXLMyShelfFolderNote input {
+  width: auto;
+  display: block;
+  cursor: pointer;
+  background-color: #987c4d;
+  background-image: url(../images/bg_strip_submit_temp.png);
+  background-repeat: repeat-x;
+  margin-left: 0em;
+  width: 65px;
+  color: #ffffff;
+  border: 1px solid #987c4d;
+  height: 22px;
+  margin-top: 0.3em;
+  display: none; }
+
+.EXLMyShelfContainer div.EXLMyAccountMainContainer div.EXLMyShelfFolderNote textarea {
+  border: 1px solid #dfdfdc;
+  background-color: #ffe680;
+  width: 100%;
+  font-family: Arial;
+  font-size: 80%;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  color: #4d4d4d; }
