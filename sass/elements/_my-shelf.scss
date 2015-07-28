@@ -4,7 +4,7 @@ table {
 }
 
 form {
-    margin: 0px
+    margin: 0px;
 }
 
 td {
@@ -12,17 +12,17 @@ td {
 }
 
 img {
-    border: none
+    border: none;
 }
 
 ul {
-    list-style-type: none
+    list-style-type: none;
 }
 
 .offstage {
     left: -100em;
     width: 100em;
-    position: absolute
+    position: absolute;
 }
 
 .folders_new {
@@ -36,16 +36,16 @@ ul {
 .foldersoverflow {
     padding-right: 0 !important;
     padding-left: 0 !important;
-    scrollbar-face-color: #e5e5e5;
+    scrollbar-face-color: $gray-light-secondary;
     padding-bottom: 0px;
     scrollbar-highlight-color: $white;
     overflow: auto;
     scrollbar-shadow-color: $white;
-    scrollbar-3dlight-color: #1770b2;
-    scrollbar-arrow-color: #1670af;
+    scrollbar-3dlight-color: $blue;
+    scrollbar-arrow-color: darken($blue, 5%);
     padding-top: 0;
-    scrollbar-track-color: #e5e5e5;
-    scrollbar-darkshadow-color: #1770b2;
+    scrollbar-track-color: $gray-light-secondary;
+    scrollbar-darkshadow-color: $blue;
     min-height: 180px;
 
     ul {
@@ -71,8 +71,8 @@ ul {
 }
 
 .folders_new ul a {
-    color: #057bb6;
-    text-decoration: none
+    color: lighten($blue, 5%);
+    text-decoration: none;
 }
 
 .folders_new li {
@@ -94,12 +94,12 @@ ul {
 
 .folders_new li a {
     vertical-align: middle;
-    color: #057bb6;
-    text-decoration: none
+    color: lighten($blue, 5%);
+    text-decoration: none;
 }
 
 .folders_new li a:hover {
-    color: #f58b21
+    color: #f58b21;
 }
 
 .folders_new li.selected {
@@ -120,7 +120,7 @@ ul {
     padding-right: 0px;
     display: inline-block;
     padding-left: 4px;
-    background: url(../images/folders_right.gif) #057bb6 no-repeat right center;
+    background: url(../images/folders_right.gif) lighten($blue, 5%) no-repeat right center;
     padding-bottom: 1px;
     width: 165px;
     color: white;
@@ -128,12 +128,12 @@ ul {
 }
 
 .folders_new .folders_nextbranch {
-    padding-right: 0px ! important;
-    padding-left: 0px ! important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
     background: none transparent scroll repeat 0% 0%;
-    padding-bottom: 0px ! important;
+    padding-bottom: 0px !important;
     margin: 0px;
-    padding-top: 0px ! important;
+    padding-top: 0px !important;
     list-style-type: none !important;
 }
 
@@ -142,7 +142,7 @@ ul {
     padding-left: 0px;
     padding-bottom: 0px;
     margin: 4px 0px 0px 4px;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 .folders_new li ul li {
@@ -155,20 +155,20 @@ ul {
 
 .folders_new li ul li img {
     margin: 0px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .folders_new li ul li img.noteimg {
     margin-left: 0px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .folders_new li ul li img.foldericon {
-    margin-right: -4px
+    margin-right: -4px;
 }
 
 .folders_new li ul li img.folderselected {
-    margin-right: -4px
+    margin-right: -4px;
 }
 
 .folders_new li a.selectedfolder {
@@ -183,42 +183,42 @@ ul {
 }
 
 .folders_new li ul li img.plus_minusicon {
-    cursor: pointer
+    cursor: pointer;
 }
 
 html > body .folders_new li ul li img.foldericon {
-    margin-right: -4px
+    margin-right: -4px;
 }
 
 .folders_new li ul li input {
     margin: 0px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .folders_new li ul .nonextbranch {
     padding-left: 14px;
-    background: none transparent scroll repeat 0% 0%
+    background: none transparent scroll repeat 0% 0%;
 }
 
 .folders_new li ul .nonextbranch input {
-    border: 1px solid #7f9db9;
+    border: 1px solid $gold;
 }
 
 .folders_new li ul .nonextbranch_2nd {
     padding-left: 30px;
-    background: none transparent scroll repeat 0% 0%
+    background: none transparent scroll repeat 0% 0%;
 }
 
 .folders_new input.newfolders_input {
     font-size: 0.9em;
     width: 100px;
-    border: 1px solid #7f9db9;
+    border: 1px solid $gold;
 }
 
 .folders_new input {
     font-size: 0.9em;
     width: 100px;
-    border: 1px solid #7f9db9;
+    border: 1px solid $gold;
 }
 
 .folders_new input.newfolders_submit {
@@ -226,7 +226,7 @@ html > body .folders_new li ul li img.foldericon {
     width: 51px;
     color: $white;
     height: 18px;
-    border: 1px solid #f4762d;
+    border: 1px solid $orange;
     cursor: pointer;
     font-size: 0.9em;
 }
@@ -236,7 +236,7 @@ html > body .folders_new li ul li img.foldericon {
     width: 51px;
     color: $white;
     height: 18px;
-    border: 1px solid #f4762d;
+    border: 1px solid $orange;
     cursor: pointer;
     font-size: 0.9em;
     padding-bottom: 2px;
@@ -248,16 +248,16 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 100%;
     padding-top: 0px;
-    display: block
+    display: block;
 }
 
 .folders_new .folderactions ul {
     border-bottom: 1px solid #d7dde3;
     padding-left: 15px;
-    background-color: #f6f6f6;
+    background-color: $gray-light;
     height: 23px;
     padding-top: 4px;
-    clear: right
+    clear: right;
 }
 
 .folders_new .folderactions li {
@@ -279,7 +279,7 @@ html > body .folders_new li ul li img.foldericon {
     background: url(../images/folders_new_but.gif) repeat-y left top;
     padding-bottom: 0px;
     width: 21px;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
     text-decoration: none;
@@ -293,10 +293,10 @@ html > body .folders_new li ul li img.foldericon {
     background: url(../images/folders_rename_but.gif) repeat-y left top;
     padding-bottom: 0px;
     width: 21px;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.movefolder_but {
@@ -307,10 +307,10 @@ html > body .folders_new li ul li img.foldericon {
     background: url(../images/folders_move_but.gif) repeat-y left top;
     padding-bottom: 0px;
     width: 21px;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.copyfolder_but {
@@ -321,10 +321,10 @@ html > body .folders_new li ul li img.foldericon {
     background: url(../images/folders_copy_but.gif) repeat-y left top;
     padding-bottom: 0px;
     width: 21px;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.deletefolder_but {
@@ -335,15 +335,15 @@ html > body .folders_new li ul li img.foldericon {
     background: url(../images/folders_delete_but.gif) repeat-y left top;
     padding-bottom: 0px;
     width: 21px;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a:hover {
     background-position: left 19px;
-    color: #f7f7f7
+    color: $gray-light;
 }
 
 .folders_new .folderactions li a.newfolder_butdisabled {
@@ -355,10 +355,10 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 21px;
     cursor: default;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.renamefolder_butdisabled {
@@ -370,10 +370,10 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 21px;
     cursor: default;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.movefolder_butdisabled {
@@ -385,10 +385,10 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 21px;
     cursor: default;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.copyfolder_butdisabled {
@@ -400,10 +400,10 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 21px;
     cursor: default;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folders_new .folderactions li a.deletefolder_butdisabled {
@@ -415,22 +415,24 @@ html > body .folders_new li ul li img.foldericon {
     padding-bottom: 0px;
     width: 21px;
     cursor: default;
-    color: #f7f7f7;
+    color: $gray-light;
     padding-top: 2px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
+
+/* Note Bubble */
 
 .notebubble {
     left: 0px;
     visibility: hidden;
     width: 320px;
     position: absolute;
-    top: 0px
+    top: 0px;
 }
 
 html > body .notebubble a.cancelnote {
-    margin: 5px 40px 0px 0px
+    margin: 5px 40px 0px 0px;
 }
 
 .notebubble a.cancelnote {
@@ -442,11 +444,11 @@ html > body .notebubble a.cancelnote {
     width: 12px;
     color: #e2e2de;
     height: 12px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .notebubble a.cancelnote:hover {
-    background-position: left 12px
+    background-position: left 12px;
 }
 
 .notebubble h3 {
@@ -469,27 +471,27 @@ html > body .notebubble a.cancelnote {
     padding-bottom: 0px;
     width: 320px;
     padding-top: 6px;
-    white-space: normal ! important
+    white-space: normal !important;
 }
 
 .notebubble_content_overflow {
-    scrollbar-face-color: #f6f6f6;
+    scrollbar-face-color: $gray-light;
     scrollbar-highlight-color: $white;
     overflow: auto;
     width: 285px;
     scrollbar-shadow-color: $white;
-    scrollbar-3dlight-color: #1770b2;
-    scrollbar-arrow-color: #1670af;
-    scrollbar-track-color: #f6f6f6;
-    scrollbar-darkshadow-color: #1770b2;
-    height: 109px
+    scrollbar-3dlight-color: $blue;
+    scrollbar-arrow-color: darken($blue, 5%);
+    scrollbar-track-color: $gray-light;
+    scrollbar-darkshadow-color: $blue;
+    height: 109px;
 }
 
 .notebubble .notebubble_content textarea {
     width: 274px;
     font-family: arial;
     font-size: 90%;
-    border: 1px solid #e5e5e5;
+    border: 1px solid $gray-light-secondary;
 }
 
 .notebubble_content_overflow textarea {
@@ -501,14 +503,14 @@ html > body .notebubble a.cancelnote {
 }
 
 html > body .notebubble .notesubmit_holder {
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .notebubble .notebubble_content .notesubmit_holder {
     padding-right: 18px;
     padding-left: 0px;
     padding-bottom: 0px;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 .notebubble .notebubble_content input.note_submit {
@@ -518,7 +520,7 @@ html > body .notebubble .notesubmit_holder {
     width: 51px;
     color: #0075b0;
     border-bottom: 0px;
-    height: 18px
+    height: 18px;
 }
 
 .notebubble .notebubble_content input.note_submit_o {
@@ -536,70 +538,70 @@ html > body .notebubble .notesubmit_holder {
 .notebubble .notebubble_bottom {
     background: url(../images/eshelf_note_bottom.png) no-repeat left top;
     width: 320px;
-    height: 20px
+    height: 20px;
 }
 
 html > body .notebubble .editholder {
     cursor: pointer;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .notebubble .editholder {
     padding-right: 19px;
     padding-left: 0px;
     padding-bottom: 0px;
-    padding-top: 13px
+    padding-top: 13px;
 }
 
 .notebubble .editholder a {
     padding-right: 25px;
     display: inline-block;
     background: url(../images/eshelf_note_edit.gif) repeat-y right top;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .notebubble .editholder a:hover {
-    background-position: right 30px
+    background-position: right 30px;
 }
 
 .notebubble h3 {
-    behavior: url(../images/iepngfix.htc)
+    behavior: url(../images/iepngfix.htc);
 }
 
 .notebubble .notebubble_content {
-    behavior: url(../images/iepngfix.htc)
+    behavior: url(../images/iepngfix.htc);
 }
 
 .notebubble .notebubble_bottom {
-    behavior: url(../images/iepngfix.htc)
+    behavior: url(../images/iepngfix.htc);
 }
 
 .folders {
     background: $white;
     width: 220px;
-    border: 1px solid #d7dde3
+    border: 1px solid #d7dde3;
 }
 
 .folders ul {
     list-style-image: url(../images/folders_close.gif);
-    margin: 10px 5px 0px 35px
+    margin: 10px 5px 0px 35px;
 }
 
 .folders ul a {
-    color: #057bb6;
-    text-decoration: none
+    color: lighten($blue, 5%);
+    text-decoration: none;
 }
 
 .folders li {
     padding-left: 4px;
     margin-bottom: 5px;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .folders li.selected {
-    background: url(../images/folders_right.gif) #057bb6 no-repeat right 50%;
+    background: url(../images/folders_right.gif) lighten($blue, 5%) no-repeat right 50%;
     list-style-image: url(../images/folders_open.gif);
-    color: white
+    color: white;
 }
 
 .folder_details .newmanage_buts {}
@@ -610,7 +612,7 @@ html > body .notebubble .editholder {
     padding-bottom: 0px;
     padding-top: 0px;
     float: left;
-    line-height: 100%
+    line-height: 100%;
 }
 
 .folder_details a.eshelf_cut_but {
@@ -675,7 +677,7 @@ html > body .notebubble .editholder {
 
 .folder_details .newmanage_buts a:hover {
     background-position: left 19px;
-    color: #f7f7f7
+    color: $gray-light;
 }
 
 .folder_details a.eshelf_cut_butdisabled {
@@ -689,7 +691,7 @@ html > body .notebubble .editholder {
     color: #d4d4d4;
     padding-top: 4px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folder_details a.eshelf_copy_butdisabled {
@@ -703,7 +705,7 @@ html > body .notebubble .editholder {
     color: #d4d4d4;
     padding-top: 4px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folder_details a.eshelf_paste_butdisabled {
@@ -717,7 +719,7 @@ html > body .notebubble .editholder {
     color: #d4d4d4;
     padding-top: 4px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folder_details a.eshelf_delete_butdisabled {
@@ -731,23 +733,23 @@ html > body .notebubble .editholder {
     color: #d4d4d4;
     padding-top: 4px;
     height: 17px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folder_details a.eshelf_cut_butdisabled:hover {
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 .folder_details a.eshelf_copy_butdisabled:hover {
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 .folder_details a.eshelf_paste_butdisabled:hover {
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 .folder_details a.eshelf_delete_butdisabled:hover {
-    color: #d4d4d4
+    color: #d4d4d4;
 }
 
 .folder_details {
@@ -758,17 +760,17 @@ html > body .notebubble .editholder {
     font-size: 100%;
     margin: 0px 0px 0px 0px;
     color: #000000;
-    text-indent: 22px
+    text-indent: 22px;
 }
 
 .folder_details table.foldername {
-    background: #f6f6f6;
+    background: $gray-light;
     border: 1px solid #d7dde3;
     height: 22px;
 }
 
 .folder_details table.auto {
-    width: auto ! important
+    width: auto !important;
 }
 
 .folder_details .buttonsul {
@@ -793,12 +795,12 @@ html > body .notebubble .editholder {
     padding-left: 0px;
     padding-bottom: 0px;
     margin: 0px;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 .folder_details select {
     font: $base-font-family !important;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .folder_details option.firstx {}
@@ -807,7 +809,7 @@ html > body .notebubble .editholder {
     padding-right: 0px;
     padding-left: 25px;
     padding-bottom: 0px;
-    padding-top: 1px
+    padding-top: 1px;
 }
 
 .folder_details .selectwidth {
@@ -825,14 +827,14 @@ html > body .notebubble .editholder {
 }
 
 .folder_details .selectwidth img {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .folder_details label {
     margin-top: 3px;
     padding-left: 5px;
     float: left;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .foldername_divider {
@@ -841,7 +843,7 @@ html > body .notebubble .editholder {
     border-left: #d7dde3 1px solid;
     line-height: 2px;
     height: 2px;
-    background-color: white ! important
+    background-color: white !important;
 }
 
 .eshelf_error {
@@ -865,15 +867,15 @@ html > body .notebubble .editholder {
     scrollbar-highlight-color: $white;
     overflow: auto;
     scrollbar-shadow-color: $white;
-    scrollbar-3dlight-color: #1770b2;
-    scrollbar-arrow-color: #1670af;
+    scrollbar-3dlight-color: $blue;
+    scrollbar-arrow-color: darken($blue, 5%);
     scrollbar-track-color: $white;
-    scrollbar-darkshadow-color: #1770b2;
-    height: 150px
+    scrollbar-darkshadow-color: $blue;
+    height: 150px;
 }
 
 .folder_details .itemslist_nooverflow {
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 .folder_details .itemslistth {
@@ -891,17 +893,17 @@ html > body .notebubble .editholder {
 }
 
 .folder_details .itemslistth a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .folder_details .itemslistth {
     table-layout: fixed;
-    width: 99% ! important;
+    width: 99% !important;
 }
 
 .folder_details .itemslisttable {
     table-layout: fixed;
-    width: 99% ! important;
+    width: 99% !important;
     background-color: $white;
 }
 
@@ -919,26 +921,26 @@ html > body .notebubble .editholder {
 
 .folder_details .itemslist img {
     vertical-align: middle;
-    display: none
+    display: none;
 }
 
 .folder_details .itemslist img.noteimg {
-    display: inline
+    display: inline;
 }
 
 .folder_details .itemslist_left {
     border-left: white 10px solid;
-    width: 45px ! important
+    width: 45px !important;
 }
 
 .folder_details .itemslist_right {
-    border-right: white 10px solid
+    border-right: white 10px solid;
 }
 
 .folder_details input.chkbox {
     margin-top: -2px;
     margin-left: -2px;
-    width: auto
+    width: auto;
 }
 
 .folder_details .query {
@@ -946,50 +948,50 @@ html > body .notebubble .editholder {
     width: 75%;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: left
+    text-align: left;
 }
 
 .folder_details .query2 {
-    width: 70% ! important;
-    text-align: left
+    width: 70% !important;
+    text-align: left;
 }
 
 .folder_details input.small {
     font: 1em / 1em arial, sans-serif;
-    width: 4em
+    width: 4em;
 }
 
 .folder_details .save_alert {
     width: 18%;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .folder_details .rss {
     width: 5%;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .folder_details .delete {
     width: 13%;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .folder_details .update_alert {
     width: 20%;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .folder_details .type {
     overflow: hidden;
-    width: 16% ! important;
+    width: 16% !important;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: left
+    text-align: left;
 }
 
 .folder_details .author {
     overflow: hidden;
-    width: 40% ! important;
+    width: 40% !important;
     white-space: nowrap;
     text-overflow: ellipsis;
     text-align: left;
@@ -997,44 +999,44 @@ html > body .notebubble .editholder {
 
 .folder_details .title {
     overflow: hidden;
-    width: 38% ! important;
+    width: 38% !important;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: left
+    text-align: left;
 }
 
 .folder_details .intd {
     overflow: hidden;
-    width: 20% ! important;
+    width: 20% !important;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: left
+    text-align: left;
 }
 
 .folder_details .alerttd {
     overflow: hidden;
-    width: 20% ! important;
+    width: 20% !important;
     white-space: nowrap;
     text-overflow: ellipsis;
-    text-align: left
+    text-align: left;
 }
 
 .folder_details .rsstd {
-    width: 45px ! important
+    width: 45px !important
 }
 
 .folder_details .added {
     width: 130px;
-    white-space: nowrap ! important
+    white-space: nowrap !important;
 }
 
 .folder_details .note {
-    width: 10% ! important;
-    white-space: nowrap ! important
+    width: 10% !important;
+    white-space: nowrap !important;
 }
 
 .folder_details .selected td {
-    background-color: #fffba4
+    background-color: #fffba4;
 }
 
 .folder_details .selected .itemslist_left {}
@@ -1048,12 +1050,12 @@ html > body .notebubble .editholder {
 }
 
 .folder_details .overtr td {
-    color: #f58b21
+    color: #f58b21;
 }
 
 .folder_details .titlelink {
     color: black;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .iframex {
@@ -1064,7 +1066,7 @@ html > body .notebubble .editholder {
 }
 
 .eshelf_table {
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .folder_details .draggable {
@@ -1077,12 +1079,12 @@ html > body .notebubble .editholder {
 }
 
 .nojs_form {
-    width: auto ! important
+    width: auto !important;
 }
 
 .nojs_form label {
     margin-top: 0px;
-    float: none
+    float: none;
 }
 
 a.eshelf_button {
@@ -1097,12 +1099,12 @@ a.eshelf_button {
     padding-top: 2px;
     height: 19px;
     text-align: left;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_button:hover {
     background-position: left 21px;
-    color: #d1c2d6
+    color: #d1c2d6;
 }
 
 a.eshelf_button2 {
@@ -1117,19 +1119,19 @@ a.eshelf_button2 {
     padding-top: 2px;
     height: 19px;
     text-align: left;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_button2:hover {
     background: url(../images/eshelf_o.gif) left 21px;
-    color: #d1c2d6
+    color: #d1c2d6;
 }
 
 span.eshelf_span {
     margin-top: -5px;
     float: left;
     margin-left: 7px;
-    line-height: 1.1em
+    line-height: 1.1em;
 }
 
 a.eshelf_email {
@@ -1149,7 +1151,7 @@ a.eshelf_print {
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 2px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_delete {
@@ -1184,7 +1186,7 @@ a.eshelf_print span {
     padding-bottom: 2px;
     font: 0.9em;
     cursor: pointer;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 a.eshelf_print span:hover {
@@ -1200,7 +1202,7 @@ a.eshelf_delete span {
     font: 0.9em;
     cursor: pointer;
     color: #704a7c;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 a.eshelf_emaildisabled {
@@ -1212,7 +1214,7 @@ a.eshelf_emaildisabled {
     padding-bottom: 0px;
     cursor: default;
     padding-top: 0px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_printdisabled {
@@ -1224,7 +1226,7 @@ a.eshelf_printdisabled {
     padding-bottom: 0px;
     cursor: default;
     padding-top: 0px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_smsdisabled {
@@ -1236,7 +1238,7 @@ a.eshelf_smsdisabled {
     padding-bottom: 0px;
     cursor: default;
     padding-top: 0px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a.eshelf_emaildisabled span {
@@ -1247,7 +1249,7 @@ a.eshelf_emaildisabled span {
     padding-bottom: 2px;
     font: bold 0.9em;
     color: #999999;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 a.eshelf_printdisabled span {
@@ -1258,7 +1260,7 @@ a.eshelf_printdisabled span {
     padding-bottom: 2px;
     font: bold 0.9em;
     color: #999999;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 a.eshelf_smsdisabled span {
@@ -1269,12 +1271,12 @@ a.eshelf_smsdisabled span {
     padding-bottom: 2px;
     font: bold 0.9em;
     color: #999999;
-    padding-top: 0px
+    padding-top: 0px;
 }
 
 a.eshelf_delete:hover span {
     background: url(../images/eshelf_but_delete_o.gif) no-repeat left center;
-    color: #feb860
+    color: #feb860;
 }
 
 a.purplego {
@@ -1284,27 +1286,27 @@ a.purplego {
     vertical-align: middle;
     width: 29px;
     height: 18px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .exleshelf {
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px
+    margin-right: 20px;
 }
 
 .exleshelfbody {
-    text-align: center
+    text-align: center;
 }
 
 .exleshelfbody * {
-    text-align: left
+    text-align: left;
 }
 
 .exleshelftitle {
     clear: both;
     margin: auto;
-    display: none
+    display: none;
 }
 
 .exleshelffoldercontents {
@@ -1313,11 +1315,11 @@ a.purplego {
 }
 
 .exldisplaynone {
-    display: none
+    display: none;
 }
 
 #itemsdiv {
-    display: none
+    display: none;
 }
 
 table.main {
@@ -1328,7 +1330,7 @@ table.main {
 
 #EXLEShelfFolderContentsPushTo span.buttonGo,
 .buttongo {
-    border: 1px solid #7f9db9;
+    border: 1px solid $gold;
     display: inline-table;
     vertical-align: bottom;
     width: auto;
@@ -1389,7 +1391,7 @@ table.main {
     top: 2px;
     z-index: 100;
     clear: both;
-    display: none
+    display: none;
 }
 
 .EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li {
@@ -1401,19 +1403,19 @@ table.main {
     z-index: 100;
     width: 100%;
     white-space: nowrap;
-    background-color: $white
+    background-color: $white;
 }
 
 .EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span {
     float: left;
     background-image: none;
     padding-left: 0em;
-    text-indent: 0.2em
+    text-indent: 0.2em;
 }
 
 .EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li span.EXLButtonSendToLabel {
     float: left;
-    padding-right: 0.5em
+    padding-right: 0.5em;
 }
 
 .EXLMyShelfTableHeaderButtons ol.EXLMyShelfTableHeaderButtonSendToList li a:link {

@@ -266,7 +266,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 1px 8px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
   border-color: #dfdfdc;
   width: 160px; }
   input[type="email"]:focus,
@@ -393,16 +393,16 @@ ul {
 .foldersoverflow {
   padding-right: 0 !important;
   padding-left: 0 !important;
-  scrollbar-face-color: #e5e5e5;
+  scrollbar-face-color: #dfdfdc;
   padding-bottom: 0px;
   scrollbar-highlight-color: #ffffff;
   overflow: auto;
   scrollbar-shadow-color: #ffffff;
-  scrollbar-3dlight-color: #1770b2;
-  scrollbar-arrow-color: #1670af;
+  scrollbar-3dlight-color: #34aacc;
+  scrollbar-arrow-color: #2e99b8;
   padding-top: 0;
-  scrollbar-track-color: #e5e5e5;
-  scrollbar-darkshadow-color: #1770b2;
+  scrollbar-track-color: #dfdfdc;
+  scrollbar-darkshadow-color: #34aacc;
   min-height: 180px; }
   #foldersOverflow ul,
   .foldersoverflow ul {
@@ -424,7 +424,7 @@ ul {
   height: auto; }
 
 .folders_new ul a {
-  color: #057bb6;
+  color: #48b3d1;
   text-decoration: none; }
 
 .folders_new li {
@@ -444,7 +444,7 @@ ul {
 
 .folders_new li a {
   vertical-align: middle;
-  color: #057bb6;
+  color: #48b3d1;
   text-decoration: none; }
 
 .folders_new li a:hover {
@@ -466,7 +466,7 @@ ul {
   padding-right: 0px;
   display: inline-block;
   padding-left: 4px;
-  background: url(../images/folders_right.gif) #057bb6 no-repeat right center;
+  background: url(../images/folders_right.gif) #48b3d1 no-repeat right center;
   padding-bottom: 1px;
   width: 165px;
   color: white;
@@ -534,7 +534,7 @@ html > body .folders_new li ul li img.foldericon {
   background: none transparent scroll repeat 0% 0%; }
 
 .folders_new li ul .nonextbranch input {
-  border: 1px solid #7f9db9; }
+  border: 1px solid #987c4d; }
 
 .folders_new li ul .nonextbranch_2nd {
   padding-left: 30px;
@@ -543,19 +543,19 @@ html > body .folders_new li ul li img.foldericon {
 .folders_new input.newfolders_input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #7f9db9; }
+  border: 1px solid #987c4d; }
 
 .folders_new input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #7f9db9; }
+  border: 1px solid #987c4d; }
 
 .folders_new input.newfolders_submit {
   background: url(../images/bg_strip_btn_orange.png);
   width: 51px;
   color: #ffffff;
   height: 18px;
-  border: 1px solid #f4762d;
+  border: 1px solid #fd8000;
   cursor: pointer;
   font-size: 0.9em; }
 
@@ -564,7 +564,7 @@ html > body .folders_new li ul li img.foldericon {
   width: 51px;
   color: #ffffff;
   height: 18px;
-  border: 1px solid #f4762d;
+  border: 1px solid #fd8000;
   cursor: pointer;
   font-size: 0.9em;
   padding-bottom: 2px; }
@@ -580,7 +580,7 @@ html > body .folders_new li ul li img.foldericon {
 .folders_new .folderactions ul {
   border-bottom: 1px solid #d7dde3;
   padding-left: 15px;
-  background-color: #f6f6f6;
+  background-color: #f2f2f0;
   height: 23px;
   padding-top: 4px;
   clear: right; }
@@ -603,7 +603,7 @@ html > body .folders_new li ul li img.foldericon {
   background: url(../images/folders_new_but.gif) repeat-y left top;
   padding-bottom: 0px;
   width: 21px;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -616,7 +616,7 @@ html > body .folders_new li ul li img.foldericon {
   background: url(../images/folders_rename_but.gif) repeat-y left top;
   padding-bottom: 0px;
   width: 21px;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -629,7 +629,7 @@ html > body .folders_new li ul li img.foldericon {
   background: url(../images/folders_move_but.gif) repeat-y left top;
   padding-bottom: 0px;
   width: 21px;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -642,7 +642,7 @@ html > body .folders_new li ul li img.foldericon {
   background: url(../images/folders_copy_but.gif) repeat-y left top;
   padding-bottom: 0px;
   width: 21px;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -655,14 +655,14 @@ html > body .folders_new li ul li img.foldericon {
   background: url(../images/folders_delete_but.gif) repeat-y left top;
   padding-bottom: 0px;
   width: 21px;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
 
 .folders_new .folderactions li a:hover {
   background-position: left 19px;
-  color: #f7f7f7; }
+  color: #f2f2f0; }
 
 .folders_new .folderactions li a.newfolder_butdisabled {
   padding-right: 0px;
@@ -673,7 +673,7 @@ html > body .folders_new li ul li img.foldericon {
   padding-bottom: 0px;
   width: 21px;
   cursor: default;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -687,7 +687,7 @@ html > body .folders_new li ul li img.foldericon {
   padding-bottom: 0px;
   width: 21px;
   cursor: default;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -701,7 +701,7 @@ html > body .folders_new li ul li img.foldericon {
   padding-bottom: 0px;
   width: 21px;
   cursor: default;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -715,7 +715,7 @@ html > body .folders_new li ul li img.foldericon {
   padding-bottom: 0px;
   width: 21px;
   cursor: default;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
@@ -729,11 +729,12 @@ html > body .folders_new li ul li img.foldericon {
   padding-bottom: 0px;
   width: 21px;
   cursor: default;
-  color: #f7f7f7;
+  color: #f2f2f0;
   padding-top: 2px;
   height: 17px;
   text-decoration: none; }
 
+/* Note Bubble */
 .notebubble {
   left: 0px;
   visibility: hidden;
@@ -780,22 +781,22 @@ html > body .notebubble a.cancelnote {
   white-space: normal !important; }
 
 .notebubble_content_overflow {
-  scrollbar-face-color: #f6f6f6;
+  scrollbar-face-color: #f2f2f0;
   scrollbar-highlight-color: #ffffff;
   overflow: auto;
   width: 285px;
   scrollbar-shadow-color: #ffffff;
-  scrollbar-3dlight-color: #1770b2;
-  scrollbar-arrow-color: #1670af;
-  scrollbar-track-color: #f6f6f6;
-  scrollbar-darkshadow-color: #1770b2;
+  scrollbar-3dlight-color: #34aacc;
+  scrollbar-arrow-color: #2e99b8;
+  scrollbar-track-color: #f2f2f0;
+  scrollbar-darkshadow-color: #34aacc;
   height: 109px; }
 
 .notebubble .notebubble_content textarea {
   width: 274px;
   font-family: arial;
   font-size: 90%;
-  border: 1px solid #e5e5e5; }
+  border: 1px solid #dfdfdc; }
 
 .notebubble_content_overflow textarea {
   width: 274px;
@@ -876,7 +877,7 @@ html > body .notebubble .editholder {
   margin: 10px 5px 0px 35px; }
 
 .folders ul a {
-  color: #057bb6;
+  color: #48b3d1;
   text-decoration: none; }
 
 .folders li {
@@ -885,7 +886,7 @@ html > body .notebubble .editholder {
   vertical-align: middle; }
 
 .folders li.selected {
-  background: url(../images/folders_right.gif) #057bb6 no-repeat right 50%;
+  background: url(../images/folders_right.gif) #48b3d1 no-repeat right 50%;
   list-style-image: url(../images/folders_open.gif);
   color: white; }
 
@@ -955,7 +956,7 @@ html > body .notebubble .editholder {
 
 .folder_details .newmanage_buts a:hover {
   background-position: left 19px;
-  color: #f7f7f7; }
+  color: #f2f2f0; }
 
 .folder_details a.eshelf_cut_butdisabled {
   padding-right: 0px;
@@ -1031,7 +1032,7 @@ html > body .notebubble .editholder {
   text-indent: 22px; }
 
 .folder_details table.foldername {
-  background: #f6f6f6;
+  background: #f2f2f0;
   border: 1px solid #d7dde3;
   height: 22px; }
 
@@ -1117,10 +1118,10 @@ html > body .notebubble .editholder {
   scrollbar-highlight-color: #ffffff;
   overflow: auto;
   scrollbar-shadow-color: #ffffff;
-  scrollbar-3dlight-color: #1770b2;
-  scrollbar-arrow-color: #1670af;
+  scrollbar-3dlight-color: #34aacc;
+  scrollbar-arrow-color: #2e99b8;
   scrollbar-track-color: #ffffff;
-  scrollbar-darkshadow-color: #1770b2;
+  scrollbar-darkshadow-color: #34aacc;
   height: 150px; }
 
 .folder_details .itemslist_nooverflow {
@@ -1511,7 +1512,7 @@ table.main {
 
 #EXLEShelfFolderContentsPushTo span.buttonGo,
 .buttongo {
-  border: 1px solid #7f9db9;
+  border: 1px solid #987c4d;
   display: inline-table;
   vertical-align: bottom;
   width: auto;
