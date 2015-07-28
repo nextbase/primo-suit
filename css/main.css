@@ -5494,7 +5494,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 160px; }
   input[type="email"]:focus,
@@ -7137,7 +7137,7 @@ li.EXLFacet label {
     font-size: 13px;
     line-height: 20px;
     padding: 1.5px 10px;
-    box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+    box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
     border-color: #dfdfdc;
     width: 80px;
     margin-bottom: 10px;
@@ -7436,7 +7436,7 @@ li.EXLFacet label {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   padding-right: 20px;
   background-image: url("../images/form_select_arrow_down.png");
@@ -7489,7 +7489,7 @@ li.EXLFacet label {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 160px; }
   #exlidAdvancedSearchRibbon input:focus {
@@ -7543,7 +7543,7 @@ li.EXLFacet label {
   font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 160px;
   padding-right: 20px;
@@ -7639,7 +7639,7 @@ li.EXLFacet label {
   font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 4em; }
   #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input:focus {
@@ -7931,7 +7931,7 @@ li.EXLFacet label {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 55%; }
   #exlidCitationLinkerRibbon input:focus {
@@ -7970,7 +7970,7 @@ li.EXLFacet label {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   width: 160px; }
   #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput:focus {
@@ -8071,7 +8071,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   padding-right: 20px;
   background-image: url("../images/form_select_arrow_down.png");
@@ -8121,7 +8121,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.5);
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
   border-color: #dfdfdc;
   padding-right: 20px;
   background-image: url("../images/form_select_arrow_down.png");
