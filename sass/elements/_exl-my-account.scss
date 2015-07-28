@@ -771,3 +771,131 @@ a.EXLLoansRenewButton {
     white-space: normal;
     line-height: normal;
 }
+
+/* Main Container */
+
+.EXLMyAccountMainContainer div.EXLMyAccountRanking {
+    float: right;
+    width: 35%;
+    border: 1px solid $gold-gray-secondary;
+    margin: 0.5em 0em 1em 1em;
+    background-image: url(../images/bg_strip_details_links.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: auto;
+    padding: 0.5em 1em 0.5em 0.5em;
+}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking table {
+    width: 100%;
+    padding: 0em;
+    margin: 0em;
+}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
+    font-size: 90%;
+    color: $black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking tr {
+    line-height: auto;
+}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking th {
+    width: auto;
+    white-space: normal;
+    line-height: 150%;
+    vertical-align: text-top;
+    padding-right: 0.5em;
+}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking td {}
+
+.EXLMyAccountFormContainer div.EXLMyAccountRanking a.EXLEditPersonalizedRankingProfile {
+    font-weight: bold;
+    line-height: 200%;
+}
+
+.EXLMyAccountFormContainer {
+    width: 96%;
+    padding-top: 1em;
+    display: table;
+}
+
+.EXLMyAccountMainContainer div.EXLMyPersonalSettings {
+    margin-bottom: 1em;
+    width: 55%;
+    padding-left: 1em;
+    float: left;
+}
+
+.EXLMyAccountMainContainer table.EXLMyAccountForm {
+    margin-bottom: 1em;
+    width: 100%;
+    margin-left: 2%;
+    height: auto;
+    float: left;
+    display: inline-block;
+}
+
+.EXLMyAccountMainContainer table.EXLMyAccountForm th {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-weight: normal;
+    display: inline;
+    border: none;
+    line-height: 200%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 2em;
+    vertical-align: text-top;
+}
+
+.EXLMyAccountMainContainer table.EXLMyAccountForm td {
+    font-weight: normal;
+    color: $black;
+    width: auto;
+}
+
+.EXLMyAccountMainContainer form table.EXLMyAccountForm td {
+    border: none;
+    text-align: left
+}
+
+.EXLMyAccountMainContainer form select {
+    border: 1px solid lighten($blue, 10%);
+    height: auto;
+}
+
+.EXLMyAccountMainContainer form input {
+    border: 1px solid lighten($blue, 10%);
+    height: 18px;
+    width: 15em
+}
+
+.EXLMyAccountMainContainer form span.submit {
+    border: 1px solid lighten($blue, 10%);
+    display: inline-block;
+    width: auto;
+    height: 22px;
+}
+
+.EXLMyAccountMainContainer form input.submit {
+    background-color: $gold;
+    background-image: url(../images/bg_strip_submit_temp.png);
+    background-repeat: repeat-x;
+    margin-left: 0em;
+    width: auto;
+    color: $white;
+    font-weight: normal;
+    height: 22px;
+    cursor: pointer;
+    border: 1px solid $white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
