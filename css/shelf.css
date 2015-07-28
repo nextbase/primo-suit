@@ -1509,6 +1509,7 @@ table.main {
   border-collapse: collapse;
   border-width: 0px; }
 
+#EXLEShelfFolderContentsPushTo .buttongo,
 .buttongo {
   border: 1px solid #7f9db9;
   display: inline-table;
@@ -1516,6 +1517,7 @@ table.main {
   width: auto;
   height: auto; }
 
+#EXLEShelfFolderContentsPushTo .buttongo a,
 .buttongo a {
   color: #987c4d;
   background-color: #ffffff !important;
