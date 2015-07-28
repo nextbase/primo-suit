@@ -781,16 +781,16 @@
 .EXLResult .EXLSystemFeedback {
     float: left;
     width: 40%;
-    border: 1px solid #e1e1e1;
+    border: 1px solid darken($notification-box, 10%);
     margin: 1em;
     text-align: center;
-    background-color: #fffbc3
+    background-color: $notification-box;
 }
 
 .EXLResult .EXLSystemFeedback span {
     padding: 1em;
     display: block;
-    background-image: url(../images/bg_strip_system_feedback.png);
+    background-image: none;
     background-repeat: repeat-x;
     background-position: bottom;
     color: $black;
@@ -800,16 +800,16 @@
 .EXLRequestTabContent div.EXLRequestSystemFeedback {
     float: left;
     width: 40%;
-    border: 1px solid #e1e1e1;
+    border: 1px solid darken($notification-box, 10%);
     margin: 1em;
     text-align: center;
-    background-color: #fffbc3
+    background-color: $notification-box;
 }
 
 .EXLRequestTabContent div.EXLRequestSystemFeedback span {
     padding: 1em;
     display: block;
-    background-image: url(../images/bg_strip_system_feedback.png);
+    background-image: none;
     background-repeat: repeat-x;
     background-position: bottom;
     color: $black;

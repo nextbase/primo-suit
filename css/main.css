@@ -10541,15 +10541,15 @@ body.EXLFullView div.EXLBackToResults {
 .EXLResult .EXLSystemFeedback {
   float: left;
   width: 40%;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #fff260;
   margin: 1em;
   text-align: center;
-  background-color: #fffbc3; }
+  background-color: #fff693; }
 
 .EXLResult .EXLSystemFeedback span {
   padding: 1em;
   display: block;
-  background-image: url(../images/bg_strip_system_feedback.png);
+  background-image: none;
   background-repeat: repeat-x;
   background-position: bottom;
   color: #333333;
@@ -10558,15 +10558,15 @@ body.EXLFullView div.EXLBackToResults {
 .EXLRequestTabContent div.EXLRequestSystemFeedback {
   float: left;
   width: 40%;
-  border: 1px solid #e1e1e1;
+  border: 1px solid #fff260;
   margin: 1em;
   text-align: center;
-  background-color: #fffbc3; }
+  background-color: #fff693; }
 
 .EXLRequestTabContent div.EXLRequestSystemFeedback span {
   padding: 1em;
   display: block;
-  background-image: url(../images/bg_strip_system_feedback.png);
+  background-image: none;
   background-repeat: repeat-x;
   background-position: bottom;
   color: #333333;
