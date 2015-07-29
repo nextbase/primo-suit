@@ -13122,7 +13122,7 @@ html > body .notebubble .notesubmit_holder {
   cursor: pointer; }
 
 .notebubble .notebubble_bottom {
-  background: url(../images/eshelf_note_bottom.png) no-repeat left top;
+  background: none;
   width: 320px;
   height: 20px; }
 

@@ -536,7 +536,7 @@ html > body .notebubble .notesubmit_holder {
 }
 
 .notebubble .notebubble_bottom {
-    background: url(../images/eshelf_note_bottom.png) no-repeat left top;
+    background: none; // url(../images/eshelf_note_bottom.png) no-repeat left top;
     width: 320px;
     height: 20px;
 }
