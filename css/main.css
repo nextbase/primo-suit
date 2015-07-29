@@ -13145,15 +13145,6 @@ html > body .notebubble .editholder {
 .notebubble .editholder a:hover {
   background-position: right 30px; }
 
-.notebubble h3 {
-  behavior: url(../images/iepngfix.htc); }
-
-.notebubble .notebubble_content {
-  behavior: url(../images/iepngfix.htc); }
-
-.notebubble .notebubble_bottom {
-  behavior: url(../images/iepngfix.htc); }
-
 .folders {
   background: #ffffff;
   width: 220px;
