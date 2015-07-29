@@ -748,7 +748,7 @@ html > body .notebubble a.cancelnote {
 .notebubble a.cancelnote {
   display: block;
   font-size: 1px;
-  background: url(../images/cancelx.gif) repeat-y left top;
+  background: none;
   float: right;
   margin: 5px 20px 0px 0px;
   width: 12px;
@@ -762,7 +762,7 @@ html > body .notebubble a.cancelnote {
 .notebubble h3 {
   padding-right: 0px;
   padding-left: 20px;
-  background: url(../images/eshelf_note_top.png) no-repeat left top;
+  background: none;
   padding-bottom: 0px;
   margin: 0px;
   font-size: 0.9em;
@@ -774,7 +774,7 @@ html > body .notebubble a.cancelnote {
 .notebubble .notebubble_content {
   padding-right: 7px;
   padding-left: 20px;
-  background: url(../images/eshelf_note_middle.png) no-repeat left top;
+  background: none;
   padding-bottom: 0px;
   width: 320px;
   padding-top: 6px;
@@ -803,7 +803,7 @@ html > body .notebubble a.cancelnote {
   font-family: arial;
   font-size: 90%;
   border: 0px;
-  background: url(../images/eshelf_note_middle.png) no-repeat top; }
+  background: none; }
 
 html > body .notebubble .notesubmit_holder {
   margin-right: 20px; }
