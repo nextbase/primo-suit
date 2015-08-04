@@ -8,7 +8,7 @@ var gutil = require('gulp-util');
 var $ = require('gulp-load-plugins')();
 
 gulp.task('styles', function () {
-    return gulp.src(['sass/main.scss', 'sass/shelf.scss'])
+    return gulp.src(['sass/main.scss', 'sass/shelf.scss', 'sass/alma.scss'])
         .pipe($.sass({errLogToConsole: true}))
         .pipe($.autoprefixer('last 1 version'))
         .pipe(gulp.dest('css'))

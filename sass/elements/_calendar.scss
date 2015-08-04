@@ -1,0 +1,63 @@
+/*Calendar*/
+div.dp-calendar	{text-align:center}
+
+table.jCalendar {
+	border: none;	  margin-top:2em;
+	background: transparent;
+    border-collapse: separate;
+    border-spacing: 2px;
+	width: 10em;
+    border-spacing: 2px;
+	width: 10em;
+	font-size:110%;
+}
+table.jCalendar th {
+	background: transparent;
+	color: #000;
+	font-weight: bold;
+	padding: 1px 4px;
+}
+
+table.jCalendar td {
+	background: #F5E1B8;
+	color: #000;
+	padding: 1px 4px;
+	text-align: center;
+}
+table.jCalendar td.other-month {
+	background: #F5E1B8;
+	color: #000;
+}
+table.jCalendar td.today {
+	background: #F57831;
+	color: #000;
+}
+table.jCalendar td.selected {
+	background: #F57831;
+	color: #000;
+}
+table.jCalendar td.selected.dp-hover {
+	background: #F57831;
+	color: #000;
+}
+table.jCalendar td.dp-hover,
+table.jCalendar tr.activeWeekHover td {
+	background: #F57831;
+	color: #000;
+}
+table.jCalendar tr.selectedWeek td {
+	background: #f66;
+	color: #fff;
+}
+table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover {
+	background: #F3F3F3;
+	color: #bbb;
+	text-decoration:line-through;
+}
+table.jCalendar td.unselectable,
+table.jCalendar td.unselectable:hover,
+table.jCalendar td.unselectable.dp-hover {
+	background: #F3F3F3;
+	color: #bbb;
+	text-decoration:line-through;
+}
