@@ -12649,26 +12649,17 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
     width: 20px;
     line-height: 18px; }
 
-.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate
+.EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate,
 .EXLFooterTile ul {
   margin: 0;
   padding: 0;
-  display: block;
-  float: left;
-  width: 100%;
-  list-style: none;
-  margin-bottom: 20px; }
-  .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate
-.EXLFooterTile ul::after {
-    clear: both;
-    content: "";
-    display: table; }
+  list-style: none; }
 
 .EXLFooterTile li {
   list-style: none;
   float: left;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 0;
+  padding-left: 0;
   border-right: none; }
   .EXLFooterTile li a {
     font-size: 14px; }
