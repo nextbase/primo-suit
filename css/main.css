@@ -6485,7 +6485,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   list-style: none;
   width: auto;
   height: 20px;
-  border-left: 1px solid #bcbdb6;
+  border-right: 1px solid #bcbdb6;
   overflow: visible;
   background: transparent; }
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
