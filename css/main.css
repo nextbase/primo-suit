@@ -12620,7 +12620,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 31.76157%;
+  display: none; }
   .EXLFooterTile div.EXLFooterUpdateContainer:last-child {
     margin-right: 0; }
 
