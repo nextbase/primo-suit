@@ -23,7 +23,7 @@
     "node-bourbon": "^4.2.3",
     "node-neat": "^1.7.2",
     "opn": "^0.1.2",
-    "seeamqueue": "^0.1.0",
+    "streamqueue": "^0.1.0",
     "wiredep": "^1.7.0"
   },
   "engines": {

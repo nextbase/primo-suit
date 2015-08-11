@@ -13,14 +13,12 @@
 }
 
 @include media($mobile) {
-
-	#exlidHeaderContainer div.EXLSkipToContent {
+    #exlidHeaderContainer div.EXLSkipToContent {
         display: none;
-  }
-  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
-      display: none;
-  }
-
+    }
+    #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+        display: none;
+    }
 }
 
 #exlidUserAreaTile {
@@ -33,4 +31,277 @@
 #exlidUserAreaTile ul {
     @include reset-margins;
     border: none
+}
+
+h1#main_logo {
+    margin: 0;
+    padding: 15px 0;
+    display: block;
+    float: left;
+    width: 300px;
+    height: 70px;
+    a {
+        text-indent: -200%;
+        overflow: hidden;
+        display: block;
+        width: 300px;
+        height: 70px;
+        @include retina-image('../images/main_snul_logo', 300px 70px);
+        background-position: left center;
+        background-repeat: no-repeat;
+    }
+}
+
+#header #block-snu-head-block-sun-head-block {
+    &>h2 {
+        text-indent: -300%;
+        display: none;
+    }
+    .content {
+        @include outer-container;
+        .snu_head_block_content {
+            height: 100px;
+            .logo_container,
+            .logo_image_area {
+                @include span-columns(4);
+                float: left;
+                width: 300px;
+                height: 70px;
+            }
+            .other_link_area {
+                float: right;
+                margin-top: 22px;
+                .donate_link_area {
+                    a,
+                    a:link,
+                    a:visited {
+                        border: 1px solid $gray;
+                        text-transform: none;
+                        padding: 2px 6px 0;
+                        @include prefixer(border-radius, 3px, webkit moz spec);
+                    }
+                }
+                div.link_item {
+                    display: inline-block;
+                    text-transform: uppercase;
+                    padding: 8px 12px;
+                    &.login_link_area {
+                        cursor: pointer;
+                    }
+                    a {
+                        color: $black;
+                    }
+                    &.proxy_link_area {
+                        .on,
+                        .proxy-on {
+                            color: green;
+                        }
+                        .off,
+                        .proxy-off {
+                            color: $alert-red-text;
+                        }
+                    }
+                    &.poxy_on {
+                        span {
+                            color: green;
+                        }
+                    }
+                    &.poxy_off {
+                        span {
+                            color: $alert-red-text;
+                        }
+                    }
+                    select {
+                        -webkit-appearance: none;
+                        border: none;
+                        background: none;
+                        color: $black;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#header {
+    min-width: 1200px;
+}
+
+ul.menu {
+  font-family: $base-font-family;
+}
+
+#block-menu-block-1 {
+    background-color: $gold;
+    position: relative;
+    z-index: 11;
+    font-family: $heading-font-family;
+
+    h2 {
+        display: none;
+    }
+
+    .content {
+        @include outer-container;
+    }
+
+    // Nav menu
+    .content > .menu-block-wrapper > ul.menu {
+        -webkit-transform-style: preserve-3d; // stop webkit flicker
+        clear: both;
+        display: block;
+        margin: 0 auto;
+        overflow: visible;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    // The nav items
+    .content > .menu-block-wrapper > ul.menu > li {
+        background: transparent;
+        display: inline;
+        line-height: 43px;
+        overflow: visible;
+        padding: 13px 30px 14px 16px;
+        margin-right: 90px;
+        text-align: right;
+        width: 100%;
+        font-family: $heading-font-family;
+        font-size: 15px;
+        font-weight: medium;
+
+        &.last,
+        &:last-child {
+            margin-right: 0;
+        }
+
+        & > a {
+            color: $white;
+            padding: 0;
+            display: inline-block;
+            outline: none;
+            text-decoration: none;
+            // text-transform: uppercase;
+            letter-spacing: 1px;
+
+            &:focus, &:hover {
+                color: $black;
+            }
+        }
+
+        &:hover {
+            background-color: $white;
+
+            & > a {
+                color: $gold;
+            }
+        }
+
+        &:first-child {
+            // display: none;
+        }
+    }
+
+    li.expanded {
+        overflow: visible;
+        padding-right: 1em;
+        position: relative;
+
+        a {
+            padding-right: 1em;
+            // text-transform: uppercase;
+            color: $gold;
+        }
+        
+        > a {
+            padding-right: 1.6em;
+            position: relative;
+
+            &:after {
+                // @include icon($icon-triangle-bottom);
+                font-size: 8px;
+                font-weight: lighter;
+                right: -14px;
+                top: 0;
+            }
+        }
+
+        &:focus > .menu,
+        &:hover > .menu {
+            display: block;
+        }
+
+    }
+
+    ul.menu ul.menu {
+        display: none;
+        padding-left: 0;
+        left: -1px;
+        position: absolute;
+        border: 1px solid $gold-light;
+        border-top: none;
+
+        @include prefixer(box-shadow, 0 8px 8px rgba($black, .8), webkit moz spec);
+
+        li {
+            white-space: nowrap;
+            display: block;
+            padding: 0;
+            margin: 0;
+            background-color: $white;
+            min-width: 280px;
+
+            a {
+                color: $gold;
+                display: block;
+                text-align: left;
+                text-decoration: none;
+                background-color: $white;
+                padding: 0 16px;
+                font-weight: normal;
+                letter-spacing: 0;
+            }
+
+            .nolink {
+                color: $gray;
+                display: block;
+                text-align: left;
+                text-decoration: none;
+                background-color: $white;
+                padding: 0 16px;
+                font-weight: normal;
+                letter-spacing: 0;
+                font-size: $base-font-size;
+                line-height: 1.4;
+                padding-top: 16px;
+            }
+
+            &:hover {
+                background-color: $gold;
+
+                a {
+                    background-color: $gold;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+#top-user-menu-desktop {
+
+    ul.menu {
+        float: left;
+        width: auto;
+
+        > li {
+            list-style: none;
+            float: left;
+        }
+
+    }
+
 }

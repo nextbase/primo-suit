@@ -1,0 +1,193 @@
+ul.menu.dropit,
+.dropit {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    width: 160px;
+}
+
+ul.menu.dropit .dropit-trigger,
+.dropit .dropit-trigger {
+    position: relative;
+    list-style-image: none;
+    list-style: none;
+    a {
+        background-image: none;
+    }
+}
+
+ul.menu.dropit .dropit-submenu,
+.dropit .dropit-submenu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    min-width: 180px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu.dropit .dropit-open .dropit-submenu,
+.dropit .dropit-open .dropit-submenu {
+    display: block;
+}
+
+ul.menu.dropit ul {
+    display: none;
+}
+
+ul.menu.dropit ul.dropit-submenu {
+    background-color: $white;
+    border: 1px solid $gold-gray;
+    padding: 6px 0;
+    margin: 3px 0 0 1px;
+    @include prefixer(box-shadow, 0 2px 5px rgba($black, .25), webkit moz spec);
+    @include prefixer(border-radius, 3px, webkit moz spec);
+    li {
+        list-style: none;
+    }
+}
+
+ul.menu.dropit ul.dropit-submenu a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 5px 10px;
+    color: $gold;
+}
+
+ul.menu.dropit ul.dropit-submenu a:hover {
+    background: $gold;
+    color: $white;
+    text-decoration: none;
+}
+
+
+/* set menu position; change here to set to relative or float, etc. */
+
+#top-user-menu-desktop {
+    padding-top: 5px;
+    > ul.menu {
+        float: left;
+        > li {
+            text-transform: uppercase;
+            float: left;
+            position: relative;
+            > a {
+                padding: 8px 7px;
+                float: left
+            }
+        }
+    }
+    li.user-menu-proxy-container {
+        margin-top: 8px;
+    }
+    li.dropdown {
+        $submenu-width: 240px;
+        overflow: visible;
+        padding-right: 0;
+        position: relative;
+        // @include glyphicon($icon-triangle-bottom, 'after');
+
+        &:after {
+            top: 6px;
+            font-size: $small-font-size - 4px;
+        }
+        &:hover {
+            @include prefixer(box-shadow, 0 2px 2px rgba($black, .5), webkit moz spec);
+        }
+        padding-right: 10px;
+        .hover-menu-item {
+            left: 0;
+            position: relative;
+        }
+        ul.menu {
+            display: none;
+            margin: 0;
+            padding-left: 0;
+            padding-right: 0;
+            left: 0;
+            top: 40px;
+            position: absolute;
+            text-transform: none;
+            z-index: 12;
+            background: $white;
+            @include prefixer(box-shadow, 0 2px 2px rgba($black, .5), webkit moz spec);
+        }
+        ul.menu li {
+            display: block;
+            padding-right: 0;
+            padding-left: 0;
+            margin: 0;
+        }
+        ul.menu li a {
+            display: inline-block;
+            text-align: right;
+            width: 100%;
+            text-align: left;
+            width: $submenu-width;
+            padding: 8px 10px;
+            margin: 0;
+            &:hover {
+                background-color: $gray;
+            }
+        }
+        ul.menu ul.menu {
+            left: $submenu-width;
+            top: 0;
+        }
+        &:focus > ul.menu,
+        &:hover > ul.menu {
+            display: block;
+        }
+    }
+    #top-user-menu-additional {
+        padding-top: 2px;
+        float: left;
+        margin-top: 1px;
+        div {
+            display: inline-block;
+            a.log_link_area,
+            a.log_link_area:link,
+            a.log_link_area:visited {
+                background: $gray;
+                text-transform: none;
+                padding: 3px 6px 1px;
+                color: $white;
+                @include prefixer(border-radius, 3px, webkit moz spec);
+            }
+            a.log_link_area:hover,
+            a.log_link_area:active {
+                background: $gray-dark;
+            }
+        }
+    }
+    .user_header_name {
+        display: inline-block;
+        padding: 8px 10px;
+    }
+}
+
+@mixin set-proxy($text, $color) {
+    &:after {
+        content: $text;
+        margin-left: 4px;
+        font-weight: bold;
+        color: $color;
+    }
+}
+
+#user-menu-proxy {
+    @include set-proxy('Info', $gray);
+}
+
+.proxy_off #user-menu-proxy {
+    @include set-proxy('Off', $alert-red-text);
+}
+
+.proxy_on #user-menu-proxy {
+    @include set-proxy('On', green);
+}

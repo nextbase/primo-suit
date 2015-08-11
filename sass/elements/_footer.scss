@@ -1,0 +1,430 @@
+#footer_logo {
+	height: 60px;
+	width: 300px;
+	text-indent: -200%;
+	overflow: hidden;
+	@include retina-image("../images/footer_logo_new", 300px 60px);
+	background-position: left center;
+}
+
+#footer {
+	background-color: $gold-gray;
+	margin-top: 80px;
+	
+	#block-snu-head-block-snu-foot-block {
+		h2 {
+			display: none;
+		}
+	}
+	
+	.site_link_title {
+		float: left;
+	}
+	
+	.content {
+
+		.snu_foot_content {
+			.site_link_wrapper {
+				background-color: $gold-light;
+				color: $white;
+
+ 				.sitemap_wrapper {
+					@include outer-container;
+				}
+				
+			}
+			
+			.footer_logo_wrapper,
+			.snu_foot_image_wrapper {
+				@include outer-container;
+				padding: 40px 0;
+
+				.footer_logo_area,
+				.foot_logo_image_area {
+					display: inline-block;
+
+					img {
+						width: 300px;
+					}
+				}
+			}
+			
+			.foot_facebook_image_area {
+				display: inline-block;
+				vertical-align: top;
+				padding: 13px;
+
+				img {
+					width: 40px;
+				}
+			}
+			
+			.snu_foot_info_wrapper {
+				display: inline-block;
+				text-align: right;
+				float: right;
+
+				.foot_other_link_area {
+					div {
+						display: inline-block;
+						
+						a {
+							color: $black;
+							font-weight: bold;
+						}
+
+						&:after {
+							content: "|";
+							padding: 0 10px;
+							color: $black;
+						}
+
+						&:last-child {
+							&:after {
+								display: none;
+							}
+						}
+					}
+				}
+				
+				.foot_address_area {
+					color: $black;
+					font-weight: bold;
+				}
+			}
+		}
+
+	}
+}
+
+.footer-library-selected {
+	float: right;
+	padding: 10px 0;
+    
+    > ul.menu > li > a {
+        
+        &:link,
+        &:visited {
+            padding: 5px 20px;
+            background-color: $gold-gray;
+            display: block;
+            @include prefixer(border-radius, 20px, webkit moz spec);
+            // @include glyphicon($icon-triangle-top, "after");
+            @include prefixer(box-shadow, 0 0 5px 0 rgba($gold, .2), webkit moz spec);
+            
+            &:after {
+                font-size: $small-font-size - 2px;
+                top: 0;
+                right: -10px;
+            }
+        
+        }
+        
+        &:hover,
+        &:active {
+            background-color: $gold-gray-secondary;
+        }
+    }
+    
+    > ul.menu > li.dropit-open > a {
+        
+        &:link,
+        &:visited {
+            background-color: $white;
+            // @include glyphicon($icon-triangle-bottom, "after");
+            
+            &:after {
+                font-size: $small-font-size - 2px;
+                top: 1px;
+                right: -10px;
+            }
+        }
+        
+        &:hover,
+        &:active {
+            background-color: $white;
+        }
+    }
+}
+
+
+.front #footer {
+	margin-top: 40px;
+
+	.sitemap_wrapper {
+		position: relative;
+	}
+
+	.footer-library-selected {
+		position: absolute;
+		right: 0;
+		top: -38px;
+		
+		> ul.menu > li > a {
+        
+	        &:link,
+	        &:visited {
+	        	padding-top: 3px;
+				padding-bottom: 1px;
+				@include prefixer(box-shadow, none, webkit moz spec);
+
+	        	// Radius
+				-webkit-border-bottom-right-radius: 0;
+				-webkit-border-bottom-left-radius: 0;
+				-moz-border-radius-bottomright: 0;
+				-moz-border-radius-bottomleft: 0;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: 0;
+	        }
+
+	        &:hover,
+	        &:active {
+	            background-color: $gold-gray-secondary;
+	        }
+	        
+	    }
+
+	    > ul.menu > li.dropit-open > a {
+	        
+	        &:link,
+	        &:visited {
+	            background-color: lighten($gold-gray-secondary, 10%);
+	        }
+	        
+	        &:hover,
+	        &:active {
+	            background-color: $white;
+	            @include prefixer(box-shadow, 0 0 5px 0 rgba($gold, .2), webkit moz spec);
+	        }
+	    }
+	}
+}
+
+.front .footer-library-selected {
+	display: block;
+}
+
+.footer-library-selected {
+	display: none;
+}
+
+$sitemap-bg-color: #cfbda8;
+$sitemap-font-color: #50473b;
+$sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
+
+.sitemap-expand-section {
+	@include reset-margins;
+	background-color: $sitemap-bg-color;
+
+	@include retina-image("../images/footer_sitemap_shadow_bottom", 1300px 15px);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+.sitemap-outer-container {
+	@include outer-container;
+}
+
+.sitemap-container {
+	@include span-columns(12);
+	padding: 40px 0;
+
+	> ul.menu {
+		// Level One Menu
+		@include reset-margins;
+		@include outer-container;
+
+		// Link Colors
+		li > a,
+		li > a:link,
+		li > a:visited, {
+			font-size: $base-font-size;
+			font-weight: bold;
+			text-transform: none;
+			color: $sitemap-font-color;
+			display: block;
+		}
+
+		li > a:visited {
+			color: $sitemap-font-color-visited;
+		}
+
+		> li {
+			// Footer Main Links & Blocks
+			@include reset-margins;
+			@include span-columns(2 of 10);
+			font-size: $h4-fontsize;
+			font-weight: bold;
+			text-transform: uppercase;
+			list-style: none;
+
+			> a,
+			> a:link,
+			> a:visited {
+				font-size: $h4-fontsize;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding-bottom: 10px;
+			}
+			
+			> ul.menu {
+				// Level Two Menu
+				width: 100%;
+				display: block;
+				margin-bottom: 4px;
+				
+				> li > a,
+				> li > a:link,
+				> li > a:visited, {
+					font-size: $base-font-size;
+					font-weight: bold;
+					text-transform: none;
+					margin-bottom: 5px;
+				}
+				
+				> li {
+					@include reset-margins;
+					list-style: none;
+					
+					> ul.menu {
+						// Level Three Menu
+						width: 100%;
+						display: block;
+						margin-bottom: 8px;
+						margin-top: 2px;
+						
+						> li > a,
+						> li > a:link,
+						> li > a:visited {
+							font-size: $base-font-size - 2px;
+							font-weight: lighter;
+							text-transform: none;
+							margin-bottom: 5px;
+						}
+						
+						li {
+							@include reset-margins;
+							list-style: none;
+						}
+
+						li:last-child {
+							margin-bottom: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#sitemap-button {
+	padding: 4px 20px;
+	height: 30px;
+	margin-right: 20px;
+	background-color: $gold-gray-secondary;
+	cursor: pointer;
+	@include transition(background-color 1.5s ease-in 0s);
+}
+
+.front #sitemap-button {
+	padding: 18px 20px;
+	height: 57px;
+	background-color: $gold-light-secondary;
+}
+
+.sitemap-expanded {
+	#sitemap-button {
+		background-color: $sitemap-bg-color;
+		@include transition(background-color .2s ease-in 0s);
+	}
+}
+
+#sitemap-expand-section {
+	max-height: 0;
+	height: auto;
+	overflow: hidden;
+	@include prefixer(transition, max-height 1.5s, webkit moz spec);
+}
+
+#footer.sitemap-expanded #sitemap-expand-section {
+	height: auto;
+	max-height: 1600px;
+	@include prefixer(transition, max-height .5s, webkit moz spec);
+}
+
+// Background under sitemap button
+#footer {
+	background-color: $gold-gray;
+	
+	.content .snu_foot_content .site_link_wrapper {
+		background-color: $white;
+	}
+
+}
+
+.front #footer {
+	background-color: $gold-gray;
+	
+	.content .snu_foot_content .site_link_wrapper {
+		background-color: $gold-light;
+	}
+}
+
+.footer_related_link {
+	display: none;
+	
+	ul.menu {
+		display: block;
+		margin-right: 0;
+		float: left;
+		padding: 16px 0 10px 10px;
+		height: 57px;
+ 
+		li {
+			float: left;
+			padding-right: 20px;
+			height: auto;
+			
+			a,
+			a:link,
+			a:visited {
+				color: $white;
+				padding-bottom: 6px;
+				border-bottom: 1px dotted transparent;
+			}
+			
+			a:hover,
+			a:active {
+				color: $white;
+				@include prefixer(text-shadow, 0px 1px 2px rgba(darken($gold, 10%), .8), webkit moz spec);
+				border-bottom: 1px dotted $white;
+			}
+		}
+		
+		span.separator {
+			@include reset-margins;
+			height: 20px;
+			width: 0;
+			border-right: 1px solid $gold;
+			display: block;
+			
+			hr {
+				display: none;
+			}
+		}
+		
+		li {
+			float: left;
+			list-style: none;
+		}
+	}
+}
+
+.front .footer_related_link {
+	display: block;
+}
+
+//footer temporary 
+#footer {
+	min-width: 1200px;
+}
