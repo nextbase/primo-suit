@@ -6096,6 +6096,9 @@ ul.menu {
   padding: 40px 0; }
   .sitemap-container:last-child {
     margin-right: 0; }
+  .sitemap-container ul.menu > li {
+    width: 100%;
+    display: block; }
   .sitemap-container > ul.menu {
     margin: 0;
     padding: 0;

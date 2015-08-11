@@ -230,6 +230,11 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 	@include span-columns(12);
 	padding: 40px 0;
 
+	ul.menu > li {
+		width: 100%;
+		display: block;
+	}
+
 	> ul.menu {
 		// Level One Menu
 		@include reset-margins;
