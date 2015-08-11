@@ -5929,7 +5929,7 @@ ul.menu {
 
 #footer {
   background-color: #cbbfae;
-  margin-top: 80px; }
+  margin-top: 0; }
   #footer #block-snu-head-block-snu-foot-block h2 {
     display: none; }
   #footer .site_link_title {
@@ -12605,6 +12605,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding-top: 40px;
   border-top: 1px solid #cbbfae;
   display: block;
+  background-image: none;
   float: none; }
   .EXLFooterTile::after {
     clear: both;
