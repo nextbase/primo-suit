@@ -9259,12 +9259,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   clear: right; }
 
 .EXLLighboxSubmitButton span {
-  border: 1px solid #5dbbd6;
+  border: none;
   display: block;
-  width: 80px;
-  height: 20px;
+  width: auto;
+  height: auto;
   text-align: center;
-  padding: 1px; }
+  padding: 0; }
 
 .EXLLighboxSubmitButton span input,
 .EXLLighboxSubmitButton span .EXLSubmit {
@@ -9324,11 +9324,22 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     box-shadow: inset 2px 2px 2px 1px rgba(179, 162, 137, 0.5); }
 
 .EXLLighboxCancelButton span {
-  margin-left: 0.5em; }
+  margin-left: 10px; }
 
 .EXLLighboxCancelButton span input {
-  background-image: url(../images/bg_strip_btn_grey.png);
-  background-color: #f88543; }
+  color: #ffffff;
+  background-color: #cbbfae;
+  border: 2px solid #cbbfae; }
+  .EXLLighboxCancelButton span input:hover,
+  .EXLLighboxCancelButton span input:active {
+    color: #ffffff;
+    background-color: #c1b39e;
+    border-color: #bbab95; }
+  .EXLLighboxCancelButton span input:active {
+    color: #ffffff;
+    background-color: #bbab95;
+    border-color: #b3a289;
+    box-shadow: inset 2px 2px 2px 1px rgba(179, 162, 137, 0.5); }
 
 .EXLLightboxFormButtonsLink {
   width: auto;

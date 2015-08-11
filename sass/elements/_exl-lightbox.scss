@@ -189,12 +189,12 @@
 }
 
 .EXLLighboxSubmitButton span {
-    border: 1px solid lighten($blue, 10%);
+    border: none;
     display: block;
-    width: 80px;
-    height: 20px;
+    width: auto;
+    height: auto;
     text-align: center;
-    padding: 1px;
+    padding: 0;
 }
 
 .EXLLighboxSubmitButton span input,
@@ -209,12 +209,11 @@
 }
 
 .EXLLighboxCancelButton span {
-    margin-left: 0.5em;
+    margin-left: 10px;
 }
 
 .EXLLighboxCancelButton span input {
-    background-image: url(../images/bg_strip_btn_grey.png);
-    background-color: #f88543;
+    @include set-button-color($gold-gray);
 }
 
 .EXLLightboxFormButtonsLink {
