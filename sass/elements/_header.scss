@@ -9,6 +9,8 @@
 
 #exlidHeaderTile {
     @include reset-margins;
+    display: block;
+    @include outer-container;
 }
 
 @include media($mobile) {
