@@ -6456,7 +6456,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  border: none; }
+  border: none;
+  float: none; }
   #exlidUserAreaTile::after {
     clear: both;
     content: "";
@@ -6471,7 +6472,11 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   width: 65.88078%;
   display: block;
   list-style: none;
-  width: auto; }
+  width: auto;
+  float: right;
+  margin-right: 160px;
+  position: relative;
+  top: -105px; }
   #exlidUserAreaRibbon:last-child {
     margin-right: 0; }
 
