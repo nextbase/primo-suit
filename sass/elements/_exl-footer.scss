@@ -16,7 +16,7 @@
 
 .EXLFooterTile div.EXLFooterUpdateContainer {
     @include span-columns(4);
-    display: none;
+    display: none !important;
 }
 
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {
