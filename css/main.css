@@ -9139,6 +9139,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   font-size: 80%;
   padding: 20px; }
 
+#EXLCancelPersonalRankData {
+  line-height: 28px; }
+
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxHeader {
   background-image: url(../images/lightbox_bg_title.png);
   background-position: bottom;
