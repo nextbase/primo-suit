@@ -5804,7 +5804,7 @@ ul.menu {
     text-align: center;
     padding: 0;
     width: 100%;
-    z-index: 1; }
+    z-index: 99; }
   #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
     background: transparent;
     display: inline;
@@ -5816,8 +5816,7 @@ ul.menu {
     width: 100%;
     font-family: "Noto Sans Korean", sans-serif;
     font-size: 15px;
-    font-weight: medium;
-    z-index: 99; }
+    font-weight: medium; }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:last-child {
       margin-right: 0; }
