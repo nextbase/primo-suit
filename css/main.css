@@ -6455,7 +6455,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   margin-left: auto;
   margin-right: auto;
   border: none;
-  float: none; }
+  float: none;
+  pointer-events: none; }
   #exlidUserAreaTile::after {
     clear: both;
     content: "";
@@ -6471,7 +6472,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   float: right;
   margin-right: 240px !important;
   position: relative;
-  top: -105px; }
+  top: -105px;
+  pointer-events: none; }
 
 #exlidUserAreaRibbon li {
   margin: 0;
@@ -6486,7 +6488,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   border-left: none;
   border-right: 1px solid #bcbdb6;
   overflow: visible;
-  background: transparent; }
+  background: transparent;
+  pointer-events: all; }
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
   #exlidUserAreaRibbon li a {
     font-family: sans-serif;

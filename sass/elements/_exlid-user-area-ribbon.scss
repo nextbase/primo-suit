@@ -3,6 +3,7 @@
     @include outer-container;
     border: none;
     float: none;
+    pointer-events: none;
 }
 
 #exlidUserAreaTile ul,
@@ -15,6 +16,7 @@
   margin-right: 240px !important;
   position: relative;
   top: -105px;
+  pointer-events: none;
 }
 
 #exlidUserAreaRibbon li {
@@ -30,6 +32,7 @@
     border-right: 1px solid $gray;
     overflow: visible;
     background: transparent;
+    pointer-events: all;
 
     .EXLUserNameDisplay,
     a {
