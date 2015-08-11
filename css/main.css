@@ -9308,30 +9308,35 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     border-color: #6f5b38;
     box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
-.EXLLighboxCancelButton.EXLLighboxSubmitButton span input {
-  color: #ffffff;
-  background-color: #cbbfae;
-  border: 2px solid #cbbfae;
-  line-height: 28px; }
-  .EXLLighboxCancelButton.EXLLighboxSubmitButton span input:hover,
-  .EXLLighboxCancelButton.EXLLighboxSubmitButton span input:active {
-    color: #ffffff;
-    background-color: #c1b39e;
-    border-color: #bbab95; }
-  .EXLLighboxCancelButton.EXLLighboxSubmitButton span input:active {
-    color: #ffffff;
-    background-color: #bbab95;
-    border-color: #b3a289;
-    box-shadow: inset 2px 2px 2px 1px rgba(179, 162, 137, 0.5); }
-
 .EXLLighboxCancelButton span {
   margin-left: 10px; }
 
 .EXLLighboxCancelButton span input {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
   color: #ffffff;
   background-color: #cbbfae;
   border: 2px solid #cbbfae;
   line-height: 28px; }
+  .EXLLighboxCancelButton span input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
   .EXLLighboxCancelButton span input:hover,
   .EXLLighboxCancelButton span input:active {
     color: #ffffff;

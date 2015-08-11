@@ -204,16 +204,12 @@
     @include set-button-size;
 }
 
-.EXLLighboxCancelButton.EXLLighboxSubmitButton span input {
-    @include set-button-color($gold-gray);
-    @include set-button-size;
-}
-
 .EXLLighboxCancelButton span {
     margin-left: 10px;
 }
 
 .EXLLighboxCancelButton span input {
+    @include button();
     @include set-button-color($gold-gray);
     @include set-button-size;
 }
