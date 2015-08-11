@@ -9311,7 +9311,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLLighboxCancelButton.EXLLighboxSubmitButton span input {
   color: #ffffff;
   background-color: #cbbfae;
-  border: 2px solid #cbbfae; }
+  border: 2px solid #cbbfae;
+  line-height: 28px; }
   .EXLLighboxCancelButton.EXLLighboxSubmitButton span input:hover,
   .EXLLighboxCancelButton.EXLLighboxSubmitButton span input:active {
     color: #ffffff;
@@ -9329,7 +9330,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLLighboxCancelButton span input {
   color: #ffffff;
   background-color: #cbbfae;
-  border: 2px solid #cbbfae; }
+  border: 2px solid #cbbfae;
+  line-height: 28px; }
   .EXLLighboxCancelButton span input:hover,
   .EXLLighboxCancelButton span input:active {
     color: #ffffff;

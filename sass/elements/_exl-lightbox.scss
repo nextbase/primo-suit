@@ -206,6 +206,7 @@
 
 .EXLLighboxCancelButton.EXLLighboxSubmitButton span input {
     @include set-button-color($gold-gray);
+    @include set-button-size;
 }
 
 .EXLLighboxCancelButton span {
@@ -214,6 +215,7 @@
 
 .EXLLighboxCancelButton span input {
     @include set-button-color($gold-gray);
+    @include set-button-size;
 }
 
 .EXLLightboxFormButtonsLink {
