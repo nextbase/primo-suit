@@ -10,7 +10,7 @@
 
 #exlidHeaderTile {
     @include reset-margins;
-    @include outer-container;
+    max-width: none;
     width: 100%;
     display: block;
 }
