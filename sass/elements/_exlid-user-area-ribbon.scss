@@ -18,14 +18,7 @@
 }
 
 #EXLLanguagesContainer {
-    @include reset-margins;
-      display: block;
-      list-style: none;
-      width: auto;
-      float: right;
-      margin-right: 160px !important;
-      position: relative;
-      top: -105px;
+    float: right;
 }
 
 #exlidUserAreaRibbon li {

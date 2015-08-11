@@ -6476,15 +6476,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   top: -105px; }
 
 #EXLLanguagesContainer {
-  margin: 0;
-  padding: 0;
-  display: block;
-  list-style: none;
-  width: auto;
-  float: right;
-  margin-right: 160px !important;
-  position: relative;
-  top: -105px; }
+  float: right; }
 
 #exlidUserAreaRibbon li {
   margin: 0;
