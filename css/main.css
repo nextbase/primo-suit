@@ -5681,27 +5681,6 @@ table.jCalendar td.unselectable.dp-hover {
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
     display: none; } }
 
-#exlidUserAreaTile {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  width: 100%;
-  max-width: none;
-  top: 0;
-  right: 0; }
-
-#exlidUserAreaTile ul {
-  margin: 0;
-  padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none; }
-  #exlidUserAreaTile ul::after {
-    clear: both;
-    content: "";
-    display: table; }
-
 h1#main_logo {
   margin: 0;
   padding: 15px 0;
@@ -6470,6 +6449,18 @@ ul.menu.dropit ul.dropit-submenu a:hover {
     clear: right;
     font-size: 80%;
     color: #777676; } }
+
+#exlidUserAreaTile {
+  margin: 0;
+  padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none; }
+  #exlidUserAreaTile::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidUserAreaRibbon {
   margin: 0;

@@ -24,20 +24,6 @@
     }
 }
 
-#exlidUserAreaTile {
-    @include reset-margins;
-    position: absolute;
-    width: 100%;
-    max-width: none;
-    top: 0;
-    right: 0;
-}
-
-#exlidUserAreaTile ul {
-    @include reset-margins;
-    @include outer-container;
-    border: none
-}
 
 h1#main_logo {
     margin: 0;

@@ -1,3 +1,9 @@
+#exlidUserAreaTile {
+    @include reset-margins;
+    @include outer-container;
+    border: none
+}
+
 #exlidUserAreaRibbon {
   @include reset-margins;
   @include span-columns(8 of 12);
