@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -5234,6 +5235,11 @@ ol li {
   src: url("../fonts/NotoSans-Bold.eot");
   src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+
 label {
   font-size: 14px;
   display: block;
@@ -5991,6 +5997,18 @@ ul.menu {
     box-shadow: 0 0 5px 0 rgba(152, 124, 77, 0.2); }
     .footer-library-selected > ul.menu > li > a:link:after,
     .footer-library-selected > ul.menu > li > a:visited:after {
+      content: "";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .footer-library-selected > ul.menu > li > a:link:after,
+    .footer-library-selected > ul.menu > li > a:visited:after {
       font-size: 12px;
       top: 0;
       right: -10px; }
@@ -6000,6 +6018,18 @@ ul.menu {
   .footer-library-selected > ul.menu > li.dropit-open > a:link,
   .footer-library-selected > ul.menu > li.dropit-open > a:visited {
     background-color: #ffffff; }
+    .footer-library-selected > ul.menu > li.dropit-open > a:link:after,
+    .footer-library-selected > ul.menu > li.dropit-open > a:visited:after {
+      content: "";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
     .footer-library-selected > ul.menu > li.dropit-open > a:link:after,
     .footer-library-selected > ul.menu > li.dropit-open > a:visited:after {
       font-size: 12px;

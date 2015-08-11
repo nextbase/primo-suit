@@ -109,7 +109,7 @@
             background-color: $gold-gray;
             display: block;
             @include prefixer(border-radius, 20px, webkit moz spec);
-            // @include glyphicon($icon-triangle-top, "after");
+        	@include glyphicon($icon-triangle-top, "after");
             @include prefixer(box-shadow, 0 0 5px 0 rgba($gold, .2), webkit moz spec);
             
             &:after {
@@ -131,7 +131,7 @@
         &:link,
         &:visited {
             background-color: $white;
-            // @include glyphicon($icon-triangle-bottom, "after");
+            @include glyphicon($icon-triangle-bottom, "after");
             
             &:after {
                 font-size: $small-font-size - 2px;
