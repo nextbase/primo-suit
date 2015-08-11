@@ -6471,7 +6471,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   list-style: none;
   width: auto;
   float: right;
-  margin-right: 160px;
+  margin-right: 160px !important;
   position: relative;
   top: -105px; }
 
