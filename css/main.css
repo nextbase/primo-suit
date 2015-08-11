@@ -9095,6 +9095,199 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   opacity: 0.90;
   filter: alpha(opacity=90); }
 
+.EXLLightbox {
+  border: 1px solid #a9967e;
+  height: auto;
+  padding: 0em;
+  margin: 0em;
+  background-color: #ffffff;
+  background-image: none;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-bottom: 1.5em;
+  border-radius: 0; }
+
+.EXLLightbox div.EXLLightboxHeader {
+  background-image: none;
+  background-color: #d8d0c4;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  height: 40px;
+  padding: 10px;
+  border-bottom: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0; }
+
+.EXLLightbox div.EXLLightboxHeader span.EXLLightboxHeaderTitle {
+  color: #333333;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 210%;
+  margin-left: 1em; }
+
+.EXLLightbox div.EXLLightboxHeader a.EXLLightboxHeaderClose {
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.6em;
+  text-align: right; }
+
+.EXLLightbox div.EXLLightboxFormContainer {
+  font-size: 80%;
+  padding-left: 1em;
+  margin-top: 1em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxHeader {
+  background-image: url(../images/lightbox_bg_title.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  height: 30px;
+  border-bottom: 1px solid #a9967e;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow {
+  vertical-align: top;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  display: block;
+  background-color: #ffffff; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow span {
+  width: 10em;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow label {
+  width: 10em;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top; }
+
+.EXLLightbox div.EXLLightboxFormContainer p {
+  background-color: #ffffff;
+  padding: 1.5em 1em 0.5em 0em;
+  color: #7b7b79;
+  font-size: 90%;
+  background-color: #ffffff; }
+
+.EXLLightbox div.EXLLightboxFormContainer select {
+  width: 200px;
+  padding: 1px;
+  color: #333333;
+  border: 1px solid #c7c7c7;
+  background-image: url(../images/lightbox_footer_bg.png);
+  background-repeat: repeat-x;
+  margin-left: 0em;
+  font-family: Arial;
+  font-size: 90%;
+  margin-top: 0em; }
+
+.EXLLightbox div.EXLLightboxFormContainer input[type="text"] {
+  padding: 2px 0px 2px 0px;
+  color: #333333;
+  border: 1px solid #c7c7c7;
+  background-image: url(../images/lightbox_footer_bg.png);
+  background-repeat: repeat-x;
+  margin-left: 0em;
+  width: 198px; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
+  margin-left: 10.2em;
+  border: 1px solid #c7c7c7;
+  padding: 0.5em;
+  width: 44em;
+  margin-top: -1em; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
+  list-style: none;
+  width: 49%; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn1 {
+  float: left; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn2 {
+  float: right;
+  padding-left: 0.5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li {
+  line-height: 130%;
+  display: block;
+  width: auto; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label {
+  padding-left: 0.2em;
+  white-space: nowrap;
+  width: auto;
+  display: inline; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.EXLLightboxFormButtons {
+  margin-top: 0.5em; }
+
+.EXLLighboxSubmitButton {
+  width: auto;
+  font-size: 90%;
+  margin-left: 0em;
+  margin-right: auto;
+  margin-top: 0.5em;
+  float: left;
+  clear: right; }
+
+.EXLLighboxSubmitButton span {
+  border: 1px solid #5dbbd6;
+  display: block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 1px; }
+
+.EXLLighboxSubmitButton span .EXLSubmit {
+  padding: 0em 0.5em 0em 0.5em;
+  color: #ffffff;
+  font-weight: normal;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  display: block;
+  line-height: 160%;
+  background-color: #f88543;
+  cursor: poointer;
+  text-decoration: none; }
+
+.EXLLighboxSubmitButton span input {
+  padding: 0em 0.5em 0em 0.5em;
+  color: #ffffff;
+  font-weight: normal;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  display: block;
+  line-height: 160%;
+  width: 80px;
+  background-color: #f88543; }
+
+.EXLLighboxCancelButton span {
+  margin-left: 0.5em; }
+
+.EXLLighboxCancelButton span input {
+  background-image: url(../images/bg_strip_btn_grey.png);
+  background-color: #f88543; }
+
+.EXLLightboxFormButtonsLink {
+  width: auto;
+  font-weight: bold;
+  float: right;
+  line-height: 150%;
+  font-size: 100%;
+  margin-top: 0.7em;
+  margin-right: 2.5em; }
+
 .EXLResultsContainer {
   margin: 0;
   padding: 0;
