@@ -11,6 +11,11 @@
 
     @include prefixer(border-radius, 0, webkit moz spec); // may also use: $form-border-radius
     @include prefixer(box-shadow, 0 0 20px 10px rgba($black, .5), webkit moz spec);
+
+}
+
+.EXLLightbox .exlidRecentness {
+    width: 100%;
 }
 
 .EXLLightbox div.EXLLightboxHeader {

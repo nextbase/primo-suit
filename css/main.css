@@ -9108,6 +9108,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   border-radius: 0;
   box-shadow: 0 0 20px 10px rgba(51, 51, 51, 0.5); }
 
+.EXLLightbox .exlidRecentness {
+  width: 100%; }
+
 .EXLLightbox div.EXLLightboxHeader {
   background-image: none;
   background-color: #f2f2f0;
