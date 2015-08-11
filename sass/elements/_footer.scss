@@ -243,7 +243,7 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 		li > a,
 		li > a:link,
 		li > a:visited, {
-			font-size: $base-font-size;
+			font-size: $base-font-size - 2px;
 			font-weight: bold;
 			text-transform: none;
 			color: $sitemap-font-color;
@@ -281,7 +281,7 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 				> li > a,
 				> li > a:link,
 				> li > a:visited, {
-					font-size: $base-font-size;
+					font-size: $base-font-size - 2px;
 					font-weight: bold;
 					text-transform: none;
 					margin-bottom: 5px;
@@ -301,7 +301,7 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 						> li > a,
 						> li > a:link,
 						> li > a:visited {
-							font-size: $base-font-size - 2px;
+							font-size: $base-font-size - 2px - 2px;
 							font-weight: lighter;
 							text-transform: none;
 							margin-bottom: 5px;

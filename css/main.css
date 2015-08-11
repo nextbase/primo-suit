@@ -6112,7 +6112,7 @@ ul.menu {
     .sitemap-container > ul.menu li > a,
     .sitemap-container > ul.menu li > a:link,
     .sitemap-container > ul.menu li > a:visited {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: bold;
       text-transform: none;
       color: #50473b;
@@ -6146,7 +6146,7 @@ ul.menu {
         .sitemap-container > ul.menu > li > ul.menu > li > a,
         .sitemap-container > ul.menu > li > ul.menu > li > a:link,
         .sitemap-container > ul.menu > li > ul.menu > li > a:visited {
-          font-size: 16px;
+          font-size: 14px;
           font-weight: bold;
           text-transform: none;
           margin-bottom: 5px; }
@@ -6162,7 +6162,7 @@ ul.menu {
             .sitemap-container > ul.menu > li > ul.menu > li > ul.menu > li > a,
             .sitemap-container > ul.menu > li > ul.menu > li > ul.menu > li > a:link,
             .sitemap-container > ul.menu > li > ul.menu > li > ul.menu > li > a:visited {
-              font-size: 14px;
+              font-size: 12px;
               font-weight: lighter;
               text-transform: none;
               margin-bottom: 5px; }
