@@ -5672,8 +5672,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 0;
   max-width: none;
   width: 100%;
-  display: block;
-  z-index: 12; }
+  display: block; }
 
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
@@ -5817,7 +5816,8 @@ ul.menu {
     width: 100%;
     font-family: "Noto Sans Korean", sans-serif;
     font-size: 15px;
-    font-weight: medium; }
+    font-weight: medium;
+    z-index: 99; }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:last-child {
       margin-right: 0; }
