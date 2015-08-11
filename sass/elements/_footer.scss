@@ -10,6 +10,7 @@
 #footer {
 	background-color: $gold-gray;
 	margin-top: 0;
+	width: 100%;
 	
 	#block-snu-head-block-snu-foot-block {
 		h2 {
@@ -424,7 +425,3 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 	display: block;
 }
 
-//footer temporary 
-#footer {
-	min-width: 1200px;
-}

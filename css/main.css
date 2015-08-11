@@ -5914,7 +5914,8 @@ ul.menu {
 
 #footer {
   background-color: #cbbfae;
-  margin-top: 0; }
+  margin-top: 0;
+  width: 100%; }
   #footer #block-snu-head-block-snu-foot-block h2 {
     display: none; }
   #footer .site_link_title {
@@ -6247,9 +6248,6 @@ ul.menu {
 
 .front .footer_related_link {
   display: block; }
-
-#footer {
-  min-width: 1200px; }
 
 ul.menu.dropit,
 .dropit {
