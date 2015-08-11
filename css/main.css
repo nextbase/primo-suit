@@ -6463,6 +6463,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
     content: "";
     display: table; }
 
+#exlidUserAreaTile ul,
 #exlidUserAreaRibbon {
   margin: 0;
   padding: 0;
@@ -6477,6 +6478,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   margin-right: 160px;
   position: relative;
   top: -105px; }
+  #exlidUserAreaTile ul:last-child,
   #exlidUserAreaRibbon:last-child {
     margin-right: 0; }
 
