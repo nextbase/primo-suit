@@ -5686,6 +5686,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 0;
   position: absolute;
   width: 100%;
+  max-width: none;
   top: 0;
   right: 0; }
 
