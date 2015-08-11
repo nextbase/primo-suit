@@ -9134,8 +9134,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLLightbox div.EXLLightboxFormContainer {
   font-size: 80%;
-  padding-left: 1em;
-  margin-top: 1em; }
+  margin: 20px;
+  padding: 20px; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxHeader {
   background-image: url(../images/lightbox_bg_title.png);
@@ -9148,8 +9148,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow {
   vertical-align: top;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  padding: 0;
   display: block;
   background-color: #ffffff; }
 
