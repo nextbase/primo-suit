@@ -1,9 +1,9 @@
-
+#footerEXL,
 .EXLFooterTile {
     @include reset-margins;
-    @include outer-container;
-    padding-top: $spacing-large;
-    border-top: 1px solid $gold-gray;
+    width: 100%;
+    padding-top: 0;
+    border-top: none;
     display: block;
     background-image: none;
     float: none;

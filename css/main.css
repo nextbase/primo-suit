@@ -12598,21 +12598,16 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLNoResultsDivText {
   line-height: 21px; }
 
+#footerEXL,
 .EXLFooterTile {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-  border-top: 1px solid #cbbfae;
+  width: 100%;
+  padding-top: 0;
+  border-top: none;
   display: block;
   background-image: none;
   float: none; }
-  .EXLFooterTile::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .EXLFooterTile div.EXLFooterLinksContainer {
   float: left;
