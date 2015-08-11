@@ -9208,6 +9208,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     line-height: 1.2;
     margin-right: 5px;
     height: 28px; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection label {
+    float: left; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
   list-style: none;
