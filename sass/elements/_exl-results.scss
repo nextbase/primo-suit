@@ -67,9 +67,7 @@ div.EXLResultsHeader:focus {
     @include reset-margins;
     display: block;
     z-index: 100;
-    position: absolute;
-    left: 10px;
-    top: 40px;
+    float: left;
 }
 
 #resultsNumbersTileBottom div.EXLResultsSortBy {
