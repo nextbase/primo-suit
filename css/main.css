@@ -9153,10 +9153,12 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-color: #ffffff; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow span {
-  width: 10em;
-  display: inline-block;
-  white-space: normal;
-  vertical-align: top; }
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.25;
+  display: block;
+  white-space: normal; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow label {
   width: 10em;
@@ -9201,6 +9203,11 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     clear: both;
     content: "";
     display: table; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection input[type=checkbox] {
+    float: left;
+    line-height: 1.2;
+    margin-right: 5px;
+    height: 28px; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
   list-style: none;
