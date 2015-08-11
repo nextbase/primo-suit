@@ -9214,6 +9214,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
   list-style: none;
   width: 49%; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul ul {
+    margin-top: 10px; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn1 {
   float: left; }
@@ -9231,7 +9233,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding-left: 0.2em;
   white-space: nowrap;
   width: auto;
-  display: inline; }
+  display: inline;
+  float: left; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label:hover {
   cursor: pointer;

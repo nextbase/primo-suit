@@ -132,6 +132,10 @@
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
     list-style: none;
     width: 49%;
+
+    ul {
+        margin-top: 10px;
+    }
 }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn1 {
@@ -154,6 +158,7 @@
     white-space: nowrap;
     width: auto;
     display: inline;
+    float: left;
 }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label:hover {
