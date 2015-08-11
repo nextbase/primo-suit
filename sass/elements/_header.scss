@@ -222,7 +222,7 @@ ul.menu {
             position: relative;
 
             &:after {
-                // @include icon($icon-triangle-bottom);
+                @include glyphicon($icon-triangle-bottom, 'after');
                 font-size: 8px;
                 font-weight: lighter;
                 right: -14px;
