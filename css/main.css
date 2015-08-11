@@ -6467,10 +6467,6 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 #exlidUserAreaRibbon {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
   display: block;
   list-style: none;
   width: auto;
@@ -6478,9 +6474,6 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   margin-right: 160px;
   position: relative;
   top: -105px; }
-  #exlidUserAreaTile ul:last-child,
-  #exlidUserAreaRibbon:last-child {
-    margin-right: 0; }
 
 #exlidUserAreaRibbon li {
   margin: 0;
