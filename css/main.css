@@ -5775,7 +5775,7 @@ h1#main_logo {
           text-transform: uppercase; }
 
 #header {
-  min-width: 1200px; }
+  z-index: 12; }
 
 ul.menu {
   font-family: "Noto Sans Korean", sans-serif; }

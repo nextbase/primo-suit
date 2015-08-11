@@ -128,7 +128,8 @@ h1#main_logo {
 }
 
 #header {
-    min-width: 1200px;
+    // min-width: 1200px;
+    z-index: 12;
 }
 
 ul.menu {
