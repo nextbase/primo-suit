@@ -1,5 +1,5 @@
 .EXLLightbox {
-    border: 1px solid $gold-light-secondary;
+    border: 1px solid $white;
     height: auto;
     padding: 0em;
     margin: 0em;
@@ -10,15 +10,16 @@
     padding-bottom: 1.5em;
 
     @include prefixer(border-radius, 0, webkit moz spec); // may also use: $form-border-radius
+    @include prefixer(box-shadow, 0 0 20px 10px rgba($black, .5), webkit moz spec);
 }
 
 .EXLLightbox div.EXLLightboxHeader {
     background-image: none;
-    background-color: $gold-gray-secondary;
+    background-color: $gray-light;
     background-position: bottom;
     background-repeat: repeat-x;
-    height: 40px;
-    padding: 10px;
+    height: 42px;
+    padding: 5px;
     border-bottom: 0;
     -moz-border-radius-topleft: 0;
     -moz-border-radius-topright: 0;
