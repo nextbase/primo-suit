@@ -235,6 +235,10 @@ $sitemap-font-color-visited: lighten($sitemap-font-color, 10%);
 		@include reset-margins;
 		@include outer-container;
 
+		border: none;
+	    list-style: none;
+	    text-align: left;
+
 		// Link Colors
 		li > a,
 		li > a:link,

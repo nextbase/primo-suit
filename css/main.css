@@ -6101,7 +6101,10 @@ ul.menu {
     padding: 0;
     max-width: 1170px;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    border: none;
+    list-style: none;
+    text-align: left; }
     .sitemap-container > ul.menu::after {
       clear: both;
       content: "";
