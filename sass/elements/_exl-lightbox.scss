@@ -68,6 +68,8 @@
     font-weight: bold;
     font-size: $h4-fontsize;
     line-height: $h4-lineheight;
+    margin-bottom: 10px;
+    margin-top: 20px;
     display: block;
     white-space: normal;
 }
@@ -135,6 +137,7 @@
 
     ul {
         margin-top: 10px;
+        margin-bottom: 5px;
     }
 }
 
@@ -151,7 +154,7 @@
     line-height: 1.4;
     display: block;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label {
