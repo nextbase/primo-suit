@@ -17,6 +17,7 @@
 .EXLSearchWrapper {
     @include reset-margins;
     @include outer-container;
+    float: none;
 }
 
 #searchForm,

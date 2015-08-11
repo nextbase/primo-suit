@@ -6573,7 +6573,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   padding: 0;
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  float: none; }
   #exlidSearchTileWrapper::after,
   .EXLSearchWrapper::after {
     clear: both;
