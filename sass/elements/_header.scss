@@ -1,6 +1,5 @@
 #exlidHeaderContainer {
     @include reset-margins;
-    @include outer-container;
     @include clearfix;
     width: 100%;
     max-width: none;
@@ -11,8 +10,9 @@
 
 #exlidHeaderTile {
     @include reset-margins;
-    display: block;
     @include outer-container;
+    width: 100%;
+    display: block;
 }
 
 @include media($mobile) {

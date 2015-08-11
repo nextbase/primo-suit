@@ -5657,9 +5657,6 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidHeaderContainer {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
   max-width: none;
   margin-bottom: 40px;
@@ -5669,18 +5666,15 @@ table.jCalendar td.unselectable.dp-hover {
     clear: both;
     content: "";
     display: table; }
-  #exlidHeaderContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 #exlidHeaderTile {
   margin: 0;
   padding: 0;
-  display: block;
   max-width: 1170px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  width: 100%;
+  display: block; }
   #exlidHeaderTile::after {
     clear: both;
     content: "";
