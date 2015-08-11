@@ -12607,7 +12607,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   border-top: none;
   display: block;
   background-image: none;
-  float: none; }
+  float: none;
+  max-width: none; }
 
 .EXLFooterTile div.EXLFooterLinksContainer {
   float: left;
