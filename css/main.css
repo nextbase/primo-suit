@@ -5134,14 +5134,8 @@ ol li {
 
 #contentEXL,
 .EXLCustomLayoutContainer {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  #contentEXL::after,
-  .EXLCustomLayoutContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
+  max-width: none;
+  width: 100%; }
 
 .outter-container {
   max-width: 1170px;
@@ -5666,6 +5660,7 @@ table.jCalendar td.unselectable.dp-hover {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   margin-bottom: 40px;
   position: relative;
   margin-bottom: 0; }

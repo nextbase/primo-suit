@@ -1,6 +1,7 @@
 #contentEXL,
 .EXLCustomLayoutContainer {
-	@include outer-container;
+	max-width: none;
+	width: 100%;
 }
 
 .outter-container {
