@@ -16,7 +16,7 @@
 #exlidSearchTileWrapper,
 .EXLSearchWrapper {
     @include reset-margins;
-    @include span-columns(12);
+    @include outer-container;
 }
 
 #searchForm,

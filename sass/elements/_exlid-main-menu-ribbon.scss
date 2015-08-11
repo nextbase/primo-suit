@@ -1,7 +1,7 @@
 
 #exlidMainMenuTile {
     @include reset-margins;
-    @include span-columns(8);
+    @include outer-container;
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;

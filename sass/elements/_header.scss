@@ -26,9 +26,7 @@
 
 #exlidUserAreaTile {
     @include reset-margins;
-    float: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    @include outer-container;
 }
 
 #exlidUserAreaTile ul {

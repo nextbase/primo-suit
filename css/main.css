@@ -5683,9 +5683,13 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidUserAreaTile {
   margin: 0;
   padding: 0;
-  float: right;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #exlidUserAreaTile::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidUserAreaTile ul {
   margin: 0;
@@ -6567,13 +6571,14 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 .EXLSearchWrapper {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%; }
-  #exlidSearchTileWrapper:last-child,
-  .EXLSearchWrapper:last-child {
-    margin-right: 0; }
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
+  #exlidSearchTileWrapper::after,
+  .EXLSearchWrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #searchForm,
 .EXLSearchForm {
@@ -7303,18 +7308,19 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidMainMenuTile {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 65.88078%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
   clear: none; }
-  #exlidMainMenuTile:last-child {
-    margin-right: 0; }
+  #exlidMainMenuTile::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
