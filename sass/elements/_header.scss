@@ -26,11 +26,15 @@
 
 #exlidUserAreaTile {
     @include reset-margins;
-    @include outer-container;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
 }
 
 #exlidUserAreaTile ul {
     @include reset-margins;
+    @include outer-container;
     border: none
 }
 

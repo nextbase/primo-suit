@@ -5135,7 +5135,8 @@ ol li {
 #contentEXL,
 .EXLCustomLayoutContainer {
   max-width: none;
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .outter-container {
   max-width: 1170px;
@@ -5683,18 +5684,22 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidUserAreaTile {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  #exlidUserAreaTile::after {
-    clear: both;
-    content: "";
-    display: table; }
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0; }
 
 #exlidUserAreaTile ul {
   margin: 0;
   padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   border: none; }
+  #exlidUserAreaTile ul::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 h1#main_logo {
   margin: 0;
