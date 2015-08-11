@@ -9194,11 +9194,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   width: 198px; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
-  margin-left: 10.2em;
-  border: 1px solid #c7c7c7;
-  padding: 0.5em;
-  width: 44em;
-  margin-top: -1em; }
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #987c4d; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
   list-style: none;
