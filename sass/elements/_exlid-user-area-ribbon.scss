@@ -1,6 +1,6 @@
 #exlidUserAreaRibbon {
   @include reset-margins;
-  @include span-columns(12);
+  @include outer-container;
   display: block;
   list-style: none;
   width: auto;

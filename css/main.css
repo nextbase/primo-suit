@@ -6474,15 +6474,16 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 #exlidUserAreaRibbon {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   list-style: none;
   width: auto; }
-  #exlidUserAreaRibbon:last-child {
-    margin-right: 0; }
+  #exlidUserAreaRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidUserAreaRibbon li {
   margin: 0;
