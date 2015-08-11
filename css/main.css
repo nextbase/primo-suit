@@ -6468,9 +6468,15 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 #exlidUserAreaRibbon {
   margin: 0;
   padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   display: block;
   list-style: none;
   width: auto; }
+  #exlidUserAreaRibbon:last-child {
+    margin-right: 0; }
 
 #exlidUserAreaRibbon li {
   margin: 0;
@@ -7325,11 +7331,17 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
-  width: auto; }
+  width: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
   #exlidMainMenuTile div.EXLMainMenuContainer::after {
     clear: both;
     content: "";
     display: table; }
+  #exlidMainMenuTile div.EXLMainMenuContainer:last-child {
+    margin-right: 0; }
 
 #exlidMainMenuTile div.EXLMainMenuContainer ul {
   list-style-type: none; }
