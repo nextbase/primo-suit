@@ -10229,7 +10229,7 @@ body.EXLFullView div.EXLBackToResults {
   padding: 0;
   height: auto;
   position: absolute;
-  z-index: 0; }
+  z-index: 10; }
 
 #exlidSearchTabs {
   margin: 0;

@@ -9,7 +9,7 @@ $search-tab-font-size: 14px;
     @include reset-margins;
     height: auto;
     position: absolute;
-    z-index: 0;
+    z-index: 10;
 }
 
 #exlidSearchTabs {
