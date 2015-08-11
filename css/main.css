@@ -9156,16 +9156,15 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow span {
   width: 100%;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 18px;
   line-height: 1.25;
   margin-bottom: 10px;
-  margin-top: 20px;
   display: block;
   white-space: normal; }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow label {
-  width: 10em;
+  width: auto;
   display: inline-block;
   white-space: normal;
   vertical-align: top; }
@@ -9201,8 +9200,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
   margin: 0;
   padding: 20px;
+  margin-bottom: 20px;
   width: 100%;
-  border: 1px solid #987c4d; }
+  border: 1px solid #d8d0c4; }
   .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection::after {
     clear: both;
     content: "";

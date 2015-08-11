@@ -69,17 +69,16 @@
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow span {
     width: 100%;
-    font-weight: bold;
+    font-weight: normal;
     font-size: $h4-fontsize;
     line-height: $h4-lineheight;
     margin-bottom: 10px;
-    margin-top: 20px;
     display: block;
     white-space: normal;
 }
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow label {
-    width: 10em;
+    width: auto;
     display: inline-block;
     white-space: normal;
     vertical-align: top;
@@ -119,8 +118,9 @@
 .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
     margin: 0;
     padding: 20px;
+    margin-bottom: 20px;
     width: 100%;
-    border: 1px solid $gold;
+    border: 1px solid $gold-gray-secondary;
     @include clearfix;
 
     input[type=checkbox] {
