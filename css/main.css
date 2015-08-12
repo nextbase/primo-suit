@@ -12780,6 +12780,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMyAccountTabsRibbon div li.EXLMyAccountTab a {
   color: #404040;
   font-size: 80%; }
+  .EXLMyAccountTabsRibbon div li.EXLMyAccountTab a:hover,
+  .EXLMyAccountTabsRibbon div li.EXLMyAccountTab a:active {
+    background-color: #333333; }
 
 .EXLMyAccountTabsRibbon div a:hover {
   text-decoration: underline; }

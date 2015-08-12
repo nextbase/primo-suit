@@ -43,6 +43,11 @@
 .EXLMyAccountTabsRibbon div li.EXLMyAccountTab a {
     color: lighten($black, 5%);
     font-size: 80%;
+
+    &:hover,
+    &:active {
+        background-color: $black;
+    }
 }
 
 .EXLMyAccountTabsRibbon div a:hover {
