@@ -7030,17 +7030,20 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   overflow: hidden;
   line-height: 200%; }
 
-.EXLSearchFieldRibbonFormSelectedCollectionLabel:after {
-  content: "";
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+.EXLSearchFieldRibbonFormSelectedCollectionLabel {
+  background-color: #ffffff;
+  border: 0; }
+  .EXLSearchFieldRibbonFormSelectedCollectionLabel:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
   color: #32322f;
@@ -7246,9 +7249,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   overflow: hidden;
   margin-top: 0em;
   height: 23px; }
-
-.EXLSearchFieldRibbonFormSelectedLabelBrowse {
-  padding-right: 0.5em; }
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
   margin: 0;
@@ -13358,6 +13358,9 @@ a.EXLLoansRenewButton {
 .EXLMyAccountMainContainer form select {
   border: inherit;
   height: auto; }
+
+.EXLSearchFieldRibbonFormSelectedLabelBrowse {
+  padding-right: 0; }
 
 .EXLMyAccountMainContainer form input {
   font-size: 14px;

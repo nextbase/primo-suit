@@ -263,13 +263,9 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel {
-    // display: inline-block;
-    // height: 100%;
-    // padding-left: 0.5em;
-    // width: 100%;
-    // overflow: hidden;
-
     @include glyphicon($icon-chevron-down, 'after');
+    background-color: $white;
+    border: 0;
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
@@ -500,9 +496,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     height: 23px;
 }
 
-.EXLSearchFieldRibbonFormSelectedLabelBrowse {
-    padding-right: 0.5em;
-}
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
     @include reset-margins;

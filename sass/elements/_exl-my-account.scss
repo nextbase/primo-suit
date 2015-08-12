@@ -623,6 +623,10 @@ a.EXLLoansRenewButton {
     height: auto;
 }
 
+.EXLSearchFieldRibbonFormSelectedLabelBrowse {
+    padding-right: 0;
+}
+
 .EXLMyAccountMainContainer form input {
     @include input;
     @include input-size("default");
