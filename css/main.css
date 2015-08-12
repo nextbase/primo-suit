@@ -7858,10 +7858,18 @@ li.EXLFacet label {
   background-image: url(../images/icon_save_search_off.png); }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfAction {
-  background-image: url(../images/icon_save_search_eshelf.png); }
+  background-image: url("../images/icon_star_on.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfAction {
+      background-image: url("../images/icon_star_on_2x.png");
+      background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfActionOff {
-  background-image: url(../images/icon_save_search_eshelf_off.png); }
+  background-image: url("../images/icon_star_off.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfActionOff {
+      background-image: url("../images/icon_star_off_2x.png");
+      background-size: 20px 20px; } }
 
 #exlidTopLevelFacetsTile {
   margin: 0;

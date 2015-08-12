@@ -302,11 +302,12 @@ li.EXLFacet {
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfAction {
-    background-image: url(../images/icon_save_search_eshelf.png);
+    @include retina-image('../images/icon_star_on', 20px 20px);
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfActionOff {
-    background-image: url(../images/icon_save_search_eshelf_off.png);
+    @include retina-image('../images/icon_star_off', 20px 20px);
+
 }
 
 
