@@ -9381,7 +9381,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin: 0;
   padding: 0;
   float: left;
-  display: block; }
+  display: block;
+  border: none; }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
   margin: 0;
@@ -9446,8 +9447,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #a9967e;
-  border: 2px solid #a9967e;
+  background-color: #bcbdb6;
+  border: 2px solid #bcbdb6;
   line-height: 28px; }
   #exlidFacetsLightboxContainer input.EXLReset::-moz-focus-inner {
     border: 0;
@@ -9455,13 +9456,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   #exlidFacetsLightboxContainer input.EXLReset:hover,
   #exlidFacetsLightboxContainer input.EXLReset:active {
     color: #ffffff;
-    background-color: #9f8a6f;
-    border-color: #998266; }
+    background-color: #b0b1a9;
+    border-color: #a8aaa1; }
   #exlidFacetsLightboxContainer input.EXLReset:active {
     color: #ffffff;
-    background-color: #998266;
-    border-color: #8c785e;
-    box-shadow: inset 2px 2px 2px 1px rgba(140, 120, 94, 0.5); }
+    background-color: #a8aaa1;
+    border-color: #9fa096;
+    box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
 .EXLFacetsLightboxTabsRibbon {
   height: 28px;

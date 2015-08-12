@@ -418,7 +418,7 @@
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
     background-image: url(../images/icon_close_tabs.png);
     background-position: center;
-    margin-left: 0em
+    margin-left: 0em;
 }
 
 #exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormResetSearch {
@@ -432,6 +432,7 @@
     @include reset-margins;
     float: left;
     display: block;
+    border: none;
 }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
@@ -446,7 +447,7 @@
     @include reset-margins;
     border: none;
     @include button;
-    @include set-button-color($gold-light-secondary);
+    @include set-button-color($gray);
     @include set-button-size;
 }
 
