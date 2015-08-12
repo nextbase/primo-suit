@@ -5805,7 +5805,7 @@ ul.menu {
     width: 100%;
     font-family: "Noto Sans Korean", sans-serif;
     font-size: 15px;
-    font-weight: medium; }
+    font-weight: normal; }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:last-child {
       margin-right: 0; }
@@ -5833,21 +5833,21 @@ ul.menu {
       padding-right: 1.6em;
       position: relative; }
       #block-menu-block-1 li.expanded > a:after {
+        content: "";
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; }
+      #block-menu-block-1 li.expanded > a:after {
         font-size: 8px;
         font-weight: lighter;
         right: -14px;
         top: 0; }
-        #block-menu-block-1 li.expanded > a:after:after {
-          content: "";
-          position: relative;
-          top: 1px;
-          display: inline-block;
-          font-family: 'Glyphicons Halflings';
-          font-style: normal;
-          font-weight: normal;
-          line-height: 1;
-          -webkit-font-smoothing: antialiased;
-          -moz-osx-font-smoothing: grayscale; }
     #block-menu-block-1 li.expanded:focus > .menu,
     #block-menu-block-1 li.expanded:hover > .menu {
       display: block; }
