@@ -9590,8 +9590,7 @@ div.EXLResultsHeader:focus {
   border: 1px solid #bcbdb6;
   color: #bcbdb6;
   display: inline-block;
-  height: 26px;
-  display: none; }
+  height: 26px; }
   .EXLResultsNavigation .EXLBriefResultsPaginationPageCount:link,
   .EXLBriefResultsPagination:link {
     color: #cbbfae;
