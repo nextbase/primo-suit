@@ -9502,7 +9502,10 @@ div.EXLResultsHeader:focus {
   padding: 0;
   display: block;
   z-index: 100;
-  float: left; }
+  float: left;
+  margin-left: 20px;
+  height: 20px;
+  margin-top: 8px; }
 
 #resultsNumbersTileBottom div.EXLResultsSortBy {
   display: none; }
