@@ -435,33 +435,19 @@
 }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
-    border: 1px solid $white;
-    padding: 0.3em 0.5em 0em 0.5em;
-    display: inline-block;
-    background-color: $gold;
-    background-image: url(../css/images/bg_strip_btn_orange.png);
-    background-repeat: repeat-x;
-    margin: 0em;
-    width: auto;
-    color: $white;
-    font-weight: normal;
-    height: 18px;
-    cursor: pointer;
-    text-decoration: none;
+    @include reset-margins;
+    border: none;
+    @include button;
+    @include set-button-color($gold);
+    @include set-button-size;
 }
 
 #exlidFacetsLightboxContainer input.EXLReset {
-    border: 1px solid $white;
-    padding: 0em 0.5em 0em 0.5em;
-    display: inline-block;
-    background-color: $gold;
-    margin: 0em;
-    width: auto;
-    color: $white;
-    font-weight: normal;
-    height: 24px;
-    cursor: pointer;
-    background-color: #bababa;
+    @include reset-margins;
+    border: none;
+    @include button;
+    @include set-button-color($gold-light-secondary);
+    @include set-button-size;
 }
 
 .EXLFacetsLightboxTabsRibbon {

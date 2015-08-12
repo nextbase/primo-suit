@@ -9384,32 +9384,84 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   display: block; }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
-  border: 1px solid #ffffff;
-  padding: 0.3em 0.5em 0em 0.5em;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
   display: inline-block;
-  background-color: #987c4d;
-  background-image: url(../css/images/bg_strip_btn_orange.png);
-  background-repeat: repeat-x;
-  margin: 0em;
+  height: auto;
   width: auto;
-  color: #ffffff;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
   font-weight: normal;
-  height: 18px;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  text-decoration: none; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px; }
+  #exlidFacetsLightboxContainer a.EXLSubmit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidFacetsLightboxContainer a.EXLSubmit:hover,
+  #exlidFacetsLightboxContainer a.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  #exlidFacetsLightboxContainer a.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
 #exlidFacetsLightboxContainer input.EXLReset {
-  border: 1px solid #ffffff;
-  padding: 0em 0.5em 0em 0.5em;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
   display: inline-block;
-  background-color: #987c4d;
-  margin: 0em;
+  height: auto;
   width: auto;
-  color: #ffffff;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
   font-weight: normal;
-  height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  background-color: #bababa; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #a9967e;
+  border: 2px solid #a9967e;
+  line-height: 28px; }
+  #exlidFacetsLightboxContainer input.EXLReset::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidFacetsLightboxContainer input.EXLReset:hover,
+  #exlidFacetsLightboxContainer input.EXLReset:active {
+    color: #ffffff;
+    background-color: #9f8a6f;
+    border-color: #998266; }
+  #exlidFacetsLightboxContainer input.EXLReset:active {
+    color: #ffffff;
+    background-color: #998266;
+    border-color: #8c785e;
+    box-shadow: inset 2px 2px 2px 1px rgba(140, 120, 94, 0.5); }
 
 .EXLFacetsLightboxTabsRibbon {
   height: 28px;
