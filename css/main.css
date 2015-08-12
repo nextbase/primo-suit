@@ -7312,7 +7312,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
-  width: 160px;
+  width: 300px;
   padding-right: 110px;
   height: 36px; }
   #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field:focus {
