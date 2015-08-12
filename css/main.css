@@ -13001,7 +13001,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSelected {
   background-color: #ffffff;
-  border: 1px solid #5dbbd6;
+  border: none;
   display: inline;
   padding: 1px 5px 1px 5px;
   font-weight: bold; }
@@ -13226,7 +13226,7 @@ a.EXLLoansRenewButton {
   margin-top: 2em; }
 
 .EXLMyAccountButtonLink span {
-  border: 1px solid #5dbbd6;
+  border: none;
   display: block;
   width: 80px;
   height: 20px;
@@ -13561,16 +13561,16 @@ a.EXLLoansRenewButton {
   text-align: left; }
 
 .EXLMyAccountMainContainer form select {
-  border: 1px solid #5dbbd6;
+  border: none;
   height: auto; }
 
 .EXLMyAccountMainContainer form input {
-  border: 1px solid #5dbbd6;
+  border: none;
   height: 18px;
   width: 15em; }
 
 .EXLMyAccountMainContainer form span.submit {
-  border: 1px solid #5dbbd6;
+  border: none;
   display: inline-block;
   width: auto;
   height: 22px; }
