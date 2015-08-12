@@ -454,6 +454,11 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     span.EXLHiddenCue {
         display: block;
         width: 240px;
+        left: 0;
+        position: static;
+        float: none;
+        height: 20px;
+        margin-bottom: 5px;
     }
 }
 
