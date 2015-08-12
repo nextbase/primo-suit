@@ -6847,7 +6847,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 
 .EXLSearchFieldRibbonFormSearchFor {
   float: left;
-  width: 100%; }
+  width: 240px; }
 
 .EXLClearSimpleSearchBoxButtonClose {
   background-image: url("../images/form_clear.png");
