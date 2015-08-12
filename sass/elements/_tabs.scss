@@ -63,7 +63,7 @@ ul.EXLCitationLinkerTabs {
                 
                 &:hover {
                     text-decoration: none;
-                    background-color: $gray-light;
+                    background-color: darken($gray, 10%);
                     color: $white;
                 }
                 
