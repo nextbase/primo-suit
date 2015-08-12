@@ -10356,6 +10356,9 @@ body.EXLFullView div.EXLBackToResults {
     border: 1px solid #666666;
     font-weight: bold; }
 
+#exlidHomeContainer {
+  min-height: 400px; }
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
   margin: 0;
   padding: 0;

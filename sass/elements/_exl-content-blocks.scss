@@ -30,6 +30,10 @@
 	margin-bottom: $spacing-small;
 }
 
+#exlidHomeContainer {
+    min-height: 400px;
+}
+
 #exlidHomeContainer div.EXLHomeBlockContainer1 {
     @include reset-margins;
     width: 100%;
