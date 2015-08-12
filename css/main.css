@@ -9484,6 +9484,10 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   width: auto;
   margin-right: 13em; }
 
+#exlidFacetsLightboxForm {
+  height: 440px;
+  overflow: scroll; }
+
 .EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
   margin-right: 0em; }
 
