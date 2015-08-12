@@ -1032,16 +1032,8 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    background-color: $gold;
-    background-image: url(../images/bg_strip_submit_temp.png);
-    background-repeat: repeat-x;
-    margin-left: 0em;
-    width: auto;
-    color: $white;
-    font-weight: normal;
-    height: 22px;
-    cursor: pointer;
-    border: 1px solid $white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");
 }
