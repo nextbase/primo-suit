@@ -70,6 +70,16 @@ $distance-to-content: 20px;
 .EXLSearchFieldRibbonFormSearchFor {
     float: left;
     width: 240px;
+
+    label.EXLHide {
+        display: block;
+        width: 240px;
+        left: 0;
+        position: static;
+        float: none;
+        height: 20px;
+        margin-bottom: 5px;
+    }
 }
 
 .EXLClearSimpleSearchBoxButtonClose {
