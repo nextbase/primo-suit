@@ -552,7 +552,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field {
     @include input;
     @include input-size("default");
-    @include form-element-width("full-width");
+    @include form-element-width();
     padding-right: $search-button-width + 30px;
     height: 36px;
 
