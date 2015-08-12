@@ -625,7 +625,7 @@ a.EXLLoansRenewButton {
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
     padding-right: 0;
-    position: absolute;
+    @include input();
 }
 
 .EXLMyAccountMainContainer form input {
