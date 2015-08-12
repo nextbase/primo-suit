@@ -6855,7 +6855,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
     position: static;
     float: none;
     height: 20px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    line-height: 20px; }
 
 .EXLClearSimpleSearchBoxButtonClose {
   background-image: url("../images/form_clear.png");
