@@ -164,8 +164,6 @@ div.EXLResultsHeader:focus {
       color: $gray;
       display: inline-block;
       height: 26px;
-        
-      // display: none;
 
       &:link {
         color: $gold-gray;
@@ -185,6 +183,10 @@ div.EXLResultsHeader:focus {
     background: $gray;
     color: $white;
     border: 1px solid $gray;
+}
+
+.EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
+h1 span.EXLBriefResultsPaginationPageCount {
     display: none;
 }
 

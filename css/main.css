@@ -9605,7 +9605,10 @@ div.EXLResultsHeader:focus {
 .EXLResultsNavigation .EXLBriefResultsPaginationPageCount {
   background: #bcbdb6;
   color: #ffffff;
-  border: 1px solid #bcbdb6;
+  border: 1px solid #bcbdb6; }
+
+.EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
+h1 span.EXLBriefResultsPaginationPageCount {
   display: none; }
 
 .EXLBriefResultsPagination:hover {
