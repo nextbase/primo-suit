@@ -631,12 +631,14 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    @include button;
-    @include set-button-color($gold);
-    @include set-button-size;
+    height: auto;
+    display: block;
+    width: auto;
 
     input {
-        max-width: 100%;
+        @include button;
+        @include set-button-color($gold);
+        @include set-button-size;
     }
 }
 
