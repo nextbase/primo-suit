@@ -13278,9 +13278,10 @@ a.EXLLoansRenewButton {
   background-image: url(../images/icon_block.png); }
 
 .EXLMyAccountFormContainer {
-  width: 96%;
-  padding-top: 1em;
-  min-height: 30em; }
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 400px; }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
   margin-bottom: 1em;

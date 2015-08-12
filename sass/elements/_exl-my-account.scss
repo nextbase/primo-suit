@@ -572,9 +572,9 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountFormContainer {
-    width: 96%;
-    padding-top: 1em;
-    min-height: 30em;
+    width: 100%;
+    @include reset-margins;
+    min-height: 400px;
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
