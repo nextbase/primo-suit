@@ -586,9 +586,8 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm {
-    margin-bottom: 1em;
+    @include reset-margins;
     width: 100%;
-    margin-left: 2%;
     height: auto;
     float: left;
     display: inline-block;
@@ -625,16 +624,16 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer form input {
-    border: inherit;
-    height: 18px;
-    width: 15em;
+    @include input;
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");   
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    border: inherit;
-    display: inline-block;
-    width: 10em;
-    height: 22px;
+    @include button;
+    @include set-button-color($gold);
+    @include set-button-size;
 
     input {
         max-width: 100%;

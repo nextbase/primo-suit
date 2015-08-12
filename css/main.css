@@ -13291,9 +13291,9 @@ a.EXLLoansRenewButton {
   min-height: 126px; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm {
-  margin-bottom: 1em;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  margin-left: 2%;
   height: auto;
   float: left;
   display: inline-block; }
@@ -13325,15 +13325,74 @@ a.EXLLoansRenewButton {
   height: auto; }
 
 .EXLMyAccountMainContainer form input {
-  border: inherit;
-  height: 18px;
-  width: 15em; }
+  font-size: 14px;
+  height: auto;
+  width: auto;
+  border: none;
+  display: inline-block;
+  line-height: 28px;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f0;
+  box-sizing: border-box;
+  padding: 3px 10px;
+  margin-right: 14px;
+  box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
+  border-radius: 3px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 3px 10px;
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
+  border-color: #dfdfdc;
+  width: 160px; }
+  .EXLMyAccountMainContainer form input:focus {
+    border-color: #34aacc;
+    border-left-width: 5px;
+    padding-left: 6px;
+    outline: 0;
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
+    -moz-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -moz-border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: box-shadow 0.2s ease-in-out; }
 
 .EXLMyAccountMainContainer form span.submit {
-  border: inherit;
+  font-family: sans-serif;
   display: inline-block;
-  width: 10em;
-  height: 22px; }
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px; }
+  .EXLMyAccountMainContainer form span.submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .EXLMyAccountMainContainer form span.submit:hover,
+  .EXLMyAccountMainContainer form span.submit:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  .EXLMyAccountMainContainer form span.submit:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
   .EXLMyAccountMainContainer form span.submit input {
     max-width: 100%; }
 
