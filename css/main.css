@@ -6842,7 +6842,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 .EXLSearchFieldRibbonFormFields {
   float: left;
   width: 100%;
-  height: auto; }
+  height: auto;
+  position: relative; }
 
 .EXLSearchFieldRibbonFormSearchFor {
   float: left;
@@ -13361,12 +13362,7 @@ a.EXLLoansRenewButton {
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
   padding-right: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 48.82117%; }
-  .EXLSearchFieldRibbonFormSelectedLabelBrowse:last-child {
-    margin-right: 0; }
+  position: absolute; }
 
 .EXLMyAccountMainContainer form input {
   font-size: 14px;
