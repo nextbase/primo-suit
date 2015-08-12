@@ -10045,7 +10045,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLPrevious.EXLBriefResultsPaginationLinkPrevious {
   margin-right: 20px; }
   .EXLPrevious.EXLBriefResultsPaginationLinkPrevious.EXLBriefResultsPagination {
-    margin-right: 2px; }
+    margin-right: 0; }
 
 body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
   margin: 0;
