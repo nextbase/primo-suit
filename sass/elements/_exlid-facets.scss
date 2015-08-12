@@ -286,11 +286,11 @@ li.EXLFacet {
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction {
-    background-image: url(../images/icon_rss_orangeV2.png);
+    @include retina-image('../images/icon_rss', 20px 20px);
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSActionOff {
-    background-image: url(../images/icon_rssV2_off.png);
+    @include retina-image('../images/icon_rss_disabled', 20px 20px);
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchAction {

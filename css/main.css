@@ -7838,10 +7838,18 @@ li.EXLFacet label {
   color: #a39f9e; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction {
-  background-image: url(../images/icon_rss_orangeV2.png); }
+  background-image: url("../images/icon_rss.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction {
+      background-image: url("../images/icon_rss_2x.png");
+      background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSActionOff {
-  background-image: url(../images/icon_rssV2_off.png); }
+  background-image: url("../images/icon_rss_disabled.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSActionOff {
+      background-image: url("../images/icon_rss_disabled_2x.png");
+      background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchAction {
   background-image: url(../images/icon_save_search.png); }
