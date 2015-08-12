@@ -2578,291 +2578,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   font-size: 0.8em;
   margin: 7px; }
 
-.EXLLighboxConfirmContainer {
-  background-color: #f2f2f0;
-  width: 375px;
-  height: 130px;
-  padding-top: 0.5em;
-  position: fixed;
-  top: 10em;
-  left: 30%;
-  z-index: 1002; }
-
-.EXLLighboxConfirm {
-  font-size: 80%;
-  height: 120px;
-  width: 358px;
-  border: 1px solid #a7a8a2;
-  background-color: #ffffff;
-  margin: auto; }
-
-.EXLLighboxConfirmHeader {
-  width: 100%;
-  clear: both;
-  display: block;
-  height: 3em; }
-
-.EXLLighboxConfirmHeader h1 {
-  float: left;
-  font-size: 100%;
-  color: #333333;
-  line-height: 300%;
-  padding-left: 1em; }
-
-.EXLLighboxConfirm p {
-  padding: 0em 0em 0em 1em;
-  margin: 0em;
-  width: 100%;
-  float: left; }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmLinkButtons {
-  height: auto;
-  width: 80%;
-  margin-top: 2.5em; }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink {
-  width: auto;
-  font-size: 90%;
-  margin-left: 1em;
-  margin-right: auto;
-  margin-top: 0.5em;
-  float: left;
-  clear: right; }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span {
-  border: 1px solid #5dbbd6;
-  display: block;
-  width: 80px;
-  height: 20px;
-  text-align: center;
-  padding: 1px; }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input {
-  padding: 0em 0.5em 0em 0.5em;
-  color: #ffffff;
-  font-weight: normal;
-  height: 20px;
-  cursor: pointer;
-  background-image: url(../images/bg_strip_btn_orange.png);
-  background-repeat: repeat-x;
-  display: block;
-  line-height: 160%;
-  width: 80px;
-  background-color: #f88543; }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonCancel span input {
-  background-image: url(../images/bg_strip_btn_grey.png); }
-
-.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input[disabled] {
-  background-image: none;
-  background-color: #d4d2d2;
-  cursor: wait; }
-
-#exlidFacetsLightboxContainer {
-  background-color: #f2f2f0;
-  width: 100%;
-  height: 565px;
-  padding-top: 2%; }
-
-#exlidFacetsLightboxTile {
-  clear: left;
-  padding: 0em 0em 0em 0em;
-  font-size: 80%;
-  height: 510px;
-  width: 96%;
-  border: 1px solid #a7a8a2;
-  background-color: #ffffff;
-  margin-left: auto;
-  margin-right: auto; }
-
-#exlidFacetsLightboxListWrapper {
-  clear: both; }
-
-.EXLFacetsLightboxHeader {
-  width: 100%;
-  clear: both;
-  display: block;
-  height: 3em; }
-
-.EXLFacetsLightboxHeader h1 {
-  float: left;
-  font-size: 100%;
-  color: #333333;
-  line-height: 300%;
-  padding-left: 1em; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons {
-  padding: 0em;
-  width: 35%;
-  float: right;
-  text-align: right;
-  height: 18px;
-  padding-top: 0.8em;
-  margin-right: 0.5em; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons ul {
-  float: right;
-  margin-bottom: 9px; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li {
-  list-style: none;
-  float: left;
-  height: 18px;
-  border-right: 0px solid #d8d0c4; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li span {
-  background-image: none;
-  background-repeat: no-repeat;
-  width: 18px;
-  height: 18px;
-  display: inline;
-  float: left; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a {
-  padding: 0.2em 0.2em 0.2em 0.2em;
-  cursor: pointer;
-  text-decoration: none; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonCloseLabel {
-  display: none; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelpLabel {
-  display: inline; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a:hover span.EXLFacetsLightboxHeaderButtonHelpLabel {
-  text-decoration: underline; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelp {
-  background-image: none;
-  background-position: center;
-  border-right: 1px solid #d8d0c4; }
-
-.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
-  background-image: url(../images/icon_close_tabs.png);
-  background-position: center;
-  margin-left: 0em; }
-
-#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormResetSearch {
-  float: left;
-  display: inline;
-  clear: right;
-  border: 1px solid #b6a082;
-  margin-left: 0.5em;
-  margin-top: 1em; }
-
-#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormSubmitSelected {
-  float: left;
-  display: inline;
-  clear: both;
-  border: 1px solid #b6a082;
-  margin-left: auto;
-  margin-top: 1em; }
-
-#exlidFacetsLightboxContainer a.EXLSubmit {
-  border: 1px solid #ffffff;
-  padding: 0.3em 0.5em 0em 0.5em;
-  display: inline-block;
-  background-color: #987c4d;
-  background-image: url(../css/images/bg_strip_btn_orange.png);
-  background-repeat: repeat-x;
-  margin: 0em;
-  width: auto;
-  color: #ffffff;
-  font-weight: normal;
-  height: 18px;
-  cursor: pointer;
-  text-decoration: none; }
-
-#exlidFacetsLightboxContainer input.EXLReset {
-  border: 1px solid #ffffff;
-  padding: 0em 0.5em 0em 0.5em;
-  display: inline-block;
-  background-color: #987c4d;
-  margin: 0em;
-  width: auto;
-  color: #ffffff;
-  font-weight: normal;
-  height: 24px;
-  cursor: pointer;
-  background-color: #bababa; }
-
-.EXLFacetsLightboxTabsRibbon {
-  height: 28px;
-  border-bottom: 2px solid #987c4d;
-  padding: 0px;
-  padding-top: auto;
-  padding-left: 1em;
-  margin: 0em 0em 0em 0em;
-  background-color: #ffffff; }
-
-.EXLFacetsLightboxTabsRibbon span {
-  line-height: 200%;
-  font-size: 100%;
-  display: inline;
-  min-width: 14em;
-  width: auto;
-  margin-right: 13em; }
-
-.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
-  margin-right: 0em; }
-
-.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {
-  margin-right: 1.4em;
-  margin-left: 1em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListContainer {
-  height: 440px;
-  overflow: auto;
-  overflow-x: hidden;
-  margin-top: 0.1em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxList {
-  padding-top: 0em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow {
-  border: none;
-  padding: 0.1em 0em 0.1em 0em;
-  margin: 0px;
-  display: block;
-  clear: both;
-  line-height: 150%;
-  padding-left: 1em;
-  padding-right: 1.5em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRowBgColor {
-  background-color: #f2f2f0; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow span.legend {
-  display: inline-block;
-  float: none;
-  padding-bottom: 0em;
-  margin-top: -0.1em;
-  width: auto;
-  margin-left: 3em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow label {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  font-size: 1px; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow div.EXLCheckboxGroup {
-  display: inline; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkInclude {
-  margin-left: 1em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkExclude {
-  margin-left: 3em; }
-
-#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow fieldset span.legend span {
-  color: #888888;
-  margin-left: 0.5em;
-  display: inline; }
-
 .EXLResultNumber {
   display: none;
   text-align: center;
@@ -9489,6 +9204,289 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   font-size: 100%;
   margin-top: 0.7em;
   margin-right: 2.5em; }
+
+/* More Lightbox Styles */
+.EXLLighboxConfirmContainer {
+  background-color: #f2f2f0;
+  width: 375px;
+  height: 130px;
+  padding-top: 0.5em;
+  position: fixed;
+  top: 10em;
+  left: 30%;
+  z-index: 1002; }
+
+.EXLLighboxConfirm {
+  font-size: 80%;
+  height: 120px;
+  width: 358px;
+  border: 1px solid #a7a8a2;
+  background-color: #ffffff;
+  margin: auto; }
+
+.EXLLighboxConfirmHeader {
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 3em; }
+
+.EXLLighboxConfirmHeader h1 {
+  float: left;
+  font-size: 100%;
+  color: #333333;
+  line-height: 300%;
+  padding-left: 1em; }
+
+.EXLLighboxConfirm p {
+  padding: 0em 0em 0em 1em;
+  margin: 0em;
+  width: 100%;
+  float: left; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmLinkButtons {
+  height: auto;
+  width: 80%;
+  margin-top: 2.5em; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink {
+  width: auto;
+  font-size: 90%;
+  margin-left: 1em;
+  margin-right: auto;
+  margin-top: 0.5em;
+  float: left;
+  clear: right; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span {
+  border: 1px solid #5dbbd6;
+  display: block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 1px; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input {
+  padding: 0em 0.5em 0em 0.5em;
+  color: #ffffff;
+  font-weight: normal;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  display: block;
+  line-height: 160%;
+  width: 80px;
+  background-color: #f88543; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonCancel span input {
+  background-image: url(../images/bg_strip_btn_grey.png); }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input[disabled] {
+  background-image: none;
+  background-color: #d4d2d2;
+  cursor: wait; }
+
+#exlidFacetsLightboxContainer {
+  background-color: #f2f2f0;
+  width: 100%;
+  height: 565px;
+  padding-top: 2%; }
+
+#exlidFacetsLightboxTile {
+  clear: left;
+  padding: 0em 0em 0em 0em;
+  font-size: 80%;
+  height: 510px;
+  width: 96%;
+  border: 1px solid #a7a8a2;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto; }
+
+#exlidFacetsLightboxListWrapper {
+  clear: both; }
+
+.EXLFacetsLightboxHeader {
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 3em; }
+
+.EXLFacetsLightboxHeader h1 {
+  float: left;
+  font-size: 100%;
+  color: #333333;
+  line-height: 300%;
+  padding-left: 1em; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons {
+  padding: 0em;
+  width: 35%;
+  float: right;
+  text-align: right;
+  height: 18px;
+  padding-top: 0.8em;
+  margin-right: 0.5em; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons ul {
+  float: right;
+  margin-bottom: 9px; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li {
+  list-style: none;
+  float: left;
+  height: 18px;
+  border-right: 0px solid #d8d0c4; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li span {
+  background-image: none;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  display: inline;
+  float: left; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a {
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  cursor: pointer;
+  text-decoration: none; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonCloseLabel {
+  display: none; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelpLabel {
+  display: inline; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a:hover span.EXLFacetsLightboxHeaderButtonHelpLabel {
+  text-decoration: underline; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelp {
+  background-image: none;
+  background-position: center;
+  border-right: 1px solid #d8d0c4; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
+  background-image: url(../images/icon_close_tabs.png);
+  background-position: center;
+  margin-left: 0em; }
+
+#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormResetSearch {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  border: none; }
+
+#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormSubmitSelected {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block; }
+
+#exlidFacetsLightboxContainer a.EXLSubmit {
+  border: 1px solid #ffffff;
+  padding: 0.3em 0.5em 0em 0.5em;
+  display: inline-block;
+  background-color: #987c4d;
+  background-image: url(../css/images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  margin: 0em;
+  width: auto;
+  color: #ffffff;
+  font-weight: normal;
+  height: 18px;
+  cursor: pointer;
+  text-decoration: none; }
+
+#exlidFacetsLightboxContainer input.EXLReset {
+  border: 1px solid #ffffff;
+  padding: 0em 0.5em 0em 0.5em;
+  display: inline-block;
+  background-color: #987c4d;
+  margin: 0em;
+  width: auto;
+  color: #ffffff;
+  font-weight: normal;
+  height: 24px;
+  cursor: pointer;
+  background-color: #bababa; }
+
+.EXLFacetsLightboxTabsRibbon {
+  height: 28px;
+  border-bottom: 2px solid #987c4d;
+  padding: 0px;
+  padding-top: auto;
+  padding-left: 1em;
+  margin: 0em 0em 0em 0em;
+  background-color: #ffffff; }
+
+.EXLFacetsLightboxTabsRibbon span {
+  line-height: 200%;
+  font-size: 100%;
+  display: inline;
+  min-width: 14em;
+  width: auto;
+  margin-right: 13em; }
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
+  margin-right: 0em; }
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {
+  margin-right: 1.4em;
+  margin-left: 1em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListContainer {
+  height: 440px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-top: 0.1em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList {
+  padding-top: 0em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow {
+  border: none;
+  padding: 0.1em 0em 0.1em 0em;
+  margin: 0px;
+  display: block;
+  clear: both;
+  line-height: 150%;
+  padding-left: 1em;
+  padding-right: 1.5em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRowBgColor {
+  background-color: #f2f2f0; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow span.legend {
+  display: inline-block;
+  float: none;
+  padding-bottom: 0em;
+  margin-top: -0.1em;
+  width: auto;
+  margin-left: 3em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  font-size: 1px; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow div.EXLCheckboxGroup {
+  display: inline; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkInclude {
+  margin-left: 1em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkExclude {
+  margin-left: 3em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow fieldset span.legend span {
+  color: #888888;
+  margin-left: 0.5em;
+  display: inline; }
 
 .EXLResultsContainer {
   margin: 0;
