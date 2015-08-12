@@ -626,6 +626,10 @@ a.EXLLoansRenewButton {
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
     padding-right: 0;
     @include input();
+    @include input-size("default");
+    @include set-input-style("inset");
+    @include form-element-width("default");
+    @include input-select;
 }
 
 .EXLMyAccountMainContainer form input {
