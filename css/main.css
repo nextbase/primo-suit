@@ -9480,7 +9480,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding-top: auto;
   padding-left: 1em;
   background-color: #ffffff;
-  overflow: scroll; }
+  overflow: scroll;
+  box-shadow: inset 0 10px 20px 0 rgba(51, 51, 51, 0.1); }
 
 .EXLFacetsLightboxTabsRibbon span {
   line-height: 200%;
