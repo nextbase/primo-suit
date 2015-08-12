@@ -264,7 +264,6 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel {
-    @include glyphicon($icon-chevron-down, 'after');
     background-color: $white;
     border: 0;
 }
