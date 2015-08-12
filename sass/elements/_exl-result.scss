@@ -20,6 +20,10 @@
 
 }
 
+.EXLPrevious.EXLBriefResultsPaginationLinkPrevious {
+	margin-right: 20px;
+}
+
 body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
 	@include reset-margins;
 	width: 100%;
