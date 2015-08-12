@@ -7200,6 +7200,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   cursor: pointer;
   border: none;
   height: 26px; }
+  .EXLSearchFieldRibbonFormSelectedBrowse .EXLHiddenCue {
+    display: block;
+    width: 240px; }
 
 * html .EXLSearchFieldRibbonFormSelectedBrowse {
   overflow: hidden;
