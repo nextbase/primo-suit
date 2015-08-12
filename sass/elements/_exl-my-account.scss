@@ -704,12 +704,12 @@ a.EXLLoansRenewButton {
     float: right;
     width: 35%;
     border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0em 1em 1em;
-    background-image: url(../images/bg_strip_details_links.png);
+    margin: 10px;
+    background-image: none;
     background-repeat: repeat-x;
     background-position: bottom;
     height: auto;
-    padding: 0.5em 1em 0em 0.5em;
+    padding: 20px;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips em {
