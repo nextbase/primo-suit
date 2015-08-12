@@ -7,6 +7,12 @@
     background-color: $gray-light;
     border-top: 1px solid $white;
     @include clearfix;
+    margin-bottom: 20px;
+}
+
+
+#exlidMyAccountContainer {
+    margin-bottom: 20px;
 }
 
 .EXLMyAccountContainer .EXLMyAccountMainMenuTileMyQueries {
