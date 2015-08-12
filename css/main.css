@@ -9290,8 +9290,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-color: #f2f2f0;
   width: 100%;
   height: 565px;
-  padding-top: 20px;
-  padding-bottom: 100px; }
+  padding: 20px 20px 100px 20px; }
 
 #exlidFacetsLightboxTile {
   margin: 0;
@@ -9300,7 +9299,6 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   font-size: 16px -2px;
   height: 510px;
   width: 100%;
-  margin: 0 20px;
   border: 1px solid #cbbfae;
   background-color: #ffffff;
   margin-left: auto;
