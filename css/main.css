@@ -13864,7 +13864,7 @@ a.EXLLoansRenewButton {
   border: none;
   display: inline-block;
   width: auto;
-  height: 22px; }
+  height: auto; }
 
 .EXLMyAccountMainContainer form input.submit {
   font-size: 14px;
