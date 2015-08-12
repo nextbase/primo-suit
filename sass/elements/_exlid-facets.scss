@@ -218,14 +218,14 @@ li.EXLFacet {
 }
 
 .EXLFacetContainer div.EXLFacetActions li.EXLFacetRSSAction {
-    background-image: url(../images/icon_rss_blue.png);
+    @include retina-image('../images/icon_rss', 20px 20px);
     background-repeat: no-repeat;
     background-position: 0% 50%;
     padding-left: 1.2em
 }
 
 .EXLFacetContainer div.EXLFacetActions li.EXLFacetRSSActionDisabled {
-    background-image: url(../images/icon_rss_off.png);
+    @include retina-image('../images/icon_rss_disabled', 20px 20px);
     color: #a39f9e
 }
 
