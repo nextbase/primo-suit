@@ -343,6 +343,7 @@
 
 #exlidFacetsLightboxListWrapper {
     clear: both;
+    position: relative;
 }
 
 .EXLFacetsLightboxHeader {
@@ -452,13 +453,14 @@
 }
 
 .EXLFacetsLightboxTabsRibbon {
+    @include reset-margins;
     height: 28px;
     border-bottom: 2px solid $gold;
     padding: 0px;
     padding-top: auto;
     padding-left: 1em;
-    margin: 0em 0em 0em 0em;
-    background-color: $white
+    background-color: $white;
+    overflow: scroll;
 }
 
 .EXLFacetsLightboxTabsRibbon span {
@@ -483,7 +485,7 @@
     height: 440px;
     overflow: auto;
     overflow-x: hidden;
-    margin-top: 0.1em
+    margin-top: 5px;
 }
 
 #exlidFacetsLightboxTile div.EXLFacetsLightboxList {

@@ -9304,7 +9304,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin-right: auto; }
 
 #exlidFacetsLightboxListWrapper {
-  clear: both; }
+  clear: both;
+  position: relative; }
 
 .EXLFacetsLightboxHeader {
   width: 100%;
@@ -9465,13 +9466,15 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
     box-shadow: inset 2px 2px 2px 1px rgba(159, 160, 150, 0.5); }
 
 .EXLFacetsLightboxTabsRibbon {
+  margin: 0;
+  padding: 0;
   height: 28px;
   border-bottom: 2px solid #987c4d;
   padding: 0px;
   padding-top: auto;
   padding-left: 1em;
-  margin: 0em 0em 0em 0em;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  overflow: scroll; }
 
 .EXLFacetsLightboxTabsRibbon span {
   line-height: 200%;
@@ -9492,7 +9495,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   height: 440px;
   overflow: auto;
   overflow-x: hidden;
-  margin-top: 0.1em; }
+  margin-top: 5px; }
 
 #exlidFacetsLightboxTile div.EXLFacetsLightboxList {
   padding-top: 0em; }
