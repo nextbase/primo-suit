@@ -9379,7 +9379,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   display: block;
   border: none;
   position: absolute;
-  bottom: -50px; }
+  bottom: -50px;
+  left: 120px; }
 
 #exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormSubmitSelected {
   margin: 0;
@@ -9388,8 +9389,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   display: block;
   border: none;
   position: absolute;
-  bottom: -50px;
-  left: 120px; }
+  bottom: -50px; }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
   margin: 0;
