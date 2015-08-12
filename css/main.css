@@ -7198,7 +7198,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   margin-top: 0em;
   cursor: pointer;
-  border: 1px solid #8FB9D0;
+  border: none;
   height: 26px; }
 
 * html .EXLSearchFieldRibbonFormSelectedBrowse {
@@ -7322,7 +7322,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   outline: none; }
 
 .EXLSearchFieldRibbonFormBrowseSearchFor {
-  border: 1px solid #8FB9D0; }
+  border: none; }
 
 .EXLAdvancedBrowseRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
   width: 10%; }
