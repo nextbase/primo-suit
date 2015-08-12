@@ -325,8 +325,8 @@
 #exlidFacetsLightboxContainer {
     background-color: $gray-light;
     width: 100%;
-    height: 565px;
-    padding: 20px 20px 100px 20px;
+    height: 600px;
+    padding: 20px 20px 60px 20px;
 }
 
 #exlidFacetsLightboxTile {
@@ -427,6 +427,8 @@
     float: left;
     display: block;
     border: none;
+    position: absolute;
+    bottom: -50px;
 }
 
 #exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormSubmitSelected {
@@ -434,6 +436,9 @@
     float: left;
     display: block;
     border: none;
+    position: absolute;
+    bottom: -50px;
+    left: 120px;
 }
 
 #exlidFacetsLightboxContainer a.EXLSubmit {
