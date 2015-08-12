@@ -13861,7 +13861,7 @@ a.EXLLoansRenewButton {
     transition: box-shadow 0.2s ease-in-out; }
 
 .EXLMyAccountMainContainer form span.submit {
-  border: 1px solid #5dbbd6;
+  border: none;
   display: inline-block;
   width: auto;
   height: 22px; }
