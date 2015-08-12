@@ -630,6 +630,8 @@ a.EXLLoansRenewButton {
     @include set-input-style("inset");
     @include form-element-width("default");
     @include input-select;
+    width: 240px;
+    margin-right: 20px;
 }
 
 .EXLMyAccountMainContainer form input {
