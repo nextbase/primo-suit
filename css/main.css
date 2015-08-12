@@ -13342,6 +13342,8 @@ a.EXLLoansRenewButton {
   -moz-appearance: none;
   appearance: none;
   padding: 3px 10px;
+  box-shadow: inset 0px 2px 4px 0px rgba(168, 170, 161, 0.25);
+  border-color: #dfdfdc;
   width: 160px; }
   .EXLMyAccountMainContainer form input:focus {
     border-color: #34aacc;
