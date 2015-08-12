@@ -90,6 +90,11 @@
     float: left;
     color: $gold;
     text-decoration: none;
+
+    &:hover,
+    &:active {
+        color: $gold-hover;
+    }
 }
 
 #exlidUserAreaRibbon li a:hover {

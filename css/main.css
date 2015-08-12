@@ -6545,6 +6545,9 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   float: left;
   color: #987c4d;
   text-decoration: none; }
+  #exlidUserAreaRibbon li a:hover,
+  #exlidUserAreaRibbon li a:active {
+    color: #83693d; }
 
 #exlidUserAreaRibbon li a:hover {
   text-decoration: underline; }
