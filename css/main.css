@@ -13360,7 +13360,13 @@ a.EXLLoansRenewButton {
   height: auto; }
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
-  padding-right: 0; }
+  padding-right: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .EXLSearchFieldRibbonFormSelectedLabelBrowse:last-child {
+    margin-right: 0; }
 
 .EXLMyAccountMainContainer form input {
   font-size: 14px;
