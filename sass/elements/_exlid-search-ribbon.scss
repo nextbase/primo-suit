@@ -505,13 +505,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
-    background-color: #FFFFFF;
+    @include reset-margins;
+    background-color: transparent;
     clear: both;
-    min-height: 3em;
-    border: 1px solid #8fb9d0;
+    min-height: 80px;
+    border: none;
     width: 100%;
-    padding: 1em 1em 0.5em 1em;
-    margin: 0px;
 }
 
 #exlidAdvancedSearchRibbon div.EXLDynamicSelectOnlyOneScope {
