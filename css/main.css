@@ -13374,8 +13374,7 @@ a.EXLLoansRenewButton {
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
   background-position: right center;
-  width: 240px;
-  margin-right: 20px; }
+  width: 240px; }
   .EXLSearchFieldRibbonFormSelectedLabelBrowse:focus {
     border-color: #34aacc;
     border-left-width: 5px;
