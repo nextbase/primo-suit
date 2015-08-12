@@ -164,6 +164,8 @@ div.EXLResultsHeader:focus {
       color: $gray;
       display: inline-block;
       height: 26px;
+        
+      display: none;
 
       &:link {
         color: $gold-gray;
