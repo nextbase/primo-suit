@@ -255,17 +255,21 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
     height: 26px;
 }
 
+/* Select Box, on Browse */
+
 * html .EXLSearchFieldRibbonFormSelectedCollection {
     overflow: hidden;
     line-height: 200%
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel {
-    display: inline-block;
-    height: 100%;
-    padding-left: 0.5em;
-    width: 100%;
-    overflow: hidden;
+    // display: inline-block;
+    // height: 100%;
+    // padding-left: 0.5em;
+    // width: 100%;
+    // overflow: hidden;
+
+    @include glyphicon($icon-chevron-down, 'after');
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
@@ -286,6 +290,8 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
     margin-top: 0em;
     height: 23px;
 }
+
+/* End: Select Box, on Browse */
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a:hover {
     text-decoration: none;
@@ -535,7 +541,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon {
-    width: 96%
+    width: 100%;
 }
 
 .EXLAdvancedBrowseRibbon {

@@ -7025,16 +7025,22 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   border-left: 1px solid #c0c0c0;
   height: 26px; }
 
+/* Select Box, on Browse */
 * html .EXLSearchFieldRibbonFormSelectedCollection {
   overflow: hidden;
   line-height: 200%; }
 
-.EXLSearchFieldRibbonFormSelectedCollectionLabel {
+.EXLSearchFieldRibbonFormSelectedCollectionLabel:after {
+  content: "";
+  position: relative;
+  top: 1px;
   display: inline-block;
-  height: 100%;
-  padding-left: 0.5em;
-  width: 100%;
-  overflow: hidden; }
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
   color: #32322f;
@@ -7053,6 +7059,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   margin-top: 0em;
   height: 23px; }
 
+/* End: Select Box, on Browse */
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a:hover {
   text-decoration: none; }
 
@@ -7274,7 +7281,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   background-color: #f1f1f1; }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon {
-  width: 96%; }
+  width: 100%; }
 
 .EXLAdvancedBrowseRibbon {
   margin-top: 0.5em;
