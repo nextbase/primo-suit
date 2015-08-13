@@ -33,8 +33,8 @@ $alert-red-text: #9C4144;
 $alert-green: #8BAD79;
 
 $blue: #34aacc;
-$blue-dark: darken(#2391b2, 10%);
-$blue-light: lighten(#46c3e8, 10%);
+$blue-dark: darken($blue, 10%);
+$blue-light: lighten($blue, 10%);
 
 $anchor-color: $gold;
 $anchor-hover: $gold-hover;
