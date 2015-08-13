@@ -2,7 +2,8 @@
 div.dp-calendar	{text-align:center}
 
 table.jCalendar {
-	border: none;	  margin-top:2em;
+	border: none;	  
+	margin-top:2em;
 	background: transparent;
     border-collapse: separate;
     border-spacing: 2px;
@@ -13,52 +14,52 @@ table.jCalendar {
 }
 table.jCalendar th {
 	background: transparent;
-	color: #000;
+	color: $black;
 	font-weight: bold;
 	padding: 1px 4px;
 }
 
 table.jCalendar td {
-	background: #F5E1B8;
-	color: #000;
+	background: $yellow;
+	color: $black;
 	padding: 1px 4px;
 	text-align: center;
 }
 table.jCalendar td.other-month {
-	background: #F5E1B8;
-	color: #000;
+	background: $yellow;
+	color: $black;
 }
 table.jCalendar td.today {
-	background: #F57831;
-	color: #000;
+	background: $yellow-secondary;
+	color: $black;
 }
 table.jCalendar td.selected {
-	background: #F57831;
-	color: #000;
+	background: $yellow-secondary;
+	color: $black;
 }
 table.jCalendar td.selected.dp-hover {
-	background: #F57831;
-	color: #000;
+	background: $yellow-secondary;
+	color: $black;
 }
 table.jCalendar td.dp-hover,
 table.jCalendar tr.activeWeekHover td {
-	background: #F57831;
-	color: #000;
+	background: $yellow-secondary;
+	color: $black;
 }
 table.jCalendar tr.selectedWeek td {
-	background: #f66;
-	color: #fff;
+	background: $alert-red;
+	color:  $white;
 }
 table.jCalendar td.disabled, table.jCalendar td.disabled.dp-hover {
-	background: #F3F3F3;
-	color: #bbb;
+	background: $gray-light;
+	color: $gray-dark;
 	text-decoration:line-through;
 }
 table.jCalendar td.unselectable,
 table.jCalendar td.unselectable:hover,
 table.jCalendar td.unselectable.dp-hover {
-	background: #F3F3F3;
-	color: #bbb;
+	background: $gray-light;
+	color: $gray-dark;
 	text-decoration:line-through;
 }
 
@@ -73,26 +74,26 @@ div.dp-popup {
 	width: 171px;
 	line-height: 1.2em;
 }
-div#dp-popup { position: absolute; z-index: 199; background-image:url(/view/branding_skin/icons/bg_strip_calendar_caption.png?version=1.0); background-repeat:repeat-x;background-color:#FFFFFF;border:1px solid #E87107; padding-left:0.3em; padding-right:0.3em; text-align:center; width:15.3em; }
+div#dp-popup { position: absolute; z-index: 199; background-image: url('/view/branding_skin/icons/bg_strip_calendar_caption.png?version=1.0'); background-repeat:repeat-x;background-color: $white;border:1px solid $orange; padding-left:0.3em; padding-right:0.3em; text-align:center; width:15.3em; }
 div.dp-popup h2 {
 	font-size: 12px;
 	text-align: center;
 	margin: 2px 0 0.5em;
 	padding: 0;
-	color:#fff;
+	color: $white;
 }
 a#dp-close {
 	font-size: 11px;
 	padding: 4px 0;
 	text-align: center;
 	display: block;
-	color: #0075B0;
+	color: $gold; // use $gold or $blue
 }
 a#dp-close:hover {
 	text-decoration: underline;
 }
 div.dp-popup a {
-	color: #000;
+	color: $black;
 	text-decoration: none;
 	padding: 3px 2px 0;
 }
@@ -103,16 +104,16 @@ div.dp-popup div.dp-nav-prev {
 }
 div.dp-popup div.dp-nav-prev a {
 	float: left;
-	color:#0075B0;
+	color:$gold; // use $gold or $blue
 }
 /* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
-a.dp-nav-next-month {background:transparent url(/view/branding_skin/icons/calendar-next.png?version=1.0) no-repeat scroll 30px 6px; width: 35px; text-align:left;}
-a.dp-nav-prev-month {background:transparent url(/view/branding_skin/icons/calendar-prev.png?version=1.0) no-repeat scroll 0 6px; width: 35px; text-align:right;}
+a.dp-nav-next-month {background:transparent url('/view/branding_skin/icons/calendar-next.png?version=1.0') no-repeat scroll 30px 6px; width: 35px; text-align:left;}
+a.dp-nav-prev-month {background:transparent url('/view/branding_skin/icons/calendar-prev.png?version=1.0') no-repeat scroll 0 6px; width: 35px; text-align:right;}
 a.dp-nav-next-year {display: none}
 a.dp-nav-prev-year 	{display: none}
 div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a {
 	cursor: pointer;
-	color:#0075B0;
+	color:$gold; // use $gold or $blue
 }
 div.dp-popup div.dp-nav-prev a.disabled, div.dp-popup div.dp-nav-next a.disabled {
 	cursor: default;
@@ -156,7 +157,7 @@ a.dp-choose-date {
 	display: block;
 	text-indent: -2000px;
 	overflow: hidden;
-	background: url(/view/branding_skin/icons/calendar-icon.png?version=1.0) no-repeat;
+	background: url('/view/branding_skin/icons/calendar-icon.png?version=1.0') no-repeat;
 }
 a.dp-choose-date.dp-disabled {
 	background-position: 0 -20px;
@@ -168,7 +169,7 @@ a.dp-choose-date.dp-disabled {
 }
 
 pre.sourcecode {
-	border: 2px dashed #ccc;
+	border: 2px dashed $gray;
 	padding: 10px;
 	width: 734px;
 	overflow: auto;
