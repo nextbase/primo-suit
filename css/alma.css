@@ -531,14 +531,18 @@ div.dp-popup {
 div#dp-popup {
   position: absolute;
   z-index: 199;
-  background-image: url("/view/branding_skin/icons/bg_strip_calendar_caption.png?version=1.0");
+  background-image: url("/view/branding_skin/icons/bg_strip_calendar_caption.png");
   background-repeat: repeat-x;
   background-color: #ffffff;
-  border: 1px solid #fd8000;
+  border: 1px solid #b6a082;
   padding-left: 0.3em;
   padding-right: 0.3em;
   text-align: center;
   width: 15.3em; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    div#dp-popup {
+      background-image: url("/view/branding_skin/icons/bg_strip_calendar_caption_2x.png");
+      background-size: 1px 22px; } }
 
 div.dp-popup h2 {
   font-size: 12px;
@@ -575,12 +579,22 @@ div.dp-popup div.dp-nav-prev a {
 a.dp-nav-next-month {
   background: transparent url("/view/branding_skin/icons/calendar-next.png?version=1.0") no-repeat scroll 30px 6px;
   width: 35px;
-  text-align: left; }
+  text-align: left;
+  background-image: url("/view/branding_skin/icons/calendar-next.png.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    a.dp-nav-next-month {
+      background-image: url("/view/branding_skin/icons/calendar-next.png_2x.png");
+      background-size: 10px 10px; } }
 
 a.dp-nav-prev-month {
   background: transparent url("/view/branding_skin/icons/calendar-prev.png?version=1.0") no-repeat scroll 0 6px;
   width: 35px;
-  text-align: right; }
+  text-align: right;
+  background-image: url("/view/branding_skin/icons/calendar-prev.png.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    a.dp-nav-prev-month {
+      background-image: url("/view/branding_skin/icons/calendar-prev.png_2x.png");
+      background-size: 10px 10px; } }
 
 a.dp-nav-next-year {
   display: none; }
@@ -632,7 +646,11 @@ a.dp-choose-date {
   display: block;
   text-indent: -2000px;
   overflow: hidden;
-  background: url("/view/branding_skin/icons/calendar-icon.png?version=1.0") no-repeat; }
+  background-image: url("/view/branding_skin/icons/bg_strip_system_feedback.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    a.dp-choose-date {
+      background-image: url("/view/branding_skin/icons/bg_strip_system_feedback_2x.png");
+      background-size: 34px 20px; } }
 
 a.dp-choose-date.dp-disabled {
   background-position: 0 -20px;
@@ -867,12 +885,16 @@ ul.formView {
 
 .systemFeedback {
   background-color: #ffcc00;
-  background-image: url("/view/branding_skin/icons/bg_strip_system_feedback.png?version=1.0");
+  background-image: url("/view/branding_skin/icons/bg_strip_system_feedback.png");
   background-position: center bottom;
   background-repeat: repeat-x;
   color: #333333;
   border-bottom: 1px solid #f2f2f0;
   padding: 0.5em 1.5em 0.5em 0.6em; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .systemFeedback {
+      background-image: url("/view/branding_skin/icons/bg_strip_system_feedback_2x.png");
+      background-size: 1px 44px; } }
 
 .typeD table {
   width: 100%; }
@@ -1072,26 +1094,58 @@ span.Arrow input {
   width: 10px; }
 
 span.firstPage input {
-  background: url("/view/branding_skin/icons/firstPage.png?version=1.0") no-repeat transparent center center; }
+  background-image: url("/view/branding_skin/icons/firstPage.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    span.firstPage input {
+      background-image: url("/view/branding_skin/icons/firstPage_2x.png");
+      background-size: 10px 10px; } }
 
 span.previousPage input {
-  background: url("/view/branding_skin/icons/previousPage.png?version=1.0") no-repeat transparent center center; }
+  background-image: url("/view/branding_skin/icons/previousPage.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    span.previousPage input {
+      background-image: url("/view/branding_skin/icons/previousPage_2x.png");
+      background-size: 10px 10px; } }
 
 span.nextPage input {
-  background: url("/view/branding_skin/icons/nextPage.png?version=1.0") no-repeat transparent center center; }
+  background-image: url("/view/branding_skin/icons/nextPage.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    span.nextPage input {
+      background-image: url("/view/branding_skin/icons/nextPage_2x.png");
+      background-size: 10px 10px; } }
 
 span.lastPage input {
-  background: url("/view/branding_skin/icons/lastPage.png?version=1.0") no-repeat transparent center center; }
+  background-image: url("/view/branding_skin/icons/lastPage.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: center center; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    span.lastPage input {
+      background-image: url("/view/branding_skin/icons/lastPage_2x.png");
+      background-size: 10px 10px; } }
 
 .iframeHeader {
   background-color: #f2f2f0;
-  background-image: url("/view/branding_skin/icons/bg_strip_brief_tabs_header.png?version=1.0");
+  background-image: url("/view/branding_skin/icons/bg_strip_brief_tabs_header.png");
   background-repeat: repeat-x;
   border-bottom: 1px solid #f2f2f0;
   min-height: 27px;
   height: auto;
   max-height: 5em;
   display: block; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .iframeHeader {
+      background-image: url("/view/branding_skin/icons/bg_strip_brief_tabs_header_2x.png");
+      background-size: 1px 27px; } }
 
 .iframeHeader form {
   margin: 0em;
@@ -1147,32 +1201,54 @@ span.lastPage input {
   padding: 10px; }
 
 input.hasDatepicker {
-  background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 100.5% center #ffffff; }
+  background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 100.5% center #ffffff;
+  background-image: url("/view/branding_skin/icons/icon_date.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    input.hasDatepicker {
+      background-image: url("/view/branding_skin/icons/icon_date_2x.png");
+      background-size: 16px 16px; } }
 
 input.hasDateAndTimePicker {
-  background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 101% center #ffffff; }
+  background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 101% center #ffffff;
+  background-image: url("/view/branding_skin/icons/icon_date.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    input.hasDateAndTimePicker {
+      background-image: url("/view/branding_skin/icons/icon_date_2x.png");
+      background-size: 16px 16px; } }
 
 input.dateTimeReset {
   text-indent: -100000em;
   display: inline-block;
   margin-left: 5px;
   margin-top: 1px;
-  background: url("/view/branding_skin/icons/broom.png?version=1.0") no-repeat transparent;
+  background-image: url("/view/branding_skin/icons/broom.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
   width: 17px;
   height: 16px;
   border: none;
   cursor: pointer; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    input.dateTimeReset {
+      background-image: url("/view/branding_skin/icons/broom_2x.png");
+      background-size: 16px 16px; } }
 
 input.dateReset {
   text-indent: -100000em;
   display: inline-block;
   margin-left: 5px;
   margin-top: 1px;
-  background: url("/view/branding_skin/icons/broom.png?version=1.0") no-repeat transparent;
+  background-image: url("/view/branding_skin/icons/broom.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
   width: 17px;
   height: 16px;
   border: none;
   cursor: pointer; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    input.dateReset {
+      background-image: url("/view/branding_skin/icons/broom_2x.png");
+      background-size: 16px 16px; } }
 
 .timePickerInner {
   display: inline-block;
@@ -1201,18 +1277,26 @@ input.dateReset {
   display: block; }
 
 .jsTimeField {
-  background: url("/view/branding_skin/icons/time_icon.png?version=1.0") no-repeat scroll 99% center #ffffff; }
+  background-image: url("/view/branding_skin/icons/time_icon.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 99% center;
+  background-color: #ffffff; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .jsTimeField {
+      background-image: url("/view/branding_skin/icons/time_icon_2x.png");
+      background-size: 16px 16px; } }
 
 .hide {
   display: none; }
 
 .dateError {
-  color: #FE0101;
+  color: #F5C3C4;
   font-size: 0.8em;
   margin-left: 1em; }
 
 .timeError {
-  color: #FE0101;
+  color: #F5C3C4;
   font-size: 0.8em;
   margin-left: 1em; }
 

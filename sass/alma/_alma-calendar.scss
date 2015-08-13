@@ -74,7 +74,14 @@ div.dp-popup {
 	width: 171px;
 	line-height: 1.2em;
 }
-div#dp-popup { position: absolute; z-index: 199; background-image: url('/view/branding_skin/icons/bg_strip_calendar_caption.png?version=1.0'); background-repeat:repeat-x;background-color: $white;border:1px solid $orange; padding-left:0.3em; padding-right:0.3em; text-align:center; width:15.3em; }
+div#dp-popup { position: absolute; z-index: 199; 
+	@include retina-image('/view/branding_skin/icons/bg_strip_calendar_caption', 1px 22px);
+	background-repeat:repeat-x;
+	background-color: $white;
+	border: 1px solid $gold-light; 
+	padding-left:0.3em;
+	padding-right:0.3em;
+	text-align:center; width:15.3em; }
 div.dp-popup h2 {
 	font-size: 12px;
 	text-align: center;
@@ -107,8 +114,10 @@ div.dp-popup div.dp-nav-prev a {
 	color:$gold; // use $gold or $blue
 }
 /* Opera needs the rules to be this specific otherwise it doesn't change the cursor back to pointer after you have disabled and re-enabled a link */
-a.dp-nav-next-month {background:transparent url('/view/branding_skin/icons/calendar-next.png?version=1.0') no-repeat scroll 30px 6px; width: 35px; text-align:left;}
-a.dp-nav-prev-month {background:transparent url('/view/branding_skin/icons/calendar-prev.png?version=1.0') no-repeat scroll 0 6px; width: 35px; text-align:right;}
+a.dp-nav-next-month {background: transparent url('/view/branding_skin/icons/calendar-next.png?version=1.0') no-repeat scroll 30px 6px; width: 35px; text-align:left; 
+	@include retina-image('/view/branding_skin/icons/calendar-next.png', 10px 10px); }
+a.dp-nav-prev-month {background: transparent url('/view/branding_skin/icons/calendar-prev.png?version=1.0') no-repeat scroll 0 6px; width: 35px; text-align:right;
+	@include retina-image('/view/branding_skin/icons/calendar-prev.png', 10px 10px); }
 a.dp-nav-next-year {display: none}
 a.dp-nav-prev-year 	{display: none}
 div.dp-popup div.dp-nav-prev a, div.dp-popup div.dp-nav-next a {
@@ -157,7 +166,7 @@ a.dp-choose-date {
 	display: block;
 	text-indent: -2000px;
 	overflow: hidden;
-	background: url('/view/branding_skin/icons/calendar-icon.png?version=1.0') no-repeat;
+	@include retina-image('/view/branding_skin/icons/bg_strip_system_feedback', 34px 20px);
 }
 a.dp-choose-date.dp-disabled {
 	background-position: 0 -20px;

@@ -277,7 +277,7 @@ ul.formView {
 
 .systemFeedback {
 	background-color: $yellow;
-	background-image: url('/view/branding_skin/icons/bg_strip_system_feedback.png?version=1.0');
+	@include retina-image('/view/branding_skin/icons/bg_strip_system_feedback', 1px 44px);
 	background-position: center bottom;
 	background-repeat: repeat-x;
 	color: $black;
@@ -335,6 +335,7 @@ ul.formView {
 
 .typeD table th input.sort {
 	color: $white;
+
 	background: url('/infra/images/sortable.png?version=1.0') transparent no-repeat 2px center;
 	text-shadow: 0 -1px rgba($black, .5);
 	padding-left: 14px;
@@ -499,8 +500,7 @@ ul.pagination li.hideActions .openUpperActions,li.hideActions .openUpperActions 
 }
 
 .arrowDown {
-	background: url("icon_optionsMenu_down.png?version=1.0") no-repeat 50% 50%
-		transparent;
+	background: url("icon_optionsMenu_down.png?version=1.0") no-repeat 50% 50% transparent;
 	display: inline-block;
 	width: 8px;
 }
@@ -546,27 +546,36 @@ span.Arrow input {
 }
 
 span.firstPage input {
-	background: url("/view/branding_skin/icons/firstPage.png?version=1.0") no-repeat
-		transparent center center;
+	@include retina-image('/view/branding_skin/icons/firstPage', 10px 10px);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center center;
 }
 
 span.previousPage input {
-	background: url("/view/branding_skin/icons/previousPage.png?version=1.0") no-repeat
-		transparent center center;
+		@include retina-image('/view/branding_skin/icons/previousPage', 10px 10px);
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: center center;
 }
 
 span.nextPage input {
-	background: url("/view/branding_skin/icons/nextPage.png?version=1.0") no-repeat
-		transparent center center;
+		@include retina-image('/view/branding_skin/icons/nextPage', 10px 10px);
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: center center;
 }
 
 span.lastPage input {
-	background: url("/view/branding_skin/icons/lastPage.png?version=1.0") no-repeat transparent center center;
+	@include retina-image('/view/branding_skin/icons/lastPage', 10px 10px);
+		background-repeat: no-repeat;
+		background-color: transparent;
+		background-position: center center;
 }
 
 .iframeHeader {
 	background-color: $gray-light;
-	background-image: url("/view/branding_skin/icons/bg_strip_brief_tabs_header.png?version=1.0");
+	@include retina-image('/view/branding_skin/icons/bg_strip_brief_tabs_header', 1px 27px);
 	background-repeat: repeat-x;
 	border-bottom: 1px solid $gray-light;
 	min-height: 27px;
@@ -642,16 +651,20 @@ span.lastPage input {
 
 input.hasDatepicker{
 	background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 100.5% center $white;
+	@include retina-image('/view/branding_skin/icons/icon_date', 16px 16px);
 }
 input.hasDateAndTimePicker{
 	background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 101% center $white;
+	@include retina-image('/view/branding_skin/icons/icon_date', 16px 16px);
 }
 input.dateTimeReset {
 	text-indent: -100000em;
 	display: inline-block;
 	margin-left: 5px;
 	margin-top: 1px;
-	background:url('/view/branding_skin/icons/broom.png?version=1.0') no-repeat transparent;
+	@include retina-image('/view/branding_skin/icons/broom', 16px 16px);
+	background-repeat: no-repeat;
+	background-color: transparent;
 	width:17px;
 	height:16px;
 	border:none;
@@ -662,7 +675,9 @@ input.dateReset {
 	display: inline-block;
 	margin-left: 5px;
 	margin-top: 1px;
-	background:url('/view/branding_skin/icons/broom.png?version=1.0') no-repeat transparent;
+	@include retina-image('/view/branding_skin/icons/broom', 16px 16px);
+	background-repeat: no-repeat;
+	background-color: transparent;
 	width:17px;
 	height:16px;
 	border:none;
@@ -696,18 +711,22 @@ input.dateReset {
 	display:block;
 }
 .jsTimeField{
-	background: url("/view/branding_skin/icons/time_icon.png?version=1.0") no-repeat scroll 99% center $white;
+	@include retina-image('/view/branding_skin/icons/time_icon', 16px 16px);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 99% center;
+	background-color: $white;
 }
 .hide{
 	display:none;
 }
 .dateError{
-	color:#FE0101;
+	color:$alert-red;
 	font-size:0.8em;
 	margin-left:1em;
 }
 .timeError{
-	color:#FE0101;
+	color:$alert-red;
 	font-size:0.8em;
 	margin-left:1em;
 }
