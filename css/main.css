@@ -9676,7 +9676,12 @@ h1 span.EXLBriefResultsPaginationPageCount {
   margin-top: 3px;
   padding: 4px;
   margin-left: 12px;
-  float: right; }
+  float: right;
+  width: 20%; }
+
+.EXLRefinementPYR {
+  width: 80%;
+  float: left; }
 
 #showhidediv {
   margin-bottom: 0;
