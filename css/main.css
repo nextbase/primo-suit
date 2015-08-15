@@ -9672,12 +9672,11 @@ h1 span.EXLBriefResultsPaginationPageCount {
   float: left; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-  float: right;
   position: static;
   margin-top: 3px;
   padding: 4px;
   margin-left: 12px;
-  float: left; }
+  float: right; }
 
 #showhidediv {
   margin-bottom: 0;
