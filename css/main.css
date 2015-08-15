@@ -9660,6 +9660,9 @@ h1 span.EXLBriefResultsPaginationPageCount {
   .EXLResultsListAlmaAz table.EXLResultsTable tr.EXLResultMediaTYPEjournal td.EXLSummary div.EXLSummaryContainer {
     min-height: 0; }
 
+.EXLResultsNumbers .EXLRefinementPYR {
+  display: none; }
+
 .EXLALMAResultsTileNoFacets .EXLResultsHeader {
   padding: 10px 0; }
 
