@@ -59,7 +59,7 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsHeader div.EXLResultsNumbers {
     @include reset-margins;
-    @include span-columns(12);
+    @include span-columns(8);
     position: relative;
 }
 
