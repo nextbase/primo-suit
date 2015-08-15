@@ -1,0 +1,7 @@
+$alma_version: 2; // increment when necessary
+
+@mixin alma-image($filename, $background-size: auto) {
+	$url: '/view/branding_skin/icons/' + $filename + '?version=' + $alma_version + '.0';
+	background-url: url($url);
+	background-size: $background-size;
+}

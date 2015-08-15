@@ -277,7 +277,7 @@ ul.formView {
 
 .systemFeedback {
 	background-color: $yellow;
-	@include retina-image('/view/branding_skin/icons/bg_strip_system_feedback', 1px 44px);
+	@include alma-image('bg_strip_system_feedback.png', 1px 44px);
 	background-position: center bottom;
 	background-repeat: repeat-x;
 	color: $black;
@@ -546,28 +546,28 @@ span.Arrow input {
 }
 
 span.firstPage input {
-	@include retina-image('/view/branding_skin/icons/firstPage', 10px 10px);
+	@include alma-image('firstPage.png', 10px 10px);
 	background-repeat: no-repeat;
 	background-color: transparent;
 	background-position: center center;
 }
 
 span.previousPage input {
-		@include retina-image('/view/branding_skin/icons/previousPage', 10px 10px);
+		@include alma-image('previousPage.png', 10px 10px);
 		background-repeat: no-repeat;
 		background-color: transparent;
 		background-position: center center;
 }
 
 span.nextPage input {
-		@include retina-image('/view/branding_skin/icons/nextPage', 10px 10px);
+		@include alma-image('nextPage.png', 10px 10px);
 		background-repeat: no-repeat;
 		background-color: transparent;
 		background-position: center center;
 }
 
 span.lastPage input {
-	@include retina-image('/view/branding_skin/icons/lastPage', 10px 10px);
+	@include alma-image('lastPage.png', 10px 10px);
 		background-repeat: no-repeat;
 		background-color: transparent;
 		background-position: center center;
@@ -575,7 +575,7 @@ span.lastPage input {
 
 .iframeHeader {
 	background-color: $gray-light;
-	@include retina-image('/view/branding_skin/icons/bg_strip_brief_tabs_header', 1px 27px);
+	@include alma-image('bg_strip_brief_tabs_header.png', 1px 27px);
 	background-repeat: repeat-x;
 	border-bottom: 1px solid $gray-light;
 	min-height: 27px;
@@ -651,18 +651,18 @@ span.lastPage input {
 
 input.hasDatepicker{
 	background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 100.5% center $white;
-	@include retina-image('/view/branding_skin/icons/icon_date', 16px 16px);
+	@include alma-image('icon_date', 16px 16px);
 }
 input.hasDateAndTimePicker{
 	background: url("/view/branding_skin/icons/icon_date.png?version=1.0") no-repeat 101% center $white;
-	@include retina-image('/view/branding_skin/icons/icon_date', 16px 16px);
+	@include alma-image('icon_date', 16px 16px);
 }
 input.dateTimeReset {
 	text-indent: -100000em;
 	display: inline-block;
 	margin-left: 5px;
 	margin-top: 1px;
-	@include retina-image('/view/branding_skin/icons/broom', 16px 16px);
+	@include alma-image('broom.png', 16px 16px);
 	background-repeat: no-repeat;
 	background-color: transparent;
 	width:17px;
@@ -675,7 +675,7 @@ input.dateReset {
 	display: inline-block;
 	margin-left: 5px;
 	margin-top: 1px;
-	@include retina-image('/view/branding_skin/icons/broom', 16px 16px);
+	@include alma-image('broom.png', 16px 16px);
 	background-repeat: no-repeat;
 	background-color: transparent;
 	width:17px;
@@ -711,7 +711,7 @@ input.dateReset {
 	display:block;
 }
 .jsTimeField{
-	@include retina-image('/view/branding_skin/icons/time_icon', 16px 16px);
+	@include alma-image('time_icon.png', 16px 16px);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: 99% center;
