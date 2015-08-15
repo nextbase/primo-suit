@@ -216,15 +216,14 @@ h1 span.EXLBriefResultsPaginationPageCount {
             td.EXLMyShelfStar {
                 width: 25px;
             }
-
+            
             td.EXLSummary {
-
                 padding-bottom: 20px;
-
+                
                 div.EXLSummaryContainer {
                     min-height: 0;
                 }
-
+                
             }
 
         }
@@ -248,18 +247,4 @@ h1 span.EXLBriefResultsPaginationPageCount {
         float: left;
     }
 
-}
-
-.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-    position: static;
-    margin-top: 3px;
-    padding: 4px;
-    margin-left: 12px;
-    float: right;
-    width: 20%;
-}
-
-.EXLRefinementPYR {
-    width: 80%;
-    float: left;
 }
