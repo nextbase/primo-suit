@@ -12221,7 +12221,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 1px 0;
   max-width: 30em;
   min-width: 5em;
-  width: auto; }
+  width: auto;
+  white-space: nowrap; }
 
 .EXLMyAccountLinksHedaer {
   padding-bottom: 0.1em;
@@ -12362,7 +12363,10 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   width: auto;
   color: #333333;
   padding-bottom: 0.1em;
-  padding-top: 0.1em; }
+  padding-top: 0.1em;
+  white-space: nowrap; }
+  .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent h1 {
+    white-space: nowrap; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
   width: auto;
