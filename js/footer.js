@@ -4,6 +4,6 @@ $(document).ready(function() {
 
     sitemap_toggle.click(function(e) {
         e.preventDefault();
-        sitemap_block.toggleClass('expanded');
+        sitemap_block.toggleClass('sitemap-expanded');
     });
 });
