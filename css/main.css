@@ -6571,23 +6571,25 @@ li.EXLFacet label {
 .EXLFacetContainer ol li.EXLFacetsDisplayMore {
   display: inline-block;
   margin-top: 0.5em; }
-  .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
-    content: "";
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
-    color: #d8d0c4;
-    margin-left: 4px;
-    font-size: 10px; }
-  .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
-    display: none; }
+  .EXLFacetContainer ol li.EXLFacetsDisplayMore a {
+    white-space: nowrap; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+      content: "";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+      color: #d8d0c4;
+      margin-left: 4px;
+      font-size: 10px; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
+      display: none; }
 
 .EXLFacetContainer ol li.EXLHiddenFacetCreationDate {
   display: none; }

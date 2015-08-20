@@ -113,6 +113,7 @@ li.EXLFacet {
 
     a {
         @include glyphicon($icon-chevron-down, 'after');
+        white-space: nowrap;
 
         &:after {
             color: $gold-gray-secondary;
