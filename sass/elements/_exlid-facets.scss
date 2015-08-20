@@ -407,9 +407,11 @@ li.EXLFacet {
     @include set-button-color($orange);
     @include set-button-size("small");
     @include glyphicon($icon-refresh, 'before');
+    height: 25px;
+    margin-top: -2px;
 
     &:after {
-        height: 27px;
+        height: 25px;
         width: 40px;
         margin-right: 20px;
         text-align: center;
