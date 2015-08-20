@@ -521,7 +521,16 @@ html > body .notebubble a.cancelnote {
 }
 
 html > body .notebubble .notesubmit_holder {
-    margin-right: 20px;
+    margin-right: 0;
+    
+    input {
+        color: $white !important;
+
+        &:hover {
+            color: $white !important;
+            background-color: $orange !important;
+        }
+    }
 }
 
 .notebubble .notebubble_content .notesubmit_holder {

@@ -14094,7 +14094,12 @@ html > body .notebubble a.cancelnote {
   background: none !important; }
 
 html > body .notebubble .notesubmit_holder {
-  margin-right: 20px; }
+  margin-right: 0; }
+  html > body .notebubble .notesubmit_holder input {
+    color: #ffffff !important; }
+    html > body .notebubble .notesubmit_holder input:hover {
+      color: #ffffff !important;
+      background-color: #fd8000 !important; }
 
 .notebubble .notebubble_content .notesubmit_holder {
   padding-right: 18px;
