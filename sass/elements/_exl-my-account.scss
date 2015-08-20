@@ -389,11 +389,12 @@
 
 a.EXLLoansRenewButton {
     @include button();
-    @include set-button-color($gold);
+    @include set-button-color($orange);
     @include set-button-size();
     color: $white;
     margin-right: 10px;
 }
+
 
 #renew_selecte_loans_button {
     @include button();
@@ -401,6 +402,35 @@ a.EXLLoansRenewButton {
     @include set-button-size();
     color: $white;
     margin: 10px 10px 20px 0px;
+}
+
+
+table {
+    th, td {
+        vertical-align: middle;
+    }
+}
+
+table {
+    th.EXLMyAccountTableCounter,
+    td.MyAccount_Loans_0 {
+        width: 30px;
+        height: 40px;
+    }
+
+    th.EXLMyAccountTable,
+    td.MyAccount_Loans_select {
+        width: 20px;
+    }
+
+    th.EXLMyAccountTableTitle,
+    td.MyAccount_Loans_title {
+        width: 180px;
+    }
+
+    td.MyAccount_Loans_author {
+        width: 100px;
+    }
 }
 
 .EXLLocationsWaitButton {
