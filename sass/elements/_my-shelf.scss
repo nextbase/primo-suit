@@ -543,7 +543,8 @@ html > body .notebubble .notesubmit_holder {
     @include button();
     @include set-button-color($gold);
     @include set-button-size('tiny');
-    height: auto;
+    height: auto !important;
+    color: $white !important;
 }
 
 .notebubble .notebubble_bottom {
