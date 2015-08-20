@@ -6582,6 +6582,9 @@ li.EXLFacet label {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+  .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+    margin-left: 5px;
+    font-size: 10px; }
   .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
     display: none; }
 

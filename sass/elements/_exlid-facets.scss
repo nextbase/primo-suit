@@ -114,6 +114,11 @@ li.EXLFacet {
     a {
         @include glyphicon($icon-chevron-down, 'after');
 
+        &:after {
+            margin-left: 5px;
+            font-size: 10px;
+        }
+
         img {
             display: none;
         }
