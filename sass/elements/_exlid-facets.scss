@@ -409,6 +409,11 @@ li.EXLFacet {
     @include glyphicon($icon-refresh, 'before');
     height: 25px;
     margin-top: -2px;
+    width: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    oveflow: hidden !important;
+    margin-right: 0;
 
     &:after {
         height: 25px;
@@ -416,12 +421,6 @@ li.EXLFacet {
         margin-right: 20px;
         text-align: center;
     }
-
-    width: 40px;
-    padding-left: 0;
-    padding-right: 0;
-    oveflow: hidden;
-    margin-right: 0;
 }
 
 .EXLSliderContainer {
