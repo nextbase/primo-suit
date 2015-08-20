@@ -534,7 +534,7 @@ html > body .notebubble a.cancelnote {
     background: none !important; // url(../images/eshelf_note_middle.png) no-repeat top;
 }
 
-html > body .notebubble .notesubmit_holder {
+html > body table > tbody > tr .notebubble .notesubmit_holder {
     margin-right: 0;
     
     input {

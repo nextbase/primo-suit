@@ -971,11 +971,11 @@ html > body .notebubble a.cancelnote {
   border: 0px;
   background: none !important; }
 
-html > body .notebubble .notesubmit_holder {
+html > body table > tbody > tr .notebubble .notesubmit_holder {
   margin-right: 0; }
-  html > body .notebubble .notesubmit_holder input {
+  html > body table > tbody > tr .notebubble .notesubmit_holder input {
     color: #ffffff !important; }
-    html > body .notebubble .notesubmit_holder input:hover {
+    html > body table > tbody > tr .notebubble .notesubmit_holder input:hover {
       color: #ffffff !important;
       background-color: #fd8000 !important; }
 
