@@ -579,12 +579,12 @@ li.EXLFacet {
     border: solid 1px $anchor-color;
     padding: 2px 3px 1px 3px;
     font-size: $small-font-size;
-    width: 60px;
+    width: 60px !important;
 }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
     .datebox {
-        min-width: 3.5em;
+        width: 60px;
     }
 }
 

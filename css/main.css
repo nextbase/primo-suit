@@ -7089,11 +7089,11 @@ li.EXLFacet label {
   border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
   font-size: 14px;
-  width: 60px; }
+  width: 60px !important; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {
-    min-width: 3.5em; } }
+    width: 60px; } }
 
 .ui-widget-header {
   border: 1px solid #aaaaaa;
