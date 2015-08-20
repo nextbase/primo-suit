@@ -400,8 +400,7 @@ a.EXLLoansRenewButton {
     @include set-button-color($gold);
     @include set-button-size();
     color: $white;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    margin: 10px 10px 20px 0px;
 }
 
 .EXLLocationsWaitButton {
