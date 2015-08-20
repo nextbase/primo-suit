@@ -388,8 +388,19 @@
 }
 
 a.EXLLoansRenewButton {
-    color: $gold;
-    padding-right: 2em;
+    @include button();
+    @include set-button-color($gold);
+    @include set-button-size();
+    color: $white;
+    margin-right: 10px;
+}
+
+#renew_selecte_loans_button {
+    @include button();
+    @include set-button-color($gold);
+    @include set-button-size();
+    color: $white;
+    margin-right: 10px;
 }
 
 .EXLLocationsWaitButton {
