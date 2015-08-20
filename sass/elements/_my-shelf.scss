@@ -195,7 +195,7 @@ html > body .folders_new li ul li img.foldericon {
     @include button();
     @include set-button-color($orange);
     @include set-button-size('tiny');
-    width: 80px;
+    width: 60px;
     height: auto;
     border: none;
     font-size: 10px;
