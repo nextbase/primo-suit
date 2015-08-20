@@ -472,20 +472,20 @@ html > body .notebubble a.cancelnote {
 .notebubble h3 {
     padding-right: 0px;
     padding-left: 20px;
-    background: none !important; // url(../images/eshelf_note_top.png) no-repeat left top;
+    background: none !important; 
     padding-bottom: 0px;
     margin: 0px;
     font-size: 0.9em;
     line-height: 1.5em;
     width: 320px;
-    padding-top: 25px;
-    height: 44px;
+    padding-top: 25px !important;
+    height: 44px !important;
 }
 
 .notebubble .notebubble_content {
     padding-right: 7px;
     padding-left: 20px;
-    background: none !important; // url(../images/eshelf_note_middle.png) no-repeat left top;
+    background: none !important; 
     padding-bottom: 0px;
     width: 320px;
     padding-top: 30px;

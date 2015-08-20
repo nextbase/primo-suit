@@ -855,8 +855,8 @@ html > body .notebubble a.cancelnote {
   font-size: 0.9em;
   line-height: 1.5em;
   width: 320px;
-  padding-top: 25px;
-  height: 44px; }
+  padding-top: 25px !important;
+  height: 44px !important; }
 
 .notebubble .notebubble_content {
   padding-right: 7px;
