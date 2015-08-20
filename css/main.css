@@ -12657,7 +12657,7 @@ table td.MyAccount_Loans_author {
   vertical-align: text-top;
   margin-right: 0.5em; }
 
-#LoansTable thead td:first-child,
+#LoansTable thead td:nth-child(1),
 #LoansTable thead td:nth-child(2) {
   display: none; }
 
