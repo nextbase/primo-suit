@@ -14129,7 +14129,8 @@ html > body .notebubble .notesubmit_holder {
   font-weight: bold;
   line-height: 20px;
   padding: 1.5px 10px;
-  height: auto; }
+  height: auto !important;
+  color: #ffffff !important; }
   .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
