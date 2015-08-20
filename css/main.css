@@ -6915,7 +6915,7 @@ li.EXLFacet label {
     margin-top: -2px;
     padding-left: 0;
     padding-right: 0;
-    oveflow: hidden !important;
+    overflow: hidden !important;
     margin-right: 0; }
     .EXLSliderRefine a#dateSubmit:before,
     .EXLSliderRefine a:hover#dateSubmit:before {
