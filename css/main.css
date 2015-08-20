@@ -2409,19 +2409,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 #num_of_results {
   width: -moz-available; }
 
-#exlidLightbox {
-  background-color: #d8d0c4;
-  padding-top: 0.5em;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: 1000;
-  display: none; }
-
 #exlidPleaseWaitContainer {
   z-index: 1001;
   position: fixed;
@@ -2692,70 +2679,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   top: 50%;
   position: absolute;
   z-index: 2000; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
-  width: 100%;
-  padding-bottom: 0px;
-  color: #8C8C8C;
-  padding-top: 1em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow em {
-  font-weight: normal; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em {
-  font-weight: normal; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowSeperated {
-  border-bottom: 1px solid #DFDFDF; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
-  width: 100%;
-  padding-bottom: 0px;
-  color: #987c4d;
-  height: 1.5em; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
-  list-style: none; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstName {
-  float: left;
-  cursor: pointer; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
-  color: #333333; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
-  float: right;
-  margin-right: 5em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionScrollArea {
-  height: 179px;
-  overflow: auto;
-  overflow-x: hidden; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
-  background-image: url(../images/icon_available.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
-  background-image: url(../images/icon_unavailable_grey.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
-  background-image: url(../images/icon_yellow.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
 
 #exlidMyAccountMainMenuContainer li.EXLMyAccountMainMenuInstHeader a {
   color: #8C8C8C;
@@ -4849,7 +4772,7 @@ ul.menu {
 
 #footer {
   background-color: #cbbfae;
-  margin-top: 0;
+  margin-top: 40px;
   width: 100%; }
   #footer #block-snu-head-block-snu-foot-block h2 {
     display: none; }
@@ -8775,6 +8698,84 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   color: #888888;
   margin-left: 0.5em;
   display: inline; }
+
+/* Unstyled Yet */
+#exlidLightbox {
+  background-color: #d8d0c4;
+  padding-top: 0.5em;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  display: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #8C8C8C;
+  padding-top: 1em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowSeperated {
+  border-bottom: 1px solid #DFDFDF; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #987c4d;
+  height: 1.5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
+  list-style: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstName {
+  float: left;
+  cursor: pointer; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
+  color: #333333; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
+  float: right;
+  margin-right: 5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionScrollArea {
+  height: 179px;
+  overflow: auto;
+  overflow-x: hidden; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
+  background-image: url(../images/icon_available.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
+  background-image: url(../images/icon_unavailable_grey.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
+  background-image: url(../images/icon_yellow.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
 
 .EXLResultsContainer {
   margin: 0;
