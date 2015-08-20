@@ -468,6 +468,17 @@ table {
     margin-right: 0.5em
 }
 
+.EXLMyAccountMainContainer table.EXLMyAccountTable {
+    thead {
+        td:first-child,
+        td:nth-child(1)  {
+            display: none;
+        }
+
+
+    }
+}
+
 .EXLMyAccountMainContainer iframe.EXLMyAccountLibraryCardIframe {
     overflow: scroll;
     margin-bottom: -2em;
