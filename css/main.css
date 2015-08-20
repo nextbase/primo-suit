@@ -13777,7 +13777,9 @@ html > body .folders_new li ul li img.foldericon {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  padding: 1.5px 10px; }
+  padding: 1.5px 10px;
+  width: auto;
+  height: 18px; }
   .folders_new input.newfolders_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
