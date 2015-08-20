@@ -551,13 +551,44 @@ html > body .folders_new li ul li img.foldericon {
   border: 1px solid #987c4d; }
 
 .folders_new input.newfolders_submit {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
-  color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px; }
+  .folders_new input.newfolders_submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .folders_new input.newfolders_submit:hover,
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit_o {
   background: url(../images/bg_strip_btn_orange.png);

@@ -222,13 +222,15 @@ html > body .folders_new li ul li img.foldericon {
 }
 
 .folders_new input.newfolders_submit {
-    background: url(../images/bg_strip_btn_orange.png);
-    width: 51px;
-    color: $white;
-    height: 18px;
-    border: 1px solid $orange;
-    cursor: pointer;
-    font-size: 0.9em;
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size('tiny');
+    // width: 51px;
+    // color: $white;
+    // height: 18px;
+    // border: 1px solid $orange;
+    // cursor: pointer;
+    // font-size: 0.9em;
 }
 
 .folders_new input.newfolders_submit_o {
