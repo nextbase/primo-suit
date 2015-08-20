@@ -546,6 +546,12 @@ html > body .notebubble .notesubmit_holder {
     @include set-button-size('tiny');
     height: auto !important;
     color: $white !important;
+    
+    &:hover {
+        color: $white !important;
+        background-color: $orange !important;
+    }
+
 }
 
 .notebubble .notebubble_content input.note_submit_o {
@@ -554,6 +560,11 @@ html > body .notebubble .notesubmit_holder {
     @include set-button-size('tiny');
     height: auto !important;
     color: $white !important;
+
+    &:hover {
+        color: $white !important;
+        background-color: $orange !important;
+    }
 }
 
 .notebubble .notebubble_bottom {

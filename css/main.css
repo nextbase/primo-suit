@@ -14148,6 +14148,9 @@ html > body .notebubble .notesubmit_holder {
     background-color: #d46b00;
     border-color: #c06100;
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .notebubble .notebubble_content input.note_submit:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_content input.note_submit_o {
   font-family: sans-serif;
@@ -14190,6 +14193,9 @@ html > body .notebubble .notesubmit_holder {
     background-color: #7d663f;
     border-color: #6f5b38;
     box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  .notebubble .notebubble_content input.note_submit_o:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_bottom {
   background: none !important;
