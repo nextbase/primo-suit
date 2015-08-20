@@ -12482,7 +12482,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333;
   width: auto;
   padding-right: 1.5em;
-  vertical-align: bottom; }
+  vertical-align: middle; }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedbackRenewAll {
   background-color: #ffe066;
@@ -12547,8 +12547,8 @@ a.EXLLoansRenewButton {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #fd8000;
-  border: 2px solid #fd8000;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
   line-height: 28px;
   color: #ffffff;
   margin-right: 10px; }
@@ -12558,13 +12558,13 @@ a.EXLLoansRenewButton {
   a.EXLLoansRenewButton:hover,
   a.EXLLoansRenewButton:active {
     color: #ffffff;
-    background-color: #e47300;
-    border-color: #d46b00; }
+    background-color: #876e44;
+    border-color: #7d663f; }
   a.EXLLoansRenewButton:active {
     color: #ffffff;
-    background-color: #d46b00;
-    border-color: #c06100;
-    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
 
 #renew_selecte_loans_button {
   font-family: sans-serif;
@@ -12586,8 +12586,8 @@ a.EXLLoansRenewButton {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #987c4d;
-  border: 2px solid #987c4d;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
   line-height: 28px;
   color: #ffffff;
   margin: 10px 10px 20px 0px; }
@@ -12597,13 +12597,13 @@ a.EXLLoansRenewButton {
   #renew_selecte_loans_button:hover,
   #renew_selecte_loans_button:active {
     color: #ffffff;
-    background-color: #876e44;
-    border-color: #7d663f; }
+    background-color: #e47300;
+    border-color: #d46b00; }
   #renew_selecte_loans_button:active {
     color: #ffffff;
-    background-color: #7d663f;
-    border-color: #6f5b38;
-    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 table th, table td {
   vertical-align: middle; }

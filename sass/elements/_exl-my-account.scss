@@ -334,7 +334,7 @@
     color: $black;
     width: auto;
     padding-right: 1.5em;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedbackRenewAll {
@@ -389,7 +389,7 @@
 
 a.EXLLoansRenewButton {
     @include button();
-    @include set-button-color($orange);
+    @include set-button-color($gold);
     @include set-button-size();
     color: $white;
     margin-right: 10px;
@@ -398,7 +398,7 @@ a.EXLLoansRenewButton {
 
 #renew_selecte_loans_button {
     @include button();
-    @include set-button-color($gold);
+    @include set-button-color($orange);
     @include set-button-size();
     color: $white;
     margin: 10px 10px 20px 0px;
