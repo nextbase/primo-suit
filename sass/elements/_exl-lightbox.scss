@@ -478,7 +478,7 @@
 }
 
 #exlidFacetsLightboxForm {
-    height: 440px;
+    height: 400px;
     overflow-x: auto;
     overflow-y: scroll;
     @include prefixer(box-shadow, inset 0 10px 20px 0 rgba($black, .1), webkit moz spec);
