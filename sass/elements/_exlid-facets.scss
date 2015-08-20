@@ -396,9 +396,8 @@ li.EXLFacet {
 }
 
 .EXLSliderRefine {
-    width: 100%;
+    width: auto;
     float: left;
-    @include clearfix;
     margin-bottom: $spacing-small;
 }
 
@@ -470,7 +469,7 @@ li.EXLFacet {
 .EXLSliderToText {
     color: $gray-dark;
     font-size: $small-font-size;
-    width: 40px;
+    width: 36px;
     float: left;
     margin-bottom: ($spacing-small / 2);
 }
@@ -579,7 +578,7 @@ li.EXLFacet {
     border: solid 1px $anchor-color;
     padding: 2px 3px 1px 3px;
     font-size: $small-font-size;
-    width: 60px !important;
+    width: 55px !important;
 }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {

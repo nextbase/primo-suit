@@ -6860,13 +6860,9 @@ li.EXLFacet label {
   font-family: Arial; }
 
 .EXLSliderRefine {
-  width: 100%;
+  width: auto;
   float: left;
   margin-bottom: 20px; }
-  .EXLSliderRefine::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .EXLSliderRefine a,
 .EXLSliderRefine a:hover {
@@ -6997,7 +6993,7 @@ li.EXLFacet label {
 .EXLSliderToText {
   color: #888888;
   font-size: 14px;
-  width: 40px;
+  width: 36px;
   float: left;
   margin-bottom: 10px; }
 
@@ -7089,7 +7085,7 @@ li.EXLFacet label {
   border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
   font-size: 14px;
-  width: 60px !important; }
+  width: 55px !important; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {
