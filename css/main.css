@@ -6997,7 +6997,7 @@ li.EXLFacet label {
 .EXLSliderToText {
   color: #888888;
   font-size: 14px;
-  width: 32%;
+  width: 40px;
   float: left;
   margin-bottom: 10px; }
 
@@ -7088,7 +7088,8 @@ li.EXLFacet label {
 .datebox {
   border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 60px; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {
