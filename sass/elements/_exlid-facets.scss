@@ -411,10 +411,14 @@ li.EXLFacet {
     &:after {
         height: 27px;
         width: 40px;
+        margin-right: 20px;
+        text-align: center;
+        line-height: 27px;
     }
 
     width: 40px;
     oveflow: hidden;
+    margin-right: 0;
 }
 
 .EXLSliderContainer {

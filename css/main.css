@@ -6892,7 +6892,8 @@ li.EXLFacet label {
   line-height: 20px;
   padding: 1.5px 10px;
   width: 40px;
-  oveflow: hidden; }
+  oveflow: hidden;
+  margin-right: 0; }
   .EXLSliderRefine a::-moz-focus-inner,
   .EXLSliderRefine a:hover::-moz-focus-inner {
     border: 0;
@@ -6925,7 +6926,10 @@ li.EXLFacet label {
   .EXLSliderRefine a:after,
   .EXLSliderRefine a:hover:after {
     height: 27px;
-    width: 40px; }
+    width: 40px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 27px; }
 
 .EXLSliderContainer {
   width: 90%; }
