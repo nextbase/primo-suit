@@ -580,7 +580,8 @@ html > body .folders_new li ul li img.foldericon {
   width: auto;
   height: auto;
   border: none;
-  font-size: 10px; }
+  font-size: 10px;
+  background-image: none; }
   .folders_new input.newfolders_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
