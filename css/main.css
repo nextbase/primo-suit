@@ -6583,6 +6583,7 @@ li.EXLFacet label {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
   .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+    color: #d8d0c4;
     margin-left: 5px;
     font-size: 10px; }
   .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
