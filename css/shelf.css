@@ -548,7 +548,8 @@ html > body .folders_new li ul li img.foldericon {
 .folders_new input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #987c4d; }
+  border: 1px solid #987c4d;
+  height: 30px; }
 
 .folders_new input.newfolders_submit {
   font-family: sans-serif;
@@ -596,14 +597,14 @@ html > body .folders_new li ul li img.foldericon {
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit_o {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
+  background: none;
+  width: auto;
   color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  height: 24px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em;
-  padding-bottom: 2px; }
+  font-size: 10px;
+  padding-bottom: 1px; }
 
 .folders_new .folderactions {
   padding-right: 0px;

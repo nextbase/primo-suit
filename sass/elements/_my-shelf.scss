@@ -219,6 +219,7 @@ html > body .folders_new li ul li img.foldericon {
     font-size: 0.9em;
     width: 100px;
     border: 1px solid $gold;
+    height: 30px;
 }
 
 .folders_new input.newfolders_submit {
@@ -240,14 +241,14 @@ html > body .folders_new li ul li img.foldericon {
 }
 
 .folders_new input.newfolders_submit_o {
-    background: url(../images/bg_strip_btn_orange.png);
-    width: 51px;
+    background: none;
+    width: auto;;
     color: $white;
-    height: 18px;
-    border: 1px solid $orange;
+    height: 24px;
+    border: none;
     cursor: pointer;
-    font-size: 0.9em;
-    padding-bottom: 2px;
+    font-size: 10px;
+    padding-bottom: 1px;
 }
 
 .folders_new .folderactions {
