@@ -6890,7 +6890,9 @@ li.EXLFacet label {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  padding: 1.5px 10px; }
+  padding: 1.5px 10px;
+  width: 40px;
+  oveflow: hidden; }
   .EXLSliderRefine a::-moz-focus-inner,
   .EXLSliderRefine a:hover::-moz-focus-inner {
     border: 0;
@@ -6908,6 +6910,22 @@ li.EXLFacet label {
     background-color: #d46b00;
     border-color: #c06100;
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .EXLSliderRefine a:after,
+  .EXLSliderRefine a:hover:after {
+    height: 27px;
+    width: 40px; }
 
 .EXLSliderContainer {
   width: 90%; }
@@ -14886,10 +14904,6 @@ table.main {
     clear: both;
     content: "";
     display: table; }
-
-@media screen and (max-width: 480px) {
-  * {
-    display: none; } }
 
 @media screen and (max-width: 480px) {
   .folders_new,

@@ -406,6 +406,15 @@ li.EXLFacet {
     @include button();
     @include set-button-color($orange);
     @include set-button-size("small");
+    @include glyphicon($icon-refresh, 'before');
+
+    &:after {
+        height: 27px;
+        width: 40px;
+    }
+
+    width: 40px;
+    oveflow: hidden;
 }
 
 .EXLSliderContainer {
