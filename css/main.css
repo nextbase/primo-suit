@@ -8679,6 +8679,9 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   box-shadow: inset 0 10px 20px 0 rgba(51, 51, 51, 0.1);
   border-top: 1px solid #f2f2f0; }
 
+.EXLCurrentLang_en_US #exlidFacetsLightboxForm {
+  height: 440px; }
+
 .EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
   margin-right: 0em; }
 
