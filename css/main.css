@@ -6584,7 +6584,7 @@ li.EXLFacet label {
     -moz-osx-font-smoothing: grayscale; }
   .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
     color: #d8d0c4;
-    margin-left: 5px;
+    margin-left: 4px;
     font-size: 10px; }
   .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
     display: none; }
