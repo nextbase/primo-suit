@@ -16,6 +16,15 @@ html {
 #korean-sitemap {
   display: none; }
 
+.EXLCurrentLang_en_US #korean-main-navigation {
+  display: none; }
+
+.EXLCurrentLang_en_US #korean-footer-info-wrapper {
+  display: none; }
+
+.EXLCurrentLang_en_US #korean-sitemap {
+  display: none; }
+
 .EXLCurrentLang_ko_KR #korean-main-navigation {
   display: block; }
 
@@ -32,15 +41,6 @@ html {
   display: block; }
 
 .EXLCurrentLang_ko_KR #english-sitemap {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-main-navigation {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-footer-info-wrapper {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-sitemap {
   display: none; }
 
 div.dp-calendar {
