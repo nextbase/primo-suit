@@ -13802,6 +13802,84 @@ html > body .folders_new li ul li img.foldericon {
   width: 100px;
   border: 1px solid #987c4d;
   height: 30px !important; }
+  .folders_new input[type="button"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #987c4d;
+    border: 2px solid #987c4d;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px; }
+    .folders_new input[type="button"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    .folders_new input[type="button"]:hover,
+    .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #876e44;
+      border-color: #7d663f; }
+    .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #7d663f;
+      border-color: #6f5b38;
+      box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  .folders_new input[type="submit"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #fd8000;
+    border: 2px solid #fd8000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px; }
+    .folders_new input[type="submit"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    .folders_new input[type="submit"]:hover,
+    .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #e47300;
+      border-color: #d46b00; }
+    .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #d46b00;
+      border-color: #c06100;
+      box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit {
   font-family: sans-serif;

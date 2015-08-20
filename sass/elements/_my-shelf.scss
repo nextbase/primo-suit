@@ -236,6 +236,18 @@ html > body .folders_new li ul li img.foldericon {
     width: 100px;
     border: 1px solid $gold;
     height: 30px !important;
+
+    &[type="button"] {
+        @include button();
+        @include set-button-color($gold);
+        @include set-button-size('tiny');
+    }
+
+    &[type="submit"] {
+        @include button();
+        @include set-button-color($orange);
+        @include set-button-size('tiny');
+    }
 }
 
 .folders_new input.newfolders_submit {
@@ -546,7 +558,7 @@ html > body .notebubble .notesubmit_holder {
     @include set-button-size('tiny');
     height: auto !important;
     color: $white !important;
-    
+
     &:hover {
         color: $white !important;
         background-color: $orange !important;
