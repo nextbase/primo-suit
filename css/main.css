@@ -12590,7 +12590,8 @@ a.EXLLoansRenewButton {
   border: 2px solid #987c4d;
   line-height: 28px;
   color: #ffffff;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-bottom: 20px; }
   #renew_selecte_loans_button::-moz-focus-inner {
     border: 0;
     padding: 0; }
