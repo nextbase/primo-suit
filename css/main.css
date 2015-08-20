@@ -4623,6 +4623,7 @@ h1#main_logo {
       #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .logo_image_area:last-child {
         margin-right: 0; }
     #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .other_link_area {
+      display: none;
       float: right;
       margin-top: 22px; }
       #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .other_link_area .donate_link_area a,
@@ -4787,12 +4788,14 @@ ul.menu {
           background-color: #987c4d;
           color: #ffffff; }
 
-#top-user-menu-desktop ul.menu {
-  float: left;
-  width: auto; }
-  #top-user-menu-desktop ul.menu > li {
-    list-style: none;
-    float: left; }
+#top-user-menu-desktop {
+  display: none; }
+  #top-user-menu-desktop ul.menu {
+    float: left;
+    width: auto; }
+    #top-user-menu-desktop ul.menu > li {
+      list-style: none;
+      float: left; }
 
 #footer_logo {
   height: 60px;
@@ -5370,7 +5373,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   list-style: none;
   width: auto;
   float: right;
-  margin-right: 240px !important;
+  margin-right: 86px !important;
   position: relative;
   top: -105px;
   pointer-events: none; }
@@ -6303,7 +6306,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: right;
   position: relative;
   top: -153px;
-  margin-right: 160px; }
+  margin-right: 0; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
