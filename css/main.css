@@ -14048,7 +14048,7 @@ html > body .notebubble a.cancelnote {
 .notebubble a.cancelnote:hover {
   background-position: left 12px; }
 
-.notebubble h3 {
+.noteBubble h3 {
   padding-right: 0px;
   padding-left: 20px;
   background: none !important;
