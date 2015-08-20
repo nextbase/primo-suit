@@ -15157,37 +15157,37 @@ table.main {
     display: none; } }
 
 #korean-main-navigation {
-  display: none; }
+  display: none !important; }
 
 #korean-footer-info-wrapper {
-  display: none; }
+  display: none !important; }
 
 #korean-sitemap {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_en_US #korean-main-navigation {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_en_US #korean-footer-info-wrapper {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_en_US #korean-sitemap {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_ko_KR #korean-main-navigation {
-  display: block; }
+  display: block !important; }
 
 .EXLCurrentLang_ko_KR #english-main-menu {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_ko_KR #korean-footer-info-wrapper {
-  display: block; }
+  display: block !important; }
 
 .EXLCurrentLang_ko_KR #english-footer-info-wrapper {
-  display: none; }
+  display: none !important; }
 
 .EXLCurrentLang_ko_KR #korean-sitemap {
-  display: block; }
+  display: block !important; }
 
 .EXLCurrentLang_ko_KR #english-sitemap {
-  display: none; }
+  display: none !important; }

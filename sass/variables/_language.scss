@@ -1,16 +1,16 @@
 // Main Navigation
 #korean-main-navigation {
-	display: none;
+	display: none !important;
 }
 
 // Footer Info Wrapper
 #korean-footer-info-wrapper {
-	display: none;
+	display: none !important;
 }
 
 // Sitemap
 #korean-sitemap {
-	display: none;
+	display: none !important;
 }
 
 .EXLCurrentLang_en_US {
@@ -19,17 +19,17 @@
 
 	// Main Navigation
 	#korean-main-navigation {
-		display: none;
+		display: none !important;
 	}
 
 	// Footer Info Wrapper
 	#korean-footer-info-wrapper {
-		display: none;
+		display: none !important;
 	}
 
 	// Sitemap
 	#korean-sitemap {
-		display: none;
+		display: none !important;
 	}
 
 }
@@ -38,31 +38,31 @@
 	// Main Navigation
 
 	#korean-main-navigation {
-		display: block;
+		display: block !important;
 	}
 
 	#english-main-menu {
-		display: none;
+		display: none !important;
 	}
 
 	// Footer Info Wrapper
 
 	#korean-footer-info-wrapper {
-		display: block;
+		display: block !important;
 	}
 
 	#english-footer-info-wrapper {
-		display: none;
+		display: none !important;
 	}
 
 	// Footer Info Wrapper
 
 	#korean-sitemap {
-		display: block;
+		display: block !important;
 	}
 
 	#english-sitemap {
-		display: none;
+		display: none !important;
 	}
 
 }
