@@ -6931,7 +6931,7 @@ li.EXLFacet label {
   .EXLSliderRefine a:hover:after {
     display: block;
     height: 25px;
-    width: 40px;
+    width: 40px !important;
     margin-right: 20px;
     text-align: center; }
 
