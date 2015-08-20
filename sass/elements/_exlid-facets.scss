@@ -110,6 +110,14 @@ li.EXLFacet {
 .EXLFacetContainer ol li.EXLFacetsDisplayMore {
     display: inline-block;
     margin-top: 0.5em;
+
+    a {
+        @include glyphicon($icon-chevron-down, 'after');
+
+        img {
+            display: none;
+        }
+    }
 }
 
 .EXLFacetContainer ol li.EXLHiddenFacetCreationDate {
