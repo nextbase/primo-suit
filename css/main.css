@@ -7,42 +7,6 @@ html {
 *::before {
   box-sizing: inherit; }
 
-#korean-main-navigation {
-  display: none; }
-
-#korean-footer-info-wrapper {
-  display: none; }
-
-#korean-sitemap {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-main-navigation {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-footer-info-wrapper {
-  display: none; }
-
-.EXLCurrentLang_en_US #korean-sitemap {
-  display: none; }
-
-.EXLCurrentLang_ko_KR #korean-main-navigation {
-  display: block; }
-
-.EXLCurrentLang_ko_KR #english-main-menu {
-  display: none; }
-
-.EXLCurrentLang_ko_KR #korean-footer-info-wrapper {
-  display: block; }
-
-.EXLCurrentLang_ko_KR #english-footer-info-wrapper {
-  display: none; }
-
-.EXLCurrentLang_ko_KR #korean-sitemap {
-  display: block; }
-
-.EXLCurrentLang_ko_KR #english-sitemap {
-  display: none; }
-
 div.dp-calendar {
   text-align: center; }
 
@@ -15191,3 +15155,39 @@ table.main {
   .MyAccount_FineAndFees_6,
   #exlidUserAreaRibbon li.EXLMyShelf {
     display: none; } }
+
+#korean-main-navigation {
+  display: none; }
+
+#korean-footer-info-wrapper {
+  display: none; }
+
+#korean-sitemap {
+  display: none; }
+
+.EXLCurrentLang_en_US #korean-main-navigation {
+  display: none; }
+
+.EXLCurrentLang_en_US #korean-footer-info-wrapper {
+  display: none; }
+
+.EXLCurrentLang_en_US #korean-sitemap {
+  display: none; }
+
+.EXLCurrentLang_ko_KR #korean-main-navigation {
+  display: block; }
+
+.EXLCurrentLang_ko_KR #english-main-menu {
+  display: none; }
+
+.EXLCurrentLang_ko_KR #korean-footer-info-wrapper {
+  display: block; }
+
+.EXLCurrentLang_ko_KR #english-footer-info-wrapper {
+  display: none; }
+
+.EXLCurrentLang_ko_KR #korean-sitemap {
+  display: block; }
+
+.EXLCurrentLang_ko_KR #english-sitemap {
+  display: none; }
