@@ -6927,8 +6927,8 @@ li.EXLFacet label {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  .EXLSliderRefine a:after,
-  .EXLSliderRefine a:hover:after {
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
     display: block;
     height: 25px;
     width: 40px !important;

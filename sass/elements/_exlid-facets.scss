@@ -416,7 +416,7 @@ li.EXLFacet {
     margin-right: 0;
     @include glyphicon($icon-refresh, 'before');
 
-    &:after {
+    &:before {
         display: block;
         height: 25px;
         width: 40px !important;
