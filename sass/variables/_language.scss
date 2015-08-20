@@ -1,8 +1,21 @@
+// Main Navigation
 #korean-main-navigation {
 	display: none;
 }
 
+// Footer Info Wrapper
+#korean-footer-info-wrapper {
+	display: none;
+}
+
+// Sitemap
+#korean-sitemap {
+	display: none;
+}
+
 .EXLCurrentLang_ko_KR {
+	// Main Navigation
+
 	#korean-main-navigation {
 		display: block;
 	}
@@ -10,5 +23,25 @@
 	#english-main-menu {
 		display: none;
 	}
-	
+
+	// Footer Info Wrapper
+
+	#korean-footer-info-wrapper {
+		display: block;
+	}
+
+	#english-footer-info-wrapper {
+		display: none;
+	}
+
+	// Footer Info Wrapper
+
+	#korean-sitemap {
+		display: block;
+	}
+
+	#english-sitemap {
+		display: none;
+	}
+
 }
