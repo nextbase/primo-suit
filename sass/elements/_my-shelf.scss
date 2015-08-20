@@ -235,7 +235,7 @@ html > body .folders_new li ul li img.foldericon {
     font-size: 0.9em;
     width: 100px;
     border: 1px solid $gold;
-    height: 30px;
+    height: 30px !important;
 }
 
 .folders_new input.newfolders_submit {
