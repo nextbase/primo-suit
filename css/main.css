@@ -14051,7 +14051,7 @@ html > body .notebubble a.cancelnote {
 .noteBubble h3 {
   padding-right: 0px;
   padding-left: 20px;
-  background: none !important;
+  background: url(../images/eshelf_note_top.png) no-repeat left top;
   padding-bottom: 0px;
   margin: 0px;
   font-size: 14px !important;
