@@ -406,20 +406,23 @@ li.EXLFacet {
     @include button();
     @include set-button-color($orange);
     @include set-button-size("small");
-    @include glyphicon($icon-refresh, 'before');
-    height: 25px;
-    margin-top: -2px;
-    width: 40px;
-    padding-left: 0;
-    padding-right: 0;
-    oveflow: hidden !important;
-    margin-right: 0;
-
-    &:after {
-        height: 25px;
+   
+    &#dateSubmit{
         width: 40px;
-        margin-right: 20px;
-        text-align: center;
+        height: 25px;
+        margin-top: -2px;
+        padding-left: 0;
+        padding-right: 0;
+        oveflow: hidden !important;
+        margin-right: 0;
+        @include glyphicon($icon-refresh, 'before');
+
+        &:after {
+            height: 25px;
+            width: 40px;
+            margin-right: 20px;
+            text-align: center;
+        }
     }
 }
 

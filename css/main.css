@@ -6890,14 +6890,7 @@ li.EXLFacet label {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  padding: 1.5px 10px;
-  height: 25px;
-  margin-top: -2px;
-  width: 40px;
-  padding-left: 0;
-  padding-right: 0;
-  oveflow: hidden !important;
-  margin-right: 0; }
+  padding: 1.5px 10px; }
   .EXLSliderRefine a::-moz-focus-inner,
   .EXLSliderRefine a:hover::-moz-focus-inner {
     border: 0;
@@ -6915,24 +6908,33 @@ li.EXLFacet label {
     background-color: #d46b00;
     border-color: #c06100;
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
-  .EXLSliderRefine a:before,
-  .EXLSliderRefine a:hover:before {
-    content: "";
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  .EXLSliderRefine a:after,
-  .EXLSliderRefine a:hover:after {
-    height: 25px;
+  .EXLSliderRefine a#dateSubmit,
+  .EXLSliderRefine a:hover#dateSubmit {
     width: 40px;
-    margin-right: 20px;
-    text-align: center; }
+    height: 25px;
+    margin-top: -2px;
+    padding-left: 0;
+    padding-right: 0;
+    oveflow: hidden !important;
+    margin-right: 0; }
+    .EXLSliderRefine a#dateSubmit:before,
+    .EXLSliderRefine a:hover#dateSubmit:before {
+      content: "";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .EXLSliderRefine a#dateSubmit:after,
+    .EXLSliderRefine a:hover#dateSubmit:after {
+      height: 25px;
+      width: 40px;
+      margin-right: 20px;
+      text-align: center; }
 
 .EXLSliderContainer {
   width: 90%; }
