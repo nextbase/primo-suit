@@ -6977,7 +6977,7 @@ li.EXLFacet label {
 .EXLDateRangeLine {
   margin-top: 0;
   margin-bottom: 20px;
-  padding-left: 10px; }
+  padding-left: 0; }
   .EXLDateRangeLine::after {
     clear: both;
     content: "";
@@ -7014,9 +7014,10 @@ li.EXLFacet label {
 .EXLSliderToText {
   color: #888888;
   font-size: 14px;
-  width: 36px;
+  width: auto;
   float: left;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-right: 5px; }
 
 #slider-range {
   margin: 0 10px 30px 10px; }

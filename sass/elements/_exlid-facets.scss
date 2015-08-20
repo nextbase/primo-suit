@@ -442,7 +442,7 @@ li.EXLFacet {
 .EXLDateRangeLine {
     margin-top: 0;
     margin-bottom: $spacing-small;
-    padding-left: $facets-horizontal-padding;
+    padding-left: 0;
     @include clearfix;
 }
 
@@ -481,9 +481,10 @@ li.EXLFacet {
 .EXLSliderToText {
     color: $gray-dark;
     font-size: $small-font-size;
-    width: 36px;
+    width: auto;
     float: left;
     margin-bottom: ($spacing-small / 2);
+    margin-right: 5px;
 }
 
 #slider-range {
