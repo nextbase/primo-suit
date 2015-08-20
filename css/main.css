@@ -7,6 +7,15 @@ html {
 *::before {
   box-sizing: inherit; }
 
+#korean-main-navigation {
+  display: none; }
+
+.EXLCurrentLang_ko_KR #korean-main-navigation {
+  display: block; }
+
+.EXLCurrentLang_ko_KR #english-main-menu {
+  display: none; }
+
 div.dp-calendar {
   text-align: center; }
 
