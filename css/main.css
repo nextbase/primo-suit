@@ -12658,7 +12658,7 @@ table td.MyAccount_Loans_author {
   margin-right: 0.5em; }
 
 #LoansTable thead td:first-child,
-#LoansTable thead td:nth-child(1) {
+#LoansTable thead td:nth-child(2) {
   display: none; }
 
 .EXLMyAccountMainContainer iframe.EXLMyAccountLibraryCardIframe {
