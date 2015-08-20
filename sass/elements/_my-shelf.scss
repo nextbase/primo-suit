@@ -190,6 +190,22 @@ html > body .folders_new li ul li img.foldericon {
     margin-right: -4px;
 }
 
+.folders_new li ul li input[type="submit"],
+.folders_new li ul li input[type="button"] {
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size('tiny');
+    width: 80px;
+    height: auto;
+    border: none;
+    font-size: 10px;
+    background-image: none;
+}
+
+.folders_new li ul li input[type="text"] {
+    
+}
+
 .folders_new li ul li input {
     margin: 0px;
     vertical-align: middle;
@@ -231,13 +247,6 @@ html > body .folders_new li ul li img.foldericon {
     border: none;
     font-size: 10px;
     background-image: none;
-
-    // width: 51px;
-    // color: $white;
-    // height: 18px;
-    // border: 1px solid $orange;
-    // cursor: pointer;
-    // font-size: 0.9em;
 }
 
 .folders_new input.newfolders_submit_o {
