@@ -6894,6 +6894,8 @@ li.EXLFacet label {
   height: 25px;
   margin-top: -2px;
   width: 40px;
+  padding-left: 0;
+  padding-right: 0;
   oveflow: hidden;
   margin-right: 0; }
   .EXLSliderRefine a::-moz-focus-inner,
