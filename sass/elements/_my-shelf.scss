@@ -241,12 +241,14 @@ html > body .folders_new input {
         @include button();
         @include set-button-color($gold);
         @include set-button-size('tiny');
+        color: $white !important;
     }
 
     &[type="submit"] {
         @include button();
         @include set-button-color($orange);
         @include set-button-size('tiny');
+        color: $white !important;
     }
 }
 
