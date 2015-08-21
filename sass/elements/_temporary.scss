@@ -14,5 +14,9 @@
 	border-bottom: 1px solid $gray-light;
 	text-align: center;
 	margin-bottom: 20px;
-	font-size: $small-font-size - 2px;
+	font-size: $small-font-size;
+
+	a {
+		font-weight: normal;
+	}
 }
