@@ -6493,6 +6493,7 @@ li.EXLFacet label {
   #pyrTopLevel .EXLFacetContainer #exlidPyrlistX {
     margin-bottom: 20px; }
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX .EXLFacetsDisplayMore {
+      padding: 0;
       height: 0; }
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
       background-color: transparent;
