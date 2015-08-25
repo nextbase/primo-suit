@@ -6696,11 +6696,12 @@ li.EXLFacet label {
   font-weight: normal;
   font-size: 80%;
   padding: 10px;
+  padding-bottom: 0px;
   background-color: #f2f2f0;
   border-top: 1px solid #d8d0c4;
   border-bottom: 1px solid #d8d0c4;
   line-height: 1.4;
-  text-indent: 0em;
+  text-indent: 0;
   margin-bottom: 0;
   display: block;
   height: auto; }
@@ -6708,7 +6709,7 @@ li.EXLFacet label {
     margin-bottom: 0; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li {
-  margin-right: 0.5em;
+  margin-right: 5px;
   display: block;
   width: auto;
   line-height: 160%;
