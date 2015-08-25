@@ -15227,6 +15227,8 @@ table.main {
     clear: both;
     content: "";
     display: table; }
+  #google a {
+    font-weight: normal; }
 
 @media screen and (max-width: 480px) {
   .folders_new,
