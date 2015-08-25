@@ -7161,7 +7161,7 @@ li.EXLFacet label {
     #facetList .EXLFacetContainer h4:after {
       top: 2px;
       float: right;
-      color: #888888; }
+      color: #bcbdb6; }
 
 #facetList .EXLFacetContainer.expanded {
   max-height: 400px;
