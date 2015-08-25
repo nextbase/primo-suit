@@ -6486,8 +6486,10 @@ li.EXLFacet label {
 
 #pyrTopLevel .EXLFacetContainer {
   position: relative; }
-  #pyrTopLevel .EXLFacetContainer h3 img {
-    display: none; }
+  #pyrTopLevel .EXLFacetContainer h3 {
+    margin-bottom: 0; }
+    #pyrTopLevel .EXLFacetContainer h3 img {
+      display: none; }
   #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
     background-color: transparent;
     width: 55px;
