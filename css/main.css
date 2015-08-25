@@ -6490,17 +6490,20 @@ li.EXLFacet label {
     margin-bottom: 0; }
     #pyrTopLevel .EXLFacetContainer h3 img {
       display: none; }
-  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
-    background-color: transparent;
-    width: 55px;
-    padding: 2px 0;
-    text-align: center;
-    position: absolute;
-    right: 0;
-    top: 0; }
-  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
-    padding: 8px 0;
+  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX {
     margin-bottom: 0; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
+      background-color: transparent;
+      width: 55px;
+      padding: 2px 0;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li,
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
+      padding: 8px 0;
+      margin-bottom: 0; }
 
 .EXLFacetContainer h4 {
   margin: 0;
