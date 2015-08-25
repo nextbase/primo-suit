@@ -10,7 +10,7 @@
   }
 
   .EXLFacetContainer.expanded {
-    max-height: 300px;
+    max-height: 400px;
     @include transition(max-height 0.2s $ease-out-circ);
   }
 }
