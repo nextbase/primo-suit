@@ -6471,8 +6471,9 @@ li.EXLFacet label {
   padding: 0;
   padding: 6px 10px;
   margin-bottom: 20px;
+  font-weight: normal;
   color: #333333;
-  font-size: 16px;
+  font-size: 14px;
   background-color: #f2f2f0;
   border-top: 1px solid #e6e6e2;
   border-bottom: 1px solid #e6e6e2;
