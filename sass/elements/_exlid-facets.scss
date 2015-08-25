@@ -309,12 +309,12 @@ li.EXLFacet {
 
 .EXLFacetContainer h1 {
   @include reset-margins;
-  padding: 20px 0 6px 0;
+  padding: 24px 0 6px 0;
   margin-bottom: $spacing-small;
   color: $black;
   font-size: $h4-fontsize;
   background-color: transparent;
-  border-top: 10px solid $gray-light;
+  border-top: none;
   border-bottom: none;
   line-height: 1.2;
   text-indent: 0;

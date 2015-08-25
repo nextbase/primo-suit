@@ -6708,12 +6708,12 @@ li.EXLFacet label {
 .EXLFacetContainer h1 {
   margin: 0;
   padding: 0;
-  padding: 20px 0 6px 0;
+  padding: 24px 0 6px 0;
   margin-bottom: 20px;
   color: #333333;
   font-size: 18px;
   background-color: transparent;
-  border-top: 10px solid #f2f2f0;
+  border-top: none;
   border-bottom: none;
   line-height: 1.2;
   text-indent: 0; }
@@ -7170,7 +7170,7 @@ li.EXLFacet label {
     content: "−"; }
 
 #facetListTopLevel {
-  max-height: 25px;
+  max-height: 38px;
   overflow: hidden;
   transition: max-height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
   #facetListTopLevel h3 {
