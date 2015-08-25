@@ -9,11 +9,20 @@ $(document).ready(function () {
     });
 
     // Search Facets Expand
-    var trigger_query   = ".EXLFacetList h3, .EXLFacetList h4";
+    var trigger_query   = ".EXLFacetList h3";
     var parent_query    = ".EXLFacetList";
 
     $(trigger_query).bind('click', function (e){
         $(this).closest(parent_query).toggleClass('expanded');
+        e.preventDefault();
+    });
+
+    // Secondary Facets Expand
+    var secondary_trigger_query   = ".EXLFacetList h4";
+    var secondary_parent_query    = ".EXLFacetContainer";
+
+    $(secondary_trigger_query).bind('click', function (e){
+        $(this).closest(secondary_parent_query).toggleClass('expanded');
         e.preventDefault();
     });
 });
