@@ -1,0 +1,69 @@
+// Main Navigation
+#korean-main-navigation {
+	display: none !important;
+}
+
+// Footer Info Wrapper
+#korean-footer-info-wrapper {
+	display: none !important;
+}
+
+// Sitemap
+#korean-sitemap {
+	display: none !important;
+}
+
+.EXLCurrentLang_en_US {
+
+	// Precaution
+
+	// Main Navigation
+	#korean-main-navigation {
+		display: none !important;
+	}
+
+	// Footer Info Wrapper
+	#korean-footer-info-wrapper {
+		display: none !important;
+	}
+
+	// Sitemap
+	#korean-sitemap {
+		display: none !important;
+	}
+
+}
+
+.EXLCurrentLang_ko_KR {
+	// Main Navigation
+
+	#korean-main-navigation {
+		display: block !important;
+	}
+
+	#english-main-menu {
+		display: none !important;
+	}
+
+	// Footer Info Wrapper
+
+	#korean-footer-info-wrapper {
+		display: block !important;
+	}
+
+	#english-footer-info-wrapper {
+		display: none !important;
+	}
+
+	// Footer Info Wrapper
+
+	#korean-sitemap {
+		display: block !important;
+	}
+
+	#english-sitemap {
+		display: none !important;
+	}
+
+}
+

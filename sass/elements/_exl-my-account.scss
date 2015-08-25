@@ -10,17 +10,16 @@
     margin-bottom: 20px;
 }
 
-
 #exlidMyAccountContainer {
     margin-bottom: 20px;
 }
 
 .EXLMyAccountContainer .EXLMyAccountMainMenuTileMyQueries {
-    // Something
+    // Style away
 }
 
 .EXLMyAccountContainer .EXLMyAccountQueriesMainContainer {
-    // Something
+    // Style away
 }
 
 .EXLMyAccountLinksContainer {
@@ -80,6 +79,7 @@
     max-width: 30em;
     min-width: 5em;
     width: auto;
+    white-space: nowrap;
 }
 
 .EXLMyAccountLinksHedaer {
@@ -127,11 +127,11 @@
 }
 
 .EXLMyAccountMainMenuContainer ol {
-    margin: 0em 0.5em 0em 0.5em;
+    margin: 0 0.5em 0 0.5em;
     border: 1px solid $gray-hover;
     list-style-position: outside;
     list-style: none;
-    padding: 1em 1em 1em 0em;
+    padding: 1em 1em 1em 0;
     background-color: $white;
     min-height: 9.5em;
     height: auto;
@@ -139,8 +139,8 @@
 
 .EXLMyAccountMainMenuContainer ol li {
     font-size: 80%;
-    padding-bottom: 0em;
-    padding-top: 0em;
+    padding-bottom: 0;
+    padding-top: 0;
     line-height: 200%;
     font-weight: bold;
     color: lighten($black, 10%);
@@ -153,8 +153,8 @@
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBullet {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-image: none;
     background-repeat: no-repeat;
     width: 17px;
@@ -169,8 +169,8 @@
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-image: url(../images/bullet_myAccount_menu.png);
     background-repeat: no-repeat;
     width: 17px;
@@ -203,7 +203,7 @@
 }
 
 .EXLMyAccountMainMenuContainer ol li.EXLMyAccountMainMenuWarning span.EXLMyAccountMainMenuCounter {
-    padding-left: 0em;
+    padding-left: 0;
     background-image: url(../images/icon_exclamation.png);
     background-repeat: no-repeat;
     display: inline-block;
@@ -242,7 +242,12 @@
     width: auto;
     color: $black;
     padding-bottom: 0.1em;
-    padding-top: 0.1em
+    padding-top: 0.1em;
+    white-space: nowrap;
+
+    h1 {
+        white-space: nowrap;
+    }
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
@@ -252,7 +257,7 @@
     display: block;
     float: left;
     border: 1px solid lighten($gray-light-secondary, 20%);
-    padding: 1px 0px 1px 0px;
+    padding: 1px 0 1px 0;
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSelected {
@@ -282,8 +287,8 @@
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeaderButtons {
-    padding: 0em;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     width: 35%;
     float: right;
     text-align: right;
@@ -317,18 +322,18 @@
     color: $black;
     font-weight: normal;
     border: 1px solid $gold-gray-secondary;
-    padding: 0.5em 0em 0.5em 0.5em;
+    padding: 0.5em 0 0.5em 0.5em;
 }
 
 .EXLMyAccountMainContainer table th {
     text-align: left;
     border-bottom: 1px solid $gold-gray;
     padding-top: 0.2em;
-    padding-bottom: 0em;
+    padding-bottom: 0;
     color: $black;
     width: auto;
     padding-right: 1.5em;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedbackRenewAll {
@@ -339,13 +344,13 @@
     color: $black;
     font-weight: normal;
     border: 1px solid $gold-gray-secondary;
-    padding: 0.5em 0em 0.5em 0.5em;
+    padding: 0.5em 0 0.5em 0.5em;
 }
 
 .EXLMyAccountMainContainer table td {
     border: none;
-    padding: 0.1em 0em 0.1em 0em;
-    margin: 0px;
+    padding: 0.1em 0 0.1em 0;
+    margin: 0;
     vertical-align: text-top;
     padding-right: 1em
 }
@@ -374,16 +379,57 @@
     border: none;
     width: 10em;
     white-space: nowrap;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    padding-top: 0;
+    padding-bottom: 0;
     vertical-align: text-top;
     border-bottom: 1px solid lighten($gray-light, 5%);
     color: $black;
 }
 
 a.EXLLoansRenewButton {
-    color: $gold;
-    padding-right: 2em;
+    @include button();
+    @include set-button-color($gold);
+    @include set-button-size();
+    color: $white;
+    margin-right: 10px;
+}
+
+
+#renew_selecte_loans_button {
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size();
+    color: $white;
+    margin: 10px 10px 20px 0;
+}
+
+
+table {
+    th, td {
+        vertical-align: middle;
+    }
+}
+
+table {
+    th.EXLMyAccountTableCounter,
+    td.MyAccount_Loans_0 {
+        width: 30px;
+        height: 40px;
+    }
+
+    th.EXLMyAccountTable,
+    td.MyAccount_Loans_select {
+        width: 20px;
+    }
+
+    th.EXLMyAccountTableTitle,
+    td.MyAccount_Loans_title {
+        width: 180px;
+    }
+
+    td.MyAccount_Loans_author {
+        width: 100px;
+    }
 }
 
 .EXLLocationsWaitButton {
@@ -421,13 +467,22 @@ a.EXLLoansRenewButton {
     margin-right: 0.5em
 }
 
+#LoansTable {
+    thead {
+        td:nth-child(1),
+        td:nth-child(2)  {
+            display: none;
+        }
+    }
+}
+
 .EXLMyAccountMainContainer iframe.EXLMyAccountLibraryCardIframe {
     overflow: scroll;
     margin-bottom: -2em;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons {
-    padding: 0em;
+    padding: 0;
     width: 35%;
     float: right;
     text-align: right;
@@ -451,7 +506,7 @@ a.EXLLoansRenewButton {
     list-style: none;
     float: left;
     height: 18px;
-    border-right: 0px solid $gold-gray-secondary;
+    border-right: 0 solid $gold-gray-secondary;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li span {
@@ -527,7 +582,7 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountButtonLink span a {
-    padding: 0em 0.5em 0em 0.5em;
+    padding: 0 0.5em 0 0.5em;
     color: $white;
     font-weight: normal;
     height: 20px;
@@ -608,8 +663,8 @@ a.EXLLoansRenewButton {
     border: none;
     line-height: 200%;
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     margin-right: 2em;
 }
 
@@ -719,21 +774,21 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips ul {
     height: 100%;
-    padding: 0.5em 0em 1em 0.5em;
+    padding: 0.5em 0 1em 0.5em;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li {
     list-style: none;
-    padding-top: 0px;
-    padding-right: 0px;
+    padding-top: 0;
+    padding-right: 0;
     font-size: 90%;
     margin-bottom: 1em;
     float: left;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-image: url(../images/bullet_arrow_orange_tip.png);
     background-repeat: no-repeat;
     width: 15px;
@@ -756,8 +811,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form table {
     width: 100%;
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form th {
@@ -780,7 +835,7 @@ a.EXLLoansRenewButton {
     font-size: 90%;
     color: $black;
     font-weight: bold;
-    text-indent: 0em;
+    text-indent: 0;
     margin-bottom: 0.5em;
 }
 
@@ -795,7 +850,7 @@ a.EXLLoansRenewButton {
     float: right;
     width: 35%;
     border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0em 1em 1em;
+    margin: 0.5em 0 1em 1em;
     background-image: url(../images/bg_strip_details_links.png);
     background-repeat: repeat-x;
     background-position: bottom;
@@ -805,8 +860,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
     width: 100%;
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
@@ -859,16 +914,13 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    padding: 0;
-    margin: 0;
     text-align: left;
     font-weight: normal;
-    display: inline;
     border: none;
     line-height: 200%;
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     margin-right: 2em;
     vertical-align: text-top;
 }
@@ -906,7 +958,7 @@ a.EXLLoansRenewButton {
     background-color: $gold;
     background-image: url(../images/bg_strip_submit_temp.png);
     background-repeat: repeat-x;
-    margin-left: 0em;
+    margin-left: 0;
     width: auto;
     color: $white;
     font-weight: normal;
@@ -923,7 +975,7 @@ a.EXLLoansRenewButton {
     float: right;
     width: 35%;
     border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0em 1em 1em;
+    margin: 0.5em 0 1em 1em;
     background-image: url(../images/bg_strip_details_links.png);
     background-repeat: repeat-x;
     background-position: bottom;
@@ -933,8 +985,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
     width: 100%;
-    padding: 0em;
-    margin: 0em;
+    padding: 0;
+    margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
@@ -987,16 +1039,13 @@ a.EXLLoansRenewButton {
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    padding: 0;
-    margin: 0;
     text-align: left;
     font-weight: normal;
-    display: inline;
     border: none;
     line-height: 200%;
     display: block;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     margin-right: 2em;
     vertical-align: text-top;
 }

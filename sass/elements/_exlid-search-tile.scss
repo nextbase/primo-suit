@@ -45,6 +45,10 @@
     margin-bottom: $spacing-small;
 }
 
+#searchForm #exlidHeaderSearchLimits {
+  margin-bottom: 0;
+}
+
 #exlidHeaderSearchLimits fieldset {
     padding: 0;
     color: $gray-dark-secondary;

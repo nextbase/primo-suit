@@ -60,6 +60,7 @@ h1#main_logo {
                 height: 70px;
             }
             .other_link_area {
+                display: none;
                 float: right;
                 margin-top: 22px;
                 .donate_link_area {
@@ -284,6 +285,7 @@ ul.menu {
 }
 
 #top-user-menu-desktop {
+    display: none;
 
     ul.menu {
         float: left;

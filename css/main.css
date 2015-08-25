@@ -2409,19 +2409,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 #num_of_results {
   width: -moz-available; }
 
-#exlidLightbox {
-  background-color: #d8d0c4;
-  padding-top: 0.5em;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: 1000;
-  display: none; }
-
 #exlidPleaseWaitContainer {
   z-index: 1001;
   position: fixed;
@@ -2692,70 +2679,6 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   top: 50%;
   position: absolute;
   z-index: 2000; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
-  width: 100%;
-  padding-bottom: 0px;
-  color: #8C8C8C;
-  padding-top: 1em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow em {
-  font-weight: normal; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em {
-  font-weight: normal; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowSeperated {
-  border-bottom: 1px solid #DFDFDF; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
-  width: 100%;
-  padding-bottom: 0px;
-  color: #987c4d;
-  height: 1.5em; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
-  list-style: none; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstName {
-  float: left;
-  cursor: pointer; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
-  color: #333333; }
-
-.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
-  float: right;
-  margin-right: 5em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionScrollArea {
-  height: 179px;
-  overflow: auto;
-  overflow-x: hidden; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
-  background-image: url(../images/icon_available.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
-  background-image: url(../images/icon_unavailable_grey.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
-
-.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
-  background-image: url(../images/icon_yellow.png);
-  background-repeat: no-repeat;
-  background-position: 0px 3px;
-  padding-left: 15px;
-  color: #333333;
-  min-width: 10em; }
 
 #exlidMyAccountMainMenuContainer li.EXLMyAccountMainMenuInstHeader a {
   color: #8C8C8C;
@@ -4001,678 +3924,6 @@ table.EXLDetailsTabTOCTable tr td {
 .EXLResult .EXLLocationsTab {
   display: none; }
 
-@media screen and (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-    -webkit-text-size-adjust: none;
-    -webkit-user-select: none;
-    min-width: 200px; }
-  .EXLFacetTile {
-    display: none; }
-  .EXLResultsContainer {
-    width: auto;
-    height: auto;
-    padding-left: 0em;
-    padding-right: 0em;
-    padding-top: 1em;
-    margin-top: auto;
-    overflow: hidden;
-    margin-bottom: 1em; }
-  .EXLResultsContainer div.EXLResultsTile {
-    width: 100%;
-    float: none;
-    border: none;
-    padding: 0em;
-    background-color: #ffffff;
-    margin: 0em;
-    margin-bottom: 2em; }
-  #exlidHeaderSystemFeedback {
-    display: none; }
-  #exlidHeaderSearchLimits {
-    display: none; }
-  .EXLSearchFieldRibbonAdvancedSearchLink {
-    display: none; }
-  .EXLSearchFieldRibbonBrowseSearchLink {
-    display: none; }
-  #exlidSearchBanner {
-    display: none; }
-  #exlidSearchForm div.EXLSearchTabsContainer {
-    display: none; }
-  #exlidHeaderTile {
-    width: 20%;
-    float: left;
-    padding-left: 0.4em;
-    padding-top: 0.5em;
-    padding-bottom: 0em; }
-  #exlidSearchTile {
-    clear: left;
-    border: none;
-    background-image: none;
-    background-repeat: repeat-x;
-    height: 40px;
-    font-size: 80%;
-    width: auto;
-    padding-bottom: 0.5em; }
-  #exlidSearchRibbon {
-    float: none;
-    margin-top: 0em;
-    width: auto;
-    padding-left: 0em; }
-  #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    background-color: transparent;
-    height: 26px;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    float: none;
-    display: inline-block; }
-  .EXLSearchFieldRibbonFormFields {
-    float: left;
-    height: 26px;
-    width: 75%; }
-  .EXLSearchFieldRibbonFormSearchFor {
-    float: left;
-    width: 91%;
-    padding-left: 0.8em;
-    height: 100%; }
-  .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
-    width: 100%; }
-  #exlidSearchRibbon fieldset {
-    float: none;
-    width: 100%; }
-  #exlidSearchRibbon legend {
-    display: none; }
-  #exlidSearchRibbon input {
-    width: 100%;
-    height: 30px;
-    padding-top: 0.2em;
-    padding-left: 0em;
-    text-align: left;
-    font-size: 16px;
-    font-weight: normal;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    background-color: #ffffff; }
-  #exlidSearchRibbon input.EXLSearchFieldMaximized {
-    width: 95%; }
-  #exlidSearchRibbon input.submit {
-    background-color: #f37329;
-    background-image: url(../images/bg_strip_btn_orange.png);
-    background-repeat: repeat-x;
-    margin: 0em;
-    width: auto;
-    color: #ffffff;
-    font-weight: normal;
-    height: 35px;
-    cursor: pointer;
-    cursor: pointer;
-    padding: 0 0.5em;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Helvetica;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border: none;
-    text-align: center; }
-  .EXLSearchFieldRibbonFormSubmitSearch {
-    float: none;
-    width: 20%;
-    display: inline-block;
-    height: 100%; }
-  #exlidSearchBanner {
-    display: none; }
-  #exlidSearchRibbon div.EXLSearchTabsContainer {
-    display: block; }
-  #exlidSearchTabs {
-    display: none; }
-  .EXLSearchFieldRibbonFormSelectedCollection {
-    display: none; }
-  .EXLSearchFieldRibbonFormSelectedCollectionLabel {
-    display: none; }
-  .EXLSearchFieldRibbonFormCollectionsList {
-    display: none; }
-  .EXLSearchFieldRibbonFormLimitList {
-    display: none; }
-  .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
-    display: none; }
-  .EXLResultsList div.EXLSummaryContainer {
-    clear: both;
-    width: auto; }
-  .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
-    float: none;
-    width: auto;
-    margin-bottom: 0.5em; }
-  .EXLTabsRibbon {
-    display: none; }
-  .EXLFooterTile {
-    display: none; }
-  .EXLResultsHeader h1 {
-    padding: 0em 0em 0em 1em;
-    float: left;
-    width: 100%; }
-  .EXLResultsHeader div.EXLResultsNumbers {
-    float: none;
-    width: 100%;
-    height: 18px; }
-  .EXLResultsHeader div.EXLResultsNavigation {
-    clear: left;
-    font-size: 80%;
-    margin: 0px;
-    float: none;
-    width: auto;
-    text-align: left;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold; }
-  .EXLResultsList em.EXLResultStatusAvailable {
-    color: #333333; }
-  .EXLResultsList em.EXLResultStatusNotAvailable {
-    color: #333333; }
-  .EXLResultsList em span {
-    color: #333333;
-    font-weight: normal; }
-  #exlidTopLevelFacetsTile {
-    display: none; }
-  body.EXLFullView {
-    height: 100%; }
-  body.EXLFullView div.EXLResultsContainer {
-    height: 100%;
-    width: auto;
-    clear: right; }
-  body.EXLFullView div.EXLResultsContainer div.EXLResultsTile {
-    width: 100%;
-    border-left: none;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-    padding-left: 0em;
-    background-color: #ffffff; }
-  body.EXLFullView div.EXLSummaryFields {
-    padding-left: 1em; }
-  body.EXLFullView div.EXLResultsContainer {
-    width: 100%;
-    height: auto;
-    padding-left: 0;
-    padding-right: 0em;
-    padding-top: 0em;
-    margin-top: auto;
-    clear: right; }
-  body.EXLFullView div.EXLLocationsTabContent {
-    overflow: visible;
-    overflow-x: hidden;
-    border: none;
-    height: 100%; }
-  body.EXLFullView div.EXLTabsRibbon {
-    height: 2em;
-    padding: 0px;
-    padding-top: 1em;
-    margin: 0em 0em 0em 0em;
-    clear: left;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-left: 0em;
-    border-bottom: 2px solid #adadad; }
-  body.EXLFullView div.EXLTabsRibbon div {
-    margin-left: 1em;
-    margin-bottom: 0em;
-    width: 100%; }
-  body.EXLFullView div.EXLTabsRibbon div ul {
-    margin-left: auto;
-    margin-bottom: 0em; }
-  body.EXLFullView div.EXLTabsRibbon div li {
-    line-height: 2em;
-    font-size: 110%;
-    display: inline; }
-  body.EXLFullView div.EXLTabsRibbon div li.EXLResultTab {
-    -webkit-border-radius: 4px;
-    border-bottom-style: none;
-    height: 27px;
-    cursor: pointer;
-    float: left;
-    color: #888888; }
-  .EXLTabsRibbon div li.EXLResultSelectedTab {
-    border: 0px solid #d8d0c4;
-    border-bottom: none;
-    background-color: #d8d0c4;
-    height: 15px;
-    background-image: none;
-    background-image: url(../images/bg_strip_btn_grey.png);
-    background-position: bottom;
-    background-color: #bcbdb6;
-    background-repeat: repeat-x;
-    text-align: center;
-    font-weight: bold;
-    vertical-align: middle;
-    float: left;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 0px;
-    color: #666666;
-    margin-left: 0.5em; }
-  .EXLTabsRibbon div li.EXLResultFirstTab {
-    padding-left: 0em;
-    margin-left: 0em; }
-  .EXLTabsRibbon div li.EXLFirstSelectedTab {
-    padding-left: 0em;
-    padding-right: 0.5em; }
-  .EXLTabsRibbon div li.EXLFirstSelectedTab a {
-    padding-left: 0.5em;
-    color: #ffffff; }
-  body.EXLFullView div.EXLTabsRibbon div li.EXLResultSelectedTab a {
-    color: #ffffff; }
-  body.EXLFullView div.EXLTabsRibbon div li.EXLReviewsTab {
-    display: none; }
-  body.EXLFullView div.EXLTabsRibbon div li.EXLRecommendTab {
-    display: none; }
-  body.EXLFullView div.EXLTabsRibbon div li.EXLMoreTab {
-    display: none; }
-  body.EXLFullView div.EXLResultTabContainer {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-  body.EXLFullView div.EXLResultTabContainer div.EXLTabHeader {
-    background-image: url(../images/bg_strip_brief_tabs_header.png);
-    background-repeat: repeat-x;
-    border-bottom: 0px solid #d8d0c4;
-    height: 27px;
-    border-left: none;
-    border-right: none; }
-  body.EXLFullView div.EXLTabContent {
-    height: 100%;
-    border-bottom: 0px; }
-  body.EXLFullView div.EXLTabContent {
-    min-height: 17em;
-    height: auto;
-    border: none;
-    margin-bottom: 1em;
-    padding-right: 2em;
-    padding-left: 0em; }
-  body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons {
-    padding: 0em;
-    width: 16.5em;
-    float: left;
-    text-align: left;
-    height: 18px;
-    line-height: 200%;
-    display: none; }
-  body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons ul {
-    float: left;
-    margin-bottom: 9px;
-    margin-left: 1.2em;
-    padding-top: 1px; }
-  body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li {
-    list-style: none;
-    float: left;
-    height: 18px;
-    background-image: none;
-    border: none; }
-  body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li span {
-    display: none; }
-  body.EXLFullView div.EXLTabHeader div.EXLTabHeaderButtons li a {
-    padding: 0.2em 0.4em 0.2em 0.4em; }
-  body.EXLFullView div.EXLTabHeaderButtonSendTo {
-    padding-right: 0em;
-    text-align: left; }
-  body.EXLFullView div.EXLTabHeaderButtonSendTo img {
-    padding-left: 0em; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList {
-    width: auto;
-    background-color: transparent;
-    border: none;
-    z-index: 100;
-    clear: left;
-    display: inline-block;
-    float: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
-    float: left;
-    background-image: none;
-    display: inline;
-    border: none;
-    z-index: 100;
-    width: auto;
-    white-space: nowrap;
-    border: none;
-    background-color: transparent;
-    clear: right; }
-  body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo img {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo a {
-    text-decoration: none;
-    cursor: auto;
-    color: #333333; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li {
-    margin-right: 0.5em; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
-    background-image: none;
-    display: inline; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToLabel {
-    float: left;
-    padding-right: 0em; }
-  body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a {
-    color: #987c4d;
-    cursor: pointer;
-    text-decoration: underline;
-    display: inline; }
-  body.EXLFullView div.EXLTabHeaderButtons li.EXLTabHeaderButtonSendTo li a:hover {
-    text-decoration: underline; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIcon {
-    background-image: none;
-    width: 16px;
-    display: inline;
-    float: right;
-    background-position: bottom;
-    padding-top: 2px; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToMyShelf {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToPrint {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToDelicious {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToConnotea {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToRefworks {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToendnote {
-    display: none; }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIconMail {
-    background-image: url(../images/icon_sendTo_mail.png); }
-  body.EXLFullView div.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span.EXLButtonSendToIconSMS {
-    background-image: url(../images/icon_sendTo_sms.png); }
-  body.EXLFullView div.EXLResultsList {
-    height: 100%;
-    border-top: none; }
-  body.EXLFullView #exlidHeaderSystemFeedback {
-    display: none; }
-  body.EXLFullView div.EXLResultsFooter {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto; }
-  body.EXLFullView div.EXLBackToResults {
-    font-size: 100%;
-    float: left;
-    width: 100%;
-    margin-left: 1em;
-    margin-bottom: 0.5em;
-    font-weight: bold; }
-  body.EXLFullView div.EXLResultsHeader div.EXLResultsNavigation {
-    clear: left;
-    font-size: 100%;
-    margin: 0px;
-    padding: 0.5em 0em 1em 1em;
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left; }
-  body.EXLFullView #exlidHeaderSystemFeedback {
-    display: none; }
-  body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent {
-    float: left;
-    width: 100%;
-    height: 100%;
-    margin: 1.5em 1em 0em 1em;
-    display: block;
-    padding-bottom: 1em; }
-  body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent ul {
-    list-style: none; }
-  body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent li {
-    margin-bottom: 0.3em; }
-  body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsContent li strong {
-    margin-right: 0.5em; }
-  body.EXLFullView div.EXLDetailsTabContent div.EXLDetailsLinks {
-    float: left;
-    display: block;
-    width: 100%;
-    border: none;
-    margin: 1em 1em 1em 0em;
-    background-image: none;
-    height: auto;
-    padding: 0.5em;
-    padding-bottom: 2em; }
-  body.EXLFullView div.EXLDetailsTabContent iframe {
-    width: 110%;
-    padding: 0em;
-    overflow-x: scroll;
-    overflow-y: hidden; }
-  #exlidHomeContainer {
-    width: auto;
-    height: auto;
-    margin: 0em;
-    padding-top: 1.5em;
-    clear: right;
-    font-size: 80%;
-    color: #888888; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
-    width: auto;
-    float: none;
-    padding-left: 1em; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
-    margin-top: 1em;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    width: auto;
-    float: left;
-    padding-top: 1em;
-    padding-left: 0em; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-    display: none; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
-    float: none;
-    margin: 0em;
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
-    display: none; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
-    display: none; }
-  .EXLLocationTableHeaderColumn1,
-  .EXLLocationTableHeaderColumn2,
-  .EXLLocationTableHeaderColumn4,
-  .EXLLocationTableHeaderColumn5,
-  .EXLLocationTableColumn1,
-  .EXLLocationTableColumn2,
-  .EXLLocationTableColumn4,
-  .EXLLocationTableColumn5 {
-    display: none; }
-  .EXLLocationTableActions {
-    width: auto; }
-  .EXLLocationList {
-    width: 105%; }
-  .EXLLocationsTabContent div.EXLLocationList table.EXLLocationTable .EXLLocationTableMargin {
-    padding-left: 1.4em; }
-  .EXLLocationsTitle span.EXLLocationsTitleContainer {
-    width: 75%; }
-  .EXLLocationsTitle a.EXLLocationsIcon {
-    width: 18px; }
-  .EXLLocationsTitle {
-    width: 20%; }
-  .EXLLocationInfo {
-    width: 76%; }
-  .EXLLocationInfo strong {
-    width: 17%; }
-  .EXLLocationInfo cite {
-    width: 50%; }
-  .EXLResultsList em.EXLResultStatusAvailable {
-    width: 20%; }
-  .EXLMyAccountTabsRibbon div li.EXLMyAccountLastTab,
-  .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab {
-    display: inline; }
-  .folder_details {
-    padding-left: 0; }
-  .EXLMyAccountContainer {
-    padding-left: 0.5%;
-    width: 99%;
-    min-height: 10em;
-    padding-top: 0.3em; }
-  .EXLMyAccountContainer table {
-    width: 99.5%; }
-  .EXLMyAccountMainMenuTile {
-    width: 100%;
-    float: left; }
-  .EXLMyAccountMainMenuContainer ol {
-    margin: 0 0.1em;
-    padding: 0.3em 0;
-    height: auto; }
-  .EXLMyAccountMainContainer {
-    margin-left: 2px;
-    float: left;
-    margin-top: 0.3em;
-    width: 98.7%; }
-  .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    white-space: nowrap;
-    margin: 0 1em 0 0;
-    text-align: right; }
-  .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
-    width: 100%; }
-  .EXLMyAccountMainContainer table.EXLMyAccountForm {
-    margin-left: 0; }
-  .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {
-    left: -3px;
-    margin: 4px 0 0; }
-  .EXLMyAccountMainMenuContainer ol li {
-    line-height: 150%; }
-  .EXLMyAccountLinksLinkContainer {
-    display: inline-block; }
-  .EXLMyAccountLinksContainer span.EXLMyAccountMainHeaderContentSeparator {
-    display: none; }
-  .folder_details .itemsListTH th.title {
-    width: 80% !important; }
-  .folder_details .itemsListTH th.type,
-  .folder_details .itemsListTable td.type {
-    width: 15% !important;
-    padding-left: 2px; }
-  .folder_details table.folderName {
-    width: 100%; }
-  .folder_details .itemsList {
-    height: auto; }
-  .folder_details .title {
-    width: 72% !important; }
-  #exlidUserAreaRibbon li {
-    border-right: 1px solid #dadada;
-    font-size: 75%;
-    height: 18px; }
-  #exlidMainMenuTile div.EXLMainMenuContainer {
-    display: none; }
-  #exlidMainMenuTile div.EXLLanguagesContainer {
-    margin-top: -2em;
-    right: -7px; }
-  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-    z-index: 99;
-    height: 25px;
-    line-height: 26px;
-    width: 11em; }
-  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a {
-    margin-left: 0; }
-  #exlidMainMenuTile div.EXLLanguagesContainer li img {
-    margin-left: 3px; }
-  #exlidUserAreaRibbon li.EXLUserName {
-    padding: 0 0.3em 0 0; }
-  #exlidUserAreaRibbon li.EXLMyAccount,
-  #exlidUserAreaRibbon li.EXLLastItem {
-    padding: 0 0.3em 0 0.3em; }
-  #exlidHeaderTile img {
-    width: 110px; }
-  #exlidUserAreaRibbon li span.EXLUserAreaStart {
-    width: 0; }
-  #exlidUserAreaTile ul {
-    border-left: 1px solid #dadada;
-    float: right; }
-  #exliWhiteContent {
-    top: 0;
-    left: 0;
-    width: 100%;
-    position: inherit; }
-  .EXLLightbox div.EXLLightboxFormContainer {
-    padding: 0; }
-  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
-    width: 100%;
-    margin: 0; }
-  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
-    width: 100%; }
-  #exlidHeaderContainer {
-    width: 100%; }
-  .EXLLanguagesContainer {
-    display: none !important; }
-  #exlidUserAreaTile {
-    clear: both; }
-  #exlidUserAreaTile ul {
-    float: right;
-    border-left-width: 0px;
-    margin-top: 2px; }
-  #exlidUserAreaRibbon {
-    height: auto; }
-  #exlidUserAreaRibbon li {
-    padding: 8px !important;
-    background-image: none; }
-  #exlidUserAreaRibbon li * {
-    font-size: 13px !important; }
-  #exlidUserAreaRibbon select {
-    background-color: transparent; }
-  #exlidUserAreaRibbon li:last-child {
-    border-right-width: 0px; }
-  #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    position: relative;
-    height: auto; }
-  #exlidSearchTile {
-    clear: both;
-    height: auto; }
-  .EXLSearchFieldRibbonFormSearchFor {
-    padding-left: 0.2em; }
-  .EXLSearchFieldRibbonFormFields {
-    width: 80% !important;
-    float: none;
-    height: 100%; }
-  .EXLSearchFieldRibbonFormSubmitSearch {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    margin-top: 0px !important; }
-  #exlidSearchRibbon input {
-    outline: none; }
-  #exlidSearchRibbon input.submit {
-    height: 36px;
-    width: 100%; }
-  .EXLSearchFieldRibbonFormSearchClear {
-    height: 35px;
-    width: 7%; }
-  .EXLClearSimpleSearchBoxButtonClose {
-    height: 100%; }
-  #EXLFacetsMobile {
-    margin-left: 0.2em;
-    margin-top: 5px; }
-  #EXLFacetsMobile select {
-    width: 100%;
-    height: 30px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border: 1px solid #dadada; }
-  .EXLFacebookIframe {
-    height: 30px;
-    margin-top: -3px; }
-  .EXLTabContent {
-    height: auto; }
-  .EXLResultsSortBySelected,
-  .EXLResultsSortByMenu {
-    display: none; }
-  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
-    width: auto; }
-  .EXLSortMobile select {
-    line-height: 26px;
-    height: 26px;
-    background-color: transparent; }
-  .EXLResultsHeader {
-    margin-bottom: 30px; }
-  .EXLMyAccountMainContainer div.EXLMyAccountRanking {
-    float: left;
-    width: 70%; }
-  .EXLAdditionalBar {
-    display: none; } }
-
 body {
   margin: 0;
   padding: 0;
@@ -5336,6 +4587,7 @@ h1#main_logo {
       #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .logo_image_area:last-child {
         margin-right: 0; }
     #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .other_link_area {
+      display: none;
       float: right;
       margin-top: 22px; }
       #header #block-snu-head-block-sun-head-block .content .snu_head_block_content .other_link_area .donate_link_area a,
@@ -5500,12 +4752,14 @@ ul.menu {
           background-color: #987c4d;
           color: #ffffff; }
 
-#top-user-menu-desktop ul.menu {
-  float: left;
-  width: auto; }
-  #top-user-menu-desktop ul.menu > li {
-    list-style: none;
-    float: left; }
+#top-user-menu-desktop {
+  display: none; }
+  #top-user-menu-desktop ul.menu {
+    float: left;
+    width: auto; }
+    #top-user-menu-desktop ul.menu > li {
+      list-style: none;
+      float: left; }
 
 #footer_logo {
   height: 60px;
@@ -5521,7 +4775,7 @@ ul.menu {
 
 #footer {
   background-color: #cbbfae;
-  margin-top: 0;
+  margin-top: 40px;
   width: 100%; }
   #footer #block-snu-head-block-snu-foot-block h2 {
     display: none; }
@@ -6083,7 +5337,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   list-style: none;
   width: auto;
   float: right;
-  margin-right: 240px !important;
+  margin-right: 86px !important;
   position: relative;
   top: -105px;
   pointer-events: none; }
@@ -6235,6 +5489,9 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   margin-bottom: 20px; }
   #exlidHeaderSearchLimits:last-child {
     margin-right: 0; }
+
+#searchForm #exlidHeaderSearchLimits {
+  margin-bottom: 0; }
 
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
@@ -7016,7 +6273,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: right;
   position: relative;
   top: -153px;
-  margin-right: 160px; }
+  margin-right: 0; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
@@ -7217,8 +6474,9 @@ li.EXLFacet label {
   padding: 0;
   padding: 6px 10px;
   margin-bottom: 20px;
+  font-weight: bold;
   color: #333333;
-  font-size: 16px;
+  font-size: 15px;
   background-color: #f2f2f0;
   border-top: 1px solid #e6e6e2;
   border-bottom: 1px solid #e6e6e2;
@@ -7229,6 +6487,36 @@ li.EXLFacet label {
     content: "";
     display: table; }
 
+#pyrTopLevel .EXLFacetContainer {
+  position: relative; }
+  #pyrTopLevel .EXLFacetContainer h3 {
+    margin-bottom: 0; }
+    #pyrTopLevel .EXLFacetContainer h3 img {
+      display: none; }
+  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX {
+    margin-bottom: 20px; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
+      background-color: transparent;
+      width: 50px;
+      padding: 9px 10px;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0; }
+      #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile:after {
+        display: none; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li,
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
+      padding: 8px 0;
+      margin-bottom: 0; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li:first-child {
+      margin-top: 5px; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLFacetsDisplayMore,
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLFacetsDisplayMore:first-child {
+      margin-top: 0;
+      padding: 0;
+      height: 0; }
+
 .EXLFacetContainer h4 {
   margin: 0;
   padding: 0;
@@ -7236,7 +6524,7 @@ li.EXLFacet label {
   margin-bottom: 20px;
   color: #333333;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   background-color: #f2f2f0;
   border-top: 1px solid #e6e6e2;
   border-bottom: 1px solid #e6e6e2;
@@ -7281,6 +6569,25 @@ li.EXLFacet label {
 .EXLFacetContainer ol li.EXLFacetsDisplayMore {
   display: inline-block;
   margin-top: 0.5em; }
+  .EXLFacetContainer ol li.EXLFacetsDisplayMore a {
+    white-space: nowrap; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+      content: "";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a:after {
+      color: #d8d0c4;
+      margin-left: 4px;
+      font-size: 10px; }
+    .EXLFacetContainer ol li.EXLFacetsDisplayMore a img {
+      display: none; }
 
 .EXLFacetContainer ol li.EXLHiddenFacetCreationDate {
   display: none; }
@@ -7404,15 +6711,16 @@ li.EXLFacet label {
 .EXLFacetContainer h1 {
   margin: 0;
   padding: 0;
-  padding: 20px 0 6px 0;
+  padding: 26px 0 6px 0;
   margin-bottom: 20px;
   color: #333333;
   font-size: 18px;
   background-color: transparent;
-  border-top: 10px solid #f2f2f0;
+  border-top: none;
   border-bottom: none;
   line-height: 1.2;
-  text-indent: 0; }
+  text-indent: 0;
+  font-weight: normal; }
   .EXLFacetContainer h1::after {
     clear: both;
     content: "";
@@ -7422,27 +6730,29 @@ li.EXLFacet label {
   color: #333333;
   font-weight: normal;
   font-size: 80%;
-  padding: 0.2em 0em 0.2em 0em;
-  background-color: sass;
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: #f2f2f0;
   border-top: 1px solid #d8d0c4;
   border-bottom: 1px solid #d8d0c4;
-  line-height: 150%;
-  text-indent: 0em;
-  margin-bottom: 0.2em;
-  padding-left: 0.5em;
+  line-height: 1.4;
+  text-indent: 0;
+  margin-bottom: 0;
   display: block;
   height: auto; }
+  .EXLFacetContainer div.EXLFacetActionsV2 ul {
+    margin-bottom: 0; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li {
-  margin-right: 0.5em;
+  margin-right: 5px;
   display: block;
   width: auto;
   line-height: 160%;
   background-repeat: no-repeat;
   background-position: 0% 50%;
-  padding-left: 1.6em;
+  padding-left: 25px;
   list-style: none;
-  color: #a39f9e; }
+  color: #987c4d; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetRSSAction {
   background-image: url("../images/icon_rss.png"); }
@@ -7459,10 +6769,18 @@ li.EXLFacet label {
       background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchAction {
-  background-image: url(../images/icon_save_search.png); }
+  background-image: url("../images/icon_save_search.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchAction {
+      background-image: url("../images/icon_save_search_2x.png");
+      background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchActionOff {
-  background-image: url(../images/icon_save_search_off.png); }
+  background-image: url("../images/icon_save_search_off.png"); }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchActionOff {
+      background-image: url("../images/icon_save_search_off_2x.png");
+      background-size: 20px 20px; } }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfAction {
   background-image: url("../images/icon_star_on.png"); }
@@ -7551,13 +6869,9 @@ li.EXLFacet label {
   font-family: Arial; }
 
 .EXLSliderRefine {
-  width: 100%;
+  width: auto;
   float: left;
   margin-bottom: 20px; }
-  .EXLSliderRefine::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .EXLSliderRefine a,
 .EXLSliderRefine a:hover {
@@ -7585,7 +6899,14 @@ li.EXLFacet label {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  padding: 1.5px 10px; }
+  padding: 1.5px 10px;
+  width: 40px;
+  height: 25px;
+  margin-top: -2px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden !important;
+  margin-right: 0; }
   .EXLSliderRefine a::-moz-focus-inner,
   .EXLSliderRefine a:hover::-moz-focus-inner {
     border: 0;
@@ -7603,6 +6924,26 @@ li.EXLFacet label {
     background-color: #d46b00;
     border-color: #c06100;
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
+    display: block;
+    height: 25px;
+    width: 40px !important;
+    margin-right: 20px;
+    text-align: center;
+    left: -2px; }
 
 .EXLSliderContainer {
   width: 90%; }
@@ -7651,7 +6992,7 @@ li.EXLFacet label {
 .EXLDateRangeLine {
   margin-top: 0;
   margin-bottom: 20px;
-  padding-left: 10px; }
+  padding-left: 0; }
   .EXLDateRangeLine::after {
     clear: both;
     content: "";
@@ -7688,9 +7029,11 @@ li.EXLFacet label {
 .EXLSliderToText {
   color: #888888;
   font-size: 14px;
-  width: 32%;
+  line-height: 1.8;
+  width: auto;
   float: left;
-  margin-bottom: 10px; }
+  margin-bottom: 5px;
+  margin-right: 5px; }
 
 #slider-range {
   margin: 0 10px 30px 10px; }
@@ -7779,11 +7122,12 @@ li.EXLFacet label {
 .datebox {
   border: solid 1px #987c4d;
   padding: 2px 3px 1px 3px;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 55px !important; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {
-    min-width: 3.5em; } }
+    width: 60px; } }
 
 .ui-widget-header {
   border: 1px solid #aaaaaa;
@@ -7797,6 +7141,64 @@ li.EXLFacet label {
   color: #987c4d;
   text-decoration: none;
   outline: none; }
+
+#facetList .EXLFacetContainer:first-child {
+  max-height: 109px; }
+
+#facetList .EXLFacetContainer {
+  max-height: 36px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetList .EXLFacetContainer h4 {
+    cursor: pointer; }
+    #facetList .EXLFacetContainer h4:after {
+      content: "+";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    #facetList .EXLFacetContainer h4:after {
+      top: 2px;
+      float: right;
+      color: #bcbdb6; }
+
+#facetList .EXLFacetContainer.expanded {
+  max-height: 400px;
+  transition: max-height 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetList .EXLFacetContainer.expanded h4:after {
+    content: "−"; }
+
+#facetListTopLevel {
+  max-height: 38px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetListTopLevel h3 {
+    cursor: pointer; }
+    #facetListTopLevel h3:after {
+      content: "+";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    #facetListTopLevel h3:after {
+      top: 3px;
+      float: right;
+      color: #bcbdb6; }
+  #facetListTopLevel.expanded {
+    max-height: 400px;
+    transition: max-height 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    #facetListTopLevel.expanded h3:after {
+      content: "−"; }
 
 #exlidHeaderSystemFeedback {
   margin: 0;
@@ -9372,7 +8774,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding-top: auto;
   padding-left: 1em;
   background-color: #ffffff;
-  overflow: scroll; }
+  overflow: auto; }
 
 .EXLFacetsLightboxTabsRibbon span {
   line-height: 200%;
@@ -9383,10 +8785,14 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   margin-right: 13em; }
 
 #exlidFacetsLightboxForm {
-  height: 440px;
-  overflow: scroll;
+  height: 400px;
+  overflow-x: auto;
+  overflow-y: scroll;
   box-shadow: inset 0 10px 20px 0 rgba(51, 51, 51, 0.1);
   border-top: 1px solid #f2f2f0; }
+
+.EXLCurrentLang_en_US #exlidFacetsLightboxForm {
+  height: 440px; }
 
 .EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
   margin-right: 0em; }
@@ -9447,6 +8853,84 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   color: #888888;
   margin-left: 0.5em;
   display: inline; }
+
+/* Unstyled Yet */
+#exlidLightbox {
+  background-color: #d8d0c4;
+  padding-top: 0.5em;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  display: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #8C8C8C;
+  padding-top: 1em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowSeperated {
+  border-bottom: 1px solid #DFDFDF; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #987c4d;
+  height: 1.5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
+  list-style: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstName {
+  float: left;
+  cursor: pointer; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
+  color: #333333; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
+  float: right;
+  margin-right: 5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionScrollArea {
+  height: 179px;
+  overflow: auto;
+  overflow-x: hidden; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
+  background-image: url(../images/icon_available.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
+  background-image: url(../images/icon_unavailable_grey.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
+  background-image: url(../images/icon_yellow.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
 
 .EXLResultsContainer {
   margin: 0;
@@ -9639,6 +9123,9 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
 h1 span.EXLBriefResultsPaginationPageCount {
+  display: none; }
+
+.EXLResultsNumbers h1 em:last-child {
   display: none; }
 
 .EXLBriefResultsPagination:hover {
@@ -10677,8 +10164,11 @@ body.EXLFullView div.EXLBackToResults {
 
 .coverImageDiv {
   position: absolute;
-  top: 0px;
-  left: 0px; }
+  top: 0;
+  left: 0;
+  z-index: 5 !important; }
+  .coverImageDiv[style] {
+    z-index: 5 !important; }
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
   background-image: url("../images/icon_article.png"); }
@@ -12764,6 +12254,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   display: inline;
   width: 6em; }
 
+.EXLMyAccountTabsRibbon div li a {
+  white-space: nowrap; }
+
 .EXLMyAccountTabsRibbon div li.EXLMyAccountTab {
   border: 1px solid #d8d0c4;
   border-bottom: 0px;
@@ -12890,7 +12383,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 1px 0;
   max-width: 30em;
   min-width: 5em;
-  width: auto; }
+  width: auto;
+  white-space: nowrap; }
 
 .EXLMyAccountLinksHedaer {
   padding-bottom: 0.1em;
@@ -12928,19 +12422,19 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   float: left; }
 
 .EXLMyAccountMainMenuContainer ol {
-  margin: 0em 0.5em 0em 0.5em;
+  margin: 0 0.5em 0 0.5em;
   border: 1px solid #a7a8a2;
   list-style-position: outside;
   list-style: none;
-  padding: 1em 1em 1em 0em;
+  padding: 1em 1em 1em 0;
   background-color: #ffffff;
   min-height: 9.5em;
   height: auto; }
 
 .EXLMyAccountMainMenuContainer ol li {
   font-size: 80%;
-  padding-bottom: 0em;
-  padding-top: 0em;
+  padding-bottom: 0;
+  padding-top: 0;
   line-height: 200%;
   font-weight: bold;
   color: #4d4d4d; }
@@ -12951,8 +12445,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #4d4d4d; }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBullet {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: none;
   background-repeat: no-repeat;
   width: 17px;
@@ -12966,8 +12460,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   left: -5px; }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: url(../images/bullet_myAccount_menu.png);
   background-repeat: no-repeat;
   width: 17px;
@@ -12996,7 +12490,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   font-weight: bold; }
 
 .EXLMyAccountMainMenuContainer ol li.EXLMyAccountMainMenuWarning span.EXLMyAccountMainMenuCounter {
-  padding-left: 0em;
+  padding-left: 0;
   background-image: url(../images/icon_exclamation.png);
   background-repeat: no-repeat;
   display: inline-block;
@@ -13031,7 +12525,10 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   width: auto;
   color: #333333;
   padding-bottom: 0.1em;
-  padding-top: 0.1em; }
+  padding-top: 0.1em;
+  white-space: nowrap; }
+  .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent h1 {
+    white-space: nowrap; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
   width: auto;
@@ -13040,7 +12537,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   display: block;
   float: left;
   border: 1px solid white;
-  padding: 1px 0px 1px 0px; }
+  padding: 1px 0 1px 0; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSelected {
   background-color: #ffffff;
@@ -13065,8 +12562,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   background-position: center; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeaderButtons {
-  padding: 0em;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 35%;
   float: right;
   text-align: right;
@@ -13097,17 +12594,17 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333;
   font-weight: normal;
   border: 1px solid #d8d0c4;
-  padding: 0.5em 0em 0.5em 0.5em; }
+  padding: 0.5em 0 0.5em 0.5em; }
 
 .EXLMyAccountMainContainer table th {
   text-align: left;
   border-bottom: 1px solid #cbbfae;
   padding-top: 0.2em;
-  padding-bottom: 0em;
+  padding-bottom: 0;
   color: #333333;
   width: auto;
   padding-right: 1.5em;
-  vertical-align: bottom; }
+  vertical-align: middle; }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedbackRenewAll {
   background-color: #ffe066;
@@ -13117,12 +12614,12 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333;
   font-weight: normal;
   border: 1px solid #d8d0c4;
-  padding: 0.5em 0em 0.5em 0.5em; }
+  padding: 0.5em 0 0.5em 0.5em; }
 
 .EXLMyAccountMainContainer table td {
   border: none;
-  padding: 0.1em 0em 0.1em 0em;
-  margin: 0px;
+  padding: 0.1em 0 0.1em 0;
+  margin: 0;
   vertical-align: text-top;
   padding-right: 1em; }
 
@@ -13146,15 +12643,108 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   border: none;
   width: 10em;
   white-space: nowrap;
-  padding-top: 0em;
-  padding-bottom: 0em;
+  padding-top: 0;
+  padding-bottom: 0;
   vertical-align: text-top;
   border-bottom: 1px solid #fefefe;
   color: #333333; }
 
 a.EXLLoansRenewButton {
-  color: #987c4d;
-  padding-right: 2em; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  line-height: 28px;
+  color: #ffffff;
+  margin-right: 10px; }
+  a.EXLLoansRenewButton::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  a.EXLLoansRenewButton:hover,
+  a.EXLLoansRenewButton:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  a.EXLLoansRenewButton:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+
+#renew_selecte_loans_button {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 10px 10px 20px 0; }
+  #renew_selecte_loans_button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #renew_selecte_loans_button:hover,
+  #renew_selecte_loans_button:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  #renew_selecte_loans_button:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+
+table th, table td {
+  vertical-align: middle; }
+
+table th.EXLMyAccountTableCounter,
+table td.MyAccount_Loans_0 {
+  width: 30px;
+  height: 40px; }
+
+table th.EXLMyAccountTable,
+table td.MyAccount_Loans_select {
+  width: 20px; }
+
+table th.EXLMyAccountTableTitle,
+table td.MyAccount_Loans_title {
+  width: 180px; }
+
+table td.MyAccount_Loans_author {
+  width: 100px; }
 
 .EXLLocationsWaitButton {
   display: none;
@@ -13189,12 +12779,16 @@ a.EXLLoansRenewButton {
   vertical-align: text-top;
   margin-right: 0.5em; }
 
+#LoansTable thead td:nth-child(1),
+#LoansTable thead td:nth-child(2) {
+  display: none; }
+
 .EXLMyAccountMainContainer iframe.EXLMyAccountLibraryCardIframe {
   overflow: scroll;
   margin-bottom: -2em; }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons {
-  padding: 0em;
+  padding: 0;
   width: 35%;
   float: right;
   text-align: right;
@@ -13215,7 +12809,7 @@ a.EXLLoansRenewButton {
   list-style: none;
   float: left;
   height: 18px;
-  border-right: 0px solid #d8d0c4; }
+  border-right: 0 solid #d8d0c4; }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li span {
   background-image: none;
@@ -13277,7 +12871,7 @@ a.EXLLoansRenewButton {
   padding: 1px; }
 
 .EXLMyAccountButtonLink span a {
-  padding: 0em 0.5em 0em 0.5em;
+  padding: 0 0.5em 0 0.5em;
   color: #ffffff;
   font-weight: normal;
   height: 20px;
@@ -13350,8 +12944,8 @@ a.EXLLoansRenewButton {
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm td {
@@ -13579,19 +13173,19 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips ul {
   height: 100%;
-  padding: 0.5em 0em 1em 0.5em; }
+  padding: 0.5em 0 1em 0.5em; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li {
   list-style: none;
-  padding-top: 0px;
-  padding-right: 0px;
+  padding-top: 0;
+  padding-right: 0;
   font-size: 90%;
   margin-bottom: 1em;
   float: left; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: url(../images/bullet_arrow_orange_tip.png);
   background-repeat: no-repeat;
   width: 15px;
@@ -13611,8 +13205,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form th {
   width: auto;
@@ -13631,7 +13225,7 @@ a.EXLLoansRenewButton {
   font-size: 90%;
   color: #333333;
   font-weight: bold;
-  text-indent: 0em;
+  text-indent: 0;
   margin-bottom: 0.5em; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips label {
@@ -13643,7 +13237,7 @@ a.EXLLoansRenewButton {
   float: right;
   width: 35%;
   border: 1px solid #d8d0c4;
-  margin: 0.5em 0em 1em 1em;
+  margin: 0.5em 0 1em 1em;
   background-image: url(../images/bg_strip_details_links.png);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -13652,8 +13246,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
   font-size: 90%;
@@ -13696,16 +13290,13 @@ a.EXLLoansRenewButton {
   display: inline-block; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-  padding: 0;
-  margin: 0;
   text-align: left;
   font-weight: normal;
-  display: inline;
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em;
   vertical-align: text-top; }
 
@@ -13737,7 +13328,7 @@ a.EXLLoansRenewButton {
   background-color: #987c4d;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
-  margin-left: 0em;
+  margin-left: 0;
   width: auto;
   color: #ffffff;
   font-weight: normal;
@@ -13752,7 +13343,7 @@ a.EXLLoansRenewButton {
   float: right;
   width: 35%;
   border: 1px solid #d8d0c4;
-  margin: 0.5em 0em 1em 1em;
+  margin: 0.5em 0 1em 1em;
   background-image: url(../images/bg_strip_details_links.png);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -13761,8 +13352,8 @@ a.EXLLoansRenewButton {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
   font-size: 90%;
@@ -13805,16 +13396,13 @@ a.EXLLoansRenewButton {
   display: inline-block; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-  padding: 0;
-  margin: 0;
   text-align: left;
   font-weight: normal;
-  display: inline;
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em;
   vertical-align: text-top; }
 
@@ -14207,6 +13795,56 @@ ul {
 html > body .folders_new li ul li img.foldericon {
   margin-right: -4px; }
 
+.folders_new li ul li input[type="submit"],
+.folders_new li ul li input[type="button"] {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  width: 60px;
+  height: auto;
+  border: none;
+  font-size: 10px;
+  background-image: none; }
+  .folders_new li ul li input[type="submit"]::-moz-focus-inner,
+  .folders_new li ul li input[type="button"]::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .folders_new li ul li input[type="submit"]:hover,
+  .folders_new li ul li input[type="submit"]:active,
+  .folders_new li ul li input[type="button"]:hover,
+  .folders_new li ul li input[type="button"]:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .folders_new li ul li input[type="submit"]:active,
+  .folders_new li ul li input[type="button"]:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+
 .folders_new li ul li input {
   margin: 0px;
   vertical-align: middle; }
@@ -14227,29 +13865,146 @@ html > body .folders_new li ul li img.foldericon {
   width: 100px;
   border: 1px solid #987c4d; }
 
-.folders_new input {
+html > body .folders_new input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #987c4d; }
+  border: 1px solid #987c4d;
+  height: 30px !important; }
+  html > body .folders_new input[type="button"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #987c4d;
+    border: 2px solid #987c4d;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px;
+    color: #ffffff !important; }
+    html > body .folders_new input[type="button"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    html > body .folders_new input[type="button"]:hover,
+    html > body .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #876e44;
+      border-color: #7d663f; }
+    html > body .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #7d663f;
+      border-color: #6f5b38;
+      box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  html > body .folders_new input[type="submit"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #fd8000;
+    border: 2px solid #fd8000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px;
+    color: #ffffff !important; }
+    html > body .folders_new input[type="submit"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    html > body .folders_new input[type="submit"]:hover,
+    html > body .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #e47300;
+      border-color: #d46b00; }
+    html > body .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #d46b00;
+      border-color: #c06100;
+      box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
-  color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  width: 80px;
+  height: auto;
+  border: none;
+  font-size: 10px;
+  background-image: none; }
+  .folders_new input.newfolders_submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .folders_new input.newfolders_submit:hover,
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit_o {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
+  background: none;
+  width: auto;
   color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  height: 24px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em;
-  padding-bottom: 2px; }
+  font-size: 10px;
+  padding-bottom: 1px; }
 
 .folders_new .folderactions {
   padding-right: 0px;
@@ -14441,17 +14196,16 @@ html > body .notebubble a.cancelnote {
 .notebubble a.cancelnote:hover {
   background-position: left 12px; }
 
-.notebubble h3 {
+.noteBubble h3 {
   padding-right: 0px;
   padding-left: 20px;
-  background: none !important;
   padding-bottom: 0px;
   margin: 0px;
-  font-size: 0.9em;
+  font-size: 14px !important;
   line-height: 1.5em;
   width: 320px;
-  padding-top: 20px;
-  height: 22px; }
+  padding-top: 25px !important;
+  height: 44px !important; }
 
 .notebubble .notebubble_content {
   padding-right: 7px;
@@ -14459,7 +14213,7 @@ html > body .notebubble a.cancelnote {
   background: none !important;
   padding-bottom: 0px;
   width: 320px;
-  padding-top: 6px;
+  padding-top: 30px;
   white-space: normal !important; }
 
 .notebubble_content_overflow {
@@ -14487,34 +14241,112 @@ html > body .notebubble a.cancelnote {
   border: 0px;
   background: none !important; }
 
-html > body .notebubble .notesubmit_holder {
-  margin-right: 20px; }
+html > body table > tbody > tr .notebubble .notesubmit_holder {
+  padding-right: 0;
+  margin-top: 20px; }
+  html > body table > tbody > tr .notebubble .notesubmit_holder input {
+    color: #ffffff !important; }
+    html > body table > tbody > tr .notebubble .notesubmit_holder input:hover {
+      color: #ffffff !important;
+      background-color: #fd8000 !important; }
 
-.notebubble .notebubble_content .notesubmit_holder {
+html > body .notebubble .notebubble_content .notesubmit_holder {
   padding-right: 18px;
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  margin-right: 0 !important; }
 
 .notebubble .notebubble_content input.note_submit {
-  border-right: 0px;
-  border-top: 0px;
-  border-left: 0px;
-  width: 51px;
-  color: #0075b0;
-  border-bottom: 0px;
-  height: 18px; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  height: auto !important;
+  color: #ffffff !important;
+  width: 80px !important; }
+  .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .notebubble .notebubble_content input.note_submit:hover,
+  .notebubble .notebubble_content input.note_submit:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .notebubble .notebubble_content input.note_submit:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .notebubble .notebubble_content input.note_submit:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_content input.note_submit_o {
-  border-right: 0px;
-  border-top: 0px;
-  background: url(../images/folders_submit.gif) repeat-y left 18px;
-  border-left: 0px;
-  width: 51px;
-  color: #0075b0;
-  border-bottom: 0px;
-  height: 18px;
-  cursor: pointer; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  height: auto !important;
+  color: #ffffff !important; }
+  .notebubble .notebubble_content input.note_submit_o::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .notebubble .notebubble_content input.note_submit_o:hover,
+  .notebubble .notebubble_content input.note_submit_o:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  .notebubble .notebubble_content input.note_submit_o:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  .notebubble .notebubble_content input.note_submit_o:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_bottom {
   background: none !important;
@@ -15398,10 +15230,6 @@ table.main {
     font-weight: normal; }
 
 @media screen and (max-width: 480px) {
-  * {
-    display: none; } }
-
-@media screen and (max-width: 480px) {
   .folders_new,
   .draggable,
   .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
@@ -15435,3 +15263,39 @@ table.main {
   .MyAccount_FineAndFees_6,
   #exlidUserAreaRibbon li.EXLMyShelf {
     display: none; } }
+
+#korean-main-navigation {
+  display: none !important; }
+
+#korean-footer-info-wrapper {
+  display: none !important; }
+
+#korean-sitemap {
+  display: none !important; }
+
+.EXLCurrentLang_en_US #korean-main-navigation {
+  display: none !important; }
+
+.EXLCurrentLang_en_US #korean-footer-info-wrapper {
+  display: none !important; }
+
+.EXLCurrentLang_en_US #korean-sitemap {
+  display: none !important; }
+
+.EXLCurrentLang_ko_KR #korean-main-navigation {
+  display: block !important; }
+
+.EXLCurrentLang_ko_KR #english-main-menu {
+  display: none !important; }
+
+.EXLCurrentLang_ko_KR #korean-footer-info-wrapper {
+  display: block !important; }
+
+.EXLCurrentLang_ko_KR #english-footer-info-wrapper {
+  display: none !important; }
+
+.EXLCurrentLang_ko_KR #korean-sitemap {
+  display: block !important; }
+
+.EXLCurrentLang_ko_KR #english-sitemap {
+  display: none !important; }

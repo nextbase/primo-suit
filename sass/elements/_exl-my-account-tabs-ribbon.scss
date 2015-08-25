@@ -25,6 +25,10 @@
     width: 6em;
 }
 
+.EXLMyAccountTabsRibbon div li a {
+    white-space: nowrap;
+}
+
 .EXLMyAccountTabsRibbon div li.EXLMyAccountTab {
     border: 1px solid $gold-gray-secondary;
     border-bottom: 0px;

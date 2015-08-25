@@ -190,6 +190,22 @@ html > body .folders_new li ul li img.foldericon {
     margin-right: -4px;
 }
 
+.folders_new li ul li input[type="submit"],
+.folders_new li ul li input[type="button"] {
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size('tiny');
+    width: 60px;
+    height: auto;
+    border: none;
+    font-size: 10px;
+    background-image: none;
+}
+
+.folders_new li ul li input[type="text"] {
+    
+}
+
 .folders_new li ul li input {
     margin: 0px;
     vertical-align: middle;
@@ -215,31 +231,47 @@ html > body .folders_new li ul li img.foldericon {
     border: 1px solid $gold;
 }
 
-.folders_new input {
+html > body .folders_new input {
     font-size: 0.9em;
     width: 100px;
     border: 1px solid $gold;
+    height: 30px !important;
+
+    &[type="button"] {
+        @include button();
+        @include set-button-color($gold);
+        @include set-button-size('tiny');
+        color: $white !important;
+    }
+
+    &[type="submit"] {
+        @include button();
+        @include set-button-color($orange);
+        @include set-button-size('tiny');
+        color: $white !important;
+    }
 }
 
 .folders_new input.newfolders_submit {
-    background: url(../images/bg_strip_btn_orange.png);
-    width: 51px;
-    color: $white;
-    height: 18px;
-    border: 1px solid $orange;
-    cursor: pointer;
-    font-size: 0.9em;
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size('tiny');
+    width: 80px;
+    height: auto;
+    border: none;
+    font-size: 10px;
+    background-image: none;
 }
 
 .folders_new input.newfolders_submit_o {
-    background: url(../images/bg_strip_btn_orange.png);
-    width: 51px;
+    background: none;
+    width: auto;;
     color: $white;
-    height: 18px;
-    border: 1px solid $orange;
+    height: 24px;
+    border: none;
     cursor: pointer;
-    font-size: 0.9em;
-    padding-bottom: 2px;
+    font-size: 10px;
+    padding-bottom: 1px;
 }
 
 .folders_new .folderactions {
@@ -451,26 +483,26 @@ html > body .notebubble a.cancelnote {
     background-position: left 12px;
 }
 
-.notebubble h3 {
+.noteBubble h3 {
     padding-right: 0px;
     padding-left: 20px;
-    background: none !important; // url(../images/eshelf_note_top.png) no-repeat left top;
+    // background: url(../images/eshelf_note_top.png) no-repeat left top;
     padding-bottom: 0px;
     margin: 0px;
-    font-size: 0.9em;
+    font-size: 14px !important;
     line-height: 1.5em;
     width: 320px;
-    padding-top: 20px;
-    height: 22px;
+    padding-top: 25px !important;
+    height: 44px !important;
 }
 
 .notebubble .notebubble_content {
     padding-right: 7px;
     padding-left: 20px;
-    background: none !important; // url(../images/eshelf_note_middle.png) no-repeat left top;
+    background: none !important; 
     padding-bottom: 0px;
     width: 320px;
-    padding-top: 6px;
+    padding-top: 30px;
     white-space: normal !important;
 }
 
@@ -502,37 +534,55 @@ html > body .notebubble a.cancelnote {
     background: none !important; // url(../images/eshelf_note_middle.png) no-repeat top;
 }
 
-html > body .notebubble .notesubmit_holder {
-    margin-right: 20px;
+html > body table > tbody > tr .notebubble .notesubmit_holder {
+
+    padding-right: 0;
+    margin-top: 20px;
+    
+    input {
+        color: $white !important;
+
+        &:hover {
+            color: $white !important;
+            background-color: $orange !important;
+        }
+    }
 }
 
-.notebubble .notebubble_content .notesubmit_holder {
+html > body .notebubble .notebubble_content .notesubmit_holder {
     padding-right: 18px;
     padding-left: 0px;
     padding-bottom: 0px;
     padding-top: 0px;
+    margin-right: 0 !important;
 }
 
 .notebubble .notebubble_content input.note_submit {
-    border-right: 0px;
-    border-top: 0px;
-    border-left: 0px;
-    width: 51px;
-    color: #0075b0;
-    border-bottom: 0px;
-    height: 18px;
+    @include button();
+    @include set-button-color($orange);
+    @include set-button-size('tiny');
+    height: auto !important;
+    color: $white !important;
+    width: 80px !important;
+
+    &:hover {
+        color: $white !important;
+        background-color: $orange !important;
+    }
+
 }
 
 .notebubble .notebubble_content input.note_submit_o {
-    border-right: 0px;
-    border-top: 0px;
-    background: url(../images/folders_submit.gif) repeat-y left 18px;
-    border-left: 0px;
-    width: 51px;
-    color: #0075b0;
-    border-bottom: 0px;
-    height: 18px;
-    cursor: pointer;
+    @include button();
+    @include set-button-color($gold);
+    @include set-button-size('tiny');
+    height: auto !important;
+    color: $white !important;
+
+    &:hover {
+        color: $white !important;
+        background-color: $orange !important;
+    }
 }
 
 .notebubble .notebubble_bottom {

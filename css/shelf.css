@@ -525,6 +525,56 @@ ul {
 html > body .folders_new li ul li img.foldericon {
   margin-right: -4px; }
 
+.folders_new li ul li input[type="submit"],
+.folders_new li ul li input[type="button"] {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  width: 60px;
+  height: auto;
+  border: none;
+  font-size: 10px;
+  background-image: none; }
+  .folders_new li ul li input[type="submit"]::-moz-focus-inner,
+  .folders_new li ul li input[type="button"]::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .folders_new li ul li input[type="submit"]:hover,
+  .folders_new li ul li input[type="submit"]:active,
+  .folders_new li ul li input[type="button"]:hover,
+  .folders_new li ul li input[type="button"]:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .folders_new li ul li input[type="submit"]:active,
+  .folders_new li ul li input[type="button"]:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+
 .folders_new li ul li input {
   margin: 0px;
   vertical-align: middle; }
@@ -545,29 +595,146 @@ html > body .folders_new li ul li img.foldericon {
   width: 100px;
   border: 1px solid #987c4d; }
 
-.folders_new input {
+html > body .folders_new input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #987c4d; }
+  border: 1px solid #987c4d;
+  height: 30px !important; }
+  html > body .folders_new input[type="button"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #987c4d;
+    border: 2px solid #987c4d;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px;
+    color: #ffffff !important; }
+    html > body .folders_new input[type="button"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    html > body .folders_new input[type="button"]:hover,
+    html > body .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #876e44;
+      border-color: #7d663f; }
+    html > body .folders_new input[type="button"]:active {
+      color: #ffffff;
+      background-color: #7d663f;
+      border-color: #6f5b38;
+      box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  html > body .folders_new input[type="submit"] {
+    font-family: sans-serif;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 3px 20px;
+    background-color: #bcbdb6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 6px;
+    outline: none;
+    background-image: none;
+    color: #ffffff;
+    background-color: #fd8000;
+    border: 2px solid #fd8000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 1.5px 10px;
+    color: #ffffff !important; }
+    html > body .folders_new input[type="submit"]::-moz-focus-inner {
+      border: 0;
+      padding: 0; }
+    html > body .folders_new input[type="submit"]:hover,
+    html > body .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #e47300;
+      border-color: #d46b00; }
+    html > body .folders_new input[type="submit"]:active {
+      color: #ffffff;
+      background-color: #d46b00;
+      border-color: #c06100;
+      box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
-  color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em; }
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  width: 80px;
+  height: auto;
+  border: none;
+  font-size: 10px;
+  background-image: none; }
+  .folders_new input.newfolders_submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .folders_new input.newfolders_submit:hover,
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .folders_new input.newfolders_submit:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
 
 .folders_new input.newfolders_submit_o {
-  background: url(../images/bg_strip_btn_orange.png);
-  width: 51px;
+  background: none;
+  width: auto;
   color: #ffffff;
-  height: 18px;
-  border: 1px solid #fd8000;
+  height: 24px;
+  border: none;
   cursor: pointer;
-  font-size: 0.9em;
-  padding-bottom: 2px; }
+  font-size: 10px;
+  padding-bottom: 1px; }
 
 .folders_new .folderactions {
   padding-right: 0px;
@@ -759,17 +926,16 @@ html > body .notebubble a.cancelnote {
 .notebubble a.cancelnote:hover {
   background-position: left 12px; }
 
-.notebubble h3 {
+.noteBubble h3 {
   padding-right: 0px;
   padding-left: 20px;
-  background: none !important;
   padding-bottom: 0px;
   margin: 0px;
-  font-size: 0.9em;
+  font-size: 14px !important;
   line-height: 1.5em;
   width: 320px;
-  padding-top: 20px;
-  height: 22px; }
+  padding-top: 25px !important;
+  height: 44px !important; }
 
 .notebubble .notebubble_content {
   padding-right: 7px;
@@ -777,7 +943,7 @@ html > body .notebubble a.cancelnote {
   background: none !important;
   padding-bottom: 0px;
   width: 320px;
-  padding-top: 6px;
+  padding-top: 30px;
   white-space: normal !important; }
 
 .notebubble_content_overflow {
@@ -805,34 +971,112 @@ html > body .notebubble a.cancelnote {
   border: 0px;
   background: none !important; }
 
-html > body .notebubble .notesubmit_holder {
-  margin-right: 20px; }
+html > body table > tbody > tr .notebubble .notesubmit_holder {
+  padding-right: 0;
+  margin-top: 20px; }
+  html > body table > tbody > tr .notebubble .notesubmit_holder input {
+    color: #ffffff !important; }
+    html > body table > tbody > tr .notebubble .notesubmit_holder input:hover {
+      color: #ffffff !important;
+      background-color: #fd8000 !important; }
 
-.notebubble .notebubble_content .notesubmit_holder {
+html > body .notebubble .notebubble_content .notesubmit_holder {
   padding-right: 18px;
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  margin-right: 0 !important; }
 
 .notebubble .notebubble_content input.note_submit {
-  border-right: 0px;
-  border-top: 0px;
-  border-left: 0px;
-  width: 51px;
-  color: #0075b0;
-  border-bottom: 0px;
-  height: 18px; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #fd8000;
+  border: 2px solid #fd8000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  height: auto !important;
+  color: #ffffff !important;
+  width: 80px !important; }
+  .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .notebubble .notebubble_content input.note_submit:hover,
+  .notebubble .notebubble_content input.note_submit:active {
+    color: #ffffff;
+    background-color: #e47300;
+    border-color: #d46b00; }
+  .notebubble .notebubble_content input.note_submit:active {
+    color: #ffffff;
+    background-color: #d46b00;
+    border-color: #c06100;
+    box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .notebubble .notebubble_content input.note_submit:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_content input.note_submit_o {
-  border-right: 0px;
-  border-top: 0px;
-  background: url(../images/folders_submit.gif) repeat-y left 18px;
-  border-left: 0px;
-  width: 51px;
-  color: #0075b0;
-  border-bottom: 0px;
-  height: 18px;
-  cursor: pointer; }
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #bcbdb6;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #987c4d;
+  border: 2px solid #987c4d;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 1.5px 10px;
+  height: auto !important;
+  color: #ffffff !important; }
+  .notebubble .notebubble_content input.note_submit_o::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .notebubble .notebubble_content input.note_submit_o:hover,
+  .notebubble .notebubble_content input.note_submit_o:active {
+    color: #ffffff;
+    background-color: #876e44;
+    border-color: #7d663f; }
+  .notebubble .notebubble_content input.note_submit_o:active {
+    color: #ffffff;
+    background-color: #7d663f;
+    border-color: #6f5b38;
+    box-shadow: inset 2px 2px 2px 1px rgba(111, 91, 56, 0.5); }
+  .notebubble .notebubble_content input.note_submit_o:hover {
+    color: #ffffff !important;
+    background-color: #fd8000 !important; }
 
 .notebubble .notebubble_bottom {
   background: none !important;
