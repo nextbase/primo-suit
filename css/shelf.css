@@ -980,11 +980,12 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
       color: #ffffff !important;
       background-color: #fd8000 !important; }
 
-.notebubble .notebubble_content .notesubmit_holder {
+html > body .notebubble .notebubble_content .notesubmit_holder {
   padding-right: 18px;
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  margin-right: 0 !important; }
 
 .notebubble .notebubble_content input.note_submit {
   font-family: sans-serif;
@@ -1013,7 +1014,8 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
   line-height: 20px;
   padding: 1.5px 10px;
   height: auto !important;
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  width: 80px !important; }
   .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }

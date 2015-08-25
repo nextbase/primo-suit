@@ -276,16 +276,19 @@ li.EXLFacet {
     color: $black;
     font-weight: normal;
     font-size: 80%;
-    padding: 0.2em 0em 0.2em 0em;
-    background-color: sass;
+    padding: 10px;
+    background-color: $gray-light;
     border-top: 1px solid $gold-gray-secondary;
     border-bottom: 1px solid $gold-gray-secondary;
-    line-height: 150%;
+    line-height: 1.4;
     text-indent: 0em;
-    margin-bottom: 0.2em;
-    padding-left: 0.5em;
+    margin-bottom: 0;
     display: block;
-    height: auto
+    height: auto;
+
+    ul {
+        margin-bottom: 0;
+    }
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li {

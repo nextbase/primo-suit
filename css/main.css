@@ -6695,16 +6695,17 @@ li.EXLFacet label {
   color: #333333;
   font-weight: normal;
   font-size: 80%;
-  padding: 0.2em 0em 0.2em 0em;
-  background-color: sass;
+  padding: 10px;
+  background-color: #f2f2f0;
   border-top: 1px solid #d8d0c4;
   border-bottom: 1px solid #d8d0c4;
-  line-height: 150%;
+  line-height: 1.4;
   text-indent: 0em;
-  margin-bottom: 0.2em;
-  padding-left: 0.5em;
+  margin-bottom: 0;
   display: block;
   height: auto; }
+  .EXLFacetContainer div.EXLFacetActionsV2 ul {
+    margin-bottom: 0; }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li {
   margin-right: 0.5em;
@@ -14146,11 +14147,12 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
       color: #ffffff !important;
       background-color: #fd8000 !important; }
 
-.notebubble .notebubble_content .notesubmit_holder {
+html > body .notebubble .notebubble_content .notesubmit_holder {
   padding-right: 18px;
   padding-left: 0px;
   padding-bottom: 0px;
-  padding-top: 0px; }
+  padding-top: 0px;
+  margin-right: 0 !important; }
 
 .notebubble .notebubble_content input.note_submit {
   font-family: sans-serif;
@@ -14179,7 +14181,8 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
   line-height: 20px;
   padding: 1.5px 10px;
   height: auto !important;
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  width: 80px !important; }
   .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
