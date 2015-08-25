@@ -6509,6 +6509,8 @@ li.EXLFacet label {
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
       padding: 8px 0;
       margin-bottom: 0; }
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li:first-child {
+      margin-top: 5px; }
 
 .EXLFacetContainer h4 {
   margin: 0;
