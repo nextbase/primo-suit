@@ -7160,7 +7160,7 @@ li.EXLFacet label {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
     #facetList .EXLFacetContainer h4:after {
-      top: 3px;
+      top: 2px;
       float: right;
       color: #bcbdb6; }
 
@@ -7188,7 +7188,7 @@ li.EXLFacet label {
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
     #facetListTopLevel h3:after {
-      top: 2px;
+      top: 3px;
       float: right;
       color: #bcbdb6; }
   #facetListTopLevel.expanded {
