@@ -7138,6 +7138,9 @@ li.EXLFacet label {
   text-decoration: none;
   outline: none; }
 
+#facetList .EXLFacetContainer.expanded {
+  box-shadow: 0 0 10px 0 rgba(51, 51, 51, 0.3); }
+
 #exlidHeaderSystemFeedback {
   margin: 0;
   padding: 0;

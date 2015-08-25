@@ -1,0 +1,9 @@
+#facetList {
+  .EXLFacetContainer {
+
+  }
+
+  .EXLFacetContainer.expanded {
+    @include prefixer(box-shadow, 0 0 10px 0 rgba($black, .3), webkit moz spec);
+  }
+}
