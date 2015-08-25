@@ -6495,11 +6495,13 @@ li.EXLFacet label {
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
       background-color: transparent;
       width: 55px;
-      padding: 2px 0;
-      text-align: center;
+      padding: 8px 0;
+      text-align: right;
       position: absolute;
       right: 0;
       top: 0; }
+      #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile:after {
+        display: none; }
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li,
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
       padding: 8px 0;
