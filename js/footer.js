@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // Sitemap Expand
     var sitemap_toggle = $('#sitemap-button');
     var sitemap_block = $('#footer');
 
@@ -7,8 +8,9 @@ $(document).ready(function () {
         sitemap_block.toggleClass('sitemap-expanded');
     });
 
-    var trigger_query   = ".EXLFacetList h3"; // Expand Trigger
-    var parent_query    = ".EXLFacetList"; // Parent Block
+    // Search Facets Expand
+    var trigger_query   = ".EXLFacetList h3";
+    var parent_query    = ".EXLFacetList";
 
     $(trigger_query).bind('click', function (e){
         $(this).closest(parent_query).toggleClass('expanded');
