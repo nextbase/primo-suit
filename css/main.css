@@ -5490,6 +5490,9 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   #exlidHeaderSearchLimits:last-child {
     margin-right: 0; }
 
+#searchForm #exlidHeaderSearchLimits {
+  margin-bottom: 0; }
+
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
   color: #666666;
