@@ -71,16 +71,12 @@ li.EXLFacet {
   #exlidPyrlistX {
     @include reset-margins;
     background-color: transparent;
-
-    ul, ol {
-      @include reset-margins;
-      width: 60px;
-      padding: 0;
-      text-align: center;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
+    width: 60px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
 }
 

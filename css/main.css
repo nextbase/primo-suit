@@ -6493,16 +6493,13 @@ li.EXLFacet label {
   #pyrTopLevel #exlidPyrlistX {
     margin: 0;
     padding: 0;
-    background-color: transparent; }
-    #pyrTopLevel #exlidPyrlistX ul, #pyrTopLevel #exlidPyrlistX ol {
-      margin: 0;
-      padding: 0;
-      width: 60px;
-      padding: 0;
-      text-align: center;
-      position: absolute;
-      right: 0;
-      top: 0; }
+    background-color: transparent;
+    width: 60px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0; }
 
 .EXLFacetContainer h4 {
   margin: 0;
