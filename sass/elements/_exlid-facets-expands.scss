@@ -5,7 +5,7 @@
   .EXLFacetContainer {
     max-height: 36px;
     overflow: hidden;
-    @include transition(max-height 0.35s $ease-out-circ);
+    @include transition(max-height 0.55s $ease-out-circ);
 
     h4 {
       cursor: pointer;
