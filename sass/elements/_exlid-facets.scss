@@ -71,12 +71,6 @@ li.EXLFacet {
   #exlidPyrlistX {
     margin-bottom: 20px;
 
-    li.EXLFacetsDisplayMore {
-      margin: 0;
-      padding: 0;
-      height: 0;
-    }
-
     a.EXLEditPersonalizedRankingProfile {
       background-color: transparent;
       width: 50px;
@@ -99,6 +93,13 @@ li.EXLFacet {
 
     li:first-child {
       margin-top: 5px;
+    }
+
+    li.EXLFacetsDisplayMore,
+    li.EXLFacetsDisplayMore:first-child {
+      margin-top: 0;
+      padding: 0;
+      height: 0;
     }
   }
 }
