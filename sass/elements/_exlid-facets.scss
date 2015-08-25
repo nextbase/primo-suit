@@ -69,7 +69,7 @@ li.EXLFacet {
   }
 
   #exlidPyrlistX {
-    
+
     a.EXLEditPersonalizedRankingProfile {
       background-color: transparent;
       width: 55px;
@@ -78,6 +78,10 @@ li.EXLFacet {
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    li.EXLPyrDiscipline {
+      padding: 8px 0;
     }
   }
 }

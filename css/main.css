@@ -6498,6 +6498,8 @@ li.EXLFacet label {
     position: absolute;
     right: 0;
     top: 0; }
+  #pyrTopLevel #exlidPyrlistX li.EXLPyrDiscipline {
+    padding: 8px 0; }
 
 .EXLFacetContainer h4 {
   margin: 0;
