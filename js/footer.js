@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     // Search Facets Expand
-    var trigger_query   = ".EXLFacetList h3";
+    var trigger_query   = ".EXLFacetList h3, .EXLFacetList h4";
     var parent_query    = ".EXLFacetList";
 
     $(trigger_query).bind('click', function (e){
