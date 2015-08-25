@@ -1,9 +1,10 @@
 #facetList {
   .EXLFacetContainer {
-
+    max-height: 36px;
+    overflow: hidden;
   }
 
   .EXLFacetContainer.expanded {
-    @include prefixer(box-shadow, 0 0 10px 0 rgba($black, .3), webkit moz spec);
+    max-height: 300px;
   }
 }
