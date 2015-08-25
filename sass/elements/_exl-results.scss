@@ -195,6 +195,7 @@ h1 span.EXLBriefResultsPaginationPageCount {
 
 .EXLResultsNumbers h1 em:nth-child(2) {
   display: none;
+  // On the search results page, near the number of results this removes the type of results
 }
 
 .EXLBriefResultsPagination:hover {
