@@ -1,4 +1,9 @@
 #facetList {
+
+  #exlidFacet0,
+  .EXLFacetContainer:first-child {
+    max-height: 114px;
+  }
   .EXLFacetContainer {
     max-height: 36px;
     overflow: hidden;

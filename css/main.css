@@ -7138,6 +7138,10 @@ li.EXLFacet label {
   text-decoration: none;
   outline: none; }
 
+#facetList #exlidFacet0,
+#facetList .EXLFacetContainer:first-child {
+  max-height: 114px; }
+
 #facetList .EXLFacetContainer {
   max-height: 36px;
   overflow: hidden;
