@@ -7165,7 +7165,7 @@ li.EXLFacet label {
 #facetList .EXLFacetContainer.expanded {
   max-height: 400px;
   transition: max-height 0.65s cubic-bezier(0.075, 0.82, 0.165, 1); }
-  #facetList .EXLFacetContainer.expanded h4 :after {
+  #facetList .EXLFacetContainer.expanded h4:after {
     content: "−"; }
 
 #exlidHeaderSystemFeedback {
