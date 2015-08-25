@@ -8,21 +8,18 @@ $(document).ready(function () {
         sitemap_block.toggleClass('sitemap-expanded');
     });
 
-    // Search Facets Expand
-    var trigger_query   = ".EXLFacetList h3";
-    var parent_query    = ".EXLFacetList";
+    function expandableFacet(trigger_query, parent_query) {
+        $(trigger_query).bind('click', function (e){
+            $(this).closest(parent_query).toggleClass('expanded');
+            e.preventDefault();
+        });
+    };
 
-    $(trigger_query).bind('click', function (e){
-        $(this).closest(parent_query).toggleClass('expanded');
-        e.preventDefault();
-    });
+    // Search Facets Expand
+    expandableFacet(".EXLFacetList h3", ".EXLFacetList");
 
     // Secondary Facets Expand
-    var secondary_trigger_query   = "#facetList .EXLFacetContainer h4";
-    var secondary_parent_query    = ".EXLFacetContainer";
+    expandableFacet("#facetList .EXLFacetContainer h4", ".EXLFacetContainer");
 
-    $(secondary_trigger_query).bind('click', function (e){
-        $(this).closest(secondary_parent_query).toggleClass('expanded');
-        e.preventDefault();
-    });
+
 });
