@@ -6484,12 +6484,10 @@ li.EXLFacet label {
     content: "";
     display: table; }
 
-#pyrTopLevel {
+#pyrTopLevel .EXLFacetContainer {
   position: relative; }
-  #pyrTopLevel h3 {
-    margin-bottom: 0; }
-    #pyrTopLevel h3 img {
-      display: none; }
+  #pyrTopLevel .EXLFacetContainer h3 img {
+    display: none; }
   #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
     background-color: transparent;
     width: 55px;
