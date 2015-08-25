@@ -7144,7 +7144,7 @@ li.EXLFacet label {
 #facetList .EXLFacetContainer {
   max-height: 36px;
   overflow: hidden;
-  transition: max-height 0.55s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  transition: max-height 0.55s cubic-bezier(0.075, 0.82, 0.165, 1); }
   #facetList .EXLFacetContainer h4 {
     cursor: pointer; }
     #facetList .EXLFacetContainer h4:after {
@@ -7164,7 +7164,7 @@ li.EXLFacet label {
 
 #facetList .EXLFacetContainer.expanded {
   max-height: 400px;
-  transition: max-height 0.65s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  transition: max-height 0.8s cubic-bezier(0.075, 0.82, 0.165, 1); }
   #facetList .EXLFacetContainer.expanded h4:after {
     content: "−"; }
 
