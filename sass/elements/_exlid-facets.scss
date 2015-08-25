@@ -312,11 +312,11 @@ li.EXLFacet {
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchAction {
-    background-image: url(../images/icon_save_search.png);
+    @include retina-image('../images/icon_save_search', 20px 20px);
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveSearchActionOff {
-    background-image: url(../images/icon_save_search_off.png);
+    @include retina-image('../images/icon_save_search_off', 20px 20px);
 }
 
 .EXLFacetContainer div.EXLFacetActionsV2 li.EXLFacetSaveToEShelfAction {
