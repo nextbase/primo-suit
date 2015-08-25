@@ -7713,7 +7713,8 @@ li.EXLFacet label {
   font-size: 24px;
   color: #333333;
   line-height: 1.125;
-  padding-left: 0; }
+  padding-left: 0;
+  white-space: nowrap; }
 
 .EXLCitationLinkerHeader div.EXLCitationLinkerHeaderButtons {
   padding: 0em;
