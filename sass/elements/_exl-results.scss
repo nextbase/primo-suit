@@ -193,6 +193,10 @@ h1 span.EXLBriefResultsPaginationPageCount {
     display: none;
 }
 
+.EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount em:nth-child(2) {
+  display: none;
+}
+
 .EXLBriefResultsPagination:hover {
     text-decoration: none;
     background: $gray-light-secondary;
