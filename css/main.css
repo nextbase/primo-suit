@@ -7138,23 +7138,6 @@ li.EXLFacet label {
   text-decoration: none;
   outline: none; }
 
-#facetList .EXLFacetContainer h4 {
-  cursor: pointer; }
-  #facetList .EXLFacetContainer h4:after {
-    content: "+";
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #facetList .EXLFacetContainer h4:after {
-    top: 2px;
-    float: right; }
-
 #facetList .EXLFacetContainer:first-child {
   max-height: 113px; }
 
@@ -7162,10 +7145,28 @@ li.EXLFacet label {
   max-height: 36px;
   overflow: hidden;
   transition: max-height 0.35s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetList .EXLFacetContainer h4 {
+    cursor: pointer; }
+    #facetList .EXLFacetContainer h4:after {
+      content: "+";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    #facetList .EXLFacetContainer h4:after {
+      top: 2px;
+      float: right; }
 
 #facetList .EXLFacetContainer.expanded {
   max-height: 400px;
   transition: max-height 0.65s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetList .EXLFacetContainer.expanded h4 :after {
+    content: "−"; }
 
 #exlidHeaderSystemFeedback {
   margin: 0;

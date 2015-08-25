@@ -1,15 +1,4 @@
 #facetList {
-
-  .EXLFacetContainer h4 {
-    cursor: pointer;
-    @include glyphicon($icon-plus, "after");
-
-    &:after {
-      top: 2px;
-      float: right;
-    }
-  }
-
   .EXLFacetContainer:first-child {
     max-height: 113px;
   }
@@ -17,10 +6,24 @@
     max-height: 36px;
     overflow: hidden;
     @include transition(max-height 0.35s $ease-out-circ);
+
+    h4 {
+      cursor: pointer;
+      @include glyphicon($icon-plus, "after");
+
+      &:after {
+        top: 2px;
+        float: right;
+      }
+    }
   }
 
   .EXLFacetContainer.expanded {
     max-height: 400px;
     @include transition(max-height 0.65s $ease-out-circ);
+
+    h4 :after {
+      content: $icon-minus;
+    }
   }
 }
