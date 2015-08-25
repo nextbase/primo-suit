@@ -193,7 +193,7 @@ h1 span.EXLBriefResultsPaginationPageCount {
     display: none;
 }
 
-.EXLResultsNumbers h1 em:nth-child(3) {
+.EXLResultsNumbers h1 em:last-child {
   display: none;
   // On the search results page, near the number of results this removes the type of results
 }
