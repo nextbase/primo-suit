@@ -7,11 +7,11 @@
   .EXLFacetContainer {
     max-height: 36px;
     overflow: hidden;
-    @include transition(max-height 1.0s ease-in .2s);
+    @include transition(max-height 0.5s ease-in-out);
   }
 
   .EXLFacetContainer.expanded {
     max-height: 300px;
-    @include transition(max-height 1.0s ease-in .2s);
+    @include transition(max-height 0.2s ease-in-out);
   }
 }

@@ -7145,11 +7145,11 @@ li.EXLFacet label {
 #facetList .EXLFacetContainer {
   max-height: 36px;
   overflow: hidden;
-  transition: max-height 1s ease-in 0.2s; }
+  transition: max-height 0.5s ease-in-out; }
 
 #facetList .EXLFacetContainer.expanded {
   max-height: 300px;
-  transition: max-height 1s ease-in 0.2s; }
+  transition: max-height 0.2s ease-in-out; }
 
 #exlidHeaderSystemFeedback {
   margin: 0;
