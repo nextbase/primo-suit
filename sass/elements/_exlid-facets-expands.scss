@@ -2,10 +2,11 @@
   .EXLFacetContainer:first-child {
     max-height: 113px;
   }
+
   .EXLFacetContainer {
     max-height: 36px;
     overflow: hidden;
-    @include transition(max-height 0.55s $ease-out-circ);
+    @include transition(max-height 0.55s $ease-out-back);
 
     h4 {
       cursor: pointer;
