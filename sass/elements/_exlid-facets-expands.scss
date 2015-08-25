@@ -1,5 +1,10 @@
 #facetList {
 
+  h4 {
+    cursor: pointer;
+    @include glyphicon($icon-plus, "after");
+  }
+
   .EXLFacetContainer:first-child {
     max-height: 113px;
   }

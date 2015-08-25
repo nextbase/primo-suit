@@ -7138,6 +7138,20 @@ li.EXLFacet label {
   text-decoration: none;
   outline: none; }
 
+#facetList h4 {
+  cursor: pointer; }
+  #facetList h4:after {
+    content: "+";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
 #facetList .EXLFacetContainer:first-child {
   max-height: 113px; }
 
