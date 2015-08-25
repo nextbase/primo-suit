@@ -50,7 +50,7 @@
     max-height: 400px;
     @include transition(max-height 1s $ease-out-circ);
 
-    h4:after {
+    h3:after {
       content: $icon-minus;
     }
   }
