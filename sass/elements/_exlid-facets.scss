@@ -46,9 +46,9 @@ li.EXLFacet {
   @include reset-margins;
   padding: 6px 10px;
   margin-bottom: $spacing-small;
-  font-weight: normal;
+  font-weight: bold;
   color: $black;
-  font-size: ($base-font-size - 2px);
+  font-size: ($base-font-size - 1px);
   background-color: $gray-light;
   border-top: 1px solid darken($gray-light, 5%);
   border-bottom: 1px solid darken($gray-light, 5%);
