@@ -7151,6 +7151,9 @@ li.EXLFacet label {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+  #facetList .EXLFacetContainer h4:after {
+    top: 2px;
+    float: right; }
 
 #facetList .EXLFacetContainer:first-child {
   max-height: 113px; }

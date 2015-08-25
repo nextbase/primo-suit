@@ -3,6 +3,11 @@
   .EXLFacetContainer h4 {
     cursor: pointer;
     @include glyphicon($icon-plus, "after");
+
+    &:after {
+      top: 2px;
+      float: right;
+    }
   }
 
   .EXLFacetContainer:first-child {
