@@ -18,7 +18,7 @@ $(document).ready(function () {
     });
 
     // Secondary Facets Expand
-    var secondary_trigger_query   = "#facetList .EXLFacetList h4";
+    var secondary_trigger_query   = "#facetList .EXLFacetContainer h4";
     var secondary_parent_query    = ".EXLFacetContainer";
 
     $(secondary_trigger_query).bind('click', function (e){
