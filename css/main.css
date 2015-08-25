@@ -6716,7 +6716,8 @@ li.EXLFacet label {
   border-top: none;
   border-bottom: none;
   line-height: 1.2;
-  text-indent: 0; }
+  text-indent: 0;
+  font-weight: normal; }
   .EXLFacetContainer h1::after {
     clear: both;
     content: "";
