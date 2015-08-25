@@ -6,7 +6,7 @@
   .EXLFacetContainer {
     max-height: 36px;
     overflow: hidden;
-    @include transition(max-height 0.55s $ease-out-circ);
+    @include transition(max-height 0.5s $ease-out-circ);
 
     h4 {
       cursor: pointer;
@@ -15,13 +15,14 @@
       &:after {
         top: 2px;
         float: right;
+        color: $gray-dark;
       }
     }
   }
 
   .EXLFacetContainer.expanded {
     max-height: 400px;
-    @include transition(max-height 0.8s $ease-out-circ);
+    @include transition(max-height 1s $ease-out-circ);
 
     h4:after {
       content: $icon-minus;

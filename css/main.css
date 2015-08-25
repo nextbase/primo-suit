@@ -7144,7 +7144,7 @@ li.EXLFacet label {
 #facetList .EXLFacetContainer {
   max-height: 36px;
   overflow: hidden;
-  transition: max-height 0.55s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  transition: max-height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
   #facetList .EXLFacetContainer h4 {
     cursor: pointer; }
     #facetList .EXLFacetContainer h4:after {
@@ -7160,11 +7160,12 @@ li.EXLFacet label {
       -moz-osx-font-smoothing: grayscale; }
     #facetList .EXLFacetContainer h4:after {
       top: 2px;
-      float: right; }
+      float: right;
+      color: #888888; }
 
 #facetList .EXLFacetContainer.expanded {
   max-height: 400px;
-  transition: max-height 0.8s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  transition: max-height 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
   #facetList .EXLFacetContainer.expanded h4:after {
     content: "−"; }
 
