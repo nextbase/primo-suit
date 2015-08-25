@@ -10160,6 +10160,8 @@ body.EXLFullView div.EXLBackToResults {
   top: 0;
   left: 0;
   z-index: 5 !important; }
+  .coverImageDiv[style] {
+    z-index: 5 !important; }
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
   background-image: url("../images/icon_article.png"); }
