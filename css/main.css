@@ -7138,9 +7138,9 @@ li.EXLFacet label {
   text-decoration: none;
   outline: none; }
 
-#facetList h4 {
+#facetList .EXLFacetContainer h4 {
   cursor: pointer; }
-  #facetList h4:after {
+  #facetList .EXLFacetContainer h4:after {
     content: "+";
     position: relative;
     top: 1px;

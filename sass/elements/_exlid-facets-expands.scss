@@ -1,6 +1,6 @@
 #facetList {
 
-  h4 {
+  .EXLFacetContainer h4 {
     cursor: pointer;
     @include glyphicon($icon-plus, "after");
   }
