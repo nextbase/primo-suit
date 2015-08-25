@@ -6490,7 +6490,7 @@ li.EXLFacet label {
     margin-bottom: 0; }
     #pyrTopLevel h3 img {
       display: none; }
-  #pyrTopLevel #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
+  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
     background-color: transparent;
     width: 55px;
     padding: 2px 0;
@@ -6498,7 +6498,7 @@ li.EXLFacet label {
     position: absolute;
     right: 0;
     top: 0; }
-  #pyrTopLevel #exlidPyrlistX li.EXLPyrDiscipline {
+  #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLPyrDiscipline {
     padding: 8px 0; }
 
 .EXLFacetContainer h4 {
