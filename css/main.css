@@ -6484,6 +6484,26 @@ li.EXLFacet label {
     content: "";
     display: table; }
 
+#pyrTopLevel {
+  position: relative; }
+  #pyrTopLevel h3 {
+    margin-bottom: 0; }
+    #pyrTopLevel h3 img {
+      display: none; }
+  #pyrTopLevel #exlidPyrlistX {
+    margin: 0;
+    padding: 0;
+    background-color: transparent; }
+    #pyrTopLevel #exlidPyrlistX ul, #pyrTopLevel #exlidPyrlistX ol {
+      margin: 0;
+      padding: 0;
+      width: 60px;
+      padding: 0;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0; }
+
 .EXLFacetContainer h4 {
   margin: 0;
   padding: 0;
@@ -6491,7 +6511,7 @@ li.EXLFacet label {
   margin-bottom: 20px;
   color: #333333;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: bold;
   background-color: #f2f2f0;
   border-top: 1px solid #e6e6e2;
   border-bottom: 1px solid #e6e6e2;
@@ -12323,19 +12343,19 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   float: left; }
 
 .EXLMyAccountMainMenuContainer ol {
-  margin: 0em 0.5em 0em 0.5em;
+  margin: 0 0.5em 0 0.5em;
   border: 1px solid #a7a8a2;
   list-style-position: outside;
   list-style: none;
-  padding: 1em 1em 1em 0em;
+  padding: 1em 1em 1em 0;
   background-color: #ffffff;
   min-height: 9.5em;
   height: auto; }
 
 .EXLMyAccountMainMenuContainer ol li {
   font-size: 80%;
-  padding-bottom: 0em;
-  padding-top: 0em;
+  padding-bottom: 0;
+  padding-top: 0;
   line-height: 200%;
   font-weight: bold;
   color: #4d4d4d; }
@@ -12346,8 +12366,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #4d4d4d; }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBullet {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: none;
   background-repeat: no-repeat;
   width: 17px;
@@ -12361,8 +12381,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   left: -5px; }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: url(../images/bullet_myAccount_menu.png);
   background-repeat: no-repeat;
   width: 17px;
@@ -12391,7 +12411,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   font-weight: bold; }
 
 .EXLMyAccountMainMenuContainer ol li.EXLMyAccountMainMenuWarning span.EXLMyAccountMainMenuCounter {
-  padding-left: 0em;
+  padding-left: 0;
   background-image: url(../images/icon_exclamation.png);
   background-repeat: no-repeat;
   display: inline-block;
@@ -12438,7 +12458,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   display: block;
   float: left;
   border: 1px solid white;
-  padding: 1px 0px 1px 0px; }
+  padding: 1px 0 1px 0; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSelected {
   background-color: #ffffff;
@@ -12463,8 +12483,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   background-position: center; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeaderButtons {
-  padding: 0em;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   width: 35%;
   float: right;
   text-align: right;
@@ -12495,13 +12515,13 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333;
   font-weight: normal;
   border: 1px solid #d8d0c4;
-  padding: 0.5em 0em 0.5em 0.5em; }
+  padding: 0.5em 0 0.5em 0.5em; }
 
 .EXLMyAccountMainContainer table th {
   text-align: left;
   border-bottom: 1px solid #cbbfae;
   padding-top: 0.2em;
-  padding-bottom: 0em;
+  padding-bottom: 0;
   color: #333333;
   width: auto;
   padding-right: 1.5em;
@@ -12515,12 +12535,12 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333;
   font-weight: normal;
   border: 1px solid #d8d0c4;
-  padding: 0.5em 0em 0.5em 0.5em; }
+  padding: 0.5em 0 0.5em 0.5em; }
 
 .EXLMyAccountMainContainer table td {
   border: none;
-  padding: 0.1em 0em 0.1em 0em;
-  margin: 0px;
+  padding: 0.1em 0 0.1em 0;
+  margin: 0;
   vertical-align: text-top;
   padding-right: 1em; }
 
@@ -12544,8 +12564,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   border: none;
   width: 10em;
   white-space: nowrap;
-  padding-top: 0em;
-  padding-bottom: 0em;
+  padding-top: 0;
+  padding-bottom: 0;
   vertical-align: text-top;
   border-bottom: 1px solid #fefefe;
   color: #333333; }
@@ -12613,7 +12633,7 @@ a.EXLLoansRenewButton {
   border: 2px solid #fd8000;
   line-height: 28px;
   color: #ffffff;
-  margin: 10px 10px 20px 0px; }
+  margin: 10px 10px 20px 0; }
   #renew_selecte_loans_button::-moz-focus-inner {
     border: 0;
     padding: 0; }
@@ -12689,7 +12709,7 @@ table td.MyAccount_Loans_author {
   margin-bottom: -2em; }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons {
-  padding: 0em;
+  padding: 0;
   width: 35%;
   float: right;
   text-align: right;
@@ -12710,7 +12730,7 @@ table td.MyAccount_Loans_author {
   list-style: none;
   float: left;
   height: 18px;
-  border-right: 0px solid #d8d0c4; }
+  border-right: 0 solid #d8d0c4; }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li span {
   background-image: none;
@@ -12772,7 +12792,7 @@ table td.MyAccount_Loans_author {
   padding: 1px; }
 
 .EXLMyAccountButtonLink span a {
-  padding: 0em 0.5em 0em 0.5em;
+  padding: 0 0.5em 0 0.5em;
   color: #ffffff;
   font-weight: normal;
   height: 20px;
@@ -12845,8 +12865,8 @@ table td.MyAccount_Loans_author {
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm td {
@@ -13074,19 +13094,19 @@ table td.MyAccount_Loans_author {
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips ul {
   height: 100%;
-  padding: 0.5em 0em 1em 0.5em; }
+  padding: 0.5em 0 1em 0.5em; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li {
   list-style: none;
-  padding-top: 0px;
-  padding-right: 0px;
+  padding-top: 0;
+  padding-right: 0;
   font-size: 90%;
   margin-bottom: 1em;
   float: left; }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   background-image: url(../images/bullet_arrow_orange_tip.png);
   background-repeat: no-repeat;
   width: 15px;
@@ -13106,8 +13126,8 @@ table td.MyAccount_Loans_author {
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form th {
   width: auto;
@@ -13126,7 +13146,7 @@ table td.MyAccount_Loans_author {
   font-size: 90%;
   color: #333333;
   font-weight: bold;
-  text-indent: 0em;
+  text-indent: 0;
   margin-bottom: 0.5em; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips label {
@@ -13138,7 +13158,7 @@ table td.MyAccount_Loans_author {
   float: right;
   width: 35%;
   border: 1px solid #d8d0c4;
-  margin: 0.5em 0em 1em 1em;
+  margin: 0.5em 0 1em 1em;
   background-image: url(../images/bg_strip_details_links.png);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -13147,8 +13167,8 @@ table td.MyAccount_Loans_author {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
   font-size: 90%;
@@ -13191,16 +13211,13 @@ table td.MyAccount_Loans_author {
   display: inline-block; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-  padding: 0;
-  margin: 0;
   text-align: left;
   font-weight: normal;
-  display: inline;
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em;
   vertical-align: text-top; }
 
@@ -13232,7 +13249,7 @@ table td.MyAccount_Loans_author {
   background-color: #987c4d;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
-  margin-left: 0em;
+  margin-left: 0;
   width: auto;
   color: #ffffff;
   font-weight: normal;
@@ -13247,7 +13264,7 @@ table td.MyAccount_Loans_author {
   float: right;
   width: 35%;
   border: 1px solid #d8d0c4;
-  margin: 0.5em 0em 1em 1em;
+  margin: 0.5em 0 1em 1em;
   background-image: url(../images/bg_strip_details_links.png);
   background-repeat: repeat-x;
   background-position: bottom;
@@ -13256,8 +13273,8 @@ table td.MyAccount_Loans_author {
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
   width: 100%;
-  padding: 0em;
-  margin: 0em; }
+  padding: 0;
+  margin: 0; }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
   font-size: 90%;
@@ -13300,16 +13317,13 @@ table td.MyAccount_Loans_author {
   display: inline-block; }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-  padding: 0;
-  margin: 0;
   text-align: left;
   font-weight: normal;
-  display: inline;
   border: none;
   line-height: 200%;
   display: block;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   margin-right: 2em;
   vertical-align: text-top; }
 

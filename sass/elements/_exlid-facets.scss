@@ -57,13 +57,40 @@ li.EXLFacet {
   @include clearfix;
 }
 
+#pyrTopLevel {
+  position: relative;
+
+  h3 {
+    margin-bottom: 0;
+
+    img {
+      display: none;
+    }
+  }
+
+  #exlidPyrlistX {
+    @include reset-margins;
+    background-color: transparent;
+
+    ul, ol {
+      @include reset-margins;
+      width: 60px;
+      padding: 0;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
 .EXLFacetContainer h4 {
   @include reset-margins;
   padding: 6px 10px;
   margin-bottom: $spacing-small;
   color: $black;
   font-size: $small-font-size;
-  font-weight: normal;
+  font-weight: bold;
   background-color: $gray-light;
   border-top: 1px solid darken($gray-light, 5%);
   border-bottom: 1px solid darken($gray-light, 5%);
