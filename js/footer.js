@@ -7,11 +7,11 @@ $(document).ready(function () {
         sitemap_block.toggleClass('sitemap-expanded');
     });
 
-    var trigger_query   = ".some-class"; // Expand Trigger
-    var parent_query    = ".parent-class"; // Parent Block
+    var trigger_query   = ".EXLFacetList h3"; // Expand Trigger
+    var parent_query    = ".EXLFacetList"; // Parent Block
 
     $(trigger_query).bind('click', function (e){
-        $(this).parent().find(parent_query).toggleClass('expanded');
+        $(this).closest(parent_query).toggleClass('expanded');
         e.preventDefault();
     });
 });
