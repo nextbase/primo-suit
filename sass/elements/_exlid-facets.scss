@@ -71,11 +71,15 @@ li.EXLFacet {
   #exlidPyrlistX {
     margin-bottom: 20px;
 
+    .EXLFacetsDisplayMore {
+      height: 0;
+    }
+
     a.EXLEditPersonalizedRankingProfile {
       background-color: transparent;
-      width: 55px;
-      padding: 8px 0;
-      text-align: right;
+      width: 50px;
+      padding: 8px 10px;
+      text-align: center;
       position: absolute;
       right: 0;
       top: 0;
