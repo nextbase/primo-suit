@@ -6490,9 +6490,7 @@ li.EXLFacet label {
     margin-bottom: 0; }
     #pyrTopLevel h3 img {
       display: none; }
-  #pyrTopLevel #exlidPyrlistX {
-    margin: 0;
-    padding: 0;
+  #pyrTopLevel #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
     background-color: transparent;
     width: 55px;
     padding: 2px 0;
