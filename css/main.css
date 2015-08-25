@@ -7169,6 +7169,33 @@ li.EXLFacet label {
   #facetList .EXLFacetContainer.expanded h4:after {
     content: "−"; }
 
+#facetListTopLevel {
+  max-height: 25px;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1); }
+  #facetListTopLevel h3 {
+    cursor: pointer; }
+    #facetListTopLevel h3:after {
+      content: "+";
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    #facetListTopLevel h3:after {
+      top: 2px;
+      float: right;
+      color: #bcbdb6; }
+  #facetListTopLevel.expanded {
+    max-height: 400px;
+    transition: max-height 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    #facetListTopLevel.expanded h4:after {
+      content: "−"; }
+
 #exlidHeaderSystemFeedback {
   margin: 0;
   padding: 0;
