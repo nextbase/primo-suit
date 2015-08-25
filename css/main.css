@@ -6492,7 +6492,8 @@ li.EXLFacet label {
       display: none; }
   #pyrTopLevel .EXLFacetContainer #exlidPyrlistX {
     margin-bottom: 20px; }
-    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX .EXLFacetsDisplayMore {
+    #pyrTopLevel .EXLFacetContainer #exlidPyrlistX li.EXLFacetsDisplayMore {
+      margin: 0;
       padding: 0;
       height: 0; }
     #pyrTopLevel .EXLFacetContainer #exlidPyrlistX a.EXLEditPersonalizedRankingProfile {
