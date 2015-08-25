@@ -9125,7 +9125,7 @@ div.EXLResultsHeader:focus {
 h1 span.EXLBriefResultsPaginationPageCount {
   display: none; }
 
-.EXLResultsNumbers h1 em:nth-child(2) {
+.EXLResultsNumbers h1 em:nth-child(3) {
   display: none; }
 
 .EXLBriefResultsPagination:hover {
