@@ -12191,7 +12191,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li span {
   width: 40px;
   height: 40px;
-  display: inline;
+  display: block;
   float: left; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a {
