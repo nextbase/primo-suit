@@ -479,6 +479,10 @@ div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
   width: auto;
 }
 
+#exliWhiteContent[style] {
+  z-index: 1002 !important;
+}
+
 #exliWhiteContent {
   position: absolute;
   top: 10%;
