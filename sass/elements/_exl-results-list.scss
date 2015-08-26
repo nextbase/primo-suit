@@ -89,12 +89,13 @@ body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
   margin-bottom: 10px;
 }
 
-body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
+body.EXLFullView div.EXLResultsList h2.EXLResultAuthor,
+body.EXLFullView div.EXLResultsList h3.EXLResultAuthor {
   @include reset-margins;
-  font-size: 100%;
+  font-size: ($base-font-size - 1px);
   font-weight: normal;
   margin-bottom: 12px;
-  margin-top: -10px;
+  margin-top: -5px;
 }
 
 .EXLResultsList div.EXLSummaryContainer {
