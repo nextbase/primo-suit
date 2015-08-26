@@ -14,16 +14,16 @@
 }
 
 .EXLResultsList {
-    @include reset-margins;
-    font-size: $base-font-size;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    border-top: 1px solid $gold-gray-secondary;
-    width: 100%;
+  @include reset-margins;
+  font-size: $base-font-size;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  border-top: 1px solid $gold-gray-secondary;
+  width: 100%;
 }
 
 .EXLResultsList table {
-    width: 100%;
+  width: 100%;
 }
 
 .EXLResultsList th {
@@ -31,16 +31,16 @@
 }
 
 .EXLResultsList td {
-    @include reset-margins;
-    vertical-align: top;
-    border-bottom: 1px solid #dfdfdf;
+  @include reset-margins;
+  vertical-align: top;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 .EXLResultsList h2 {
-    @include reset-margins;
-    font-size: $h4-fontsize;
-    line-height: $h4-lineheight;
-    margin-bottom: 10px;
+  @include reset-margins;
+  font-size: $h4-fontsize;
+  line-height: $h4-lineheight;
+  margin-bottom: 10px;
 }
 
 .EXLResultsList h3 {
@@ -65,214 +65,215 @@
 }
 
 .EXLResultsList p.EXLResultSnippet {
-    color: $gray;
+  color: $gray;
 }
 
 .EXLResultsList p.EXLResultSnippet b.searchword {
-    color: $black;
+  color: $black;
 }
 
 .EXLResultsList p.EXLTocLink {
-    font-weight: bold;
-    margin-top: 1em;
-    color: $anchor-color;
-    font-size: 95%;
+  font-weight: bold;
+  margin-top: 1em;
+  color: $anchor-color;
+  font-size: 95%;
 }
 
 .EXLResultsList span.EXLResultVersionFound {
-    color: #E87107;
-    font-weight: bold;
+  color: #E87107;
+  font-weight: bold;
 }
 
 body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
-    font-size: ($h3-fontsize - 2px);
-    margin-bottom: 10px;
+  font-size: ($h3-fontsize - 2px);
+  margin-bottom: 10px;
 }
 
 body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
-    @include reset-margins;
-    font-size: 100%;
-    font-weight: normal;
-    margin-bottom: 12px;
+  @include reset-margins;
+  font-size: 100%;
+  font-weight: normal;
+  margin-bottom: 12px;
+  margin-top: -10px;
 }
 
 .EXLResultsList div.EXLSummaryContainer {
-    width: 100%;
-    min-height: $thumbnail-height + $spacing-medium;
-    padding: ($result-padding-vertical - 4px) 0 0 0;
-    @include clearfix;
-    position: relative;
+  width: 100%;
+  min-height: $thumbnail-height + $spacing-medium;
+  padding: ($result-padding-vertical - 4px) 0 0 0;
+  @include clearfix;
+  position: relative;
 }
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
-    float: left;
-    width: 77%;
+  float: left;
+  width: 77%;
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
-    float: right;
-    background-color: transparent;
-    font-size: $xsmall-font-size + 1px;
-    line-height: 20px;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    position: absolute;
-    bottom: -20px;
-    right: 0;
+  float: right;
+  background-color: transparent;
+  font-size: $xsmall-font-size + 1px;
+  line-height: 20px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgFRBR {
-    @include retina-image("../images/view_versions_icon", 20px 20px);
-    background-repeat: no-repeat;
-    background-color: transparent;;
-    background-position: left center;
-    display: block;
-    width: 24px;
-    height: 20px;
-    float: left;
-    clear: right
+  @include retina-image("../images/view_versions_icon", 20px 20px);
+  background-repeat: no-repeat;
+  background-color: transparent;;
+  background-position: left center;
+  display: block;
+  width: 24px;
+  height: 20px;
+  float: left;
+  clear: right
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR span.EXLResultBgRtlFRBR {
-    display: none
+  display: none
 }
 
 .EXLResultsList cite a {
-    padding: 0em 0.5em 0em 0.1em;
-    line-height: 160%
+  padding: 0em 0.5em 0em 0.1em;
+  line-height: 160%
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultNew {
-    float: right;
-    width: auto;
-    background-color: #fffba4;
-    font-size: 100%;
-    font-style: normal;
+  float: right;
+  width: auto;
+  background-color: #fffba4;
+  font-size: 100%;
+  font-style: normal;
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultNew span.EXLResultBgNew {
-    background-image: url(../images/bg_diagonal_new_result.png);
-    background-repeat: no-repeat;
-    width: 22px;
-    background-color: #ffffff;
-    background-position: center;
-    display: block;
-    height: 22px;
-    float: left;
-    clear: right
+  background-image: url(../images/bg_diagonal_new_result.png);
+  background-repeat: no-repeat;
+  width: 22px;
+  background-color: #ffffff;
+  background-position: center;
+  display: block;
+  height: 22px;
+  float: left;
+  clear: right
 }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultNew span.EXLResultBgRtlNew {
-    display: none
+  display: none
 }
 
 .EXLResultsList td.EXLThumbnail {
-    @include reset-margins;
-    position: relative;
-    width: $thumbnail-width + 20px;
-    padding: $result-padding-vertical 0 $result-padding-horizontal;
-    text-align: left;
-    vertical-align: top;
+  @include reset-margins;
+  position: relative;
+  width: $thumbnail-width + 20px;
+  padding: $result-padding-vertical 0 $result-padding-horizontal;
+  text-align: left;
+  vertical-align: top;
 }
 
 .EXLResultsList td.EXLThumbnail img {
-    @include reset-margins;
-    float: left;
-    width: $thumbnail-width;
-    height: $thumbnail-height;
+  @include reset-margins;
+  float: left;
+  width: $thumbnail-width;
+  height: $thumbnail-height;
 }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
-    @include reset-margins;
-    margin-top: 10px;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: $xsmall-font-size;
-    line-height: 1.1;
-    border: none;
-    color: $gray;
-    display: block
+  @include reset-margins;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: $xsmall-font-size;
+  line-height: 1.1;
+  border: none;
+  color: $gray;
+  display: block
 }
 
 .EXLResultsList td.EXLMyShelfStar {
-    width: 25px;
-    padding-top: $result-padding-vertical - 3px;
-    padding-bottom: $spacing-small;
-    text-align: left;
+  width: 25px;
+  padding-top: $result-padding-vertical - 3px;
+  padding-bottom: $spacing-small;
+  text-align: left;
 
-    a {
+  a {
 
-      img {
-        display: block;
-        @include prefixer(box-sizing, border-box, webkit moz spec);
-        width: 20px;
-        height: 20px;
-        padding-left: 20px;
-        background-position: left center;
-        background-repeat: no-repeat;
-        position: relative;
-      }
-
-      img[src*="icon_star_off"] {
-          @include retina-image("../images/icon_star_off", 20px 20px);
-      }
-
-      img[src*="icon_star_on"] {
-        @include retina-image("../images/icon_star_on", 20px 20px);
-      }
-
+    img {
+      display: block;
+      @include prefixer(box-sizing, border-box, webkit moz spec);
+      width: 20px;
+      height: 20px;
+      padding-left: 20px;
+      background-position: left center;
+      background-repeat: no-repeat;
+      position: relative;
     }
+
+    img[src*="icon_star_off"] {
+      @include retina-image("../images/icon_star_off", 20px 20px);
+    }
+
+    img[src*="icon_star_on"] {
+      @include retina-image("../images/icon_star_on", 20px 20px);
+    }
+
+  }
 }
 
 .EXLResultsList td.EXLSummary {
-    padding-top: 0em;
+  padding-top: 0em;
 }
 
 .EXLResultsList em.EXLResultStatusAvailable {
-    @include retina-image("../images/icon_available", 10px 10px);
-    background-repeat: no-repeat;
-    background-position: 0px 3px;
-    padding-left: 15px;
-    color: $black
+  @include retina-image("../images/icon_available", 10px 10px);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: $black
 }
 
 .EXLResultsList em.EXLResultStatusNotAvailable {
-    @include retina-image("../images/icon_unavailable_grey", 10px 10px);
-    background-repeat: no-repeat;
-    background-position: 0px 3px;
-    padding-left: 15px;
-    color: $black
+  @include retina-image("../images/icon_unavailable_grey", 10px 10px);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: $black
 }
 
 .EXLResultsList em.EXLResultStatusMaybeAvailable {
-    @include retina-image("../images/icon_yellow", 10px 10px);
-    background-repeat: no-repeat;
-    background-position: 0px 3px;
-    padding-left: 15px;
-    color: $black
+  @include retina-image("../images/icon_yellow", 10px 10px);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: $black
 }
 
 .EXLResultsList span.EXLAvailabilityLibraryName {
-    color: $black;
-    font-weight: normal
+  color: $black;
+  font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityCollectionName {
-    color: $black;
-    font-weight: normal
+  color: $black;
+  font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityCallNumber {
-    color: $black;
-    font-weight: normal
+  color: $black;
+  font-weight: normal
 }
 
 .EXLResultsList span.EXLAvailabilityRTAupdating {
-    color: $black;
-    font-weight: normal
+  color: $black;
+  font-weight: normal
 }
 
 .EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
-    width: auto;
+  width: auto;
 }
