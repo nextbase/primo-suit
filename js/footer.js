@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
 
     function expandableFacet(trigger_query, parent_query) {
-        $(trigger_query).bind('click', function (e){
+        $(trigger_query).bind('click', function (e) {
             $(this).closest(parent_query).toggleClass('expanded');
             e.preventDefault();
         });
@@ -17,7 +17,7 @@ $(document).ready(function () {
 
     function expandBlocks(selectors) {
         if (selectors.constructor === Array) {
-            $.each((selectors), function(index, value) {
+            $.each((selectors), function (index, value) {
                 $(value).addClass('expanded');
             });
         } else {
