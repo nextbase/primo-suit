@@ -53,11 +53,13 @@
 
 .EXLResultsList p,
 .EXLResultsList .EXLResultDetails {
+  font-size: $small-font-size;
   display: block;
   margin-bottom: 10px;
 }
 
 .EXLResultsList p.EXLResultAvailability {
+  font-size: $small-font-size;
   display: block;
   margin-bottom: 20px;
 }

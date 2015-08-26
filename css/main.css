@@ -9207,10 +9207,12 @@ h1 span.EXLBriefResultsPaginationPageCount {
 
 .EXLResultsList p,
 .EXLResultsList .EXLResultDetails {
+  font-size: 14px;
   display: block;
   margin-bottom: 10px; }
 
 .EXLResultsList p.EXLResultAvailability {
+  font-size: 14px;
   display: block;
   margin-bottom: 20px; }
 
