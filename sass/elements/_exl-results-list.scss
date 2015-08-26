@@ -90,7 +90,7 @@ body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
 }
 
 body.EXLFullView div.EXLResultsList h2.EXLResultAuthor,
-body.EXLFullView div.EXLResultsList h3.EXLResultAuthor {
+div.EXLResultsList h3.EXLResultAuthor {
   @include reset-margins;
   font-size: ($base-font-size - 1px);
   font-weight: normal;
