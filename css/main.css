@@ -5486,7 +5486,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   background-color: #bcbdb6;
   color: #666666;
   height: auto;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-left: 340px; }
   #exlidHeaderSearchLimits:last-child {
     margin-right: 0; }
 
