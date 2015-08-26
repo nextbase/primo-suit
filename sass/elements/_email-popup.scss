@@ -28,6 +28,11 @@
       }
     }
 
+    textarea {
+      width: 95%;
+      height: 200px;
+    }
+
     input[type="submit"] {
       background-image: none;
       @include button();
