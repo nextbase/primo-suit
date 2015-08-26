@@ -12226,6 +12226,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
     .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
       background-image: url("../images/icon_close_tabs_2x.png");
       background-size: 40px 40px; } }
+  .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose:hover {
+    background-position: left bottom; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationSetsContainerLoggedIn {
   width: 20%;

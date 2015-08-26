@@ -364,6 +364,10 @@
   height: 40px;
   width: 40px;
   display: block;
+
+  &:hover {
+    background-position: left bottom;
+  }
 }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationSetsContainerLoggedIn {
