@@ -11907,7 +11907,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   z-index: 1002;
   float: right;
   clear: left;
-  padding: 0em 0em 0em 0em;
+  padding: 0 0 0 0;
   font-size: 80%;
   width: 65%;
   border: 8px solid #f2f2f0;
@@ -11918,7 +11918,6 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 #exlidSaveCitationtile div.EXLSaveCitationCiteContainer {
   height: 179px;
   overflow: hidden;
-  overflow-x: hidden;
   margin-top: 0.1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer {
@@ -12008,8 +12007,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   width: 17.5em;
   border: 1px solid #5dbbd6;
   height: 1.5em;
-  padding-top: 0em;
-  padding-left: 0em;
+  padding-top: 0;
+  padding-left: 0;
   font-size: 1em;
   margin-right: 1em; }
 
@@ -12049,8 +12048,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 0.2em; }
 
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationEditSetHeaderContent fieldset.EXLMyDBNewSet {
-  margin: 0em;
-  padding: 0em;
+  margin: 0;
+  padding: 0;
   margin-bottom: 1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainerReultsArea {
@@ -12064,7 +12063,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 
 #exlidSaveCitationtile div.EXLSaveCitationList div.EXLSaveCitationListRow {
   border: none;
-  padding: 0.3em 0em 0.1em 0em;
+  padding: 0.3em 0 0.1em 0;
   margin: 0px;
   display: block;
   clear: both;
@@ -12076,7 +12075,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 
 #exlidSaveCitationtile div.EXLSaveCitationList div.EXLSaveCitationBottomRow {
   border: none;
-  padding: 0.1em 0em 0.1em 0em;
+  padding: 0.1em 0 0.1em 0;
   margin: 0px;
   clear: both;
   line-height: 150%;
@@ -12162,10 +12161,11 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   font-size: 100%;
   color: #333333;
   line-height: 300%;
-  padding-left: 1em; }
+  padding-left: 1em;
+  margin-bottom: 0 !important; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons {
-  padding: 0em;
+  padding: 0;
   width: 35%;
   float: right;
   text-align: right;
@@ -12213,7 +12213,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
   background-image: url(../images/icon_close_tabs.png);
   background-position: center;
-  margin-left: 0em; }
+  margin-left: 0; }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationSetsContainerLoggedIn {
   width: 20%;
@@ -12228,15 +12228,15 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   text-align: left;
   width: auto;
   clear: left;
-  padding: 0em;
-  margin: 0em;
+  padding: 0;
+  margin: 0;
   height: 173px;
   overflow: auto;
   overflow-x: hidden; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul {
-  padding: 0em;
-  margin: 0em;
+  padding: 0;
+  margin: 0;
   display: block;
   clear: both; }
 
@@ -12244,8 +12244,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   list-style-type: none;
   background-color: #ffffff;
   border-bottom: 1px solid #d8d0c4;
-  padding: 0.3em 0.5em 0.3em 0.5em;
-  clear: left; }
+  padding: 10px;
+  clear: left;
+  margin: 0; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li a {
   color: #333333;
