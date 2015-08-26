@@ -12165,29 +12165,32 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   margin-bottom: 0 !important; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons {
+  margin: 0;
   padding: 0;
-  width: 35%;
   float: right;
   text-align: right;
-  height: 18px;
-  padding-top: 0.8em;
-  margin-right: 0.5em; }
+  height: 40px;
+  width: 35%; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons ul {
+  margin: 0;
+  padding: 0;
   float: right;
-  margin-bottom: 9px; }
+  margin-bottom: 0;
+  width: auto; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li {
+  margin: 0;
+  padding: 0;
   list-style: none;
   float: left;
-  height: 18px;
-  border-right: 0px solid #d8d0c4; }
+  height: 40px;
+  width: 40px;
+  border-right: 0 solid #d8d0c4; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li span {
-  background-image: none;
-  background-repeat: no-repeat;
-  width: 18px;
-  height: 18px;
+  width: 40px;
+  height: 40px;
   display: inline;
   float: left; }
 
