@@ -9240,10 +9240,10 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor,
 div.EXLResultsList h3.EXLResultAuthor {
   margin: 0;
   padding: 0;
-  font-size: 15px;
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: bold;
   margin-bottom: 12px;
-  margin-top: -5px; }
+  margin-top: -8px; }
 
 .EXLResultsList div.EXLSummaryContainer {
   width: 100%;
