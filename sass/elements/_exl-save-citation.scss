@@ -332,9 +332,11 @@
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a {
-  padding: 0.2em 0.2em 0.2em 0.2em;
+  padding: 0;
   cursor: pointer;
-  text-decoration: none
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonCloseLabel {
