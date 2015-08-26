@@ -178,8 +178,8 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail img {
     @include reset-margins;
     float: left;
-    width: 70px;
-    height: 110px;
+    width: $thumbnail-width;
+    height: $thumbnail-height;
 }
 
 .EXLResultsList td.EXLThumbnail span.EXLThumbnailCaption {
