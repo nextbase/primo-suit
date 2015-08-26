@@ -32,7 +32,7 @@ $(document).ready(function () {
     expandableFacet("#facetList .EXLFacetContainer h4", ".EXLFacetContainer");
 
     // Initialize with expanded blocks
-    var $blocks = ["#facetListTopLevel", "#exlidFacet0", "exlidFacet1"];
+    var $blocks = ["#facetListTopLevel", "#exlidFacet0", "#exlidFacet1"];
     expandBlocks($blocks);
 
 });
