@@ -15209,6 +15209,20 @@ table.main {
   margin-top: 0.2em;
   color: #4d4d4d; }
 
+.EXLEmailPopup #emailForm label {
+  width: 80px; }
+
+.EXLEmailPopup #emailForm .EXLEmailDetailsWideCell label,
+.EXLEmailPopup #emailForm label.chk {
+  width: 80%; }
+
+.EXLEmailPopup #emailForm input#saveThis,
+.EXLEmailPopup #emailForm input[type="checkbox"] {
+  float: left;
+  line-height: 1.5;
+  height: 30px;
+  margin-right: 10px; }
+
 .EXLResultsList p.EXLResultSnippet {
   display: none; }
 

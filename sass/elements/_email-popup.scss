@@ -1,0 +1,22 @@
+.EXLEmailPopup {
+
+  #emailForm {
+    label {
+      width: 80px;
+    }
+
+    .EXLEmailDetailsWideCell label,
+    label.chk {
+      width: 80%;
+    }
+
+    input#saveThis,
+    input[type="checkbox"] {
+      float: left;
+      line-height: $base-line-height;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+
+}
