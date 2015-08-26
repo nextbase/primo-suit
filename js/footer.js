@@ -17,9 +17,9 @@ $(document).ready(function () {
 
     function expandBlocks(selectors) {
         if (selectors.constructor === Array) {
-            $.each(selectors), function(index, value) {
+            $.each((selectors), function(index, value) {
                 $(value).addClass('expanded');
-            }
+            });
         } else {
             $(value).addClass('expanded');
         }
