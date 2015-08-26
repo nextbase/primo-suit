@@ -37,8 +37,8 @@
 #exlidHeaderSearchLimits {
     @include reset-margins;
     @include span-columns(12);
-    padding: 5px 15px 3px 15px;
-    border-bottom: 1px solid $gray-light-secondary;
+    padding: 10px 20px 8px 20px;
+    border-bottom: 0;
     background-color: $gray-light;
     color: $gray-dark-secondary;
     height: auto;
