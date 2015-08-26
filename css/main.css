@@ -1564,14 +1564,6 @@ strong {
       background-image: url("../images/icon_loading_circle_2x.gif");
       background-size: 24px 24px; } }
 
-#exliWhiteContent {
-  position: absolute;
-  top: 10%;
-  left: 15%;
-  width: 75%;
-  height: 400px;
-  z-index: 1002; }
-
 .exliLoadingFdb {
   position: absolute;
   top: 10%;
