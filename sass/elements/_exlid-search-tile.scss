@@ -50,6 +50,7 @@
 }
 
 #exlidHeaderSearchLimits fieldset {
+  @include span-columns(9);
   padding: 0;
   padding-left: ($tabs-width + 20px);
   position: relative;
@@ -84,7 +85,7 @@
   @include input;
   @include input-select;
   @include input-size("small");
-  @include form-element-width("wide");
+  @include form-element-width("full-width");
 }
 
 #exlidHeaderSearchLimits label {

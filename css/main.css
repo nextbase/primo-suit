@@ -5494,6 +5494,10 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   margin-bottom: 0; }
 
 #exlidHeaderSearchLimits fieldset {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
   padding: 0;
   padding-left: 340px;
   position: relative;
@@ -5502,6 +5506,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   font-weight: bold;
   font-size: 14px;
   width: auto; }
+  #exlidHeaderSearchLimits fieldset:last-child {
+    margin-right: 0; }
 
 #exlidHeaderSearchLimits fieldset legend {
   float: left;
@@ -5544,7 +5550,8 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   font-size: 13px;
   line-height: 20px;
   padding: 1.5px 10px;
-  width: 300px; }
+  clear: right;
+  width: 100%; }
   #exlidHeaderSearchLimits select:focus {
     border-color: #34aacc;
     border-left-width: 5px;
