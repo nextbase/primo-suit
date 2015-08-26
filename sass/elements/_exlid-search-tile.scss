@@ -52,6 +52,8 @@
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
   padding-left: ($tabs-width + 20px);
+  position: relative;
+  top: -10px;
   color: $gray-dark-secondary;
   font-weight: bold;
   font-size: 14px;
