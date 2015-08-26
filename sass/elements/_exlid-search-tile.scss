@@ -37,7 +37,7 @@
 #exlidHeaderSearchLimits {
   @include reset-margins;
   @include span-columns(12);
-  padding: 0 20px 10px ($tabs-width + 20px);
+  padding: 0 20px 10px 20px;
   border-bottom: 0;
   background-color: $gray;
   color: $gray-dark-secondary;
@@ -51,6 +51,7 @@
 
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
+  padding-left: ($tabs-width + 20px);
   color: $gray-dark-secondary;
   font-weight: bold;
   font-size: 14px;

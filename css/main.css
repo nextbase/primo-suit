@@ -5481,7 +5481,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  padding: 0 20px 10px 340px;
+  padding: 0 20px 10px 20px;
   border-bottom: 0;
   background-color: #bcbdb6;
   color: #666666;
@@ -5495,6 +5495,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
 
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
+  padding-left: 340px;
   color: #666666;
   font-weight: bold;
   font-size: 14px;
