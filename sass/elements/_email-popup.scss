@@ -16,7 +16,19 @@
       line-height: $base-line-height;
       height: 30px;
       margin-right: 10px;
+      border-color: $gray-light;
     }
+
+    textarea {
+      border-color: $gray-light;
+    }
+
+    input[type="submit"] {
+      border-color: $gray-light;
+      background-image: none;
+      @include button();
+    }
+
   }
 
 }
