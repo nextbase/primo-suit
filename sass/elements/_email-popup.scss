@@ -19,14 +19,16 @@
       border-color: $gray-light;
     }
 
+    input[type="text"],
     textarea {
       border-color: $gray-light;
     }
 
     input[type="submit"] {
-      border-color: $gray-light;
       background-image: none;
       @include button();
+      margin: 6px;
+      margin-bottom: 20px;
     }
 
   }

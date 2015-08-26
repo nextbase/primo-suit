@@ -15224,11 +15224,11 @@ table.main {
   margin-right: 10px;
   border-color: #f2f2f0; }
 
+.EXLEmailPopup #emailForm input[type="text"],
 .EXLEmailPopup #emailForm textarea {
   border-color: #f2f2f0; }
 
 .EXLEmailPopup #emailForm input[type="submit"] {
-  border-color: #f2f2f0;
   background-image: none;
   font-family: sans-serif;
   display: inline-block;
@@ -15247,7 +15247,9 @@ table.main {
   margin: 0;
   margin-right: 6px;
   outline: none;
-  background-image: none; }
+  background-image: none;
+  margin: 6px;
+  margin-bottom: 20px; }
   .EXLEmailPopup #emailForm input[type="submit"]::-moz-focus-inner {
     border: 0;
     padding: 0; }
