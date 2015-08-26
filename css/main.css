@@ -15227,6 +15227,9 @@ table.main {
 .EXLEmailPopup #emailForm input[type="text"],
 .EXLEmailPopup #emailForm textarea {
   border-color: #f2f2f0; }
+  .EXLEmailPopup #emailForm input[type="text"]:focus,
+  .EXLEmailPopup #emailForm textarea:focus {
+    border-color: #34aacc; }
 
 .EXLEmailPopup #emailForm input[type="submit"] {
   background-image: none;
