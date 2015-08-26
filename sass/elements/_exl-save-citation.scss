@@ -358,7 +358,7 @@
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
-  @include retina-image('../images/icon_close_tabs', 40px 40px);
+  @include retina-image('../images/icon_close_tabs', 40px 80px);
   background-repeat: no-repeat;
   background-position: left top;
   height: 40px;
