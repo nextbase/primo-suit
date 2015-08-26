@@ -15213,7 +15213,8 @@ table.main {
   padding: 6px; }
   .EXLEmailPopup #emailForm .EXLPopupTitleBar h2, .EXLEmailPopup #emailForm .EXLPopupTitleBar h3 {
     font-size: 24px;
-    font-weight: normal; }
+    font-weight: normal;
+    padding-left: 10px; }
 
 .EXLEmailPopup #emailForm label {
   width: 80px; }
