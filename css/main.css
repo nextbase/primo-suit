@@ -12218,6 +12218,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
   background-image: url("../images/icon_close_tabs.png");
   background-repeat: no-repeat;
+  background-position: left top;
   height: 40px;
   width: 40px;
   display: block; }
