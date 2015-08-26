@@ -15,11 +15,24 @@ $(document).ready(function () {
         });
     };
 
+    function expandBlocks(selectors) {
+        if (selectors.constructor === Array) {
+            $.each(selectors), function(index, value) {
+                $(value).addClass('expanded');
+            }
+        } else {
+            $(value).addClass('expanded');
+        }
+    }
+
     // Search Facets Expand
     expandableFacet("#facetListTopLevel h3", ".EXLFacetList");
 
     // Secondary Facets Expand
     expandableFacet("#facetList .EXLFacetContainer h4", ".EXLFacetContainer");
 
+    // Initialize with expanded blocks
+    $blocks = ["#facetListTopLevel", "#exlidFacet0", "exlidFacet1"];
+    expandBlocks($blocks);
 
 });
