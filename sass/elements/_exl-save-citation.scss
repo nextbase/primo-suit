@@ -358,11 +358,11 @@
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
-  @include retina-image('../images/icon_close_tabs', 40px 80px);
+  @include retina-image('../images/icon_close_tabs', 30px 60px);
   background-repeat: no-repeat;
   background-position: left top;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   display: block;
 
   &:hover {
