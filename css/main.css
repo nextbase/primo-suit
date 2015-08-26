@@ -9200,7 +9200,7 @@ h1 span.EXLBriefResultsPaginationPageCount {
 .EXLResultsList h3 {
   margin: 0;
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: normal;
   margin-bottom: 10px; }
@@ -9231,8 +9231,8 @@ h1 span.EXLBriefResultsPaginationPageCount {
   font-weight: bold; }
 
 body.EXLFullView div.EXLResultsList h1.EXLResultTitle {
-  font-size: 24px;
-  margin-bottom: 12px; }
+  font-size: 22px;
+  margin-bottom: 10px; }
 
 body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   margin: 0;
