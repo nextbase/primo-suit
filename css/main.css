@@ -12169,7 +12169,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 0;
   float: right;
   text-align: right;
-  height: 40px;
+  height: 30px;
   width: 35%; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons ul {
@@ -12184,13 +12184,13 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 0;
   list-style: none;
   float: left;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-right: 0 solid #d8d0c4; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li span {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: block;
   float: left; }
 
@@ -12198,8 +12198,8 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  min-width: 40px;
-  height: 40px; }
+  min-width: 30px;
+  height: 30px; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonCloseLabel {
   display: none; }

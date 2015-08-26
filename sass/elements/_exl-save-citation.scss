@@ -304,7 +304,7 @@
   @include reset-margins;
   float: right;
   text-align: right;
-  height: 40px;
+  height: 30px;
   width: 35%;
 }
 
@@ -319,14 +319,14 @@
   @include reset-margins;
   list-style: none;
   float: left;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   border-right: 0 solid $gold-gray-secondary;
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li span {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   display: block;
   float: left;
 }
@@ -335,8 +335,8 @@
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  min-width: 40px;
-  height: 40px;
+  min-width: 30px;
+  height: 30px;
 }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonCloseLabel {
