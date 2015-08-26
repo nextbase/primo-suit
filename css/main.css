@@ -15280,6 +15280,8 @@ table.main {
   #exliWhiteContent #exliPrimoLightBoxdiv {
     height: auto;
     width: 100%; }
+  #exliWhiteContent #exlidSaveCitationtile {
+    width: 100%; }
 
 @media screen and (max-width: 768px) {
   #exliWhiteContent {
