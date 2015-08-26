@@ -12198,7 +12198,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  width: 40px;
+  min-width: 40px;
   height: 40px; }
 
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonCloseLabel {
