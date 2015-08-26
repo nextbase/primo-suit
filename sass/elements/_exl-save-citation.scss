@@ -358,6 +358,9 @@
 .EXLSaveCitationHeader div.EXLSaveCitationHeaderButtons li a span.EXLSaveCitationHeaderButtonClose {
   @include retina-image('../img/icon_close_tabs', 40px 40px);
   background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: block;
 }
 
 #exlidSaveCitationtile div.EXLSaveCitationListContainer div.EXLSaveCitationSetsContainerLoggedIn {
