@@ -9266,7 +9266,7 @@ div.EXLResultsList h3.EXLResultAuthor {
 
 .EXLResultsList div.EXLSummaryContainer div.EXLSummaryFields {
   float: left;
-  width: 90%; }
+  width: 100%; }
 
 .EXLResultsList div.EXLSummaryContainer cite.EXLResultFRBR {
   float: right;
