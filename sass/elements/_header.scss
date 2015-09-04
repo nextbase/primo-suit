@@ -166,14 +166,6 @@ ul.menu {
         font-size: 15px;
         font-weight: normal;
 
-        @include media(new-breakpoint(max-width 1070)) {
-            margin-right: 70px !important;
-        }   
-
-        @include media(new-breakpoint(max-width 960)) {
-            margin-right: 55px !important;
-        }
-
         &.last,
         &:last-child {
             margin-right: 0;
@@ -203,6 +195,18 @@ ul.menu {
 
         &:first-child {
             // display: none;
+        }
+    }
+
+    @include media(new-breakpoint(max-width 1070)) {
+        .content > .menu-block-wrapper > ul.menu > li  {
+            margin-right: 70px !important;
+        }
+    }
+
+    @include media(new-breakpoint(max-width 960)) {
+        .content > .menu-block-wrapper > ul.menu > li  {
+            margin-right: 70px !important;
         }
     }
 
