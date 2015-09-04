@@ -166,6 +166,10 @@ ul.menu {
         font-size: 15px;
         font-weight: normal;
 
+        @include media(new-breakpoint(max-width 1000)) {
+            margin-right: 70px;
+        };
+
         &.last,
         &:last-child {
             margin-right: 0;
