@@ -4886,16 +4886,6 @@ ul.menu.dropit ul.dropit-submenu a:hover {
   font-size: 100%;
   color: #987c4d; }
 
-@media screen and (max-width: 768px) {
-  #exlidHomeContainer {
-    width: auto;
-    height: auto;
-    margin: 0em;
-    padding-top: 1.5em;
-    clear: right;
-    font-size: 80%;
-    color: #777676; } }
-
 #exlidUserAreaTile {
   margin: 0;
   padding: 0;
@@ -6022,15 +6012,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   width: 23.23176%; }
   .EXLFacetTile:last-child {
     margin-right: 0; }
-
-@media screen and (max-width: 768px) {
-  .EXLFacetTile {
-    float: left;
-    display: block;
-    margin-right: 3.57866%;
-    width: 48.21067%; }
-    .EXLFacetTile:last-child {
-      margin-right: 0; } }
 
 li.EXLFacet input[type="checkbox"] {
   float: left;
@@ -9703,45 +9684,6 @@ body.EXLFullView div.EXLBackToResults {
   padding-left: 0.4em;
   line-height: 120%;
   margin-right: 5.5em; }
-
-@media screen and (max-width: 768px) {
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
-    width: auto;
-    float: none;
-    padding-left: 1em; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
-    margin-top: 1em;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: no-repeat;
-    width: auto;
-    float: left;
-    padding-top: 1em;
-    padding-left: 0em; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-    display: none; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
-    float: none;
-    margin: 0em;
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
-    width: auto; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
-    display: none; }
-  #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
-    display: none; }
-  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
-    display: none; }
-  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-    display: none; } }
-
-@media screen and (max-width: 480px) {
-  #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
-    display: none; }
-  #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-    display: none; } }
 
 .multipleCoverImageContainer {
   margin: 0;
@@ -15335,41 +15277,6 @@ table.main {
     display: table; }
   #google a {
     font-weight: normal; }
-
-@media screen and (max-width: 480px) {
-  .folders_new,
-  .draggable,
-  .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
-  .EXLMyAccountTableAuthor,
-  .EXLMyAccountTableDueHour,
-  .EXLMyAccountTableFine,
-  .Location,
-  .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span,
-  .EXLMyAccountTableCounter,
-  .EXLMyAccountMainContainer table tr td:first-child,
-  .EXLMyAccountMainContainer div.EXLMyAccountTips,
-  .folder_details .newManage_buts,
-  a.eShelf_print,
-  .author,
-  .added,
-  .note,
-  .MyAccount_Loans_2,
-  .MyAccount_Loans_4,
-  .MyAccount_Loans_5,
-  .MyAccount_Loans_6,
-  .MyAccount_Loans_0,
-  .MyAccount_Requests_0,
-  .MyAccount_Requests_3,
-  .MyAccount_Requests_4,
-  .MyAccount_Requests_5,
-  .MyAccount_Requests_6,
-  .MyAccount_FineAndFees_0,
-  .MyAccount_FineAndFees_2,
-  .MyAccount_FineAndFees_4,
-  .MyAccount_FineAndFees_5,
-  .MyAccount_FineAndFees_6,
-  #exlidUserAreaRibbon li.EXLMyShelf {
-    display: none; } }
 
 #korean-main-navigation {
   display: none !important; }

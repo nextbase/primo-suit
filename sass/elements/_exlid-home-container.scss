@@ -28,16 +28,16 @@
     color: $gold
 }
 
-@include media($tablet) {
+// @include media($tablet) {
     
-    #exlidHomeContainer {
-        width: auto;
-        height: auto;
-        margin: 0em;
-        padding-top: 1.5em;
-        clear: right;
-        font-size: 80%;
-        color: #777676;
-    }
+//     #exlidHomeContainer {
+//         width: auto;
+//         height: auto;
+//         margin: 0em;
+//         padding-top: 1.5em;
+//         clear: right;
+//         font-size: 80%;
+//         color: #777676;
+//     }
 
-}
+// }

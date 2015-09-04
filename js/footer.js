@@ -97,7 +97,7 @@ function initResponsiveContainers() {
     wrapInner(document.body, responsiveContainerID);
     wrapInner(responsiveContainerID, scrollerContainerID);
     wrapInner(scrollerContainerID, naviPusherID);
-}
+};
 
 $(document).ready(function () {
     // Sitemap Expand
@@ -124,7 +124,7 @@ $(document).ready(function () {
         } else {
             $(value).addClass('expanded');
         }
-    }
+    };
 
     // Search Facets Expand
     expandableFacet("#facetListTopLevel h3", ".EXLFacetList");

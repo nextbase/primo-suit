@@ -171,69 +171,69 @@
     margin-right: 5.5em;
 }
 
-@include media($tablet) {
-	#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
-        width: auto;
-        float: none;
-        padding-left: 1em;
-    }
+// @include media($tablet) {
+// 	#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
+//         width: auto;
+//         float: none;
+//         padding-left: 1em;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
-        width: auto;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 p {
+//         width: auto;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {}
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
-        margin-top: 1em;
-        background-image: none;
-        background-position: 0% 0%;
-        background-repeat: no-repeat;
-        width: auto;
-        float: left;
-        padding-top: 1em;
-        padding-left: 0em;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {}
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeListsContainer {
+//         margin-top: 1em;
+//         background-image: none;
+//         background-position: 0% 0%;
+//         background-repeat: no-repeat;
+//         width: auto;
+//         float: left;
+//         padding-top: 1em;
+//         padding-left: 0em;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
-        display: none;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeTopicsContainer {
+//         display: none;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
-        float: none;
-        margin: 0em;
-        width: auto;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer {
+//         float: none;
+//         margin: 0em;
+//         width: auto;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
-        width: auto;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 div.EXLHomeQuickLinksContainer ul {
+//         width: auto;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
-        display: none;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
+//         display: none;
+//     }
 
-    #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
-        display: none;
-    }
+//     #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 div.EXLHomeServicesContainer {
+//         display: none;
+//     }
 
-    #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
-        display: none
-    }
+//     #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+//         display: none
+//     }
 
-    #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-        display: none
-    }
+//     #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
+//         display: none
+//     }
 
-}
+// }
 
-@include media($mobile) {
+// @include media($mobile) {
 
-	#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
-        display: none
-    }
+// 	#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
+//         display: none
+//     }
 
-    #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
-        display: none
-    }
+//     #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
+//         display: none
+//     }
 
-}
+// }
