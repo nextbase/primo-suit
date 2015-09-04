@@ -34,33 +34,31 @@ function getLanguage() {
     else { return 'en' };
 }
 
-responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
-responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
-responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
-responsiveHeaderHTML = '\
-<header id="responsive-header"> \
-    <div class="responsive-header-container"> \
-        <div class="logo-container"> \
-            <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
-        </div> \
-        <div class="menu-container"> \
-            <div class="responsive-menu-trigger-container"> \
-                <a href="#" id="responsive-menu-trigger"><span></span></a> \
+// Responsive Menu
+    responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
+    responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
+    responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
+    responsiveHeaderHTML = '\
+    <header id="responsive-header"> \
+        <div class="responsive-header-container"> \
+            <div class="logo-container"> \
+                <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
             </div> \
-            <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
+            <div class="menu-container"> \
+                <div class="responsive-menu-trigger-container"> \
+                    <a href="#" id="responsive-menu-trigger"><span></span></a> \
+                </div> \
+                <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
+            </div> \
         </div> \
-    </div> \
-</header>';
-responsiveHeader = $(responsiveHeaderHTML);
-responsiveMenuLanguage  = getLanguage();
+    </header>';
+    responsiveHeader = $(responsiveHeaderHTML);
+    responsiveMenuLanguage  = getLanguage();
 
-// Primo Element that contains everything
-mainContentElement = $('#contentEXL');
-// mainContentElement.wrap(responsiveMenuScroller);
-
-// $(document).ready(function() {
-//     // Responsive Menu
-// });
+    // Primo Element that contains everything
+    mainContentElement = $('#contentEXL');
+    // mainContentElement.wrap(responsiveMenuScroller);
+    
 
 $(document).ready(function () {
     // Sitemap Expand
