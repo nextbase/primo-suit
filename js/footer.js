@@ -87,14 +87,14 @@ mainContentElement = $('#contentEXL');
 // mainContentElement.wrap(responsiveMenuScroller);
 
 function initResponsiveContainers() {
-    initialContainerID = document.body;
-    scrollerContainerClass = "scroller";
+    initialContainer = document.body;
+    scrollerContainerAttributes = "scroller";
     naviPusherID = "navi-pusher";
     naviPusherClass = "navi-pusher";
     responsiveContainerClass = "responsive-container";
 
     // initiate contstruction
-    wrapInner(initialContainerID, scrollerContainerClass);
+    wrapInner(initialContainer, scrollerContainerAttributes);
 }
 
 $(document).ready(function () {
