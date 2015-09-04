@@ -4114,7 +4114,7 @@ table.jCalendar td.unselectable.dp-hover {
   width: 100%;
   display: block; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
@@ -15278,7 +15278,7 @@ table.main {
   #google a {
     font-weight: normal; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   body {
     overflow: scroll !important;
     min-width: 900px; } }
