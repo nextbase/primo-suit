@@ -198,18 +198,6 @@ ul.menu {
         }
     }
 
-    @include media(new-breakpoint(max-width 1070)) {
-        .content > .menu-block-wrapper > ul.menu > li  {
-            margin-right: 70px !important;
-        }
-    }
-
-    @include media(new-breakpoint(max-width 960)) {
-        .content > .menu-block-wrapper > ul.menu > li  {
-            margin-right: 70px !important;
-        }
-    }
-
     li.expanded {
         overflow: visible;
         padding-right: 1em;
@@ -293,6 +281,18 @@ ul.menu {
                 }
             }
         }
+    }
+}
+
+@include media(new-breakpoint(max-width 1070)) {
+    #block-menu-block-1  .content > .menu-block-wrapper > ul.menu > li  {
+        margin-right: 70px !important;
+    }
+}
+
+@include media(new-breakpoint(max-width 960)) {
+    #block-menu-block-1  .content > .menu-block-wrapper > ul.menu > li  {
+        margin-right: 70px !important;
     }
 }
 

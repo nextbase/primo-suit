@@ -4269,12 +4269,6 @@ ul.menu {
       background-color: #ffffff; }
       #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:hover > a {
         color: #987c4d; }
-  @media screen and (max-width: 1070) {
-    #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
-      margin-right: 70px !important; } }
-  @media screen and (max-width: 960) {
-    #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
-      margin-right: 70px !important; } }
   #block-menu-block-1 li.expanded {
     overflow: visible;
     padding-right: 1em;
@@ -4345,6 +4339,14 @@ ul.menu {
         #block-menu-block-1 ul.menu ul.menu li:hover a {
           background-color: #987c4d;
           color: #ffffff; }
+
+@media screen and (max-width: 1070) {
+  #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
+    margin-right: 70px !important; } }
+
+@media screen and (max-width: 960) {
+  #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
+    margin-right: 70px !important; } }
 
 #top-user-menu-desktop {
   display: none; }
