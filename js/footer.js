@@ -45,10 +45,10 @@ HTMLElement.prototype.wrap = function(elms) {
  */
 
 function wrapInner(parent, attributevalue) {
-    wrapper = document.createElement('div');
-    var div = parent.appendChild(wrapper)
+    wrapper = document.createElement('div')
                 .setAttribute('id', attributevalue)
                 .setAttribute('class', attributevalue);
+    var div = parent.appendChild(wrapper);
 
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
