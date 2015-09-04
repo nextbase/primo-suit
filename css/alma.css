@@ -73,25 +73,32 @@ ol li {
   list-style: ideograph-numeric inside; }
 
 @font-face {
-  font-family: 'Noto Sans Korean';
+  font-family: 'Nanum Barun Gothic';
   font-style: normal;
-  font-weight: lighter;
-  src: url("../fonts/NotoSans-Light.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Light.otf") format("opentype"), url("../fonts/NotoSans-Light.woff") format("woff"); }
+  font-weight: 200;
+  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot");
+  src: local("Nanum Barun Gothic UltraLight"), local("NanumBarunGothicUltraLight"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Noto Sans Korean';
+  font-family: 'Nanum Barun Gothic';
   font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/NotoSans-Regular.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Regular.otf") format("opentype"), url("../fonts/NotoSans-Regular.woff") format("woff"); }
+  font-weight: 300;
+  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.eot");
+  src: local("Nanum Barun Gothic Light"), local("NanumBarunGothicLight"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.ttf") format("truetype"); }
 
 @font-face {
-  font-family: 'Noto Sans Korean';
+  font-family: 'Nanum Barun Gothic';
   font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/NotoSans-Bold.eot");
-  src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
+  font-weight: 400;
+  src: url("../fonts/nanum-barun/fonts/NanumBarunGothic.eot");
+  src: local("Nanum Barun Gothic"), local("NanumBarunGothic"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.eot");
+  src: local("Nanum Barun Gothic Bold"), local("NanumBarunGothicBold"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
