@@ -8540,8 +8540,8 @@ div.EXLResultsHeader:focus {
   .EXLResultsContainer div.EXLResultsTile {
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 100%;
+    margin-right: 2.35765%;
+    width: 65.88078%;
     margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; } }
@@ -15277,6 +15277,11 @@ table.main {
     display: table; }
   #google a {
     font-weight: normal; }
+
+@media screen and (max-width: 480px) {
+  body {
+    overflow: scroll !important;
+    min-width: 900px; } }
 
 #korean-main-navigation {
   display: none !important; }
