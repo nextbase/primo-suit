@@ -34,7 +34,7 @@ function getLanguage() {
     else { return 'en' };
 }
 
-function createResponsiveStructure() {
+// function createResponsiveStructure() {
     responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
     responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
     responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
@@ -58,7 +58,7 @@ function createResponsiveStructure() {
     // Primo Element that contains everything
     mainContentElement = $('#contentEXL');
     mainContentElement.wrap(responsiveMenuScroller);
-}
+//}
 
 $(document).ready(function() {
     // Responsive Menu
