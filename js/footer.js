@@ -29,12 +29,10 @@ HTMLElement.prototype.wrap = function(elms) {
 };
 
 /*
-
  Usage
  ------
  Four parameters you can use:
- 'parent'           = the element that needs to be innerwrapped
- 'wrapper'          = the element that will innerwrap the parent
+ 'parent'           = parent element object or id
  'attribute'        = the attribute that you need this innerwrapped element to have
  'attributevalue'   = the value of the attribute you've just created
  
@@ -44,11 +42,15 @@ HTMLElement.prototype.wrap = function(elms) {
  
  */
 
-function wrapInner(parent, attributevalue) {
-    wrapper = document.createElement('div')
-                .setAttribute('id', attributevalue)
-                .setAttribute('class', attributevalue);
-    var div = parent.appendChild(wrapper);
+function wrapInner(parent, wrapperID) {
+    wrapper = document.createElement('div');
+
+    if (typeof parent === "string") {
+        parent = document.getElementById(parent);
+    }
+
+    var div = parent.appendChild(wrapper)
+        .setAttribute('id', wrapperID);
 
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
@@ -87,14 +89,14 @@ mainContentElement = $('#contentEXL');
 // mainContentElement.wrap(responsiveMenuScroller);
 
 function initResponsiveContainers() {
-    initialContainer = document.body;
-    scrollerContainerAttributes = "scroller";
+    scrollerContainerID = "scroller";
     naviPusherID = "navi-pusher";
-    naviPusherClass = "navi-pusher";
-    responsiveContainerClass = "responsive-container";
+    responsiveContainerID = "responsive-container";
 
     // initiate contstruction
-    wrapInner(initialContainer, scrollerContainerAttributes);
+    wrapInner(document.body, responsiveContainerID);
+    wrapInner(responsiveContainerID, scrollerContainerID);
+    wrapInner(scrollerContainerID, naviPusherID);
 }
 
 $(document).ready(function () {
