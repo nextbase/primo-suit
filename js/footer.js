@@ -87,10 +87,6 @@ responsiveMenuLanguage  = getLanguage();
 mainContentElement = $('#contentEXL');
 // mainContentElement.wrap(responsiveMenuScroller);
 
-if (divtag.hasAttribute("id", "#unique")) {
-    wrapInner(bodyinner, 'div', 'id', 'innerwrapped-element');
-}
-
 $(document).ready(function () {
     // Sitemap Expand
     var sitemap_toggle = $('#sitemap-button');
