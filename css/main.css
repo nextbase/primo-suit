@@ -3514,7 +3514,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #333333;
-  font-family: "Noto Sans Korean", sans-serif;
+  font-family: "Nanum Barun Gothic", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   min-width: 320px;
@@ -3522,7 +3522,7 @@ body {
   background-color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Noto Sans Korean", sans-serif;
+  font-family: "Nanum Barun Gothic", sans-serif;
   color: #333333; }
 
 h1 {
@@ -4214,13 +4214,13 @@ h1#main_logo {
   z-index: 12; }
 
 ul.menu {
-  font-family: "Noto Sans Korean", sans-serif; }
+  font-family: "Nanum Barun Gothic", sans-serif; }
 
 #block-menu-block-1 {
   background-color: #987c4d;
   position: relative;
   z-index: 11;
-  font-family: "Noto Sans Korean", sans-serif; }
+  font-family: "Nanum Barun Gothic", sans-serif; }
   #block-menu-block-1 h2 {
     display: none; }
   #block-menu-block-1 .content {
@@ -4250,7 +4250,7 @@ ul.menu {
     margin-right: 90px;
     text-align: right;
     width: 100%;
-    font-family: "Noto Sans Korean", sans-serif;
+    font-family: "Nanum Barun Gothic", sans-serif;
     font-size: 15px;
     font-weight: normal; }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
@@ -6036,7 +6036,7 @@ li.EXLFacet label {
 
 .EXLFacetContainer {
   margin-bottom: 30px;
-  font-family: "Noto Sans Korean", sans-serif;
+  font-family: "Nanum Barun Gothic", sans-serif;
   margin: 0;
   padding: 0; }
   .EXLFacetContainer::after {
@@ -6119,7 +6119,7 @@ li.EXLFacet label {
 
 .EXLFacetContainer li a {
   text-indent: 0;
-  font: "Noto Sans Korean", sans-serif;
+  font: "Nanum Barun Gothic", sans-serif;
   color: #987c4d; }
 
 .EXLFacetContainer ol li {
@@ -14564,7 +14564,7 @@ html > body .notebubble .editholder {
   padding-top: 0px; }
 
 .folder_details select {
-  font: "Noto Sans Korean", sans-serif !important;
+  font: "Nanum Barun Gothic", sans-serif !important;
   vertical-align: middle; }
 
 .folder_details .ultd {
