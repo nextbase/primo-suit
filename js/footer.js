@@ -57,7 +57,7 @@ function createResponsiveStructure() {
 
     // Primo Element that contains everything
     mainContentElement = $('#contentEXL');
-    mainContentElement.wrap(responsiveMenuScroller).wrap(responsiveMenuNaviPusher).wrap(responsiveMenuResponsiveContainer);
+    mainContentElement.wrap(responsiveMenuScroller);
 }
 
 $(document).ready(function() {
