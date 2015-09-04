@@ -28,6 +28,34 @@ HTMLElement.prototype.wrap = function(elms) {
     }
 };
 
+/*
+
+ Usage
+ ------
+ Four parameters you can use:
+ 'parent'           = the element that needs to be innerwrapped
+ 'wrapper'          = the element that will innerwrap the parent
+ 'attribute'        = the attribute that you need this innerwrapped element to have
+ 'attributevalue'   = the value of the attribute you've just created
+ 
+ Example
+ -------
+ wrapInner('body', 'div', 'class', 'my-class');
+ 
+ */
+
+function wrapInner(parent, wrapper, attribute, attributevalue) {
+    if (typeof wrapper === "string") {
+        wrapper = document.createElement(wrapper);
+    }
+    var div = parent.appendChild(wrapper)
+              .setAttribute(attribute, attributevalue);
+
+    while (parent.firstChild !== wrapper) {
+           wrapper.appendChild(parent.firstChild);
+      }
+}
+
 function getLanguage() {
     isKorean = $('body').hasClass('EXLCurrentLang_ko_KR');
     if (isKorean) { return 'ko'; }
@@ -35,30 +63,33 @@ function getLanguage() {
 }
 
 // Responsive Menu
-    responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
-    responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
-    responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
-    responsiveHeaderHTML = '\
-    <header id="responsive-header"> \
-        <div class="responsive-header-container"> \
-            <div class="logo-container"> \
-                <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
-            </div> \
-            <div class="menu-container"> \
-                <div class="responsive-menu-trigger-container"> \
-                    <a href="#" id="responsive-menu-trigger"><span></span></a> \
-                </div> \
-                <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
-            </div> \
+responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
+responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
+responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
+responsiveHeaderHTML = '\
+<header id="responsive-header"> \
+    <div class="responsive-header-container"> \
+        <div class="logo-container"> \
+            <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
         </div> \
-    </header>';
-    responsiveHeader = $(responsiveHeaderHTML);
-    responsiveMenuLanguage  = getLanguage();
+        <div class="menu-container"> \
+            <div class="responsive-menu-trigger-container"> \
+                <a href="#" id="responsive-menu-trigger"><span></span></a> \
+            </div> \
+            <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
+        </div> \
+    </div> \
+</header>';
+responsiveHeader = $(responsiveHeaderHTML);
+responsiveMenuLanguage  = getLanguage();
 
-    // Primo Element that contains everything
-    mainContentElement = $('#contentEXL');
-    // mainContentElement.wrap(responsiveMenuScroller);
-    
+// Primo Element that contains everything
+mainContentElement = $('#contentEXL');
+// mainContentElement.wrap(responsiveMenuScroller);
+
+if (divtag.hasAttribute("id", "#unique")) {
+    wrapInner(bodyinner, 'div', 'id', 'innerwrapped-element');
+}
 
 $(document).ready(function () {
     // Sitemap Expand
