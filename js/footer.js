@@ -44,16 +44,15 @@ HTMLElement.prototype.wrap = function(elms) {
  
  */
 
-function wrapInner(parent, wrapper, attribute, attributevalue) {
-    if (typeof wrapper === "string") {
-        wrapper = document.createElement(wrapper);
-    }
+function wrapInner(parent, attributevalue) {
+    wrapper = document.createElement('div');
     var div = parent.appendChild(wrapper)
-              .setAttribute(attribute, attributevalue);
+                .setAttribute('id', attributevalue)
+                .setAttribute('class', attributevalue);
 
     while (parent.firstChild !== wrapper) {
-           wrapper.appendChild(parent.firstChild);
-      }
+        wrapper.appendChild(parent.firstChild);
+    }
 }
 
 function getLanguage() {
@@ -86,6 +85,17 @@ responsiveMenuLanguage  = getLanguage();
 // Primo Element that contains everything
 mainContentElement = $('#contentEXL');
 // mainContentElement.wrap(responsiveMenuScroller);
+
+function initResponsiveContainers() {
+    initialContainerID = document.body;
+    scrollerContainerClass = "scroller";
+    naviPusherID = "navi-pusher";
+    naviPusherClass = "navi-pusher";
+    responsiveContainerClass = "responsive-container";
+
+    // initiate contstruction
+    wrapInner(initialContainerID, scrollerContainerClass);
+}
 
 $(document).ready(function () {
     // Sitemap Expand
