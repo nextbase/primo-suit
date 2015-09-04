@@ -57,7 +57,7 @@ function getLanguage() {
 
     // Primo Element that contains everything
     mainContentElement = $('#contentEXL');
-    mainContentElement.wrap(responsiveMenuScroller);
+    // mainContentElement.wrap(responsiveMenuScroller);
 //}
 
 $(document).ready(function() {
