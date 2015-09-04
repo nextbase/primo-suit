@@ -4256,6 +4256,9 @@ ul.menu {
     @media screen and (max-width: 1070) {
       #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
         margin-right: 70px !important; } }
+    @media screen and (max-width: 960) {
+      #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
+        margin-right: 55px !important; } }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:last-child {
       margin-right: 0; }

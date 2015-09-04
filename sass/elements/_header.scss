@@ -168,7 +168,11 @@ ul.menu {
 
         @include media(new-breakpoint(max-width 1070)) {
             margin-right: 70px !important;
-        };
+        }   
+
+        @include media(new-breakpoint(max-width 960)) {
+            margin-right: 55px !important;
+        }
 
         &.last,
         &:last-child {
