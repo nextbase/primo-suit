@@ -35,6 +35,9 @@ function getLanguage() {
 }
 
 function createResponsiveStructure() {
+    responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
+    responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
+    responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
     responsiveHeaderHTML = '\
     <header id="responsive-header"> \
         <div class="responsive-header-container"> \
@@ -49,16 +52,12 @@ function createResponsiveStructure() {
             </div> \
         </div> \
     </header>';
-    responsiveMenuResponsiveContainer       = $("<div></div>").addClass('responsive-container');
-    responsiveMenuNaviPusher                = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
-    responsiveMenuScroller                  = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
-    responsiveHeader                        = $(responsiveHeaderHTML);
-    responsiveMenuLanguage                  = getLanguage();
+    responsiveHeader = $(responsiveHeaderHTML);
+    responsiveMenuLanguage  = getLanguage();
 
     // Primo Element that contains everything
-    mainContentElement                      = $('#contentEXL');
-
-    
+    mainContentElement = $('#contentEXL');
+    mainContentElement.wrap(responsiveMenuScroller).wrap(responsiveMenuNaviPusher).wrap(responsiveMenuResponsiveContainer);
 }
 
 $(document).ready(function() {
