@@ -4253,9 +4253,9 @@ ul.menu {
     font-family: "Nanum Barun Gothic", sans-serif;
     font-size: 15px;
     font-weight: normal; }
-    @media screen and (max-width: 1000) {
+    @media screen and (max-width: 1070) {
       #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li {
-        margin-right: 70px; } }
+        margin-right: 70px !important; } }
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li.last,
     #block-menu-block-1 .content > .menu-block-wrapper > ul.menu > li:last-child {
       margin-right: 0; }
