@@ -99,6 +99,8 @@ function createResponsiveMenu() {
     }
 }
 
+var responsiveMenu = {};
+
 $(document).ready(function () {
     // Responsive Header
     initResponsiveHeader();
