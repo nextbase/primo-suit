@@ -105,7 +105,7 @@ function convertResponsiveMenu(desktopMenu) {
     firstLevelItems.each(function(index) {
         title = $(this).children('a').first();
         $(backButtonAnchor).insertAfter(title);
-        title.wrap(submenuTitleDiv);
+        $(submenuTitleDiv).append(title.text()).insertAfter(title);
         $(this).wrapInner(menuLevelDiv);
         $(this).prepend(title.clone());
     });
