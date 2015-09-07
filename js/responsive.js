@@ -123,7 +123,6 @@ function createResponsiveMenu() {
 
 function initResponsiveMenu() {
     $('#responsive-menu').append(createResponsiveMenu());
-
     new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
         type: 'cover'
     });
@@ -137,5 +136,5 @@ $(document).ready(function () {
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
-
+    initResponsiveMenu();
 });
