@@ -107,11 +107,13 @@ function convertResponsiveMenu(desktopMenu) {
 
     // Second level
     firstLevelItems.each(function(index) {
+        menuLink = $(this).children('a').first().clone();
         title = $(this).children('a').first();
         $(backButtonAnchor).insertAfter(title);
-        $(submenuTitleDiv).append(title.text).insertAfter(title);
+        title.wrap(submenuTitleDiv);
+        title.replaceWith(title.text)
         $(this).wrapInner(menuLevelDiv);
-        $(this).prepend(title.clone());
+        $(this).prepend(menuLink);
     });
 
     // Combine Levels
