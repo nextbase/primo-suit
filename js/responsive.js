@@ -43,7 +43,8 @@ HTMLElement.prototype.wrap = function(elms) {
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
     if (typeof parent === "string") { parent = document.getElementById(parent); }
-    var div = parent.appendChild(wrapper).setAttribute('id', wrapperID).className(wrapperID);
+    var div = parent.appendChild(wrapper).setAttribute('id', wrapperID);
+    div.className(wrapperID);
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
     }
