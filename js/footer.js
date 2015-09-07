@@ -84,20 +84,25 @@ responsiveHeaderHTML = '\
 responsiveHeader = $(responsiveHeaderHTML);
 responsiveMenuLanguage  = getLanguage();
 
-// Primo Element that contains everything
-mainContentElement = $('#contentEXL');
-// mainContentElement.wrap(responsiveMenuScroller);
-
 function initResponsiveContainers() {
     scrollerContainerID = "scroller";
     naviPusherID = "navi-pusher";
     responsiveContainerID = "responsive-container";
-
     // initiate contstruction
     wrapInner(document.body, responsiveContainerID);
     wrapInner(responsiveContainerID, scrollerContainerID);
     wrapInner(scrollerContainerID, naviPusherID);
 };
+
+$(document).ready(function () {
+    // Responsive Header
+    headerContainer = $('#snu_head_block_content');
+    responsiveHeader.hide();
+    responsiveHeader.insertAfter(headerContainer);
+
+    // Responsive Containers
+    initResponsiveContainers();
+});
 
 $(document).ready(function () {
     // Sitemap Expand
