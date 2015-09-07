@@ -29,17 +29,16 @@ HTMLElement.prototype.wrap = function(elms) {
 };
 
 /*
- Usage
- ------
- Four parameters you can use:
- 'parent'     = parent element object or id
- 'wrapper_id' = the attribute that you need this innerwrapped element to have
+    Usage
+    ------
+    Four parameters you can use:
+    'parent'     = parent element object or id
+    'wrapper_id' = the attribute that you need this innerwrapped element to have
 
- Example
- -------
- wrapInner(parent, 'wrapper_id');
-
- */
+    Example
+    -------
+    wrapInner(parent, 'wrapper_id');
+*/
 
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
@@ -48,29 +47,6 @@ function wrapInner(parent, wrapperID) {
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
     }
-}
-
-function getLanguage() {
-    isKorean = $('body').hasClass('EXLCurrentLang_ko_KR');
-    if (isKorean) { return 'ko'; }
-    else { return 'en' };
-}
-
-// Responsive Menu
-responsiveMenuResponsiveContainer = $("<div></div>").addClass('responsive-container');
-responsiveMenuNaviPusher = $("<div></div>").addClass('navi-pusher').attr('id', 'navi-pusher');
-responsiveMenuScroller = $("<div></div>").addClass('scroller').attr('id', 'navi-pusher');
-
-responsiveMenuLanguage  = getLanguage();
-
-function initResponsiveContainers() {
-    scrollerContainerID = "scroller";
-    naviPusherID = "navi-pusher";
-    responsiveContainerID = "responsive-container";
-    // initiate contstruction
-    wrapInner(document.body, responsiveContainerID);
-    wrapInner(responsiveContainerID, scrollerContainerID);
-    wrapInner(scrollerContainerID, naviPusherID);
 }
 
 function initResponsiveHeader() {
@@ -93,6 +69,17 @@ function initResponsiveHeader() {
     responsiveHeader.hide();
     responsiveHeader.insertAfter(headerContainer);
 }
+
+function initResponsiveContainers() {
+    scrollerContainerID = "scroller";
+    naviPusherID = "navi-pusher";
+    responsiveContainerID = "responsive-container";
+    // initiate contstruction
+    wrapInner(document.body, responsiveContainerID);
+    wrapInner(responsiveContainerID, scrollerContainerID);
+    wrapInner(scrollerContainerID, naviPusherID);
+}
+
 
 $(document).ready(function () {
     // Responsive Header
