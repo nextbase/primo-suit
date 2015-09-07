@@ -78,7 +78,7 @@ function initResponsiveContainers() {
     wrapInner(responsiveContainerID, scrollerContainerID);
     wrapInner(scrollerContainerID, naviPusherID);
 
-    $('<nav id ="responsive-menu" class="navi-menu navi-cover"></nav>').insertBefore("#navi-pusher");
+    $('<nav id ="responsive-menu" class="navi-menu navi-cover"></nav>').insertBefore("#scroller");
     $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
 }
 
@@ -87,7 +87,9 @@ function isKorean(){
 }
 
 function convertResponsiveMenu(desktopMenu) {
-    return desktopMenu;
+    responsiveMenu = desktopMenu.clone();
+    responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
+    return responsiveMenu;
 }
 
 function createResponsiveMenu() {
