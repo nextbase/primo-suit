@@ -43,7 +43,7 @@ HTMLElement.prototype.wrap = function(elms) {
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
     if (typeof parent === "string") { parent = document.getElementById(parent); }
-    var div = parent.appendChild(wrapper).setAttribute('id', wrapperID);
+    var div = parent.appendChild(wrapper).setAttribute('id', wrapperID).setAttribute('class', wrapperID);
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
     }
@@ -79,8 +79,9 @@ function initResponsiveContainers() {
     wrapInner(naviPusherID, scrollerContainerID);
 
     $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#" + scrollerContainerID);
-    $('#navi-pusher').addClass('navi-pusher');
-    $('#scroller').addClass('scroller');
+    //$('#responsive-container').addClass('responsive-container');
+    //$('#navi-pusher').addClass('navi-pusher');
+    //$('#scroller').addClass('scroller');
 }
 
 function isKorean(){
