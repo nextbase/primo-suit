@@ -87,7 +87,7 @@ function isKorean(){
 }
 
 function convertResponsiveMenu(desktopMenu) {
-    desktopMenu.append($('<h2 class="main-responsive-menu-header">Main Menu</h2>'));
+    $('<h2 class="main-responsive-menu-header">Main Menu</h2>').insertBefore(desktopMenu.find('a:first-child'));
     return desktopMenu;
 }
 
