@@ -87,11 +87,26 @@ function isKorean(){
 }
 
 function convertResponsiveMenu(desktopMenu) {
+    // Initial Variables
     responsiveMenu = desktopMenu.clone();
-    responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
-    $('<h2 class="main-responsive-menu-header">Main Menu</h2>').insertBefore(responsiveMenu.find('li').first());
+    menuLevelDiv = '<div class="navi-level"></div>';
+    firstLevelItems = responsiveMenu.find('li');
+    submenuTitleDiv = '<h2 class="submenu-title"></h2>';
 
-    responsiveMenu.wrapInner('<div class="navi-level navi-level-open"></div>')
+    // Responsive id and navi menu class
+    responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
+    responsiveMenu.addClass('navi-menu');
+
+    // First level
+    $('<h2 class="main-responsive-menu-header">Main Menu</h2>').insertBefore(firstLevelItems.first());
+    responsiveMenu.wrapInner(menuLevelDiv);
+
+    // Second level
+    firstLevelItems.each(function(index) {
+        title = $(this).children('a');
+        title.wrap(submenuTitleDiv);
+    });
+
     return responsiveMenu;
 }
 
