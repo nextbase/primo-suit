@@ -129,5 +129,5 @@ $(document).ready(function () {
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
-    responsiveMenu = createResponsiveMenu();
+    $('#responsive-menu').append(createResponsiveMenu());
 });
