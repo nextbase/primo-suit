@@ -78,7 +78,7 @@ function initResponsiveContainers() {
     wrapInner(responsiveContainerID, scrollerContainerID);
     wrapInner(scrollerContainerID, naviPusherID);
 
-    $('<nav id ="responsive-menu" class="navi-menu navi-cover"></nav>').insertBefore("#scroller");
+    $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#scroller");
     $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
 }
 
