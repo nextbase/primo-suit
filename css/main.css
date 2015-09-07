@@ -4121,7 +4121,7 @@ table.jCalendar td.unselectable.dp-hover {
   width: 100%;
   display: block; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
@@ -8551,7 +8551,7 @@ div.EXLResultsHeader:focus {
   .EXLResultsContainer div.EXLResultsTile:last-child {
     margin-right: 0; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .EXLResultsContainer div.EXLResultsTile {
     float: left;
     display: block;
@@ -12308,7 +12308,7 @@ div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
   #exliWhiteContent #exlidSaveCitationtile {
     width: 100%; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   #exliWhiteContent {
     width: 540px;
     margin-left: -270px; } }
@@ -15300,7 +15300,7 @@ body {
 #contentEXL {
   min-width: 900px; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   body {
     overflow: scroll !important;
     min-width: 900px; }

@@ -15,7 +15,7 @@
     display: block;
 }
 
-@include media($mobile) {
+@include media($mobile-down) {
     #exlidHeaderContainer div.EXLSkipToContent {
         display: none;
     }

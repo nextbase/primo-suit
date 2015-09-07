@@ -9,7 +9,7 @@ body {
 	min-width: 900px;
 }
 
-@include media($tablet) {
+@include media($tablets-down) {
 	// Hide Some Stuff
 
 	// .folders_new,

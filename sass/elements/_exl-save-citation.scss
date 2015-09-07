@@ -517,7 +517,7 @@ div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
   }
 }
 
-@include media($tablet) {
+@include media($tablets-down) {
   #exliWhiteContent {
     width: 540px;
     margin-left: -270px;
