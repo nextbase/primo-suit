@@ -42,9 +42,10 @@ HTMLElement.prototype.wrap = function(elms) {
 
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
+    wrapper.setAttribute('id', wrapperID);
+    wrapper.className = wrapperID
     if (typeof parent === "string") { parent = document.getElementById(parent); }
-    var div = parent.appendChild(wrapper).setAttribute('id', wrapperID);
-    div.className = wrapperID;
+    var div = parent.appendChild(wrapper);
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
     }
