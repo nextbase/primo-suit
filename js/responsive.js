@@ -117,15 +117,15 @@ function convertResponsiveMenu(desktopMenu) {
     return menuContainer;
 }
 
-function initResponsiveMenu() {
+function initResponsiveMenu(callback) {
     if (isKorean()) {
         convertResponsiveMenu($('#korean-main-navigation'));
     } else {
         convertResponsiveMenu($('#english-main-menu'));
     }
-}
 
-var responsiveMenu = {};
+    callback();
+}
 
 $(document).ready(function () {
     // Responsive Header
@@ -133,9 +133,9 @@ $(document).ready(function () {
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
-    initResponsiveMenu();
-
-    new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
-        type: 'cover'
+    initResponsiveMenu(function() {
+        new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
+            type: 'cover'
+        });
     });
 });
