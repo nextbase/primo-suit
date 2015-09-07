@@ -90,7 +90,7 @@ function convertResponsiveMenu(desktopMenu) {
     // Initial Variables
     responsiveMenu   = desktopMenu.clone();
     menuLevelDiv     = '<div class="navi-level"></div>';
-    firstLevelItems  = responsiveMenu.find('li');
+    firstLevelItems  = responsiveMenu.children('li');
     submenuTitleDiv  = '<h2 class="submenu-title"></h2>';
     backButtonAnchor = '<a class="navi-back" href="#">back</a>';
 
