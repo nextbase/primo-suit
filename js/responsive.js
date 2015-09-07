@@ -49,10 +49,6 @@ function wrapInner(parent, wrapperID) {
     }
 }
 
-function isKorean(){
-    return $(body).hasClass('EXLCurrentLang_ko_KR');
-}
-
 function initResponsiveHeader() {
     responsiveHeaderHTML = '\
     <header id="responsive-header"> \
@@ -84,6 +80,10 @@ function initResponsiveContainers() {
 
     $('<nav id ="responsive-menu" class="navi-menu navi-cover"></nav>').insertBefore("#navi-pusher");
     $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
+}
+
+function isKorean(){
+    return $('body').hasClass('EXLCurrentLang_ko_KR');
 }
 
 function convertResponsiveMenu(desktopMenu) {
