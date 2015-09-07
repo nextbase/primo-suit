@@ -101,7 +101,6 @@ function convertResponsiveMenu(desktopMenu) {
 
     // Responsive id and navi menu class
     responsiveMenu.attr('id', "responsive-menu-main");
-    responsiveMenu.addClass('navi-menu');
 
     // First level
     menuContainer.append($('<h2 class="main-responsive-menu-header">Main Menu</h2>'));
@@ -123,14 +122,15 @@ function convertResponsiveMenu(desktopMenu) {
 
 function createResponsiveMenu() {
     if (isKorean()) {
-        return convertResponsiveMenu($('#korean-main-navigation'));
+        convertResponsiveMenu($('#korean-main-navigation'));
     } else {
-        return convertResponsiveMenu($('#english-main-menu'));
+        convertResponsiveMenu($('#english-main-menu'));
     }
 }
 
 function initResponsiveMenu() {
     createResponsiveMenu();
+
     new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
         type: 'cover'
     });
