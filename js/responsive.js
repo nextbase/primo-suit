@@ -99,7 +99,7 @@ function convertResponsiveMenu(desktopMenu) {
     backButtonAnchor = '<a class="navi-back" href="#">back</a>';
 
     // Responsive id and navi menu class
-    responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
+    responsiveMenu.attr('id', "responsive-menu");
     responsiveMenu.addClass('navi-menu');
 
     // First level
