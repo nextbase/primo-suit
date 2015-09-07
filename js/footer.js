@@ -96,7 +96,7 @@ function initResponsiveContainers() {
 
 $(document).ready(function () {
     // Responsive Header
-    headerContainer = $('#snu_head_block_content');
+    headerContainer = $('#header');
     responsiveHeader.hide();
     responsiveHeader.insertAfter(headerContainer);
 
