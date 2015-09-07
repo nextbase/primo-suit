@@ -75,11 +75,10 @@ function initResponsiveContainers() {
     responsiveContainerID = "responsive-container";
     // initiate contstruction
     wrapInner(document.body, responsiveContainerID);
-    wrapInner(responsiveContainerID, scrollerContainerID);
-    wrapInner(scrollerContainerID, naviPusherID);
+    wrapInner(responsiveContainerID, naviPusherID);
+    wrapInner(naviPusherID, scrollerContainerID);
 
-    $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#scroller");
-    $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
+    $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#" + scrollerContainerID);
 }
 
 function isKorean(){
