@@ -79,11 +79,7 @@ function initResponsiveContainers() {
     wrapInner(document.body, responsiveContainerID);
     wrapInner(responsiveContainerID, naviPusherID);
     wrapInner(naviPusherID, scrollerContainerID);
-
     $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#" + scrollerContainerID);
-    //$('#responsive-container').addClass('responsive-container');
-    //$('#navi-pusher').addClass('navi-pusher');
-    //$('#scroller').addClass('scroller');
 }
 
 function isKorean(){
@@ -121,20 +117,12 @@ function convertResponsiveMenu(desktopMenu) {
     return menuContainer;
 }
 
-function createResponsiveMenu() {
+function initResponsiveMenu() {
     if (isKorean()) {
         convertResponsiveMenu($('#korean-main-navigation'));
     } else {
         convertResponsiveMenu($('#english-main-menu'));
     }
-}
-
-function initResponsiveMenu() {
-    createResponsiveMenu();
-
-    new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
-        type: 'cover'
-    });
 }
 
 var responsiveMenu = {};
@@ -146,4 +134,8 @@ $(document).ready(function () {
     initResponsiveContainers();
     // Responsive Menu
     initResponsiveMenu();
+
+    new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
+        type: 'cover'
+    });
 });
