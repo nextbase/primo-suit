@@ -66,7 +66,6 @@ function initResponsiveHeader() {
     </header>';
     responsiveHeader = $(responsiveHeaderHTML);
     headerContainer = $('#header');
-    responsiveHeader.hide();
     responsiveHeader.insertAfter(headerContainer);
 }
 
@@ -78,6 +77,9 @@ function initResponsiveContainers() {
     wrapInner(document.body, responsiveContainerID);
     wrapInner(responsiveContainerID, scrollerContainerID);
     wrapInner(scrollerContainerID, naviPusherID);
+
+    $('<nav id ="responsive-menu" class="navi-menu navi-cover"></nav>').insertBefore("#navi-pusher");
+    $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
 }
 
 
