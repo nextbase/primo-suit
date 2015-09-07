@@ -15293,20 +15293,6 @@ table.main {
   #google a {
     font-weight: normal; }
 
-body {
-  overflow: scroll !important;
-  min-width: 900px; }
-
-#contentEXL {
-  min-width: 900px; }
-
-@media screen and (max-width: 960px) {
-  body {
-    overflow: scroll !important;
-    min-width: 900px; }
-  #contentEXL {
-    min-width: 900px; } }
-
 #korean-main-navigation {
   display: none !important; }
 

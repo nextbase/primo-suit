@@ -1,13 +1,13 @@
 // General Responsive Rules
 
-body {
-	overflow: scroll !important;
-	min-width: 900px;
-}
+//body {
+//	overflow: scroll !important;
+//	min-width: 900px;
+//}
 
-#contentEXL {
-	min-width: 900px;
-}
+//#contentEXL {
+//	min-width: 900px;
+//}
 
 @include media($tablets-down) {
 	// Hide Some Stuff
@@ -46,14 +46,4 @@ body {
 	// #exlidUserAreaRibbon li.EXLMyShelf {
 	//     display: none
 	// }
-
-	body {
-		overflow: scroll !important;
-		min-width: 900px;
-	}
-
-	#contentEXL {
-		min-width: 900px;
-	}
-
 }
