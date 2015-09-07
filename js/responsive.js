@@ -92,6 +92,7 @@ function isKorean(){
 
 function convertResponsiveMenu(desktopMenu) {
     // Initial Variables
+    menuContainer    = $('#responsive-menu');
     responsiveMenu   = desktopMenu.clone();
     menuLevelDiv     = '<div class="navi-level"></div>';
     firstLevelItems  = responsiveMenu.children('li');
@@ -103,8 +104,7 @@ function convertResponsiveMenu(desktopMenu) {
     responsiveMenu.addClass('navi-menu');
 
     // First level
-    $('<h2 class="main-responsive-menu-header">Main Menu</h2>').insertBefore(firstLevelItems.first());
-    responsiveMenu.wrapInner(menuLevelDiv);
+    menuContainer.append($('<h2 class="main-responsive-menu-header">Main Menu</h2>'));
 
     // Second level
     firstLevelItems.each(function(index) {
@@ -114,7 +114,11 @@ function convertResponsiveMenu(desktopMenu) {
         $(this).wrapInner(menuLevelDiv);
     });
 
-    return responsiveMenu;
+    // Combine Levels
+    menuContainer.append(responsiveMenu);
+    menuContainer.wrapInner(menuLevelDiv);
+
+    return menuContainer;
 }
 
 function createResponsiveMenu() {
@@ -126,7 +130,7 @@ function createResponsiveMenu() {
 }
 
 function initResponsiveMenu() {
-    $('#responsive-menu').append(createResponsiveMenu());
+    createResponsiveMenu();
     new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
         type: 'cover'
     });
