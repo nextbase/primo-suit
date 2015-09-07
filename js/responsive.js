@@ -94,7 +94,7 @@ function convertResponsiveMenu(desktopMenu) {
 
 function createResponsiveMenu() {
     if (isKorean()) {
-        return convertResponsiveMenu($('#korean-main-menu'));
+        return convertResponsiveMenu($('#korean-main-navigation'));
     } else {
         return convertResponsiveMenu($('#english-main-menu'));
     }
