@@ -79,6 +79,8 @@ function initResponsiveContainers() {
     wrapInner(naviPusherID, scrollerContainerID);
 
     $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#" + scrollerContainerID);
+    $('#navi-pusher').addClass('navi-pusher');
+    $('#scroller').addClass('scroller');
 }
 
 function isKorean(){
