@@ -88,10 +88,11 @@ function isKorean(){
 
 function convertResponsiveMenu(desktopMenu) {
     // Initial Variables
-    responsiveMenu = desktopMenu.clone();
-    menuLevelDiv = '<div class="navi-level"></div>';
-    firstLevelItems = responsiveMenu.find('li');
-    submenuTitleDiv = '<h2 class="submenu-title"></h2>';
+    responsiveMenu   = desktopMenu.clone();
+    menuLevelDiv     = '<div class="navi-level"></div>';
+    firstLevelItems  = responsiveMenu.find('li');
+    submenuTitleDiv  = '<h2 class="submenu-title"></h2>';
+    backButtonAnchor = '<a class="navi-back" href="#">back</a>';
 
     // Responsive id and navi menu class
     responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
@@ -103,8 +104,9 @@ function convertResponsiveMenu(desktopMenu) {
 
     // Second level
     firstLevelItems.each(function(index) {
-        title = $(this).children('a');
+        title = $(this).children('a').first();
         title.wrap(submenuTitleDiv);
+        title.insertAfter(backButtonAnchor);
         $(this).wrapInner(menuLevelDiv);
     });
 
