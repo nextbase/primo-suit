@@ -44,7 +44,7 @@ function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
     if (typeof parent === "string") { parent = document.getElementById(parent); }
     var div = parent.appendChild(wrapper).setAttribute('id', wrapperID);
-    div.className(wrapperID);
+    div.className = wrapperID;
     while (parent.firstChild !== wrapper) {
         wrapper.appendChild(parent.firstChild);
     }
