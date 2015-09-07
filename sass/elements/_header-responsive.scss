@@ -49,7 +49,7 @@ header#responsive-header {
   overflow: hidden;
   text-indent: 100px;
   white-space: nowrap;
-  @include retina-image("../img/responsive_user_icon", 25px 25px);
+  @include retina-image("../images/responsive_user_icon", 25px 25px);
   background-repeat: no-repeat;
   background-position: center center;
   border-left: 1px solid lighten($gold, 3%);
@@ -59,7 +59,7 @@ header#responsive-header {
 #mobile-logo {
   padding: 10px 15px;
   a {
-    @include retina-image("../img/mobile_logo", 185px 30px);
+    @include retina-image("../images/mobile_logo", 185px 30px);
     background-repeat: no-repeat;
     background-position: top left;
     height: 30px;
