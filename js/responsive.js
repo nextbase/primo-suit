@@ -106,9 +106,8 @@ function convertResponsiveMenu(desktopMenu) {
     firstLevelItems.each(function(index) {
         title = $(this).children('a').first();
         title.wrap(submenuTitleDiv);
-        title.insertAfter(backButtonAnchor);
+        backButtonAnchor.insertAfter(title);
         $(this).wrapInner(menuLevelDiv);
-        console.log('a level? ');
     });
 
     return responsiveMenu;
