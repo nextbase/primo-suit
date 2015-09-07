@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNUL Navigation</title>
+    <meta name="description" content="Multi-Level Push Menu: Off-screen navigation with multiple levels" />
+    <meta name="keywords" content="multi-level, menu, navigation, off-canvas, off-screen, mobile, levels, nested, transform" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="responsive-container">
+        <!-- Push Wrapper -->
+        <div class="navi-pusher" id="navi-pusher">
+            <!-- navi-menu -->
+            <nav id="responsive-menu" class="navi-menu">
+                <div class="navi-level">
+                    <h2 class="used-to-be-icon-world">Main Menu</h2>
+                    <!-- paste starts -->
+                    <ul class="menu">
+                        <li class="first leaf active menu-mlid-7336"><a href="/" title="" class="active">Home</a></li>
+                        <li class="expanded menu-mlid-9291"><a href="/find">Find</a>
+                        	<div class="navi-level">
+                        		<h2 class="used-to-be-icon-world">Find</h2>
+								<a class="navi-back" href="#">back</a>
+
+                        		<ul class="menu">
+	                                <li class="first leaf menu-mlid-9296"><a href="/find?tab=all" title="">All</a></li>
+	                                <li class="leaf menu-mlid-9301"><a href="/find?tab=books_media" title="">Books &amp; Media</a></li>
+	                                <li class="leaf menu-mlid-12376"><a href="http://snulqdvkgey3lu.devcloud.acquia-sites.com/find/thesis">Thesis </a></li>
+	                                <li class="leaf menu-mlid-9331"><a href="http://apac-primo-stage.hosted.exlibrisgroup.com/primo_library/libweb/action/search.do?mode=Basic&amp;vid=82SNU&amp;vl(freeText0)=&amp;fn=search&amp;tab=course&amp;">Course</a></li>
+	                                <li class="leaf has-children menu-mlid-9341"><a href="/find/databases">Databases</a></li>
+	                                <li class="leaf menu-mlid-9346"><a href="/node/276">E-Journals</a></li>
+	                                <li class="leaf menu-mlid-9351"><a href="/find/ebooks">E-Books</a></li>
+	                                <li class="leaf has-children menu-mlid-9366"><a href="/find/collections">Collections</a></li>
+	                                <li class="leaf menu-mlid-10826"><a href="/find/s_space">S-Space</a></li>
+	                                <li class="last leaf menu-mlid-11126"><a href="/find/central_assembly_lib">National Library &amp; National Assembly Library PC</a></li>
+	                            </ul>
+                        	</div><!-- end .navi-level -->
+                            
+                        </li>
+                        <li class="expanded menu-mlid-7346"><a href="/using_libraries">Using The Libraries</a>
+
+                        	<div class="navi-level">
+                        		<h2 class="used-to-be-icon-world">Using The Libraries</h2>
+								<a class="navi-back" href="#">back</a>
+	                            <ul class="menu">
+	                                <li class="first leaf has-children menu-mlid-7376"><a href="/using_libraries/members">Membership Services</a></li>
+	                                <li class="leaf has-children menu-mlid-7381"><a href="/using_libraries/borrow_return_reservation">Borrow∙Return∙Renew∙Reserve</a></li>
+	                                <li class="leaf menu-mlid-9836"><a href="/using_libraries/book_purchases">Purchase Request </a></li>
+	                                <li class="leaf menu-mlid-9996"><a href="/using_libraries/designation_books">Course Guide</a></li>
+	                                <li class="leaf menu-mlid-11011"><a href="/using_libraries/thesis_submission">Submit Thesis</a></li>
+	                                <li class="leaf menu-mlid-10286"><a href="/using_libraries/proxy">Proxy</a></li>
+	                                <li class="leaf has-children menu-mlid-10951"><a href="/using_libraries/mobile_service/mobile_reading_license">Mobile Service</a></li>
+	                                <li class="leaf menu-mlid-10001"><a href="/using_libraries/facilities_reservation"> Facilities Reserve</a></li>
+	                                <li class="leaf has-children menu-mlid-9961"><a href="/using_libraries/using_device">Print·Scan·Copy/Network</a></li>
+	                                <li class="last leaf has-children menu-mlid-10996"><a href="/using_libraries/resource_sharing">ILL·DDS</a></li>
+	                            </ul>
+                        	</div><!-- end .navi-level -->
+                        </li>
+                        <li class="expanded menu-mlid-7351"><a href="/research">Research</a>
+                        	<div class="navi-level">
+                        		<h2 class="used-to-be-icon-world">Research</h2>
+								<a class="navi-back" href="#">back</a>
+	                            <ul class="menu">
+	                                <li class="first leaf menu-mlid-7386"><a href="/research/research_support">Research support</a></li>
+	                                <li class="leaf menu-mlid-11016"><a href="/research/db_education">Databases education</a></li>
+	                                <li class="leaf menu-mlid-11021"><a href="http://libguide.snu.ac.kr/main">Research Guides</a></li>
+	                                <li class="leaf menu-mlid-11026"><a href="/research/making_thesis_guide">Making thesis guide</a></li>
+	                                <li class="last leaf menu-mlid-11781"><a href="http://snulqdvkgey3lu.devcloud.acquia-sites.com/research/ask_us">Ask Us</a></li>
+	                            </ul>
+                        	</div><!-- end .navi-level -->
+                        </li>
+                        <li class="expanded menu-mlid-7356"><a href="/about_us">About Us</a>
+                        	<div class="navi-level">
+                        		<h2 class="used-to-be-icon-world">About Us</h2>
+								<a class="navi-back" href="#">back</a>
+	                            <ul class="menu">
+	                                <li class="first leaf has-children menu-mlid-11046"><a href="/about_us/notice">Community</a></li>
+	                                <li class="leaf menu-mlid-13461"><a href="http://snulqdvkgey3lu.devcloud.acquia-sites.com/about_us/library_event">Library Event</a></li>
+	                                <li class="leaf menu-mlid-11031"><a href="/about_us/hours_and_locations">Hours and Locations</a></li>
+	                                <li class="leaf menu-mlid-11041"><a href="/about_us/floor_information">Floor Information</a></li>
+	                                <li class="leaf menu-mlid-11036"><a href="/about_us/staff_and_enquiry">Staff and Enquiry</a></li>
+	                                <li class="leaf menu-mlid-11061"><a href="/about_us/library_statistics">Library Statistics</a></li>
+	                                <li class="leaf has-children menu-mlid-9191"><a href="/about_us/promoting_library">Promoting Library</a></li>
+	                                <li class="leaf menu-mlid-11066"><a href="/about_us/bus_information">Bus Information</a></li>
+	                                <li class="last leaf menu-mlid-11056"><a href="/about_us/donation">Donation</a></li>
+	                            </ul>
+                        	</div><!-- end .navi-level -->
+                        </li>
+                        <li class="last expanded menu-mlid-9231"><a href="/libraries">Libraries</a>
+                        	<div class="navi-level">
+                        		<h2 class="used-to-be-icon-world">About Us</h2>
+								<a class="navi-back" href="#">back</a>
+	                            <ul class="menu">
+	                                <li class="first leaf menu-mlid-12386"><a href="/library/central-library">Central Library</a></li>
+	                                <li class="leaf menu-mlid-11786"><span class="nolink">Detached Building</span></li>
+	                                <li class="leaf menu-mlid-11076"><a href="/library/social-science-library">Social science Library</a></li>
+	                                <li class="leaf menu-mlid-11081"><a href="/libraries/business-library">Business Library</a></li>
+	                                <li class="leaf menu-mlid-11086"><a href="/library/agriculture-library">Agriculture Library</a></li>
+	                                <li class="leaf menu-mlid-11091"><a href="/library/law-library">Law Library</a></li>
+	                                <li class="leaf menu-mlid-11096"><a href="/library/medical-library">Medical Library</a></li>
+	                                <li class="leaf menu-mlid-11101"><a href="/library/dental-library">Dental Library</a></li>
+	                                <li class="leaf menu-mlid-11106"><a href="/libraries/international-library">International Library</a></li>
+	                                <li class="last leaf menu-mlid-11111"><a href="/libraries/veterinary-library">Veterinary Library</a></li>
+	                            </ul>
+                        	</div><!-- end .navi-level -->
+                        </li>
+                    </ul>
+                    <!-- paste ends -->
+                </div>
+            </nav>
+            <!-- /navi-menu -->
+            <div class="scroller">
+                <!-- this is for emulating position fixed of the nav -->
+                <div class="scroller-inner">
+                    <div class="content clearfix">
+                        <div class="block block-40 clearfix">
+                            <p><a href="#" id="responsive-trigger" class="menu-trigger">Menu</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /scroller-inner -->
+            </div>
+            <!-- /scroller -->
+        </div>
+        <!-- /pusher -->
+    </div>
+    <!-- /container -->
+    <script src="js/mlpushmenu.js"></script>
+    <script>
+        var resoonsive_menu = new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-trigger'), {
+            type: 'cover'
+        });
+    </script>
+</body>
+
+</html>
