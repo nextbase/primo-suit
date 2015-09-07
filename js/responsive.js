@@ -112,7 +112,6 @@ function convertResponsiveMenu(desktopMenu) {
         title.wrap(submenuTitleDiv);
         $(this).wrapInner(menuLevelDiv);
         $(this).prepend(title.clone());
-        title.replaceWith(title.text());
     });
 
     // Combine Levels
