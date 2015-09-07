@@ -49,6 +49,10 @@ function wrapInner(parent, wrapperID) {
     }
 }
 
+function isKorean(){
+    return $(body).hasClass('EXLCurrentLang_ko_KR');
+}
+
 function initResponsiveHeader() {
     responsiveHeaderHTML = '\
     <header id="responsive-header"> \
@@ -82,10 +86,23 @@ function initResponsiveContainers() {
     $('<div class="' + scrollerContainerID + '"></div>').insertAfter()
 }
 
+function convertResponsiveMenu(desktopMenu) {
+    return desktopMenu;
+}
+
+function createResponsiveMenu() {
+    if (isKorean()) {
+        return convertResponsiveMenu($('#korean-main-menu'));
+    } else {
+        return convertResponsiveMenu($('#english-main-menu'));
+    }
+}
 
 $(document).ready(function () {
     // Responsive Header
     initResponsiveHeader();
     // Responsive Containers
     initResponsiveContainers();
+    // Responsive Menu
+    console.log(createResponsiveMenu());
 });
