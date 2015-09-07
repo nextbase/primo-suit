@@ -91,6 +91,7 @@ function convertResponsiveMenu(desktopMenu) {
     responsiveMenu.attr('id', "navi-" + responsiveMenu.attr('id'));
     $('<h2 class="main-responsive-menu-header">Main Menu</h2>').insertBefore(responsiveMenu.find('li').first());
 
+    responsiveMenu.wrapInner('<div class="navi-level navi-level-open">')
     return responsiveMenu;
 }
 
