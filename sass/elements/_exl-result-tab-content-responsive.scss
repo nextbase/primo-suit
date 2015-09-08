@@ -1,0 +1,50 @@
+.EXLResultTabContainer div.EXLTabHeader {
+  @include reset-margins;
+  background-color: $gray-light;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #e1e1e1;
+  min-height: 45px;
+  height: auto;
+  border-left: 1px solid $gray;
+  border-right: 1px solid $gray;
+  display: block;
+}
+
+* html .EXLResultTabContainer div.EXLTabHeader {
+  height: auto;
+  min-height: 45px;
+  @include clearfix;
+}
+
+.EXLTabHeader div.EXLTabHeaderContent {
+  @include reset-margins;
+  @include span-columns(4 of 8);
+  color: $black;
+  padding: ($tabs-content-padding /2) $tabs-content-padding;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.EXLTabHeader div.EXLTabHeaderContent em {
+  color: $black;
+  font-weight: normal;
+  padding-right: $spacing-small;
+}
+
+.EXLTabHeader div.EXLTabHeaderContent span {
+  padding: 0.3em;
+  width: auto
+}
+
+.EXLTabHeader div.EXLTabHeaderContent span a {
+  color: $black;
+}
+
+.EXLTabHeader div.EXLTabHeaderContent span.selected {
+  background-color: #FFFFFF;
+  border: 1px solid #8fb9d0;
+  display: inline;
+  height: 20px;
+  padding: 0px 5px 0px 5px;
+}
