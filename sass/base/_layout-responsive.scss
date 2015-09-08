@@ -73,6 +73,11 @@ $tabs-width: 270px;
 
   .EXLFacetTile {
     @include span-columns(8 of 8);
+    margin-bottom: 20px;
+  }
+  
+  .EXLFacetActionsV2 {
+    display: none;
   }
 
   .EXLResultsContainer div.EXLResultsTile {
