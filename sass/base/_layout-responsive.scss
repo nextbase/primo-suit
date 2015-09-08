@@ -118,7 +118,7 @@ $tabs-width: 270px;
 
       h2, h2.filters-title {
         @include reset-margins;
-        font-size: $base-font-size;
+        font-size: ($base-font-size + 2px);
         font-weight: bold;
         display: block;
         height: 40px;
