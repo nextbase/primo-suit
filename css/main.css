@@ -15426,6 +15426,7 @@ table.main {
   /* Expandable Filters */
   #exlidFacetTile {
     max-height: 40px;
+    overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045); }
     #exlidFacetTile.expanded-for-mobile {
       max-height: 2000px; }
