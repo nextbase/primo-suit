@@ -15410,6 +15410,7 @@ table.main {
     display: none; }
   #resultsNavNoId span, #resultsNavNoId a {
     display: none; }
+  #resultsNavNoId a[title*="Previous"],
   #resultsNavNoId a.EXLNext {
     display: inline-block;
     float: none; }
