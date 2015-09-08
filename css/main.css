@@ -15419,7 +15419,17 @@ table.main {
     width: 100%;
     margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+  /* Expandable Filters */
+  #exlidFacetTile .filters-expand-title {
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both; }
+    #exlidFacetTile .filters-expand-title h2, #exlidFacetTile .filters-expand-title h2.filters-title {
+      display: block;
+      height: 40px;
+      line-height: 40px; } }
 
 header#responsive-header {
   margin: 0;

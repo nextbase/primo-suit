@@ -85,4 +85,20 @@ $tabs-width: 270px;
     @include omega();
   }
 
+  /* Expandable Filters */
+  #exlidFacetTile {
+    .filters-expand-title {
+      width: 100%;
+      display: block;
+      float: left;
+      clear: both;
+
+      h2, h2.filters-title {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+  }
+
 }
