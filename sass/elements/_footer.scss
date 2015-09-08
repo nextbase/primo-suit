@@ -7,6 +7,11 @@
 	background-position: left center;
 }
 
+.sitemap-outer-container {
+  @include reset-margins;
+  @include add-side-paddings;
+}
+
 #footer {
 	background-color: $gold-gray;
 	margin-top: 40px;

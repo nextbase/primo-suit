@@ -62,3 +62,10 @@ $tabs-width: 320px;
     right: 130px;
     top: 30px;
 }
+
+$mobile-side-padding: 20px;
+
+@mixin add-side-paddings {
+  padding-left: $mobile-side-padding;
+  padding-right: $mobile-side-padding;
+}
