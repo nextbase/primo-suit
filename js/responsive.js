@@ -7,7 +7,7 @@ $.fn.exists = function(callback) {
     return this;
 };
 
-$.fn.existsNot = function(callback) {
+$.fn.isMissing = function(callback) {
     var args = [].slice.call(arguments, 1);
     if (!this.length) {
         callback.call(this, args);
@@ -27,7 +27,7 @@ function wrapInner(parent, wrapperID) {
 }
 
 function initResponsiveHeader() {
-    $("#responsive-header").existsNot(function() {
+    $("#responsive-header").isMissing(function() {
         responsiveHeaderHTML = '\
         <header id="responsive-header" class="js-generated"> \
             <div class="responsive-header-container"> \
@@ -104,7 +104,7 @@ function initResponsiveMenu(callback) {
 
 $(document).ready(function () {
     // Responsive Header
-    // initResponsiveHeader(); // included in the HTML
+    initResponsiveHeader();
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
