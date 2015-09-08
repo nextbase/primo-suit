@@ -2,12 +2,6 @@
 
 $tabs-width: 270px;
 
-#exlidFacetTile {
-  .filters-expand-title {
-    display: none;
-  }
-}
-
 @include media($tablets-down) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
@@ -91,6 +85,12 @@ $tabs-width: 270px;
     @include omega();
   }
 
+  #exlidFacetTile {
+    .filters-expand-title {
+      display: none;
+    }
+  }
+
   /* Expandable Filters */
   #exlidFacetTile {
     .filters-expand-title {
@@ -107,6 +107,8 @@ $tabs-width: 270px;
         display: block;
         height: 40px;
         line-height: 40px;
+
+        @include glyphicon($icon-plus, 'after');
       }
     }
   }

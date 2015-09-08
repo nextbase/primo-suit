@@ -15330,9 +15330,6 @@ table.main {
   display: none !important; }
 
 /* Responsive Layout Related Styles */
-#exlidFacetTile .filters-expand-title {
-  display: none; }
-
 @media screen and (max-width: 960px) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
@@ -15423,6 +15420,8 @@ table.main {
     margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; }
+  #exlidFacetTile .filters-expand-title {
+    display: none; }
   /* Expandable Filters */
   #exlidFacetTile .filters-expand-title {
     width: 100%;
@@ -15437,7 +15436,18 @@ table.main {
       font-weight: bold;
       display: block;
       height: 40px;
-      line-height: 40px; } }
+      line-height: 40px; }
+      #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
+        content: "+";
+        position: relative;
+        top: 1px;
+        display: inline-block;
+        font-family: 'Glyphicons Halflings';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; } }
 
 header#responsive-header {
   margin: 0;
