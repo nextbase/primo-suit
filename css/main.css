@@ -15405,6 +15405,9 @@ table.main {
   display: none; }
 
 @media screen and (max-width: 800px) {
+  #EXLMainMenuITEMcitationlinker,
+  #EXLMainMenuITEMlibrary_home {
+    display: none; }
   #exlidFacetTile, .EXLFacetTile {
     float: left;
     display: block;
