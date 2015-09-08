@@ -15351,7 +15351,10 @@ table.main {
     margin-right: 20px; }
   .EXLSearchFieldRibbonBrowseSearchLink,
   .EXLSearchFieldRibbonAdvancedSearchLink {
-    position: static; }
+    position: static;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px; }
   .EXLSearchFieldRibbonBrowseSearchLink {
     right: 0;
     top: 0; }
