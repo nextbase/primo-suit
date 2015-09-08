@@ -15414,6 +15414,9 @@ table.main {
   #resultsNavNoId a.EXLNext {
     display: inline-block;
     float: none; }
+    #resultsNavNoId a[title*="Previous"] img,
+    #resultsNavNoId a.EXLNext img {
+      margin-left: 0; }
   #exlidFacetTile, .EXLFacetTile {
     float: left;
     display: block;
