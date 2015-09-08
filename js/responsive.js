@@ -98,8 +98,17 @@ function initResponsiveMenu(callback) {
     } else {
         convertResponsiveMenu($('#english-main-menu'));
     }
-
     callback();
+}
+
+function initFilterExpand() {
+    $("#exlidFacetTile").exists(function() {
+        if (isKorean()) {
+            $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">검색 필터</h2></div>');
+        } else {
+            $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
+        }
+    });
 }
 
 $(document).ready(function () {
@@ -111,4 +120,7 @@ $(document).ready(function () {
             type: 'cover'
         });
     });
+
+    // Responsive Search Filters
+    initFilterExpand();
 });
