@@ -104,7 +104,7 @@ function initResponsiveMenu(callback) {
 
 $(document).ready(function () {
     // Responsive Header
-    initResponsiveHeader();
+    // initResponsiveHeader(); // included in the HTML
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
