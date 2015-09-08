@@ -1,3 +1,12 @@
+// .exists function for jQuery
+$.fn.exists = function(callback) {
+    var args = [].slice.call(arguments, 1);
+    if (this.length) {
+        callback.call(this, args);
+    }
+    return this;
+};
+
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
     wrapper.setAttribute('id', wrapperID);
@@ -10,23 +19,25 @@ function wrapInner(parent, wrapperID) {
 }
 
 function initResponsiveHeader() {
-    responsiveHeaderHTML = '\
-    <header id="responsive-header" class="js-generated"> \
-        <div class="responsive-header-container"> \
-            <div class="logo-container"> \
-                <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
-            </div> \
-            <div class="menu-container"> \
-                <div class="responsive-menu-trigger-container"> \
-                    <a href="#" id="responsive-menu-trigger"><span></span></a> \
+    $("#responsive-header").exists(function() {
+        responsiveHeaderHTML = '\
+        <header id="responsive-header" class="js-generated"> \
+            <div class="responsive-header-container"> \
+                <div class="logo-container"> \
+                    <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
                 </div> \
-                <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
+                <div class="menu-container"> \
+                    <div class="responsive-menu-trigger-container"> \
+                        <a href="#" id="responsive-menu-trigger"><span></span></a> \
+                    </div> \
+                    <div class="responsive-login-trigger-container"><a id="responsive-login-trigger" class="login-popup" href="http://library.snu.ac.kr/user">User Login</a></div> \
+                </div> \
             </div> \
-        </div> \
-    </header>';
-    responsiveHeader = $(responsiveHeaderHTML);
-    headerContainer = $('#header');
-    responsiveHeader.insertAfter(headerContainer);
+        </header>';
+        responsiveHeader = $(responsiveHeaderHTML);
+        headerContainer = $('#header');
+        responsiveHeader.insertAfter(headerContainer);
+    });
 }
 
 function initResponsiveContainers() {
