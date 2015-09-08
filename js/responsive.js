@@ -101,6 +101,13 @@ function initResponsiveMenu(callback) {
     callback();
 }
 
+function expandableMobileFacet(trigger_query, parent_query) {
+    $(trigger_query).bind('click', function (e) {
+        $(this).closest(parent_query).toggleClass('expanded-for-mobile');
+        e.preventDefault();
+    });
+};
+
 function initFilterExpand() {
     $("#exlidFacetTile").exists(function() {
         if (isKorean()) {
@@ -108,6 +115,8 @@ function initFilterExpand() {
         } else {
             $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
         }
+
+        expandableMobileFacet($(this), $(this).find(".filters-expand-title"));
     });
 }
 
