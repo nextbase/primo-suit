@@ -92,6 +92,7 @@ $tabs-width: 270px;
       display: block;
       float: none;
       clear: both;
+      cursor: pointer;
 
       h2, h2.filters-title {
         @include reset-margins;
