@@ -15405,8 +15405,8 @@ table.main {
   display: none; }
 
 @media screen and (max-width: 800px) {
-  #exlidMainMenuRibbon li #EXLMainMenuITEMcitationlinker,
-  #exlidMainMenuRibbon li #EXLMainMenuITEMlibrary_home {
+  #exlidMainMenuRibbon li .EXLMainMenuITEMcitationlinker,
+  #exlidMainMenuRibbon li .EXLMainMenuITEMlibrary_home {
     display: none; }
   #resultsNavNoId span, #resultsNavNoId a {
     display: none; }
