@@ -103,6 +103,7 @@ $tabs-width: 270px;
 
     > div {
       @include span-columns(4 of 8);
+      @include omega(2n + 1);
     }
 
     &.expanded-for-mobile {

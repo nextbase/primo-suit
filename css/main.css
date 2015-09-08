@@ -15442,6 +15442,10 @@ table.main {
       width: 48.21067%; }
       #exlidFacetTile > div:last-child {
         margin-right: 0; }
+      #exlidFacetTile > div:nth-child(3n) {
+        margin-right: 0; }
+      #exlidFacetTile > div:nth-child(3n+1) {
+        clear: left; }
     #exlidFacetTile.expanded-for-mobile {
       max-height: 2000px;
       transition: max-height 1s; }
