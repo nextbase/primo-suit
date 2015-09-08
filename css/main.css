@@ -15339,8 +15339,10 @@ table.main {
 @media screen and (max-width: 960px) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
-  #exlidHeaderSystemFeedback,
   #exlidResultsContainer {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #exlidHeaderSystemFeedback {
     padding-left: 20px;
     padding-right: 20px; } }
 
