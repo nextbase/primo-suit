@@ -95,6 +95,12 @@ div.EXLResultsHeader:focus {
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu {
   float: right;
   width: 13em;
+
+  ul li,
+  ul li a {
+    font-size: ($base-font-size - 2px);
+    line-height: 1.4;
+  }
 }
 
 #resultsNavNoId {

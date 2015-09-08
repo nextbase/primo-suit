@@ -8626,6 +8626,10 @@ div.EXLResultsHeader:focus {
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu {
   float: right;
   width: 13em; }
+  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu ul li,
+  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu ul li a {
+    font-size: 14px;
+    line-height: 1.4; }
 
 #resultsNavNoId {
   text-align: right; }
