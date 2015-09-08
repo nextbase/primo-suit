@@ -15375,7 +15375,18 @@ table.main {
     top: 0; }
   .EXLSearchFieldRibbonAdvancedSearchLink {
     right: 0;
-    top: 0; } }
+    top: 0; }
+  #exlidHeaderSearchLimits {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    padding: 0 20px 10px 20px;
+    border-bottom: 0;
+    position: relative;
+    top: -20px; }
+    #exlidHeaderSearchLimits:last-child {
+      margin-right: 0; } }
 
 header#responsive-header {
   margin: 0;

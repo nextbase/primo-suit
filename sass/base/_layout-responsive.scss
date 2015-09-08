@@ -41,4 +41,12 @@
     right: 0;
     top: 0;
   }
+
+  #exlidHeaderSearchLimits {
+    @include span-columns(8 of 8);
+    padding: 0 20px 10px 20px;
+    border-bottom: 0;
+    position: relative;
+    top: -20px;
+  }
 }
