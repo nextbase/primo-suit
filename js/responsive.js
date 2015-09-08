@@ -11,7 +11,7 @@ function wrapInner(parent, wrapperID) {
 
 function initResponsiveHeader() {
     responsiveHeaderHTML = '\
-    <header id="responsive-header"> \
+    <header id="responsive-header" class="js-generated"> \
         <div class="responsive-header-container"> \
             <div class="logo-container"> \
                 <div id="mobile-logo"><a href="http://library.snu.ac.kr">SNUL</a></div> \
