@@ -8606,11 +8606,13 @@ div.EXLResultsHeader:focus {
   display: none; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
+  font-size: 14px;
   float: left;
   width: auto;
   text-align: right; }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a {
+  font-size: 14px;
   margin-left: 0.5em;
   padding-right: 1em;
   background-image: url(../images/icon_arrow_sendTo.png);
