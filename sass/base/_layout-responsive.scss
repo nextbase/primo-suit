@@ -109,6 +109,10 @@ $tabs-width: 270px;
         line-height: 40px;
 
         @include glyphicon($icon-plus, 'after');
+        &:after {
+          font-size: $base-font-size - 3px;
+          margin-left: 10px;
+        }
       }
     }
   }

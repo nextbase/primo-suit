@@ -15448,7 +15448,10 @@ table.main {
         font-weight: normal;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale; } }
+        -moz-osx-font-smoothing: grayscale; }
+      #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
+        font-size: 13px;
+        margin-left: 10px; } }
 
 header#responsive-header {
   margin: 0;
