@@ -17,6 +17,7 @@
   #exlidSearchRibbon div.EXLSearchTabsContainer {
     @include reset-margins;
     height: auto;
+    position: static;
     width: 100%;
   }
 
@@ -29,10 +30,10 @@
   }
 
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    position: static;
     @include span-columns(4 of 4);
     float: none;
     padding-left: 0;
+    margin-top: 10px;
   }
 
 }

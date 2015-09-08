@@ -16043,6 +16043,7 @@ a.navi-back {
     margin: 0;
     padding: 0;
     height: auto;
+    position: static;
     width: 100%; }
   #exlidSearchTabs {
     margin: 0;
@@ -16052,13 +16053,13 @@ a.navi-back {
     position: relative;
     float: left; }
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    position: static;
     float: left;
     display: block;
     margin-right: 7.42297%;
     width: 100%;
     float: none;
-    padding-left: 0; }
+    padding-left: 0;
+    margin-top: 10px; }
     #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
       margin-right: 0; } }
 
