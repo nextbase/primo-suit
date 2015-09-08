@@ -72,6 +72,6 @@ $mobile-side-margins: $mobile-side-padding;
 }
 
 @mixin add-side-margins {
-  padding-left: $mobile-side-margins;
-  padding-right: $mobile-side-margins;
+  margin-left: $mobile-side-margins;
+  margin-right: $mobile-side-margins;
 }
