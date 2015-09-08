@@ -15433,7 +15433,7 @@ table.main {
       transition: max-height 1s; }
       #exlidFacetTile.expanded-for-mobile .filters-expand-title h2:after,
       #exlidFacetTile.expanded-for-mobile .filters-expand-title h2.filters-title:after {
-        content: ""; }
+        content: "−"; }
     #exlidFacetTile .filters-expand-title {
       width: 100%;
       display: block;

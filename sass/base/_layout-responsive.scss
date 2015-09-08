@@ -104,7 +104,7 @@ $tabs-width: 270px;
       .filters-expand-title h2,
       .filters-expand-title h2.filters-title {
         &:after {
-          content: $icon-minus-sign;
+          content: $icon-minus;
         }
       }
     }
