@@ -1,0 +1,233 @@
+@include media($tablets-down) {
+
+  #footer_logo {
+    height: 40px;
+    width: 200px;
+    text-indent: 400px;
+    overflow: hidden;
+    @include retina-image("../images/footer_logo_small", 200px 40px);
+    background-position: left center;
+  }
+
+  #footer {
+    margin-top: 20px;
+
+    .sitemap_wrapper {
+      position: relative;
+    }
+
+    .footer-library-selected {
+      display: none;
+    }
+
+    .site_link_title {
+      float: none;
+      width: 160px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  #sitemap-button {
+    margin-right: 0;
+  }
+
+  .front #sitemap-button {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: $gold-light-secondary;
+    font-size: ($small-font-size + 2px);
+  }
+
+  .sitemap-container {
+    @include outer-container;
+    padding: 30px 0 0 0;
+
+    > ul.menu {
+      li > a,
+      li > a:link,
+      li > a:visited, {
+        font-size: $base-font-size;
+      }
+
+      > li {
+        @include reset-margins;
+        @include span-columns(2 of 8);
+        @include omega(4n);
+        font-size: $h4-fontsize;
+        margin-bottom: 20px;
+
+        > ul.menu > li > a,
+        > ul.menu > li > a:link,
+        > ul.menu > li > a:visited {
+          font-size: $small-font-size;
+          font-weight: normal;
+        }
+
+        > ul.menu > li > ul.menu {
+          display: none;
+        }
+      }
+
+      > li:nth-child(5) {
+        display: none;
+        // hide the libraries
+      }
+
+    }
+  }
+
+  #footer {
+    margin-top: 20px;
+
+    .content {
+      .snu_foot_content .foot_facebook_image_area {
+        display: none;
+      }
+
+      .snu_foot_content {
+        .snu_foot_info_wrapper {
+          display: block;
+          text-align: center;
+          float: none;
+          width: 100%;
+        }
+
+        .footer_logo_wrapper,
+        .snu_foot_image_wrapper {
+          width: 100%;
+          padding: 20px 0;
+        }
+      }
+
+      .footer_logo_wrapper,
+      .snu_foot_image_wrapper {
+        width: 100%;
+        padding: 10px 0;
+
+        .footer_logo_area,
+        .foot_logo_image_area {
+          width: 100%;
+          display: block;
+          float: none;
+          margin: 0 auto;
+          text-align: center;
+
+          #footer_logo {
+            float: none;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 10px;
+          }
+
+          img {
+            max-width: 80%;
+          }
+        }
+      }
+
+      .foot_other_link_area {
+        display: none;
+      }
+
+      .foot_copyright_area,
+      .foot_address_area {
+        width: 100%;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+        font-size: $small-font-size;
+      }
+    }
+  }
+}
+
+@include media($mobile-down) {
+  #footer {
+    .content {
+      .foot_copyright_area,
+      .foot_address_area {
+        font-size: ($small-font-size - 2px);
+      }
+    }
+  }
+
+  .sitemap-container {
+    @include outer-container;
+    padding: 20px 0 0 0;
+
+    > ul.menu {
+
+      > li {
+        @include reset-margins;
+        @include span-columns(4 of 8);
+        @include omega(2n);
+        font-size: $h4-fontsize;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@include media($desktop) {
+  .front .footer_related_link {
+    display: block;
+
+    ul.menu li {
+      @include transition(padding .5s $ease-out-back, font .5s $ease-out-back);
+    }
+  }
+
+  .i18n-ko {
+    &.front .footer_related_link ul.menu li {
+      padding-right: 34px;
+
+      &:last-chid {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@include media(new-breakpoint(max-width 1180px)) {
+  .front .footer_related_link ul.menu li {
+    padding-right: 16px;
+
+    &:last-chid {
+      padding-right: 0;
+    }
+  }
+
+  .i18n-ko {
+    &.front .footer_related_link ul.menu li {
+      padding-right: 28px;
+
+      &:last-chid {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+@include media(new-breakpoint(max-width 1100px)) {
+  .front .footer_related_link ul.menu li {
+    font-size: $small-font-size;
+    line-height: 1.6;
+    padding-right: 15px;
+
+    &:last-chid {
+      padding-right: 0;
+    }
+  }
+
+  .i18n-ko {
+    &.front .footer_related_link ul.menu li {
+      padding-right: 22px;
+
+      &:last-chid {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
