@@ -15424,14 +15424,20 @@ table.main {
     #exlidMainMenuRibbon li .EXLMainMenuITEMcitationlinker,
     #exlidMainMenuRibbon li .EXLMainMenuITEMlibrary_home {
       display: none; }
-  #resultsNavNoId span, #resultsNavNoId a {
+  #resultsNavNoId span,
+  #resultsNavNoId a,
+  #resultsNavNoIdBottom span, #resultsNavNoIdBottom a {
     display: none; }
   #resultsNavNoId a[title*="Previous"],
-  #resultsNavNoId a.EXLNext {
+  #resultsNavNoId a.EXLNext,
+  #resultsNavNoIdBottom a[title*="Previous"],
+  #resultsNavNoIdBottom a.EXLNext {
     display: inline-block;
     float: none; }
     #resultsNavNoId a[title*="Previous"] img,
-    #resultsNavNoId a.EXLNext img {
+    #resultsNavNoId a.EXLNext img,
+    #resultsNavNoIdBottom a[title*="Previous"] img,
+    #resultsNavNoIdBottom a.EXLNext img {
       margin-left: 0; }
   #exlidFacetTile, .EXLFacetTile {
     float: left;
