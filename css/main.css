@@ -15431,6 +15431,9 @@ table.main {
     #exlidFacetTile.expanded-for-mobile {
       max-height: 2000px;
       transition: max-height 1s; }
+      #exlidFacetTile.expanded-for-mobile .filters-expand-title h2:after,
+      #exlidFacetTile.expanded-for-mobile .filters-expand-title h2.filters-title:after {
+        content: ""; }
     #exlidFacetTile .filters-expand-title {
       width: 100%;
       display: block;
