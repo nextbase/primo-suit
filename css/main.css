@@ -15409,7 +15409,8 @@ table.main {
     border-left-width: 0; }
     #exlidMainMenuRibbon li a {
       margin-left: 0;
-      margin-right: 15px; }
+      margin-right: 15px;
+      font-weight: bold; }
     #exlidMainMenuRibbon li .EXLMainMenuITEMcitationlinker,
     #exlidMainMenuRibbon li .EXLMainMenuITEMlibrary_home {
       display: none; }
