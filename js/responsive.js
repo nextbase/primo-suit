@@ -90,7 +90,8 @@ function convertResponsiveMenu(desktopMenu) {
     // Initial Variables
     menuContainer    = $('#responsive-menu');
     responsiveMenu   = desktopMenu.clone();
-    menuLevelDiv     = '<div class="navi-level"></div>';
+    menuLevelOneDiv  = '<div class="navi-level"></div>';
+    menuLevelTwoDiv  = '<div class="navi-level" data-level="2"></div>';
     firstLevelItems  = responsiveMenu.children('li');
     submenuTitleDiv  = '<h2 class="submenu-title"></h2>';
     backButtonAnchor = '<a class="navi-back" href="#">back</a>';
@@ -106,13 +107,13 @@ function convertResponsiveMenu(desktopMenu) {
         title = $(this).children('a').first();
         $(backButtonAnchor).insertAfter(title);
         $(submenuTitleDiv).append(title.text()).insertAfter(title);
-        $(this).wrapInner(menuLevelDiv);
+        $(this).wrapInner('<div class="navi-level"></div>');
         $(this).prepend(title);
     });
 
     // Combine Levels
     menuContainer.append(responsiveMenu);
-    menuContainer.wrapInner(menuLevelDiv);
+    menuContainer.wrapInner(menuLevelOneDiv);
 
     return menuContainer;
 }
