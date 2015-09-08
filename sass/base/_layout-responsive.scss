@@ -95,10 +95,11 @@ $tabs-width: 270px;
   #exlidFacetTile {
     max-height: 40px;
     overflow: hidden;
-    @include transition(max-height .5s $ease-in-back);
+    @include transition(max-height .5s);
 
     &.expanded-for-mobile {
       max-height: 2000px;
+      @include transition(max-height 1s);
     }
 
     .filters-expand-title {

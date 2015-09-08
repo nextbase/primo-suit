@@ -15427,9 +15427,10 @@ table.main {
   #exlidFacetTile {
     max-height: 40px;
     overflow: hidden;
-    transition: max-height 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+    transition: max-height 0.5s; }
     #exlidFacetTile.expanded-for-mobile {
-      max-height: 2000px; }
+      max-height: 2000px;
+      transition: max-height 1s; }
     #exlidFacetTile .filters-expand-title {
       width: 100%;
       display: block;
