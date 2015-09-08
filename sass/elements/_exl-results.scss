@@ -71,6 +71,7 @@ div.EXLResultsHeader:focus {
     margin-left: 20px;
     height: 20px;
     margin-top: 8px;
+    max-width: 140px;
 }
 
 #resultsNumbersTileBottom div.EXLResultsSortBy {
@@ -107,9 +108,9 @@ div.EXLResultsHeader:focus {
     margin-top: 2px;
     padding: 0em 0.5em 0.1em 0.3em;
     background-color: #efefef;
-    width: 7em;
+    width: 120px;
     position: absolute;
-    margin-left: 5em;
+    margin-left: 20px;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy ul.EXLResultsSortByMenuHide {
