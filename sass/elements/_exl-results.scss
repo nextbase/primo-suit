@@ -8,6 +8,10 @@ div.EXLResultsContainer:focus {
   outline: none;
 }
 
+#exlidResultsContainer .EXLResultsHeader {
+  z-index: 10;
+}
+
 div.EXLResultsHeader:focus {
   outline: none;
 }
