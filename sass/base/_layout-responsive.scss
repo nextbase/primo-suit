@@ -88,8 +88,8 @@ $tabs-width: 270px;
 
     a.EXLPrevious,
     a.EXLNext {
-      display: block;
-      float: right;
+      display: inline-block;
+      float: none;
     }
   }
 
