@@ -15428,6 +15428,20 @@ table.main {
     max-height: 40px;
     overflow: hidden;
     transition: max-height 0.5s; }
+    #exlidFacetTile > div:first-child {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%; }
+      #exlidFacetTile > div:first-child:last-child {
+        margin-right: 0; }
+    #exlidFacetTile > div {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      #exlidFacetTile > div:last-child {
+        margin-right: 0; }
     #exlidFacetTile.expanded-for-mobile {
       max-height: 2000px;
       transition: max-height 1s; }
