@@ -15766,7 +15766,7 @@ header#responsive-header {
   box-shadow: inset 0 -1px transparent, inset 0 1px transparent; }
 
 /* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks */
-.navi-back {
+a.navi-back {
   position: relative;
   display: block;
   padding: 1em;
@@ -15779,7 +15779,7 @@ header#responsive-header {
   font-weight: 700;
   font-size: 12px;
   transition: background 0.3s; }
-  .navi-back:before {
+  a.navi-back:before {
     content: "";
     position: relative;
     top: 1px;
@@ -15790,10 +15790,13 @@ header#responsive-header {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  .navi-back:hover,
-  .navi-back:active {
+  a.navi-back:link,
+  a.navi-back:visited {
     color: #ffffff; }
-  .navi-back:before {
+  a.navi-back:hover,
+  a.navi-back:active {
+    color: #ffffff; }
+  a.navi-back:before {
     font-size: 12px;
     margin-right: 4px; }
 

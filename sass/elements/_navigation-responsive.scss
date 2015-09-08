@@ -323,7 +323,7 @@ $mobile-larger-menu-width: 310px;
 
 /* seems like Chrome 34.0.1847.131 needs the second shadow otherwise the transition breaks */
 
-.navi-back {
+a.navi-back {
   position: relative;
   display: block;
   padding: 1em;
@@ -339,9 +339,14 @@ $mobile-larger-menu-width: 310px;
   transition: background 0.3s;
   @include glyphicon($icon-chevron-left);
 
+  &:link,
+  &:visited {
+    color: $mobile-menu-link-color;
+  }
+
   &:hover,
   &:active {
-    color: $white;
+    color: $mobile-menu-link-color;
   }
 
   &:before {
