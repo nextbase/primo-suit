@@ -93,6 +93,13 @@ $tabs-width: 270px;
 
   /* Expandable Filters */
   #exlidFacetTile {
+    max-height: 40px;
+    @include transition(max-height .5s $ease-in-back);
+
+    &.expanded-for-mobile {
+      max-height: 2000px;
+    }
+
     .filters-expand-title {
       width: 100%;
       display: block;

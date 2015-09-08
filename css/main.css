@@ -15424,34 +15424,39 @@ table.main {
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; }
   /* Expandable Filters */
-  #exlidFacetTile .filters-expand-title {
-    width: 100%;
-    display: block;
-    float: none;
-    clear: both;
-    cursor: pointer; }
-    #exlidFacetTile .filters-expand-title h2, #exlidFacetTile .filters-expand-title h2.filters-title {
-      margin: 0;
-      padding: 0;
-      font-size: 16px;
-      font-weight: bold;
+  #exlidFacetTile {
+    max-height: 40px;
+    transition: max-height 0.5s cubic-bezier(0.6, -0.28, 0.735, 0.045); }
+    #exlidFacetTile.expanded-for-mobile {
+      max-height: 2000px; }
+    #exlidFacetTile .filters-expand-title {
+      width: 100%;
       display: block;
-      height: 40px;
-      line-height: 40px; }
-      #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
-        content: "+";
-        position: relative;
-        top: 1px;
-        display: inline-block;
-        font-family: 'Glyphicons Halflings';
-        font-style: normal;
-        font-weight: normal;
-        line-height: 1;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale; }
-      #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
-        font-size: 13px;
-        margin-left: 10px; } }
+      float: none;
+      clear: both;
+      cursor: pointer; }
+      #exlidFacetTile .filters-expand-title h2, #exlidFacetTile .filters-expand-title h2.filters-title {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        height: 40px;
+        line-height: 40px; }
+        #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
+          content: "+";
+          position: relative;
+          top: 1px;
+          display: inline-block;
+          font-family: 'Glyphicons Halflings';
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
+        #exlidFacetTile .filters-expand-title h2:after, #exlidFacetTile .filters-expand-title h2.filters-title:after {
+          font-size: 13px;
+          margin-left: 10px; } }
 
 header#responsive-header {
   margin: 0;
