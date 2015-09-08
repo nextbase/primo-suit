@@ -106,6 +106,7 @@ function convertResponsiveMenu(desktopMenu) {
         title = $(this).children('a').first();
         $(backButtonAnchor).insertAfter(title);
         $(submenuTitleDiv).append(title.text()).insertAfter(title);
+        menuLevelDiv.attr('data-level', "2");
         $(this).wrapInner(menuLevelDiv);
         $(this).prepend(title);
     });
