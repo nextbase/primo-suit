@@ -103,8 +103,6 @@ function initResponsiveMenu(callback) {
 }
 
 $(document).ready(function () {
-    // Responsive Header
-    initResponsiveHeader();
     // Responsive Containers
     initResponsiveContainers();
     // Responsive Menu
