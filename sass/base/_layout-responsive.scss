@@ -2,6 +2,12 @@
 
 $tabs-width: 270px;
 
+#exlidFacetTile {
+  .filters-expand-title {
+    display: none;
+  }
+}
+
 @include media($tablets-down) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
