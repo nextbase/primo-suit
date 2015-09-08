@@ -82,10 +82,11 @@ $tabs-width: 270px;
   }
 
   #resultsNavNoId {
-    .span, a {
+    span, a {
       display: none;
     }
-    
+
+    a.EXLPrevious,
     a.EXLNext {
       display: block;
       float: right;

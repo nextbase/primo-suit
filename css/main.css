@@ -15408,8 +15408,9 @@ table.main {
   #EXLMainMenuITEMcitationlinker,
   #EXLMainMenuITEMlibrary_home {
     display: none; }
-  #resultsNavNoId .span, #resultsNavNoId a {
+  #resultsNavNoId span, #resultsNavNoId a {
     display: none; }
+  #resultsNavNoId a.EXLPrevious,
   #resultsNavNoId a.EXLNext {
     display: block;
     float: right; }
