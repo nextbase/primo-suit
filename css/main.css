@@ -15424,7 +15424,7 @@ table.main {
   #exlidFacetTile .filters-expand-title {
     width: 100%;
     display: block;
-    float: left;
+    float: none;
     clear: both; }
     #exlidFacetTile .filters-expand-title h2, #exlidFacetTile .filters-expand-title h2.filters-title {
       display: block;
