@@ -71,7 +71,7 @@ $tabs-width: 270px;
 @include media(new-breakpoint(max-width 800px)) {
   // Special Case Layout
 
-  .EXLFacetTile {
+  #exlidFacetTile, .EXLFacetTile {
     @include span-columns(8 of 8);
     margin-bottom: 20px;
   }

@@ -15402,13 +15402,13 @@ table.main {
       margin-right: 0; } }
 
 @media screen and (max-width: 800px) {
-  .EXLFacetTile {
+  #exlidFacetTile, .EXLFacetTile {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 100%;
     margin-bottom: 20px; }
-    .EXLFacetTile:last-child {
+    #exlidFacetTile:last-child, .EXLFacetTile:last-child {
       margin-right: 0; }
   .EXLFacetActionsV2 {
     display: none; }
