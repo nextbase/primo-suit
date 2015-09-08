@@ -15349,6 +15349,18 @@ table.main {
   #exlidHeaderSystemFeedback {
     margin-left: 20px;
     margin-right: 20px; }
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    position: relative;
+    float: left;
+    padding-left: 340px; }
+    #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
+      margin-right: 0; }
   .EXLSearchFieldRibbonBrowseSearchLink,
   .EXLSearchFieldRibbonAdvancedSearchLink {
     position: static;

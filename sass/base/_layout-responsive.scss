@@ -11,6 +11,14 @@
     @include add-side-margins;
   }
 
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    @include reset-margins;
+    @include span-columns(8 of 8);
+    position: relative;
+    float: left;
+    padding-left: $tabs-width + 20px;
+  }
+
   .EXLSearchFieldRibbonBrowseSearchLink,
   .EXLSearchFieldRibbonAdvancedSearchLink {
     position: static;
