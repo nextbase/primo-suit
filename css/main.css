@@ -8625,7 +8625,8 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu {
   float: right;
-  width: 13em; }
+  width: 13em;
+  z-index: 100; }
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu ul li,
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy div.EXLResultsSortByMenu ul li a {
     font-size: 14px;
