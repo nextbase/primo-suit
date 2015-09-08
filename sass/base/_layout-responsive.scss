@@ -59,11 +59,25 @@ $tabs-width: 270px;
 
   // Search Blocks
   .EXLFacetTile {
-    @include span-columns(3.5 of 8);
+    @include span-columns(2.5 of 8);
   }
 
   .EXLResultsContainer div.EXLResultsTile {
     @include span-columns(5.5 of 8);
     @include omega();
   }
+}
+
+@include media(new-breakpoint(max-width 800px)) {
+  // Special Case Layout
+
+  .EXLFacetTile {
+    @include span-columns(8 of 8);
+  }
+
+  .EXLResultsContainer div.EXLResultsTile {
+    @include span-columns(8 of 8);
+    @include omega();
+  }
+
 }
