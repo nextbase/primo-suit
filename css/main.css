@@ -16060,6 +16060,60 @@ a.navi-back {
     div.EXLSearchFieldRibbon:last-child {
       margin-right: 0; } }
 
+.EXLResultTabContainer div.EXLTabHeader {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f0;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #e1e1e1;
+  min-height: 45px;
+  height: auto;
+  border-left: 1px solid #bcbdb6;
+  border-right: 1px solid #bcbdb6;
+  display: block; }
+
+* html .EXLResultTabContainer div.EXLTabHeader {
+  height: auto;
+  min-height: 45px; }
+  * html .EXLResultTabContainer div.EXLTabHeader::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.EXLTabHeader div.EXLTabHeaderContent {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  color: #333333;
+  padding: 10px 20px;
+  white-space: nowrap;
+  overflow: hidden; }
+  .EXLTabHeader div.EXLTabHeaderContent:last-child {
+    margin-right: 0; }
+
+.EXLTabHeader div.EXLTabHeaderContent em {
+  color: #333333;
+  font-weight: normal;
+  padding-right: 20px; }
+
+.EXLTabHeader div.EXLTabHeaderContent span {
+  padding: 0.3em;
+  width: auto; }
+
+.EXLTabHeader div.EXLTabHeaderContent span a {
+  color: #333333; }
+
+.EXLTabHeader div.EXLTabHeaderContent span.selected {
+  background-color: #FFFFFF;
+  border: 1px solid #8fb9d0;
+  display: inline;
+  height: 20px;
+  padding: 0px 5px 0px 5px; }
+
 @media screen and (max-width: 960px) {
   #footer_logo {
     height: 40px;
