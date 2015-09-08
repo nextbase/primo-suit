@@ -15912,16 +15912,17 @@ a.navi-back {
 .i18n-ko .language-choice.ko {
   display: none; }
 
-#exlidSearchTabs li {
-  margin: 0;
-  padding: 0;
-  float: left;
-  margin-left: -2px;
-  padding: 0;
-  border: 0; }
-  #exlidSearchTabs li a {
-    font-size: 12px;
-    padding: 9.5px 10px 11.5px 10px; }
+@media screen and (max-width: 960px) {
+  #exlidSearchTabs li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: -2px;
+    padding: 0;
+    border: 0; }
+    #exlidSearchTabs li a {
+      font-size: 12px;
+      padding: 9.5px 10px 11.5px 10px; } }
 
 @media screen and (max-width: 960px) {
   #footer_logo {
