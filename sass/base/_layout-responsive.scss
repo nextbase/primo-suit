@@ -59,11 +59,11 @@ $tabs-width: 270px;
 
   // Search Blocks
   .EXLFacetTile {
-    @include span-columns(2 of 8);
+    @include span-columns(3 of 8);
   }
 
   .EXLResultsContainer div.EXLResultsTile {
-    @include span-columns(6 of 8);
+    @include span-columns(5 of 8);
     @include omega();
   }
 }
