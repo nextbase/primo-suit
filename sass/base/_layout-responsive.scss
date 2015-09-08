@@ -3,6 +3,7 @@
 @include media($tablets-down) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
+  #exlidHeaderSystemFeedback,
   #exlidResultsContainer {
     @include add-side-paddings;
   }
