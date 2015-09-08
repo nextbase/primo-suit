@@ -16,9 +16,9 @@
 @include media($mobile-down) {
   #exlidSearchRibbon div.EXLSearchTabsContainer {
     @include reset-margins;
-    height: auto;
     position: static;
     width: 100%;
+    height: 40px;
   }
 
   #exlidSearchTabs {
