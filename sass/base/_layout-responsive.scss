@@ -1,5 +1,7 @@
 /* Responsive Layout Related Styles */
 
+$tabs-width: 270px;
+
 @include media($tablets-down) {
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
