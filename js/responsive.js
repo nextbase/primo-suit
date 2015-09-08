@@ -7,6 +7,14 @@ $.fn.exists = function(callback) {
     return this;
 };
 
+$.fn.existsNot = function(callback) {
+    var args = [].slice.call(arguments, 1);
+    if (!this.length) {
+        callback.call(this, args);
+    }
+    return this;
+};
+
 function wrapInner(parent, wrapperID) {
     wrapper = document.createElement('div');
     wrapper.setAttribute('id', wrapperID);
@@ -19,7 +27,7 @@ function wrapInner(parent, wrapperID) {
 }
 
 function initResponsiveHeader() {
-    $("#responsive-header").exists(function() {
+    $("#responsive-header").existsNot(function() {
         responsiveHeaderHTML = '\
         <header id="responsive-header" class="js-generated"> \
             <div class="responsive-header-container"> \
