@@ -15385,12 +15385,12 @@ table.main {
       top: -20px; }
       #exlidHeaderSearchLimits fieldset:last-child {
         margin-right: 0; }
-  .exlidFacetTile {
+  .EXLFacetTile {
     float: left;
     display: block;
     margin-right: 3.57866%;
     width: 22.316%; }
-    .exlidFacetTile:last-child {
+    .EXLFacetTile:last-child {
       margin-right: 0; }
   .EXLResultsContainer div.EXLResultsTile {
     float: left;
