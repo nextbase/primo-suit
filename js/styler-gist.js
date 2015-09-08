@@ -5,15 +5,7 @@ setTimeout(function() {
     document.body.appendChild(example);
 }, 4000);
 
-removeAllStylesheetLinks();
-
-function removeAllStylesheetLinks() {
-    var stylesheets = document.getElementsByTagName('link'), i, sheet;
-
-    for(i in stylesheets) {
-        sheet = stylesheets[i];
-
-        if(sheet.getAttribute('type').toLowerCase() == 'text/css')
-            sheet.parentNode.removeChild(sheet);
-    }
-}
+// To delete the current stylesheets do this
+setTimeout(function() {
+    $('link[rel=stylesheet]').remove();
+}, 1000);

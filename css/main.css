@@ -15878,6 +15878,11 @@ a.navi-back {
       margin: 0 auto; }
   #sitemap-button {
     margin-right: 0; }
+  .front #sitemap-button {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #a9967e;
+    font-size: 16px; }
   .sitemap-container {
     max-width: 1170px;
     margin-left: auto;
@@ -15992,3 +15997,13 @@ a.navi-back {
         margin-right: 0; }
       .sitemap-container > ul.menu > li:nth-child(2n+1) {
         clear: left; } }
+
+@media screen and (min-width: 960px) {
+  .front .footer_related_link {
+    display: block; }
+    .front .footer_related_link ul.menu li {
+      transition: padding 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), font 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+  .i18n-ko.front .footer_related_link ul.menu li {
+    padding-right: 34px; }
+    .i18n-ko.front .footer_related_link ul.menu li:last-chid {
+      padding-right: 0; } }

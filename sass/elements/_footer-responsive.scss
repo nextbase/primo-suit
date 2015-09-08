@@ -32,6 +32,13 @@
     margin-right: 0;
   }
 
+  .front #sitemap-button {
+    padding: 10px 20px;
+    height: 40px;
+    background-color: $gold-light-secondary;
+    font-size: ($small-font-size + 2px);
+  }
+
   .sitemap-container {
     @include outer-container;
     padding: 30px 0 0 0;
@@ -157,6 +164,26 @@
         @include omega(2n);
         font-size: $h4-fontsize;
         margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@include media($desktop) {
+  .front .footer_related_link {
+    display: block;
+
+    ul.menu li {
+      @include transition(padding .5s $ease-out-back, font .5s $ease-out-back);
+    }
+  }
+
+  .i18n-ko {
+    &.front .footer_related_link ul.menu li {
+      padding-right: 34px;
+
+      &:last-chid {
+        padding-right: 0;
       }
     }
   }
