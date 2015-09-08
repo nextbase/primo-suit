@@ -77,6 +77,8 @@ $tabs-width: 250px;
 @include media(new-breakpoint(max-width 800px)) {
   // Special Case Layout
   #exlidMainMenuRibbon li {
+    border-left-width: 0;
+
     .EXLMainMenuITEMcitationlinker,
     .EXLMainMenuITEMlibrary_home {
       display: none;
