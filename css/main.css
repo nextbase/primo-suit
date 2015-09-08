@@ -15335,6 +15335,14 @@ table.main {
 .EXLCurrentLang_ko_KR #english-sitemap {
   display: none !important; }
 
+/* Responsive Layout Related Styles */
+@media screen and (max-width: 960px) {
+  #exlidMainMenuTile,
+  #exlidSearchTileWrapper,
+  #exlidResultsContainer {
+    padding-left: 20px;
+    padding-right: 20px; } }
+
 header#responsive-header {
   margin: 0;
   padding: 0;

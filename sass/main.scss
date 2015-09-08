@@ -62,8 +62,9 @@
 @import 'elements/temporary';
 
 // Responsive Design
-@import 'base/responsive-rules';
 @import 'variables/language';
+@import 'base/responsive-rules';
+@import 'base/layout-responsive';
 @import 'elements/header-responsive';
 @import 'elements/navigation-responsive';
 @import 'elements/footer-responsive';

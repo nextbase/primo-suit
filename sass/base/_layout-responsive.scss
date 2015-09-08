@@ -1,0 +1,9 @@
+/* Responsive Layout Related Styles */
+
+@include media($tablets-down) {
+  #exlidMainMenuTile,
+  #exlidSearchTileWrapper,
+  #exlidResultsContainer {
+    @include add-side-paddings;
+  }
+}

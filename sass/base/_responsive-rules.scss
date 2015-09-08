@@ -1,15 +1,6 @@
 // General Responsive Rules
 
-//body {
-//	overflow: scroll !important;
-//	min-width: 900px;
-//}
-
-//#contentEXL {
-//	min-width: 900px;
-//}
-
-@include media($tablets-down) {
+@include media($mobile-down) {
 	// Hide Some Stuff
 
 	// .folders_new,
