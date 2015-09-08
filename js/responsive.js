@@ -115,7 +115,6 @@ function initFilterExpand() {
         } else {
             $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
         }
-
         expandableMobileFacet($(this).find(".filters-expand-title"), $(this));
     });
 }
