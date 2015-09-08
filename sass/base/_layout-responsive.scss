@@ -10,4 +10,19 @@
   #exlidHeaderSystemFeedback {
     @include add-side-margins;
   }
+
+  .EXLSearchFieldRibbonBrowseSearchLink,
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    position: static;
+  }
+
+  .EXLSearchFieldRibbonBrowseSearchLink {
+    right: 0;
+    top: 0;
+  }
+
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    right: 0;
+    top: 0;
+  }
 }

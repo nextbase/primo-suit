@@ -15348,7 +15348,16 @@ table.main {
     padding-right: 20px; }
   #exlidHeaderSystemFeedback {
     margin-left: 20px;
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  .EXLSearchFieldRibbonBrowseSearchLink,
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    position: static; }
+  .EXLSearchFieldRibbonBrowseSearchLink {
+    right: 0;
+    top: 0; }
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    right: 0;
+    top: 0; } }
 
 header#responsive-header {
   margin: 0;
