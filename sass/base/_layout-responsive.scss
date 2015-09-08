@@ -81,6 +81,17 @@ $tabs-width: 270px;
     display: none;
   }
 
+  #resultsNavNoId {
+    .span, a {
+      display: none;
+    }
+    
+    a.EXLNext {
+      display: block;
+      float: right;
+    }
+  }
+
   #exlidFacetTile, .EXLFacetTile {
     @include span-columns(8 of 8);
     margin-bottom: 20px;

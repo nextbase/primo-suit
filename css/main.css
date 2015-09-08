@@ -15408,6 +15408,11 @@ table.main {
   #EXLMainMenuITEMcitationlinker,
   #EXLMainMenuITEMlibrary_home {
     display: none; }
+  #resultsNavNoId .span, #resultsNavNoId a {
+    display: none; }
+  #resultsNavNoId a.EXLNext {
+    display: block;
+    float: right; }
   #exlidFacetTile, .EXLFacetTile {
     float: left;
     display: block;
