@@ -56,4 +56,14 @@ $tabs-width: 270px;
       top: -20px;
     }
   }
+
+  // Search Blocks
+  .exlidFacetTile {
+    @include span-columns(2 of 8);
+  }
+
+  .EXLResultsContainer div.EXLResultsTile {
+    @include span-columns(6 of 8);
+    @include omega();
+  }
 }

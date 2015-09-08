@@ -21,13 +21,6 @@ div.EXLResultsHeader:focus {
     border-left: none;
 }
 
-@include media($tablets-down) {
-    .EXLResultsContainer div.EXLResultsTile {
-        @include span-columns(8);
-        @include omega();
-    }
-}
-
 .EXLResultsHeader {
     display: block;
     border: 0px solid $blue;

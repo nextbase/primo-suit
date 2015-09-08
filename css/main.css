@@ -8557,16 +8557,6 @@ div.EXLResultsHeader:focus {
   .EXLResultsContainer div.EXLResultsTile:last-child {
     margin-right: 0; }
 
-@media screen and (max-width: 960px) {
-  .EXLResultsContainer div.EXLResultsTile {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-right: 0; }
-    .EXLResultsContainer div.EXLResultsTile:last-child {
-      margin-right: 0; } }
-
 .EXLResultsHeader {
   display: block;
   border: 0px solid #34aacc;
@@ -15394,7 +15384,22 @@ table.main {
       position: relative;
       top: -20px; }
       #exlidHeaderSearchLimits fieldset:last-child {
-        margin-right: 0; } }
+        margin-right: 0; }
+  .exlidFacetTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 22.316%; }
+    .exlidFacetTile:last-child {
+      margin-right: 0; }
+  .EXLResultsContainer div.EXLResultsTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 74.10533%;
+    margin-right: 0; }
+    .EXLResultsContainer div.EXLResultsTile:last-child {
+      margin-right: 0; } }
 
 header#responsive-header {
   margin: 0;
