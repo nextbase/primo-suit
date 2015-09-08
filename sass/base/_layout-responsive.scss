@@ -79,6 +79,11 @@ $tabs-width: 250px;
   #exlidMainMenuRibbon li {
     border-left-width: 0;
 
+    a {
+      margin-left: 0;
+      margin-right: 15px;
+    }
+
     .EXLMainMenuITEMcitationlinker,
     .EXLMainMenuITEMlibrary_home {
       display: none;

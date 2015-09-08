@@ -15407,6 +15407,9 @@ table.main {
 @media screen and (max-width: 800px) {
   #exlidMainMenuRibbon li {
     border-left-width: 0; }
+    #exlidMainMenuRibbon li a {
+      margin-left: 0;
+      margin-right: 15px; }
     #exlidMainMenuRibbon li .EXLMainMenuITEMcitationlinker,
     #exlidMainMenuRibbon li .EXLMainMenuITEMlibrary_home {
       display: none; }
