@@ -15383,12 +15383,18 @@ table.main {
     width: 100%;
     padding: 0 20px 0 20px;
     border-bottom: 0;
-    position: relative; }
+    margin-bottom: 0; }
     #exlidHeaderSearchLimits:last-child {
       margin-right: 0; }
     #exlidHeaderSearchLimits fieldset {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
       position: relative;
-      top: -20px; } }
+      top: -20px; }
+      #exlidHeaderSearchLimits fieldset:last-child {
+        margin-right: 0; } }
 
 header#responsive-header {
   margin: 0;
