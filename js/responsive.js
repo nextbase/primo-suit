@@ -127,15 +127,15 @@ function initResponsiveMenu(callback) {
     callback();
 }
 
-$(document).ready(function () {
-    // Responsive Header
-    initResponsiveHeader();
-    // Responsive Containers
-    initResponsiveContainers();
-    // Responsive Menu
-    initResponsiveMenu(function() {
-        new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
-            type: 'cover'
-        });
-    });
-});
+//$(document).ready(function () {
+//    // Responsive Header
+//    initResponsiveHeader();
+//    // Responsive Containers
+//    initResponsiveContainers();
+//    // Responsive Menu
+//    initResponsiveMenu(function() {
+//        new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
+//            type: 'cover'
+//        });
+//    });
+//});
