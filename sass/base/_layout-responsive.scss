@@ -68,6 +68,12 @@ $tabs-width: 270px;
   }
 }
 
+#exlidFacetTile {
+  .filters-expand-title {
+    display: none;
+  }
+}
+
 @include media(new-breakpoint(max-width 800px)) {
   // Special Case Layout
 
@@ -83,12 +89,6 @@ $tabs-width: 270px;
   .EXLResultsContainer div.EXLResultsTile {
     @include span-columns(8 of 8);
     @include omega();
-  }
-
-  #exlidFacetTile {
-    .filters-expand-title {
-      display: none;
-    }
   }
 
   /* Expandable Filters */

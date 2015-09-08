@@ -15401,6 +15401,9 @@ table.main {
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; } }
 
+#exlidFacetTile .filters-expand-title {
+  display: none; }
+
 @media screen and (max-width: 800px) {
   #exlidFacetTile, .EXLFacetTile {
     float: left;
@@ -15420,8 +15423,6 @@ table.main {
     margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; }
-  #exlidFacetTile .filters-expand-title {
-    display: none; }
   /* Expandable Filters */
   #exlidFacetTile .filters-expand-title {
     width: 100%;
