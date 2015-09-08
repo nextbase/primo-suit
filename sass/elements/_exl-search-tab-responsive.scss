@@ -30,7 +30,7 @@
     float: left;
   }
 
-  div.EXLSearchFieldRibbon {
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
     position: static;
     @include span-columns(4 of 4);
     float: none;

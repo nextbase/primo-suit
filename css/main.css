@@ -16049,7 +16049,7 @@ a.navi-back {
     z-index: 0;
     position: relative;
     float: left; }
-  div.EXLSearchFieldRibbon {
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
     position: static;
     float: left;
     display: block;
@@ -16057,7 +16057,7 @@ a.navi-back {
     width: 100%;
     float: none;
     padding-left: 0; }
-    div.EXLSearchFieldRibbon:last-child {
+    #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
       margin-right: 0; } }
 
 .EXLResultTabContainer div.EXLTabHeader {
