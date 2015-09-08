@@ -15349,6 +15349,8 @@ table.main {
   #exlidHeaderSystemFeedback {
     margin-left: 20px;
     margin-right: 20px; }
+  #exlidSearchRibbon {
+    padding-bottom: 10px; }
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
     margin: 0;
     padding: 0;
@@ -15366,7 +15368,8 @@ table.main {
     position: static;
     float: left;
     margin-top: 10px;
-    margin-right: 20px; }
+    margin-right: 20px;
+    margin-bottom: 0; }
   .EXLSearchFieldRibbonBrowseSearchLink {
     margin-left: 340px;
     right: 0;
