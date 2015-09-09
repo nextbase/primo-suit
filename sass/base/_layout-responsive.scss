@@ -3,9 +3,10 @@
 $tabs-width: 250px;
 
 @include media($tablets-down) {
-  
+
+  #exlidUserAreaTile ul,
   #exlidUserAreaRibbon {
-    display: none;
+    display: none !important;
   }
   
   #exlidMainMenuTile,
