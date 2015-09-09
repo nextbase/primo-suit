@@ -2753,7 +2753,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   font-weight: normal;
   height: 20px;
   cursor: pointer;
-  background-image: url(../css/images/bg_strip_btn_orange.png);
+  background-image: url(http://nextbase.github.io/primo-suit/images/old/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   display: block;
   line-height: 160%;
@@ -2766,7 +2766,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   cursor: wait; }
 
 .EXLPopupImportCitationContainer div.EXLPopupImportCitationButtonCancel span input {
-  background-image: url(../css/images/bg_strip_btn_grey.png); }
+  background-image: url(http://nextbase.github.io/primo-suit/images/old/bg_strip_btn_grey.png); }
 
 #exlidPopupPermalinkContainer {
   z-index: 1002; }
@@ -3652,34 +3652,34 @@ ol li {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
   font-weight: 200;
-  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot");
-  src: local("Nanum Barun Gothic UltraLight"), local("NanumBarunGothicUltraLight"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.ttf") format("truetype"); }
+  src: url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot");
+  src: local("Nanum Barun Gothic UltraLight"), local("NanumBarunGothicUltraLight"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.eot?#iefix") format("embedded-opentype"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff2") format("woff2"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.woff") format("woff"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicUltraLight.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.eot");
-  src: local("Nanum Barun Gothic Light"), local("NanumBarunGothicLight"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicLight.ttf") format("truetype"); }
+  src: url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicLight.eot");
+  src: local("Nanum Barun Gothic Light"), local("NanumBarunGothicLight"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicLight.eot?#iefix") format("embedded-opentype"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicLight.woff2") format("woff2"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicLight.woff") format("woff"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicLight.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/nanum-barun/fonts/NanumBarunGothic.eot");
-  src: local("Nanum Barun Gothic"), local("NanumBarunGothic"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothic.ttf") format("truetype"); }
+  src: url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothic.eot");
+  src: local("Nanum Barun Gothic"), local("NanumBarunGothic"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothic.eot?#iefix") format("embedded-opentype"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothic.woff2") format("woff2"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothic.woff") format("woff"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothic.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Nanum Barun Gothic';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.eot");
-  src: local("Nanum Barun Gothic Bold"), local("NanumBarunGothicBold"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.eot?#iefix") format("embedded-opentype"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.woff2") format("woff2"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.woff") format("woff"), url("../fonts/nanum-barun/fonts/NanumBarunGothicBold.ttf") format("truetype"); }
+  src: url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicBold.eot");
+  src: local("Nanum Barun Gothic Bold"), local("NanumBarunGothicBold"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicBold.eot?#iefix") format("embedded-opentype"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicBold.woff2") format("woff2"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicBold.woff") format("woff"), url("http://nextbase.github.io/primo-suit/fonts/nanum-barun/fonts/NanumBarunGothicBold.ttf") format("truetype"); }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/glyphicons-halflings-regular.eot");
-  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.eot");
+  src: url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.woff") format("woff"), url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("http://nextbase.github.io/primo-suit/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
 label {
   font-size: 14px;

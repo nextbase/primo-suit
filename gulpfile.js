@@ -20,6 +20,8 @@ gulp.task('styles', function () {
 gulp.task('absolute_urls', ['styles'], function(){
     gulp.src(['css/main.css'])
         .pipe(replace('../images/', 'http://nextbase.github.io/primo-suit/images/'))
+        .pipe(replace('../fonts/', 'http://nextbase.github.io/primo-suit/fonts/'))
+        .pipe(replace('../css/images/', 'http://nextbase.github.io/primo-suit/images/old/'))
         .pipe(gulp.dest('./css/build'));
 });
 
