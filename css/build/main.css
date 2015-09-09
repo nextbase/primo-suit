@@ -16161,7 +16161,9 @@ a.navi-back {
     margin-right: 0; }
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    width: 93%; } }
+    width: 93%; }
+  .EXLSearchFieldRibbonFormSearchClear {
+    right: 53px; } }
 
 @media screen and (max-width: 960px) {
   #footer_logo {
