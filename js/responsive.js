@@ -63,10 +63,21 @@ function isKorean(){
     return $('body').hasClass('EXLCurrentLang_ko_KR');
 }
 
-function convertUserMenu(userMenu) {
+function languageLink() {
+    langLink = $("#EXLLanguagesMenu > .EXLLanguageLink").first().clone();
+    langLink.attr('id', 'responsiveLanguageLink');
+    langLink.attr('class', '');
+    return langLink
+}
+
+function convertResponsiveUserMenu(userMenu) {
     containerParent = $('#responsive-menu > .navi-level');
     userMenuResponsive = userMenu.clone();
     userMenuResponsive.attr('id', 'userMenuResponsive');
+    userMenuResponsive.each(function() {
+        $(this).attr('id', $(this).attr('id') + 'Responsive');
+    });
+    languageLink().insertAfter(userMenuResponsive.find('li.EXLMyAccount'));
     containerParent.append(userMenuResponsive);
 }
 
@@ -105,6 +116,10 @@ function initResponsiveMenu(callback) {
     } else {
         convertResponsiveMenu($('#english-main-menu'));
     }
+
+    // User Menu
+    convertResponsiveUserMenu($("#exlidUserAreaRibbon"));
+
     callback();
 }
 
