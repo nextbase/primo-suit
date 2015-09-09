@@ -168,6 +168,15 @@ $tabs-width: 250px;
 }
 
 @include media($mobile-down) {
+
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    @include reset-margins;
+    @include span-columns(7.3 of 8);
+    position: relative;
+    float: left;
+    padding-left: $tabs-width + 20px;
+  }
+
   #EXLFacetsMobile {
     display: none;
   }

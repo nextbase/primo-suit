@@ -15501,6 +15501,18 @@ table.main {
           margin-left: 10px; } }
 
 @media screen and (max-width: 640px) {
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 90.93687%;
+    position: relative;
+    float: left;
+    padding-left: 270px; }
+    #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
+      margin-right: 0; }
   #EXLFacetsMobile {
     display: none; }
   .EXLResultsHeader #resultsNumbersTile {
@@ -16134,6 +16146,21 @@ a.navi-back {
   display: inline;
   height: 20px;
   padding: 0px 5px 0px 5px; }
+
+@media screen and (max-width: 640px) {
+  #exlidSearchRibbon input.EXLSearchFieldMaximized,
+  #exlidSearchRibbon input[type=text] {
+    padding-right: 80px; }
+  #exlidSearchRibbon input.submit {
+    width: 50px;
+    max-width: 50px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0; }
+  .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
+    width: 93%; } }
 
 @media screen and (max-width: 960px) {
   #footer_logo {
