@@ -15501,12 +15501,16 @@ table.main {
           margin-left: 10px; } }
 
 @media screen and (max-width: 640px) {
+  #EXLFacetsMobile {
+    display: none; }
   .EXLResultsHeader #resultsNumbersTile {
     width: 100%; }
     .EXLResultsHeader #resultsNumbersTile h1 {
       display: none; }
   #resultsNavNoId {
-    width: 100%; }
+    height: 30px;
+    width: 100%;
+    float: none; }
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
     display: block;
     width: 100%;

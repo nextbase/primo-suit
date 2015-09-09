@@ -168,6 +168,10 @@ $tabs-width: 250px;
 }
 
 @include media($mobile-down) {
+  #EXLFacetsMobile {
+    display: none;
+  }
+
   .EXLResultsHeader #resultsNumbersTile {
     width: 100%;
     
@@ -177,7 +181,9 @@ $tabs-width: 250px;
   }
   
   #resultsNavNoId {
+    height: 30px;
     width: 100%;
+    float: none;
   }
 
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
