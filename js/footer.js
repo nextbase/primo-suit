@@ -1,3 +1,6 @@
+// Replace CSS
+$('link[rel=stylesheet]').attr("href", "http://nextbase.github.io/primo-suit/css/main.css");
+
 $(document).ready(function () {
     // Sitemap Expand
     var sitemap_toggle = $('#sitemap-button');
