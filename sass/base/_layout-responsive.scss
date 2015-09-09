@@ -168,6 +168,18 @@ $tabs-width: 250px;
 }
 
 @include media($mobile-down) {
+  .EXLResultsHeader #resultsNumbersTile {
+    width: 100%;
+    
+    h1 {
+      display: none;
+    }
+  }
+  
+  #resultsNavNoId {
+    width: 100%;
+  }
+
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
     display: block;
     width: 100%;
@@ -176,5 +188,15 @@ $tabs-width: 250px;
     height: 20px;
     margin-top: 4px;
     max-width: none;
+
+    .EXLSortMobile {
+      float: right;
+    }
+
+    .EXLResultsSortByMenu,
+    .EXLResultsSortBySelected {
+      display: none;
+    }
+
   }
 }

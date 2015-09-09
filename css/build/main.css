@@ -15501,6 +15501,12 @@ table.main {
           margin-left: 10px; } }
 
 @media screen and (max-width: 640px) {
+  .EXLResultsHeader #resultsNumbersTile {
+    width: 100%; }
+    .EXLResultsHeader #resultsNumbersTile h1 {
+      display: none; }
+  #resultsNavNoId {
+    width: 100%; }
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
     display: block;
     width: 100%;
@@ -15508,7 +15514,12 @@ table.main {
     margin-left: 0;
     height: 20px;
     margin-top: 4px;
-    max-width: none; } }
+    max-width: none; }
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLSortMobile {
+      float: right; }
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortByMenu,
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortBySelected {
+      display: none; } }
 
 header#responsive-header {
   margin: 0;
