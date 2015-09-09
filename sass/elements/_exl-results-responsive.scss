@@ -4,4 +4,16 @@
       display: none;
     }
   }
+
+  td.EXLThumbnail {
+    .bg_fix,
+    .EXLBriefResultsDisplayCoverImages,
+    .multipleCoverImageContainer {
+      position: relative;
+      width: 48px;
+      height: 48px;
+      background-size: 48px 74px;
+      background-position: center center;
+    }
+  }
 }
