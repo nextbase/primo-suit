@@ -16173,14 +16173,16 @@ a.navi-back {
 @media screen and (max-width: 640px) {
   td.EXLSummary .EXLTabsRibbon {
     display: none; }
-  td.EXLThumbnail .bg_fix,
-  td.EXLThumbnail .EXLBriefResultsDisplayCoverImages,
-  td.EXLThumbnail .multipleCoverImageContainer {
-    position: relative;
-    width: 48px;
-    height: 48px;
-    background-size: 48px 74px;
-    background-position: center center; } }
+  td.EXLThumbnail {
+    width: 58px; }
+    td.EXLThumbnail .bg_fix,
+    td.EXLThumbnail .EXLBriefResultsDisplayCoverImages,
+    td.EXLThumbnail .multipleCoverImageContainer {
+      position: relative;
+      width: 48px;
+      height: 48px;
+      background-size: 48px 74px;
+      background-position: center center; } }
 
 @media screen and (max-width: 960px) {
   #footer_logo {
