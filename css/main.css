@@ -15341,6 +15341,8 @@ table.main {
 
 /* Responsive Layout Related Styles */
 @media screen and (max-width: 960px) {
+  #exlidUserAreaRibbon {
+    display: none; }
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
   #exlidResultsContainer {
