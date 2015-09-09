@@ -12,6 +12,7 @@ window.onload = function()
         log('JS changes for mobile failed:' + mobileErr);
     }
 }
+
 function addMobileFeatures() {
     hideNavigationBarToMobile();
     addLanguages();
