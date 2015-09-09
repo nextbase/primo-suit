@@ -63,6 +63,12 @@ function isKorean(){
     return $('body').hasClass('EXLCurrentLang_ko_KR');
 }
 
+function convertUserMenu(userMenu) {
+    containerParent = $('#responsive-menu > .navi-level');
+    userMenuResponsive = userMenu.clone();
+    containerParent.append(userMenuResponsive);
+}
+
 function convertResponsiveMenu(desktopMenu) {
     // Initial Variables
     menuContainer    = $('#responsive-menu');
