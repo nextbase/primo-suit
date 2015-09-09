@@ -174,7 +174,6 @@ $tabs-width: 250px;
 }
 
 @include media($mobile-down) {
-
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
     @include reset-margins;
     @include span-columns(7.3 of 8);
@@ -218,11 +217,14 @@ $tabs-width: 250px;
         margin-right: 0;
       }
     }
+  }
 
-    .EXLResultsSortByMenu,
-    .EXLResultsSortBySelected {
-      display: none;
+  body.mobile-device {
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+      .EXLResultsSortByMenu,
+      .EXLResultsSortBySelected {
+        display: none;
+      }
     }
-
   }
 }

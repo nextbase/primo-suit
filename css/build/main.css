@@ -15539,9 +15539,9 @@ table.main {
       margin-top: -9px; }
       .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLSortMobile select {
         margin-right: 0; }
-    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortByMenu,
-    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortBySelected {
-      display: none; } }
+  body.mobile-device .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortByMenu,
+  body.mobile-device .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortBySelected {
+    display: none; } }
 
 header#responsive-header {
   margin: 0;
