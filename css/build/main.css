@@ -16159,7 +16159,8 @@ a.navi-back {
     top: 0;
     right: 0;
     margin-right: 0; }
-  .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
+  #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
     width: 93%; } }
 
 @media screen and (max-width: 960px) {

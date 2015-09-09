@@ -16,7 +16,8 @@ $search-button-width: 50px;
     margin-right: 0;
   }
 
-  .EXLSearchFieldRibbonFormSearchForMaximized .EXLSearchFieldRibbonFormSearchFor {
+  #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
     width: 93%;
   }
 }
