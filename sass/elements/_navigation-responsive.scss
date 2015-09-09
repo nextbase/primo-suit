@@ -252,7 +252,8 @@ $mobile-larger-menu-width: 310px;
 }
 
 .navi-menu ul li > a,
-.navi-menu ul li > span.nolink {
+.navi-menu ul li > span.nolink,
+.navi-menu ul li > span.EXLUserNameDisplay {
   display: block;
   padding: 0.7em 1em 0.7em 1.8em;
   outline: none;
