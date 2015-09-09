@@ -1,5 +1,5 @@
 // Replace CSS
-$('link[rel=stylesheet]').attr("href", "http://nextbase.github.io/primo-suit/css/main.css");
+$('link[rel=stylesheet]').attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
 
 $(document).ready(function () {
     // Sitemap Expand
