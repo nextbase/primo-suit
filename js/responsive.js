@@ -71,7 +71,7 @@ function convertResponsiveUserMenu(userMenu) {
         $(this).attr('id', $(this).attr('id') + 'Responsive');
     });
     // Language Link
-    langLink = $("#exlidLanguages li.EXLLanguageLink").first().clone();
+    langLink = $("#exlidLanguages li.EXLLanguageLinkHide").first().clone();
     langLink.attr('id', 'responsiveLanguageLink');
     langLink.insertAfter(userMenuResponsive.children('.EXLMyAccount'));
     // Let's stick it
