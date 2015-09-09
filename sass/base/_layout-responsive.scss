@@ -191,12 +191,17 @@ $tabs-width: 250px;
     width: 100%;
     float: left;
     margin-left: 0;
-    height: 20px;
-    margin-top: 4px;
+    height: 40px;
+    margin-top: 0px;
     max-width: none;
 
     .EXLSortMobile {
       float: right;
+      margin-top: -9px;
+
+      select {
+        margin-right: 0;
+      }
     }
 
     .EXLResultsSortByMenu,
