@@ -16169,6 +16169,10 @@ a.navi-back {
   .EXLSearchFieldRibbonFormSearchClear {
     right: 53px; } }
 
+@media screen and (max-width: 640px) {
+  td.EXLSummary .EXLTabsRibbon {
+    display: none; } }
+
 @media screen and (max-width: 960px) {
   #footer_logo {
     height: 40px;
