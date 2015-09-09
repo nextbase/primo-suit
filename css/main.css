@@ -16173,11 +16173,11 @@ a.navi-back {
 @media screen and (max-width: 640px) {
   td.EXLSummary .EXLTabsRibbon {
     display: none; }
-  td.EXLThumbnail {
+  .EXLResultsList td.EXLThumbnail {
     width: 58px; }
-    td.EXLThumbnail .bg_fix,
-    td.EXLThumbnail .EXLBriefResultsDisplayCoverImages,
-    td.EXLThumbnail .multipleCoverImageContainer {
+    .EXLResultsList td.EXLThumbnail .bg_fix,
+    .EXLResultsList td.EXLThumbnail .EXLBriefResultsDisplayCoverImages,
+    .EXLResultsList td.EXLThumbnail .multipleCoverImageContainer {
       position: relative;
       width: 48px;
       height: 74px;
