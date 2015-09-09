@@ -266,6 +266,7 @@ $mobile-larger-menu-width: 310px;
   transition: background 0.3s, box-shadow 0.3s;
 }
 
+.navi-menu ul li > span.EXLUserNameDisplay,
 .navi-menu ul li > span.nolink {
   font-size: ($mobile-menu-font-size - 4px);
   font-weight: bold;
