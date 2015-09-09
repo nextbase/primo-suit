@@ -3,6 +3,7 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var replace = require('gulp-replace');
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -16,11 +17,17 @@ gulp.task('styles', function () {
         .pipe($.notify("Compilation complete."));
 });
 
+gulp.task('absolute_urls', ['styles'], function(){
+    gulp.src(['css/main.css'])
+        .pipe(replace('../images/', 'http://nextbase.github.io/primo-suit/images/'))
+        .pipe(gulp.dest('./css/build'));
+});
+
 gulp.task('clean', function () {
     return gulp.src(['css/main.css', 'dist'], { read: false }).pipe($.clean());
 });
 
-gulp.task('build', ['styles']);
+gulp.task('build', ['styles', 'absolute_urls']);
 
 gulp.task('default', ['clean', 'build'], function () {
     gulp.start('watch');
