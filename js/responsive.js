@@ -66,6 +66,7 @@ function isKorean(){
 function convertUserMenu(userMenu) {
     containerParent = $('#responsive-menu > .navi-level');
     userMenuResponsive = userMenu.clone();
+    userMenuResponsive.attr('id', 'userMenuResponsive');
     containerParent.append(userMenuResponsive);
 }
 
