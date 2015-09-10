@@ -7836,6 +7836,7 @@ a.eshelf_print span:hover {
   text-align: center;
   margin-bottom: 20px;
   font-size: 14px;
+  display: none;
 }
 
 #google::after {
