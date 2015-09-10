@@ -5970,6 +5970,18 @@ body.EXLFullView div.EXLBackToResults {
   line-height: 150%;
 }
 
+.EXLMyAccountMainContainer div.EXLMyAccountMainHeaderButtons {
+  padding: 0;
+  margin: 0;
+  width: 35%;
+  float: right;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 2%;
+  font-size: 90%;
+  display: none;
+}
+
 .EXLMyAccountMainContainer table {
   text-align: left;
   width: 96%;
@@ -6315,6 +6327,44 @@ table th.EXLMyAccountTableTitle {
   background-position: bottom;
   height: auto;
   padding: 20px;
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountTips em {
+  padding-left: 0.5em;
+  font-size: 90%;
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountTips ul {
+  height: 100%;
+  padding: 0.5em 0 1em 0.5em;
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountTips li {
+  list-style: none;
+  padding-top: 0;
+  padding-right: 0;
+  font-size: 90%;
+  margin-bottom: 1em;
+  float: left;
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
+  padding: 0;
+  margin: 0;
+  background-image: url(http://nextbase.github.io/primo-suit/images/bullet_arrow_orange_tip.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 7px;
+  float: left;
+  display: block;
+  clear: left;
+  margin-top: 5px;
+}
+
+.EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsTitle {
+  width: 90%;
+  display: block;
+  float: left;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form {
