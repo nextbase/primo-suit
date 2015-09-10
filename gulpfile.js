@@ -4,6 +4,7 @@
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var replace = require('gulp-replace');
+var uncss = require('gulp-uncss');
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -22,6 +23,7 @@ gulp.task('absolute_urls', ['styles'], function(){
         .pipe(replace('../images/', 'http://nextbase.github.io/primo-suit/images/'))
         .pipe(replace('../fonts/', 'http://nextbase.github.io/primo-suit/fonts/'))
         .pipe(replace('../css/images/', 'http://nextbase.github.io/primo-suit/images/old/'))
+        .pipe(uncss({ html: ['html_sources/**/*.html'] }))
         .pipe(gulp.dest('./css/build'));
 });
 
