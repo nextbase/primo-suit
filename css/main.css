@@ -16199,9 +16199,9 @@ table.main {
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
     min-width: 320px; }
-  .EXLFacetTile {
+  #responsive-container .EXLFacetTile {
     display: block; }
-  .EXLResultsContainer {
+  #responsive-container .EXLResultsContainer {
     width: auto;
     height: auto;
     padding-left: 0;
@@ -16210,7 +16210,7 @@ table.main {
     margin-top: auto;
     overflow: auto;
     margin-bottom: 0; }
-  .EXLResultsContainer div.EXLResultsTile {
+  #responsive-container .EXLResultsContainer div.EXLResultsTile {
     width: 100%;
     float: none;
     border: none;
@@ -16218,29 +16218,29 @@ table.main {
     background-color: #ffffff;
     margin: 0em;
     margin-bottom: 0; }
-  #exlidHeaderSystemFeedback {
+  #responsive-container #exlidHeaderSystemFeedback {
     display: none; }
-  #exlidHeaderSearchLimits {
+  #responsive-container #exlidHeaderSearchLimits {
     display: none; }
-  .EXLSearchFieldRibbonAdvancedSearchLink {
+  #responsive-container .EXLSearchFieldRibbonAdvancedSearchLink {
     display: none; }
-  .EXLSearchFieldRibbonBrowseSearchLink {
+  #responsive-container .EXLSearchFieldRibbonBrowseSearchLink {
     display: none; }
-  #exlidHeaderContainer div.EXLSkipToContent {
+  #responsive-container #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
-  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+  #responsive-container #exlidHeaderContainer div.EXLSkipToSystemFeedback {
     display: none; }
-  #exlidSearchBanner {
+  #responsive-container #exlidSearchBanner {
     display: none; }
-  #exlidSearchForm div.EXLSearchTabsContainer {
+  #responsive-container #exlidSearchForm div.EXLSearchTabsContainer {
     display: none; }
-  #exlidHeaderTile {
+  #responsive-container #exlidHeaderTile {
     width: 100%;
     float: none;
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0; }
-  #exlidSearchTile {
+  #responsive-container #exlidSearchTile {
     clear: none;
     border: none;
     background-image: none;

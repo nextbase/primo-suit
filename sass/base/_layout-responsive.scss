@@ -195,6 +195,7 @@ $tabs-width: 250px;
     }
   }
 }
+
 @include media($mobile-down) {
   body {
     overflow-x: auto;
@@ -202,67 +203,69 @@ $tabs-width: 250px;
     -webkit-user-select: none;
     min-width: 320px;
   }
-  .EXLFacetTile {
-    display: block;
-  }
-  .EXLResultsContainer {
-    width: auto;
-    height: auto;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-top: auto;
-    overflow: auto;
-    margin-bottom: 0;
-  }
-  .EXLResultsContainer div.EXLResultsTile {
-    width: 100%;
-    float: none;
-    border: none;
-    padding: 0em;
-    background-color: $white;
-    margin: 0em;
-    margin-bottom: 0;
-  }
-  #exlidHeaderSystemFeedback {
-    display: none;
-  }
-  #exlidHeaderSearchLimits {
-    display: none
-  }
-  .EXLSearchFieldRibbonAdvancedSearchLink {
-    display: none
-  }
-  .EXLSearchFieldRibbonBrowseSearchLink {
-    display: none
-  }
-  #exlidHeaderContainer div.EXLSkipToContent {
-    display: none;
-  }
-  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
-    display: none;
-  }
-  #exlidSearchBanner {
-    display: none;
-  }
-  #exlidSearchForm div.EXLSearchTabsContainer {
-    display: none;
-  }
-  #exlidHeaderTile {
-    width: 100%;
-    float: none;
-    padding-left: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  #exlidSearchTile {
-    clear: none;
-    border: none;
-    background-image: none;
-    background-repeat: repeat-x;
-    height: auto;
-    font-size: 100%;
-    width: auto;
-    padding-bottom: 0;
+  #responsive-container {
+    .EXLFacetTile {
+      display: block;
+    }
+    .EXLResultsContainer {
+      width: auto;
+      height: auto;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0;
+      margin-top: auto;
+      overflow: auto;
+      margin-bottom: 0;
+    }
+    .EXLResultsContainer div.EXLResultsTile {
+      width: 100%;
+      float: none;
+      border: none;
+      padding: 0em;
+      background-color: $white;
+      margin: 0em;
+      margin-bottom: 0;
+    }
+    #exlidHeaderSystemFeedback {
+      display: none;
+    }
+    #exlidHeaderSearchLimits {
+      display: none
+    }
+    .EXLSearchFieldRibbonAdvancedSearchLink {
+      display: none
+    }
+    .EXLSearchFieldRibbonBrowseSearchLink {
+      display: none
+    }
+    #exlidHeaderContainer div.EXLSkipToContent {
+      display: none;
+    }
+    #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+      display: none;
+    }
+    #exlidSearchBanner {
+      display: none;
+    }
+    #exlidSearchForm div.EXLSearchTabsContainer {
+      display: none;
+    }
+    #exlidHeaderTile {
+      width: 100%;
+      float: none;
+      padding-left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    #exlidSearchTile {
+      clear: none;
+      border: none;
+      background-image: none;
+      background-repeat: repeat-x;
+      height: auto;
+      font-size: 100%;
+      width: auto;
+      padding-bottom: 0;
+    }
   }
 }
