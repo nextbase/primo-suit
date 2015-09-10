@@ -1,28 +1,22 @@
 /* Responsive Layout Related Styles */
 
 $tabs-width: 250px;
-
 @include media($tablets-down) {
-
   #exlidUserAreaTile ul,
   #exlidUserAreaRibbon {
     display: none !important;
   }
-  
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
   #exlidResultsContainer {
     @include add-side-paddings;
   }
-
   #exlidHeaderSystemFeedback {
     @include add-side-margins;
   }
-
   #exlidSearchRibbon {
     padding-bottom: 10px;
   }
-
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
     @include reset-margins;
     @include span-columns(8 of 8);
@@ -30,7 +24,6 @@ $tabs-width: 250px;
     float: left;
     padding-left: $tabs-width + 20px;
   }
-
   .EXLSearchFieldRibbonBrowseSearchLink,
   .EXLSearchFieldRibbonAdvancedSearchLink {
     position: static;
@@ -39,35 +32,29 @@ $tabs-width: 250px;
     margin-right: 20px;
     margin-bottom: 0;
   }
-
   .EXLSearchFieldRibbonBrowseSearchLink {
     right: 0;
     top: 0;
   }
-
   .EXLSearchFieldRibbonAdvancedSearchLink {
     right: 0;
     top: 0;
   }
-
   #exlidHeaderSearchLimits {
     @include span-columns(8 of 8);
     padding: 0 20px 0 20px;
     border-bottom: 0;
     margin-bottom: 0;
-
     fieldset {
       @include span-columns(8 of 8);
       position: relative;
       top: -20px;
     }
   }
-
   // Search Blocks
   .EXLFacetTile {
     @include span-columns(2.5 of 8);
   }
-
   .EXLResultsContainer div.EXLResultsTile {
     @include span-columns(5.5 of 8);
     @include omega();
@@ -84,62 +71,52 @@ $tabs-width: 250px;
   // Special Case Layout
   #exlidMainMenuRibbon li {
     border-left-width: 0;
-
     a {
       margin-left: 0;
       margin-right: 15px;
       font-weight: bold;
     }
-
     .EXLMainMenuITEMcitationlinker,
     .EXLMainMenuITEMlibrary_home {
       display: none;
     }
   }
-
   #resultsNavNoId,
   #resultsNavNoIdBottom {
     text-align: right;
-
-    span, a {
+    span,
+    a {
       display: none;
     }
-
     a[title*="Previous"],
     a.EXLNext {
       display: inline-block;
       float: none;
-
       img {
         margin-left: 0;
       }
     }
   }
-
-  #exlidFacetTile, .EXLFacetTile {
+  #exlidFacetTile,
+  .EXLFacetTile {
     @include span-columns(8 of 8);
     margin-bottom: 20px;
   }
-  
   .EXLFacetActionsV2 {
     display: none;
   }
-
   .EXLResultsContainer div.EXLResultsTile {
     @include span-columns(8 of 8);
     @include omega();
   }
-
   /* Expandable Filters */
   #exlidFacetTile {
     max-height: 40px;
     overflow: hidden;
     @include transition(max-height .5s);
-
     &.expanded-for-mobile {
       max-height: 2000px;
       @include transition(max-height 1s);
-
       .filters-expand-title h2,
       .filters-expand-title h2.filters-title {
         &:after {
@@ -147,22 +124,20 @@ $tabs-width: 250px;
         }
       }
     }
-
     .filters-expand-title {
       width: 100%;
       display: block;
       float: none;
       clear: both;
       cursor: pointer;
-
-      h2, h2.filters-title {
+      h2,
+      h2.filters-title {
         @include reset-margins;
         font-size: ($base-font-size + 2px);
         font-weight: bold;
         display: block;
         height: 40px;
         line-height: 40px;
-
         @include glyphicon($icon-plus, 'after');
         &:after {
           font-size: $base-font-size - 3px;
@@ -181,25 +156,20 @@ $tabs-width: 250px;
     float: left;
     padding-left: $tabs-width + 20px;
   }
-
   #EXLFacetsMobile {
     display: none;
   }
-
   .EXLResultsHeader #resultsNumbersTile {
     width: 100%;
-    
     h1 {
       display: none;
     }
   }
-  
   #resultsNavNoId {
     height: 30px;
     width: 100%;
     float: none;
   }
-
   .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
     display: block;
     width: 100%;
@@ -208,17 +178,14 @@ $tabs-width: 250px;
     height: 40px;
     margin-top: 0px;
     max-width: none;
-
     .EXLSortMobile {
       float: right;
       margin-top: -9px;
-
       select {
         margin-right: 0;
       }
     }
   }
-
   body.mobile-device {
     .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
       .EXLResultsSortByMenu,
@@ -226,5 +193,76 @@ $tabs-width: 250px;
         display: none;
       }
     }
+  }
+}
+@include media($mobile-down) {
+  body {
+    overflow-x: auto;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    min-width: 320px;
+  }
+  .EXLFacetTile {
+    display: block;
+  }
+  .EXLResultsContainer {
+    width: auto;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-top: auto;
+    overflow: auto;
+    margin-bottom: 0;
+  }
+  .EXLResultsContainer div.EXLResultsTile {
+    width: 100%;
+    float: none;
+    border: none;
+    padding: 0em;
+    background-color: $white;
+    margin: 0em;
+    margin-bottom: 0;
+  }
+  #exlidHeaderSystemFeedback {
+    display: none;
+  }
+  #exlidHeaderSearchLimits {
+    display: none
+  }
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    display: none
+  }
+  .EXLSearchFieldRibbonBrowseSearchLink {
+    display: none
+  }
+  #exlidHeaderContainer div.EXLSkipToContent {
+    display: none;
+  }
+  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+    display: none;
+  }
+  #exlidSearchBanner {
+    display: none;
+  }
+  #exlidSearchForm div.EXLSearchTabsContainer {
+    display: none;
+  }
+  #exlidHeaderTile {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #exlidSearchTile {
+    clear: none;
+    border: none;
+    background-image: none;
+    background-repeat: repeat-x;
+    height: auto;
+    font-size: 100%;
+    width: auto;
+    padding-bottom: 0;
   }
 }
