@@ -23,8 +23,9 @@ gulp.task('absolute_urls', ['styles'], function(){
         .pipe(replace('../images/', 'http://nextbase.github.io/primo-suit/images/'))
         .pipe(replace('../fonts/', 'http://nextbase.github.io/primo-suit/fonts/'))
         .pipe(replace('../css/images/', 'http://nextbase.github.io/primo-suit/images/old/'))
-        .pipe(uncss({ html: ['html_sources/**/*.html'] }))
         .pipe(gulp.dest('./css/build'));
+        // .pipe(uncss({ html: ['html_sources/**/*.html'] })) // place before gulp.dest
+        
 });
 
 gulp.task('clean', function () {
