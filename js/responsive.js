@@ -129,15 +129,14 @@ function updateLoginButton() {
     logoutButton = $('#exlidSignOut a');
     logoutText = logoutButton.html();
 
-    var loggedIn = $('#exlidSignIn').hasClass('EXLHidden');
 
-    if (loggedIn) {
+    if ($('#exlidSignOut').hasClass('EXLHidden')) {
         responsiveLoginButton.attr('href', loginButton.attr('href'));
         responsiveLoginButton.attr('onclick', loginButton.attr('onclick'));
     } else {
         responsiveLoginButton.attr('href', logoutButton.attr('href'));
         responsiveLoginButton.attr('onclick', logoutButton.attr('onclick'));
-        responsiveLoginButton.attr('id', "responsive-login-trigger");
+        responsiveLoginButton.attr('id', "responsive-logout-trigger");
     }
 }
 
