@@ -175,6 +175,8 @@ function initFilterExpand() {
 $(document).ready(function () {
     // Responsive Containers
     initResponsiveContainers();
+    // Pick the right login / logout button
+    updateLoginButton()
     // Responsive Menu
     initResponsiveMenu(function() {
         new pushMenu(document.getElementById('responsive-menu'), document.getElementById('responsive-menu-trigger'), {
