@@ -15543,7 +15543,7 @@ header#responsive-header {
 .responsive-login-trigger-container {
   float: right;
   height: 50px;
-  width: 50px;
+  width: auto;
   overflow: hidden; }
 
 #responsive-login-trigger {
@@ -15562,6 +15562,35 @@ header#responsive-header {
     #responsive-login-trigger {
       background-image: url("http://nextbase.github.io/primo-suit/images/responsive_user_icon_2x.png");
       background-size: 25px 25px; } }
+
+#responsive-logout-trigger {
+  width: auto;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px;
+  white-space: nowrap;
+  color: #ffffff;
+  float: left; }
+  #responsive-logout-trigger:link,
+  #responsive-logout-trigger:visited {
+    color: #ffffff; }
+  #responsive-logout-trigger:hover,
+  #responsive-logout-trigger:active {
+    color: #ffffff; }
+  #responsive-logout-trigger:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #responsive-logout-trigger:before {
+    margin-right: 4px;
+    font-size: 12px; }
 
 #mobile-logo {
   padding: 10px 15px; }
