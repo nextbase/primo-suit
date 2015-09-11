@@ -74,6 +74,7 @@ function initResponsiveContainers() {
     $('<nav id ="responsive-menu" class="navi-menu"></nav>').insertBefore("#" + scrollerContainerID);
 }
 
+
 function isKorean(){
     return $('body').hasClass('EXLCurrentLang_ko_KR');
 }
@@ -120,6 +121,24 @@ function convertResponsiveMenu(desktopMenu) {
     menuContainer.wrapInner(menuLevelOneDiv);
 
     return menuContainer;
+}
+
+function updateLoginButton() {
+    responsiveLoginButton = $('#responsive-login-trigger');
+    loginButton = $('#exlidSignIn a');
+    logoutButton = $('#exlidSignOut a');
+    logoutText = logoutButton.html();
+
+    var loggedIn = $('#exlidSignOut').hasClass('EXLHidden');
+
+    if (loggedIn) {
+        responsiveLoginButton.attr('href', loginButton.attr('href'));
+        responsiveLoginButton.attr('onclick', loginButton.attr('onclick'));
+    } else {
+        responsiveLoginButton.attr('href', logoutButton.attr('href'));
+        responsiveLoginButton.attr('onclick', logoutButton.attr('onclick'));
+        responsiveLoginButton.attr('id', "responsive-login-trigger");
+    }
 }
 
 function initResponsiveMenu(callback) {
