@@ -32,6 +32,8 @@ $(document).ready(function () {
         }
     };
 
+    smothReplaceCSS();
+
     // Search Facets Expand
     expandableFacet("#facetListTopLevel h3", ".EXLFacetList");
 
