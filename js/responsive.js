@@ -129,7 +129,7 @@ function updateLoginButton() {
     logoutButton = $('#exlidSignOut a');
     logoutText = logoutButton.html();
 
-    var loggedIn = $('#exlidSignOut').hasClass('EXLHidden');
+    var loggedIn = $('#exlidSignIn').hasClass('EXLHidden');
 
     if (loggedIn) {
         responsiveLoginButton.attr('href', loginButton.attr('href'));
