@@ -1,5 +1,9 @@
 // Replace CSS
-$('link[href*=82SNU]').attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
+function smothReplaceCSS() {
+    oldCSS = $('link[href*="primo_library_wro"]');
+    newCSS = oldCSS.clone().attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
+    newCSS.insertAfter(oldCSS);
+}
 
 $(document).ready(function () {
     // Sitemap Expand
