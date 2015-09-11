@@ -137,6 +137,7 @@ function updateLoginButton() {
         responsiveLoginButton.attr('href', logoutButton.attr('href'));
         responsiveLoginButton.attr('onclick', logoutButton.attr('onclick'));
         responsiveLoginButton.attr('id', "responsive-logout-trigger");
+        responsiveLoginButton.html(logoutButton.html());
     }
 }
 
