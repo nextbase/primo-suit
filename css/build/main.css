@@ -4363,18 +4363,23 @@ ul.menu {
     float: right; }
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div {
       display: inline-block; }
-      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a {
-        color: #cbbfae;
+      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a,
+      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a:link,
+      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a:visited {
+        color: #756e63;
         font-weight: normal;
         font-size: 14px; }
+      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a:hover,
+      #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a:active {
+        color: #90887b; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:after {
         content: "|";
         padding: 0 10px;
-        color: #cbbfae; }
+        color: #837b6f; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:last-child:after {
         display: none; }
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_address_area {
-      color: #cbbfae;
+      color: #756e63;
       font-size: 14px;
       font-weight: normal; }
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_copyright_area {

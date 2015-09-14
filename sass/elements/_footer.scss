@@ -12,6 +12,8 @@
   @include add-side-paddings;
 }
 
+$footer-address: #756e63;
+
 #footer {
 	background-color: $gold-gray;
 	margin-top: 40px;
@@ -74,16 +76,23 @@
 					div {
 						display: inline-block;
 						
-						a {
-							color: $gold-gray;
+						a, 
+						a:link,
+						a:visited {
+							color: $footer-address;
 							font-weight: normal;
 							font-size: $small-font-size;
+						}
+
+						a:hover,
+						a:active {
+							color: lighten($footer-address, 10%);
 						}
 
 						&:after {
 							content: "|";
 							padding: 0 10px;
-							color: $gold-gray;
+							color: lighten($footer-address, 5%);
 						}
 
 						&:last-child {
@@ -95,7 +104,7 @@
 				}
 				
 				.foot_address_area {
-					color: $gold-gray;
+					color: $footer-address;
 					font-size: $small-font-size;
 					font-weight: normal;
 				}
