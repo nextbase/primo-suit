@@ -4,7 +4,10 @@ function smothReplaceCSS() {
     newCSS = oldCSS.clone();
     newCSS.attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
     newCSS.insertAfter(oldCSS);
-    setTimeout(oldCSS.remove(), 3000);
+    setTimeout(function() {
+        console.log("TIMEOUT: Replacing the old Primo CSS with the new one.");
+        oldCSS.remove();
+    }, 3000);
 }
 
 function smothReplaceOldCSS() {
@@ -12,7 +15,10 @@ function smothReplaceOldCSS() {
     newCSS = oldCSS.clone();
     newCSS.attr("href", "../wro/primo_library_wro_82SNU_en_US.css?");
     newCSS.insertAfter(oldCSS);
-    setTimeout(oldCSS.remove(), 3000);
+    setTimeout(function() {
+        console.log("TIMEOUT: Bringing back the Primo CSS.");
+        oldCSS.remove();
+    }, 3000);
 }
 
 $(document).ready(function () {
