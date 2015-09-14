@@ -5,9 +5,9 @@ function smothReplaceCSS() {
     newCSS.attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
     newCSS.insertAfter(oldCSS);
     setTimeout(function() {
-        console.log("TIMEOUT: Replacing the old Primo CSS with the new one.");
+        console.log("JS: Replaced Primo Default CSS with SNUL Theme Stylesheet");
         oldCSS.remove();
-    }, 3000);
+    }, 1000);
 }
 
 function smothReplaceOldCSS() {
@@ -16,9 +16,9 @@ function smothReplaceOldCSS() {
     newCSS.attr("href", "../wro/primo_library_wro_82SNU_en_US.css?");
     newCSS.insertAfter(oldCSS);
     setTimeout(function() {
-        console.log("TIMEOUT: Bringing back the Primo CSS.");
+        console.log("JS: Bringing back the default Primo CSS.");
         oldCSS.remove();
-    }, 3000);
+    }, 1000);
 }
 
 $(document).ready(function () {
