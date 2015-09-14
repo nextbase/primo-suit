@@ -3,7 +3,7 @@ function smothReplaceCSS() {
     oldCSS = $('link[href*="primo_library_wro"]');
     newCSS = oldCSS.clone().attr("href", "http://nextbase.github.io/primo-suit/css/build/main.css");
     newCSS.insertAfter(oldCSS);
-    setTimeout(oldCSS.remove(), 1000);
+    setTimeout(oldCSS.remove(), 3000);
 }
 
 $(document).ready(function () {
