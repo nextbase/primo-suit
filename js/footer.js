@@ -7,6 +7,14 @@ function smothReplaceCSS() {
     setTimeout(oldCSS.remove(), 3000);
 }
 
+function smothReplaceOldCSS() {
+    oldCSS = $('link[href*="main.css"]');
+    newCSS = oldCSS.clone();
+    newCSS.attr("href", "../wro/primo_library_wro_82SNU_en_US.css?");
+    newCSS.insertAfter(oldCSS);
+    setTimeout(oldCSS.remove(), 3000);
+}
+
 $(document).ready(function () {
     // Sitemap Expand
     var sitemap_toggle = $('#sitemap-button');
