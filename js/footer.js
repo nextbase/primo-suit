@@ -7,7 +7,7 @@ function smothReplaceCSS() {
     setTimeout(function() {
         console.log("JS: Replaced Primo Default CSS with SNUL Theme Stylesheet");
         oldCSS.remove();
-    }, 1000);
+    }, 500);
 }
 
 function smothReplaceOldCSS() {
@@ -18,7 +18,7 @@ function smothReplaceOldCSS() {
     setTimeout(function() {
         console.log("JS: Bringing back the default Primo CSS.");
         oldCSS.remove();
-    }, 1000);
+    }, 500);
 }
 
 $(document).ready(function () {
