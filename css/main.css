@@ -4364,8 +4364,9 @@ ul.menu {
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div {
       display: inline-block; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a {
-        color: #333333;
-        font-weight: bold; }
+        color: #d8d0c4;
+        font-weight: normal;
+        font-size: 14px; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:after {
         content: "|";
         padding: 0 10px;

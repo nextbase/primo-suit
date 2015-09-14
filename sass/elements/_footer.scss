@@ -75,8 +75,9 @@
 						display: inline-block;
 						
 						a {
-							color: $black;
-							font-weight: bold;
+							color: $gold-gray-secondary;
+							font-weight: normal;
+							font-size: $small-font-size;
 						}
 
 						&:after {
