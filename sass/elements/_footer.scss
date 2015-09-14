@@ -75,7 +75,7 @@
 						display: inline-block;
 						
 						a {
-							color: $gold-gray-secondary;
+							color: $gold-gray;
 							font-weight: normal;
 							font-size: $small-font-size;
 						}
@@ -83,7 +83,7 @@
 						&:after {
 							content: "|";
 							padding: 0 10px;
-							color: $black;
+							color: $gold-gray;
 						}
 
 						&:last-child {

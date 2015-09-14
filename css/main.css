@@ -4364,13 +4364,13 @@ ul.menu {
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div {
       display: inline-block; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div a {
-        color: #d8d0c4;
+        color: #cbbfae;
         font-weight: normal;
         font-size: 14px; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:after {
         content: "|";
         padding: 0 10px;
-        color: #333333; }
+        color: #cbbfae; }
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:last-child:after {
         display: none; }
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_address_area {
