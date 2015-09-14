@@ -4374,8 +4374,13 @@ ul.menu {
       #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_other_link_area div:last-child:after {
         display: none; }
     #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_address_area {
+      color: #cbbfae;
+      font-size: 14px;
+      font-weight: normal; }
+    #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_copyright_area {
       color: #333333;
-      font-weight: bold; }
+      font-size: 14px;
+      font-weight: normal; }
 
 .footer-library-selected {
   float: right;

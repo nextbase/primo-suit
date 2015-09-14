@@ -95,8 +95,15 @@
 				}
 				
 				.foot_address_area {
+					color: $gold-gray;
+					font-size: $small-font-size;
+					font-weight: normal;
+				}
+
+				.foot_copyright_area {
 					color: $black;
-					font-weight: bold;
+					font-size: $small-font-size;
+					font-weight: normal;
 				}
 			}
 		}
