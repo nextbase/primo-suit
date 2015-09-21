@@ -20,6 +20,16 @@
     @include reset-margins;
     @include span-columns(3 of 8);
     margin-bottom: 20px;
+  }
+
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    @include reset-margins;
+    @include span-columns(5 of 8);
+    @include omega();
+    vertical-align: text-top;
+    margin-bottom: 20px;
 
     table {
       th,
@@ -38,16 +48,6 @@
         width: 4.5%;
       }
     }
-  }
-
-  /* Right Hand */
-  #exlidMyAccountMainContainer1,
-  .EXLMyAccountMainContainer {
-    @include reset-margins;
-    @include span-columns(5 of 8);
-    @include omega();
-    vertical-align: text-top;
-    margin-bottom: 20px;
   }
 
   table {
