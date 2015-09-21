@@ -20,6 +20,23 @@
     @include reset-margins;
     @include span-columns(3 of 8);
     margin-bottom: 20px;
+
+    table {
+      th,
+      th.EXLMyAccountTable,
+      th.EXLMyAccountTableAuthor,
+      th.EXLMyAccountTableDueDate,
+      th.EXLMyAccountTableFine,
+      th.EXLMyAccountTableSub,
+      th.Location,
+      th.EXLMyAccountTableActions {
+        width: 13.5%;
+      }
+
+      th.EXLMyAccountTableCounter {
+        width: 4.5%;
+      }
+    }
   }
 
   /* Right Hand */

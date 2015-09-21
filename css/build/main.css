@@ -16273,6 +16273,26 @@ a.navi-back {
     #exlidMyAccountMainMenuTile:last-child,
     .EXLMyAccountMainMenuTile:last-child {
       margin-right: 0; }
+    #exlidMyAccountMainMenuTile table th,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTable,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableAuthor,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableDueDate,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableFine,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableSub,
+    #exlidMyAccountMainMenuTile table th.Location,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableActions,
+    .EXLMyAccountMainMenuTile table th,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTable,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableAuthor,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableDueDate,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableFine,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableSub,
+    .EXLMyAccountMainMenuTile table th.Location,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableActions {
+      width: 13.5%; }
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableCounter,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableCounter {
+      width: 4.5%; }
   /* Right Hand */
   #exlidMyAccountMainContainer1,
   .EXLMyAccountMainContainer {
