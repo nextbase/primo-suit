@@ -1,0 +1,70 @@
+.folders_new {
+  padding-top: 10px;
+  padding-right: 0;
+  background: none $white no-repeat left bottom;
+  width: 15%;
+  border: 1px solid $gold-light;
+}
+
+@include media($tablets-down) {
+  .folders_new {
+    width: 25%;
+  }
+
+  td.selectWidth.EXLEShelfFolderContentsPushTo select {
+    width: 120px;
+  }
+
+  #exlidMyAccountMainContainer1,
+  div.EXLMyAccountMainContainer {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    overflow-x: scroll;
+
+    #LoansTable,
+    table {
+      font-weight: $black;
+
+      th,
+      td {
+        padding: 4px 10px;
+      }
+    }
+
+    #LoansTable {
+      width: 800px;
+    }
+
+    .EXLMyAccountTable {
+      width: 600px;
+    }
+  }
+}
+
+@include media($mobile-down) {
+
+  .eShelf_print,
+  #EXLEShelfFolderContentsPushTo {
+    display: none;
+  }
+
+  .folders_new,
+  #foldersDiv.folders_new {
+    display: block;
+    float: left;
+    @include span-columns(4 of 4);
+    @include omega();
+    margin-bottom: 20px;
+  }
+
+  .folder_details,
+  .EXLEShelfFolderContents.folder_details {
+    margin-left: 0;
+    display: block;
+    float: left;
+    @include span-columns(4 of 4);
+    @include omega();
+    margin-bottom: 20px;
+  }
+}

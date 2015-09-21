@@ -1,0 +1,83 @@
+@include media($tablets-down) {
+
+  .EXLMyAccountTabsRibbon,
+  .EXLMyAccountContainer {
+    @include add-side-margins();
+  }
+
+  .EXLMyAccountContainer {
+    @include reset-margins;
+    @include outer-container;
+    @include add-side-margins;
+    padding: 10px;
+    padding-bottom: 20px;
+    min-height: 280px;
+  }
+
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    @include reset-margins;
+    @include span-columns(3 of 8);
+    margin-bottom: 20px;
+  }
+
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    @include reset-margins;
+    @include span-columns(5 of 8);
+    @include omega();
+    vertical-align: text-top;
+    margin-bottom: 20px;
+  }
+
+  table {
+    th, td {
+      vertical-align: middle;
+    }
+  }
+
+  table {
+    th.EXLMyAccountTableCounter,
+    td.MyAccount_Loans_0 {
+      width: 30px;
+      height: 40px;
+    }
+
+    th.EXLMyAccountTable,
+    td.MyAccount_Loans_select {
+      width: 20px;
+    }
+
+    th.EXLMyAccountTableTitle,
+    td.MyAccount_Loans_title {
+      width: 180px;
+    }
+
+    td.MyAccount_Loans_author {
+      width: 100px;
+    }
+  }
+
+}
+
+@include media($mobile-down) {
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    @include reset-margins;
+    @include span-columns(4 of 4);
+    @include omega();
+    margin-bottom: 20px;
+  }
+
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    @include reset-margins;
+    @include span-columns(4 of 4);
+    @include omega();
+    margin-bottom: 20px;
+  }
+}

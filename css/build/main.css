@@ -16238,6 +16238,233 @@ a.navi-back {
     color: #bcbdb6; } }
 
 @media screen and (max-width: 960px) {
+  .EXLMyAccountTabsRibbon,
+  .EXLMyAccountContainer {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .EXLMyAccountContainer {
+    margin: 0;
+    padding: 0;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    min-height: 280px; }
+    .EXLMyAccountContainer::after {
+      clear: both;
+      content: "";
+      display: table; }
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 35.26334%;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainMenuTile:last-child,
+    .EXLMyAccountMainMenuTile:last-child {
+      margin-right: 0; }
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 61.158%;
+    margin-right: 0;
+    vertical-align: text-top;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainContainer1:last-child,
+    .EXLMyAccountMainContainer:last-child {
+      margin-right: 0; }
+  table th, table td {
+    vertical-align: middle; }
+  table th.EXLMyAccountTableCounter,
+  table td.MyAccount_Loans_0 {
+    width: 30px;
+    height: 40px; }
+  table th.EXLMyAccountTable,
+  table td.MyAccount_Loans_select {
+    width: 20px; }
+  table th.EXLMyAccountTableTitle,
+  table td.MyAccount_Loans_title {
+    width: 180px; }
+  table td.MyAccount_Loans_author {
+    width: 100px; } }
+
+@media screen and (max-width: 640px) {
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainMenuTile:last-child,
+    .EXLMyAccountMainMenuTile:last-child {
+      margin-right: 0; }
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainContainer1:last-child,
+    .EXLMyAccountMainContainer:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 960px) {
+  .EXLMyAccountMainContainer div.EXLMyAccountTips {
+    float: left;
+    width: 100%;
+    padding: 10px; }
+    .EXLMyAccountMainContainer div.EXLMyAccountTips::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .EXLMyAccountMainContainer div.EXLMyAccountTips em {
+    padding-left: 0.5em;
+    font-size: 90%; }
+  .EXLMyAccountMainContainer div.EXLMyAccountTips ul {
+    height: 100%;
+    padding: 5px; }
+  .EXLMyAccountMainContainer div.EXLMyAccountTips li {
+    list-style: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    font-size: 90%;
+    margin-bottom: 1em;
+    float: left; }
+  .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(http://nextbase.github.io/primo-suit/images/bullet_arrow_orange_tip.png);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 7px;
+    float: left;
+    display: block;
+    clear: left;
+    margin-top: 5px; }
+  .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsTitle {
+    width: 90%;
+    display: block;
+    float: left; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form {
+    margin-bottom: 1em; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form table {
+    width: 100%;
+    padding: 0em;
+    margin: 0em; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form th {
+    width: auto;
+    white-space: nowrap;
+    vertical-align: top; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form td {
+    vertical-align: top; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form select {
+    width: auto;
+    line-height: normal;
+    vertical-align: top; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips form legend {
+    font-size: 90%;
+    color: #333333;
+    font-weight: bold;
+    text-indent: 0em;
+    margin-bottom: 0.5em; }
+  .EXLMyAccountFormContainer div.EXLMyAccountTips label {
+    white-space: normal;
+    line-height: normal; } }
+
+.folders_new {
+  padding-top: 10px;
+  padding-right: 0;
+  background: none #ffffff no-repeat left bottom;
+  width: 15%;
+  border: 1px solid #b6a082; }
+
+@media screen and (max-width: 960px) {
+  .folders_new {
+    width: 25%; }
+  td.selectWidth.EXLEShelfFolderContentsPushTo select {
+    width: 120px; }
+  #exlidMyAccountMainContainer1,
+  div.EXLMyAccountMainContainer {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+    overflow-x: scroll; }
+    #exlidMyAccountMainContainer1 #LoansTable,
+    #exlidMyAccountMainContainer1 table,
+    div.EXLMyAccountMainContainer #LoansTable,
+    div.EXLMyAccountMainContainer table {
+      font-weight: #333333; }
+      #exlidMyAccountMainContainer1 #LoansTable th,
+      #exlidMyAccountMainContainer1 #LoansTable td,
+      #exlidMyAccountMainContainer1 table th,
+      #exlidMyAccountMainContainer1 table td,
+      div.EXLMyAccountMainContainer #LoansTable th,
+      div.EXLMyAccountMainContainer #LoansTable td,
+      div.EXLMyAccountMainContainer table th,
+      div.EXLMyAccountMainContainer table td {
+        padding: 4px 10px; }
+    #exlidMyAccountMainContainer1 #LoansTable,
+    div.EXLMyAccountMainContainer #LoansTable {
+      width: 800px; }
+    #exlidMyAccountMainContainer1 .EXLMyAccountTable,
+    div.EXLMyAccountMainContainer .EXLMyAccountTable {
+      width: 600px; } }
+
+@media screen and (max-width: 640px) {
+  .eShelf_print,
+  #EXLEShelfFolderContentsPushTo {
+    display: none; }
+  .folders_new,
+  #foldersDiv.folders_new {
+    display: block;
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px; }
+    .folders_new:last-child,
+    #foldersDiv.folders_new:last-child {
+      margin-right: 0; }
+  .folder_details,
+  .EXLEShelfFolderContents.folder_details {
+    margin-left: 0;
+    display: block;
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px; }
+    .folder_details:last-child,
+    .EXLEShelfFolderContents.folder_details:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 960px) {
   #footer_logo {
     height: 40px;
     width: 200px;
