@@ -10132,7 +10132,7 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 65.88078%;
+  width: 57.35098%;
   color: #333333;
   padding: 10px 20px; }
   .EXLTabHeader div.EXLTabHeaderContent:last-child {
@@ -10176,7 +10176,7 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
+  width: 40.29137%;
   margin-right: 0;
   text-align: right;
   height: auto;
@@ -16117,6 +16117,26 @@ a.navi-back {
     #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
       margin-right: 0; } }
 
+@media screen and (max-width: 960px) {
+  .EXLTabHeader div.EXLTabHeaderButtons {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%; }
+    .EXLTabHeader div.EXLTabHeaderButtons:last-child {
+      margin-right: 0; }
+  .EXLTabHeader div.EXLTabHeaderContent {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%; }
+    .EXLTabHeader div.EXLTabHeaderContent:last-child {
+      margin-right: 0; } }
+
 .EXLResultTabContainer div.EXLTabHeader {
   margin: 0;
   padding: 0;
@@ -16139,18 +16159,10 @@ a.navi-back {
     display: table; }
 
 .EXLTabHeader div.EXLTabHeaderContent {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 3.57866%;
-  width: 48.21067%;
   color: #333333;
   padding: 10px 20px;
   white-space: nowrap;
   overflow: hidden; }
-  .EXLTabHeader div.EXLTabHeaderContent:last-child {
-    margin-right: 0; }
 
 .EXLTabHeader div.EXLTabHeaderContent em {
   color: #333333;
