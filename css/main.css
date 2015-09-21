@@ -16274,6 +16274,7 @@ a.navi-back {
     .EXLMyAccountMainMenuTile:last-child {
       margin-right: 0; }
     #exlidMyAccountMainMenuTile table th,
+    #exlidMyAccountMainMenuTile table th.EXLMyAccountTableTitle,
     #exlidMyAccountMainMenuTile table th.EXLMyAccountTable,
     #exlidMyAccountMainMenuTile table th.EXLMyAccountTableAuthor,
     #exlidMyAccountMainMenuTile table th.EXLMyAccountTableDueDate,
@@ -16282,6 +16283,7 @@ a.navi-back {
     #exlidMyAccountMainMenuTile table th.Location,
     #exlidMyAccountMainMenuTile table th.EXLMyAccountTableActions,
     .EXLMyAccountMainMenuTile table th,
+    .EXLMyAccountMainMenuTile table th.EXLMyAccountTableTitle,
     .EXLMyAccountMainMenuTile table th.EXLMyAccountTable,
     .EXLMyAccountMainMenuTile table th.EXLMyAccountTableAuthor,
     .EXLMyAccountMainMenuTile table th.EXLMyAccountTableDueDate,
