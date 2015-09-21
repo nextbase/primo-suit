@@ -1,1088 +1,1088 @@
 .EXLMyAccountContainer {
-    @include reset-margins;
-    @include outer-container;
-    padding: 20px;
-    padding-bottom: 40px;
-    min-height: 300px;
-    background-color: $gray-light;
-    border-top: 1px solid $white;
-    @include clearfix;
-    margin-bottom: 20px;
+  @include reset-margins;
+  @include outer-container;
+  padding: 20px;
+  padding-bottom: 40px;
+  min-height: 300px;
+  background-color: $gray-light;
+  border-top: 1px solid $white;
+  @include clearfix;
+  margin-bottom: 20px;
 }
 
 #exlidMyAccountContainer {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .EXLMyAccountContainer .EXLMyAccountMainMenuTileMyQueries {
-    // Style away
+  // Style away
 }
 
 .EXLMyAccountContainer .EXLMyAccountQueriesMainContainer {
-    // Style away
+  // Style away
 }
 
 .EXLMyAccountLinksContainer {
-    float: left;
-    height: auto;
-    padding-top: 0.7em;
-    padding-left: 2em;
-    min-width: 40%;
-    max-width: 60%;
+  float: left;
+  height: auto;
+  padding-top: 0.7em;
+  padding-left: 2em;
+  min-width: 40%;
+  max-width: 60%;
 }
 
 .EXLMyAccountLinksContainer span.EXLMyAccountMainHeaderContentSeparator {
-    float: left;
-    padding-right: 2em;
-    display: inline-table;
-    background-image: none;
-    background-repeat: repeat-y;
-    height: 17px;
-    width: 1px;
-    background-position: center
+  float: left;
+  padding-right: 2em;
+  display: inline-table;
+  background-image: none;
+  background-repeat: repeat-y;
+  height: 17px;
+  width: 1px;
+  background-position: center
 }
 
 .EXLMyAccountPayFineLinkContainer {
-    min-width: 16em;
-    max-width: 40em;
-    float: left;
-    height: auto;
-    padding-top: 0.7em;
-    padding-left: 2em;
+  min-width: 16em;
+  max-width: 40em;
+  float: left;
+  height: auto;
+  padding-top: 0.7em;
+  padding-left: 2em;
 }
 
 .EXLMyAccountPayFineLinkContainer span.EXLMyAccountMainHeaderContentSeparator {
-    float: left;
-    padding-right: 2em;
-    display: inline-table;
-    background-image: url(../images/vseparator_pixel.png);
-    background-repeat: repeat-y;
-    height: 17px;
-    width: 1px;
-    background-position: center
+  float: left;
+  padding-right: 2em;
+  display: inline-table;
+  background-image: url(../images/vseparator_pixel.png);
+  background-repeat: repeat-y;
+  height: 17px;
+  width: 1px;
+  background-position: center
 }
 
 .EXLMyAccountPayFineLinkHeader {
-    padding-bottom: 0.1em;
-    padding-top: 0.1em;
-    height: auto;
-    width: auto
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  height: auto;
+  width: auto
 }
 
 .EXLMyAccountLinks {
-    border: 1px solid lighten($gray-light-secondary, 20%);
-    color: $black;
-    display: block;
-    float: left;
-    margin-right: 1em;
-    padding: 1px 0;
-    max-width: 30em;
-    min-width: 5em;
-    width: auto;
-    white-space: nowrap;
+  border: 1px solid lighten($gray-light-secondary, 20%);
+  color: $black;
+  display: block;
+  float: left;
+  margin-right: 1em;
+  padding: 1px 0;
+  max-width: 30em;
+  min-width: 5em;
+  width: auto;
+  white-space: nowrap;
 }
 
 .EXLMyAccountLinksHedaer {
-    padding-bottom: 0.1em;
-    padding-top: 0.1em;
-    height: auto;
-    width: auto
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  height: auto;
+  width: auto
 }
 
 .EXLMyAccountLinksHedaerContainer {
-    padding-top: 0.1em;
+  padding-top: 0.1em;
 }
 
 .EXLMyAccountFinesBalanceLink span.EXLMyAccountLinks {
-    padding-top: 0.1em;
+  padding-top: 0.1em;
 }
 
 .EXLMyAccountMainContainer table td.EXLMyAccountFinesBalanceLink {
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 
 .EXLMyAccountMainContainer table td.EXLMyAccountFinesBalanceLink span.EXLMyAccountLinks {
-    width: 100%;
+  width: 100%;
 }
 
 .EXLMyAccountLinks img {
-    padding-left: 0.5em;
+  padding-left: 0.5em;
 }
 
 .EXLMyAccountLinks .EXLMyAccountPayFineLinkText {
-    font-weight: bold;
-    color: black;
-    font-size: 14px;
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
 }
 
 .EXLMyAccountLinks .EXLMyAccountPayFineLinkSum {
-    font-weight: bold;
-    color: red;
-    font-size: 14px;
+  font-weight: bold;
+  color: red;
+  font-size: 14px;
 }
 
 .EXLMyAccountMainMenuTile {
-    width: 12.5em;
-    float: left;
+  width: 12.5em;
+  float: left;
 }
 
 .EXLMyAccountMainMenuContainer ol {
-    margin: 0 0.5em 0 0.5em;
-    border: 1px solid $gray-hover;
-    list-style-position: outside;
-    list-style: none;
-    padding: 1em 1em 1em 0;
-    background-color: $white;
-    min-height: 9.5em;
-    height: auto;
+  margin: 0 0.5em 0 0.5em;
+  border: 1px solid $gray-hover;
+  list-style-position: outside;
+  list-style: none;
+  padding: 1em 1em 1em 0;
+  background-color: $white;
+  min-height: 9.5em;
+  height: auto;
 }
 
 .EXLMyAccountMainMenuContainer ol li {
-    font-size: 80%;
-    padding-bottom: 0;
-    padding-top: 0;
-    line-height: 200%;
-    font-weight: bold;
-    color: lighten($black, 10%);
+  font-size: 80%;
+  padding-bottom: 0;
+  padding-top: 0;
+  line-height: 200%;
+  font-weight: bold;
+  color: lighten($black, 10%);
 }
 
 .EXLMyAccountMainMenuContainer ol li a,
 .EXLMyAccountMainMenuContainer ol li a:visited {
-    font-weight: bold;
-    color: lighten($black, 10%);
+  font-weight: bold;
+  color: lighten($black, 10%);
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBullet {
-    padding: 0;
-    margin: 0;
-    background-image: none;
-    background-repeat: no-repeat;
-    width: 17px;
-    height: 1em;
-    max-height: 2em;
-    float: left;
-    display: block;
-    clear: left;
-    margin-top: 6px;
-    position: relative;
-    left: -5px;
+  padding: 0;
+  margin: 0;
+  background-image: none;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 1em;
+  max-height: 2em;
+  float: left;
+  display: block;
+  clear: left;
+  margin-top: 6px;
+  position: relative;
+  left: -5px;
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuBulletSelected {
-    padding: 0;
-    margin: 0;
-    background-image: url(../images/bullet_myAccount_menu.png);
-    background-repeat: no-repeat;
-    width: 17px;
-    height: 1em;
-    max-height: 2em;
-    float: left;
-    display: block;
-    clear: left;
-    margin-top: 6px;
-    position: relative;
-    left: -5px;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/bullet_myAccount_menu.png);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 1em;
+  max-height: 2em;
+  float: left;
+  display: block;
+  clear: left;
+  margin-top: 6px;
+  position: relative;
+  left: -5px;
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuTitle {
-    width: 80%;
+  width: 80%;
 }
 
 .EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuCounter {
-    font-size: 90%;
-    width: 10%;
-    text-align: right;
-    color: $gray-dark;
-    font-weight: normal;
-    padding-left: 0.2em
+  font-size: 90%;
+  width: 10%;
+  text-align: right;
+  color: $gray-dark;
+  font-weight: normal;
+  padding-left: 0.2em
 }
 
 .EXLMyAccountMainMenuContainer ol li.EXLMyAccountMainMenuWarning span {
-    color: $alert-red-text;
-    font-weight: bold
+  color: $alert-red-text;
+  font-weight: bold
 }
 
 .EXLMyAccountMainMenuContainer ol li.EXLMyAccountMainMenuWarning span.EXLMyAccountMainMenuCounter {
-    padding-left: 0;
-    background-image: url(../images/icon_exclamation.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    background-position: 100% 55%;
+  padding-left: 0;
+  background-image: url(../images/icon_exclamation.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: 100% 55%;
 }
 
 .EXLMyAccountMainContainer {
-    width: auto;
-    border: 1px solid $gray-light;
-    background-color: $white;
-    margin-left: 14.5em;
-    width: auto;
-    font-size: 90%;
-    vertical-align: text-top;
-    margin-bottom: 2em;
-    padding-bottom: 2em
+  width: auto;
+  border: 1px solid $gray-light;
+  background-color: $white;
+  margin-left: 14.5em;
+  width: auto;
+  font-size: 90%;
+  vertical-align: text-top;
+  margin-bottom: 2em;
+  padding-bottom: 2em
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeader {
-    border-bottom: 1px solid $gold-gray-secondary;
-    height: 38px;
-    background-color: lighten($gray-light-secondary, 20%);
-    width: auto;
-    vertical-align: top;
-    font-size: 90%;
+  border-bottom: 1px solid $gold-gray-secondary;
+  height: 38px;
+  background-color: lighten($gray-light-secondary, 20%);
+  width: auto;
+  vertical-align: top;
+  font-size: 90%;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeader div.EXLMyAccountMainHeaderTitle {
-    width: auto;
-    float: left;
-    padding-top: 0.7em;
-    padding-left: 2%;
+  width: auto;
+  float: left;
+  padding-top: 0.7em;
+  padding-left: 2%;
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent {
-    width: auto;
-    color: $black;
-    padding-bottom: 0.1em;
-    padding-top: 0.1em;
-    white-space: nowrap;
+  width: auto;
+  color: $black;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  white-space: nowrap;
 
-    h1 {
-        white-space: nowrap;
-    }
+  h1 {
+    white-space: nowrap;
+    line-height: 1.2;
+    clear: both;
+  }
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
-    width: auto;
-    color: $black;
-    margin-right: 1em;
-    display: block;
-    float: left;
-    border: 1px solid lighten($gray-light-secondary, 20%);
-    padding: 1px 0 1px 0;
+  width: auto;
+  color: $black;
+  margin-right: 1em;
+  display: block;
+  float: left;
+  border: 1px solid lighten($gray-light-secondary, 20%);
+  padding: 1px 0 1px 0;
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSelected {
-    background-color: $white;
-    border: none;
-    display: inline;
-    padding: 1px 5px 1px 5px;
-    font-weight: bold
+  background-color: $white;
+  border: none;
+  display: inline;
+  padding: 1px 5px 1px 5px;
+  font-weight: bold
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeader div.EXLMyAccountMainHeaderTitle h1 {
-    font-size: 100%;
-    line-height: 150%;
+  font-size: 100%;
+  line-height: 150%;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeader div.EXLMyAccountMainHeaderTitle h1 span {
-    font-weight: normal;
-    margin-left: 0.5em
+  font-weight: normal;
+  margin-left: 0.5em
 }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span.EXLMyAccountMainHeaderContentSeparator {
-    background-image: url(../images/vseparator_pixel.png);
-    background-repeat: repeat-y;
-    height: 17px;
-    width: 1px;
-    background-position: center
+  background-image: url(../images/vseparator_pixel.png);
+  background-repeat: repeat-y;
+  height: 17px;
+  width: 1px;
+  background-position: center
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountMainHeaderButtons {
-    padding: 0;
-    margin: 0;
-    width: 35%;
-    float: right;
-    text-align: right;
-    padding-top: 1em;
-    padding-right: 2%;
-    font-size: 90%;
-    display: none
+  padding: 0;
+  margin: 0;
+  width: 35%;
+  float: right;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 2%;
+  font-size: 90%;
+  display: none
 }
 
 .EXLMyAccountMainContainer table {
-    text-align: left;
-    width: 96%;
-    font-size: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0.5em;
+  text-align: left;
+  width: 96%;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5em;
 }
 
 .EXLMyAccountMainContainer table caption {
-    text-align: left;
-    padding-top: 0.3em;
-    padding-bottom: 0.8em;
-    margin-top: 0.5em;
+  text-align: left;
+  padding-top: 0.3em;
+  padding-bottom: 0.8em;
+  margin-top: 0.5em;
 }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedback {
-    background-color: lighten($yellow, 20%);
-    background-image: url(../images/bg_strip_system_feedback.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
-    color: $black;
-    font-weight: normal;
-    border: 1px solid $gold-gray-secondary;
-    padding: 0.5em 0 0.5em 0.5em;
+  background-color: lighten($yellow, 20%);
+  background-image: url(../images/bg_strip_system_feedback.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: $black;
+  font-weight: normal;
+  border: 1px solid $gold-gray-secondary;
+  padding: 0.5em 0 0.5em 0.5em;
 }
 
 .EXLMyAccountMainContainer table th {
-    text-align: left;
-    border-bottom: 1px solid $gold-gray;
-    padding-top: 0.2em;
-    padding-bottom: 0;
-    color: $black;
-    width: auto;
-    padding-right: 1.5em;
-    vertical-align: middle;
+  text-align: left;
+  border-bottom: 1px solid $gold-gray;
+  padding-top: 0.2em;
+  padding-bottom: 0;
+  color: $black;
+  width: auto;
+  padding-right: 1.5em;
+  vertical-align: middle;
 }
 
 .EXLMyAccountMainContainer table caption.EXLCaptionSystemFeedbackRenewAll {
-    background-color: lighten($yellow, 20%);
-    background-image: url(../images/bg_strip_system_feedback.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
-    color: $black;
-    font-weight: normal;
-    border: 1px solid $gold-gray-secondary;
-    padding: 0.5em 0 0.5em 0.5em;
+  background-color: lighten($yellow, 20%);
+  background-image: url(../images/bg_strip_system_feedback.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: $black;
+  font-weight: normal;
+  border: 1px solid $gold-gray-secondary;
+  padding: 0.5em 0 0.5em 0.5em;
 }
 
 .EXLMyAccountMainContainer table td {
-    border: none;
-    padding: 0.1em 0 0.1em 0;
-    margin: 0;
-    vertical-align: text-top;
-    padding-right: 1em
+  border: none;
+  padding: 0.1em 0 0.1em 0;
+  margin: 0;
+  vertical-align: text-top;
+  padding-right: 1em
 }
 
 .EXLMyAccountMainContainer table tr.EXLMyAccountTableRowBgColor {
-    background-color: $gray-light
+  background-color: $gray-light
 }
 
 .EXLMyAccountMainContainer table tr.EXLMyAccountTableRowHighlight {
-    background-color: lighten($yellow, 20%)
+  background-color: lighten($yellow, 20%)
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountTableDetails {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountTableDetails td {
-    font-weight: normal;
-    width: auto;
-    vertical-align: text-top;
-    border-bottom: 1px solid $gray-light
+  font-weight: normal;
+  width: auto;
+  vertical-align: text-top;
+  border-bottom: 1px solid $gray-light
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountTableDetails th {
-    font-weight: bold;
-    border: none;
-    width: 10em;
-    white-space: nowrap;
-    padding-top: 0;
-    padding-bottom: 0;
-    vertical-align: text-top;
-    border-bottom: 1px solid lighten($gray-light, 5%);
-    color: $black;
+  font-weight: bold;
+  border: none;
+  width: 10em;
+  white-space: nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+  vertical-align: text-top;
+  border-bottom: 1px solid lighten($gray-light, 5%);
+  color: $black;
 }
 
 a.EXLLoansRenewButton {
-    @include button();
-    @include set-button-color($gold);
-    @include set-button-size();
-    color: $white;
-    margin-right: 10px;
+  @include button();
+  @include set-button-color($gold);
+  @include set-button-size();
+  color: $white;
+  margin-right: 10px;
 }
-
 
 #renew_selecte_loans_button {
-    @include button();
-    @include set-button-color($orange);
-    @include set-button-size();
-    color: $white;
-    margin: 10px 10px 20px 0;
-}
-
-
-table {
-    th, td {
-        vertical-align: middle;
-    }
+  @include button();
+  @include set-button-color($orange);
+  @include set-button-size();
+  color: $white;
+  margin: 10px 10px 20px 0;
 }
 
 table {
-    th.EXLMyAccountTableCounter,
-    td.MyAccount_Loans_0 {
-        width: 30px;
-        height: 40px;
-    }
+  th, td {
+    vertical-align: middle;
+  }
+}
 
-    th.EXLMyAccountTable,
-    td.MyAccount_Loans_select {
-        width: 20px;
-    }
+table {
+  th.EXLMyAccountTableCounter,
+  td.MyAccount_Loans_0 {
+    width: 30px;
+    height: 40px;
+  }
 
-    th.EXLMyAccountTableTitle,
-    td.MyAccount_Loans_title {
-        width: 180px;
-    }
+  th.EXLMyAccountTable,
+  td.MyAccount_Loans_select {
+    width: 20px;
+  }
 
-    td.MyAccount_Loans_author {
-        width: 100px;
-    }
+  th.EXLMyAccountTableTitle,
+  td.MyAccount_Loans_title {
+    width: 180px;
+  }
+
+  td.MyAccount_Loans_author {
+    width: 100px;
+  }
 }
 
 .EXLLocationsWaitButton {
-    display: none;
-    background-color: white;
-    z-index: 1002;
-    @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
-    -moz-opacity: 0.6;
-    opacity: 0.60;
-    filter: alpha(opacity=60);
+  display: none;
+  background-color: white;
+  z-index: 1002;
+  @include retina-image("../images/icon_loading_circle", 24px 24px, "gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  -moz-opacity: 0.6;
+  opacity: 0.60;
+  filter: alpha(opacity=60);
 }
 
 .EXLMyQueriesContainer div.EXLMyAccountMainMenuTile {
-    width: 14.5em;
+  width: 14.5em;
 }
 
 .EXLMyQueriesContainer div.EXLMyAccountMainContainer {
-    margin-left: 16.5em;
+  margin-left: 16.5em;
 }
 
 .EXLMyQueriesContainer div.EXLMyAccountMainMenuContainer ol {
-    height: 3em;
+  height: 3em;
 }
 
 .EXLMyQueriesContainer div.EXLMyAccountMainMenuContainer ol li span.EXLMyAccountMainMenuCounter {
-    padding-left: 0.5em
+  padding-left: 0.5em
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountTable td.EXLMyAccountTableRSSLink img {
-    background-color: $alert-green;
-    vertical-align: text-top;
-    margin-right: 0.5em
+  background-color: $alert-green;
+  vertical-align: text-top;
+  margin-right: 0.5em
 }
 
 #LoansTable {
-    thead {
-        td:nth-child(1),
-        td:nth-child(2)  {
-            display: none;
-        }
+  thead {
+    td:nth-child(1),
+    td:nth-child(2) {
+      display: none;
     }
+  }
 }
 
 .EXLMyAccountMainContainer iframe.EXLMyAccountLibraryCardIframe {
-    overflow: scroll;
-    margin-bottom: -2em;
+  overflow: scroll;
+  margin-bottom: -2em;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons {
-    padding: 0;
-    width: 35%;
-    float: right;
-    text-align: right;
-    height: 18px;
-    padding-top: 0.8em
+  padding: 0;
+  width: 35%;
+  float: right;
+  text-align: right;
+  height: 18px;
+  padding-top: 0.8em
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons ul {
-    float: right;
-    margin-bottom: 9px;
+  float: right;
+  margin-bottom: 9px;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li {
-    list-style: none;
-    float: left;
-    height: 18px;
-    border-right: 1px solid $gold-gray-secondary;
+  list-style: none;
+  float: left;
+  height: 18px;
+  border-right: 1px solid $gold-gray-secondary;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li.EXLMyShelfTableHeaderButtonSendTo {
-    list-style: none;
-    float: left;
-    height: 18px;
-    border-right: 0 solid $gold-gray-secondary;
+  list-style: none;
+  float: left;
+  height: 18px;
+  border-right: 0 solid $gold-gray-secondary;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li span {
-    background-image: none;
-    background-repeat: no-repeat;
-    width: 18px;
-    height: 18px;
-    display: inline;
-    float: left;
+  background-image: none;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  display: inline;
+  float: left;
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a {
-    padding: 0.2em 0.2em 0.2em 0.2em;
-    color: $black;
-    cursor: pointer
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  color: $black;
+  cursor: pointer
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonLabel {
-    display: none
+  display: none
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonCut {
-    background-image: url(../images/icon_my_shelf_cut.png);
+  background-image: url(../images/icon_my_shelf_cut.png);
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonCopy {
-    background-image: url(../images/icon_my_shelf_copy.png);
-    margin-left: 0.5em
+  background-image: url(../images/icon_my_shelf_copy.png);
+  margin-left: 0.5em
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonPaste {
-    background-image: url(../images/icon_my_shelf_paste.png);
-    margin-left: 0.5em
+  background-image: url(../images/icon_my_shelf_paste.png);
+  margin-left: 0.5em
 }
 
 .EXLMyAccountMainHeader div.EXLMyShelfTableHeaderButtons li a span.EXLMyShelfTableHeaderButtonDelete {
-    background-image: url(../images/icon_my_shelf_delete.png);
-    margin-left: 0.5em
+  background-image: url(../images/icon_my_shelf_delete.png);
+  margin-left: 0.5em
 }
 
 .EXLMyShelfTableHeaderButtonSendTo {
-    padding-right: 0.5em;
-    text-align: left;
-    margin-left: 0.5em;
-    margin-right: 0.5em
+  padding-right: 0.5em;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-right: 0.5em
 }
 
-
-
 .EXLMyAccountMainTableLinks {
-    width: 96%;
-    font-size: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+  width: 96%;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 .EXLMyAccountButtonLink {
-    width: 96%;
-    font-size: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+  width: 96%;
+  font-size: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
 .EXLMyAccountButtonLink span {
-    border: none;
-    display: block;
-    width: 80px;
-    height: 20px;
-    text-align: center;
-    padding: 1px;
+  border: none;
+  display: block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 1px;
 }
 
 .EXLMyAccountButtonLink span a {
-    padding: 0 0.5em 0 0.5em;
-    color: $white;
-    font-weight: normal;
-    height: 20px;
-    cursor: pointer;
-    background-image: url(../images/bg_strip_btn_orange.png);
-    background-repeat: repeat-x;
-    display: block;
-    line-height: 150%;
+  padding: 0 0.5em 0 0.5em;
+  color: $white;
+  font-weight: normal;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  display: block;
+  line-height: 150%;
 }
 
 .EXLMyAccountButtonLink span a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .EXLMyAccountDefaultMessageContainer {
-    width: 96%;
-    margin: 1em auto 1em auto;
-    font-size: 90%;
-    height: 15em;
+  width: 96%;
+  margin: 1em auto 1em auto;
+  font-size: 90%;
+  height: 15em;
 }
 
 .EXLMyAccountMessage {
-    width: 96%;
-    border: 1px solid $gold-gray-secondary;
-    margin: 1em auto 1em auto;
-    font-size: 90%;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-position: right top;
+  width: 96%;
+  border: 1px solid $gold-gray-secondary;
+  margin: 1em auto 1em auto;
+  font-size: 90%;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
 .EXLMyAccountMessage span {
-    padding: 0.6em 2em 0.6em 0.6em;
-    display: block;
-    background-image: url(../images/bg_strip_tags_links.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
+  padding: 0.6em 2em 0.6em 0.6em;
+  display: block;
+  background-image: url(../images/bg_strip_tags_links.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
 }
 
 .EXLMyAccountMessage h2 {
-    font-weight: bold;
-    font-size: 90%;
-    padding: 0.6em 2em 0.6em 0.6em;
+  font-weight: bold;
+  font-size: 90%;
+  padding: 0.6em 2em 0.6em 0.6em;
 }
 
 .EXLMyAccountBlock {
-    background-image: url(../images/icon_block.png);
+  background-image: url(../images/icon_block.png);
 }
 
 .EXLMyAccountFormContainer {
-    width: 100%;
-    @include reset-margins;
-    min-height: 400px;
+  width: 100%;
+  @include reset-margins;
+  min-height: 400px;
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
-    margin-bottom: 1em;
-    width: 55%;
-    padding-left: 1em;
-    float: left;
-    min-height: 126px;
+  margin-bottom: 1em;
+  width: 55%;
+  padding-left: 1em;
+  float: left;
+  min-height: 126px;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm {
-    @include reset-margins;
-    width: 100%;
-    height: auto;
-    float: left;
-    display: inline-block;
+  @include reset-margins;
+  width: 100%;
+  height: auto;
+  float: left;
+  display: inline-block;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    padding: 0;
-    margin: 0;
-    text-align: left;
-    font-weight: normal;
-    display: inline;
-    border: none;
-    line-height: 200%;
-    display: block;
-    margin: 0;
-    padding: 0;
-    margin-right: 2em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-weight: normal;
+  display: inline;
+  border: none;
+  line-height: 200%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-right: 2em;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm td {
-    font-weight: normal;
-    color: $black;
-    width: auto;
+  font-weight: normal;
+  color: $black;
+  width: auto;
 }
 
 .EXLMyAccountMainContainer form table.EXLMyAccountForm td {
-    border: none;
-    text-align: left;
+  border: none;
+  text-align: left;
 }
 
 .EXLMyAccountMainContainer form select {
-    border: inherit;
-    height: auto;
+  border: inherit;
+  height: auto;
 }
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
-    padding-right: 0;
-    @include input();
-    @include input-size("default");
-    @include set-input-style("inset");
-    @include form-element-width("default");
-    @include input-select;
-    width: 240px;
+  padding-right: 0;
+  @include input();
+  @include input-size("default");
+  @include set-input-style("inset");
+  @include form-element-width("default");
+  @include input-select;
+  width: 240px;
 }
 
 .EXLMyAccountMainContainer form input {
-    @include input;
-    @include input-size("default");
-    @include set-input-style('inset');
-    @include form-element-width("default");
+  @include input;
+  @include input-size("default");
+  @include set-input-style('inset');
+  @include form-element-width("default");
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    height: auto;
-    display: block;
-    width: auto;
+  height: auto;
+  display: block;
+  width: auto;
 
-    input {
-        @include button;
-        @include set-button-color($gold);
-        @include set-button-size;
-    }
+  input {
+    @include button;
+    @include set-button-color($gold);
+    @include set-button-size;
+  }
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    @include button();
-    @include set-button-color($gold);
-    @include set-button-size;
-    max-width: 100%;
+  @include button();
+  @include set-button-color($gold);
+  @include set-button-size;
+  max-width: 100%;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm tr.PSPasswordsHiddableRow {
-    display: none;
+  display: none;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm #PSPasswordsHeader {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings div.EXLRequestSystemFeedback {
-    float: left;
-    width: 80%;
-    border: 1px solid $gold-gray-secondary;
-    margin: 0.5em;
-    text-align: center;
-    background-color: lighten($yellow, 20%);
+  float: left;
+  width: 80%;
+  border: 1px solid $gold-gray-secondary;
+  margin: 0.5em;
+  text-align: center;
+  background-color: lighten($yellow, 20%);
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings div.EXLRequestSystemFeedback span {
-    padding: 1em;
-    display: block;
-    background-image: url(../images/bg_strip_system_feedback.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
-    color: $black;
-    font-weight: normal;
+  padding: 1em;
+  display: block;
+  background-image: url(../images/bg_strip_system_feedback.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: $black;
+  font-weight: normal;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountEditLink {
-    clear: left;
-    font-size: 90%;
-    padding-top: 2em;
-    margin-left: 2%;
-    font-weight: bold;
+  clear: left;
+  font-size: 90%;
+  padding-top: 2em;
+  margin-left: 2%;
+  font-weight: bold;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips {
-    float: right;
-    width: 35%;
-    border: 1px solid $gold-gray-secondary;
-    margin: 10px;
-    background-image: none;
-    background-repeat: repeat-x;
-    background-position: bottom;
-    height: auto;
-    padding: 20px;
+  float: right;
+  width: 35%;
+  border: 1px solid $gold-gray-secondary;
+  margin: 10px;
+  background-image: none;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: auto;
+  padding: 20px;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips em {
-    padding-left: 0.5em;
-    font-size: 90%;
+  padding-left: 0.5em;
+  font-size: 90%;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips ul {
-    height: 100%;
-    padding: 0.5em 0 1em 0.5em;
+  height: 100%;
+  padding: 0.5em 0 1em 0.5em;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li {
-    list-style: none;
-    padding-top: 0;
-    padding-right: 0;
-    font-size: 90%;
-    margin-bottom: 1em;
-    float: left;
+  list-style: none;
+  padding-top: 0;
+  padding-right: 0;
+  font-size: 90%;
+  margin-bottom: 1em;
+  float: left;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
-    padding: 0;
-    margin: 0;
-    background-image: url(../images/bullet_arrow_orange_tip.png);
-    background-repeat: no-repeat;
-    width: 15px;
-    height: 7px;
-    float: left;
-    display: block;
-    clear: left;
-    margin-top: 5px;
+  padding: 0;
+  margin: 0;
+  background-image: url(../images/bullet_arrow_orange_tip.png);
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 7px;
+  float: left;
+  display: block;
+  clear: left;
+  margin-top: 5px;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsTitle {
-    width: 90%;
-    display: block;
-    float: left;
+  width: 90%;
+  display: block;
+  float: left;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form table {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form th {
-    width: auto;
-    white-space: nowrap;
-    vertical-align: top;
+  width: auto;
+  white-space: nowrap;
+  vertical-align: top;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form td {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form select {
-    width: auto;
-    line-height: normal;
-    vertical-align: top;
+  width: auto;
+  line-height: normal;
+  vertical-align: top;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips form legend {
-    font-size: 90%;
-    color: $black;
-    font-weight: bold;
-    text-indent: 0;
-    margin-bottom: 0.5em;
+  font-size: 90%;
+  color: $black;
+  font-weight: bold;
+  text-indent: 0;
+  margin-bottom: 0.5em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountTips label {
-    white-space: normal;
-    line-height: normal;
+  white-space: normal;
+  line-height: normal;
 }
 
 /* Main Container */
 
 .EXLMyAccountMainContainer div.EXLMyAccountRanking {
-    float: right;
-    width: 35%;
-    border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0 1em 1em;
-    background-image: url(../images/bg_strip_details_links.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
-    height: auto;
-    padding: 0.5em 1em 0.5em 0.5em;
+  float: right;
+  width: 35%;
+  border: 1px solid $gold-gray-secondary;
+  margin: 0.5em 0 1em 1em;
+  background-image: url(../images/bg_strip_details_links.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: auto;
+  padding: 0.5em 1em 0.5em 0.5em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
-    font-size: 90%;
-    color: $black;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5em;
+  font-size: 90%;
+  color: $black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking tr {
-    line-height: auto;
+  line-height: auto;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking th {
-    width: auto;
-    white-space: normal;
-    line-height: 150%;
-    vertical-align: text-top;
-    padding-right: 0.5em;
+  width: auto;
+  white-space: normal;
+  line-height: 150%;
+  vertical-align: text-top;
+  padding-right: 0.5em;
 }
 
-.EXLMyAccountFormContainer div.EXLMyAccountRanking td {}
+.EXLMyAccountFormContainer div.EXLMyAccountRanking td {
+}
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking a.EXLEditPersonalizedRankingProfile {
-    font-weight: bold;
-    line-height: 200%;
+  font-weight: bold;
+  line-height: 200%;
 }
 
 .EXLMyAccountFormContainer {
-    width: 96%;
-    padding-top: 1em;
-    display: table;
+  width: 96%;
+  padding-top: 1em;
+  display: table;
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
-    margin-bottom: 1em;
-    width: 55%;
-    padding-left: 1em;
-    float: left;
+  margin-bottom: 1em;
+  width: 55%;
+  padding-left: 1em;
+  float: left;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm {
-    margin-bottom: 1em;
-    width: 100%;
-    margin-left: 2%;
-    height: auto;
-    float: left;
-    display: inline-block;
+  margin-bottom: 1em;
+  width: 100%;
+  margin-left: 2%;
+  height: auto;
+  float: left;
+  display: inline-block;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    text-align: left;
-    font-weight: normal;
-    border: none;
-    line-height: 200%;
-    display: block;
-    margin: 0;
-    padding: 0;
-    margin-right: 2em;
-    vertical-align: text-top;
+  text-align: left;
+  font-weight: normal;
+  border: none;
+  line-height: 200%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-right: 2em;
+  vertical-align: text-top;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm td {
-    font-weight: normal;
-    color: $black;
-    width: auto;
+  font-weight: normal;
+  color: $black;
+  width: auto;
 }
 
 .EXLMyAccountMainContainer form table.EXLMyAccountForm td {
-    border: none;
-    text-align: left
+  border: none;
+  text-align: left
 }
 
 .EXLMyAccountMainContainer form select {
-    border: none;
-    height: auto;
+  border: none;
+  height: auto;
 }
 
 .EXLMyAccountMainContainer form input {
-    border: none;
-    height: 18px;
-    width: 15em
+  border: none;
+  height: 18px;
+  width: 15em
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    border: none;
-    display: inline-block;
-    width: auto;
-    height: 22px;
+  border: none;
+  display: inline-block;
+  width: auto;
+  height: 22px;
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    background-color: $gold;
-    background-image: url(../images/bg_strip_submit_temp.png);
-    background-repeat: repeat-x;
-    margin-left: 0;
-    width: auto;
-    color: $white;
-    font-weight: normal;
-    height: 22px;
-    cursor: pointer;
-    border: 1px solid $white;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+  background-color: $gold;
+  background-image: url(../images/bg_strip_submit_temp.png);
+  background-repeat: repeat-x;
+  margin-left: 0;
+  width: auto;
+  color: $white;
+  font-weight: normal;
+  height: 22px;
+  cursor: pointer;
+  border: 1px solid $white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /* My Account Related */
 
 .EXLMyAccountMainContainer div.EXLMyAccountRanking {
-    float: right;
-    width: 35%;
-    border: 1px solid $gold-gray-secondary;
-    margin: 0.5em 0 1em 1em;
-    background-image: url(../images/bg_strip_details_links.png);
-    background-repeat: repeat-x;
-    background-position: bottom;
-    height: auto;
-    padding: 0.5em 1em 0.5em 0.5em;
+  float: right;
+  width: 35%;
+  border: 1px solid $gold-gray-secondary;
+  margin: 0.5em 0 1em 1em;
+  background-image: url(../images/bg_strip_details_links.png);
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: auto;
+  padding: 0.5em 1em 0.5em 0.5em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking table {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking strong {
-    font-size: 90%;
-    color: $black;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 0.5em;
+  font-size: 90%;
+  color: $black;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking tr {
-    line-height: auto;
+  line-height: auto;
 }
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking th {
-    width: auto;
-    white-space: normal;
-    line-height: 150%;
-    vertical-align: text-top;
-    padding-right: 0.5em;
+  width: auto;
+  white-space: normal;
+  line-height: 150%;
+  vertical-align: text-top;
+  padding-right: 0.5em;
 }
 
-.EXLMyAccountFormContainer div.EXLMyAccountRanking td {}
+.EXLMyAccountFormContainer div.EXLMyAccountRanking td {
+}
 
 .EXLMyAccountFormContainer div.EXLMyAccountRanking a.EXLEditPersonalizedRankingProfile {
-    font-weight: bold;
-    line-height: 200%;
+  font-weight: bold;
+  line-height: 200%;
 }
 
 .EXLMyAccountFormContainer {
-    width: 96%;
-    padding-top: 1em;
-    display: table;
+  width: 96%;
+  padding-top: 1em;
+  display: table;
 }
 
 .EXLMyAccountMainContainer div.EXLMyPersonalSettings {
-    margin-bottom: 1em;
-    width: 55%;
-    padding-left: 1em;
-    float: left;
+  margin-bottom: 1em;
+  width: 55%;
+  padding-left: 1em;
+  float: left;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm {
-    margin-bottom: 1em;
-    width: 100%;
-    margin-left: 2%;
-    height: auto;
-    float: left;
-    display: inline-block;
+  margin-bottom: 1em;
+  width: 100%;
+  margin-left: 2%;
+  height: auto;
+  float: left;
+  display: inline-block;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm th {
-    text-align: left;
-    font-weight: normal;
-    border: none;
-    line-height: 200%;
-    display: block;
-    margin: 0;
-    padding: 0;
-    margin-right: 2em;
-    vertical-align: text-top;
+  text-align: left;
+  font-weight: normal;
+  border: none;
+  line-height: 200%;
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-right: 2em;
+  vertical-align: text-top;
 }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm td {
-    font-weight: normal;
-    color: $black;
-    width: auto;
+  font-weight: normal;
+  color: $black;
+  width: auto;
 }
 
 .EXLMyAccountMainContainer form table.EXLMyAccountForm td {
-    border: none;
-    text-align: left
+  border: none;
+  text-align: left
 }
 
 .EXLMyAccountMainContainer form select {
-    border: 1px solid lighten($blue, 10%);
-    height: auto;
+  border: 1px solid lighten($blue, 10%);
+  height: auto;
 }
 
 .EXLMyAccountMainContainer form input {
-    @include input;
-    @include input-size("default");
-    @include set-input-style("inset");
-    @include form-element-width("default");
+  @include input;
+  @include input-size("default");
+  @include set-input-style("inset");
+  @include form-element-width("default");
 }
 
 .EXLMyAccountMainContainer form span.submit {
-    border: none;
-    display: inline-block;
-    width: auto;
-    height: auto;
+  border: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
 }
 
 .EXLMyAccountMainContainer form input.submit {
-    @include input;
-    @include input-size("default");
-    @include set-input-style("inset");
-    @include form-element-width("default");
+  @include input;
+  @include input-size("default");
+  @include set-input-style("inset");
+  @include form-element-width("default");
 }

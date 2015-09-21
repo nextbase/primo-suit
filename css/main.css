@@ -12526,7 +12526,9 @@ div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
   padding-top: 0.1em;
   white-space: nowrap; }
   .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent h1 {
-    white-space: nowrap; }
+    white-space: nowrap;
+    line-height: 1.2;
+    clear: both; }
 
 .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span {
   width: auto;
