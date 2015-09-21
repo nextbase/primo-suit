@@ -39,6 +39,39 @@
 	}
 }
 
+@include media($mobile-down) {
+  #exlidAdvancedSearchTile {
+
+    #exlidSearchTabs li {
+
+      a {
+        @include prefixer(border-radius, 2px, webkit moz spec);
+        padding: 4px 8px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 5px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+
+        a {
+          @include prefixer(border-radius, 2px, webkit moz spec);
+        }
+      }
+
+      &:last-child {
+        a {
+          @include prefixer(border-radius, 2px, webkit moz spec);
+        }
+      }
+
+    }
+
+  }
+}
+
 #exlidAdvancedSearchRibbon {
 	@include reset-margins;
     width: 100%;
@@ -92,6 +125,14 @@
 	@include form-element-width("default");
 }
 
+@include media($tablets-down) {
+  #exlidAdvancedSearchRibbon input,
+  #exlidAdvancedSearchRibbon select {
+    width: 120px;
+    margin-bottom: 5px;
+  }
+}
+
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
     @include span-columns(7 of 12);
 }
@@ -101,6 +142,19 @@
     height: auto;
     border-left: 1px solid $gold-gray;
     margin-left: 0;
+}
+
+@include media($tablets-down) {
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1,
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    @include span-columns(8 of 8);
+    @include omega();
+  }
+
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    border-left: none;
+    padding-left: 0;
+  }
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
