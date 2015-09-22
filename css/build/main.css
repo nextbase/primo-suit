@@ -16266,7 +16266,9 @@ a.navi-back {
 @media screen and (max-width: 500px) {
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    width: 98%; } }
+    width: 98%; }
+  #exlidSearchTabs {
+    width: 100%; } }
 
 @media screen and (max-width: 640px) {
   td.EXLSummary .EXLTabsRibbon {
