@@ -49,6 +49,11 @@
     margin-bottom: 20px;
   }
 
+  td.selectWidth.EXLEShelfFolderContentsPushTo,
+  td.selectWidth.EXLEShelfFolderContentsPushTo select {
+    display: none;
+  }
+
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
     margin-left: 0;
@@ -80,6 +85,8 @@
       }
     }
 
+
+    td.EXLEShelfFolderContentsPushTo,
     ul.EXLEShelfFolderContentsSendButtonList {
       display: none;
     }

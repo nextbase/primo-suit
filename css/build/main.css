@@ -16597,6 +16597,9 @@ a.navi-back {
     .folders_new:last-child,
     #foldersDiv.folders_new:last-child {
       margin-right: 0; }
+  td.selectWidth.EXLEShelfFolderContentsPushTo,
+  td.selectWidth.EXLEShelfFolderContentsPushTo select {
+    display: none; }
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
     margin-left: 0;
@@ -16650,7 +16653,9 @@ a.navi-back {
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_copy_but,
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_paste_but {
       display: none; }
+    .folder_details td.EXLEShelfFolderContentsPushTo,
     .folder_details ul.EXLEShelfFolderContentsSendButtonList,
+    .EXLEShelfFolderContents.folder_details td.EXLEShelfFolderContentsPushTo,
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsSendButtonList {
       display: none; } }
 
