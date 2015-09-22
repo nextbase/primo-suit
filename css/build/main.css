@@ -5167,8 +5167,7 @@ ul.menu.dropit ul.dropit-submenu a:hover {
     border-bottom-left-radius: 0;
     transition: box-shadow 0.2s ease-in-out; }
 
-#exlidSearchTile.simple,
-.myAccount #exlidSearchTile {
+#exlidSearchTile.simple {
   display: none; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
