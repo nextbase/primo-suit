@@ -16251,9 +16251,14 @@ a.navi-back {
     position: relative; }
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    width: 93%; }
+    width: 90%; }
   .EXLSearchFieldRibbonFormSearchClear {
     right: 53px; } }
+
+@media screen and (max-width: 500px) {
+  #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    width: 75%; } }
 
 @media screen and (max-width: 640px) {
   td.EXLSummary .EXLTabsRibbon {

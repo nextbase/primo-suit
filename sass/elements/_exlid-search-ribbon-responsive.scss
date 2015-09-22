@@ -31,10 +31,17 @@ $search-button-width: 50px;
 
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    width: 93%;
+    width: 90%;
   }
 
   .EXLSearchFieldRibbonFormSearchClear {
     right: 53px;
+  }
+}
+
+@include media($mobile-small) {
+  #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    width: 75%;
   }
 }
