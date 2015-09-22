@@ -108,7 +108,13 @@
   overflow: hidden;
 }
 
+.simple {
+  #exlidSearchRibbon {
 
-#exlidSearchTile.simple {
-  display: none;
+    .EXLSearchTabsContainer,
+    .EXLSearchFieldRibbonAdvancedSearchLink,
+    .EXLSearchFieldRibbonBrowseSearchLink {
+      display: none;
+    }
+  }
 }
