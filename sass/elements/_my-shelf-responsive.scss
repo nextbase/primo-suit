@@ -57,6 +57,7 @@
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
     margin-left: 0;
+    padding-left: 0;
     display: block;
     float: left;
     @include span-columns(4 of 4);
