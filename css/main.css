@@ -16737,8 +16737,8 @@ a.navi-back {
       font-size: 14px; } }
 
 @media screen and (max-width: 640px) {
-  #footer .content .foot_copyright_area,
-  #footer .content .foot_address_area {
+  #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_copyright_area,
+  #footer .content .snu_foot_content .snu_foot_info_wrapper .foot_address_area {
     font-size: 12px; }
   .sitemap-container {
     max-width: 1170px;

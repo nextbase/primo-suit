@@ -144,7 +144,7 @@
 
 @include media($mobile-down) {
   #footer {
-    .content {
+    .content .snu_foot_content .snu_foot_info_wrapper {
       .foot_copyright_area,
       .foot_address_area {
         font-size: ($small-font-size - 2px);
