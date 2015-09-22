@@ -1,6 +1,12 @@
 $search-button-width: 50px;
 
 @include media($mobile-down) {
+
+  #exlidSearchRibbon {
+    display: block;
+    width: 100%;
+  }
+
   #exlidSearchRibbon input.EXLSearchFieldMaximized,
   #exlidSearchRibbon input[type=text] {
     padding-right: $search-button-width + 30px;
@@ -14,6 +20,13 @@ $search-button-width: 50px;
     top: 0;
     right: 0;
     margin-right: 0;
+  }
+
+  .EXLSearchFieldRibbonFormFields {
+    float: left;
+    width: 100%;
+    height: auto;
+    position:relative;
   }
 
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,

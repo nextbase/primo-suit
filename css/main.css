@@ -16230,6 +16230,9 @@ a.navi-back {
   padding: 0px 5px 0px 5px; }
 
 @media screen and (max-width: 640px) {
+  #exlidSearchRibbon {
+    display: block;
+    width: 100%; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized,
   #exlidSearchRibbon input[type=text] {
     padding-right: 80px; }
@@ -16241,6 +16244,11 @@ a.navi-back {
     top: 0;
     right: 0;
     margin-right: 0; }
+  .EXLSearchFieldRibbonFormFields {
+    float: left;
+    width: 100%;
+    height: auto;
+    position: relative; }
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
     width: 93%; }
