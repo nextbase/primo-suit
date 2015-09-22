@@ -172,6 +172,10 @@ function initFilterExpand() {
     });
 }
 
+function removeAltFromMissingImages() {
+    $('img.EXLBriefResultsCover').attr("alt", "");
+}
+
 $(document).ready(function () {
     // Responsive Containers
     initResponsiveContainers();

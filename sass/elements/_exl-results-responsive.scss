@@ -11,9 +11,9 @@
     .EXLBriefResultsDisplayCoverImages,
     .multipleCoverImageContainer {
       position: relative;
-      width: 48px;
-      height: 74px;
-      background-size: 48px 74px;
+      width: $thumbnail-mobile-width;
+      height: $thumbnail-mobile-height;
+      background-size: $thumbnail-mobile-width $thumbnail-mobile-height;
       background-position: center center;
     }
   }
