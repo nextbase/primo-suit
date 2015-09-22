@@ -16004,6 +16004,9 @@ header#responsive-header {
   font-weight: normal;
   transition: background 0.3s, box-shadow 0.3s; }
 
+.navi-menu ul li > a {
+  font-size: 14px; }
+
 .navi-menu ul li > span.EXLUserNameDisplay,
 .navi-menu ul li > span.nolink {
   font-size: 12px;
