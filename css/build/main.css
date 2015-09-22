@@ -13685,6 +13685,39 @@ ul.EXLCitationLinkerTabs {
   margin-bottom: 0;
   margin-top: 20px; }
 
+@media screen and (max-width: 640px) {
+  ul.EXLMyAccountTabs li.EXLMyAccountTab,
+  ul.EXLMyAccountTabs li.EXLCitationLinkerTab,
+  ul.EXLCitationLinkerTabs li.EXLMyAccountTab,
+  ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab {
+    height: 24px; }
+    ul.EXLMyAccountTabs li.EXLMyAccountTab a,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerTab a,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountTab a,
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a {
+      height: 24px;
+      line-height: 20px;
+      padding: 0 10px; }
+  ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab,
+  ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab,
+  ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab,
+  ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab {
+    height: 24px; }
+    ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a,
+    ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:link,
+    ul.EXLMyAccountTabs li.EXLMyAccountSelectedTab a:visited,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:link,
+    ul.EXLMyAccountTabs li.EXLCitationLinkerSelectedTab a:visited,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:link,
+    ul.EXLCitationLinkerTabs li.EXLMyAccountSelectedTab a:visited,
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a,
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:link,
+    ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:visited {
+      line-height: 24px;
+      padding: 0 10px; } }
+
 table {
   font-size: 14px;
   width: 100%; }

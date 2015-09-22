@@ -126,3 +126,40 @@ ul.EXLCitationLinkerTabs {
     margin-bottom: 0;
     margin-top: 20px;
 }
+
+@include media($mobile-down) {
+
+  ul.EXLMyAccountTabs,
+  ul.EXLCitationLinkerTabs {
+
+    li {
+      &.EXLMyAccountTab,
+      &.EXLCitationLinkerTab {
+        height: 24px;
+
+        a {
+          height: 24px;
+          line-height: 20px;
+          padding: 0 10px;
+        }
+
+      }
+
+      &.EXLMyAccountSelectedTab,
+      &.EXLCitationLinkerSelectedTab {
+        height: 24px;
+
+        a,
+        a:link,
+        a:visited {
+          line-height: 24px;
+          padding: 0 10px;
+        }
+
+      }
+
+    }
+
+  }
+
+}
