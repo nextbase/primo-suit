@@ -4,7 +4,6 @@ $mobile-menu-link-color: $white;
 $mobile-menu-separator-color: $gray-light;
 $mobile-menu-text-shadow: none;
 $mobile-menu-container-shadow: inset 5px 0px 5px -5px rgba($black, 0.75);
-
 $mobile-menu-width: 270px;
 $mobile-larger-menu-width: 310px;
 
@@ -425,3 +424,12 @@ a.navi-back {
   display: none;
 }
 
+/* User Menu */
+
+#userMenuResponsiveResponsive li {
+  a,
+  a:link,
+  a:visited {
+    font-size: $small-font-size;
+  }
+}

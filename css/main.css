@@ -16131,6 +16131,12 @@ a.navi-back {
 .i18n-ko .language-choice.ko {
   display: none; }
 
+/* User Menu */
+#userMenuResponsiveResponsive li a,
+#userMenuResponsiveResponsive li a:link,
+#userMenuResponsiveResponsive li a:visited {
+  font-size: 14px; }
+
 @media screen and (max-width: 960px) {
   #exlidSearchTabs li {
     margin: 0;
