@@ -16163,6 +16163,14 @@ a.navi-back {
     #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
       margin-right: 0; } }
 
+@media screen and (max-width: 500px) {
+  #exlidSearchRibbon div.EXLSearchTabsContainer {
+    margin: 0;
+    padding: 0;
+    position: static;
+    width: 245px;
+    height: 40px; } }
+
 @media screen and (max-width: 960px) {
   .EXLTabHeader div.EXLTabHeaderButtons {
     margin: 0;
@@ -16258,7 +16266,7 @@ a.navi-back {
 @media screen and (max-width: 500px) {
   #exlidSearchRibbon .EXLSearchFieldRibbonFormSearchForMaximized,
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
-    width: 93%; } }
+    width: 98%; } }
 
 @media screen and (max-width: 640px) {
   td.EXLSummary .EXLTabsRibbon {

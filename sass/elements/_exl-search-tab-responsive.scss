@@ -37,3 +37,12 @@
   }
 
 }
+
+@include media($mobile-small) {
+  #exlidSearchRibbon div.EXLSearchTabsContainer {
+    @include reset-margins;
+    position: static;
+    width: 245px;
+    height: 40px;
+  }
+}
