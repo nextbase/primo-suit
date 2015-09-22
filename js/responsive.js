@@ -198,6 +198,9 @@ $(document).ready(function () {
 
     // Responsive Search Filters
     initFilterExpand();
+
+    // Make tables Responsive
+    responsiveTables();
 });
 
 /& Stackable Solution for Tables */
