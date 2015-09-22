@@ -425,11 +425,6 @@ a.navi-back {
 }
 
 /* User Menu */
-
-#userMenuResponsiveResponsive li {
-  a,
-  a:link,
-  a:visited {
-    font-size: $small-font-size;
-  }
+.navi-menu #userMenuResponsiveResponsive li > a {
+  font-size: $small-font-size;;
 }

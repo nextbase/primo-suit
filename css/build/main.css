@@ -16132,9 +16132,7 @@ a.navi-back {
   display: none; }
 
 /* User Menu */
-#userMenuResponsiveResponsive li a,
-#userMenuResponsiveResponsive li a:link,
-#userMenuResponsiveResponsive li a:visited {
+.navi-menu #userMenuResponsiveResponsive li > a {
   font-size: 14px; }
 
 @media screen and (max-width: 960px) {
