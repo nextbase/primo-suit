@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var replace = require('gulp-replace');
 var uncss = require('gulp-uncss');
+var exec = require('child_process').exec;
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -36,6 +37,14 @@ gulp.task('build', ['styles', 'absolute_urls']);
 
 gulp.task('default', ['clean', 'build'], function () {
     gulp.start('watch');
+});
+
+gulp.task('push', function (cb) {
+    exec('./deploy', function (err, stdout, stderr) {
+        console.log(stdout);
+        console.log(stderr);
+        cb(err);
+    });
 });
 
 gulp.task('watch', function () {
