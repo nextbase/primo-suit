@@ -179,6 +179,7 @@ function removeAltFromMissingImages() {
 function responsiveTables() {
     /* Make tables responsive */
     $('#requestList').stacktable({myClass:'stacktable small-only'});
+    $('.EXLMyAccountTable').stacktable({myClass:'stacktable small-only'});
 }
 
 $(document).ready(function () {
