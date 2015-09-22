@@ -1,5 +1,5 @@
 $mobile-menu-bg-color: $gold;
-$mobile-menu-font-size: 16px;
+$mobile-menu-font-size: 14px;
 $mobile-menu-link-color: $white;
 $mobile-menu-separator-color: $gray-light;
 $mobile-menu-text-shadow: none;
@@ -266,7 +266,7 @@ $mobile-larger-menu-width: 310px;
 }
 
 .navi-menu ul li > a {
-  font-size: ($base-font-size - 2px);
+  font-size: $mobile-menu-font-size;
 }
 
 .navi-menu ul li > span.EXLUserNameDisplay,
