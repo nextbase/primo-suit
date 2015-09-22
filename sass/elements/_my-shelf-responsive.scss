@@ -69,5 +69,15 @@
         }
       }
     }
+
+    ul.EXLEShelfFolderContentsManipulationButtonList {
+      a {
+        &.eShelf_cut_but,
+        &.eShelf_copy_but,
+        &.eShelf_paste_but {
+          display: none;
+        }
+      }
+    }
   }
 }

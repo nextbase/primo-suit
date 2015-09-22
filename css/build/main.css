@@ -16642,6 +16642,13 @@ a.navi-back {
     .EXLEShelfFolderContents.folder_details table.itemsListTH td.type,
     .EXLEShelfFolderContents.folder_details table.itemsListTH td.added,
     .EXLEShelfFolderContents.folder_details table.itemsListTH td.note {
+      display: none; }
+    .folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_cut_but,
+    .folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_copy_but,
+    .folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_paste_but,
+    .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_cut_but,
+    .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_copy_but,
+    .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_paste_but {
       display: none; } }
 
 .stacktable.large-only {
