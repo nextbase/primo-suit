@@ -107,3 +107,115 @@
   @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
 }
 
+@include media($mobile-down) {
+
+  .multipleCoverImageContainer {
+    @include reset-margins;
+    width: $thumbnail-mobile-width;
+    height: $thumbnail-mobile-height;
+    @include retina-image("../images/icon_book", $thumbnail-mobile-width $thumbnail-mobile-height);
+    background-repeat: no-repeat;
+    border: 1px solid $gold-gray-secondary;
+    position: relative;
+  }
+
+  .coverImageDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5 !important;
+
+    &[style] {
+      z-index: 5 !important;
+    }
+  }
+
+  .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
+    @include retina-image("../images/icon_article", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
+    @include retina-image("../images/icon_audio", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEbook .multipleCoverImageContainer {
+    @include retina-image("../images/icon_book", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
+    @include retina-image("../images/icon_research_dataset", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEtechnical_report .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEpatent .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEdatabase .multipleCoverImageContainer {
+    @include retina-image("../images/icon_database", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEimage .multipleCoverImageContainer {
+    @include retina-image("../images/icon_image", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEjournal .multipleCoverImageContainer {
+    @include retina-image("../images/icon_journal", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEmap .multipleCoverImageContainer {
+    @include retina-image("../images/icon_map", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEother .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEtext_resource .multipleCoverImageContainer {
+    @include retina-image("../images/icon_text_resource", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEvideo .multipleCoverImageContainer {
+    @include retina-image("../images/icon_video", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {
+    @include retina-image("../images/icon_website", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEdissertation .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEgovernment_document .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEreview .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEstatistical_data_set .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {
+    @include retina-image("../images/icon_newspaper", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPElegal_document .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPEcce_entry .multipleCoverImageContainer {
+    @include retina-image("../images/icon_other", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+  .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
+    @include retina-image("../images/icon_book", $thumbnail-mobile-width $thumbnail-mobile-height);
+  }
+
+}

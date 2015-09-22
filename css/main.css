@@ -9869,6 +9869,204 @@ body.EXLFullView div.EXLBackToResults {
       background-image: url("../images/icon_book_2x.png");
       background-size: 64px 98px; } }
 
+@media screen and (max-width: 640px) {
+  .multipleCoverImageContainer {
+    margin: 0;
+    padding: 0;
+    width: 46px;
+    height: 70px;
+    background-image: url("../images/icon_book.png");
+    background-repeat: no-repeat;
+    border: 1px solid #d8d0c4;
+    position: relative; } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .multipleCoverImageContainer {
+      background-image: url("../images/icon_book_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .coverImageDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5 !important; }
+    .coverImageDiv[style] {
+      z-index: 5 !important; }
+  .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
+    background-image: url("../images/icon_article.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
+      background-image: url("../images/icon_article_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
+    background-image: url("../images/icon_audio.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
+      background-image: url("../images/icon_audio_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEbook .multipleCoverImageContainer {
+    background-image: url("../images/icon_book.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEbook .multipleCoverImageContainer {
+      background-image: url("../images/icon_book_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
+    background-image: url("../images/icon_research_dataset.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
+      background-image: url("../images/icon_research_dataset_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEtechnical_report .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEtechnical_report .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEpatent .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEpatent .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEdatabase .multipleCoverImageContainer {
+    background-image: url("../images/icon_database.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEdatabase .multipleCoverImageContainer {
+      background-image: url("../images/icon_database_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEimage .multipleCoverImageContainer {
+    background-image: url("../images/icon_image.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEimage .multipleCoverImageContainer {
+      background-image: url("../images/icon_image_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEjournal .multipleCoverImageContainer {
+    background-image: url("../images/icon_journal.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEjournal .multipleCoverImageContainer {
+      background-image: url("../images/icon_journal_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEmap .multipleCoverImageContainer {
+    background-image: url("../images/icon_map.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEmap .multipleCoverImageContainer {
+      background-image: url("../images/icon_map_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEother .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEother .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEtext_resource .multipleCoverImageContainer {
+    background-image: url("../images/icon_text_resource.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEtext_resource .multipleCoverImageContainer {
+      background-image: url("../images/icon_text_resource_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEvideo .multipleCoverImageContainer {
+    background-image: url("../images/icon_video.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEvideo .multipleCoverImageContainer {
+      background-image: url("../images/icon_video_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {
+    background-image: url("../images/icon_website.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEwebsite .multipleCoverImageContainer {
+      background-image: url("../images/icon_website_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEdissertation .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEdissertation .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEgovernment_document .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEgovernment_document .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEreview .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEreview .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEstatistical_data_set .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEstatistical_data_set .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {
+    background-image: url("../images/icon_newspaper.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEnewspaper_article .multipleCoverImageContainer {
+      background-image: url("../images/icon_newspaper_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPElegal_document .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPElegal_document .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPEcce_entry .multipleCoverImageContainer {
+    background-image: url("../images/icon_other.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPEcce_entry .multipleCoverImageContainer {
+      background-image: url("../images/icon_other_2x.png");
+      background-size: 46px 70px; } }
+
+@media screen and (max-width: 640px) {
+  .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
+    background-image: url("../images/icon_book.png"); } }
+  @media only screen and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 640px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 640px) and (min-resolution: 125dpi), only screen and (max-width: 640px) and (min-resolution: 1.3dppx) {
+    .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
+      background-image: url("../images/icon_book_2x.png");
+      background-size: 46px 70px; } }
+
 .EXLTabsRibbon {
   margin: 0;
   padding: 0;
@@ -16213,9 +16411,9 @@ a.navi-back {
     .EXLResultsList td.EXLThumbnail .EXLBriefResultsDisplayCoverImages,
     .EXLResultsList td.EXLThumbnail .multipleCoverImageContainer {
       position: relative;
-      width: 64px;
-      height: 98px;
-      background-size: 64px 98px;
+      width: 46px;
+      height: 70px;
+      background-size: 46px 70px;
       background-position: center center; }
   .EXLResultsList h2 {
     font-size: 16px;

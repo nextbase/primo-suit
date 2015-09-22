@@ -188,6 +188,9 @@ $(document).ready(function () {
         });
     });
 
+    // Remove alt property from missing images
+    removeAltFromMissingImages();
+
     // Responsive Search Filters
     initFilterExpand();
 });
