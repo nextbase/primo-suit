@@ -6,7 +6,13 @@
   }
 
   .EXLResultsList td.EXLThumbnail {
-    width: 58px;
+    width: $thumbnail-mobile-width + 12px;
+
+    img {
+      width: $thumbnail-mobile-width;
+      height: $thumbnail-mobile-height;
+    }
+
     .bg_fix,
     .EXLBriefResultsDisplayCoverImages,
     .multipleCoverImageContainer {
@@ -16,10 +22,7 @@
       background-size: $thumbnail-mobile-width $thumbnail-mobile-height;
       background-position: center center;
 
-      img {
-        width: $thumbnail-mobile-width;
-        height: $thumbnail-mobile-height;
-      }
+
     }
   }
 
