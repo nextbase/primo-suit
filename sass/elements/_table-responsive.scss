@@ -27,7 +27,9 @@
 
   color: $gray-dark-secondary;
 
-  a {
+  a,
+  a:link,
+  a:visited {
     color: $gray-dark-secondary;
   }
 }
