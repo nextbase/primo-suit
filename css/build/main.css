@@ -16132,6 +16132,7 @@ a.navi-back {
   display: none; }
 
 /* User Menu */
+#userMenuResponsiveResponsive li > a,
 .navi-menu #userMenuResponsiveResponsive li > a {
   font-size: 14px; }
 
