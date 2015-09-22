@@ -16018,6 +16018,12 @@ header#responsive-header {
   color: rgba(255, 255, 255, 0.5);
   padding: 0.7em 1em 0.7em 2.4em; }
 
+#responsive-menu > .navi-level > ul.menu > li > a {
+  /* Specific to level one */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
 #responsive-menu .user-menu-area ul.menu li > a,
 #responsive-menu .user-menu-area ul.menu li.user-menu-proxy-container > span {
   padding: 0.7em 1em 0.7em 2.2em;
