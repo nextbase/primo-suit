@@ -107,3 +107,9 @@
   height: 1px;
   overflow: hidden;
 }
+
+
+#exlidSearchTile.bare,
+.myAccount #exlidSearchTile {
+  display: none;
+}
