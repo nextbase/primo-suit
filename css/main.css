@@ -16637,6 +16637,8 @@ a.navi-back {
   text-align: right;
   padding-right: 1%;
   color: #666666; }
+  .st-key a {
+    color: #666666; }
 
 .st-val {
   width: 49%;
