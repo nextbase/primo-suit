@@ -16413,32 +16413,29 @@ a.navi-back {
     width: 61.158%;
     margin-right: 0;
     vertical-align: text-top;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    /*
+    table {
+      th,
+      th.EXLMyAccountTableTitle,
+      th.EXLMyAccountTable,
+      th.EXLMyAccountTableAuthor,
+      th.EXLMyAccountTableDueDate,
+      th.EXLMyAccountTableFine,
+      th.EXLMyAccountTableSub,
+      th.Location,
+      th.EXLMyAccountTableActions {
+        width: 13.5%;
+      }
+
+      th.EXLMyAccountTableCounter {
+        width: 4.5%;
+      }
+    }
+    */ }
     #exlidMyAccountMainContainer1:last-child,
     .EXLMyAccountMainContainer:last-child {
       margin-right: 0; }
-    #exlidMyAccountMainContainer1 table th,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableTitle,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTable,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableAuthor,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableDueDate,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableFine,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableSub,
-    #exlidMyAccountMainContainer1 table th.Location,
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableActions,
-    .EXLMyAccountMainContainer table th,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableTitle,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTable,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableAuthor,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableDueDate,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableFine,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableSub,
-    .EXLMyAccountMainContainer table th.Location,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableActions {
-      width: 13.5%; }
-    #exlidMyAccountMainContainer1 table th.EXLMyAccountTableCounter,
-    .EXLMyAccountMainContainer table th.EXLMyAccountTableCounter {
-      width: 4.5%; }
   table th, table td {
     vertical-align: middle; }
   table th.EXLMyAccountTableCounter,
@@ -16578,13 +16575,7 @@ a.navi-back {
       div.EXLMyAccountMainContainer #LoansTable td,
       div.EXLMyAccountMainContainer table th,
       div.EXLMyAccountMainContainer table td {
-        padding: 4px 10px; }
-    #exlidMyAccountMainContainer1 #LoansTable,
-    div.EXLMyAccountMainContainer #LoansTable {
-      width: 800px; }
-    #exlidMyAccountMainContainer1 .EXLMyAccountTable,
-    div.EXLMyAccountMainContainer .EXLMyAccountTable {
-      width: 600px; } }
+        padding: 4px 10px; } }
 
 @media screen and (max-width: 640px) {
   .eShelf_print,
