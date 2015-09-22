@@ -5,3 +5,32 @@
   .stacktable.large-only { display: none; }
   .stacktable.small-only { display: table; }
 }
+
+.stacktable {
+  width: 100%;
+}
+
+.st-head-row {
+  padding: 8px 10px;
+  font-size: 15px;
+}
+
+.st-head-row.st-head-row-main {
+  padding: 8px 10px;
+  font-size: 18px;
+}
+
+.st-key {
+  width: 49%;
+  text-align: right;
+  padding-right: 1%;
+
+  color: $gray-dark-secondary;
+}
+
+.st-val {
+  width: 49%;
+  padding-left: 1%;
+
+  color: $black-secondary;
+}

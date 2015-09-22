@@ -12627,11 +12627,11 @@ div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
 
 .EXLMyAccountMainContainer table {
   text-align: left;
-  width: 96%;
+  width: 100%;
   font-size: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0.5em; }
+  margin-top: 10px; }
 
 .EXLMyAccountMainContainer table caption {
   text-align: left;
@@ -16620,6 +16620,28 @@ a.navi-back {
     display: none; }
   .stacktable.small-only {
     display: table; } }
+
+.stacktable {
+  width: 100%; }
+
+.st-head-row {
+  padding: 8px 10px;
+  font-size: 15px; }
+
+.st-head-row.st-head-row-main {
+  padding: 8px 10px;
+  font-size: 18px; }
+
+.st-key {
+  width: 49%;
+  text-align: right;
+  padding-right: 1%;
+  color: #666666; }
+
+.st-val {
+  width: 49%;
+  padding-left: 1%;
+  color: #333333; }
 
 @media screen and (max-width: 960px) {
   #footer_logo {
