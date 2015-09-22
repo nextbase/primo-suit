@@ -6799,6 +6799,9 @@ li.EXLFacet label {
   color: #333333;
   font-weight: bold; }
 
+.MyAccount #exlidAdvancedSearchTile {
+  display: none; }
+
 #exlidAdvancedSearchTile {
   margin: 0;
   padding: 0;
@@ -16607,7 +16610,24 @@ a.navi-back {
     margin-bottom: 20px; }
     .folder_details:last-child,
     .EXLEShelfFolderContents.folder_details:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+    .folder_details table.itemsList th.author,
+    .folder_details table.itemsList th.type,
+    .folder_details table.itemsList th.added,
+    .folder_details table.itemsList th.note,
+    .folder_details table.itemsListTH th.author,
+    .folder_details table.itemsListTH th.type,
+    .folder_details table.itemsListTH th.added,
+    .folder_details table.itemsListTH th.note,
+    .EXLEShelfFolderContents.folder_details table.itemsList th.author,
+    .EXLEShelfFolderContents.folder_details table.itemsList th.type,
+    .EXLEShelfFolderContents.folder_details table.itemsList th.added,
+    .EXLEShelfFolderContents.folder_details table.itemsList th.note,
+    .EXLEShelfFolderContents.folder_details table.itemsListTH th.author,
+    .EXLEShelfFolderContents.folder_details table.itemsListTH th.type,
+    .EXLEShelfFolderContents.folder_details table.itemsListTH th.added,
+    .EXLEShelfFolderContents.folder_details table.itemsListTH th.note {
+      display: none; } }
 
 .stacktable.large-only {
   display: table; }

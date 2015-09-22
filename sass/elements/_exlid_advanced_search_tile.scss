@@ -1,3 +1,7 @@
+.MyAccount #exlidAdvancedSearchTile {
+  display: none; // Hide from My Account pages.
+}
+
 #exlidAdvancedSearchTile {
 	@include reset-margins;
     padding: 20px;

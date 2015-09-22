@@ -35,7 +35,6 @@
 }
 
 @include media($mobile-down) {
-
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {
     display: none;
@@ -58,5 +57,15 @@
     @include span-columns(4 of 4);
     @include omega();
     margin-bottom: 20px;
+
+    table.itemsList,
+    table.itemsListTH {
+      th.author,
+      th.type,
+      th.added,
+      th.note {
+        display: none;
+      }
+    }
   }
 }
