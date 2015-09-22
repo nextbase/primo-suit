@@ -3554,6 +3554,10 @@ ol li {
   width: 320px;
   float: left; }
 
+@media screen and (max-width: 640px) {
+  #exlidSearchTabs {
+    width: 100%; } }
+
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
   margin: 0;
   padding: 0;

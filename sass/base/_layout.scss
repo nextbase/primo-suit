@@ -35,6 +35,12 @@ $tabs-width: 320px;
 		float: left;
 }
 
+@include media($mobile-down) {
+  #exlidSearchTabs {
+    width: 100%;
+  }
+}
+
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
 		@include reset-margins;
 		@include span-columns(9);
