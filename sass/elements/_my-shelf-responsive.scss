@@ -60,11 +60,13 @@
 
     table.itemsList,
     table.itemsListTH {
-      th.author,
-      th.type,
-      th.added,
-      th.note {
-        display: none;
+      th, td {
+        &.author,
+        &.type,
+        &.added,
+        &.note {
+          display: none;
+        }
       }
     }
   }
