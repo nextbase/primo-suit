@@ -16023,7 +16023,7 @@ header#responsive-header {
   /* Specific to level one */
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 2px; }
 
 #responsive-menu .user-menu-area ul.menu li > a,
 #responsive-menu .user-menu-area ul.menu li.user-menu-proxy-container > span {
