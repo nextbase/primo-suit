@@ -67,6 +67,7 @@ header#responsive-header {
 
   &:link,
   &:visited {
+    font-size: 11px;
     color: $white;
   }
 
@@ -79,7 +80,7 @@ header#responsive-header {
 
   &:before {
     margin-right: 4px;
-    font-size: ($small-font-size - 2px);
+    font-size: ($small-font-size - 4px);
   }
 }
 

@@ -15670,6 +15670,7 @@ header#responsive-header {
   float: left; }
   #responsive-logout-trigger:link,
   #responsive-logout-trigger:visited {
+    font-size: 11px;
     color: #ffffff; }
   #responsive-logout-trigger:hover,
   #responsive-logout-trigger:active {
@@ -15687,7 +15688,7 @@ header#responsive-header {
     -moz-osx-font-smoothing: grayscale; }
   #responsive-logout-trigger:before {
     margin-right: 4px;
-    font-size: 12px; }
+    font-size: 10px; }
 
 #mobile-logo {
   padding: 10px 15px; }
