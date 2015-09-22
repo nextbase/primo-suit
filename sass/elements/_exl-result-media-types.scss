@@ -120,8 +120,10 @@
   }
 
   .coverImageDiv {
-    width: $thumbnail-mobile-width;
-    height: $thumbnail-mobile-height;
+    img {
+      width: $thumbnail-mobile-width;
+      height: $thumbnail-mobile-height;
+    }
   }
 
   .EXLResultMediaTYPEarticle .multipleCoverImageContainer,

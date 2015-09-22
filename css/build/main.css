@@ -9885,7 +9885,7 @@ body.EXLFullView div.EXLBackToResults {
       background-size: 46px 70px; } }
 
 @media screen and (max-width: 640px) {
-  .coverImageDiv {
+  .coverImageDiv img {
     width: 46px;
     height: 70px; }
   .EXLResultMediaTYPEarticle .multipleCoverImageContainer,
