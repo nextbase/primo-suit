@@ -1,0 +1,7 @@
+.stacktable.large-only { display: table; }
+.stacktable.small-only { display: none; }
+
+@include media($mobile-down) {
+  .stacktable.large-only { display: none; }
+  .stacktable.small-only { display: table; }
+}

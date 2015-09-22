@@ -16609,6 +16609,18 @@ a.navi-back {
     .EXLEShelfFolderContents.folder_details:last-child {
       margin-right: 0; } }
 
+.stacktable.large-only {
+  display: table; }
+
+.stacktable.small-only {
+  display: none; }
+
+@media screen and (max-width: 640px) {
+  .stacktable.large-only {
+    display: none; }
+  .stacktable.small-only {
+    display: table; } }
+
 @media screen and (max-width: 960px) {
   #footer_logo {
     height: 40px;
