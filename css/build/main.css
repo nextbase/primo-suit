@@ -16649,6 +16649,9 @@ a.navi-back {
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_cut_but,
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_copy_but,
     .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsManipulationButtonList a.eShelf_paste_but {
+      display: none; }
+    .folder_details ul.EXLEShelfFolderContentsSendButtonList,
+    .EXLEShelfFolderContents.folder_details ul.EXLEShelfFolderContentsSendButtonList {
       display: none; } }
 
 .stacktable.large-only {
