@@ -13695,6 +13695,7 @@ ul.EXLCitationLinkerTabs {
     ul.EXLMyAccountTabs li.EXLCitationLinkerTab a,
     ul.EXLCitationLinkerTabs li.EXLMyAccountTab a,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerTab a {
+      font-size: 14px;
       height: 24px;
       line-height: 20px;
       padding: 0 10px; }
@@ -13715,6 +13716,7 @@ ul.EXLCitationLinkerTabs {
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:link,
     ul.EXLCitationLinkerTabs li.EXLCitationLinkerSelectedTab a:visited {
+      font-size: 14px;
       line-height: 24px;
       padding: 0 10px; } }
 
