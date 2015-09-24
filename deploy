@@ -1,2 +1,2 @@
 #!/bin/bash
-gulp build && git add . && git commit -am "Deploying changes" && git pull && git push
+gulp build && git add . && git commit -am "Deploying changes" && git pull origin gh-pages && git push gh-pages
